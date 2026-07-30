@@ -14,6 +14,8 @@ Edit [data/routine.js](data/routine.js). It is the single source of truth for th
 
 This is a static site with no build command. Import the GitHub repository into Vercel with the project root set to this folder. Production deploys from `main`; pull requests receive preview URLs.
 
+**Live site:** https://gym-companion-blush.vercel.app
+
 ## Privacy and safety
 
 No accounts, analytics, or server-side storage are included. This app is a workout reference, not medical advice. Stop for sharp pain, dizziness, chest symptoms, or unusual breathlessness.
