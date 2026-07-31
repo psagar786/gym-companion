@@ -10,7 +10,7 @@ The MVP is a mobile-first six-day Fitness 7 routine. Each day displays the targe
 
 ## Guided Workout V2
 
-V2 upgrades the session into a 75–90 minute guided flow: checklist-based warm-up, selected-exercise detail rather than stacked mobile cards, recovery-aware Zone 2 cardio, mobility cooldowns, and device-only step timers. Heavy leg days use recovery walking and mobility rather than hard post-workout cardio.
+V2 upgrades the session into a 75–90 minute guided flow: optional illustrated warm-up and recovery journeys, selected-exercise detail rather than stacked mobile cards, recovery-aware Zone 2 cardio, mobility cooldowns, and device-only step timers. Warm-ups use zero-equipment movement preparation; heavy leg days use recovery walking and mobility rather than hard post-workout cardio. Main workout completion stays separate from recommended preparation and recovery progress.
 
 ## Audience and success
 
