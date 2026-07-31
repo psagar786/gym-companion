@@ -3,7 +3,7 @@
   const asset = name => `assets/exercises/${name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'')}.png`;
   const option = name => ({name, image:asset(name)});
   const slot = (primary, alternative, scheme, cue, third) => ({primary:option(primary), alternative:option(alternative), third:third ? option(third) : null, scheme, cue});
-  const step = (title, duration, cue, seconds = 0, imageName = title) => ({title, duration, cue, seconds, image:asset(imageName), alt:`Fitness 7 illustration: ${title}`, recommended:true});
+  const step = (title, duration, cue, _legacySeconds = 0, imageName = title) => ({title, duration, cue, image:asset(imageName), alt:`Fitness 7 illustration: ${title}`, recommended:true});
   const choiceStep = (title, duration, cue, seconds, choices) => ({...step(title, duration, cue, seconds, choices[0]), choices:choices.map(name => ({...option(name), alt:`Fitness 7 illustration: ${name}`}))});
   const guided = (total, steps) => ({total, steps});
 
