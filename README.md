@@ -1,5 +1,7 @@
 # Gym Companion
 
+> **V2 comparison branch:** `feature/guided-workout-v2` adds guided warm-up and recovery checklists, a session timer, and a compact phone-first exercise selector. `main` remains the original MVP.
+
 A visual, device-first workout companion created for Fitness 7 members when the original gym app is unavailable. It shows the day’s routine, clear exercise illustrations, equipment-compatible variations, and local completion tracking.
 
 ## Use it
@@ -8,7 +10,7 @@ Open `index.html`, choose today’s card, select one option per exercise, and ti
 
 ## Fast routine updates
 
-Edit [data/routine.js](data/routine.js). It is the single source of truth for the six-day schedule, sets, cues, exercise variations, and image names. Exercise images live in `assets/exercises/` and must be 512×512 PNGs.
+Edit [data/routine.js](data/routine.js). It is the single source of truth for the six-day schedule, guided warm-up/recovery steps, timers, sets, cues, exercise variations, and image names. Exercise images live in `assets/exercises/` and must be 512×512 PNGs.
 
 ## Deployment
 

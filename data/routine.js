@@ -1,52 +1,34 @@
-/* Edit this file to update the active routine. Each option has an explicit, stable image path. */
+/* Gym Companion V2 — edit this file to update every guided session. */
 (() => {
   const asset = name => `assets/exercises/${name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'')}.png`;
   const option = name => ({name, image:asset(name)});
   const slot = (primary, alternative, scheme, cue, third) => ({primary:option(primary), alternative:option(alternative), third:third ? option(third) : null, scheme, cue});
+  const step = (title, duration, cue, seconds = 0) => ({title, duration, cue, seconds});
+  const guided = (total, steps) => ({total, steps});
   window.GYM_COMPANION_ROUTINE = [
-    {day:'Monday',focus:'Back + Biceps',time:'65–75 min',warm:'5 min easy rower, band pull-aparts × 15, then two light pulldown sets.',slots:[
-      slot('Pull-up','Band-assisted pull-up','3 × 6–10 · 120s','Use a full controlled range; keep ribs down.'),
-      slot('Lat pulldown','Single-arm cable pulldown','3 × 8–12 · 90s','Drive elbows toward your pockets.'),
-      slot('Chest-supported row','Machine row','3 × 8–12 · 90s','Keep your chest supported; pause at the squeeze.'),
-      slot('Seated cable row','Barbell row','3 × 8–12 · 90s','Keep your torso still and pull elbows behind you.'),
-      slot('Cable rear-delt fly','Incline dumbbell reverse fly','3 × 12–15 · 60s','Lead with elbows and keep traps relaxed.'),
-      slot('Incline dumbbell curl','Cable curl','3 × 10–12 · 60s','Lower slowly; do not swing.'),
-      slot('Hammer curl','Rope hammer curl','2 × 12–15 · 60s','Keep wrists neutral.')
-    ],finish:'15–20 min incline treadmill walk, then 3 min easy cooldown.'},
-    {day:'Tuesday',focus:'Chest + Triceps',time:'60–75 min',warm:'5 min easy cardio, shoulder circles, band work, and two light press sets.',slots:[
-      slot('Incline dumbbell press','Incline machine press','3 × 6–10 · 120s','Keep shoulders packed and wrists over elbows.'),
-      slot('Flat dumbbell press','Flat barbell press','3 × 8–12 · 90s','Control the descent and keep shoulder blades stable.'),
-      slot('Cable fly','Dumbbell fly','2 × 12–15 · 60s','Use a pain-free arc and keep ribs down.'),
-      slot('Rope pressdown','Close-grip press','3 × 10–15 · 60s','Keep upper arms still.'),
-      slot('Overhead cable extension','Single-dumbbell extension','2 × 12–15 · 60s','Keep ribs down and elbows forward.')
-    ],finish:'5 min easy walk and gentle chest/shoulder mobility.'},
-    {day:'Wednesday',focus:'Abs + Cardio',time:'55–65 min',warm:'5–7 min easy treadmill walk, gradually increasing pace.',slots:[
-      slot('Treadmill run/walk intervals','Incline treadmill walk','20 min · steady effort','Choose the option that lets you recover for Thursday legs.','Exercise bike'),
-      slot('Cable crunch','Reverse crunch','3 × 12–15 · 45–60s','Move through your trunk, not by pulling with arms.'),
-      slot('Pallof press','Side plank','3 × 10/side or 30–45s · 45–60s','Brace and resist rotation.'),
-      slot('Plank','Dead bug','3 × 30–45 sec · 45s','Keep ribs down and breathe steadily.')
-    ],finish:'6 min: calf stretch, hip-flexor stretch, and thoracic rotations.'},
-    {day:'Thursday',focus:'Legs + Calves',time:'65–75 min',warm:'5 min bike, ankle/hip mobility, bodyweight squats, and ramp-up sets.',slots:[
-      slot('Back squat','Leg press','3 × 6–10 · 120s','Brace first; knees track over toes.'),
-      slot('Bulgarian split squat','Walking lunge','3 × 8–10/leg · 90s','Stay tall and control the bottom.'),
-      slot('Leg extension','Hip-abductor machine','3 × 12–15 · 60s','Pause briefly at the contracted position.'),
-      slot('Romanian deadlift','Dumbbell RDL','3 × 8–10 · 120s','Push hips back and keep the weight close.'),
-      slot('Seated leg curl','Lying leg curl','3 × 10–15 · 75s','Keep hips pinned and lower slowly.'),
-      slot('Standing calf raise','Seated calf raise','3 × 12–15 · 60s','Use a full stretch and controlled pause.')
-    ],finish:'3–5 min easy walk and light lower-body mobility.'},
-    {day:'Friday',focus:'Shoulders + Arms',time:'60–70 min',warm:'5 min easy cardio, shoulder circles, and two light press sets.',slots:[
-      slot('Seated dumbbell shoulder press','Seated shoulder press','3 × 8–12 · 90s','Stay tall; do not lean your ribs back.'),
-      slot('Dumbbell lateral raise','Cable lateral raise','3 × 12–15 · 60s','Lead with elbows; stop before shrugging.'),
-      slot('Cable rear-delt fly','Incline dumbbell reverse fly','3 × 12–15 · 60s','Keep the movement in the rear delts.'),
-      slot('Preacher curl','Alternating dumbbell curl','3 × 10–12 · 60s','Control every lowering phase.'),
-      slot('Rope pressdown','Overhead cable extension','3 × 10–15 · 60s','Keep elbows fixed; use full extension.')
-    ],finish:'5 min easy walk and shoulder mobility.'},
-    {day:'Saturday',focus:'Abs + Remaining Arms',time:'60–70 min',warm:'5 min easy cardio, wrist/elbow mobility, and one light set for each first movement.',slots:[
-      slot('Barbell curl','Alternating dumbbell curl','3 × 8–12 · 75s','Keep torso still and control the lowering.'),
-      slot('Cable curl','Hammer curl','3 × 10–12 · 60s','Keep elbows near your sides.'),
-      slot('Close-grip press','Single-dumbbell extension','3 × 8–12 · 75s','Use a comfortable elbow path.'),
-      slot('Hanging knee raise','Reverse crunch','3 × 10–15 · 45–60s','Avoid swinging; curl pelvis upward.'),
-      slot('Pallof press','Plank','3 × 10/side or 30–45 sec · 45s','Brace and keep hips square.')
-    ],finish:'15–20 min incline treadmill walk, then a short calf, hip, and lat stretch.'}
+    {day:'Monday',focus:'Back + Biceps',time:'75–85 min',warmup:guided('8–10 min',[
+      step('Easy rower','3 min','Smooth pace; breathe through the nose if comfortable.',180),step('Band pull-aparts','2 × 15','Keep ribs down and pull the band to upper chest.'),step('Thoracic rotations','6/side','Rotate through the upper back; keep hips still.'),step('Pulldown ramp-up','2 light sets','Build gradually before your first working set.')]),slots:[
+      slot('Pull-up','Band-assisted pull-up','3 × 6–10 · 120s','Use a full controlled range; keep ribs down.'),slot('Lat pulldown','Single-arm cable pulldown','3 × 8–12 · 90s','Drive elbows toward your pockets.'),slot('Chest-supported row','Machine row','3 × 8–12 · 90s','Keep your chest supported; pause at the squeeze.'),slot('Seated cable row','Barbell row','3 × 8–12 · 90s','Keep your torso still and pull elbows behind you.'),slot('Cable rear-delt fly','Incline dumbbell reverse fly','3 × 12–15 · 60s','Lead with elbows and keep traps relaxed.'),slot('Incline dumbbell curl','Cable curl','3 × 10–12 · 60s','Lower slowly; do not swing.'),slot('Hammer curl','Rope hammer curl','2 × 12–15 · 60s','Keep wrists neutral.')],finish:guided('18–22 min',[
+      step('Incline treadmill Zone 2','15–20 min','Conversational pace; do not turn this into intervals.',900),step('Lat stretch','30 sec/side','Keep shoulders away from ears.',30),step('Doorway pec stretch','30 sec/side','Use a gentle comfortable range.',30)])},
+    {day:'Tuesday',focus:'Chest + Triceps',time:'75–85 min',warmup:guided('8–10 min',[
+      step('Easy bike','3 min','Build temperature without tiring your legs.',180),step('Shoulder circles','10 each direction','Move slowly through a comfortable range.'),step('Band external rotation','2 × 12','Keep elbow close to ribs.'),step('Press ramp-up','2 light sets','Start well below working weight.')]),slots:[
+      slot('Incline dumbbell press','Incline machine press','3 × 6–10 · 120s','Keep shoulders packed and wrists over elbows.'),slot('Flat dumbbell press','Flat barbell press','3 × 8–12 · 90s','Control the descent and keep shoulder blades stable.'),slot('Cable fly','Dumbbell fly','2 × 12–15 · 60s','Use a pain-free arc and keep ribs down.'),slot('Rope pressdown','Close-grip press','3 × 10–15 · 60s','Keep upper arms still.'),slot('Overhead cable extension','Single-dumbbell extension','2 × 12–15 · 60s','Keep ribs down and elbows forward.')],finish:guided('18–22 min',[
+      step('Bike or incline treadmill Zone 2','15–20 min','Choose the option that feels smooth on the day.',900),step('Pec stretch','30 sec/side','Do not force the shoulder forward.',30),step('Triceps stretch','30 sec/side','Keep ribs stacked over pelvis.',30)])},
+    {day:'Wednesday',focus:'Abs + Cardio',time:'75–85 min',warmup:guided('8 min',[
+      step('Easy treadmill walk','4 min','Gradually increase pace.',240),step('Ankle rocks','10/side','Keep heel grounded.'),step('Hip-flexor opener','30 sec/side','Squeeze glute on the trailing leg.',30),step('Dead-bug rehearsal','6/side','Breathe out as the leg extends.')]),slots:[
+      slot('Treadmill run/walk intervals','Incline treadmill walk','20–30 min · steady effort','Choose the option that lets you recover for Thursday legs.','Exercise bike'),slot('Cable crunch','Reverse crunch','3 × 12–15 · 45–60s','Move through your trunk, not by pulling with arms.'),slot('Pallof press','Side plank','3 × 10/side or 30–45s · 45–60s','Brace and resist rotation.'),slot('Plank','Dead bug','3 × 30–45 sec · 45s','Keep ribs down and breathe steadily.')],finish:guided('8–10 min',[
+      step('Easy cooldown walk','3 min','Let breathing return to normal.',180),step('Calf stretch','45 sec/side','Keep the back heel down.',45),step('Hip-flexor stretch','45 sec/side','Avoid arching the lower back.',45),step('Thoracic rotations','6/side','Move slowly without forcing range.')])},
+    {day:'Thursday',focus:'Legs + Calves',time:'75–90 min',warmup:guided('10 min',[
+      step('Easy bike','3 min','Stay easy; save your legs for lifting.',180),step('Ankle mobility','10/side','Drive knee forward over toes without heel lift.'),step('Bodyweight squat','2 × 10','Use the same stance as your squat.',0),step('Hip hinge drill','10 reps','Push hips back with a neutral spine.'),step('Squat ramp-up','2–3 light sets','Add load gradually before work sets.')]),slots:[
+      slot('Back squat','Leg press','3 × 6–10 · 120s','Brace first; knees track over toes.'),slot('Bulgarian split squat','Walking lunge','3 × 8–10/leg · 90s','Stay tall and control the bottom.'),slot('Leg extension','Hip-abductor machine','3 × 12–15 · 60s','Pause briefly at the contracted position.'),slot('Romanian deadlift','Dumbbell RDL','3 × 8–10 · 120s','Push hips back and keep the weight close.'),slot('Seated leg curl','Lying leg curl','3 × 10–15 · 75s','Keep hips pinned and lower slowly.'),slot('Standing calf raise','Seated calf raise','3 × 12–15 · 60s','Use a full stretch and controlled pause.')],finish:guided('8–10 min',[
+      step('Easy cooldown walk','5 min','No hard cardio after leg training.',300),step('Quad stretch','30 sec/side','Keep knees close together.',30),step('Hamstring stretch','30 sec/side','Hinge from hips; do not round aggressively.',30),step('Calf stretch','30 sec/side','Keep heel grounded.',30),step('Hip mobility','60 sec','Move gently through a comfortable range.',60)])},
+    {day:'Friday',focus:'Shoulders + Arms',time:'75–85 min',warmup:guided('8–10 min',[
+      step('Easy bike','3 min','Comfortable pace.',180),step('Shoulder circles','10 each direction','Stay relaxed through the neck.'),step('Band pull-aparts','2 × 15','Keep the shoulder blades controlled.'),step('Press ramp-up','2 light sets','Gradually prepare shoulders and elbows.')]),slots:[
+      slot('Seated dumbbell shoulder press','Seated shoulder press','3 × 8–12 · 90s','Stay tall; do not lean your ribs back.'),slot('Dumbbell lateral raise','Cable lateral raise','3 × 12–15 · 60s','Lead with elbows; stop before shrugging.'),slot('Cable rear-delt fly','Incline dumbbell reverse fly','3 × 12–15 · 60s','Keep the movement in the rear delts.'),slot('Preacher curl','Alternating dumbbell curl','3 × 10–12 · 60s','Control every lowering phase.'),slot('Rope pressdown','Overhead cable extension','3 × 10–15 · 60s','Keep elbows fixed; use full extension.')],finish:guided('15–18 min',[
+      step('Incline treadmill or bike Zone 2','12–15 min','Keep intensity easy and steady.',720),step('Pec stretch','30 sec/side','Stay below a painful range.',30),step('Shoulder mobility','60 sec','Slow arm circles and gentle reach-throughs.',60),step('Biceps/triceps stretch','30 sec/side','Do not force elbow range.',30)])},
+    {day:'Saturday',focus:'Abs + Remaining Arms',time:'75–85 min',warmup:guided('8 min',[
+      step('Easy treadmill walk','3 min','Gradually raise body temperature.',180),step('Wrist circles','10 each direction','Move slowly and pain-free.'),step('Band curls/pressdowns','15 each','Use very light resistance.'),step('Core brace rehearsal','5 breaths','Exhale and feel ribs stack over hips.')]),slots:[
+      slot('Barbell curl','Alternating dumbbell curl','3 × 8–12 · 75s','Keep torso still and control the lowering.'),slot('Cable curl','Hammer curl','3 × 10–12 · 60s','Keep elbows near your sides.'),slot('Close-grip press','Single-dumbbell extension','3 × 8–12 · 75s','Use a comfortable elbow path.'),slot('Hanging knee raise','Reverse crunch','3 × 10–15 · 45–60s','Avoid swinging; curl pelvis upward.'),slot('Pallof press','Plank','3 × 10/side or 30–45 sec · 45s','Brace and keep hips square.')],finish:guided('20–25 min',[
+      step('Incline treadmill Zone 2','15–20 min','Stay tall; hold rails only for balance.',900),step('Calf stretch','30 sec/side','Use a full comfortable stretch.',30),step('Hip-flexor stretch','30 sec/side','Keep glute engaged.',30),step('Lat stretch','30 sec/side','Reach long without shrugging.',30),step('Pec stretch','30 sec/side','Keep it gentle.',30)])}
   ];
 })();

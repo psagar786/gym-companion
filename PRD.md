@@ -8,6 +8,10 @@ Fitness 7’s app became unavailable, leaving members to ask a coach, search You
 
 The MVP is a mobile-first six-day Fitness 7 routine. Each day displays the target group, warm-up, exercise options, sets/reps, a visual for every option, a finish, and browser-local completion tracking. The routine is tailored to the available equipment and makes the selected variation mutually exclusive within each movement slot.
 
+## Guided Workout V2
+
+V2 upgrades the session into a 75–90 minute guided flow: checklist-based warm-up, selected-exercise detail rather than stacked mobile cards, recovery-aware Zone 2 cardio, mobility cooldowns, and device-only step timers. Heavy leg days use recovery walking and mobility rather than hard post-workout cardio.
+
 ## Audience and success
 
 The first user is the creator at Fitness 7; the next audience is members who need a reliable gym reference. A successful visit lets a member open the app in the gym, understand today’s work visually, choose an alternative confidently, and complete the session without another lookup.
