@@ -46,7 +46,9 @@ Supabase row-level security permits members to read and write only their own ses
 
 ## Local development
 
-Use `vercel dev` after setting the variables above locally. Set `APP_MODE` to preview the member or coach interface. V3 requires a live Supabase project and cannot run through `file://`; V2’s device-only local history is deliberately not imported.
+Opening `index.html` directly launches an offline two-app preview. It lets reviewers switch between member and coach experiences, add sample members, edit memberships, build weekday plans, and tick workouts; preview changes remain in that browser only.
+
+Use `vercel dev` with the environment values above to test real authentication and database behavior. Set `APP_MODE` to preview the hosted member or coach interface. V2’s device-only local history is deliberately not imported.
 
 ## Validation checklist
 
