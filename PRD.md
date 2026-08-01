@@ -1,5 +1,13 @@
 # Product Requirements Document — Gym Companion
 
+## V3: member accounts and gym management
+
+V3 evolves the device-only V2 comparison into a secure Gym Companion service. The problem remains the same—members need a reliable, visual routine when the Fitness 7 app is unavailable—but a shared gym needs each member’s routine, history, and membership to be private and manageable by the gym.
+
+The V3 MVP introduces invite-only accounts, a member profile, cloud workout history, and individual Monday–Saturday plans. Owners/admins can manage members, membership dates/status, the approved exercise library, and member-specific routines. This allows one member to train back on Monday while another sees a completely different prescribed session.
+
+V3 does not process payments, expose member passwords, accept arbitrary exercise images, or migrate V2 browser history. Future work can add payment integrations, trainer notes, notifications, and a broader equipment database.
+
 ## Why this exists
 
 Fitness 7’s app became unavailable, leaving members to ask a coach, search YouTube, or improvise a workout in the gym. That uncertainty can reduce motivation. Gym Companion provides a dependable visual routine with safe alternatives when a machine is unavailable or an exercise does not feel right that day.

@@ -1,25 +1,52 @@
-# Gym Companion
+# Gym Companion V3
 
-> **V2 comparison branch:** `feature/guided-workout-v2` adds a seven-day Fitness 7 home screen, optional illustrated warm-up/recovery checklists, and private date-based workout history. `main` remains the original MVP.
+Fitness 7’s account-enabled workout companion. V3 is a separate branch and deployment; V1 and V2 stay unchanged.
 
-A visual, device-first workout companion created for Fitness 7 members when the original gym app is unavailable. It shows the day’s routine, clear exercise illustrations, equipment-compatible variations, and local completion tracking.
+## What V3 adds
 
-## Use it
+- Invite-only member accounts and self-service password changes.
+- Private cloud workout sessions and personalised Monday–Saturday plans.
+- Owner/admin panel for members, membership dates/status, approved exercise content, and individual plans.
+- Fitness 7 imagery from the existing curated asset set only.
 
-Open `index.html`, choose today’s card, select one option per exercise, and tick the slots you complete. Choices and progress are saved only in that browser using local storage.
+## Set up Supabase
 
-## Fast routine updates
+1. Create a Supabase project and configure the Authentication **Site URL** and allowed redirect URL to the V3 Vercel URL.
+2. Run [`supabase/migrations/20260801_v3_schema.sql`](supabase/migrations/20260801_v3_schema.sql) in the Supabase SQL editor.
+3. Invite the first owner through Supabase Auth, then promote them manually:
 
-Edit [data/routine.js](data/routine.js). It is the single source of truth for the six-day schedule, guided warm-up/recovery steps, sets, cues, exercise variations, and image names. Warm-ups are zero-equipment; recovery is recommended rather than required and may offer treadmill or bike Zone 2 choices. Exercise images live in `assets/exercises/` and must be 512×512 PNGs. Completion history is saved only in browser storage under `gym-companion-history-v3`.
+   ```sql
+   update public.profiles set role = 'owner' where id = '<AUTH_USER_UUID>';
+   ```
 
-## Deployment
+4. Seed the approved exercise records once:
 
-This is a static site with no build command. Import the GitHub repository into Vercel with the project root set to this folder. Production deploys from `main`; pull requests receive preview URLs.
+   ```sh
+   SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node scripts/seed-library.mjs
+   ```
 
-**Live site:** https://gym-companion-blush.vercel.app
+## Deploy V3
 
-## Privacy and safety
+Create a new Vercel project from branch `feature/member-accounts-v3`; do not repoint the V2 project. Add the values from [`.env.example`](.env.example):
 
-No accounts, analytics, or server-side storage are included. This app is a workout reference, not medical advice. Stop for sharp pain, dizziness, chest symptoms, or unusual breathlessness.
+- `SUPABASE_URL`
+- `SUPABASE_ANON_KEY`
+- `SUPABASE_SERVICE_ROLE_KEY` — server-side only
+- `APP_URL` — the deployed V3 URL, used for account invite/reset redirects
 
-See [PRD.md](PRD.md) for product direction and [AGENTS.md](AGENTS.md) for the contributor/agent guide.
+The browser fetches only the public URL/key from `/api/config`. Invitations, role changes, and password-reset emails run through `/api/admin`, which verifies the caller’s staff role before using the service key.
+
+## Security model
+
+Supabase row-level security permits members to read and write only their own sessions, profiles, membership data, and plans. Staff can manage gym content and plans. Owner-only role changes are enforced server-side. Admins never see or set member passwords; they send a secure reset email instead.
+
+## Local development
+
+Use `vercel dev` after setting the variables above locally. V3 requires a live Supabase project; V2’s device-only local history is deliberately not imported.
+
+## Validation checklist
+
+- Invite a member, set a password, sign in, change password, and sign out.
+- Confirm another member cannot read that member’s plan or workout sessions.
+- Save a custom Monday plan as an admin and confirm only its assigned member sees it.
+- Archive an exercise and confirm it remains in existing session snapshots but cannot be assigned as a new active exercise.
