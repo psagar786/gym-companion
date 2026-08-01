@@ -2,6 +2,13 @@
 
 Fitness 7’s account-enabled workout companion. V3 uses two simple Vercel apps backed by one secure Supabase database. V1 and V2 stay unchanged.
 
+## Live V3 apps
+
+- Member app: <https://gym-companion-member-v3.vercel.app>
+- Coach/admin app: <https://gym-companion-coach-v3.vercel.app>
+
+Both production projects track `feature/member-accounts-v3`. Members are never sent to the coach interface, and the member deployment does not expose the privileged admin API.
+
 ## What V3 adds
 
 - Invite-only member accounts and self-service password changes.
@@ -39,6 +46,10 @@ Set `APP_MODE=member` in the member project. Set `APP_MODE=admin` and `SUPABASE_
 The member app contains workouts, profile, password change, and history. The coach app contains a task-based dashboard, member management, membership dates/status, password reset, personal plan builder, and exercise library.
 
 The browser fetches only the public URL/key from `/api/config`. Invitations, role changes, and password-reset emails run through the coach deployment’s `/api/admin`, which verifies the caller’s staff role before using the service key.
+
+## Free cloud operation
+
+This MVP can run on the Vercel Hobby and Supabase Free plans while usage stays within their limits. Use one Supabase project for authentication and data, plus the two Vercel projects above for the separate member and coach interfaces. No payment data is stored. Monitor usage in both dashboards and upgrade before using the service commercially or exceeding free-plan limits.
 
 ## Security model
 
