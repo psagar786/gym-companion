@@ -16,7 +16,7 @@ Owns mobile usability, scheduling, completion flow, motivation, accessibility, a
 
 ## Platform agent
 
-Owns GitHub, Vercel, Supabase migrations and environment configuration, release checks, headers, and deployment health. The Supabase service-role key must stay server-side. V3 must use a separate Vercel project and must never repoint V1/V2 deployments.
+Owns GitHub, Vercel, Supabase migrations and environment configuration, release checks, headers, and deployment health. The Supabase service-role key belongs only in the coach Vercel project. V3 uses separate member and coach projects and must never repoint V1/V2 deployments.
 
 ## Documentation agent
 

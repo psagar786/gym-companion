@@ -5,7 +5,7 @@ const approvedAssets = new Set((window.GYM_COMPANION_ROUTINE || []).flatMap(day 
   ...day.warmup.steps.flatMap(step => [step.image, ...(step.choices || []).map(item => item.image)]),
   ...day.finish.steps.flatMap(step => [step.image, ...(step.choices || []).map(item => item.image)])
 ]));
-const required = ['SUPABASE_URL', 'SUPABASE_ANON_KEY', 'SUPABASE_SERVICE_ROLE_KEY'];
+const required = ['SUPABASE_URL', 'SUPABASE_ANON_KEY', 'SUPABASE_SERVICE_ROLE_KEY', 'MEMBER_APP_URL'];
 const json = (res, status, body) => res.status(status).json(body);
 const clean = value => typeof value === 'string' ? value.trim() : '';
 const safeAsset = value => approvedAssets.has(value);
@@ -35,6 +35,7 @@ async function staff(req) {
 }
 
 module.exports = async (req, res) => {
+  if (process.env.APP_MODE !== 'admin') return json(res, 404, { error: 'Not found.' });
   if (!required.every(key => process.env[key])) return json(res, 503, { error: 'Server authentication is not configured.' });
   if (req.method !== 'POST') return json(res, 405, { error: 'POST only' });
   try {
@@ -47,7 +48,7 @@ module.exports = async (req, res) => {
     if (action === 'invite') {
       const email = clean(req.body.email).toLowerCase(), full_name = clean(req.body.full_name);
       if (!/^\S+@\S+\.\S+$/.test(email) || !full_name) return json(res, 400, { error: 'A name and valid email are required.' });
-      const created = await supabase('/auth/v1/invite', { method: 'POST', service: true, body: { email, data: { full_name }, redirectTo: `${process.env.APP_URL}/` } });
+      const created = await supabase('/auth/v1/invite', { method: 'POST', service: true, body: { email, data: { full_name }, redirectTo: `${process.env.MEMBER_APP_URL}/` } });
       return json(res, 201, { member: created.user || created });
     }
     if (action === 'update-member') {
@@ -65,7 +66,7 @@ module.exports = async (req, res) => {
       const account = await supabase(`/auth/v1/admin/users/${encodeURIComponent(memberId)}`, { service: true });
       const email = clean(account.user?.email || account.email).toLowerCase();
       if (!/^\S+@\S+\.\S+$/.test(email)) return json(res, 400, { error: 'This member has no valid email address.' });
-      await supabase('/auth/v1/recover', { method: 'POST', service: true, body: { email, redirect_to: `${process.env.APP_URL}/` } });
+      await supabase('/auth/v1/recover', { method: 'POST', service: true, body: { email, redirect_to: `${process.env.MEMBER_APP_URL}/` } });
       return json(res, 200, { ok: true });
     }
     if (action === 'set-role') {
@@ -85,7 +86,13 @@ module.exports = async (req, res) => {
       return json(res, 200, { ok: true });
     }
     if (action === 'archive-exercise') {
-      await supabase(`/rest/v1/exercise_library?id=eq.${encodeURIComponent(clean(req.body.id))}`, { method: 'PATCH', service: true, body: { active: !!req.body.active } });
+      const exerciseId = clean(req.body.id);
+      const nextActive = !!req.body.active;
+      if (!nextActive) {
+        const references = await supabase(`/rest/v1/member_plan_slots?or=(exercise_id.eq.${exerciseId},alternative_exercise_id.eq.${exerciseId})&select=id&limit=1`, { service: true });
+        if (references.length) return json(res, 409, { error: 'Replace this exercise in member plans before archiving it.' });
+      }
+      await supabase(`/rest/v1/exercise_library?id=eq.${encodeURIComponent(exerciseId)}`, { method: 'PATCH', service: true, body: { active: nextActive } });
       return json(res, 200, { ok: true });
     }
     if (action === 'save-plan') {

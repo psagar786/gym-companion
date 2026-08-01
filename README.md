@@ -1,6 +1,6 @@
-# Gym Companion V3
+# Gym Companion V3 — Member & Coach Apps
 
-Fitness 7’s account-enabled workout companion. V3 is a separate branch and deployment; V1 and V2 stay unchanged.
+Fitness 7’s account-enabled workout companion. V3 uses two simple Vercel apps backed by one secure Supabase database. V1 and V2 stay unchanged.
 
 ## What V3 adds
 
@@ -25,16 +25,20 @@ Fitness 7’s account-enabled workout companion. V3 is a separate branch and dep
    SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node scripts/seed-library.mjs
    ```
 
-## Deploy V3
+## Deploy V3 as two apps
 
-Create a new Vercel project from branch `feature/member-accounts-v3`; do not repoint the V2 project. Add the values from [`.env.example`](.env.example):
+Create two new Vercel projects from branch `feature/member-accounts-v3`: `gym-companion-member-v3` and `gym-companion-coach-v3`. Both projects use this repository root and these shared values:
 
 - `SUPABASE_URL`
 - `SUPABASE_ANON_KEY`
-- `SUPABASE_SERVICE_ROLE_KEY` — server-side only
-- `APP_URL` — the deployed V3 URL, used for account invite/reset redirects
+- `MEMBER_APP_URL`
+- `ADMIN_APP_URL`
 
-The browser fetches only the public URL/key from `/api/config`. Invitations, role changes, and password-reset emails run through `/api/admin`, which verifies the caller’s staff role before using the service key.
+Set `APP_MODE=member` in the member project. Set `APP_MODE=admin` and `SUPABASE_SERVICE_ROLE_KEY` in the coach project only. The shared bootstrap loads only the correct interface for that deployment. `/api/admin` returns 404 from the member deployment, even for signed-in users.
+
+The member app contains workouts, profile, password change, and history. The coach app contains a task-based dashboard, member management, membership dates/status, password reset, personal plan builder, and exercise library.
+
+The browser fetches only the public URL/key from `/api/config`. Invitations, role changes, and password-reset emails run through the coach deployment’s `/api/admin`, which verifies the caller’s staff role before using the service key.
 
 ## Security model
 
@@ -42,7 +46,7 @@ Supabase row-level security permits members to read and write only their own ses
 
 ## Local development
 
-Use `vercel dev` after setting the variables above locally. V3 requires a live Supabase project; V2’s device-only local history is deliberately not imported.
+Use `vercel dev` after setting the variables above locally. Set `APP_MODE` to preview the member or coach interface. V3 requires a live Supabase project and cannot run through `file://`; V2’s device-only local history is deliberately not imported.
 
 ## Validation checklist
 

@@ -4,5 +4,11 @@ module.exports = (req, res) => {
     return res.status(503).json({ error: 'Gym Companion is not configured yet.' });
   }
   res.setHeader('Cache-Control', 'public, max-age=300, s-maxage=300');
-  return res.status(200).json({ supabaseUrl: SUPABASE_URL, supabaseAnonKey: SUPABASE_ANON_KEY });
+  return res.status(200).json({
+    supabaseUrl: SUPABASE_URL,
+    supabaseAnonKey: SUPABASE_ANON_KEY,
+    appMode: process.env.APP_MODE === 'admin' ? 'admin' : 'member',
+    memberAppUrl: process.env.MEMBER_APP_URL || '',
+    adminAppUrl: process.env.ADMIN_APP_URL || ''
+  });
 };

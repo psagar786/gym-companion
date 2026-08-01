@@ -4,7 +4,7 @@
 
 V3 evolves the device-only V2 comparison into a secure Gym Companion service. The problem remains the same—members need a reliable, visual routine when the Fitness 7 app is unavailable—but a shared gym needs each member’s routine, history, and membership to be private and manageable by the gym.
 
-The V3 MVP introduces invite-only accounts, a member profile, cloud workout history, and individual Monday–Saturday plans. Owners/admins can manage members, membership dates/status, the approved exercise library, and member-specific routines. This allows one member to train back on Monday while another sees a completely different prescribed session.
+The V3 MVP introduces two separate experiences backed by one database. The member app provides invite-only accounts, a member profile, cloud workout history, and individual Monday–Saturday plans. The coach app provides a task-based workspace for members, membership dates/status, the approved exercise library, and member-specific routines. This allows one member to train back on Monday while another sees a completely different prescribed session without exposing coach controls to members.
 
 V3 does not process payments, expose member passwords, accept arbitrary exercise images, or migrate V2 browser history. Future work can add payment integrations, trainer notes, notifications, and a broader equipment database.
 
