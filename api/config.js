@@ -8,6 +8,7 @@ module.exports = (req, res) => {
     supabaseUrl: SUPABASE_URL,
     supabaseAnonKey: SUPABASE_ANON_KEY,
     appMode: process.env.APP_MODE === 'admin' ? 'admin' : 'member',
+    demoMode: process.env.DEMO_MODE === 'true',
     memberAppUrl: process.env.MEMBER_APP_URL || '',
     adminAppUrl: process.env.ADMIN_APP_URL || ''
   });

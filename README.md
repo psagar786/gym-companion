@@ -43,6 +43,15 @@ Create two new Vercel projects from branch `feature/member-accounts-v3`: `gym-co
 
 Set `APP_MODE=member` in the member project. Set `APP_MODE=admin` and `SUPABASE_SERVICE_ROLE_KEY` in the coach project only. The shared bootstrap loads only the correct interface for that deployment. `/api/admin` returns 404 from the member deployment, even for signed-in users.
 
+### Temporary public demo
+
+Set `DEMO_MODE=true` in **both V3 Vercel projects** to enable the separate, browser-only demos:
+
+- Member app: `sagar.paperwala003.member` / `1234`
+- Coach app: `sagar.paperwala003.admin` / `1234`
+
+These are not Supabase users. Demo edits, workout checks, and history stay in that browser only, and each app accepts only its own demo username. Real users continue to sign in through Supabase using their email and password. “Remember me” uses local browser storage; without it, a session is kept only for the current browser session.
+
 The member app contains workouts, profile, password change, and history. The coach app contains a task-based dashboard, member management, membership dates/status, password reset, personal plan builder, and exercise library.
 
 The browser fetches only the public URL/key from `/api/config`. Invitations, role changes, and password-reset emails run through the coach deployment’s `/api/admin`, which verifies the caller’s staff role before using the service key.

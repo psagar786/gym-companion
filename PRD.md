@@ -8,6 +8,10 @@ The V3 MVP introduces two separate experiences backed by one database. The membe
 
 V3 does not process payments, expose member passwords, accept arbitrary exercise images, or migrate V2 browser history. Future work can add payment integrations, trainer notes, notifications, and a broader equipment database.
 
+## V3 demo access
+
+For demonstrations, V3 can expose one separate sample identity in each deployment. The member demo and coach demo use local sample data only; they are never created in Supabase, cannot access real membership data, and visibly identify themselves as demo mode. Real account login, role checks, and password-reset security remain unchanged.
+
 ## Why this exists
 
 Fitness 7’s app became unavailable, leaving members to ask a coach, search YouTube, or improvise a workout in the gym. That uncertainty can reduce motivation. Gym Companion provides a dependable visual routine with safe alternatives when a machine is unavailable or an exercise does not feel right that day.

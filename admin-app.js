@@ -1,11 +1,14 @@
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.45.4';
+import { COACH_USERNAME, clearDemoSession, demoAccountMessage, isDemoCredential, readDemoCoach, restoreDemoSession, saveDemoSession, writeDemoCoach } from './demo-mode.js';
 
 const config = window.GYM_COMPANION_CONFIG;
 const routine = window.GYM_COMPANION_ROUTINE || [];
 const app = document.querySelector('#app');
-const supabase = createClient(config.supabaseUrl, config.supabaseAnonKey, {
-  auth: { detectSessionInUrl: true, persistSession: true }
+const sessionPreferenceKey = 'gym-companion-v3-admin-auth-storage';
+const createSupabase = remember => createClient(config.supabaseUrl, config.supabaseAnonKey, {
+  auth: { detectSessionInUrl: true, persistSession: true, storage: remember ? localStorage : sessionStorage }
 });
+let supabase = createSupabase(localStorage.getItem(sessionPreferenceKey) === 'remembered');
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 }[character]));
@@ -14,10 +17,11 @@ const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
 
 const state = {
   user: null, profile: null, members: [], exercises: [], plans: [],
-  view: 'dashboard', selectedMemberId: '', selectedDay: 0, message: '', search: ''
+  view: 'dashboard', selectedMemberId: '', selectedDay: 0, message: '', search: '', demo: false
 };
 
 function notice() { return state.message ? `<p class="notice">${escapeHtml(state.message)}</p>` : ''; }
+function demoBanner() { return state.demo ? '<aside class="preview-banner demo-banner"><b>Demo mode</b><span>Sample-only workspace — edits stay in this browser and are never sent to Fitness 7 or Supabase.</span></aside>' : ''; }
 function selectedMember() { return state.members.find(member => member.id === state.selectedMemberId); }
 function selectedMembership() { return selectedMember()?.memberships?.[0] || {}; }
 
@@ -34,7 +38,7 @@ async function adminRequest(action, payload = {}) {
 }
 
 function signInView() {
-  app.innerHTML = `<main class="shell auth">${logo}<section class="auth-panel"><p class="eyebrow">FITNESS 7 COACH</p><h1>Coach workspace</h1><p>Manage members and build their weekly routines.</p>${notice()}<form id="admin-sign-in" class="stack"><label class="field">Email<input name="email" type="email" required autocomplete="email"></label><label class="field">Password<input name="password" type="password" required autocomplete="current-password"></label><button class="button">Sign in as coach</button></form></section></main>`;
+  app.innerHTML = `<main class="shell auth">${logo}<section class="auth-panel"><p class="eyebrow">FITNESS 7 COACH</p><h1>Coach workspace</h1><p>Manage members and build their weekly routines.</p>${config.demoMode ? '<p class="demo-hint">Demo: <b>sagar.paperwala003.admin</b> · password <b>1234</b></p>' : ''}${notice()}<form id="admin-sign-in" class="stack"><label class="field">Username or email<input name="username" required autocomplete="username"></label><label class="field">Password<input name="password" type="password" required autocomplete="current-password"></label><label class="remember-row"><input name="remember" type="checkbox"> Remember me</label><button class="button">Sign in as coach</button></form></section></main>`;
 }
 
 function accessDeniedView() {
@@ -109,10 +113,11 @@ function render() {
     : state.view === 'member' ? memberDetailView()
     : state.view === 'plans' ? plansView()
     : exercisesView();
-  app.innerHTML = `<main class="shell coach-shell">${header()}${navigation()}${notice()}${content}</main>`;
+  app.innerHTML = `<main class="shell coach-shell">${header()}${demoBanner()}${navigation()}${notice()}${content}</main>`;
 }
 
 async function loadPlans() {
+  if (state.demo) { state.plans = readDemoCoach(routine).plans.filter(item => item.member_id === state.selectedMemberId); return; }
   if (!state.selectedMemberId) { state.plans = []; return; }
   const { data, error } = await supabase.from('member_weekly_plans').select('*,member_plan_slots(*)').eq('member_id', state.selectedMemberId);
   if (error) throw error;
@@ -135,7 +140,29 @@ async function loadAdmin() {
   render();
 }
 
+function loadDemoAdmin() {
+  const demo = readDemoCoach(routine);
+  state.demo = true;
+  state.user = { id: demo.profile.id, email: COACH_USERNAME };
+  state.profile = demo.profile;
+  state.members = demo.members;
+  state.exercises = demo.exercises;
+  state.selectedMemberId ||= state.members[0]?.id || '';
+  state.plans = demo.plans.filter(item => item.member_id === state.selectedMemberId);
+  render();
+}
+
+function persistDemo(mutator) {
+  const demo = readDemoCoach(routine);
+  mutator(demo);
+  writeDemoCoach(demo);
+  state.members = demo.members;
+  state.exercises = demo.exercises;
+  state.plans = demo.plans.filter(item => item.member_id === state.selectedMemberId);
+}
+
 async function refreshMembers() {
+  if (state.demo) { state.members = readDemoCoach(routine).members; return; }
   const result = await adminRequest('members');
   state.members = result.members.filter(member => member.role === 'member');
 }
@@ -150,15 +177,24 @@ document.addEventListener('click', async event => {
       if (button.dataset.openInvite !== undefined) setTimeout(() => document.querySelector('#invite-panel')?.classList.remove('hidden'));
       render(); return;
     }
-    if (button.dataset.signOut !== undefined) { await supabase.auth.signOut(); return; }
+    if (button.dataset.signOut !== undefined) {
+      if (state.demo) { clearDemoSession('admin'); state.demo = false; state.user = null; state.profile = null; render(); }
+      else { await supabase.auth.signOut(); localStorage.removeItem(sessionPreferenceKey); sessionStorage.removeItem(sessionPreferenceKey); state.user = null; render(); }
+      return;
+    }
     if (button.dataset.toggleInvite !== undefined) { document.querySelector('#invite-panel').classList.toggle('hidden'); return; }
     if (button.dataset.member) { state.selectedMemberId = button.dataset.member; state.view = 'member'; await loadPlans(); render(); return; }
     if (button.dataset.memberPlan) { state.selectedMemberId = button.dataset.memberPlan; state.view = 'plans'; await loadPlans(); render(); return; }
-    if (button.dataset.resetMember) { await adminRequest('reset-password', { member_id: button.dataset.resetMember }); state.message = 'Password reset email sent.'; render(); return; }
+    if (button.dataset.resetMember) {
+      if (state.demo) state.message = 'Demo accounts use sample credentials; no password-reset email was sent.';
+      else { await adminRequest('reset-password', { member_id: button.dataset.resetMember }); state.message = 'Password reset email sent.'; }
+      render(); return;
+    }
     if (button.dataset.deactivateMember) {
       const member = selectedMember();
       if (!confirm(`Remove app access for ${member.full_name}? Their history will be preserved.`)) return;
-      await adminRequest('update-member', { id: member.id, full_name: member.full_name, status: 'cancelled', starts_on: selectedMembership().starts_on, ends_on: selectedMembership().ends_on, notes: selectedMembership().notes });
+      if (state.demo) persistDemo(demo => { const target = demo.members.find(item => item.id === member.id); target.memberships[0].status = 'cancelled'; });
+      else await adminRequest('update-member', { id: member.id, full_name: member.full_name, status: 'cancelled', starts_on: selectedMembership().starts_on, ends_on: selectedMembership().ends_on, notes: selectedMembership().notes });
       await refreshMembers(); state.message = 'Member access removed. Their records were preserved.'; state.view = 'members'; render(); return;
     }
     if (button.dataset.planDay !== undefined) { state.selectedDay = Number(button.dataset.planDay); render(); return; }
@@ -178,9 +214,9 @@ document.addEventListener('click', async event => {
       editor.scrollIntoView({ behavior: 'smooth' }); return;
     }
     if (button.dataset.archiveExercise) {
-      await adminRequest('archive-exercise', { id: button.dataset.archiveExercise, active: button.dataset.active === 'true' });
-      const { data } = await supabase.from('exercise_library').select('*').order('name');
-      state.exercises = data || []; state.message = 'Exercise library updated.'; render(); return;
+      if (state.demo) persistDemo(demo => { const exercise = demo.exercises.find(item => item.id === button.dataset.archiveExercise); if (exercise) exercise.active = button.dataset.active === 'true'; });
+      else { await adminRequest('archive-exercise', { id: button.dataset.archiveExercise, active: button.dataset.active === 'true' }); const { data } = await supabase.from('exercise_library').select('*').order('name'); state.exercises = data || []; }
+      state.message = 'Exercise library updated.'; render(); return;
     }
   } catch (error) { state.message = error.message; render(); }
 });
@@ -201,15 +237,29 @@ document.addEventListener('submit', async event => {
   const values = Object.fromEntries(new FormData(form));
   try {
     if (form.id === 'admin-sign-in') {
-      const { error } = await supabase.auth.signInWithPassword({ email: values.email, password: values.password });
+      const username = String(values.username || '').trim();
+      if (config.demoMode && isDemoCredential('admin', username, values.password)) {
+        saveDemoSession('admin', values.remember === 'on'); loadDemoAdmin(); return;
+      }
+      if (!username.includes('@')) throw new Error(demoAccountMessage);
+      const remember = values.remember === 'on';
+      localStorage.removeItem(sessionPreferenceKey); sessionStorage.removeItem(sessionPreferenceKey);
+      (remember ? localStorage : sessionStorage).setItem(sessionPreferenceKey, remember ? 'remembered' : 'temporary');
+      supabase = createSupabase(remember);
+      const { data, error } = await supabase.auth.signInWithPassword({ email: username, password: values.password });
       if (error) throw error;
+      state.user = data.user; await loadAdmin(); return;
     }
     if (form.id === 'invite-member') {
-      await adminRequest('invite', values); await refreshMembers();
-      state.message = 'Member invited. They will receive a password setup email.'; render();
+      if (state.demo) {
+        persistDemo(demo => { const id = `demo-member-${Date.now()}`; demo.members.push({ id, full_name: values.full_name, role: 'member', active: true, created_at: new Date().toISOString(), memberships: [{ member_id: id, status: 'active', starts_on: '', ends_on: '', notes: 'Demo member' }] }); });
+        state.message = 'Sample member added locally. No invitation email was sent.';
+      } else { await adminRequest('invite', values); await refreshMembers(); state.message = 'Member invited. They will receive a password setup email.'; }
+      render();
     }
     if (form.id === 'membership-form') {
-      await adminRequest('update-member', values); await refreshMembers();
+      if (state.demo) persistDemo(demo => { const member = demo.members.find(item => item.id === values.id); if (!member) return; member.full_name = values.full_name; member.memberships[0] = { member_id: member.id, status: values.status, starts_on: values.starts_on, ends_on: values.ends_on, notes: values.notes }; });
+      else { await adminRequest('update-member', values); await refreshMembers(); }
       state.message = 'Membership saved.'; render();
     }
     if (form.id === 'plan-form') {
@@ -217,29 +267,29 @@ document.addEventListener('submit', async event => {
         exercise_id: row.querySelector('[name="exercise_id"]').value,
         alternative_exercise_id: row.querySelector('[name="alternative_exercise_id"]').value || null
       })).filter(slot => slot.exercise_id);
-      await adminRequest('save-plan', { plan: {
-        member_id: values.member_id, day_index: Number(values.day_index), focus: values.focus,
-        slots, warmup: routine[Number(values.day_index)].warmup.steps,
-        recovery: routine[Number(values.day_index)].finish.steps
-      }});
+      const plan = { member_id: values.member_id, day_index: Number(values.day_index), focus: values.focus, slots, warmup: routine[Number(values.day_index)].warmup.steps, recovery: routine[Number(values.day_index)].finish.steps };
+      if (state.demo) persistDemo(demo => {
+        const existingIndex = demo.plans.findIndex(item => item.member_id === plan.member_id && item.day_index === plan.day_index);
+        const record = { id: existingIndex >= 0 ? demo.plans[existingIndex].id : `demo-plan-${plan.member_id}-${plan.day_index}`, member_id: plan.member_id, day_index: plan.day_index, focus: plan.focus, warmup: plan.warmup, recovery: plan.recovery, member_plan_slots: plan.slots.map((slot, position) => ({ id: `demo-slot-${plan.member_id}-${plan.day_index}-${position}`, position, ...slot })) };
+        if (existingIndex >= 0) demo.plans[existingIndex] = record; else demo.plans.push(record);
+      });
+      else await adminRequest('save-plan', { plan });
       await loadPlans(); state.message = `${days[state.selectedDay]} plan saved for ${selectedMember().full_name}.`; render();
     }
     if (form.id === 'exercise-form') {
       const name = values.name.trim();
       values.slug ||= name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
       values.alt_text ||= `Fitness 7 illustration: ${name}`;
-      await adminRequest('save-exercise', { exercise: values });
-      const { data } = await supabase.from('exercise_library').select('*').order('name');
-      state.exercises = data || []; state.message = 'Exercise saved.'; render();
+      if (state.demo) persistDemo(demo => { const item = { ...values, id: values.id || `demo-exercise-${Date.now()}`, active: true }; const index = demo.exercises.findIndex(exercise => exercise.id === item.id); if (index >= 0) demo.exercises[index] = { ...demo.exercises[index], ...item }; else demo.exercises.push(item); });
+      else { await adminRequest('save-exercise', { exercise: values }); const { data } = await supabase.from('exercise_library').select('*').order('name'); state.exercises = data || []; }
+      state.message = 'Exercise saved.'; render();
     }
   } catch (error) { state.message = error.message; render(); }
 });
 
-supabase.auth.onAuthStateChange((_event, session) => {
+if (config.demoMode && restoreDemoSession('admin')) loadDemoAdmin();
+else {
+  const { data: { session } } = await supabase.auth.getSession();
   state.user = session?.user || null;
-  if (state.user) loadAdmin().catch(error => { state.message = error.message; render(); });
-  else render();
-});
-const { data: { session } } = await supabase.auth.getSession();
-state.user = session?.user || null;
-if (state.user) await loadAdmin(); else render();
+  if (state.user) await loadAdmin(); else render();
+}
