@@ -1,10 +1,23 @@
 /* Fitness 7 Personal V3 content source. The member app and seed scripts share this file. */
 (() => {
   const asset = name => `assets/exercises/${name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}.png`;
+  const targetGroups = (focus, pattern) => {
+    const text = `${focus} ${pattern}`.toLowerCase();
+    const groups = new Set();
+    if (/chest|pectoral|horizontal press|fly/.test(text)) groups.add('chest');
+    if (/triceps|elbow extension/.test(text)) groups.add('triceps');
+    if (/lat|back|row|rear delt|scapular pull|vertical pull|shoulder extension/.test(text)) groups.add('back');
+    if (/biceps|brachialis|forearm|elbow flexion|curl/.test(text)) groups.add('biceps');
+    if (/shoulder|delt|vertical press|lateral|abduction/.test(text)) groups.add('shoulders');
+    if (/quad|glute|hamstring|calf|squat|lunge|hinge|hip extension|knee flexion|knee extension/.test(text)) groups.add('legs');
+    if (/abs|core|oblique|trunk|anti-|conditioning|cardio|treadmill|bike|dead bug|plank|pallof/.test(text)) groups.add('core');
+    if (/scapular|thoracic|mobility|stretch|activation|rehearsal|wrist/.test(text)) groups.add('mobility');
+    return [...groups];
+  };
   const entry = (name, focus, pattern, equipment, scheme, cue, levels = ['beginner', 'intermediate', 'expert']) => ({
     slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''), name, target_muscles: focus,
     movement_pattern: pattern, equipment, scheme, cue, image_path: asset(name), alt_text: `Fitness 7 illustration: ${name}`,
-    levels, active: true
+    targetGroups: targetGroups(focus, pattern), levels, active: true
   });
   const e = entry;
   const catalog = [

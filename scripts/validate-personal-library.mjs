@@ -7,7 +7,7 @@ const catalog = window.GYM_COMPANION_TRAINING.catalog;
 if (catalog.length < 120) throw new Error(`Expected 120+ movements; found ${catalog.length}.`);
 if (new Set(catalog.map(item => item.slug)).size !== catalog.length) throw new Error('Exercise slugs must be unique.');
 for (const item of catalog) {
-  if (!item.name || !item.target_muscles || !item.scheme || !item.cue || !item.alt_text) throw new Error(`Incomplete movement: ${item.slug}`);
+  if (!item.name || !item.target_muscles || !item.scheme || !item.cue || !item.alt_text || !Array.isArray(item.targetGroups) || !item.targetGroups.length) throw new Error(`Incomplete movement metadata: ${item.slug}`);
   const file = resolve(process.cwd(), item.image_path);
   if (!existsSync(file)) throw new Error(`Missing image: ${item.image_path}`);
   const png = readFileSync(file);
