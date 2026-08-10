@@ -6,6 +6,7 @@ vm.createContext(context);
 vm.runInContext(fs.readFileSync(new URL('../data/routine.js', import.meta.url), 'utf8'), context);
 const routine = context.window.GYM_COMPANION_ROUTINE || [];
 const failures = [];
+const phasePaths = new Set();
 const pngSize = file => { const header=fs.readFileSync(file); return header.length>=24 && header.readUInt32BE(0)===0x89504e47 ? [header.readUInt32BE(16),header.readUInt32BE(20)] : null; };
 const phasePath = (image, phase) => image.replace(/\.png$/i, `-phase-${phase}.png`);
 const validatePhaseSet = (label, image) => {
@@ -14,6 +15,7 @@ const validatePhaseSet = (label, image) => {
     const file = new URL(`../${phasePath(image, phase)}`, import.meta.url);
     if (!fs.existsSync(file)) failures.push(`${label}: missing ${phase} detail image ${phasePath(image, phase)}`);
     else { const size=pngSize(file); if (!size || size[0]!==512 || size[1]!==512) failures.push(`${label}: ${phase} detail image must be 512×512`); }
+    phasePaths.add(file.pathname);
   }
 };
 for (const day of routine) {
@@ -32,4 +34,4 @@ for (const day of routine) {
   }
 }
 if (failures.length) { console.error(failures.join('\n')); process.exit(1); }
-console.log(`Validated V4 routine: ${routine.length} days, ${routine.reduce((sum, day) => sum + day.slots.length, 0)} ordered slots.`);
+console.log(`Validated V4 routine: ${routine.length} days, ${routine.reduce((sum, day) => sum + day.slots.length, 0)} ordered slots and ${phasePaths.size} unique phase images.`);

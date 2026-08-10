@@ -14,6 +14,12 @@ for (const item of catalog) {
   if (png.toString('ascii', 1, 4) !== 'PNG') throw new Error(`Not a PNG: ${item.image_path}`);
   const width = png.readUInt32BE(16), height = png.readUInt32BE(20);
   if (width < 512 || height < 512 || width !== height) throw new Error(`Image must be square and at least 512px: ${item.image_path}`);
+  for (const phase of ['setup','move','return']) {
+    const phaseFile = resolve(process.cwd(), item.image_path.replace(/\.png$/i, `-phase-${phase}.png`));
+    if (!existsSync(phaseFile)) throw new Error(`Missing ${phase} image: ${phaseFile}`);
+    const phasePng = readFileSync(phaseFile);
+    if (phasePng.toString('ascii', 1, 4) !== 'PNG' || phasePng.readUInt32BE(16) !== 512 || phasePng.readUInt32BE(20) !== 512) throw new Error(`${phase} image must be 512×512: ${phaseFile}`);
+  }
 }
 for (const [tier, required] of Object.entries({ beginner:6, intermediate:7, expert:8 })) {
   for (const day of window.GYM_COMPANION_TRAINING.templates.ppl.days) {
