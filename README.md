@@ -56,6 +56,17 @@ The member app contains workouts, profile, password change, and history. The coa
 
 The browser fetches only the public URL/key from `/api/config`. Invitations, role changes, and password-reset emails run through the coach deployment’s `/api/admin`, which verifies the caller’s staff role before using the service key.
 
+## Personal V3 upgrade
+
+Personal V3 gives members a self-guided choice of **PPL twice weekly** or the Fitness 7 split, plus Beginner, Intermediate, and Expert training levels. The app’s default is Intermediate PPL twice weekly, with 6/7/8 main movements respectively and a maximum of two recurring optional extras per day. Daily habit tracking is intentionally binary and includes the personalized protein, water, supplements, snack, dinner, sleep, and weekend-portion defaults.
+
+Apply the following in order before deploying this feature to real accounts:
+
+1. Run [`supabase/migrations/20260810_personal_v3.sql`](supabase/migrations/20260810_personal_v3.sql) in Supabase.
+2. Run `SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node scripts/seed-tiered-library.mjs`.
+3. Run `SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node scripts/apply-personal-ppl-defaults.mjs` once to replace active members’ future plans. Historical session snapshots remain unchanged.
+4. Run `node scripts/validate-personal-library.mjs` before release to validate library coverage and square 512px exercise assets.
+
 ## Free cloud operation
 
 This MVP can run on the Vercel Hobby and Supabase Free plans while usage stays within their limits. Use one Supabase project for authentication and data, plus the two Vercel projects above for the separate member and coach interfaces. No payment data is stored. Monitor usage in both dashboards and upgrade before using the service commercially or exceeding free-plan limits.

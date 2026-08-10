@@ -8,6 +8,10 @@ The V3 MVP introduces two separate experiences backed by one database. The membe
 
 V3 does not process payments, expose member passwords, accept arbitrary exercise images, or migrate V2 browser history. Future work can add payment integrations, trainer notes, notifications, and a broader equipment database.
 
+## Personal V3 training and habits
+
+Personal V3 adds a self-guided tiered exercise library and replaces future active-member plans with Intermediate PPL twice weekly. A member can later select Beginner, Intermediate, or Expert and switch between PPL and the Fitness 7 split without changing historical sessions. The app also tracks a small personalized daily habit checklist instead of detailed calories or weight analytics.
+
 ## V3 demo access
 
 For demonstrations, V3 can expose one separate sample identity in each deployment. The member demo and coach demo use local sample data only; they are never created in Supabase, cannot access real membership data, and visibly identify themselves as demo mode. Real account login, role checks, and password-reset security remain unchanged.
