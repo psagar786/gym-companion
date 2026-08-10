@@ -1,3 +1,4 @@
+// V4 deployment configuration endpoint; environment values are injected at build/runtime.
 module.exports = (req, res) => {
   const { SUPABASE_URL, SUPABASE_ANON_KEY } = process.env;
   if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
