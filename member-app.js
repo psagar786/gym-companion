@@ -32,7 +32,7 @@ function inferredGroups(item) {
   if (/triceps|elbow extension/.test(text)) groups.add('triceps');
   if (/lat|back|row|rear delt|pulldown|pullover|shoulder extension/.test(text)) groups.add('back');
   if (/biceps|brachialis|forearm|curl|elbow flexion/.test(text)) groups.add('biceps');
-  if (/shoulder|delt|lateral|vertical press|abduction/.test(text)) groups.add('shoulders');
+  if (/shoulder|side delt|front delt|lateral|vertical press|abduction/.test(text)) groups.add('shoulders');
   if (/quad|glute|hamstring|calf|squat|lunge|hinge|leg|hip extension|knee flexion|knee extension/.test(text)) groups.add('legs');
   if (/abs|core|oblique|trunk|plank|pallof|dead bug|conditioning|cardio|treadmill|bike/.test(text)) groups.add('core');
   return [...groups];
@@ -56,7 +56,7 @@ function detailRecord(item) {
 function optionalCandidates() {
   const source=currentTemplate()?.days?.[state.dayIndex]||{}, raw=source?.slots?.flatMap(slot=>[slot.primary,slot.alternative,slot.third].filter(Boolean))||source?.candidates||[];
   const base=new Set(raw.map(item=>slugify(item.name))), selected=new Set(state.extras.filter(item=>item.day_index===state.dayIndex).map(item=>item.exercise_id)), allowed=new Set(dayGroups[state.dayIndex]||[]);
-  return state.library.map(normalizeExercise).filter(item=>!base.has(item.slug)&&!selected.has(item.id)&&inferredGroups(item).some(group=>allowed.has(group)));
+  return state.library.map(normalizeExercise).filter(item=>!base.has(item.slug)&&!selected.has(item.id)&&inferredGroups(item).length>0&&inferredGroups(item).every(group=>allowed.has(group)));
 }
 function optionalCards(items) { return items.length ? `<div class="extra-option-grid">${items.map(item=>`<article class="extra-option"><span class="extra-option-visual visual" style="background-image:url('${escapeHtml(item.image_path||item.image||'')}')" role="img" aria-label="${escapeHtml(item.alt_text||item.alt||`${item.name} illustration`)}"></span><span class="extra-option-copy"><b>${escapeHtml(item.name)}</b><small>${escapeHtml(item.target_muscles||item.targets||'')}</small><small>${escapeHtml(item.scheme||'')}</small><button type="button" class="link-button detail-button" data-detail-key="${escapeHtml(slugify(item.slug||item.name||''))}">View details →</button><button type="button" class="pill extra-add" data-add-extra="${escapeHtml(item.id)}">＋ Add</button></span></article>`).join('')}</div>` : '<p class="muted">No more approved extras are available for this day.</p>'; }
 async function addExtra(exerciseId) {

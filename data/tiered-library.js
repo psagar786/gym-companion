@@ -8,7 +8,7 @@
     if (/triceps|elbow extension/.test(text)) groups.add('triceps');
     if (/lat|back|row|rear delt|scapular pull|vertical pull|shoulder extension/.test(text)) groups.add('back');
     if (/biceps|brachialis|forearm|elbow flexion|curl/.test(text)) groups.add('biceps');
-    if (/shoulder|delt|vertical press|lateral|abduction/.test(text)) groups.add('shoulders');
+    if (/shoulder|side delt|front delt|vertical press|lateral|abduction/.test(text)) groups.add('shoulders');
     if (/quad|glute|hamstring|calf|squat|lunge|hinge|hip extension|knee flexion|knee extension/.test(text)) groups.add('legs');
     if (/abs|core|oblique|trunk|anti-|conditioning|cardio|treadmill|bike|dead bug|plank|pallof/.test(text)) groups.add('core');
     if (/scapular|thoracic|mobility|stretch|activation|rehearsal|wrist/.test(text)) groups.add('mobility');
