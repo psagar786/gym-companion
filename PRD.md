@@ -422,3 +422,34 @@ Payment processing, detailed calorie tracking, wearable integrations, and public
 | Head trainer | Approve training content, equipment compatibility, and safety wording |
 | Operations/admin | Approve onboarding, support, membership workflows, and data ownership |
 | Engineering/platform | Confirm security, reliability, deployment, monitoring, and recovery |
+
+## 19. Live deployments and version access
+
+The deployments below are kept separate so Fitness 7 can compare versions without disrupting an earlier experience. Member-facing links may be shared with the appropriate pilot group. The coach/admin link is staff-only and must never be presented in the member navigation.
+
+| Version / workspace | Intended audience | Deployment |
+|---|---|---|
+| V1 - Visual Routine MVP | Historical public MVP | [Open V1](https://gym-companion-blush.vercel.app/) |
+| V2 - Guided Workout | Historical guided-workout comparison | [Open V2](https://gym-companion-guided-v2.vercel.app/) |
+| V3 - Member app | Authenticated members and demo review | [Open V3 member](https://gym-companion-member-v3.vercel.app/) |
+| V3 - Coach/admin app | Owners, trainers, and administrators only | [Open V3 coach/admin](https://gym-companion-coach-v3.vercel.app/) |
+| V4 - Member showcase | Current rich visual workout showcase | [Open V4 member](https://gym-companion-member-v4.vercel.app/) |
+
+## 20. Skills and tools used
+
+This section records the tools and specialist workflows used to create and operate the Gym Companion work to date. It distinguishes active project tooling from connected design capabilities that are ready for future work.
+
+| Skill or tool | Use in Gym Companion | Status / operating note |
+|---|---|---|
+| Codex | Product discovery, requirements, content design, implementation coordination, QA, and documentation | Primary product-development workspace |
+| GitHub | Source control, branch-based versioning, documentation, peer review, and deployment triggers | Repository workflow for V1-V4 and future releases |
+| Vercel | Separate static/member/coach environments, preview URLs, and public version comparison | One deployment per approved experience; production access is controlled by the relevant app configuration |
+| Supabase | Authentication, PostgreSQL data, role-based access, row-level security, memberships, personalized plans, and cloud workout history | V3/V4 backend foundation; privileged credentials remain server-side |
+| Fitness 7 illustration workflow | Square exercise visuals, accessible alt text, primary/alternative imagery, and setup/move/return guidance | Brand-consistent visual content used to reduce trainer lookup dependency |
+| Browser and device QA | Testing hosted flows, phone-width layouts, asset rendering, navigation, and recovery/workout interactions | Used for gym-floor mobile validation and regression checks |
+| Product-design and document-production workflows | PRD review, information architecture, visual hierarchy, branded PDF generation, and render QA | Used to produce the management-ready documentation set |
+| Google Docs and Google Drive | Editable owner/trainer copy of this PRD and sharing/export workflow | This document is the editable management version |
+| Superdesign | Visual exploration canvas for executive-document and product-design directions | Connected for design exploration; no paid generation is required for the current PRD |
+| Figma / FigJam | Editable future diagrams, flow maps, and stakeholder review boards | Connected for future diagram and design collaboration; not a member-facing runtime dependency |
+
+No member workout, profile, or membership information should be sent to third-party design tools unless Fitness 7 has approved the data-sharing purpose and the applicable privacy controls.
