@@ -2,6 +2,12 @@
 
 Fitness 7’s account-enabled workout companion. V3 uses two simple Vercel apps backed by one secure Supabase database. V1 and V2 stay unchanged.
 
+## Product documentation
+
+- [`PRD.md`](PRD.md) — management-ready product requirements and pilot business case.
+- [`V5-V7-PRODUCT-SCOPE.md`](V5-V7-PRODUCT-SCOPE.md) — phased production, anywhere-training, and progress-intelligence scope.
+- [`PRODUCT-REVIEW-AND-ARCHITECTURE.md`](PRODUCT-REVIEW-AND-ARCHITECTURE.md) — GPM review, prioritized gaps, functional and technical flows, and the delivery-agent model.
+
 ## Live V3 apps
 
 - Member app: <https://gym-companion-member-v3.vercel.app>

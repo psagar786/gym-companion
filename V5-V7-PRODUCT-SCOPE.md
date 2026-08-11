@@ -8,6 +8,7 @@
 | Last updated | 10 August 2026 |
 | Foundation release | V4 public showcase |
 | Pilot commitment | 50 members before staged expansion to 1,000 |
+| Product review and system blueprint | [`PRODUCT-REVIEW-AND-ARCHITECTURE.md`](PRODUCT-REVIEW-AND-ARCHITECTURE.md) |
 
 ## 1. Purpose
 

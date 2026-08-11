@@ -9,6 +9,7 @@
 | Last updated | 10 August 2026 |
 | Intended audience | Fitness 7 owners, gym managers, trainers, operations, product and engineering |
 | Current product release | V4 public showcase |
+| Product review and system blueprint | [`PRODUCT-REVIEW-AND-ARCHITECTURE.md`](PRODUCT-REVIEW-AND-ARCHITECTURE.md) |
 | Showcase | https://gym-companion-member-v4.vercel.app/ |
 
 ## 1. Executive summary
