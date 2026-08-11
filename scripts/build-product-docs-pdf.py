@@ -32,7 +32,7 @@ CARD = colors.HexColor("#252525")
 ORANGE = colors.HexColor("#F45112")
 OFF_WHITE = colors.HexColor("#F7F3EB")
 MUTED = colors.HexColor("#6F6A65")
-LIGHT = colors.HexColor("#F4F1EC")
+LIGHT = colors.HexColor("#F3F0EA")
 LINE = colors.HexColor("#D8D2CA")
 
 
@@ -45,6 +45,7 @@ def esc(text: str) -> str:
 
 
 def inline(text: str) -> str:
+    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r"\1", text)
     text = esc(text.strip())
     text = re.sub(r"`([^`]+)`", r"<font name='Courier'>\1</font>", text)
     text = re.sub(r"\*\*([^*]+)\*\*", r"<b>\1</b>", text)
@@ -58,18 +59,18 @@ def styles():
     return {
         "cover_kicker": ParagraphStyle(
             "CoverKicker", parent=base["Normal"], fontName="Helvetica-Bold",
-            fontSize=10, leading=13, textColor=ORANGE, alignment=TA_CENTER,
+            fontSize=9.5, leading=13, textColor=ORANGE, alignment=TA_LEFT,
             spaceAfter=8, tracking=1.2,
         ),
         "cover_title": ParagraphStyle(
             "CoverTitle", parent=base["Title"], fontName="Helvetica-Bold",
-            fontSize=29, leading=34, textColor=OFF_WHITE, alignment=TA_CENTER,
+            fontSize=31, leading=35, textColor=CHARCOAL, alignment=TA_LEFT,
             spaceAfter=16,
         ),
         "cover_subtitle": ParagraphStyle(
             "CoverSubtitle", parent=base["Normal"], fontName="Helvetica",
-            fontSize=12, leading=18, textColor=colors.HexColor("#C9C3BB"),
-            alignment=TA_CENTER, spaceAfter=9,
+            fontSize=11.5, leading=17, textColor=MUTED,
+            alignment=TA_LEFT, spaceAfter=9,
         ),
         "h1": ParagraphStyle(
             "H1", parent=base["Heading1"], fontName="Helvetica-Bold",
@@ -117,7 +118,15 @@ def styles():
         ),
         "cover_table": ParagraphStyle(
             "CoverTable", parent=base["BodyText"], fontName="Helvetica",
-            fontSize=8.2, leading=11, textColor=OFF_WHITE,
+            fontSize=8.2, leading=11, textColor=CHARCOAL,
+        ),
+        "metric_value": ParagraphStyle(
+            "MetricValue", parent=base["BodyText"], fontName="Helvetica-Bold",
+            fontSize=18, leading=21, textColor=CHARCOAL,
+        ),
+        "metric_label": ParagraphStyle(
+            "MetricLabel", parent=base["BodyText"], fontName="Helvetica-Bold",
+            fontSize=6.8, leading=9, textColor=MUTED,
         ),
     }
 
@@ -145,7 +154,7 @@ def parse_table(lines: list[str], st: dict, width: float):
     col_widths = [width * weight / total for weight in weights]
     table = Table(data, colWidths=col_widths, repeatRows=1, hAlign="LEFT")
     table.setStyle(TableStyle([
-        ("BACKGROUND", (0, 0), (-1, 0), CHARCOAL),
+        ("BACKGROUND", (0, 0), (-1, 0), ORANGE),
         ("TEXTCOLOR", (0, 0), (-1, 0), OFF_WHITE),
         ("BACKGROUND", (0, 1), (-1, -1), colors.white),
         ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, LIGHT]),
@@ -230,44 +239,67 @@ def build(source: Path, destination: Path, label: str, subtitle: str):
         author="Sagar Paperwala - Fitness 7", subject=subtitle,
     )
 
-    cover = [Spacer(1, 32 * mm)]
-    if LOGO.exists():
-        logo = Image(str(LOGO), width=66 * mm, height=22 * mm)
-        logo.hAlign = "CENTER"
-        cover.extend([logo, Spacer(1, 20 * mm)])
+    cover = [Spacer(1, 48 * mm)]
     cover.extend([
         Paragraph(label.upper(), st["cover_kicker"]),
         Paragraph(esc(title), st["cover_title"]),
         Paragraph(esc(subtitle), st["cover_subtitle"]),
-        Spacer(1, 14 * mm),
+        Spacer(1, 16 * mm),
+        Table([
+            [Paragraph("1,000", st["metric_value"]), Paragraph("2", st["metric_value"]), Paragraph("INR 60K", st["metric_value"])],
+            [Paragraph("ACTIVE MEMBERS", st["metric_label"]), Paragraph("GYM LOCATIONS", st["metric_label"]), Paragraph("ANNUAL COST AVOIDED", st["metric_label"])],
+        ], colWidths=[49.3 * mm, 49.3 * mm, 49.3 * mm], style=TableStyle([
+            ("BACKGROUND", (0, 0), (-1, -1), colors.white),
+            ("BOX", (0, 0), (-1, -1), 0.6, LINE),
+            ("INNERGRID", (0, 0), (-1, -1), 0.6, LINE),
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("LEFTPADDING", (0, 0), (-1, -1), 10),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 10),
+            ("TOPPADDING", (0, 0), (-1, 0), 10),
+            ("BOTTOMPADDING", (0, 0), (-1, 0), 4),
+            ("TOPPADDING", (0, 1), (-1, 1), 2),
+            ("BOTTOMPADDING", (0, 1), (-1, 1), 10),
+        ])),
+        Spacer(1, 9 * mm),
         Table([
             [Paragraph("PRODUCT OWNER", st["table_head"]), Paragraph("STATUS", st["table_head"])],
             [Paragraph("Sagar Paperwala<br/>Product Manager - Fitness 7", st["cover_table"]),
              Paragraph("Management review<br/>Committed 50-member pilot", st["cover_table"])],
         ], colWidths=[74 * mm, 74 * mm], style=TableStyle([
-            ("BACKGROUND", (0, 0), (-1, 0), ORANGE),
-            ("BACKGROUND", (0, 1), (-1, -1), CARD),
-            ("TEXTCOLOR", (0, 1), (-1, -1), OFF_WHITE),
-            ("BOX", (0, 0), (-1, -1), 0.7, colors.HexColor("#55504B")),
-            ("INNERGRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#55504B")),
+            ("BACKGROUND", (0, 0), (-1, 0), CHARCOAL),
+            ("BACKGROUND", (0, 1), (-1, -1), colors.white),
+            ("TEXTCOLOR", (0, 0), (-1, 0), OFF_WHITE),
+            ("BOX", (0, 0), (-1, -1), 0.7, LINE),
+            ("INNERGRID", (0, 0), (-1, -1), 0.5, LINE),
             ("VALIGN", (0, 0), (-1, -1), "TOP"),
             ("LEFTPADDING", (0, 0), (-1, -1), 9),
             ("RIGHTPADDING", (0, 0), (-1, -1), 9),
             ("TOPPADDING", (0, 0), (-1, -1), 8),
             ("BOTTOMPADDING", (0, 0), (-1, -1), 8),
         ])),
-        Spacer(1, 13 * mm),
-        Paragraph("Fitness 7 Gym Companion | 10 August 2026", st["cover_subtitle"]),
+        Spacer(1, 12 * mm),
+        Paragraph("Fitness 7 Gym Companion | 11 August 2026", st["cover_subtitle"]),
         PageBreak(),
     ])
 
     def decorate(canvas, document):
         canvas.saveState()
         if document.page == 1:
-            canvas.setFillColor(CHARCOAL)
+            canvas.setFillColor(LIGHT)
             canvas.rect(0, 0, page_width, page_height, fill=1, stroke=0)
             canvas.setFillColor(ORANGE)
-            canvas.rect(0, page_height - 7 * mm, page_width, 7 * mm, fill=1, stroke=0)
+            canvas.rect(0, page_height - 5 * mm, page_width, 5 * mm, fill=1, stroke=0)
+            canvas.setStrokeColor(colors.HexColor("#F8C5AF"))
+            canvas.setLineWidth(20)
+            canvas.circle(page_width - 15 * mm, page_height - 10 * mm, 34 * mm, fill=0, stroke=1)
+            canvas.setStrokeColor(ORANGE)
+            canvas.setLineWidth(7)
+            canvas.circle(page_width - 15 * mm, page_height - 10 * mm, 23 * mm, fill=0, stroke=1)
+            canvas.setFillColor(CHARCOAL)
+            canvas.setFont("Helvetica-Bold", 20)
+            canvas.drawString(margin, page_height - 28 * mm, "Fitness")
+            canvas.setFillColor(ORANGE)
+            canvas.drawString(margin + 60 * mm, page_height - 28 * mm, "7")
         else:
             canvas.setStrokeColor(LINE)
             canvas.setLineWidth(0.5)
@@ -281,7 +313,7 @@ def build(source: Path, destination: Path, label: str, subtitle: str):
             canvas.line(margin, 12 * mm, page_width - margin, 12 * mm)
             canvas.setFont("Helvetica", 7.2)
             canvas.setFillColor(MUTED)
-            canvas.drawString(margin, 8 * mm, "Management review | 10 August 2026")
+            canvas.drawString(margin, 8 * mm, "Management review | 11 August 2026")
             canvas.drawRightString(page_width - margin, 8 * mm, f"Page {document.page}")
         canvas.restoreState()
 

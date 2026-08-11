@@ -6,7 +6,7 @@
 | Product owner | Sagar Paperwala, Product Manager - Fitness 7 |
 | Document status | Management review and committed pilot planning |
 | Document version | 1.0 |
-| Last updated | 10 August 2026 |
+| Last updated | 11 August 2026 |
 | Intended audience | Fitness 7 owners, gym managers, trainers, operations, product and engineering |
 | Current product release | V4 public showcase |
 | Product review and system blueprint | [`PRODUCT-REVIEW-AND-ARCHITECTURE.md`](PRODUCT-REVIEW-AND-ARCHITECTURE.md) |
