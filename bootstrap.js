@@ -11,5 +11,5 @@ try {
   await import(config.appMode === 'admin' ? './admin-app.js' : './member-app.js');
   }
 } catch (error) {
-  app.innerHTML = `<main class="shell auth"><span class="brand"><img src="assets/fitness7-hero-logo.png" alt="Fitness 7"></span><section class="auth-panel"><p class="eyebrow">V3 SETUP</p><h1>Configuration needed</h1><p class="notice">${String(error.message || error)}</p><p>Check the Vercel and Supabase environment configuration, then reload.</p></section></main>`;
+  app.innerHTML = `<main class="shell auth"><span class="brand"><img src="assets/fitness7-hero-logo.png" alt="Fitness 7"></span><section class="auth-panel"><p class="eyebrow">V5 SETUP</p><h1>Configuration needed</h1><p class="notice">${String(error.message || error)}</p><p>Check the Vercel and Supabase environment configuration, then reload.</p></section></main>`;
 }

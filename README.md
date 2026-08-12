@@ -15,6 +15,14 @@ Fitness 7’s account-enabled workout companion. V3 uses two simple Vercel apps 
 
 Both production projects track `feature/member-accounts-v3`. Members are never sent to the coach interface, and the member deployment does not expose the privileged admin API.
 
+## V5 Optimized PPL member app
+
+V5 is a separate member deployment built from `feature/member-accounts-v5`; V4 remains unchanged. V5 defaults to a verified-equipment six-day PPL plan with six core movements and up to two relevant extras per day. The Fitness 7 split remains selectable in **My training plan**.
+
+Before publishing V5 to real members, apply [`supabase/migrations/20260812_v5_ppl_sessions.sql`](supabase/migrations/20260812_v5_ppl_sessions.sql). It keeps V4 workout sessions as read-only legacy history and enables separately saved V5 sessions for the same member/date. Then deploy a new Vercel project named `gym-companion-member-v5` with the V4 member environment values plus `APP_MODE=member` and `DEMO_MODE=true` for the public demo.
+
+Run `node scripts/validate-v5-routine.mjs` before each V5 release. It rejects excluded equipment and requires all active setup/move/return assets to be valid 512×512 PNGs.
+
 ## What V3 adds
 
 - Invite-only member accounts and self-service password changes.

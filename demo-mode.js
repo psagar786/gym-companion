@@ -4,8 +4,8 @@ export const DEMO_PASSWORD = '1234';
 
 const clone = value => JSON.parse(JSON.stringify(value));
 const slug = value => String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-const dataKey = role => `gym-companion-v3-demo-${role}-data`;
-const sessionKey = role => `gym-companion-v3-demo-${role}-session`;
+const dataKey = role => `gym-companion-v5-demo-${role}-data`;
+const sessionKey = role => `gym-companion-v5-demo-${role}-session`;
 
 export function isDemoCredential(role, username, password) {
   const expected = role === 'admin' ? COACH_USERNAME : MEMBER_USERNAME;
