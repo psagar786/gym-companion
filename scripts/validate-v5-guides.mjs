@@ -17,7 +17,7 @@ for (const day of routine) {
     for (const choice of item.choices || []) active.add(choice.name);
   }
 }
-const required = ['primaryTargets','secondaryTargets','equipment','why','setupInstruction','executionInstruction','returnInstruction','formCue','commonMistake','safetyCue','coachReviewStatus','visualReviewStatus','assetVersion'];
+const required = ['primaryTargets','secondaryTargets','equipment','why','setupInstruction','executionInstruction','returnInstruction','formCue','commonMistake','safetyCue','guideType','coachReviewStatus','visualReviewStatus','assetVersion'];
 const generic = /build control and prepare|set up .*available|stop for sharp pain, dizziness, or unusual breathlessness/i;
 const failures = [];
 for (const name of [...active].sort()) {
@@ -27,7 +27,7 @@ for (const name of [...active].sort()) {
   if (!guide.phaseBriefs || !['setup','move','return'].every(phase => String(guide.phaseBriefs[phase] || '').trim())) failures.push(`${name}: incomplete phase briefs`);
   if (!guide.imageSet || new Set(Object.values(guide.imageSet)).size !== 3) failures.push(`${name}: phase image paths must be distinct`);
   if (generic.test([guide.why,guide.setupInstruction,guide.executionInstruction,guide.returnInstruction,guide.safetyCue].join(' '))) failures.push(`${name}: generic active copy detected`);
-  if (!['mobility','stretch','cardio'].some(type => guide.tierPrescriptions === null) && !guide.tierPrescriptions) failures.push(`${name}: missing tier prescriptions`);
+  if (!['mobility','stretch','cardio'].includes(guide.guideType) && !guide.tierPrescriptions) failures.push(`${name}: missing tier prescriptions`);
 }
 for (const name of Object.keys(guides)) if (!active.has(name)) failures.push(`${name}: guide is not active in V5`);
 if (failures.length) { console.error(failures.join('\n')); process.exit(1); }

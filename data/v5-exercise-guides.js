@@ -34,7 +34,7 @@
       { phase: 'move', label: 'Move', image: phases(name).move, alt: `${name}: active movement position`, instruction: move },
       { phase: 'return', label: 'Return', image: phases(name).return, alt: `${name}: controlled return position`, instruction: returnInstruction }
     ],
-    tierPrescriptions: tierPrescriptions[type] || null,
+    guideType: type, tierPrescriptions: tierPrescriptions[type] || null,
     coachReviewStatus: 'content-complete', visualReviewStatus: 'awaiting-v5.1-art-audit', assetVersion: 'v5.1'
   });
   const g = guide;
@@ -138,7 +138,7 @@
     const name = item.name || item.title;
     const record = byName[name];
     if (!record) return item;
-    return { ...item, ...record, name: item.name || record.name, title: item.title, image: item.image || asset(record.name), image_path: item.image_path || item.image || asset(record.name), alt: item.alt || `${record.name} exercise illustration`, alt_text: item.alt_text || item.alt || `${record.name} exercise illustration` };
+    return { ...item, ...record, name: item.name || record.name, title: item.title, target_muscles: `${record.primaryTargets} · Secondary: ${record.secondaryTargets}`, image: item.image || asset(record.name), image_path: item.image_path || item.image || asset(record.name), alt: item.alt || `${record.name} exercise illustration`, alt_text: item.alt_text || item.alt || `${record.name} exercise illustration` };
   };
   for (const day of window.GYM_COMPANION_V5_ROUTINE || []) {
     day.slots = day.slots.map(slot => ({ ...slot, primary: merge(slot.primary), alternative: merge(slot.alternative), third: merge(slot.third) }));
