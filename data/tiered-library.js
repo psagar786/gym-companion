@@ -53,7 +53,8 @@
     day('Legs B · Glutes + Hamstrings',warmLegs,finishLegs,['Romanian deadlift','Dumbbell RDL','Glute bridge','Reverse lunge','Walking lunge','Lying leg curl','Seated leg curl','Hip-abductor machine','Standing calf raise','Seated calf raise','Cable crunch'])
   ];
   const v5days = (window.GYM_COMPANION_V5_ROUTINE || []).map(day => ({ ...day, candidates: day.slots.flatMap(slot => [slot.primary, slot.alternative, slot.third].filter(Boolean)) }));
-  window.GYM_COMPANION_TRAINING = { catalog, levels, templates: { v5ppl: { key:'v5ppl', name:'V5 Optimized PPL', days:v5days, fixedSlots:6 }, ppl: { key:'ppl', name:'Legacy PPL twice weekly', days:ppl }, fitness7: { key:'fitness7', name:'Fitness 7 split', days: window.GYM_COMPANION_ROUTINE || [] } }, habitDefaults: [
+  const biweeklyDays = (window.GYM_COMPANION_BIWEEKLY_ROUTINE?.days || []).filter(day => day.dayIndex < 6 && day.weekKey === 'A');
+  window.GYM_COMPANION_TRAINING = { catalog, levels, templates: { v5ppl: { key:'v5ppl', name:'V5 Optimized PPL', days:v5days, fixedSlots:6 }, ppl: { key:'ppl', name:'Legacy PPL twice weekly', days:ppl }, fitness7: { key:'fitness7', name:'Fitness 7 split', days: window.GYM_COMPANION_ROUTINE || [] }, biweekly: { key:'biweekly', name:'Bi-Weekly Activity (review)', days: biweeklyDays, fixedSlots:6, reviewOnly:true } }, habitDefaults: [
     {id:'amla-moringa',label:'Amla/Moringa taken'}, {id:'whey-creatine',label:'Whey + creatine taken'}, {id:'protein',label:'110–120g protein target met'}, {id:'water',label:'3L water target met'}, {id:'planned-snack',label:'Planned snack instead of biscuits/gathiya'}, {id:'low-cal-dinner',label:'Low-calorie planned dinner'}, {id:'sleep',label:'Recovery sleep target met'}, {id:'weekend-portions',label:'Restaurant portions managed (weekend)'}
   ] };
 })();
