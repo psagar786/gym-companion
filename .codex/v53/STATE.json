@@ -3,6 +3,8 @@
   "objective": "Fitness 7 V5.3 improvements built on the complete V5.2 baseline",
   "activeBranch": "feature/member-accounts-v53",
   "baselineCommit": "510348d",
+  "latestCommit": "1b05c82",
+  "checkpoint": "V53-S1-content-foundation",
   "currentStage": "stage-1-content",
   "currentWorkUnit": "V53-03-runtime-wiring",
   "nextWorkUnit": "V53-04-content-freeze",

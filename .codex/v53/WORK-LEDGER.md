@@ -4,7 +4,7 @@
 
 - Branch: `feature/member-accounts-v53`
 - Baseline: `510348d` (V5.2 working state)
-- Latest implementation commits: `fafa17a` (three-week data), `c025279` (audit validator)
+- Latest implementation commits: `fafa17a` (three-week data), `c025279` (audit validator), `1b05c82` (runtime wiring and checkpoint)
 - Current stage: Stage 1, exercise and content foundation
 - Checkpoint label: `V53-S1-content-foundation`
 
