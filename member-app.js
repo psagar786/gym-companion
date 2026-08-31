@@ -55,7 +55,7 @@ const dayOutcomes = [
 
 function notice() { return state.message ? `<p class="notice">${escapeHtml(state.message)}</p>` : ''; }
 function banner() { return state.demo ? '<aside class="preview-banner demo-banner"><b>Demo mode</b><span>Sample-only account — changes stay in this browser and are never sent to Fitness 7 or Supabase.</span></aside>' : ''; }
-function header() { const name = state.profile?.full_name || state.user?.email || 'Member'; return `<header class="topbar">${logo}<span class="version-badge">V5.1</span><div class="topbar-actions"><button class="pill" data-screen="plan">My plan</button><button class="avatar" data-screen="profile" aria-label="Open profile">${escapeHtml(name.slice(0,1).toUpperCase())}</button></div></header>`; }
+function header() { const name = state.profile?.full_name || state.user?.email || 'Member'; return `<header class="topbar">${logo}<span class="version-badge">V5.3 LAB</span><div class="topbar-actions"><button class="pill" data-screen="plan">My plan</button><button class="avatar" data-screen="profile" aria-label="Open profile">${escapeHtml(name.slice(0,1).toUpperCase())}</button></div></header>`; }
 function biweeklyReadiness() {
   const movements=biweeklyArtwork.movements||[];
   const approved=movements.filter(item=>item.artworkStatus==='complete'&&item.visualReviewStatus==='approved'&&item.coachReviewStatus==='approved');
