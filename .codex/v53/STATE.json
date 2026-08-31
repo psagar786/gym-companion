@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "objective": "Fitness 7 V5.3 improvements built on the complete V5.2 baseline",
+  "activeBranch": "feature/member-accounts-v53",
+  "baselineCommit": "510348d",
+  "currentStage": "stage-0-baseline-aligned",
+  "currentWorkUnit": null,
+  "nextWorkUnit": "V53-01",
+  "nextAtomicAction": "Review the V5.2 baseline with the user, then implement Stage 1 fixes additively without removing its workout, artwork, options, recovery, or history experience.",
+  "completedWorkUnits": ["V53-00-v52-realignment"],
+  "backupRef": "backup/v53-pre-v52-realignment",
+  "knownIssues": [
+    "Earlier V5.3 changes were intentionally backed up because they narrowed the V5.2 experience.",
+    "No Stage 1-3 changes have been reapplied after the baseline realignment."
+  ]
+}
