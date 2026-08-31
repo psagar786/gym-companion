@@ -5,7 +5,7 @@
 
 ## Gate result
 
-**Not activation-ready.** The new source has a useful normalized foundation, but the member runtime does not consume it and its content/artwork is intentionally incomplete.
+**Not activation-ready.** The normalized source is now consumed by the member runtime; content and artwork remain intentionally incomplete pending Stage 3 review.
 
 `node scripts/validate-threeweek-ppl.mjs --audit` currently reports:
 
@@ -13,7 +13,7 @@
 - 18 of 18 rendered training days from six shared day definitions.
 - 108 of 108 rendered core slots.
 - 86 unique active movement/guided identities reached by the schedule.
-- 555 activation errors and two manual-review warnings.
+- 551 activation errors and two manual-review warnings (remaining findings are expected until Stage 3 artwork/review is complete).
 
 | Gate | Count | Meaning |
 |---|---:|---|
@@ -21,7 +21,7 @@
 | Start/Movement assets | 172 | Exact V5.3 WebP pairs do not exist. |
 | Authored content | 75 | Required coaching fields are absent. |
 | Phase instructions | 46 | Start or Movement instruction is absent/generic. |
-| Runtime integration | 4 | Canonical source, tendon accounting, and two-frame detail defects remain. |
+| Runtime integration | 0 | Canonical source, tendon activity visibility, and Start/Movement detail resolution are wired. |
 
 The validator deduplicates movement identities before content/artwork checks. Counts are activation findings, not an estimate of images to generate.
 
@@ -34,23 +34,7 @@ The validator deduplicates movement identities before content/artwork checks. Co
 
 ## Release-blocking findings
 
-### Canonical source is not used by the member runtime
-
-The source exports `GYM_COMPANION_V53_THREEWEEK`, while `member-app.js` reads `GYM_COMPANION_V53_PLAN`. The live plan falls back to V5 routine records rather than resolving the new registry.
-
-Required fix: consume one canonical global and use its `resolveDay(dayIndex, {weekIndex,tier,overrides})` output for Home, Workout, Details, Extras, and snapshots.
-
-### Tendon completion is only partially integrated
-
-Independent tendon checks, snapshots, and activity visibility work. `ringStatus()` and `zoneCounts()` still omit tendon work. History does not list tendon completion, so weekly Warm-up progress understates scheduled preparation.
-
-Required rule: store tendon separately, but complete/count the Warm-up zone across both scheduled warm-up and tendon items.
-
-### Two-frame details are not connected
-
-New V5.3 records use Start + Movement. The detail pipeline still assumes Setup + Move + Return and does not explicitly read the Start image.
-
-Required fix: add a V5.3 two-frame adapter while leaving three-frame legacy snapshots readable.
+The runtime integration findings from the initial audit are resolved. The app now reads `window.GYM_COMPANION_V53_THREEWEEK`, resolves the persisted rotation and tier into future plans, stores tendon checks as visible activity without merging them into the three calendar rings, and adapts Start + Movement records into the existing detail route. Legacy snapshots remain readable.
 
 ### Content and artwork remain a production backlog
 
@@ -80,12 +64,10 @@ It cannot prove mechanics, perceptual pose difference, clear margins, or mobile 
 
 ## Next atomic actions
 
-1. Make `GYM_COMPANION_V53_THREEWEEK` the one runtime source and remove the temporary V5 wrapper.
-2. Correct tendon ring/count/history behavior.
-3. Add the Start + Movement detail adapter.
-4. Complete authored movement metadata before generating artwork.
-5. Produce exact image pairs in small approved waves; never activate placeholders.
-6. Run the default validator, then mobile/browser and manual visual reviews before deployment.
+1. Complete authored movement metadata and freeze the Stage 1 manifest.
+2. Run the mobile UI audit at all required phone widths and fix any critical usability findings.
+3. Produce exact image pairs in small approved waves; never activate placeholders.
+4. Run the default validator, then mobile/browser and manual visual reviews before deployment.
 
 ## Non-regression boundaries
 

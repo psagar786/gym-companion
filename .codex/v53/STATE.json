@@ -4,14 +4,16 @@
   "activeBranch": "feature/member-accounts-v53",
   "baselineCommit": "510348d",
   "currentStage": "stage-1-content",
-  "currentWorkUnit": null,
-  "nextWorkUnit": "V53-02",
-  "nextAtomicAction": "Audit the six V5.2 day records for excluded movements, duplicated slots, alternatives, and exercise-specific coaching content before changing the UI.",
-  "completedWorkUnits": ["V53-00-v52-realignment", "V53-01-stick-and-tendon-content"],
+  "currentWorkUnit": "V53-03-runtime-wiring",
+  "nextWorkUnit": "V53-04-content-freeze",
+  "nextAtomicAction": "Complete authored movement metadata and freeze the Stage 1 manifest before the mobile UI audit.",
+  "completedWorkUnits": ["V53-00-v52-realignment", "V53-01-stick-and-tendon-content", "V53-02-threeweek-ppl-data", "V53-02-runtime-audit", "V53-03-runtime-wiring"],
   "backupRef": "backup/v53-pre-v52-realignment",
   "knownIssues": [
     "Earlier V5.3 changes were intentionally backed up because they narrowed the V5.2 experience.",
-    "The visible V5.2 flow is preserved; the remaining Stage 1 audit must be additive.",
-    "Tendon detail currently uses the generated hold image as its card asset; distinct phase artwork belongs to Stage 3."
+    "The visible V5.2 flow is preserved; V5.3 adds the three-week PPL resolver and keeps legacy plans readable.",
+    "Tendon preparation is visible and separately checkable; it is intentionally excluded from the three calendar rings.",
+    "V5.3 artwork and visual/coach review remain pending; no placeholder or unrelated asset is approved for release.",
+    "Local preview server is available at http://localhost:4175/ when started with scripts/local-v53-server.mjs."
   ]
 }
