@@ -135,7 +135,7 @@
     "assets/exercises/periodized/biweekly-intervals-v1-start.png": "2ce0c186b3b5562eb63a439229dc328648ff778468197ce2c491c16da4e9cf60",
     "assets/exercises/periodized/biweekly-intervals-v1-movement.png": "631533cdea935016eaef13b1a80f3c9063409a9104656c11293c7d92a50ba5ee"
   },
-  "lastCommit": null,
+  "lastCommit": "d2c8f33",
   "knownIssues": [
     "B01 draft masters are 1254x1254 and 49 crops carry foreground-margin warnings; semantic and human gym-coach review remain pending.",
     "Batch B01 uses explicit periodized imageSet paths; no unrelated fallback artwork is used."
