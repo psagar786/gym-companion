@@ -51,7 +51,32 @@
     ['biweekly-incline-dumbbell-curl','Incline Dumbbell Curl'],
     ['periodized-incline-dumbbell-reverse-fly','Incline Dumbbell Reverse Fly'],
     ['biweekly-stick-dislocates','Stick Dislocates'],
-    ['biweekly-stick-lat-stretch','Stick Lat Stretch']
+    ['biweekly-stick-lat-stretch','Stick Lat Stretch'],
+    ['biweekly-dumbbell-pullover-on-flat-bench','Dumbbell Pullover on Flat Bench'],
+    ['biweekly-side-plank-hold-with-rotation','Side Plank Hold with Rotation'],
+    ['biweekly-stick-doorway-chest-stretch','Stick Doorway Chest Stretch'],
+    ['biweekly-cross-body-stretch','Cross-Body Stretch'],
+    ['biweekly-stick-standing-trunk-rotations','Stick Standing Trunk Rotations'],
+    ['biweekly-floor-reverse-crunch-with-pelvic-tilt','Floor Reverse Crunch with Pelvic Tilt'],
+    ['biweekly-stick-overhead-lateral-side-bends','Stick Overhead Lateral Side Bends'],
+    ['biweekly-standard-forearm-plank-to-rkc-hardstyle-plank','Standard Forearm Plank to RKC Hardstyle Plank'],
+    ['biweekly-transverse-abdominis-stomach-vacuums','Transverse Abdominis Stomach Vacuums'],
+    ['biweekly-stick-trunk-rotations','Stick Trunk Rotations'],
+    ['biweekly-stick-lat-oblique-reach','Stick Lat & Oblique Reach'],
+    ['biweekly-cat-cow-mobility','Cat-Cow Mobility'],
+    ['biweekly-child-s-pose','Child\'s Pose'],
+    ['periodized-glute-bridge','Glute Bridge'],
+    ['biweekly-seated-cable-row-to-mid-torso','Seated Cable Row to Mid-Torso'],
+    ['biweekly-dumbbell-stiff-leg-romanian-deadlift','Dumbbell Stiff-Leg Romanian Deadlift'],
+    ['biweekly-dumbbell-shrugs-with-2s-pause','Dumbbell Shrugs with 2s Pause'],
+    ['biweekly-stick-deep-squat-prys','Stick Deep Squat Prys'],
+    ['biweekly-stick-torso-twists','Stick Torso Twists'],
+    ['biweekly-bodyweight-air-squats-to-walking-lunges','Bodyweight Air Squats to Walking Lunges'],
+    ['biweekly-dead-bug-to-dragon-flag-negatives','Dead Bug to Dragon Flag Negatives'],
+    ['biweekly-stick-hamstring-stretch','Stick Hamstring Stretch'],
+    ['biweekly-pigeon-pose','Pigeon Pose'],
+    ['biweekly-figure-four-stretch','Figure-Four Stretch'],
+    ['biweekly-full-body-stick-mobility','Full-Body Stick Mobility']
   ];
   const movements = Object.fromEntries(names.map(([stableMovementId, name]) => ({
     [stableMovementId]: {
