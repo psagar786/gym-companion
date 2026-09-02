@@ -1,4 +1,4 @@
-/* ADAC artwork registry. Batch B01 is staged locally; review status stays
+/* ADAC artwork registry. B01-B05 are staged locally; review status stays
  * explicit so the periodized plan can be inspected without borrowing art. */
 (() => {
   const names = [
@@ -101,7 +101,32 @@
     ['periodized-leg-press','Leg Press'],
     ['biweekly-lying-leg-curl-machine','Lying Leg Curl Machine'],
     ['biweekly-reverse-lunges-with-dumbbells','Reverse Lunges with Dumbbells'],
-    ['biweekly-stick-overhead-deep-squats','Stick Overhead Deep Squats']
+    ['biweekly-stick-overhead-deep-squats','Stick Overhead Deep Squats'],
+    ['biweekly-stick-hip-swings','Stick Hip Swings'],
+    ['biweekly-sissy-squat','Sissy Squat'],
+    ['biweekly-seated-calf-raise-machine','Seated Calf Raise Machine'],
+    ['biweekly-standing-barbell-overhead-press','Standing Barbell Overhead Press'],
+    ['biweekly-neutral-grip-lat-pulldown-close-grip-v-bar','Neutral-Grip Lat Pulldown (Close-Grip V-Bar)'],
+    ['biweekly-chest-supported-t-bar-row','Chest-Supported T-Bar Row'],
+    ['biweekly-incline-smith-machine-press-45','Incline Smith Machine Press 45°'],
+    ['biweekly-bayesian-cable-curl','Bayesian Cable Curl'],
+    ['biweekly-incline-prone-dumbbell-reverse-fly','Incline Prone Dumbbell Reverse Fly'],
+    ['biweekly-incline-cable-pullover-with-stretched-bias','Incline Cable Pullover with Stretched Bias'],
+    ['biweekly-hanging-oblique-knee-raise','Hanging Oblique Knee Raise'],
+    ['biweekly-standing-cable-woodchopper-low-to-high','Standing Cable Woodchopper (Low-to-High)'],
+    ['biweekly-incline-bench-reverse-crunch-with-pelvic-curl','Incline Bench Reverse Crunch with Pelvic Curl'],
+    ['biweekly-cable-side-crunch-on-mat','Cable Side Crunch on Mat'],
+    ['periodized-dead-bug','Dead Bug'],
+    ['biweekly-hanging-windshield-wipers','Hanging Windshield Wipers'],
+    ['biweekly-kas-glute-bridge','Kas Glute Bridge'],
+    ['biweekly-single-arm-dumbbell-row','Single-Arm Dumbbell Row'],
+    ['periodized-conventional-deadlift','Conventional Deadlift'],
+    ['biweekly-cable-upright-row-wide-grip','Cable Upright Row (Wide-Grip)'],
+    ['biweekly-bulgarian-split-squats-with-1-5-rep-style','Bulgarian Split Squats with 1.5 Rep Style'],
+    ['biweekly-dragon-flag-negatives-on-flat-bench','Dragon Flag Negatives on Flat Bench'],
+    ['biweekly-incline-smith-machine-press','Incline Smith Machine Press'],
+    ['biweekly-incline-barbell-bench','Incline Barbell Bench'],
+    ['biweekly-deficit-push-ups','Deficit Push-Ups']
   ];
   const movements = Object.fromEntries(names.map(([stableMovementId, name]) => [stableMovementId, {
       stableMovementId,
@@ -109,12 +134,12 @@
       artworkStatus: 'review',
       visualReviewStatus: 'pending',
       semanticReviewStatus: 'pending',
-      assetVersion: 'periodized-abc-art-v1-b01',
+      assetVersion: 'periodized-abc-art-v1',
       alt: `Fitness 7 illustration: ${name}`,
       imageSet: {
         start: `assets/exercises/periodized/${stableMovementId}-v1-start.png`,
         movement: `assets/exercises/periodized/${stableMovementId}-v1-movement.png`
       }
     }]));
-  window.GYM_COMPANION_PERIODIZED_ARTWORK = { batch: 'B01', movements };
+  window.GYM_COMPANION_PERIODIZED_ARTWORK = { batch: 'B05', movements };
 })();

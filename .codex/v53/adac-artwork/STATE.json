@@ -31,9 +31,9 @@
   "generationStarted": true,
   "appCodeModified": true,
   "imagesGenerated": true,
-  "currentCheckpoint": "ADAC-ART-B05-MOVEMENT-GENERATED",
+  "currentCheckpoint": "ADAC-ART-B05-INTEGRATED",
   "currentBatch": "B05",
-  "currentStatus": "movement-generated",
+  "currentStatus": "integrated-review",
   "completedMovementIds": [
     "biweekly-incline-dumbbell-bench-press-30",
     "biweekly-wide-grip-lat-pulldown",
@@ -138,6 +138,31 @@
     "biweekly-lying-leg-curl-machine",
     "biweekly-reverse-lunges-with-dumbbells",
     "biweekly-stick-overhead-deep-squats",
+    "biweekly-stick-hip-swings",
+    "biweekly-sissy-squat",
+    "biweekly-seated-calf-raise-machine",
+    "biweekly-standing-barbell-overhead-press",
+    "biweekly-neutral-grip-lat-pulldown-close-grip-v-bar",
+    "biweekly-chest-supported-t-bar-row",
+    "biweekly-incline-smith-machine-press-45",
+    "biweekly-bayesian-cable-curl",
+    "biweekly-incline-prone-dumbbell-reverse-fly",
+    "biweekly-incline-cable-pullover-with-stretched-bias",
+    "biweekly-hanging-oblique-knee-raise",
+    "biweekly-standing-cable-woodchopper-low-to-high",
+    "biweekly-incline-bench-reverse-crunch-with-pelvic-curl",
+    "biweekly-cable-side-crunch-on-mat",
+    "periodized-dead-bug",
+    "biweekly-hanging-windshield-wipers",
+    "biweekly-kas-glute-bridge",
+    "biweekly-single-arm-dumbbell-row",
+    "periodized-conventional-deadlift",
+    "biweekly-cable-upright-row-wide-grip",
+    "biweekly-bulgarian-split-squats-with-1-5-rep-style",
+    "biweekly-dragon-flag-negatives-on-flat-bench",
+    "biweekly-incline-smith-machine-press",
+    "biweekly-incline-barbell-bench",
+    "biweekly-deficit-push-ups",
     "biweekly-assisted-pull-ups",
     "biweekly-band-resisted-pulldown",
     "biweekly-banded-pallof-press",
@@ -411,7 +436,7 @@
     "B02 source metadata has equipment inconsistencies; B03 includes subtle vacuum/shrug phases requiring inspection; B04 reminder records are activity scenes.",
     "Technical and semantic review are pending; no qualified gym-coach approval is claimed."
   ],
-  "nextAtomicAction": "Crop B05 Start and Movement masters using the locked row-major manifest, then run technical crop validation.",
+  "nextAtomicAction": "Run independent B05 semantic review at detail-page size; log tile repairs and equipment mismatches before B06.",
   "batchHistory": [
     {
       "batch": "B01",
@@ -444,6 +469,14 @@
       "phaseFiles": 50,
       "checkpoint": "ADAC-ART-B04-INTEGRATED",
       "commit": "215e7b4"
+    },
+    {
+      "batch": "B05",
+      "status": "integrated-review",
+      "movementCount": 25,
+      "phaseFiles": 50,
+      "checkpoint": "ADAC-ART-B05-INTEGRATED",
+      "commit": "pending"
     }
   ]
 }
