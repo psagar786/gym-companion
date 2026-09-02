@@ -70,4 +70,21 @@
       tendon('Core brace isometric', 'Abdominal wall and trunk stabilisers', 'Brace as if preparing for a light tap while breathing normally.', 'Never hold your breath; stop for pain or unusual breathlessness.')
     ]
   };
+  window.GYM_COMPANION_V53_CONTENT.tendon[3] = {
+    ...window.GYM_COMPANION_V53_CONTENT.tendon[3],
+    description: 'Stand with one hand on a stable support, rise onto both forefeet, and hold a calm mid-range calf raise.',
+    cardDescription: 'Optional calf isometric: 30 sec × 3 sets with 45 sec rest.',
+    duration: '30 sec × 3 sets · 45 sec rest',
+    why: 'Provides a small, controlled calf-loading practice before Thursday’s walking and pulling work; it is not treatment or guaranteed injury prevention.',
+    cue: 'Keep pressure through the big-toe mound and breathe normally while the ankles stay straight.',
+    commonMistake: 'Rolling onto the outer foot, bouncing, or holding the breath to tolerate more effort.',
+    safetyCue: 'Use a wall or rail. Keep effort gentle to moderate and stop for sharp Achilles pain, swelling, or altered sensation.',
+    progression: 'Complete three calm holds first; only then increase effort slightly, never effort and duration together.',
+    prescriptions: { beginner: '3 × 30 sec · 45 sec rest', intermediate: '3 × 30 sec · 45 sec rest', advanced: '3 × 30 sec · 45 sec rest' },
+    phaseBriefs: {
+      setup: { instruction: 'Stand tall beside a wall or rail with feet hip-width and weight evenly spread.', directionCue: 'Rise only after the feet and ankles are aligned.' },
+      move: { instruction: 'Lift to a comfortable calf-raise height and hold 30 seconds while breathing normally.', directionCue: 'Press straight down through the forefeet; do not let the ankles roll.' },
+      return: { instruction: 'Lower slowly, rest 45 seconds, and repeat for three total holds.', directionCue: 'Return under control with no drop or bounce.' }
+    }
+  };
 })();
