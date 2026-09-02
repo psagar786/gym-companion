@@ -430,46 +430,6 @@
       "commit": "b7dc2b0"
     },
     {
-      "batch": "B01",
-      "status": "integrated-review",
-      "movementCount": 25,
-      "phaseFiles": 50,
-      "checkpoint": "ADAC-ART-B01-INTEGRATED",
-      "commit": "d2c8f33"
-    },
-    {
-      "batch": "B02",
-      "status": "integrated-review",
-      "movementCount": 25,
-      "phaseFiles": 50,
-      "checkpoint": "ADAC-ART-B02-INTEGRATED",
-      "commit": "b7dc2b0"
-    },
-    {
-      "batch": "B03",
-      "status": "integrated-review",
-      "movementCount": 25,
-      "phaseFiles": 50,
-      "checkpoint": "ADAC-ART-B03-INTEGRATED",
-      "commit": "4c8d0b5"
-    },
-    {
-      "batch": "B01",
-      "status": "integrated-review",
-      "movementCount": 25,
-      "phaseFiles": 50,
-      "checkpoint": "ADAC-ART-B01-INTEGRATED",
-      "commit": "d2c8f33"
-    },
-    {
-      "batch": "B02",
-      "status": "integrated-review",
-      "movementCount": 25,
-      "phaseFiles": 50,
-      "checkpoint": "ADAC-ART-B02-INTEGRATED",
-      "commit": "b7dc2b0"
-    },
-    {
       "batch": "B03",
       "status": "integrated-review",
       "movementCount": 25,
