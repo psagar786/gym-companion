@@ -17,6 +17,7 @@ const training = window.GYM_COMPANION_TRAINING || { catalog: [], levels: {}, tem
 const v53Content = window.GYM_COMPANION_V53_CONTENT || { warmup: [], tendon: [] };
 const v53Plan = window.GYM_COMPANION_V53_THREEWEEK || window.GYM_COMPANION_V53_PLAN || { key:'threeweek-ppl', planVersion:'threeweek-ppl-v1', rotation:['Primary','Alternative 1','Option 2'], tendon:[], warmup:[] };
 const periodized = window.GYM_COMPANION_PERIODIZED_ABC || { key:'periodized-abc', planVersion:'periodized-abc-v1', cadence:['A','B','A','C'], days:[] };
+const periodizedArtwork = window.GYM_COMPANION_PERIODIZED_ARTWORK || { movements:{} };
 const app = document.querySelector('#app');
 const preferenceKey = 'gym-companion-v3-member-auth-storage';
 const createSupabase = remember => config.supabaseUrl && config.supabaseAnonKey && createClient ? createClient(config.supabaseUrl, config.supabaseAnonKey, { auth: { detectSessionInUrl:true, persistSession:true, storage: remember ? localStorage : sessionStorage } }) : null;
@@ -24,7 +25,7 @@ let supabase = createSupabase(localStorage.getItem(preferenceKey) === 'remembere
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[character]));
 function previewImage(item) {
   const imageSet=item?.imageSet||{};
-  return imageSet.move||imageSet.setup||imageSet.return||item?.image_path||item?.image||'';
+  return imageSet.movement||imageSet.move||imageSet.start||imageSet.setup||imageSet.return||item?.image_path||item?.image||'';
 }
 function imageMarkup(item, className='visual') {
   const path=previewImage(item), name=item?.title||item?.name||'Exercise';
@@ -108,6 +109,8 @@ function periodizedWeekKey(date=new Date()) {
 function periodizedDay(dayIndex, date=scheduledDate(dayIndex)) { const key=periodizedWeekKey(date); return periodized.days.find(day=>day.weekKey===key&&day.dayIndex===dayIndex) || periodized.days.find(day=>day.weekKey==='A'&&day.dayIndex===dayIndex); }
 function biweeklyRegistryRecord(name) {
   const slug=slugify(name);
+  const staged=Object.values(periodizedArtwork.movements||{}).find(record => record.stableMovementId===slug || record.name===name || (record.aliases||[]).includes(name));
+  if (staged) return staged;
   return (biweeklyArtwork.movements||[]).find(record => record.stableMovementId===slug || record.name===name || (record.aliases||[]).includes(name));
 }
 function biweeklyItem(item) {
@@ -119,7 +122,7 @@ function biweeklyItem(item) {
     stableMovementId:registry?.stableMovementId||item.stableMovementId||slugify(item.name),
     slug:slugify(item.name),
     name:item.name,
-    image_path:imageSet.move||item.image,
+    image_path:imageSet.movement||imageSet.move||imageSet.start||imageSet.setup||item.image,
     imageSet,
     alt_text:registry?.alt||item.alt_text||`Fitness 7 illustration: ${item.name}`,
     target_muscles:(item.targetGroups||registry?.targetGroups||[]).join(' + ')||'',
@@ -265,13 +268,20 @@ function detailRecord(item) {
   const supplied=Array.isArray(item.detailSteps)?item.detailSteps:[];
   const suppliedSet=item.imageSet||{};
   const phaseBriefs=item.phaseBriefs||{};
-  const phases=[
+  const explicitStart=item.imageSet?.start, explicitMove=item.imageSet?.movement;
+  const twoFrame=Boolean(explicitStart||explicitMove);
+  const phases=twoFrame ? [
+    ['start', 'Start', item.startInstruction||phaseBriefs.start?.instruction||phaseBriefs.setup?.instruction||`Set up ${equipment} with a stable base and your joints stacked.`],
+    ['movement', 'Movement', item.movementInstruction||phaseBriefs.movement?.instruction||phaseBriefs.move?.instruction||cue]
+  ] : [
     ['setup', 'Set up', item.setupInstruction||phaseBriefs.setup?.instruction||`Set up ${equipment} with a stable base and your joints stacked.`],
     ['move', 'Move', item.executionInstruction||phaseBriefs.move?.instruction||cue],
     ['return', 'Return', item.returnInstruction||phaseBriefs.return?.instruction||'Return slowly to the start and keep tension under control.']
   ];
-  const explicitStart=item.imageSet?.start, explicitMove=item.imageSet?.movement;
-  const imageSet={setup:suppliedSet.setup||explicitStart||phaseAsset(baseImage,'setup'),move:suppliedSet.move||explicitMove||phaseAsset(baseImage,'move'),return:suppliedSet.return||phaseAsset(baseImage,'return')};
+  const imageSet=twoFrame ? {
+    start:suppliedSet.start||explicitStart||suppliedSet.setup||phaseAsset(baseImage,'setup'),
+    movement:suppliedSet.movement||explicitMove||suppliedSet.move||phaseAsset(baseImage,'move')
+  } : {setup:suppliedSet.setup||phaseAsset(baseImage,'setup'),move:suppliedSet.move||phaseAsset(baseImage,'move'),return:suppliedSet.return||phaseAsset(baseImage,'return')};
   return {...item,name,image_path:baseImage,alt_text:item.alt_text||item.alt||`Fitness 7 illustration: ${name}`,target_muscles:target,scheme:item.scheme||item.duration||'',why:item.why||`Build control and prepare the ${target.toLowerCase()}.`,safetyCue:item.safetyCue||'Stop for sharp pain, dizziness, or unusual breathlessness.',imageSet,detailSteps:phases.map(([phase,label,instruction],index)=>({...supplied[index],phase,label,image:imageSet[phase],alt:supplied[index]?.alt||`Fitness 7 ${name} ${label.toLowerCase()} position`,instruction,directionCue:supplied[index]?.directionCue||phaseBriefs[phase]?.directionCue||'',gripCue:supplied[index]?.gripCue||phaseBriefs[phase]?.gripCue||''}))};
 }
 function optionalCandidates() {
