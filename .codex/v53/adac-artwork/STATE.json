@@ -430,7 +430,7 @@
     "assets/exercises/periodized/biweekly-stick-overhead-deep-squats-v1-start.png": "1a467c48bd5ae6e269cd2d868daa3b00e8f10b2f5daaae871b7485ec36438f25",
     "assets/exercises/periodized/biweekly-stick-overhead-deep-squats-v1-movement.png": "037aeb28e07b64da5237dfa58e0350cb9609bff8b94fea219d16ac7c4b3dd55e"
   },
-  "lastCommit": "6b3d732",
+  "lastCommit": "3540bd2",
   "knownIssues": [
     "B01-B04 masters are 1254x1254 draft boards; crop reports carry margin warnings and require manual visual review.",
     "B02 source metadata has equipment inconsistencies; B03 includes subtle vacuum/shrug phases requiring inspection; B04 reminder records are activity scenes.",
@@ -476,7 +476,7 @@
       "movementCount": 25,
       "phaseFiles": 50,
       "checkpoint": "ADAC-ART-B05-INTEGRATED",
-      "commit": "pending"
+      "commit": "3540bd2"
     }
   ]
 }
