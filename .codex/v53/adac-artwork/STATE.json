@@ -31,9 +31,9 @@
   "generationStarted": true,
   "appCodeModified": true,
   "imagesGenerated": true,
-  "currentCheckpoint": "ADAC-ART-B04-INTEGRATED",
-  "currentBatch": "B04",
-  "currentStatus": "integrated-review",
+  "currentCheckpoint": "ADAC-ART-B05-MOVEMENT-GENERATED",
+  "currentBatch": "B05",
+  "currentStatus": "movement-generated",
   "completedMovementIds": [
     "biweekly-incline-dumbbell-bench-press-30",
     "biweekly-wide-grip-lat-pulldown",
@@ -405,13 +405,13 @@
     "assets/exercises/periodized/biweekly-stick-overhead-deep-squats-v1-start.png": "1a467c48bd5ae6e269cd2d868daa3b00e8f10b2f5daaae871b7485ec36438f25",
     "assets/exercises/periodized/biweekly-stick-overhead-deep-squats-v1-movement.png": "037aeb28e07b64da5237dfa58e0350cb9609bff8b94fea219d16ac7c4b3dd55e"
   },
-  "lastCommit": "d2c8f33",
+  "lastCommit": "6b3d732",
   "knownIssues": [
     "B01-B04 masters are 1254x1254 draft boards; crop reports carry margin warnings and require manual visual review.",
     "B02 source metadata has equipment inconsistencies; B03 includes subtle vacuum/shrug phases requiring inspection; B04 reminder records are activity scenes.",
     "Technical and semantic review are pending; no qualified gym-coach approval is claimed."
   ],
-  "nextAtomicAction": "Run independent B04 semantic review at detail-page size; log tile repairs and equipment mismatches before the next batch.",
+  "nextAtomicAction": "Crop B05 Start and Movement masters using the locked row-major manifest, then run technical crop validation.",
   "batchHistory": [
     {
       "batch": "B01",
