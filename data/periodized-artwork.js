@@ -26,7 +26,32 @@
     ['biweekly-stick-overhead-side-bends','Stick Overhead Side Bends'],
     ['biweekly-stick-high-knee-marches','Stick High Knee Marches'],
     ['biweekly-incline-walk','Incline Walk'],
-    ['biweekly-intervals','Intervals']
+    ['biweekly-intervals','Intervals'],
+    ['biweekly-stick-standing-overhead-side-stretch','Stick Standing Overhead Side Stretch'],
+    ['biweekly-stick-spinal-twist','Stick Spinal Twist'],
+    ['biweekly-cobra-pose','Cobra Pose'],
+    ['biweekly-seated-hip-adductor-machine','Seated Hip Adductor Machine'],
+    ['biweekly-seated-hip-abductor-machine','Seated Hip Abductor Machine'],
+    ['biweekly-dumbbell-romanian-deadlift-rdl','Dumbbell Romanian Deadlift (RDL)'],
+    ['periodized-lying-leg-curl','Lying Leg Curl'],
+    ['biweekly-dumbbell-walking-lunges','Dumbbell Walking Lunges'],
+    ['biweekly-stick-overhead-deep-squat-prys','Stick Overhead Deep Squat Prys'],
+    ['biweekly-stick-good-mornings','Stick Good Mornings'],
+    ['biweekly-stick-lateral-leg-swings','Stick Lateral Leg Swings'],
+    ['biweekly-deficit-bulgarian-split-squats','Deficit Bulgarian Split Squats'],
+    ['biweekly-standing-machine-calf-raise','Standing Machine Calf Raise'],
+    ['biweekly-no-cardio-safeguard-knee-cns-recovery','NO CARDIO (Safeguard Knee & CNS Recovery)'],
+    ['biweekly-stick-quad-stretch','Stick Quad Stretch'],
+    ['biweekly-butterfly-groin-stretch','Butterfly Groin Stretch'],
+    ['biweekly-hamstring-stretch','Hamstring Stretch'],
+    ['biweekly-seated-dumbbell-overhead-shoulder-press','Seated Dumbbell Overhead Shoulder Press'],
+    ['biweekly-close-grip-v-bar-lat-pulldown','Close-Grip V-Bar Lat Pulldown'],
+    ['biweekly-seated-wide-grip-cable-row','Seated Wide-Grip Cable Row'],
+    ['periodized-cable-fly','Cable Fly'],
+    ['biweekly-incline-dumbbell-curl','Incline Dumbbell Curl'],
+    ['periodized-incline-dumbbell-reverse-fly','Incline Dumbbell Reverse Fly'],
+    ['biweekly-stick-dislocates','Stick Dislocates'],
+    ['biweekly-stick-lat-stretch','Stick Lat Stretch']
   ];
   const movements = Object.fromEntries(names.map(([stableMovementId, name]) => ({
     [stableMovementId]: {
