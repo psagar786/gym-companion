@@ -76,7 +76,32 @@
     ['biweekly-stick-hamstring-stretch','Stick Hamstring Stretch'],
     ['biweekly-pigeon-pose','Pigeon Pose'],
     ['biweekly-figure-four-stretch','Figure-Four Stretch'],
-    ['biweekly-full-body-stick-mobility','Full-Body Stick Mobility']
+    ['biweekly-full-body-stick-mobility','Full-Body Stick Mobility'],
+    ['biweekly-hydration','Hydration'],
+    ['biweekly-nutritional-adherence','Nutritional Adherence'],
+    ['biweekly-incline-barbell-bench-press-30','Incline Barbell Bench Press (30°)'],
+    ['biweekly-neutral-grip-mag-grip-lat-pulldown','Neutral-Grip Mag-Grip Lat Pulldown'],
+    ['biweekly-seated-cable-row-to-sternum-neutral-grip','Seated Cable Row to Sternum (Neutral Grip)'],
+    ['periodized-incline-dumbbell-press','Incline Dumbbell Press'],
+    ['biweekly-single-arm-iliac-cable-lat-pulldown','Single-Arm Iliac Cable Lat Pulldown'],
+    ['biweekly-standing-low-to-high-cable-crossover','Standing Low-to-High Cable Crossover'],
+    ['biweekly-stick-overhead-thoracic-extensions','Stick Overhead Thoracic Extensions'],
+    ['biweekly-hanging-straight-leg-toes-to-bar','Hanging Straight-Leg Toes-to-Bar'],
+    ['biweekly-stick-behind-the-back-opener','Stick Behind-the-Back Opener'],
+    ['biweekly-overhead-lat-lengthener','Overhead Lat Lengthener'],
+    ['biweekly-doorway-stretch','Doorway Stretch'],
+    ['biweekly-standing-cable-woodchopper-high-to-low','Standing Cable Woodchopper (High-to-Low)'],
+    ['periodized-hanging-knee-raise','Hanging Knee Raise'],
+    ['biweekly-half-kneeling-cable-pallof-press-with-overhead-raise','Half-Kneeling Cable Pallof Press with Overhead Raise'],
+    ['biweekly-side-plank-hip-dips-with-rotation','Side Plank Hip Dips with Rotation'],
+    ['biweekly-standing-seated-transverse-abdominis-stomach-vacuum','Standing & Seated Transverse Abdominis Stomach Vacuum'],
+    ['biweekly-decline-bench-weighted-crunch','Decline Bench Weighted Crunch'],
+    ['biweekly-stick-overhead-side-stretch','Stick Overhead Side Stretch'],
+    ['periodized-romanian-deadlift','Romanian Deadlift'],
+    ['periodized-leg-press','Leg Press'],
+    ['biweekly-lying-leg-curl-machine','Lying Leg Curl Machine'],
+    ['biweekly-reverse-lunges-with-dumbbells','Reverse Lunges with Dumbbells'],
+    ['biweekly-stick-overhead-deep-squats','Stick Overhead Deep Squats']
   ];
   const movements = Object.fromEntries(names.map(([stableMovementId, name]) => ({
     [stableMovementId]: {
