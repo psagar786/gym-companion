@@ -103,8 +103,7 @@
     ['biweekly-reverse-lunges-with-dumbbells','Reverse Lunges with Dumbbells'],
     ['biweekly-stick-overhead-deep-squats','Stick Overhead Deep Squats']
   ];
-  const movements = Object.fromEntries(names.map(([stableMovementId, name]) => ({
-    [stableMovementId]: {
+  const movements = Object.fromEntries(names.map(([stableMovementId, name]) => [stableMovementId, {
       stableMovementId,
       name,
       artworkStatus: 'review',
@@ -116,7 +115,6 @@
         start: `assets/exercises/periodized/${stableMovementId}-v1-start.png`,
         movement: `assets/exercises/periodized/${stableMovementId}-v1-movement.png`
       }
-    }
-  })));
+    }]));
   window.GYM_COMPANION_PERIODIZED_ARTWORK = { batch: 'B01', movements };
 })();
