@@ -35,3 +35,9 @@ Evidence will be added after each checkpoint with commands, viewport, result, an
 - Detail output now contains sets, reps/hold, rest, Start, Movement, progression, and one safety line.
 - `node --check member-app.js`: PASS after renderer changes.
 - `git diff --check`: PASS.
+
+## Browser verification blocker
+
+- Starting `node scripts/local-v53-server.mjs` on `127.0.0.1:4175` returned `EPERM` in this execution environment.
+- `curl http://localhost:4175/` confirmed no server was available.
+- The six viewport checks must be rerun in a local environment where port 4175 can bind; no production deployment was attempted.
