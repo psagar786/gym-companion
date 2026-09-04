@@ -27,3 +27,11 @@ Evidence will be added after each checkpoint with commands, viewport, result, an
 - `git diff --check`: PASS
 - `node scripts/validate-periodized-abc.mjs`: PASS; 24 training records and 26 equipment-review warnings.
 - Existing three-week validator still reports its known baseline missing-artwork/review queue; it is outside this UI/content pass and no new artwork was generated.
+
+## V53-LEAN-02-CARDS and V53-LEAN-03-DETAIL
+
+- Main card output now contains image, name, level, dose, rest, technique badge, details, variation controls, and Done.
+- Guided and optional cards now show image, name, dose, rest, details, and Done/Add controls without long descriptions.
+- Detail output now contains sets, reps/hold, rest, Start, Movement, progression, and one safety line.
+- `node --check member-app.js`: PASS after renderer changes.
+- `git diff --check`: PASS.
