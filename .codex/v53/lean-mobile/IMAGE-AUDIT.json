@@ -1,0 +1,11 @@
+{
+  "scope": "assets/exercises/periodized",
+  "status": "pending",
+  "files": 250,
+  "pairs": 125,
+  "entries": [],
+  "knownIssues": [
+    "White contact-sheet borders are present in some cropped tiles.",
+    "Incorrect mechanics and blurred tiles require later artwork review; this pass only repairs border-only crops."
+  ]
+}

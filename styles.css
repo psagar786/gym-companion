@@ -35,3 +35,44 @@
 .home-hero-clean{text-align:left;margin:18px 0 12px}.home-hero-clean h1{margin:4px 0;font-size:clamp(1.55rem,5vw,2.15rem)}.home-hero-clean p{margin:4px 0;color:var(--muted)}.plan-compact-card{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;padding:13px 15px;border:1px solid var(--line);border-radius:13px;background:#232323;color:var(--ink)}.plan-compact-card:hover{border-color:var(--orange)}.plan-compact-card span{display:grid;gap:3px}.plan-compact-card small,.plan-compact-card>span:last-child{color:var(--muted);font-size:.8rem}.equipment-review{display:inline-flex;margin:4px 0;padding:4px 7px;border-radius:999px;background:#4b3d16;color:#f4d781;font-size:.72rem;font-weight:800}.phase-meta{display:grid;gap:3px;margin-top:8px;color:var(--muted);font-size:.8rem}.phase-meta b{color:var(--ink)}
 .future-plan-preview{display:grid;gap:7px;padding:12px;border:1px solid var(--line);border-radius:12px;background:#1d1d1d}.future-plan-preview>div{display:grid;gap:2px}.future-plan-preview small{color:var(--muted);line-height:1.35}
 .artwork-review-link{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:8px;padding:10px 14px;border:1px dashed #56473e;border-radius:12px;background:#201e1c;color:var(--ink);text-align:left}.artwork-review-link:hover{border-color:var(--orange)}.artwork-review-link span{display:grid;gap:2px}.artwork-review-link small,.artwork-review-link>span:last-child{color:var(--muted);font-size:.78rem}.artwork-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}.artwork-heading h1{margin:3px 0}.artwork-heading p{max-width:640px;color:var(--muted);line-height:1.45}.artwork-count{flex:0 0 auto;padding:7px 9px;border:1px solid rgba(240,90,40,.45);border-radius:999px;color:#ffad8a;font-size:.78rem;font-weight:800}.artwork-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.artwork-card{display:grid;gap:11px;padding:12px}.artwork-card-title{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;align-items:center;border:0;padding:0;background:transparent;color:var(--ink);text-align:left}.artwork-cover{width:96px;height:96px}.artwork-card-title b{display:block;font-size:1rem;line-height:1.2}.artwork-card-title small{display:block;margin-top:5px;color:var(--muted);font-size:.78rem}.artwork-phase-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.artwork-phase{display:grid;gap:4px;border:0;padding:0;background:transparent;color:var(--muted);text-transform:capitalize;font-size:.7rem}.artwork-phase img{width:100%;aspect-ratio:1/1;object-fit:contain;border:1px solid #3c3c3c;border-radius:8px;background:#161616}.artwork-phase:hover img,.artwork-card-title:hover .artwork-cover{border-color:var(--orange)}.artwork-card .detail-button{justify-self:start;margin:0}.artwork-card-title:focus-visible,.artwork-phase:focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius:8px}@media(max-width:640px){.artwork-gallery{grid-template-columns:1fr}.artwork-heading{align-items:flex-start;flex-direction:column}.artwork-card-title{grid-template-columns:82px minmax(0,1fr)}.artwork-cover{width:82px;height:82px}}
+/* V5.3 lean mobile card system: one image size and one predictable layout. */
+:root{--exercise-thumb:96px}
+.exercise{grid-template-columns:var(--exercise-thumb) minmax(0,1fr);grid-template-areas:"visual copy" "visual check";align-items:start;min-width:0}
+.exercise>.visual-button{grid-area:visual;width:var(--exercise-thumb)!important;height:var(--exercise-thumb)!important;min-width:44px;min-height:44px}
+.exercise>.exercise-copy{grid-area:copy;min-width:0}
+.exercise>.check{grid-area:check;justify-self:start;margin-top:6px}
+.exercise h3{overflow-wrap:anywhere;line-height:1.18}
+.exercise-copy>p{margin:3px 0}
+.exercise-dose,.exercise-rest{color:var(--ink)!important;font-size:.92rem!important}
+.level-badge,.technique-badge{display:inline-flex;align-items:center;width:max-content;margin:4px 5px 3px 0;padding:4px 8px;border-radius:999px;background:#373737;border:1px solid #555;color:var(--muted);font-size:.72rem;font-weight:800}
+.technique-badge{color:#ffad8a;border-color:#7a4534}
+.choices{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.choices .pill{min-height:40px}
+.visual{width:100%;height:100%;min-width:0}
+.exercise>.visual-button .image-frame{width:100%;height:100%}
+.extra-option{grid-template-columns:var(--exercise-thumb) minmax(0,1fr);min-width:0}
+.extra-option .visual-button,.extra-option-visual{width:var(--exercise-thumb)!important;height:var(--exercise-thumb)!important;min-width:44px;min-height:44px}
+.extra-option-copy{min-width:0}
+.extra-option-copy b{overflow-wrap:anywhere;line-height:1.2}
+.guided-panel .exercise{grid-template-columns:var(--exercise-thumb) minmax(0,1fr);grid-template-areas:"visual copy" "visual check"}
+.guided-panel .exercise>.visual-button{width:var(--exercise-thumb)!important;height:var(--exercise-thumb)!important}
+.guided-panel .check{grid-column:auto}
+.day-card{position:relative}
+.today-badge{display:inline-flex;margin-left:7px;padding:3px 6px;border-radius:999px;background:var(--orange);color:#fff;font-size:.65rem;vertical-align:middle}
+.day-card.is-today{border-color:var(--orange);box-shadow:0 0 0 1px var(--orange) inset}
+.detail-hero h1{overflow-wrap:anywhere}
+.detail-phase-image{min-width:0}
+.safety-line{border-left:3px solid #f28b82;padding-left:10px}
+@media(max-width:430px){
+  :root{--exercise-thumb:88px}
+  .shell{padding-left:max(14px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right))}
+  .exercise,.guided-panel .exercise{gap:10px}
+  .exercise>.check{margin-top:5px}
+  .exercise h3{font-size:1rem}
+  .exercise-dose,.exercise-rest{font-size:.88rem!important}
+  .choices .pill{min-height:44px;padding:9px 11px}
+  .extra-option{grid-template-columns:80px minmax(0,1fr)}
+  .extra-option .visual-button,.extra-option-visual{width:80px!important;height:80px!important}
+}
+@media(max-width:359px){:root{--exercise-thumb:80px}.card{padding:13px}.exercise h3{font-size:.96rem}.extra-option{grid-template-columns:72px minmax(0,1fr)}.extra-option .visual-button,.extra-option-visual{width:72px!important;height:72px!important}}
+@media(min-width:641px){.exercise{grid-template-columns:var(--exercise-thumb) minmax(0,1fr);max-width:100%}.exercise>.check{justify-self:end;grid-area:copy;align-self:start}.exercise-copy{padding-right:4px}.choices{grid-column:auto}}
