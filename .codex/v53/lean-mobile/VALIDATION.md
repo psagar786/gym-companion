@@ -41,3 +41,11 @@ Evidence will be added after each checkpoint with commands, viewport, result, an
 - Starting `node scripts/local-v53-server.mjs` on `127.0.0.1:4175` returned `EPERM` in this execution environment.
 - `curl http://localhost:4175/` confirmed no server was available.
 - The six viewport checks must be rerun in a local environment where port 4175 can bind; no production deployment was attempted.
+
+## V53-LEAN-05-IMAGES and V53-LEAN-06-HOME
+
+- Periodized image inventory: 250 PNGs / 125 Start-Movement pairs.
+- Border-only repair: 77 files rewritten with proportional crop-and-pad; 173 files unchanged.
+- Post-repair technical check: 250 present, 512×512, 0 byte-identical duplicates.
+- Home renderer no longer includes the artwork-review card or production notice.
+- Home highlights Monday–Saturday today using local weekday and does not auto-open the workout.

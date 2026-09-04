@@ -19,8 +19,8 @@ This ledger is the handoff source for Luna Medium. Complete one work unit at a t
 | V53-LEAN-02-CARDS | complete | Main and guided cards use a shared compact layout with explicit dose/rest fields and variation controls. |
 | V53-LEAN-03-DETAIL | complete | Detail view now shows level, sets/reps/rest, Start/Movement frames, progression, and one safety warning. |
 | V53-LEAN-04-MOBILE | blocked | Local port binding was rejected by the execution environment; rerun browser smoke tests where localhost:4175 is available. |
-| V53-LEAN-05-IMAGES | pending | |
-| V53-LEAN-06-HOME | pending | |
+| V53-LEAN-05-IMAGES | complete | 250 periodized PNGs audited; 77 border-only crops repaired, 0 technical failures; semantic review remains separate. |
+| V53-LEAN-06-HOME | complete | Removed artwork-review card and highlighted the device's current weekday in code. |
 | V53-LEAN-07-LOCAL-REVIEW | pending | |
 | V53-LEAN-08-DEPLOYED | pending | Only after local review approval. |
 
@@ -33,10 +33,10 @@ This ledger is the handoff source for Luna Medium. Complete one work unit at a t
 | V53-LEAN-02-CARD-RENDERER | complete | Main, guided, and optional cards were simplified. |
 | V53-LEAN-03-DETAIL-RENDERER | complete | Removed dense metadata from visible detail output while preserving data fields. |
 | V53-LEAN-04-MOBILE-CSS | complete | Consolidated responsive overrides added; browser screenshot validation is still pending because port 4175 could not be started here. |
-| V53-LEAN-05-IMAGE-AUDIT | pending | |
-| V53-LEAN-06-HOME-CLEANUP | pending | |
+| V53-LEAN-05-IMAGE-AUDIT | complete | `repair-periodized-border-crops.mjs` repaired connected white edge strips without changing runtime paths. |
+| V53-LEAN-06-HOME-CLEANUP | complete | Standard Home contains plan control, day cards, and calendar only. |
 | V53-LEAN-07-REGRESSION | pending | |
 
 ## Next action
 
-Run the six-viewport browser smoke test in an environment that permits port 4175, then complete V53-LEAN-04-MOBILE.
+Run the six-viewport browser smoke test in an environment that permits port 4175, then complete V53-LEAN-07-REGRESSION.
