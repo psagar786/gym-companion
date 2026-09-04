@@ -11,6 +11,6 @@
     "Local preview binding to 127.0.0.1:4175 is blocked by the current execution sandbox; browser smoke testing remains pending outside this environment.",
     "Existing three-week validator reports its pre-existing artwork/review queue; no artwork was generated in this lean UI pass."
   ],
-  "lastCommit": "17fa1a1",
+  "lastCommit": "c1b21ca",
   "nextAtomicAction": "Run the six-viewport browser smoke test in an environment that permits port 4175, then complete V53-LEAN-06-HOME-CLEANUP and V53-LEAN-07-REGRESSION"
 }
