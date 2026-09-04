@@ -200,7 +200,7 @@ function prescriptionTierKey(tier) { return tier==='expert' ? 'advanced' : tier;
 function parsePrescriptionText(value) {
   const text=String(value||'').replace(/×/g,'x').replace(/\s+/g,' ').trim();
   if(!text) return null;
-  const restMatch=text.match(/rest\s*:?\s*(\d+(?:\s*[–-]\s*\d+)?)\s*(?:sec|s|seconds?)/i);
+  const restMatch=text.match(/rest\s*:?\s*(\d+(?:\s*[–-]\s*\d+)?)\s*(?:sec|s|seconds?)/i) || text.match(/(\d+(?:\s*[–-]\s*\d+)?)\s*(?:sec|s|seconds?)\s*rest/i);
   const rest=restMatch?.[1] ? `${restMatch[1].replace(/\s*[–-]\s*/,'–')} sec` : null;
   const setMatch=text.match(/(\d+(?:\s*[–-]\s*\d+)?)\s*(?:sets?|rounds?)\b/i) || text.match(/^(\d+(?:\s*[–-]\s*\d+)?)\s*x\s*/i);
   const sets=setMatch?.[1]?.replace(/\s*[–-]\s*/,'–')||null;
@@ -240,9 +240,10 @@ function progressionFor(item) {
 }
 function tierPrescription(item, tier=state.preferences.tier) {
   const parsed=authoredPrescription(item,tier)||rolePrescriptionDefault(item,tier), defaults=tierDefaults[tier]||tierDefaults.intermediate;
-  const sets=parsed.sets||'1', reps=parsed.reps||null, duration=parsed.duration||null, rest=parsed.rest||'As needed';
-  const dose=duration ? `${sets} sets × ${duration}` : `${sets} sets × ${reps||'as prescribed'}`;
-  return { ...parsed, sets, reps, duration, rest, level:defaults.label, scheme:`${dose} · ${rest}`, displayDose:dose, displayRest:`${rest} rest`, rir:defaults.rir, tempo:defaults.tempo, progression:progressionFor(item), intensity:tier==='expert'&&movementClass(item)==='isolation'?'Final isolation set may approach technical fatigue; no forced reps.':'' };
+  const isCardio=movementClass(item)==='guided'&&/cardio|walk|bike|treadmill/i.test(`${item?.name||''} ${item?.title||''} ${item?.equipment||''}`);
+  const sets=isCardio&& !parsed.sets ? '' : (parsed.sets||'1'), reps=parsed.reps||null, duration=parsed.duration||null, rest=parsed.rest||'As needed';
+  const dose=duration ? (sets ? `${sets} ${sets==='1'?'set':'sets'} × ${duration}` : duration) : `${sets} ${sets==='1'?'set':'sets'} × ${reps||'as prescribed'}`;
+  return { ...parsed, sets, reps, duration, rest, level:defaults.label, scheme:`${dose} · ${rest}`, displayDose:dose, displayRest:rest==='As needed'?'Rest as needed':`${rest} rest`, rir:defaults.rir, tempo:defaults.tempo, progression:progressionFor(item), intensity:tier==='expert'&&movementClass(item)==='isolation'?'Final isolation set may approach technical fatigue; no forced reps.':'' };
 }
 function prescribeExercise(item,tier=state.preferences.tier) { if(!item)return item; const prescription=tierPrescription(item,tier); return {...item,scheme:prescription.scheme,tierPrescription:prescription}; }
 function prescribePlan(plan,tier=state.preferences.tier) { if(!plan)return plan; return {...plan,member_plan_slots:planSlots(plan).map(slot=>({...slot,exercise:prescribeExercise(slot.exercise,tier),alternative:prescribeExercise(slot.alternative,tier),third:prescribeExercise(slot.third,tier)}))}; }
