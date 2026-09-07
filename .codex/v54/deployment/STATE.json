@@ -19,7 +19,7 @@
   },
   "previewUrl": "https://fitness7-gym-companion-member-gabgjx79u-sagar-pm.vercel.app",
   "productionUrl": "https://fitness7-gym-companion-member.vercel.app",
-  "releaseCommit": "41d632043859a90bb49a1c6e1b4ae62bc169ac10",
+  "releaseCommit": "083fad7da2a31d775290a3454167d940a8a15e86",
   "previousProductionDeployment": "",
   "knownIssues": [
     "Three-week audit still reports missing artwork and pending visual/coach review statuses; production promotion remains gated.",
