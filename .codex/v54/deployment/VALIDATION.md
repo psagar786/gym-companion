@@ -21,5 +21,11 @@
 - Three-week routine: audit completed; missing assets and pending visual/coach review statuses remain and must be resolved or gated before production.
 - Existing V5.1 artwork: technical files pass, with 203 margin warnings and pending visual/coach review statuses.
 - `git diff --check`: pass.
+- Permanent Vercel project: created under `sagar-pm`, connected to `psagar786/gym-companion`, production branch `main`.
+- Preview deployment: ready at `https://fitness7-gym-companion-member-63frb2n97-sagar-pm.vercel.app`.
+- Public `/api/config`: pass; `appMode=member`, `demoMode=true`; no credentials printed or configured.
+- Public homepage: HTTP 200.
+- Vercel SSO protection: disabled for this public showcase project.
+- Initial production deployment: ready at `https://fitness7-gym-companion-member.vercel.app`; it is the first deployment for the new project and has no prior rollback target.
 
 The three-week audit is intentionally recorded as a release-readiness issue, not silently treated as a production pass.

@@ -2,8 +2,11 @@
   "previousProductionUrl": "",
   "previousDeploymentId": "",
   "previousGitSha": "",
-  "v54PreviewUrl": "",
-  "v54PreviewSha": "",
+  "v54PreviewUrl": "https://fitness7-gym-companion-member-63frb2n97-sagar-pm.vercel.app",
+  "v54PreviewSha": "41d632043859a90bb49a1c6e1b4ae62bc169ac10",
+  "initialProductionUrl": "https://fitness7-gym-companion-member.vercel.app",
+  "initialProductionDeploymentId": "dpl_C5qqwyGAXmFsRWixgdjd5nsQ6ust",
+  "initialProductionSha": "41d632043859a90bb49a1c6e1b4ae62bc169ac10",
   "rollbackCommand": "vercel rollback <deployment-url-or-id>",
   "status": "pending-capture-before-promotion"
 }

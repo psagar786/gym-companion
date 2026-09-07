@@ -5,8 +5,8 @@
   "branch": "feature/member-accounts-v54",
   "vercelTeam": "sagar-pm",
   "vercelProject": "fitness7-gym-companion-member",
-  "currentCheckpoint": "V54-DEPLOY-01-SOURCE-VALIDATED",
-  "completedUnits": ["V54-D01", "V54-D02", "V54-D03", "V54-D04"],
+  "currentCheckpoint": "V54-DEPLOY-02-PREVIEW-CREATED",
+  "completedUnits": ["V54-D01", "V54-D02", "V54-D03", "V54-D04", "V54-D06", "V54-D07", "V54-D08", "V54-D09", "V54-D10", "V54-D11"],
   "failedUnits": [],
   "changedFiles": ["member-app.js", "scripts/local-v53-server.mjs", "scripts/validate-member-release.mjs", ".github/workflows/member-ci.yml", ".codex/v54/deployment/"],
   "validationResults": {
@@ -17,10 +17,15 @@
     "threeWeekPpl": "audit_reports_missing_artwork_and_pending_review_statuses",
     "v51Artwork": "technical_pass_with_203_margin_warnings_and_pending_reviews"
   },
-  "previewUrl": "",
-  "productionUrl": "",
-  "releaseCommit": "",
+  "previewUrl": "https://fitness7-gym-companion-member-63frb2n97-sagar-pm.vercel.app",
+  "productionUrl": "https://fitness7-gym-companion-member.vercel.app",
+  "releaseCommit": "41d632043859a90bb49a1c6e1b4ae62bc169ac10",
   "previousProductionDeployment": "",
-  "knownIssues": [],
-  "nextAtomicAction": "Resolve or gate incomplete three-week selectable artwork before the release commit"
+  "knownIssues": [
+    "Three-week audit still reports missing artwork and pending visual/coach review statuses; production promotion remains gated.",
+    "Periodized source carries 26 equipment-review warnings.",
+    "New member project currently has demo mode enabled but no Supabase URL/anonymous key configured; real account sign-in is intentionally not enabled yet.",
+    "Initial direct deployment created the first production deployment because the project had no previous production; future releases must promote from main after pull-request review."
+  ],
+  "nextAtomicAction": "Resolve or explicitly gate incomplete three-week selectable artwork before opening the production pull request"
 }
