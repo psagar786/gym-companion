@@ -1,0 +1,8 @@
+{
+  "batch": "B04",
+  "start": {"file": "start-master.png", "width": 1254, "height": 1254, "technicalStatus": "PASS"},
+  "movement": {"file": "movement-master.png", "width": 1254, "height": 1254, "technicalStatus": "PASS"},
+  "grid": "5x5 row-major",
+  "mapping": "batch-manifest.json",
+  "notes": "Activity reminders use activity scenes; exercise cells use distinct working positions."
+}

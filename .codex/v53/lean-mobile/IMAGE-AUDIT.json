@@ -1,0 +1,26 @@
+{
+  "scope": "assets/exercises/periodized",
+  "status": "border-repair-complete",
+  "files": 250,
+  "pairs": 125,
+  "repairedBorderOnly": 77,
+  "skippedWithoutBorder": 173,
+  "technicalFailures": 0,
+  "postRepair": {
+    "allFilesPresent": true,
+    "allFiles512Square": true,
+    "duplicateByteIdentical": 0,
+    "runtimePathsChanged": false
+  },
+  "repairRule": "Removed only connected near-white edge strips up to 8px and proportionally padded back to 512px charcoal canvas.",
+  "knownIssues": [
+    "Mechanically incorrect, blurred, or phase-duplicate artwork is not automatically approved.",
+    "Semantic artwork review and the six-viewport browser review remain pending until port 4175 is available."
+  ],
+  "sampleRepairs": [
+    "biweekly-stick-standing-trunk-rotations-v1-movement.png",
+    "biweekly-stick-standing-trunk-rotations-v1-start.png",
+    "biweekly-cable-pallof-press-with-iso-hold-v1-movement.png",
+    "biweekly-floor-reverse-crunch-with-pelvic-tilt-v1-movement.png"
+  ]
+}

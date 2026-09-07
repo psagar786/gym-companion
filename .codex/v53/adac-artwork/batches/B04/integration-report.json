@@ -1,0 +1,12 @@
+{
+  "batch": "B04",
+  "status": "integrated-review",
+  "movementCount": 25,
+  "phaseFiles": 50,
+  "namespace": "assets/exercises/periodized/",
+  "registry": "data/periodized-artwork.js",
+  "artworkStatus": "review",
+  "visualReviewStatus": "pending",
+  "semanticReviewStatus": "pending",
+  "notes": "B04 is staged with explicit Start and Movement paths; existing app versions remain untouched."
+}

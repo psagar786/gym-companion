@@ -1,0 +1,12 @@
+{
+  "batch": "B05",
+  "phaseFiles": 50,
+  "cropSize": "512x512",
+  "mapping": "row-major R1C1-R5C5",
+  "byteDuplicates": 0,
+  "failures": 0,
+  "marginWarnings": 50,
+  "draftUpscaled": true,
+  "sourceMasters": "1254x1254",
+  "detail": "See batches/periodized/B05/crops/crop-manifest.json for source and crop hashes."
+}

@@ -1,22 +1,25 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101010">
-  <meta name="description" content="A visual daily workout companion for Fitness 7 members.">
-  <title>Gym Companion — Fitness 7 Routine</title>
-  <style>
-    :root{--bg:#101010;--card:#1b1b1b;--line:#343434;--ink:#f8f5ef;--muted:#b8b2aa;--orange:#f45112}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0,#2b211e 0,var(--bg) 34rem);color:var(--ink);font:16px/1.4 Inter,system-ui,sans-serif}.shell{max-width:1120px;margin:auto;padding:18px}.hero{position:relative;display:flex;justify-content:center;min-height:170px;align-items:center}.logo{width:min(78vw,460px);height:auto}.date{position:absolute;right:0;top:10px;color:#ff9b74;font-size:.75rem;text-align:right}.date small{display:block;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}.days{display:flex;overflow-x:auto;gap:8px;padding:8px 0 14px}.day{min-width:105px;border:1px solid var(--line);border-radius:12px;background:#181818;color:var(--ink);padding:10px;text-align:left;cursor:pointer}.day small{display:block;color:var(--muted);margin-top:3px}.day.active{border-color:var(--orange);background:#291914}.layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:18px}.eyebrow{color:#ff9b74;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;font-weight:800}.head h1{margin:4px 0;font-size:clamp(2rem,5vw,3rem);line-height:1}.tag{display:inline-block;margin-top:8px;border-radius:99px;background:#412517;color:#ffae8c;padding:5px 9px;font-size:.76rem}.card{background:linear-gradient(145deg,#202020,#171717);border:1px solid var(--line);border-radius:16px}.warm,.finish,.side .card{padding:15px;margin:12px 0}.warm b,.finish h2{font-size:.82rem;text-transform:uppercase;letter-spacing:.09em;color:#ff9b74;margin:0}.warm p,.finish p,.side p{color:var(--muted);margin:6px 0 0}.slot{margin:12px 0;overflow:hidden}.slot-top{display:flex;gap:10px;align-items:center;padding:12px}.num{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#33231d;color:#ff9b74;font-weight:800;font-size:.76rem}.slot-top div:nth-child(2){flex:1}.slot-top h2{font-size:.95rem;margin:0}.slot-top small{color:var(--muted)}input[type=checkbox]{width:21px;height:21px;accent-color:var(--orange)}.options{display:grid;grid-template-columns:repeat(var(--count,2),1fr);border-top:1px solid var(--line)}.option{position:relative;padding:10px;background:#151515;cursor:pointer}.option+.option{border-left:1px solid var(--line)}.option input{position:absolute;opacity:0}.option:has(input:checked){background:#2b201b}.option:has(input:checked)::after{content:'SELECTED';position:absolute;top:9px;right:9px;color:#ff9b74;font-size:.58rem;font-weight:800}.visual{width:min(100%,220px);aspect-ratio:1;margin:0 auto 7px;border-radius:10px;background:#151515 center/contain no-repeat}.option b{display:block;font-size:.9rem}.option span{display:block;color:var(--muted);font-size:.76rem;margin-top:4px}.side{position:sticky;top:12px;height:max-content}.progress{height:7px;background:#3b3b3b;border-radius:99px;overflow:hidden;margin-top:10px}.progress i{display:block;height:100%;background:var(--orange);width:0}.button{width:100%;border:1px solid var(--line);border-radius:10px;background:#292929;color:var(--ink);padding:10px;cursor:pointer;font-weight:700;margin-top:8px}.notice{font-size:.76rem;color:var(--muted)}@media(max-width:760px){.layout{grid-template-columns:1fr}.side{position:static}.side .card{margin:10px 0}}@media(max-width:500px){.shell{padding:13px}.hero{min-height:140px}.date{top:3px}.options{grid-template-columns:1fr!important}.option+.option{border-left:0;border-top:1px solid var(--line)}}@media print{body{background:#fff;color:#111}.days,.side,.date{display:none}.card{background:#fff;border-color:#aaa}.options{grid-template-columns:repeat(var(--count,2),1fr)!important}.option{background:#fff}.visual{display:none}}
-  </style>
-</head>
-<body>
-  <main class="shell">
-    <header class="hero"><img class="logo" src="assets/fitness7-hero-logo.png" alt="Fitness 7"><div class="date"><small>Training date</small><span id="date"></span></div></header>
-    <nav id="days" class="days" aria-label="Training days"></nav>
-    <section class="layout"><div><header class="head" id="head"></header><div id="warm" class="card warm"></div><div id="slots"></div><section id="finish" class="card finish"></section></div><aside class="side"><section class="card"><b>Today’s score</b><p id="score"></p><div class="progress"><i id="bar"></i></div></section><section class="card"><b>Trainer rule</b><p>Build clean reps first. When all sets reach the top of the range, add the smallest practical load.</p><button class="button" id="print">Print today</button><button class="button" id="reset">Reset saved tracker</button></section><p class="notice">Your choices and checkmarks stay only on this device.</p></aside></section>
-  </main>
-  <script src="data/routine.js"></script>
-  <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#191919">
+    <meta name="description" content="Fitness 7 Gym Companion — personalised workouts for members.">
+    <title>Gym Companion · Fitness 7</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="app" aria-live="polite"><div class="loading">Loading Gym Companion…</div></div>
+    <script src="data/routine.js"></script>
+    <script src="data/v5-routine.js"></script>
+    <script src="data/biweekly-routine.js"></script>
+    <script src="data/biweekly-artwork-registry.js"></script>
+    <script src="data/tiered-library.js"></script>
+    <script src="data/v5-exercise-guides.js"></script>
+    <script src="data/v53-content.js"></script>
+    <script src="data/v53-threeweek.js"></script>
+    <script src="data/periodized-abc.js"></script>
+    <script src="data/periodized-artwork.js"></script>
+    <script type="module" src="bootstrap.js"></script>
+  </body>
 </html>
