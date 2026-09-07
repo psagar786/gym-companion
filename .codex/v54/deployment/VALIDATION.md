@@ -27,5 +27,6 @@
 - Public homepage: HTTP 200.
 - Vercel SSO protection: disabled for this public showcase project.
 - Initial production deployment: ready at `https://fitness7-gym-companion-member.vercel.app`; it is the first deployment for the new project and has no prior rollback target.
+- Git-triggered preview: ready at `https://fitness7-gym-companion-member-gabgjx79u-sagar-pm.vercel.app` (`dpl_6R8SinJbGqoQBAYr11avWem2d13Y`).
 
 The three-week audit is intentionally recorded as a release-readiness issue, not silently treated as a production pass.

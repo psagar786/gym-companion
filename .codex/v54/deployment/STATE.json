@@ -17,7 +17,7 @@
     "threeWeekPpl": "audit_reports_missing_artwork_and_pending_review_statuses",
     "v51Artwork": "technical_pass_with_203_margin_warnings_and_pending_reviews"
   },
-  "previewUrl": "https://fitness7-gym-companion-member-63frb2n97-sagar-pm.vercel.app",
+  "previewUrl": "https://fitness7-gym-companion-member-gabgjx79u-sagar-pm.vercel.app",
   "productionUrl": "https://fitness7-gym-companion-member.vercel.app",
   "releaseCommit": "41d632043859a90bb49a1c6e1b4ae62bc169ac10",
   "previousProductionDeployment": "",
@@ -25,7 +25,8 @@
     "Three-week audit still reports missing artwork and pending visual/coach review statuses; production promotion remains gated.",
     "Periodized source carries 26 equipment-review warnings.",
     "New member project currently has demo mode enabled but no Supabase URL/anonymous key configured; real account sign-in is intentionally not enabled yet.",
-    "Initial direct deployment created the first production deployment because the project had no previous production; future releases must promote from main after pull-request review."
+    "Initial direct deployment created the first production deployment because the project had no previous production; future releases must promote from main after pull-request review.",
+    "Latest Git-triggered preview is ready; full interactive demo smoke and selectable-artwork gate remain before a production pull request."
   ],
   "nextAtomicAction": "Resolve or explicitly gate incomplete three-week selectable artwork before opening the production pull request"
 }
