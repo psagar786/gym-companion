@@ -24,5 +24,5 @@ createServer(async (req, res) => {
     res.end(error.code === 'ENOENT' ? 'Not found' : 'Local preview error');
   }
 }).listen(Number(process.env.PORT || 4175), '127.0.0.1', () => {
-  console.log(`Fitness 7 V5.3 local preview: http://localhost:${process.env.PORT || 4175}`);
+  console.log(`Fitness 7 V5.4 local preview: http://localhost:${process.env.PORT || 4175}`);
 });

@@ -1,0 +1,9 @@
+{
+  "previousProductionUrl": "",
+  "previousDeploymentId": "",
+  "previousGitSha": "",
+  "v54PreviewUrl": "",
+  "v54PreviewSha": "",
+  "rollbackCommand": "vercel rollback <deployment-url-or-id>",
+  "status": "pending-capture-before-promotion"
+}

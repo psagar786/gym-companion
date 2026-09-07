@@ -19,6 +19,7 @@ const v53Plan = window.GYM_COMPANION_V53_THREEWEEK || window.GYM_COMPANION_V53_P
 const periodized = window.GYM_COMPANION_PERIODIZED_ABC || { key:'periodized-abc', planVersion:'periodized-abc-v1', cadence:['A','B','A','C'], days:[] };
 const periodizedArtwork = window.GYM_COMPANION_PERIODIZED_ARTWORK || { movements:{} };
 const app = document.querySelector('#app');
+const RELEASE_VERSION = '5.4';
 const preferenceKey = 'gym-companion-v3-member-auth-storage';
 const createSupabase = remember => config.supabaseUrl && config.supabaseAnonKey && createClient ? createClient(config.supabaseUrl, config.supabaseAnonKey, { auth: { detectSessionInUrl:true, persistSession:true, storage: remember ? localStorage : sessionStorage } }) : null;
 let supabase = createSupabase(localStorage.getItem(preferenceKey) === 'remembered');
@@ -66,7 +67,7 @@ const dayOutcomes = [
 
 function notice() { return state.message ? `<p class="notice">${escapeHtml(state.message)}</p>` : ''; }
 function banner() { return state.demo ? '<aside class="preview-banner demo-banner"><b>Demo mode</b><span>Sample-only account — changes stay in this browser and are never sent to Fitness 7 or Supabase.</span></aside>' : ''; }
-function header() { const name = state.profile?.full_name || state.user?.email || 'Member'; return `<header class="topbar">${logo}<span class="version-badge">V5.3 LAB</span><div class="topbar-actions"><button class="pill" data-screen="plan">My plan</button><button class="avatar" data-screen="profile" aria-label="Open profile">${escapeHtml(name.slice(0,1).toUpperCase())}</button></div></header>`; }
+function header() { const name = state.profile?.full_name || state.user?.email || 'Member'; return `<header class="topbar">${logo}<span class="version-badge">V${RELEASE_VERSION}</span><div class="topbar-actions"><button class="pill" data-screen="plan">My plan</button><button class="avatar" data-screen="profile" aria-label="Open profile">${escapeHtml(name.slice(0,1).toUpperCase())}</button></div></header>`; }
 function biweeklyReadiness() {
   const movements=biweeklyArtwork.movements||[];
   const approved=movements.filter(item=>item.artworkStatus==='complete'&&item.visualReviewStatus==='approved'&&item.coachReviewStatus==='approved');
