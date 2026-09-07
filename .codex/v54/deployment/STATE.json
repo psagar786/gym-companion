@@ -5,7 +5,7 @@
   "branch": "feature/member-accounts-v54",
   "vercelTeam": "sagar-pm",
   "vercelProject": "fitness7-gym-companion-member",
-  "currentCheckpoint": "V54-DEPLOY-02-PREVIEW-CREATED",
+  "currentCheckpoint": "V54-DEPLOY-03-PREVIEW-VERIFIED",
   "completedUnits": ["V54-D01", "V54-D02", "V54-D03", "V54-D04", "V54-D06", "V54-D07", "V54-D08", "V54-D09", "V54-D10", "V54-D11"],
   "failedUnits": [],
   "changedFiles": ["member-app.js", "scripts/local-v53-server.mjs", "scripts/validate-member-release.mjs", ".github/workflows/member-ci.yml", ".codex/v54/deployment/"],
