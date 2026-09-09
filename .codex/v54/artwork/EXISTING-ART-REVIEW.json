@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "v54-periodized-existing-art-review-v1",
+  "namespace": "assets/exercises/periodized/",
+  "pairCount": 125,
+  "fileCount": 250,
+  "technicalBaseline": {
+    "allPng": true,
+    "all512Square": true,
+    "byteDuplicateFiles": 0,
+    "status": "technical-check-recorded"
+  },
+  "semanticReview": {
+    "passed": 0,
+    "mismatchBacklog": 0,
+    "status": "not-started",
+    "policy": "Review read-only; do not overwrite existing files during prompt wave."
+  },
+  "preservationPolicy": [
+    "Preserve exact non-proxy movement pairs.",
+    "Log wrong movement, wrong equipment, wrong phase, or duplicate-pose findings for a later repair run.",
+    "Existing paths and hashes are not changed by this prompt-derived generation wave."
+  ]
+}
