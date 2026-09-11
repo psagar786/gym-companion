@@ -1,0 +1,19 @@
+{
+  "project": "Fitness 7 V5.4 A-B-A-C V2 Visual Pilot",
+  "branch": "codex/v54-art-v2-comparison",
+  "baselineBranch": "feature/member-accounts-v54",
+  "pilotTargetSets": 43,
+  "pilotTargetFiles": 86,
+  "completedSets": 1,
+  "completedFiles": 2,
+  "remainingPilotSets": 42,
+  "remainingPilotFiles": 84,
+  "currentBatch": "B01",
+  "currentMovementId": null,
+  "currentPhase": null,
+  "completedMovementIds": ["periodized-single-arm-cable-pulldown"],
+  "failedMovementIds": [],
+  "lastCompletedCommit": "",
+  "currentCheckpoint": "V54-PILOT-00-BASELINE",
+  "nextAtomicAction": "Generate Start for the next locked prompt row: Incline Smith Machine Press"
+}

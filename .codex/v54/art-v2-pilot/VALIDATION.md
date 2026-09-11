@@ -1,0 +1,20 @@
+# V5.4 A-B-A-C V2 visual pilot validation
+
+## Scope
+
+This branch is a comparison pilot, not the complete 288-identity workout release. It uses only the new `periodized-v2` namespace and never overwrites baseline artwork.
+
+## Checkpoint: V54-PILOT-00-BASELINE
+
+- Baseline branch: `feature/member-accounts-v54`
+- Pilot branch: `codex/v54-art-v2-comparison`
+- Target: 43 movement sets / 86 PNG files
+- Completed at branch creation: 1 set / 2 files
+- Remaining: 42 sets / 84 files
+- Technical checks for the preserved pair: 512×512 PNG, distinct file hashes, separate Start and Movement paths.
+
+## Open checks
+
+- Generate and validate the remaining 42 pairs one movement at a time.
+- Add side-by-side old/new comparison evidence after the manifest is wired.
+- Run local visual checks at 320, 375, 390, 393, 414, and 430px.
