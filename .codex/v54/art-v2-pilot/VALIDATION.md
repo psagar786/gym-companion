@@ -19,6 +19,7 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - Generate and validate the remaining 42 pairs one movement at a time.
 - Add side-by-side old/new comparison evidence after the manifest is wired.
 - Run local visual checks at 320, 375, 390, 393, 414, and 430px.
+- Local browser smoke check passed at `http://localhost:4176/?qa=art-v2`: demo sign-in opened the gallery and rendered both V2 pairs with Start and Movement instructions.
 
 ## Checkpoint: V54-PILOT-periodized-incline-smith-machine-press-COMPLETE
 
