@@ -25,3 +25,7 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - Incline Smith Machine Press Start and Movement are present under `assets/exercises/periodized-v2/`.
 - Both files are 512×512 PNGs and have distinct hashes.
 - Semantic review remains pending; this is not qualified gym-coach approval.
+
+## Automated technical check
+
+`node scripts/validate-v2-pilot.mjs` passed: 4 registered files, 4 unique paths, 0 missing files, and 4 unique SHA-256 hashes.
