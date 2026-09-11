@@ -16,10 +16,12 @@ Runtime: Periodized A-B-A-C member activity
 | Initial missing queue | 163 | 326 |
 | Spreadsheet prompt rows | 43 | 86 capacity |
 | Maximum remaining after 43 genuinely missing sets | 120 | 240 |
-| Approved missing mappings at this checkpoint | 0 | 0 |
-| Current remaining queue | 163 | 326 |
+| Approved missing mappings at this checkpoint | 1 | 2 capacity |
+| Current remaining queue before generation | 163 | 326 |
+| Completed and integrated at this checkpoint | 1 | 2 |
+| Remaining after completed pair | 162 | 324 |
 
-The 120-set figure is capacity planning only. It assumes every spreadsheet row is a distinct missing runtime identity, which the reconciliation does not support. The production-safe result is `163 - approvedMissingPromptMappings - generatedSets`; that number remains 163 sets / 326 files until semantic row mapping is complete.
+The 120-set figure is capacity planning only. It assumes every spreadsheet row is a distinct missing runtime identity, which the reconciliation does not support. Row 14, Single-Arm Cable Pulldown (Iliac focus) → `periodized-single-arm-cable-pulldown`, has now passed the two-file technical gate. The production-safe result is `163 - generatedSets`; the queue is now 162 sets / 324 files.
 
 ## Prompt reconciliation
 
@@ -29,8 +31,8 @@ The 120-set figure is capacity planning only. It assumes every spreadsheet row i
 | Alias of existing | 12 | Confirm mechanics before sharing existing art |
 | Combined row, split required | 7 | Create separate specs for distinct mechanics |
 | Excluded equipment | 4 | Review-only; do not generate or activate |
-| Ambiguous, needs review | 7 | Resolve canonical identity before generation |
-| Missing generate approved | 0 | No image generation is unlocked yet |
+| Ambiguous, needs review | 6 | Resolve canonical identity before generation |
+| Missing generate approved | 1 | One pair authorized: row 14 |
 | **Total** | **43** | |
 
 Combined or ambiguous examples include T-bar vs Meadows row, straight-arm pulldown vs dumbbell pullover, hanging knee vs straight-leg raise, standing vs seated trunk rotation, conventional vs trap-bar deadlift, and Kas glute bridge vs barbell hip thrust. The four excluded-equipment rows are retained as source references only.

@@ -14,16 +14,16 @@
     "combinedRowSplitRequired": 7,
     "excludedEquipment": 4,
     "ambiguousNeedsReview": 7,
-    "missingGenerateApproved": 0,
+    "missingGenerateApproved": 1,
     "notUsedByCurrentRuntime": 0
   },
   "generation": {
-    "generatedSets": 0,
-    "generatedFiles": 0,
-    "remainingSets": 163,
-    "remainingFiles": 326,
+    "generatedSets": 1,
+    "generatedFiles": 2,
+    "remainingSets": 162,
+    "remainingFiles": 324,
     "formula": "remainingSets = 163 - generatedSets; remainingFiles = remainingSets * 2",
-    "status": "blocked-until-semantic-mapping-freeze"
+    "status": "one-pair-complete-next-mapping-required"
   },
   "rules": [
     "Generate only missing-generate records after canonical identity, equipment, grip, and mechanics are confirmed.",

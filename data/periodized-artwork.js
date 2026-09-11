@@ -126,7 +126,8 @@
     ['biweekly-dragon-flag-negatives-on-flat-bench','Dragon Flag Negatives on Flat Bench'],
     ['biweekly-incline-smith-machine-press','Incline Smith Machine Press'],
     ['biweekly-incline-barbell-bench','Incline Barbell Bench'],
-    ['biweekly-deficit-push-ups','Deficit Push-Ups']
+    ['biweekly-deficit-push-ups','Deficit Push-Ups'],
+    ['periodized-single-arm-cable-pulldown','Single-Arm Cable Pulldown']
   ];
   const movements = Object.fromEntries(names.map(([stableMovementId, name]) => [stableMovementId, {
       stableMovementId,
@@ -134,11 +135,11 @@
       artworkStatus: 'review',
       visualReviewStatus: 'pending',
       semanticReviewStatus: 'pending',
-      assetVersion: 'periodized-abc-art-v1',
+      assetVersion: stableMovementId === 'periodized-single-arm-cable-pulldown' ? 'periodized-abc-art-v2' : 'periodized-abc-art-v1',
       alt: `Fitness 7 illustration: ${name}`,
       imageSet: {
-        start: `assets/exercises/periodized/${stableMovementId}-v1-start.png`,
-        movement: `assets/exercises/periodized/${stableMovementId}-v1-movement.png`
+        start: `assets/exercises/periodized/${stableMovementId}-${stableMovementId === 'periodized-single-arm-cable-pulldown' ? 'v2' : 'v1'}-start.png`,
+        movement: `assets/exercises/periodized/${stableMovementId}-${stableMovementId === 'periodized-single-arm-cable-pulldown' ? 'v2' : 'v1'}-movement.png`
       }
     }]));
   window.GYM_COMPANION_PERIODIZED_ARTWORK = { batch: 'B05', movements };

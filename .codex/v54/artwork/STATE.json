@@ -5,15 +5,15 @@
   "existingSets": 125,
   "initialMissingSets": 163,
   "spreadsheetPromptRows": 43,
-  "approvedMissingPromptMappings": 0,
-  "generatedSets": 0,
-  "remainingMissingSets": 163,
-  "generatedFiles": 0,
-  "remainingMissingFiles": 326,
-  "currentPromptRow": null,
-  "currentMovementId": null,
-  "currentPhase": null,
-  "completedMovementIds": [],
+  "approvedMissingPromptMappings": 1,
+  "generatedSets": 1,
+  "remainingMissingSets": 162,
+  "generatedFiles": 2,
+  "remainingMissingFiles": 324,
+  "currentPromptRow": 14,
+  "currentMovementId": "periodized-single-arm-cable-pulldown",
+  "currentPhase": "complete",
+  "completedMovementIds": ["periodized-single-arm-cable-pulldown"],
   "existingMovementIds": [],
   "excludedMovementIds": [
     "Seated Machine Chest Press",
@@ -27,7 +27,6 @@
     "Cable Chest Fly (Low-to-High / Flat)",
     "Seated Dumbbell Shoulder Press",
     "Close Neutral-Grip V-Bar Pulldown",
-    "Single-Arm Cable Pulldown (Iliac focus)",
     "Chest-Supported Incline DB Row",
     "Seated Cable Row (Neutral Grip)",
     "T-Bar Row / Meadows Row",
@@ -50,7 +49,7 @@
     "Stick Standing / Seated Trunk Rotations"
   ],
   "failedMovementIds": [],
-  "currentCheckpoint": "V54-ART-01-PROMPT-MAP-FROZEN",
+  "currentCheckpoint": "V54-ART-periodized-single-arm-cable-pulldown-COMPLETE",
   "lastCommit": "",
-  "nextAtomicAction": "Resolve alias and combined-row mappings, then freeze approved missing prompt count"
+  "nextAtomicAction": "Map the next non-existing prompt row to a canonical missing runtime identity; do not generate until mapped"
 }

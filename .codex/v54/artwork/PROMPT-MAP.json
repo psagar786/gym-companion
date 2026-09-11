@@ -17,10 +17,10 @@
     "raw43FileCapacity": 86,
     "raw43RemainingSets": 120,
     "raw43RemainingFiles": 240,
-    "approvedMissingPromptMappings": 0,
+    "approvedMissingPromptMappings": 1,
     "remainingAfterApprovedPromptMappings": {
-      "sets": 163,
-      "files": 326
+      "sets": 162,
+      "files": 324
     }
   },
   "conversion": {
@@ -214,8 +214,9 @@
       "secondaryMuscles": "Brachialis, Biceps Brachii",
       "stabilizers": "Core, Obliques",
       "sourcePrompt": "3D anatomical illustration, medical style, EvolutionFit aesthetic. Muscular figure on white background. Exercise: Single-Arm Cable Pulldown. Split view showing Step 1 and Step 2. Highlight primary muscle (iliac lats) in bright red, secondary muscles in blue, and stabilizers in green.",
-      "status": "ambiguous-needs-review",
-      "notes": "No safe automatic mapping; manual identity decision required before generation."
+      "status": "missing-generate",
+      "runtimeMovementId": "periodized-single-arm-cable-pulldown",
+      "notes": "Confirmed missing selectable runtime identity; D-handle high-cable pulldown mechanics match the source row. Iliac-focus wording is retained as the target emphasis, not a separate movement."
     },
     {
       "row": 15,
