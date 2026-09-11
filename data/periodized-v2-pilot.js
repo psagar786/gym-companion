@@ -26,6 +26,27 @@ window.GYM_COMPANION_PERIODIZED_V2_PILOT = {
       visualReviewStatus: 'pending',
       semanticReviewStatus: 'pending',
       assetVersion: 'periodized-abc-art-v2'
+    },
+    'periodized-incline-smith-machine-press': {
+      stableMovementId: 'periodized-incline-smith-machine-press',
+      name: 'Incline Smith Machine Press',
+      sourceRow: 5,
+      role: ['main'],
+      equipment: 'Smith machine with 30° incline bench',
+      targetGroups: ['chest', 'shoulders', 'triceps'],
+      startInstruction: 'Set the bench to 30°. Plant your feet, retract the shoulder blades, and hold the bar above the upper chest with a slightly wider-than-shoulder grip.',
+      movementInstruction: 'Lower the bar toward the clavicle with wrists stacked over elbows, then press through the fixed path without bouncing.',
+      directionCue: 'Bar travels down toward the upper chest, then up along the rails.',
+      imageSet: {
+        start: 'assets/exercises/periodized-v2/periodized-incline-smith-machine-press-v2-start.png',
+        movement: 'assets/exercises/periodized-v2/periodized-incline-smith-machine-press-v2-movement.png'
+      },
+      altStart: 'Fitness 7 illustration: Incline Smith Machine Press starting position',
+      altMovement: 'Fitness 7 illustration: Incline Smith Machine Press working position',
+      artworkStatus: 'complete',
+      visualReviewStatus: 'pending',
+      semanticReviewStatus: 'pending',
+      assetVersion: 'periodized-abc-art-v2'
     }
   }
 };

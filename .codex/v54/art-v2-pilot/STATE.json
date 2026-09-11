@@ -4,16 +4,16 @@
   "baselineBranch": "feature/member-accounts-v54",
   "pilotTargetSets": 43,
   "pilotTargetFiles": 86,
-  "completedSets": 1,
-  "completedFiles": 2,
-  "remainingPilotSets": 42,
-  "remainingPilotFiles": 84,
+  "completedSets": 2,
+  "completedFiles": 4,
+  "remainingPilotSets": 41,
+  "remainingPilotFiles": 82,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
-  "completedMovementIds": ["periodized-single-arm-cable-pulldown"],
+  "completedMovementIds": ["periodized-single-arm-cable-pulldown", "periodized-incline-smith-machine-press"],
   "failedMovementIds": [],
   "lastCompletedCommit": "",
-  "currentCheckpoint": "V54-PILOT-00-BASELINE",
-  "nextAtomicAction": "Generate Start for the next locked prompt row: Incline Smith Machine Press"
+  "currentCheckpoint": "V54-PILOT-periodized-incline-smith-machine-press-COMPLETE",
+  "nextAtomicAction": "Generate Start for the next locked prompt row: Incline Hex Press"
 }

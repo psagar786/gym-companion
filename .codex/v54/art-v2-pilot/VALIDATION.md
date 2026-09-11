@@ -10,7 +10,8 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - Pilot branch: `codex/v54-art-v2-comparison`
 - Target: 43 movement sets / 86 PNG files
 - Completed at branch creation: 1 set / 2 files
-- Remaining: 42 sets / 84 files
+- Completed in pilot branch: 2 sets / 4 files
+- Remaining: 41 sets / 82 files
 - Technical checks for the preserved pair: 512×512 PNG, distinct file hashes, separate Start and Movement paths.
 
 ## Open checks
@@ -18,3 +19,9 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - Generate and validate the remaining 42 pairs one movement at a time.
 - Add side-by-side old/new comparison evidence after the manifest is wired.
 - Run local visual checks at 320, 375, 390, 393, 414, and 430px.
+
+## Checkpoint: V54-PILOT-periodized-incline-smith-machine-press-COMPLETE
+
+- Incline Smith Machine Press Start and Movement are present under `assets/exercises/periodized-v2/`.
+- Both files are 512×512 PNGs and have distinct hashes.
+- Semantic review remains pending; this is not qualified gym-coach approval.
