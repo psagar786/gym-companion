@@ -67,6 +67,24 @@
       "start": "periodized-seated-neutral-cable-row-v2-start.png",
       "movement": "periodized-seated-neutral-cable-row-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-t-bar-row",
+      "start": "periodized-t-bar-row-v2-start.png",
+      "movement": "periodized-t-bar-row-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-straight-arm-cable-pulldown",
+      "start": "periodized-straight-arm-cable-pulldown-v2-start.png",
+      "movement": "periodized-straight-arm-cable-pulldown-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-cable-face-pull-external-rotation",
+      "start": "periodized-cable-face-pull-external-rotation-v2-start.png",
+      "movement": "periodized-cable-face-pull-external-rotation-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }

@@ -23,6 +23,7 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - Generation-only staging now contains 5 pilot sets total: 2 integrated pairs retained for the gallery plus 3 new pairs held outside the app. The 6 staged files are 512×512 PNGs; they are not registered or selectable.
 - The next generation batch adds 3 more pairs, bringing generation-only production to 8 total sets / 16 files. These remain staging-only and are not selectable.
 - A third generation batch adds 3 more pairs, bringing production to 11 total sets / 22 files. All new files remain staging-only.
+- A fourth generation batch adds T-Bar Row, Straight-Arm Cable Pulldown, and Cable Face Pull with External Rotation, bringing production to 14 sets / 28 files.
 
 ## Checkpoint: V54-PILOT-periodized-incline-smith-machine-press-COMPLETE
 

@@ -6,8 +6,8 @@
   "pilotTargetFiles": 86,
   "completedSets": 2,
   "completedFiles": 4,
-  "stagedGeneratedSets": 11,
-  "stagedGeneratedFiles": 22,
+  "stagedGeneratedSets": 14,
+  "stagedGeneratedFiles": 28,
   "remainingPilotSets": 41,
   "remainingPilotFiles": 82,
   "currentBatch": "B01",
@@ -17,5 +17,5 @@
   "failedMovementIds": [],
   "lastCompletedCommit": "662aadf",
   "currentCheckpoint": "V54-PILOT-periodized-incline-smith-machine-press-COMPLETE",
-  "nextAtomicAction": "Generate Start for the next locked prompt row: T-Bar Row"
+  "nextAtomicAction": "Generate Start for the next locked prompt row: Incline Prone DB Reverse Fly"
 }
