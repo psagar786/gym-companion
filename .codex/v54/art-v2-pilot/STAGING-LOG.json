@@ -31,6 +31,24 @@
       "start": "periodized-standing-cable-chest-press-v2-start.png",
       "movement": "periodized-standing-cable-chest-press-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-standing-barbell-overhead-press",
+      "start": "periodized-standing-barbell-overhead-press-v2-start.png",
+      "movement": "periodized-standing-barbell-overhead-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-seated-dumbbell-shoulder-press",
+      "start": "periodized-seated-dumbbell-shoulder-press-v2-start.png",
+      "movement": "periodized-seated-dumbbell-shoulder-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-wide-grip-lat-pulldown",
+      "start": "periodized-wide-grip-lat-pulldown-v2-start.png",
+      "movement": "periodized-wide-grip-lat-pulldown-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }
