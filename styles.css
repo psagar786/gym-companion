@@ -86,3 +86,16 @@
 .artwork-card-title { display:flex; gap:16px; align-items:center; }
 .artwork-card-title > span:last-child { display:grid; gap:5px; }
 .artwork-card-title small { color:#aba7a2; }
+.artwork-cover{display:block;flex:0 0 auto;aspect-ratio:1/1;overflow:hidden;border:1px solid #3c3c3c;border-radius:10px;background:#161616}
+.artwork-cover img{display:block;width:100%;height:100%;object-fit:contain;background:#161616}
+
+/* V5.4.1 image placement: compact cards, full 512px detail artwork, no crop. */
+.detail-step{grid-template-columns:minmax(280px,512px) minmax(0,1fr);align-items:center}
+.detail-phase-image{display:grid;place-items:center;width:100%;max-width:512px;aspect-ratio:1/1;overflow:hidden;border-radius:14px;background:#161616}
+.detail-phase-image .detail-visual{width:100%;height:100%;max-width:512px;aspect-ratio:1/1}
+.detail-phase-image img{width:100%;height:100%;object-fit:contain}
+@media(max-width:640px){
+  .detail-step{grid-template-columns:minmax(0,1fr);gap:14px}
+  .detail-phase-image,.detail-step .detail-visual{width:100%;max-width:512px;height:auto;aspect-ratio:1/1}
+  .detail-step>div:last-child{min-width:0}
+}

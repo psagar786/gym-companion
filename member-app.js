@@ -20,7 +20,7 @@ const periodized = window.GYM_COMPANION_PERIODIZED_ABC || { key:'periodized-abc'
 const periodizedArtwork = window.GYM_COMPANION_PERIODIZED_ARTWORK || { movements:{} };
 const periodizedV2Pilot = window.GYM_COMPANION_PERIODIZED_V2_PILOT || { movements:{}, targetSets:43, completedSets:0 };
 const app = document.querySelector('#app');
-const RELEASE_VERSION = '5.4';
+const RELEASE_VERSION = '5.4.1';
 const preferenceKey = 'gym-companion-v3-member-auth-storage';
 const createSupabase = remember => config.supabaseUrl && config.supabaseAnonKey && createClient ? createClient(config.supabaseUrl, config.supabaseAnonKey, { auth: { detectSessionInUrl:true, persistSession:true, storage: remember ? localStorage : sessionStorage } }) : null;
 let supabase = createSupabase(localStorage.getItem(preferenceKey) === 'remembered');
@@ -110,15 +110,25 @@ function periodizedWeekKey(date=new Date()) {
   return periodized.cadence[index]||'A';
 }
 function periodizedDay(dayIndex, date=scheduledDate(dayIndex)) { const key=periodizedWeekKey(date); return periodized.days.find(day=>day.weekKey===key&&day.dayIndex===dayIndex) || periodized.days.find(day=>day.weekKey==='A'&&day.dayIndex===dayIndex); }
-function biweeklyRegistryRecord(name) {
+function v2ArtworkRecord(item) {
+  if (!item) return null;
+  const name=item.name||item.title||'';
+  const nameSlug=slugify(name);
+  const runtimeId=item.__alternative ? `periodized-${nameSlug}` : (item.stableMovementId||`periodized-${nameSlug}`);
+  return Object.values(periodizedV2Pilot.movements||{}).find(record => record.stableMovementId===runtimeId || (record.runtimeIds||[]).includes(runtimeId) || slugify(record.name)===nameSlug) || null;
+}
+function biweeklyRegistryRecord(item) {
+  const name=item?.name||item?.title||'';
   const slug=slugify(name);
+  const v2=v2ArtworkRecord(item);
+  if (v2) return v2;
   const staged=Object.values(periodizedArtwork.movements||{}).find(record => record.stableMovementId===slug || record.name===name || (record.aliases||[]).includes(name));
   if (staged) return staged;
   return (biweeklyArtwork.movements||[]).find(record => record.stableMovementId===slug || record.name===name || (record.aliases||[]).includes(name));
 }
 function biweeklyItem(item) {
   if(!item)return null;
-  const registry=biweeklyRegistryRecord(item.name);
+  const registry=biweeklyRegistryRecord(item);
   const imageSet=registry?.imageSet||item.imageSet||{};
   const exercise={
     id:item.id,
@@ -144,7 +154,13 @@ function biweeklyItem(item) {
     why:item.detailContent?.why||item.why,
     commonMistake:item.detailContent?.commonMistake||item.commonMistake,
     safetyCue:item.detailContent?.safetyCue||item.safetyCue,
-    phaseBriefs:item.detailContent?.phaseBriefs||item.phaseBriefs,
+    startInstruction:registry?.startInstruction||item.startInstruction,
+    movementInstruction:registry?.movementInstruction||item.movementInstruction,
+    directionCue:registry?.directionCue||item.directionCue,
+    phaseBriefs:registry?.startInstruction ? {
+      start:{instruction:registry.startInstruction,directionCue:registry.directionCue||''},
+      movement:{instruction:registry.movementInstruction,directionCue:registry.directionCue||''}
+    } : (item.detailContent?.phaseBriefs||item.phaseBriefs),
     sourceSheetRow:item.sourceSheetRow,
     sourceSheetRows:item.sourceSheetRows||[item.sourceSheetRow],
     role:item.role,
@@ -399,7 +415,7 @@ function renderArtworkReview() {
 function renderV2PilotGallery() {
   const movements=Object.values(periodizedV2Pilot.movements||{}).sort((a,b)=>a.name.localeCompare(b.name));
   const complete=movements.filter(item=>item.artworkStatus==='complete').length;
-  app.innerHTML=`<main class="shell">${header()}${banner()}<button class="link-button" data-screen="home">‹ Home</button><section class="section-title artwork-heading"><div><p class="eyebrow">V5.4 · INTERNAL COMPARISON</p><h1>A–B–A–C Visual Pilot</h1><p>This isolated gallery uses only the new V2 Start and Movement assets. It is a visual pilot, not the complete workout plan.</p></div><span class="artwork-count">${complete} / ${periodizedV2Pilot.targetSets} sets</span></section><aside class="notice"><b>Visual pilot · ${complete} movement sets loaded</b><br>Old artwork remains available on the baseline branch. No production replacement has been made.</aside><section class="artwork-gallery">${movements.map(item=>`<article class="card artwork-card"><div class="artwork-card-title"><span class="artwork-cover"><img src="${escapeHtml(item.imageSet.start)}" alt="${escapeHtml(item.altStart)}" loading="eager"></span><span><b>${escapeHtml(item.name)}</b><small>${escapeHtml(item.equipment)}</small><small>${escapeHtml(item.directionCue)}</small></span></div><div class="artwork-phase-strip"><figure class="artwork-phase"><img src="${escapeHtml(item.imageSet.start)}" alt="${escapeHtml(item.altStart)}" loading="lazy"><figcaption>Start</figcaption></figure><figure class="artwork-phase"><img src="${escapeHtml(item.imageSet.movement)}" alt="${escapeHtml(item.altMovement)}" loading="lazy"><figcaption>Movement</figcaption></figure></div><dl class="pilot-copy"><div><dt>Start</dt><dd>${escapeHtml(item.startInstruction)}</dd></div><div><dt>Movement</dt><dd>${escapeHtml(item.movementInstruction)}</dd></div></dl><p class="muted">Technical: ${escapeHtml(item.artworkStatus)} · Visual review: ${escapeHtml(item.visualReviewStatus)} · Semantic review: ${escapeHtml(item.semanticReviewStatus)}</p></article>`).join('')}</section></main>`;
+  app.innerHTML=`<main class="shell">${header()}${banner()}<button class="link-button" data-screen="home">‹ Home</button><section class="section-title artwork-heading"><div><p class="eyebrow">V5.4.1 · INTERNAL COMPARISON</p><h1>A–B–A–C V2 Artwork Library</h1><p>All 43 new Start and Movement pairs are available here. Exact runtime mappings are active in workouts; unmatched exercises keep their existing exact artwork.</p></div><span class="artwork-count">${complete} / ${periodizedV2Pilot.targetSets} sets</span></section><aside class="notice"><b>43-set visual pilot · 59 runtime identities mapped</b><br>This is not the complete 291-identity A–B–A–C artwork library. Semantic gym-coach review remains separate.</aside><section class="artwork-gallery">${movements.map((item,index)=>`<article class="card artwork-card"><div class="artwork-card-title"><span class="artwork-cover"><img src="${escapeHtml(item.imageSet.start)}" alt="${escapeHtml(item.altStart)}" loading="${index<2?'eager':'lazy'}"></span><span><b>${escapeHtml(item.name)}</b><small>${escapeHtml(item.equipment)}</small><small>${escapeHtml(item.directionCue)}</small></span></div><div class="artwork-phase-strip"><figure class="artwork-phase"><img src="${escapeHtml(item.imageSet.start)}" alt="${escapeHtml(item.altStart)}" loading="lazy"><figcaption>Start</figcaption></figure><figure class="artwork-phase"><img src="${escapeHtml(item.imageSet.movement)}" alt="${escapeHtml(item.altMovement)}" loading="lazy"><figcaption>Movement</figcaption></figure></div><dl class="pilot-copy"><div><dt>Start</dt><dd>${escapeHtml(item.startInstruction)}</dd></div><div><dt>Movement</dt><dd>${escapeHtml(item.movementInstruction)}</dd></div></dl><p class="muted">Technical: ${escapeHtml(item.artworkStatus)} · Visual review: ${escapeHtml(item.visualReviewStatus)} · Semantic review: ${escapeHtml(item.semanticReviewStatus)}</p></article>`).join('')}</section></main>`;
 }
 function guided(title, items, checks, key, options=[]) { if (!items?.length) return ''; return `<details class="guided-panel" open><summary><span><p class="eyebrow">RECOMMENDED · OPTIONAL</p><h2>${title}</h2><p class="muted">Start with Priority 1; add more if time allows.</p></span><span class="guided-toggle">View</span></summary><section class="card workout-list">${items.map((raw,index)=>{const item=prescribeExercise({...raw,name:raw.title||raw.name,scheme:raw.scheme||raw.duration,prescriptions:raw.prescriptions});const prescription=item.tierPrescription||tierPrescription(item);return `<article class="exercise guided-exercise"><button type="button" class="visual-button" data-detail-key="${escapeHtml(slugify(item.name||''))}" aria-label="View details for ${escapeHtml(item.name||'exercise')}">${imageMarkup(item,'visual')}</button><div class="exercise-copy"><span class="priority-badge">${index===0?'Priority 1 — Do this first':index===1?'Priority 2 — Recommended':'Optional — If time allows'}</span><h3>${escapeHtml(item.name)}</h3><p class="exercise-dose">${escapeHtml(prescription.displayDose)}</p><p class="exercise-rest">${escapeHtml(prescription.displayRest)}</p><button class="link-button detail-button" data-detail-key="${escapeHtml(slugify(item.name||''))}">View exercise details →</button></div><label class="check"><input type="checkbox" data-check="${key}" data-index="${index}" ${checks?.[index]?'checked':''}><span>Done</span></label></article>`;}).join('')}</section>${options.length?`<section class="guided-options"><div class="section-title compact"><div><p class="eyebrow">OPTIONAL ADD-ONS</p><h3>Need a different option?</h3><p class="muted">Choose a relevant movement if you have extra time.</p></div></div>${optionalCards(options, 'guided')}</section>`:''}</details>`; }
 function snapshot(plan, extras, guidedExtras={}) { return {source_version:activeSourceVersion(),rotation_week:plan.rotationWeek||null,week_key:plan.weekKey||null,focus:plan.focus,slots:planSlots(plan).map(slot=>({id:slot.id,exercise:slot.exercise,alternative:slot.alternative,third:slot.third})),warmup:plan.warmup||[],tendon:plan.tendon||[],recovery:plan.recovery||[],warmupExtras:guidedExtras.warmup||[],recoveryExtras:guidedExtras.recovery||[],extras:extras.map(item=>({id:item.exercise_id,exercise:item.exercise}))}; }

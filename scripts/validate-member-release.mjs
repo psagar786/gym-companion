@@ -13,7 +13,7 @@ for (const file of browserFiles) {
 }
 
 const app = await readFile(join(root, 'member-app.js'), 'utf8');
-if (!/RELEASE_VERSION\s*=\s*['"]5\.4['"]/.test(app)) failures.push('member-app.js: V5.4 release marker is missing');
+if (!/RELEASE_VERSION\s*=\s*['"]5\.4\.1['"]/.test(app)) failures.push('member-app.js: V5.4.1 release marker is missing');
 if (!/appMode:\s*['"]member['"]/.test(await readFile(join(root, 'scripts/local-v53-server.mjs'), 'utf8')) && !/appMode/.test(await readFile(join(root, 'api/config.js'), 'utf8'))) {
   failures.push('member runtime: app mode configuration is missing');
 }
@@ -22,5 +22,5 @@ if (failures.length) {
   console.error(failures.map(item => `FAIL: ${item}`).join('\n'));
   process.exitCode = 1;
 } else {
-  console.log(`PASS: member release marker V5.4 and browser credential boundary validated (${browserFiles.length} files).`);
+  console.log(`PASS: member release marker V5.4.1 and browser credential boundary validated (${browserFiles.length} files).`);
 }
