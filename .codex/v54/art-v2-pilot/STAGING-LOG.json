@@ -103,6 +103,24 @@
       "start": "periodized-45-degree-leg-press-v2-start.png",
       "movement": "periodized-45-degree-leg-press-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-dumbbell-romanian-deadlift",
+      "start": "periodized-dumbbell-romanian-deadlift-v2-start.png",
+      "movement": "periodized-dumbbell-romanian-deadlift-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-conventional-barbell-deadlift",
+      "start": "periodized-conventional-barbell-deadlift-v2-start.png",
+      "movement": "periodized-conventional-barbell-deadlift-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-seated-hip-adductor-machine",
+      "start": "periodized-seated-hip-adductor-machine-v2-start.png",
+      "movement": "periodized-seated-hip-adductor-machine-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }

@@ -25,6 +25,7 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - A third generation batch adds 3 more pairs, bringing production to 11 total sets / 22 files. All new files remain staging-only.
 - A fourth generation batch adds T-Bar Row, Straight-Arm Cable Pulldown, and Cable Face Pull with External Rotation, bringing production to 14 sets / 28 files.
 - A fifth generation batch adds Incline Prone Dumbbell Reverse Fly, Barbell Back Squat, and 45-Degree Leg Press, bringing production to 17 sets / 34 files.
+- A sixth generation batch adds Dumbbell Romanian Deadlift, Conventional Barbell Deadlift, and Seated Hip Adductor, bringing production to 20 sets / 40 files.
 
 ## Checkpoint: V54-PILOT-periodized-incline-smith-machine-press-COMPLETE
 
