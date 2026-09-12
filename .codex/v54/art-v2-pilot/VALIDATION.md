@@ -22,6 +22,7 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - Local browser smoke check passed at `http://localhost:4176/?qa=art-v2`: demo sign-in opened the gallery and rendered both V2 pairs with Start and Movement instructions.
 - Generation-only staging now contains 5 pilot sets total: 2 integrated pairs retained for the gallery plus 3 new pairs held outside the app. The 6 staged files are 512×512 PNGs; they are not registered or selectable.
 - The next generation batch adds 3 more pairs, bringing generation-only production to 8 total sets / 16 files. These remain staging-only and are not selectable.
+- A third generation batch adds 3 more pairs, bringing production to 11 total sets / 22 files. All new files remain staging-only.
 
 ## Checkpoint: V54-PILOT-periodized-incline-smith-machine-press-COMPLETE
 

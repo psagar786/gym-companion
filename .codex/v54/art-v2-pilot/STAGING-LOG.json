@@ -49,6 +49,24 @@
       "start": "periodized-wide-grip-lat-pulldown-v2-start.png",
       "movement": "periodized-wide-grip-lat-pulldown-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-close-neutral-v-bar-pulldown",
+      "start": "periodized-close-neutral-v-bar-pulldown-v2-start.png",
+      "movement": "periodized-close-neutral-v-bar-pulldown-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-chest-supported-incline-dumbbell-row",
+      "start": "periodized-chest-supported-incline-dumbbell-row-v2-start.png",
+      "movement": "periodized-chest-supported-incline-dumbbell-row-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-seated-neutral-cable-row",
+      "start": "periodized-seated-neutral-cable-row-v2-start.png",
+      "movement": "periodized-seated-neutral-cable-row-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }
