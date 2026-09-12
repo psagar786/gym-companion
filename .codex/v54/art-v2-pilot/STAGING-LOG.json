@@ -175,6 +175,24 @@
       "start": "periodized-rkc-hardstyle-plank-v2-start.png",
       "movement": "periodized-rkc-hardstyle-plank-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-transverse-abdominis-stomach-vacuum",
+      "start": "periodized-transverse-abdominis-stomach-vacuum-v2-start.png",
+      "movement": "periodized-transverse-abdominis-stomach-vacuum-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-rotator-cuff-external-rotation-isometric",
+      "start": "periodized-rotator-cuff-external-rotation-isometric-v2-start.png",
+      "movement": "periodized-rotator-cuff-external-rotation-isometric-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-side-plank-ql-isometric-hold",
+      "start": "periodized-side-plank-ql-isometric-hold-v2-start.png",
+      "movement": "periodized-side-plank-ql-isometric-hold-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }
