@@ -85,6 +85,24 @@
       "start": "periodized-cable-face-pull-external-rotation-v2-start.png",
       "movement": "periodized-cable-face-pull-external-rotation-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-prone-dumbbell-reverse-fly",
+      "start": "periodized-incline-prone-dumbbell-reverse-fly-v2-start.png",
+      "movement": "periodized-incline-prone-dumbbell-reverse-fly-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-barbell-back-squat",
+      "start": "periodized-barbell-back-squat-v2-start.png",
+      "movement": "periodized-barbell-back-squat-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-45-degree-leg-press",
+      "start": "periodized-45-degree-leg-press-v2-start.png",
+      "movement": "periodized-45-degree-leg-press-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }
