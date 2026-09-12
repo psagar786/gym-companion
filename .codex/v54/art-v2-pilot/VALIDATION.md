@@ -31,6 +31,8 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - A ninth generation batch adds Cable Woodchopper, Incline Bench Reverse Crunch, and RKC Hardstyle Plank, bringing production to 29 sets / 58 files.
 - A tenth generation batch adds Stomach Vacuum, Rotator Cuff External Rotation Isometric, and Side Plank QL Hold, bringing production to 32 sets / 64 files.
 - An eleventh generation batch adds Poliquin VMO Step-Up Hold, Reverse-Grip Wrist Isometric, and 45-Degree Back Extension Hold, bringing production to 35 sets / 70 files.
+- Two final stick batches add Shoulder Dislocates, Around the World, Overhead Thoracic Extensions, and Standing Stick Trunk Rotation, bringing staging to 39 pairs / 78 files. Two source rows remain: Incline Dumbbell Bench Press and High-to-Low Cable Fly.
+- Final generation batch adds Incline Dumbbell Bench Press and High-to-Low Cable Fly. All 43 pilot sets now exist as 2 gallery-integrated pairs plus 41 staging-only pairs, totaling 86 files. No staging files were added to the app registry.
 
 ## Checkpoint: V54-PILOT-periodized-incline-smith-machine-press-COMPLETE
 

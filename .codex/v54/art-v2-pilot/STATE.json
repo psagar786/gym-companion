@@ -6,16 +6,16 @@
   "pilotTargetFiles": 86,
   "completedSets": 2,
   "completedFiles": 4,
-  "stagedGeneratedSets": 35,
-  "stagedGeneratedFiles": 70,
-  "remainingPilotSets": 41,
-  "remainingPilotFiles": 82,
+  "stagedGeneratedSets": 41,
+  "stagedGeneratedFiles": 82,
+  "remainingPilotSets": 0,
+  "remainingPilotFiles": 0,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
   "completedMovementIds": ["periodized-single-arm-cable-pulldown", "periodized-incline-smith-machine-press"],
   "failedMovementIds": [],
   "lastCompletedCommit": "662aadf",
-  "currentCheckpoint": "V54-PILOT-periodized-incline-smith-machine-press-COMPLETE",
-  "nextAtomicAction": "Generate Start for the next locked prompt row: Stick Shoulder Dislocates"
+  "currentCheckpoint": "V54-PILOT-ARTWORK-STAGED",
+  "nextAtomicAction": "Run technical validation over all 43 pilot sets without integrating staging files"
 }

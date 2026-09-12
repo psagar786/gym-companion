@@ -211,6 +211,42 @@
       "start": "periodized-45-degree-back-extension-hold-v2-start.png",
       "movement": "periodized-45-degree-back-extension-hold-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-stick-shoulder-dislocates",
+      "start": "periodized-stick-shoulder-dislocates-v2-start.png",
+      "movement": "periodized-stick-shoulder-dislocates-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-stick-around-the-world",
+      "start": "periodized-stick-around-the-world-v2-start.png",
+      "movement": "periodized-stick-around-the-world-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-stick-overhead-thoracic-extensions",
+      "start": "periodized-stick-overhead-thoracic-extensions-v2-start.png",
+      "movement": "periodized-stick-overhead-thoracic-extensions-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-stick-standing-trunk-rotation",
+      "start": "periodized-stick-standing-trunk-rotation-v2-start.png",
+      "movement": "periodized-stick-standing-trunk-rotation-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-dumbbell-bench-press",
+      "start": "periodized-incline-dumbbell-bench-press-v2-start.png",
+      "movement": "periodized-incline-dumbbell-bench-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-high-to-low-cable-fly",
+      "start": "periodized-high-to-low-cable-fly-v2-start.png",
+      "movement": "periodized-high-to-low-cable-fly-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }
