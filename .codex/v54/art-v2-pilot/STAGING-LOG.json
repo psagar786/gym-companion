@@ -121,6 +121,24 @@
       "start": "periodized-seated-hip-adductor-machine-v2-start.png",
       "movement": "periodized-seated-hip-adductor-machine-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-seated-hip-abductor-machine",
+      "start": "periodized-seated-hip-abductor-machine-v2-start.png",
+      "movement": "periodized-seated-hip-abductor-machine-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-dumbbell-glute-bridge",
+      "start": "periodized-dumbbell-glute-bridge-v2-start.png",
+      "movement": "periodized-dumbbell-glute-bridge-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-prone-lying-leg-curl",
+      "start": "periodized-prone-lying-leg-curl-v2-start.png",
+      "movement": "periodized-prone-lying-leg-curl-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }
