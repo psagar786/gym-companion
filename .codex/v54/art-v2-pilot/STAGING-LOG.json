@@ -139,6 +139,24 @@
       "start": "periodized-prone-lying-leg-curl-v2-start.png",
       "movement": "periodized-prone-lying-leg-curl-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-dumbbell-walking-lunges",
+      "start": "periodized-dumbbell-walking-lunges-v2-start.png",
+      "movement": "periodized-dumbbell-walking-lunges-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-hanging-knee-raise",
+      "start": "periodized-hanging-knee-raise-v2-start.png",
+      "movement": "periodized-hanging-knee-raise-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-cable-pallof-press",
+      "start": "periodized-cable-pallof-press-v2-start.png",
+      "movement": "periodized-cable-pallof-press-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }

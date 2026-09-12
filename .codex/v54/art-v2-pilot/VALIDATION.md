@@ -27,6 +27,7 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - A fifth generation batch adds Incline Prone Dumbbell Reverse Fly, Barbell Back Squat, and 45-Degree Leg Press, bringing production to 17 sets / 34 files.
 - A sixth generation batch adds Dumbbell Romanian Deadlift, Conventional Barbell Deadlift, and Seated Hip Adductor, bringing production to 20 sets / 40 files.
 - A seventh generation batch adds Seated Hip Abductor, Dumbbell Glute Bridge, and Prone Lying Leg Curl, bringing production to 23 sets / 46 files.
+- An eighth generation batch adds Dumbbell Walking Lunges, Hanging Knee Raise, and Cable Pallof Press, bringing production to 26 sets / 52 files.
 
 ## Checkpoint: V54-PILOT-periodized-incline-smith-machine-press-COMPLETE
 
