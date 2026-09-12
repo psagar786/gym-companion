@@ -157,6 +157,24 @@
       "start": "periodized-cable-pallof-press-v2-start.png",
       "movement": "periodized-cable-pallof-press-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-cable-woodchopper",
+      "start": "periodized-cable-woodchopper-v2-start.png",
+      "movement": "periodized-cable-woodchopper-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-bench-reverse-crunch",
+      "start": "periodized-incline-bench-reverse-crunch-v2-start.png",
+      "movement": "periodized-incline-bench-reverse-crunch-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-rkc-hardstyle-plank",
+      "start": "periodized-rkc-hardstyle-plank-v2-start.png",
+      "movement": "periodized-rkc-hardstyle-plank-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }
