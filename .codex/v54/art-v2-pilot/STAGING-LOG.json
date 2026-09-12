@@ -1,0 +1,36 @@
+{
+  "namespace": ".codex/v54/art-v2-pilot/staging",
+  "appIntegration": "not integrated by request",
+  "pairs": [
+    {
+      "movementId": "periodized-flat-dumbbell-bench-press",
+      "start": "periodized-flat-dumbbell-bench-press-v2-start.png",
+      "movement": "periodized-flat-dumbbell-bench-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-barbell-bench-press",
+      "start": "periodized-incline-barbell-bench-press-v2-start.png",
+      "movement": "periodized-incline-barbell-bench-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-hex-press",
+      "start": "periodized-incline-hex-press-v2-start.png",
+      "movement": "periodized-incline-hex-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-low-to-high-cable-fly",
+      "start": "periodized-low-to-high-cable-fly-v2-start.png",
+      "movement": "periodized-low-to-high-cable-fly-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-standing-cable-chest-press",
+      "start": "periodized-standing-cable-chest-press-v2-start.png",
+      "movement": "periodized-standing-cable-chest-press-v2-movement.png",
+      "status": "generated-pending-review"
+    }
+  ]
+}
