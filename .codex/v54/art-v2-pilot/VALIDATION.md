@@ -30,6 +30,7 @@ This branch is a comparison pilot, not the complete 288-identity workout release
 - An eighth generation batch adds Dumbbell Walking Lunges, Hanging Knee Raise, and Cable Pallof Press, bringing production to 26 sets / 52 files.
 - A ninth generation batch adds Cable Woodchopper, Incline Bench Reverse Crunch, and RKC Hardstyle Plank, bringing production to 29 sets / 58 files.
 - A tenth generation batch adds Stomach Vacuum, Rotator Cuff External Rotation Isometric, and Side Plank QL Hold, bringing production to 32 sets / 64 files.
+- An eleventh generation batch adds Poliquin VMO Step-Up Hold, Reverse-Grip Wrist Isometric, and 45-Degree Back Extension Hold, bringing production to 35 sets / 70 files.
 
 ## Checkpoint: V54-PILOT-periodized-incline-smith-machine-press-COMPLETE
 

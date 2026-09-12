@@ -193,6 +193,24 @@
       "start": "periodized-side-plank-ql-isometric-hold-v2-start.png",
       "movement": "periodized-side-plank-ql-isometric-hold-v2-movement.png",
       "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-poliquin-vmo-step-up-hold",
+      "start": "periodized-poliquin-vmo-step-up-hold-v2-start.png",
+      "movement": "periodized-poliquin-vmo-step-up-hold-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-reverse-grip-dumbbell-wrist-forearm-isometric",
+      "start": "periodized-reverse-grip-dumbbell-wrist-forearm-isometric-v2-start.png",
+      "movement": "periodized-reverse-grip-dumbbell-wrist-forearm-isometric-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-45-degree-back-extension-hold",
+      "start": "periodized-45-degree-back-extension-hold-v2-start.png",
+      "movement": "periodized-45-degree-back-extension-hold-v2-movement.png",
+      "status": "generated-pending-review"
     }
   ]
 }

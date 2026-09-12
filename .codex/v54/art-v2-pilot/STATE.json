@@ -6,8 +6,8 @@
   "pilotTargetFiles": 86,
   "completedSets": 2,
   "completedFiles": 4,
-  "stagedGeneratedSets": 32,
-  "stagedGeneratedFiles": 64,
+  "stagedGeneratedSets": 35,
+  "stagedGeneratedFiles": 70,
   "remainingPilotSets": 41,
   "remainingPilotFiles": 82,
   "currentBatch": "B01",
@@ -17,5 +17,5 @@
   "failedMovementIds": [],
   "lastCompletedCommit": "662aadf",
   "currentCheckpoint": "V54-PILOT-periodized-incline-smith-machine-press-COMPLETE",
-  "nextAtomicAction": "Generate Start for the next locked prompt row: Poliquin Heel-Elevated VMO Step-Up Hold"
+  "nextAtomicAction": "Generate Start for the next locked prompt row: Stick Shoulder Dislocates"
 }
