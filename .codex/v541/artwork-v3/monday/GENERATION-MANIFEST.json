@@ -3011,11 +3011,26 @@
         "start": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-start.png",
+          "hash": "f8642c5a281dea57be99a054ea073984d86acf49f880caa5f5427d5e611c07b7",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-movement.png",
+          "hash": "2eed0e397a1e50505b765b3e6baf0559de2be6de6a0f8cb074e71cfa0af02259",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T11:42:03.936Z"
     },
     {
       "canonicalMovementId": "periodized-incline-smith-machine-press",
@@ -3056,11 +3071,26 @@
         "start": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-start.png",
+          "hash": "665b40a298a1bf19ed81adeefed81ef31c518c2dfb5a3ac320ca9a2453ccb52e",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-movement.png",
+          "hash": "4c979ea6ab7ed82b6e1fe605dd847cce36a368418978527427a31e4b2a084e46",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T11:46:26.377Z"
     },
     {
       "canonicalMovementId": "periodized-kneeling-cable-lat-pull",
@@ -3101,11 +3131,26 @@
         "start": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-start.png",
+          "hash": "5ca87deb32b3edb604d95b58e358d1155506952d5966b1edb27459a8189b5222",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-movement.png",
+          "hash": "c988764786ae4494aa7d30e6097883076aaf3585cabd856e4739dde50dbc56a6",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T11:51:14.489Z"
     },
     {
       "canonicalMovementId": "periodized-low-incline-cable-fly",
@@ -3148,11 +3193,26 @@
         "start": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-start.png",
+          "hash": "959fa69f8913eca997d232c5d8b95af92c74f5ac93c8a2c36f61dba2c909a832",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-movement.png",
+          "hash": "e9b52b92c69056c2a4fb03f8bd959ce755164cab86f778a1884738557930ee07",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T11:56:09.141Z"
     },
     {
       "canonicalMovementId": "periodized-machine-row",
@@ -3195,11 +3255,26 @@
         "start": "assets/exercises/periodized-v3/periodized-machine-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-machine-row-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-machine-row-v3-start.png",
+          "hash": "754245c4bc23d4b82c354bb48af2b1bc369bb39633628506593f52d7fe58928e",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-machine-row-v3-movement.png",
+          "hash": "e9c2a77e5ed68c35a4718cc0fcc689bdd4980378a62bc5e480beb85f63e49d0d",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:01:07.498Z"
     },
     {
       "canonicalMovementId": "periodized-meadows-row",
@@ -3245,11 +3320,26 @@
         "start": "assets/exercises/periodized-v3/periodized-meadows-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-meadows-row-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-meadows-row-v3-start.png",
+          "hash": "658574dc11ca510935ac528bf839db881d55cdb2ece2845fc828889be3c7afd3",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-meadows-row-v3-movement.png",
+          "hash": "4dfb182f970fb50279d3328b39a2aa8dc02a0ea01406451675f9eef49ae88d01",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:07:07.380Z"
     },
     {
       "canonicalMovementId": "periodized-neutral-grip-mag-pulldown",
@@ -3290,11 +3380,26 @@
         "start": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-start.png",
+          "hash": "ff4cd8d9c73c5a405a99ac5ea5f3504be618eeff42267390fce91a015f2a2230",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-movement.png",
+          "hash": "f8f57225c0d7d27bd832b27e40a38565bdc8534618e816442010b2a98b74593a",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:12:05.140Z"
     },
     {
       "canonicalMovementId": "periodized-parallel-bar-dips",
@@ -3337,11 +3442,26 @@
         "start": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-start.png",
+          "hash": "c3c5826caf5705c91e84972a2926f9b5ab275e200e2acf3d6a586ffff2a9113e",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-movement.png",
+          "hash": "016d75cd02b29c1e02317a4b7e3afadc33a92cb2ebb23565cdcbfda46520067b",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:17:37.228Z"
     },
     {
       "canonicalMovementId": "periodized-plate-press",
@@ -3382,11 +3502,26 @@
         "start": "assets/exercises/periodized-v3/periodized-plate-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-plate-press-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-plate-press-v3-start.png",
+          "hash": "ff15f879cd1432f4ca4b89eec7e0d5759d6ede7f2917db9e6b77e70745046217",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-plate-press-v3-movement.png",
+          "hash": "86fb0aedc076e71702edccd8bbe43adff703ee3fe8a35d7c7f44c4266b019283",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:22:36.114Z"
     },
     {
       "canonicalMovementId": "periodized-reverse-pec-deck-fly",
@@ -3427,11 +3562,26 @@
         "start": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-start.png",
+          "hash": "c61088bd0b907182819a9a64af120793097cde3946edc214fac95f0189001574",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-movement.png",
+          "hash": "4550378eac9eed23de7ff34a04c00b7f2bd6f5faf797d3e2af8332ad06224dd4",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:28:03.149Z"
     },
     {
       "canonicalMovementId": "periodized-seated-cable-row",
@@ -3476,11 +3626,26 @@
         "start": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-start.png",
+          "hash": "ad43fef92d58a288dbfddc1a3cbd5a0f389ea578619106146775f3501d36fc63",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-movement.png",
+          "hash": "b5d26d272bd4e0236599a69e7d2df15b482fb5d816f84d5028b5c3828d86dfa1",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:34:21.186Z"
     },
     {
       "canonicalMovementId": "periodized-standing-plate-press",
@@ -3521,11 +3686,26 @@
         "start": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-start.png",
+          "hash": "4db9299722aced7355a1a7680c4d0ef3a72e5b1779929af94a87163eda1ab6f6",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-movement.png",
+          "hash": "b6c68891594af81d0012cdd2bf2c2370a9304def613f16105ef4298d0e2e0edd",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:41:20.860Z"
     },
     {
       "canonicalMovementId": "periodized-t-bar-row",
@@ -3568,11 +3748,26 @@
         "start": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-start.png",
+          "hash": "e6c67b5e3bbaef9db631a66eb8986af7511c906af5e3c77860d22e5bc8d6410e",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-movement.png",
+          "hash": "68d1077ad5a57c8870dfb2bc27bc4cde29d9b1d104068899134e0ce929b1458b",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:48:25.236Z"
     },
     {
       "canonicalMovementId": "periodized-weighted-push-ups",
@@ -3613,11 +3808,26 @@
         "start": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-start.png",
+          "hash": "dcd12c3f51e7db8ee1fe3bee28c9aa0b08d23868a6f5929962d48389f9d08f24",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-movement.png",
+          "hash": "8016677cbfeeed85bcf530d12dcaa2511c4a27522defceb3e266efed33eb6698",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T12:54:52.457Z"
     }
   ]
 }

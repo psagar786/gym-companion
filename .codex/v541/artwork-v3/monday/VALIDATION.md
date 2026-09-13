@@ -1,8 +1,8 @@
 # Monday artwork generation validation
 
-- Generation has not started.
+- Monday generation is complete: **61/61 canonical pairs, 122/122 files**.
 - Existing artwork is preserved and hash snapshots remain in the audit JSON.
-- All new pairs require technical and semantic review before integration.
+- All generated pairs passed the automated technical gate; semantic review remains pending.
 - Excluded-equipment records are review-only and must not be activated.
 - 2026-09-13T04:26:29.262Z — Chest-Supported Incline Dumbbell Row: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T04:26:45.493Z — Chest-Supported Incline Dumbbell Row: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
@@ -59,4 +59,29 @@
 - 2026-09-13T11:29:54.807Z — Incline Machine Fly: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T11:34:08.807Z — Incline Machine Press: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T11:37:19.589Z — Incline Prone DB Y-Raise: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T11:42:03.937Z — Incline Reverse Crunch: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T11:46:26.378Z — Incline Smith Machine Press: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T11:51:14.490Z — Kneeling Cable Lat Pull: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T11:56:09.142Z — Low Incline Cable Fly: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:01:07.499Z — Machine Row: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:07:07.381Z — Meadows Row: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:12:05.142Z — Neutral-Grip Mag Pulldown: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:17:37.229Z — Parallel Bar Dips: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:22:36.116Z — Plate Press: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:28:03.150Z — Reverse Pec Deck Fly: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:34:21.188Z — Seated Cable Row: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:41:20.862Z — Standing Plate Press: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:48:25.237Z — T-Bar Row: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T12:54:52.458Z — Weighted Push-Ups: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 
+## Final Monday technical validation
+
+- Manifest rows checked: **61**.
+- Expected Start/Movement files: **122**; files present and validated: **122**.
+- Every file decoded as a square **512×512 PNG**.
+- Start and Movement hashes differ for every pair.
+- Output paths are unique across all Monday identities.
+- Existing V2/legacy artwork hashes changed: **0**.
+- Failed technical pairs: **0**.
+- Review-only excluded pairs: **4** (`periodized-ab-wheel-rollout`, `periodized-band-pull-apart`, `periodized-captain-s-chair-leg-raise`, `periodized-reverse-pec-deck-fly`).
+- Semantic and gym-coach review: **pending**; this checkpoint does not claim qualified coach approval.
