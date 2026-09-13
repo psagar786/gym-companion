@@ -18,6 +18,7 @@ const v53Content = window.GYM_COMPANION_V53_CONTENT || { warmup: [], tendon: [] 
 const v53Plan = window.GYM_COMPANION_V53_THREEWEEK || window.GYM_COMPANION_V53_PLAN || { key:'threeweek-ppl', planVersion:'threeweek-ppl-v1', rotation:['Primary','Alternative 1','Option 2'], tendon:[], warmup:[] };
 const periodized = window.GYM_COMPANION_PERIODIZED_ABC || { key:'periodized-abc', planVersion:'periodized-abc-v1', cadence:['A','B','A','C'], days:[] };
 const periodizedArtwork = window.GYM_COMPANION_PERIODIZED_ARTWORK || { movements:{} };
+const periodizedV3MondayArtwork = window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK || { movements:{} };
 const periodizedV2Pilot = window.GYM_COMPANION_PERIODIZED_V2_PILOT || { movements:{}, targetSets:43, completedSets:0 };
 const app = document.querySelector('#app');
 const RELEASE_VERSION = '5.4.1';
@@ -120,6 +121,12 @@ function v2ArtworkRecord(item) {
 function biweeklyRegistryRecord(item) {
   const name=item?.name||item?.title||'';
   const slug=slugify(name);
+  const runtimeId=item?.__alternative ? `periodized-${slug}` : (item?.stableMovementId||`periodized-${slug}`);
+  if (effectiveTemplateKey()==='periodized-abc') {
+    const mondayIds=[runtimeId, `tendon-${slug}`, `biweekly-${slug}`];
+    const mondayV3=mondayIds.map(id=>periodizedV3MondayArtwork.movements?.[id]).find(Boolean) || Object.values(periodizedV3MondayArtwork.movements||{}).find(record=>record.name===name||slugify(record.name)===slug);
+    if (mondayV3) return mondayV3;
+  }
   const v2=v2ArtworkRecord(item);
   if (v2) return v2;
   const staged=Object.values(periodizedArtwork.movements||{}).find(record => record.stableMovementId===slug || record.name===name || (record.aliases||[]).includes(name));
@@ -147,7 +154,7 @@ function biweeklyItem(item) {
     artworkStatus:registry?.artworkStatus||'pending',
     description:item.description||item.cardDescription||registry?.description||registry?.cardDescription,
     cardDescription:item.cardDescription||item.description||registry?.cardDescription||registry?.description,
-    scheme:item.prescriptions?.[state.preferences.tier]||'',
+    scheme:item.prescriptions?.[state.preferences.tier]||item.scheme||item.duration||'',
     prescriptions:item.prescriptions,
     levelEligibility:item.levelEligibility,
     cue:item.cue,
@@ -192,7 +199,9 @@ function periodizedPlan(dayIndex, date=scheduledDate(dayIndex)) {
   const slots=sourceSlots.map((item,position)=>({id:item.id,position,exercise:biweeklyItem(item),alternative:item.alternatives?.[0]?biweeklyItem({...item,id:`${item.id}-alt-1`,name:item.alternatives[0],__alternative:true,imageSet:{}}):null,third:item.alternatives?.[1]?biweeklyItem({...item,id:`${item.id}-alt-2`,name:item.alternatives[1],__alternative:true,imageSet:{}}):null}));
   const guided=items=>(items||[]).map(item=>{const normalized=biweeklyItem(item);return normalized?({...normalized,title:item.name,duration:item.prescriptions?.[tier]||normalized.scheme||'',image:previewImage(normalized),alt:normalized.alt_text||`Fitness 7 illustration: ${item.name}`,recommended:true}):null;}).filter(Boolean);
   const optional=(day.optionalSlots||[]).filter(item=>item.levelEligibility?.[tier]!==false).map(item=>biweeklyItem(item)).filter(Boolean);
-  return {id:`periodized-${day.weekKey}-${day.dayIndex}`,day_index:dayIndex,weekKey:day.weekKey,focus:day.focus,targetGroups:day.targetGroups,warmup:guided(day.warmup),tendon:v53Content.tendon?.[dayIndex]?[v53Content.tendon[dayIndex]]:[],recovery:guided([...(day.cardio||[]),...(day.recovery||[])]),member_plan_slots:slots,extras:optional,rotationWeek:periodized.cadence.indexOf(day.weekKey)+1,defaultChoice:0};
+  const tendonSource=v53Content.tendon?.[dayIndex] ? [v53Content.tendon[dayIndex]] : [];
+  const tendon=tendonSource.map(item=>biweeklyItem(item)).filter(Boolean);
+  return {id:`periodized-${day.weekKey}-${day.dayIndex}`,day_index:dayIndex,weekKey:day.weekKey,focus:day.focus,targetGroups:day.targetGroups,warmup:guided(day.warmup),tendon,recovery:guided([...(day.cardio||[]),...(day.recovery||[])]),member_plan_slots:slots,extras:optional,rotationWeek:periodized.cadence.indexOf(day.weekKey)+1,defaultChoice:0};
 }
 const slugify = value => String(value ?? '').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
 function targetGroupsForDay(index) {
@@ -440,7 +449,10 @@ function renderWorkout() {
   const outcome=dayOutcomes[state.dayIndex]||dayOutcomes[0];
   const outcomeMarkup=`<details class="outlook-card"><summary><span><p class="eyebrow">CONSISTENCY OUTLOOK</p><h2>What ${escapeHtml(outcome.name)} can build</h2></span><span class="guided-toggle">View</span></summary><div class="outlook-timeline"><div><b>1 week</b><p>${escapeHtml(outcome.week)}</p></div><div><b>1 month</b><p>${escapeHtml(outcome.month)}</p></div><div><b>3 months</b><p>${escapeHtml(outcome.quarter)}</p></div><div><b>6 months</b><p>${escapeHtml(outcome.half)}</p></div></div><p class="outlook-note">These are possible training milestones, not guaranteed body or weight outcomes. Nutrition, sleep, recovery, and adherence determine results.</p></details>`;
   const optional=state.showExtras?`<section class="card optional-picker"><div class="section-title compact"><div><p class="eyebrow">${activeDay?.day||routine[state.dayIndex].day} ONLY</p><h2>Add optional exercise</h2><p>Only ${activeDay?.focus?.toLowerCase()||''} options are shown. Tap ＋ Add to save a recurring extra.</p></div></div>${optionalCards(optionalCandidates())}<button type="button" class="pill" data-close-extras>Close</button></section>`:'';
-  const reviewPreview=biweeklyPreviewMode()?`<aside class="preview-banner artwork-preview-notice"><b>Bi-Weekly review preview</b><span>Week ${escapeHtml(plan.weekKey)} · cards use only exact approved artwork. “Artwork in production” means that movement’s sequence is still being created; no unrelated image is used.</span></aside>`:'';
+  const reviewCopy=state.dayIndex===0&&effectiveTemplateKey()==='periodized-abc'
+    ? 'Monday’s periodized-v3 Start and Movement artwork is loaded in this local preview. Semantic review remains open before wider rollout.'
+    : 'Week cards use only exact approved artwork. Artwork still under review remains outside active rollout; no unrelated image is used.';
+  const reviewPreview=biweeklyPreviewMode()?`<aside class="preview-banner artwork-preview-notice"><b>Bi-Weekly review preview</b><span>${escapeHtml(plan.weekKey)} · ${reviewCopy}</span></aside>`:'';
   app.innerHTML=`<main class="shell">${header()}${banner()}${notice()}${reviewPreview}<button class="link-button" data-screen="home">‹ All days</button><section class="detail-head"><div><p class="eyebrow">${scheduledDate(state.dayIndex).toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long'})}</p><h1>${escapeHtml(snap.focus)}</h1><p>${escapeHtml(tierDefaults[state.preferences.tier]?.label||'Intermediate')} · ${done}/${snap.slots.length} main exercises completed</p></div></section>${outcomeMarkup}${guided('Warm-up',snap.warmup,progress.warmup,'warmup',guidedCandidates('warmup',plan))}${snap.tendon?.length?guided('Tendon preparation',snap.tendon,progress.tendon,'tendon'):''}<section class="section-title"><div><p class="eyebrow">MAIN WORKOUT</p><h2>Your exercises</h2></div></section><section class="workout-list">${snap.slots.map((slot,index)=>renderExercise(slot,index)).join('')}</section><section class="post-main-actions"><button class="button" data-open-extras>＋ Add optional exercise</button><small>Up to two recurring extras for this weekday</small></section>${snap.extras?.length?`<section class="section-title"><div><p class="eyebrow">OPTIONAL EXTRAS</p><h2>Extra work</h2><p class="muted">Tap − to remove a recurring extra.</p></div></section><section class="workout-list">${snap.extras.map((slot,index)=>`${renderExercise(slot,index,true)}<button class="pill extra-remove" data-remove-extra="${index}">− Remove extra</button>`).join('')}</section>`:''}${optional}${guided('Post-workout recovery',snap.recovery,progress.recovery,'recovery',guidedCandidates('recovery',plan))}<section class="utility"><button class="button secondary" data-clear-session="${date}">Clear today’s checkmarks</button></section></main>`;
 }
 function renderDetail() { const item=detailRecord(prescribeExercise(state.detailItem||{})), prescription=item.tierPrescription||tierPrescription(item), review=item.equipmentStatus==='Review before use', steps=(item.detailSteps||[]).slice(0,2), phaseLabels=['Start','Movement']; app.innerHTML=`<main class="shell">${header()}${banner()}<button class="link-button" data-close-detail>‹ Back to workout</button><section class="detail-hero"><p class="eyebrow">EXERCISE GUIDE · ${escapeHtml(tierDefaults[state.preferences.tier]?.label||'Intermediate')}</p><h1>${escapeHtml(item.name)}</h1>${review?'<span class="equipment-review">Review before use</span>':''}</section><section class="dose-card"><span><b>${escapeHtml(prescription.sets||'—')}</b><small>Sets</small></span><span><b>${escapeHtml(prescription.duration||prescription.reps||'—')}</b><small>${prescription.duration?'Hold':'Reps'}</small></span><span><b>${escapeHtml(prescription.rest||'As needed')}</b><small>Rest</small></span></section><section class="detail-steps">${steps.map((step,index)=>`<article class="card detail-step"><div class="detail-phase-image">${imageMarkup({name:item.name,imageSet:{move:step.image},alt:step.alt,artworkStatus:item.artworkStatus},'visual detail-visual')}</div><div><span class="step-label">${index+1}</span><span class="phase-name">${phaseLabels[index]}</span><p>${escapeHtml(step.instruction)}</p></div></article>`).join('')}</section><section class="card detail-copy"><p><b>How to progress</b><br>${escapeHtml(prescription.progression)}</p><p class="safety-line"><b>Safety</b><br>${escapeHtml(item.safetyCue||'Stop for sharp pain, dizziness, or unusual breathlessness.')}</p>${item.videoUrl?`<a class="button secondary video-link" href="${escapeHtml(item.videoUrl)}" target="_blank" rel="noreferrer">Watch demonstration ↗</a>`:''}</section></main>`; }
