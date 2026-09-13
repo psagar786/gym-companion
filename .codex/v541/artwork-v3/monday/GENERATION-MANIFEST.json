@@ -639,11 +639,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-start.png",
+          "hash": "c85671795e38b7856effcdb79bbf31424930f775b407fd26dc7570a5240e56ed",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-movement.png",
+          "hash": "23c88c304548ae7f57192f84f5c91853717bb364426461c6dc1f2c008ecd6028",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T04:47:55.208Z"
     },
     {
       "canonicalMovementId": "biweekly-single-arm-iliac-cable-lat-pulldown",
