@@ -555,7 +555,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png"
@@ -566,9 +569,27 @@
         "start": "Fitness 7 illustration: Barbell Romanian Deadlift starting position",
         "movement": "Fitness 7 illustration: Barbell Romanian Deadlift working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "615976de397bbcb444e20e8e43dda885512053efdd3bf4821c556970881352f8"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "86f98df9556bd7e5e26c299b14992f70ef9c24d974caf6108c4b4c1a3f46354e"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete; barbell and rack visible; upright Start and controlled hip-hinge Movement are distinct."
+      }
     },
     {
       "order": 12,
@@ -588,7 +609,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-movement.png"
@@ -599,9 +623,27 @@
         "start": "Fitness 7 illustration: Cable Pull-Through starting position",
         "movement": "Fitness 7 illustration: Cable Pull-Through working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "be38a7ca5fa428b1dec33caf1f2506b1b96313bc0698dfaf04c6bb85cc3ad010"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "18de24839d31e695609f82d1d9f4cca8b30adf5ba2cfaa48c80532afee4d1cf4"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete; rope low-cable setup and upright hip-extension Movement are visibly distinct."
+      }
     },
     {
       "order": 13,
@@ -621,7 +663,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-movement.png"
@@ -632,9 +677,27 @@
         "start": "Fitness 7 illustration: Goblet Squat to Box starting position",
         "movement": "Fitness 7 illustration: Goblet Squat to Box working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d452c09fd8b43bcc79f1c0cfa0edab525ac6159d435cf991b2a4ec2138a6da2c"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a2b31fdef193327e784cb4e273b6f6145f1976602d2d4ec0e322ce0eebd0c1cd"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete; dumbbell and box visible; standing Start and controlled box-touch squat Movement are distinct."
+      }
     },
     {
       "order": 14,

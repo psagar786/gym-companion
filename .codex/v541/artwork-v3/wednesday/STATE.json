@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-WED-periodized-side-plank-abduction-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-WED-periodized-goblet-squat-to-box-PAIR-COMPLETE",
   "totalListedRecords": 25,
   "physicalRecords": 24,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 10,
-  "completedFiles": 20,
+  "completedSets": 13,
+  "completedFiles": 26,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-hip-adductor-machine",
@@ -28,14 +28,17 @@
     "periodized-wide-stance-sumo-goblet-squat",
     "periodized-cable-hip-adduction",
     "periodized-side-lying-adduction",
-    "periodized-side-plank-abduction"
+    "periodized-side-plank-abduction",
+    "periodized-barbell-rdl",
+    "periodized-cable-pull-through",
+    "periodized-goblet-squat-to-box"
   ],
-  "lastCompletedCommit": "4d2c6ce",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-barbell-rdl",
+  "nextAtomicAction": "Generate Start for periodized-bodyweight-box-squat",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -142,6 +145,42 @@
         "width": 512,
         "height": 512,
         "sha256": "026b0990771b30479ea216a6c28be8b74ea49262451b28e5b3aa7615e1a3ed3e"
+      }
+    },
+    "periodized-barbell-rdl": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "615976de397bbcb444e20e8e43dda885512053efdd3bf4821c556970881352f8"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "86f98df9556bd7e5e26c299b14992f70ef9c24d974caf6108c4b4c1a3f46354e"
+      }
+    },
+    "periodized-cable-pull-through": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "be38a7ca5fa428b1dec33caf1f2506b1b96313bc0698dfaf04c6bb85cc3ad010"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "18de24839d31e695609f82d1d9f4cca8b30adf5ba2cfaa48c80532afee4d1cf4"
+      }
+    },
+    "periodized-goblet-squat-to-box": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "d452c09fd8b43bcc79f1c0cfa0edab525ac6159d435cf991b2a4ec2138a6da2c"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "a2b31fdef193327e784cb4e273b6f6145f1976602d2d4ec0e322ce0eebd0c1cd"
       }
     }
   },
@@ -345,6 +384,66 @@
           "sha256": "026b0990771b30479ea216a6c28be8b74ea49262451b28e5b3aa7615e1a3ed3e"
         }
       }
+    },
+    "periodized-barbell-rdl": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "615976de397bbcb444e20e8e43dda885512053efdd3bf4821c556970881352f8"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "86f98df9556bd7e5e26c299b14992f70ef9c24d974caf6108c4b4c1a3f46354e"
+        }
+      }
+    },
+    "periodized-cable-pull-through": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "be38a7ca5fa428b1dec33caf1f2506b1b96313bc0698dfaf04c6bb85cc3ad010"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "18de24839d31e695609f82d1d9f4cca8b30adf5ba2cfaa48c80532afee4d1cf4"
+        }
+      }
+    },
+    "periodized-goblet-squat-to-box": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d452c09fd8b43bcc79f1c0cfa0edab525ac6159d435cf991b2a4ec2138a6da2c"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a2b31fdef193327e784cb4e273b6f6145f1976602d2d4ec0e322ce0eebd0c1cd"
+        }
+      }
     }
   },
   "validationLog": [
@@ -415,6 +514,30 @@
     {
       "checkpoint": "V541-WED-periodized-side-plank-abduction-PAIR-COMPLETE",
       "movementId": "periodized-side-plank-abduction",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-barbell-rdl-PAIR-COMPLETE",
+      "movementId": "periodized-barbell-rdl",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-cable-pull-through-PAIR-COMPLETE",
+      "movementId": "periodized-cable-pull-through",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-goblet-squat-to-box-PAIR-COMPLETE",
+      "movementId": "periodized-goblet-squat-to-box",
       "files": 2,
       "technical": "pass",
       "semantic": "ai-review-pass",

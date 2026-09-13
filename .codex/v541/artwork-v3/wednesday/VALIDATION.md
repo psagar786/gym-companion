@@ -86,3 +86,33 @@
 - Semantic: AI-assisted review pass (male athlete on mat; stable side plank and top-leg abduction are distinct)
 - Human gym-coach review: pending
 - Next action: Generate Start for `periodized-barbell-rdl`
+
+## Pair checkpoint: V541-WED-periodized-barbell-rdl-PAIR-COMPLETE
+
+- Movement: Barbell Romanian Deadlift (`periodized-barbell-rdl`)
+- Start: `assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete; barbell/rack visible; upright Start and controlled hip hinge are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for `periodized-seated-calf-raise-machine`
+
+## Pair checkpoint: V541-WED-periodized-cable-pull-through-PAIR-COMPLETE
+
+- Movement: Cable Pull-Through (`periodized-cable-pull-through`)
+- Start: `assets/exercises/periodized-v3/periodized-cable-pull-through-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-cable-pull-through-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete; rope and low cable visible; hip-hinge Start and upright hip-extension Movement are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
+
+## Pair checkpoint: V541-WED-periodized-goblet-squat-to-box-PAIR-COMPLETE
+
+- Movement: Goblet Squat to Box (`periodized-goblet-squat-to-box`)
+- Start: `assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete; dumbbell and box visible; standing Start and controlled box-touch squat are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
