@@ -36,4 +36,5 @@
 - 2026-09-13T06:00:54.664Z — Ab Wheel Rollout: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T06:06:54.860Z — Assisted Neutral Chin-Up: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T06:12:13.099Z — Assisted Pull-Ups: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T06:15:52.290Z — Band Pull-Apart: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 

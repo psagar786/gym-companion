@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 30,
-  "completedFiles": 60,
-  "remainingSets": 31,
-  "remainingFiles": 62,
+  "completedSets": 31,
+  "completedFiles": 62,
+  "remainingSets": 30,
+  "remainingFiles": 60,
   "currentBatch": "B03",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "660e49d",
-  "nextAtomicAction": "Generate Start for Band Pull-Apart"
+  "nextAtomicAction": "Generate Start for Cable Pushdown"
 }

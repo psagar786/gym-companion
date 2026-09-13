@@ -1983,11 +1983,26 @@
         "start": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-start.png",
+          "hash": "af0ca8fbede425c1a05c7e9249f83b136e3e490e935ee080d555160e75db7148",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-movement.png",
+          "hash": "24fc5768c73a1b9a6470d3ea3595a1a407c602219ddbb9586499f3bb7c357937",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:15:52.289Z"
     },
     {
       "canonicalMovementId": "periodized-cable-pushdown",
