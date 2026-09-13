@@ -1739,11 +1739,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-start.png",
+          "hash": "9d6c56b9f368272564aeb51f4a04604e52cf164d441330bfd33bf405e95d50e5",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-movement.png",
+          "hash": "a3c0bc299bf670eda71439e1c18b01a930625f54e603ff6e60674384899c6110",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:57:31.800Z"
     },
     {
       "canonicalMovementId": "periodized-ab-wheel-rollout",

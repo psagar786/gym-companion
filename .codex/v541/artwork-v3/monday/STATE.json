@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 26,
-  "completedFiles": 52,
-  "remainingSets": 35,
-  "remainingFiles": 70,
+  "completedSets": 27,
+  "completedFiles": 54,
+  "remainingSets": 34,
+  "remainingFiles": 68,
   "currentBatch": "B03",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "222f282",
-  "nextAtomicAction": "Generate Start for Hanging Straight-Leg Toes-to-Bar"
+  "nextAtomicAction": "Generate Start for Ab Wheel Rollout"
 }
