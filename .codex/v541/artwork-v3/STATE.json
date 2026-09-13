@@ -2,7 +2,7 @@
   "project": "Fitness 7 V5.4.1 A-B-A-C artwork v3 audit",
   "branch": "codex/v541-v2-art-integration",
   "workspace": "/Users/exxxy/Documents/Daily AI Help/gym-companion-v541-art-integration",
-  "currentCheckpoint": "V541-ART-V3-00-AUDIT-COMPLETE",
+  "currentCheckpoint": "V541-ART-V3-05-MONDAY-A-B-C-AUDIT",
   "runtimeIdentityCount": 296,
   "physicalRuntimeIdentityCount": 293,
   "canonicalMovementGroupCount": 273,
@@ -14,7 +14,8 @@
     "V541-ART-V3-01-runtime-inventory",
     "V541-ART-V3-02-non-exercise-exclusion",
     "V541-ART-V3-03-canonical-normalization",
-    "V541-ART-V3-04-prompt-system"
+    "V541-ART-V3-04-prompt-system",
+    "V541-ART-V3-05-monday-a-b-c-audit"
   ],
   "failedUnits": [],
   "knownIssues": [
@@ -24,5 +25,5 @@
     "No images were generated in this audit pass."
   ],
   "lastCommit": "81a45fd",
-  "nextAtomicAction": "Review ALIAS-DECISIONS.json and approve or separate each duplicate-name group before generating any artwork"
+  "nextAtomicAction": "Review Monday replacement queue and approve exact movement specifications before generating the first Monday pair"
 }
