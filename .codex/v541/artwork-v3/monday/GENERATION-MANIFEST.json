@@ -519,11 +519,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-start.png",
+          "hash": "87c9714274620daa9dcea7b317e37240252f01dbc04604bcfca727137d71e905",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-movement.png",
+          "hash": "7f030a3db1f0a3bd5e4d20f033c31a16400f4db72e1e2a45daf1809ffbc773d0",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T04:42:40.799Z"
     },
     {
       "canonicalMovementId": "biweekly-neutral-grip-mag-grip-lat-pulldown",
