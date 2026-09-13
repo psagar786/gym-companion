@@ -27,4 +27,5 @@
 - 2026-09-13T05:27:06.862Z — Stick Shoulder Dislocates: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T05:31:34.437Z — Wrist extensor isometric: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T05:38:13.123Z — 15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%): Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T05:41:50.017Z — Doorway Pec Stretch: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 
