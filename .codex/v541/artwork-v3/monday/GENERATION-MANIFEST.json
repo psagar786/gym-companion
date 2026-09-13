@@ -1499,11 +1499,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-start.png",
+          "hash": "fa0467bc55211d5823e280d171fef86df63ffd696e738727c859d3b088533819",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-movement.png",
+          "hash": "07e2a544bb8f6c03334b7dbbe2ed5dd4baf23d395dbff11a3b0dbe47543aa47f",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:44:39.425Z"
     },
     {
       "canonicalMovementId": "biweekly-overhead-lat-lengthener",
