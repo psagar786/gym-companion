@@ -2043,11 +2043,26 @@
         "start": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-start.png",
+          "hash": "21bd0bd7483a6cebeb0376d006551047cbd31b3a1dc1c058aa72f396792e44fd",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-movement.png",
+          "hash": "92255c51e9c76522828cf86e70d9b45bb688281fc8973d4c9283a7b20be57a3b",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:20:09.519Z"
     },
     {
       "canonicalMovementId": "periodized-captain-s-chair-leg-raise",
