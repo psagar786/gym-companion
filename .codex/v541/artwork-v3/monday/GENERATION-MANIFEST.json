@@ -397,11 +397,26 @@
         "start": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-start.png",
+          "hash": "fc815a50cfd38971b4fbfc26e409066c664d5922d955006df5bf43c698f45ea8",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-movement.png",
+          "hash": "943c8ecf07cd3632d906907b306732189dbeec385151b97dcc322260d0753da6",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T04:38:17.833Z"
     },
     {
       "canonicalMovementId": "biweekly-incline-dumbbell-bench-press-30",
