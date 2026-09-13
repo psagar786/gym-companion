@@ -1075,11 +1075,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-start.png",
+          "hash": "c93d58febcdd62bf9533ed98b735b321587547b5e5fe215e66c2dba44bf1ce5c",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-movement.png",
+          "hash": "af84105e3433cc6ebe99c8820303a6781e7c15c0446eebb39a40f7c2041352e4",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:18:01.853Z"
     },
     {
       "canonicalMovementId": "biweekly-stick-overhead-thoracic-extensions",
