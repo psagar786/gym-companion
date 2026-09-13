@@ -1,0 +1,906 @@
+{
+  "schemaVersion": "fitness7-wed-thu-artwork-generation-v1",
+  "day": "Wednesday",
+  "generationOrder": "audit -> reuse review -> queue freeze -> male-only Start/Movement generation",
+  "generationQueue": [
+    {
+      "order": 1,
+      "canonicalMovementId": "biweekly-seated-hip-adductor-machine",
+      "displayName": "Seated Hip Adductor Machine",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "main",
+      "equipment": "hip-adductor machine",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-movement.png"
+      },
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Seated Hip Adductor Machine, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: hip-adductor machine. Phase position: Stable starting position before the repetition. Show hip-adductor machine, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the stable, exercise-specific position for Seated Hip Adductor Machine without exaggerated range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Seated Hip Adductor Machine, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: hip-adductor machine. Phase position: Peak or clearly active working position for Seated Hip Adductor Machine. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the stable, exercise-specific position for Seated Hip Adductor Machine without exaggerated range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Seated Hip Adductor Machine starting position",
+        "movement": "Fitness 7 illustration: Seated Hip Adductor Machine working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "97aaf255894a399eba939c396ab6b0da488a16a413d7c6d10e18122a3f8a0efa"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "552e5e518ec612b06ba11df08c5c7031f0e03b0054eeeae2e81f6b164d84e98c"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 2,
+      "canonicalMovementId": "biweekly-seated-hip-abductor-machine",
+      "displayName": "Seated Hip Abductor Machine",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "main",
+      "equipment": "hip-abductor machine",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-movement.png"
+      },
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Seated Hip Abductor Machine, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: hip-abductor machine. Phase position: Stable starting position before the repetition. Show hip-abductor machine, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the stable, exercise-specific position for Seated Hip Abductor Machine without exaggerated range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Seated Hip Abductor Machine, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: hip-abductor machine. Phase position: Peak or clearly active working position for Seated Hip Abductor Machine. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the stable, exercise-specific position for Seated Hip Abductor Machine without exaggerated range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Seated Hip Abductor Machine starting position",
+        "movement": "Fitness 7 illustration: Seated Hip Abductor Machine working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "c89d682521a730e0ba87a38bbf679dd85f82f2a8016302539c794e9938b0ac8f"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "2e5904f166f911d79d9c1492836100c2455ce2b2f6576af6ab7a92c9b3969b9c"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 3,
+      "canonicalMovementId": "biweekly-dumbbell-romanian-deadlift-rdl",
+      "displayName": "Dumbbell Romanian Deadlift (RDL)",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "main",
+      "equipment": "dumbbells",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-movement.png"
+      },
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dumbbell Romanian Deadlift (RDL), showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: dumbbells. Phase position: Stable starting position before the repetition. Show dumbbells, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Dumbbell Romanian Deadlift (RDL); keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dumbbell Romanian Deadlift (RDL), showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: dumbbells. Phase position: Peak or clearly active working position for Dumbbell Romanian Deadlift (RDL). Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Dumbbell Romanian Deadlift (RDL); keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Dumbbell Romanian Deadlift (RDL) starting position",
+        "movement": "Fitness 7 illustration: Dumbbell Romanian Deadlift (RDL) working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "cf5689f7492d86f2b5b4ca648eb55e7aa993cd5b7c3c8cd3f4f48830d5a2664d"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "59adb4c9791f445a07043de5ad497291a99418ac051d19530854a6a327012875"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 4,
+      "canonicalMovementId": "biweekly-45-incline-leg-press-mid-stance",
+      "displayName": "45° Incline Leg Press (Mid-Stance)",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "main",
+      "equipment": "45-degree leg press machine",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-movement.png"
+      },
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for 45° Incline Leg Press (Mid-Stance), showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: 45-degree leg press machine. Phase position: Stable starting position before the repetition. Show 45-degree leg press machine, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for 45° Incline Leg Press (Mid-Stance); keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for 45° Incline Leg Press (Mid-Stance), showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: 45-degree leg press machine. Phase position: Peak or clearly active working position for 45° Incline Leg Press (Mid-Stance). Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for 45° Incline Leg Press (Mid-Stance); keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: 45° Incline Leg Press (Mid-Stance) starting position",
+        "movement": "Fitness 7 illustration: 45° Incline Leg Press (Mid-Stance) working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "609797c589992b7c7d363e5fb24f988aab711d0b28f03fc1971b5ad336c41de6"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "574d27f5f0d76794073464f2f3e9a06f41542d99210a7bc131fc73de31d112d8"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 5,
+      "canonicalMovementId": "biweekly-lying-leg-curl-machine",
+      "displayName": "Lying Leg Curl Machine",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "main",
+      "equipment": "lying leg-curl machine",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-movement.png"
+      },
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Lying Leg Curl Machine, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: lying leg-curl machine. Phase position: Stable starting position before the repetition. Show lying leg-curl machine, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Lying Leg Curl Machine; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Lying Leg Curl Machine, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: lying leg-curl machine. Phase position: Peak or clearly active working position for Lying Leg Curl Machine. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Lying Leg Curl Machine; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Lying Leg Curl Machine starting position",
+        "movement": "Fitness 7 illustration: Lying Leg Curl Machine working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a351b71b965a5fd170f08c6f29c1d89955ed90389fa39ecee97f625ae1fd7d19"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "7029731722161c59295560ac297ef67095757bdc9c6e52fa5b5871c9982036a5"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 6,
+      "canonicalMovementId": "biweekly-dumbbell-walking-lunges",
+      "displayName": "Dumbbell Walking Lunges",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "main",
+      "equipment": "dumbbells",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dumbbell Walking Lunges, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: dumbbells. Phase position: Stable starting position before the repetition. Show dumbbells, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Dumbbell Walking Lunges; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dumbbell Walking Lunges, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: dumbbells. Phase position: Peak or clearly active working position for Dumbbell Walking Lunges. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Dumbbell Walking Lunges; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Dumbbell Walking Lunges starting position",
+        "movement": "Fitness 7 illustration: Dumbbell Walking Lunges working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 7,
+      "canonicalMovementId": "periodized-wide-stance-sumo-goblet-squat",
+      "displayName": "Wide-Stance Sumo Goblet Squat",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "single dumbbell",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Wide-Stance Sumo Goblet Squat, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: single dumbbell. Phase position: Stable starting position before the repetition. Show single dumbbell, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Wide-Stance Sumo Goblet Squat; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Wide-Stance Sumo Goblet Squat, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: single dumbbell. Phase position: Peak or clearly active working position for Wide-Stance Sumo Goblet Squat. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Wide-Stance Sumo Goblet Squat; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Wide-Stance Sumo Goblet Squat starting position",
+        "movement": "Fitness 7 illustration: Wide-Stance Sumo Goblet Squat working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 8,
+      "canonicalMovementId": "periodized-cable-hip-adduction",
+      "displayName": "Cable Hip Adduction",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "low cable with ankle cuff",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Cable Hip Adduction, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: low cable with ankle cuff. Phase position: Stable starting position before the repetition. Show low cable with ankle cuff, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Cable Hip Adduction; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Cable Hip Adduction, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: low cable with ankle cuff. Phase position: Peak or clearly active working position for Cable Hip Adduction. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Cable Hip Adduction; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Cable Hip Adduction starting position",
+        "movement": "Fitness 7 illustration: Cable Hip Adduction working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 9,
+      "canonicalMovementId": "periodized-side-lying-adduction",
+      "displayName": "Side-Lying Adduction",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "exercise mat",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Side-Lying Adduction, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: exercise mat. Phase position: Stable starting position before the repetition. Show exercise mat, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Side-Lying Adduction; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Side-Lying Adduction, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: exercise mat. Phase position: Peak or clearly active working position for Side-Lying Adduction. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Side-Lying Adduction; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Side-Lying Adduction starting position",
+        "movement": "Fitness 7 illustration: Side-Lying Adduction working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 10,
+      "canonicalMovementId": "periodized-side-plank-abduction",
+      "displayName": "Side Plank Abduction",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "exercise mat",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Side Plank Abduction, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: exercise mat. Phase position: Stable starting position before the repetition. Show exercise mat, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Side Plank Abduction; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Side Plank Abduction, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: exercise mat. Phase position: Peak or clearly active working position for Side Plank Abduction. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Side Plank Abduction; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Side Plank Abduction starting position",
+        "movement": "Fitness 7 illustration: Side Plank Abduction working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 11,
+      "canonicalMovementId": "periodized-barbell-rdl",
+      "displayName": "Barbell Romanian Deadlift",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "barbell and rack",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Barbell Romanian Deadlift, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: barbell and rack. Phase position: Stable starting position before the repetition. Show barbell and rack, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Barbell Romanian Deadlift; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Barbell Romanian Deadlift, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: barbell and rack. Phase position: Peak or clearly active working position for Barbell Romanian Deadlift. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Barbell Romanian Deadlift; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Barbell Romanian Deadlift starting position",
+        "movement": "Fitness 7 illustration: Barbell Romanian Deadlift working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 12,
+      "canonicalMovementId": "periodized-cable-pull-through",
+      "displayName": "Cable Pull-Through",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "low cable with rope",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Cable Pull-Through, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: low cable with rope. Phase position: Stable starting position before the repetition. Show low cable with rope, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the stable, exercise-specific position for Cable Pull-Through without exaggerated range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Cable Pull-Through, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: low cable with rope. Phase position: Peak or clearly active working position for Cable Pull-Through. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the stable, exercise-specific position for Cable Pull-Through without exaggerated range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Cable Pull-Through starting position",
+        "movement": "Fitness 7 illustration: Cable Pull-Through working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 13,
+      "canonicalMovementId": "periodized-goblet-squat-to-box",
+      "displayName": "Goblet Squat to Box",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "dumbbell and box",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Goblet Squat to Box, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: dumbbell and box. Phase position: Stable starting position before the repetition. Show dumbbell and box, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Goblet Squat to Box; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Goblet Squat to Box, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: dumbbell and box. Phase position: Peak or clearly active working position for Goblet Squat to Box. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Goblet Squat to Box; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Goblet Squat to Box starting position",
+        "movement": "Fitness 7 illustration: Goblet Squat to Box working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 14,
+      "canonicalMovementId": "periodized-bodyweight-box-squat",
+      "displayName": "Bodyweight Box Squat",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "box and open floor",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Bodyweight Box Squat, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: box and open floor. Phase position: Stable starting position before the repetition. Show box and open floor, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Bodyweight Box Squat; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Bodyweight Box Squat, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: box and open floor. Phase position: Peak or clearly active working position for Bodyweight Box Squat. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Bodyweight Box Squat; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Bodyweight Box Squat starting position",
+        "movement": "Fitness 7 illustration: Bodyweight Box Squat working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 15,
+      "canonicalMovementId": "periodized-dumbbell-lying-leg-curl",
+      "displayName": "Dumbbell Lying Leg Curl",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "single dumbbell and mat",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dumbbell Lying Leg Curl, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: single dumbbell and mat. Phase position: Stable starting position before the repetition. Show single dumbbell and mat, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Dumbbell Lying Leg Curl; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dumbbell Lying Leg Curl, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: single dumbbell and mat. Phase position: Peak or clearly active working position for Dumbbell Lying Leg Curl. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Dumbbell Lying Leg Curl; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Dumbbell Lying Leg Curl starting position",
+        "movement": "Fitness 7 illustration: Dumbbell Lying Leg Curl working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 16,
+      "canonicalMovementId": "periodized-deficit-bulgarian-split-squat",
+      "displayName": "Deficit Bulgarian Split Squat",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "dumbbells and low platform",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Deficit Bulgarian Split Squat, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: dumbbells and low platform. Phase position: Stable starting position before the repetition. Show dumbbells and low platform, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Deficit Bulgarian Split Squat; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Deficit Bulgarian Split Squat, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: dumbbells and low platform. Phase position: Peak or clearly active working position for Deficit Bulgarian Split Squat. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Deficit Bulgarian Split Squat; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Deficit Bulgarian Split Squat starting position",
+        "movement": "Fitness 7 illustration: Deficit Bulgarian Split Squat working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 17,
+      "canonicalMovementId": "periodized-step-ups-on-bench",
+      "displayName": "Step-Ups on Bench",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "bench and optional dumbbells",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Step-Ups on Bench, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: bench and optional dumbbells. Phase position: Stable starting position before the repetition. Show bench and optional dumbbells, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Step-Ups on Bench; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Step-Ups on Bench, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: bench and optional dumbbells. Phase position: Peak or clearly active working position for Step-Ups on Bench. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Step-Ups on Bench; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Step-Ups on Bench starting position",
+        "movement": "Fitness 7 illustration: Step-Ups on Bench working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 18,
+      "canonicalMovementId": "periodized-reverse-lunges",
+      "displayName": "Reverse Lunges",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "open floor and optional dumbbells",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Reverse Lunges, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: open floor and optional dumbbells. Phase position: Stable starting position before the repetition. Show open floor and optional dumbbells, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Reverse Lunges; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Reverse Lunges, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: open floor and optional dumbbells. Phase position: Peak or clearly active working position for Reverse Lunges. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Reverse Lunges; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Reverse Lunges starting position",
+        "movement": "Fitness 7 illustration: Reverse Lunges working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 19,
+      "canonicalMovementId": "biweekly-stick-overhead-deep-squat-prys",
+      "displayName": "Stick Overhead Deep Squat Prys",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "warmup",
+      "equipment": "light mobility stick",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Overhead Deep Squat Prys, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: light mobility stick. Phase position: Stable starting position before the repetition. Show light mobility stick, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Stick Overhead Deep Squat Prys; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Overhead Deep Squat Prys, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: light mobility stick. Phase position: Peak or clearly active working position for Stick Overhead Deep Squat Prys. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Stick Overhead Deep Squat Prys; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Stick Overhead Deep Squat Prys starting position",
+        "movement": "Fitness 7 illustration: Stick Overhead Deep Squat Prys working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 20,
+      "canonicalMovementId": "biweekly-stick-good-mornings",
+      "displayName": "Stick Good Mornings",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "warmup",
+      "equipment": "light mobility stick",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Good Mornings, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: light mobility stick. Phase position: Stable starting position before the repetition. Show light mobility stick, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the stable, exercise-specific position for Stick Good Mornings without exaggerated range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Good Mornings, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: light mobility stick. Phase position: Peak or clearly active working position for Stick Good Mornings. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the stable, exercise-specific position for Stick Good Mornings without exaggerated range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Stick Good Mornings starting position",
+        "movement": "Fitness 7 illustration: Stick Good Mornings working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 21,
+      "canonicalMovementId": "biweekly-stick-lateral-leg-swings",
+      "displayName": "Stick Lateral Leg Swings",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "warmup",
+      "equipment": "light mobility stick and support",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Lateral Leg Swings, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: light mobility stick and support. Phase position: Stable starting position before the repetition. Show light mobility stick and support, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Stick Lateral Leg Swings; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Lateral Leg Swings, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: light mobility stick and support. Phase position: Peak or clearly active working position for Stick Lateral Leg Swings. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Stick Lateral Leg Swings; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Stick Lateral Leg Swings starting position",
+        "movement": "Fitness 7 illustration: Stick Lateral Leg Swings working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 22,
+      "canonicalMovementId": "biweekly-stick-quad-stretch",
+      "displayName": "Stick Quad Stretch",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "recovery",
+      "equipment": "light mobility stick and support",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Quad Stretch, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: light mobility stick and support. Phase position: Stable starting position before the repetition. Show light mobility stick and support, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Stick Quad Stretch; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Quad Stretch, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: light mobility stick and support. Phase position: Peak or clearly active working position for Stick Quad Stretch. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Stick Quad Stretch; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Stick Quad Stretch starting position",
+        "movement": "Fitness 7 illustration: Stick Quad Stretch working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 23,
+      "canonicalMovementId": "biweekly-butterfly-groin-stretch",
+      "displayName": "Butterfly Groin Stretch",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "recovery",
+      "equipment": "exercise mat",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Butterfly Groin Stretch, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: exercise mat. Phase position: Stable starting position before the repetition. Show exercise mat, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Butterfly Groin Stretch; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Butterfly Groin Stretch, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: exercise mat. Phase position: Peak or clearly active working position for Butterfly Groin Stretch. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Butterfly Groin Stretch; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Butterfly Groin Stretch starting position",
+        "movement": "Fitness 7 illustration: Butterfly Groin Stretch working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "order": 24,
+      "canonicalMovementId": "biweekly-hamstring-stretch",
+      "displayName": "Hamstring Stretch",
+      "day": "Wednesday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "recovery",
+      "equipment": "exercise mat",
+      "equipmentStatus": "review-before-generation",
+      "tuesdayExactCandidates": [],
+      "tuesdayDecision": "no-name-or-id-match-found",
+      "mondayDecision": "not-a-reuse-candidate",
+      "existingSource": "none",
+      "status": "generate",
+      "imageSet": null,
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Hamstring Stretch, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: exercise mat. Phase position: Stable starting position before the repetition. Show exercise mat, grip, stance, joint stacking, and neutral posture. Movement mechanics: Show the exact controlled path for Hamstring Stretch; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Hamstring Stretch, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment; off-white athlete and equipment; restrained orange primary-muscle emphasis, muted-blue secondary emphasis, and grey-green stabilizers. Equipment: exercise mat. Phase position: Peak or clearly active working position for Hamstring Stretch. Keep the same athlete and equipment as Start and change the joint/equipment positions meaningfully. Movement mechanics: Show the exact controlled path for Hamstring Stretch; keep the joints aligned and stay inside a pain-free range. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Hamstring Stretch starting position",
+        "movement": "Fitness 7 illustration: Hamstring Stretch working position"
+      },
+      "technicalReviewStatus": "pending",
+      "semanticReviewStatus": "pending",
+      "humanCoachReviewStatus": "pending"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "biweekly-no-cardio-safeguard-knee-cns-recovery",
+      "name": "NO CARDIO (Safeguard Knee & CNS Recovery)",
+      "reason": "text/status record; no artwork"
+    }
+  ]
+}
