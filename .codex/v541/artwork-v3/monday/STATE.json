@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 16,
-  "completedFiles": 32,
-  "remainingSets": 45,
-  "remainingFiles": 90,
+  "completedSets": 17,
+  "completedFiles": 34,
+  "remainingSets": 44,
+  "remainingFiles": 88,
   "currentBatch": "B02",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "3fc34be",
-  "nextAtomicAction": "Generate Start for Stick Overhead Thoracic Extensions"
+  "nextAtomicAction": "Generate Start for Stick Overhead Thoracic Spine Extensions"
 }

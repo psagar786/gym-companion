@@ -1135,11 +1135,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-start.png",
+          "hash": "c59a6455c340b165a87e1a8f3b387616485808bb9ae07251a3ae601f8adee451",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-movement.png",
+          "hash": "e4aa827119ed1dbdd19c6752c27d0ead3b189fbad254d2d740bbbfc2d7a744fa",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:20:54.497Z"
     },
     {
       "canonicalMovementId": "biweekly-stick-overhead-thoracic-spine-extensions",
