@@ -2709,11 +2709,26 @@
         "start": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-start.png",
+          "hash": "ac4c45b0c22a3d8aa01e168d0e62a8957dad333cf3df85c222b400b7a678933b",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-movement.png",
+          "hash": "a6ff4436cbb5a92991247491534a8dcafda8651c90f1d375c7ec8fb7c3541d04",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T07:28:27.462Z"
     },
     {
       "canonicalMovementId": "periodized-incline-deficit-push-ups",
