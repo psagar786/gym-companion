@@ -2226,11 +2226,26 @@
         "start": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-start.png",
+          "hash": "ea48195e37a58a5477765a0f9cdfcefb7a2ca35749833440c4048a71b56cdef1",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-movement.png",
+          "hash": "b17780d103480d356e08f7dc045e19cce9bb73b0243992affa1a00566a09262d",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:34:28.298Z"
     },
     {
       "canonicalMovementId": "periodized-close-grip-incline-db-press",
