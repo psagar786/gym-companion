@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 28,
-  "completedFiles": 56,
-  "remainingSets": 33,
-  "remainingFiles": 66,
+  "completedSets": 29,
+  "completedFiles": 58,
+  "remainingSets": 32,
+  "remainingFiles": 64,
   "currentBatch": "B03",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "222f282",
-  "nextAtomicAction": "Generate Start for Assisted Neutral Chin-Up"
+  "nextAtomicAction": "Generate Start for Assisted Pull-Ups"
 }

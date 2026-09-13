@@ -1863,11 +1863,26 @@
         "start": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-start.png",
+          "hash": "e173804a5e597e0ccdf928b878c320f4b95cc72f08875b78802a92164b637ce2",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-movement.png",
+          "hash": "e256041ffcbce1670d69fb231ff6d8a51e95bc5b32e3d21fb981496564ae01d8",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:06:54.858Z"
     },
     {
       "canonicalMovementId": "periodized-assisted-pull-ups",
