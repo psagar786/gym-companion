@@ -2286,11 +2286,26 @@
         "start": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-start.png",
+          "hash": "ba1248b4d7274ec46e232df9704167895f8396b31f0b3fe0f9e0d3ef08a4c84e",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-movement.png",
+          "hash": "507d126c567a5a3ed51b2870304214b9462f6969794bf9d932b5a3d713b7f897",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:44:05.801Z"
     },
     {
       "canonicalMovementId": "periodized-db-pullover",
