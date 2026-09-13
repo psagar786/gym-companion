@@ -759,11 +759,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-start.png",
+          "hash": "33b1ed1f332a230eb91f9219adbb9e7153d352a565b44491ae026d911f257ab2",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-movement.png",
+          "hash": "7cf96549babcf3bfe974b6dacb123ec9114bd781e4aed1cee81275528b4a1d52",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T04:58:29.466Z"
     },
     {
       "canonicalMovementId": "biweekly-straight-arm-cable-pulldown",
