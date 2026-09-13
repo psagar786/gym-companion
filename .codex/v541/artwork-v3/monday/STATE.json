@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 3,
-  "completedFiles": 6,
-  "remainingSets": 58,
-  "remainingFiles": 116,
+  "completedSets": 4,
+  "completedFiles": 8,
+  "remainingSets": 57,
+  "remainingFiles": 114,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "",
-  "nextAtomicAction": "Generate Start for Incline Barbell Bench Press (30°)"
+  "nextAtomicAction": "Generate Start for Incline DB Press"
 }

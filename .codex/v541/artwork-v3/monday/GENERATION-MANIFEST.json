@@ -333,11 +333,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-start.png",
+          "hash": "c23c4144c91ad002bc5104626bd4b981556b0bcbc36a1f01d7e3ed45a4047dfe",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-movement.png",
+          "hash": "378211fb7c859d7306352e05267758975794ec461fd1d542af2df9e28151a201",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T04:36:11.441Z"
     },
     {
       "canonicalMovementId": "periodized-incline-db-press",
