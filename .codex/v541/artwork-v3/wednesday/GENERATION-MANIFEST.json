@@ -825,7 +825,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.png"
@@ -836,9 +839,27 @@
         "start": "Fitness 7 illustration: Deficit Bulgarian Split Squat starting position",
         "movement": "Fitness 7 illustration: Deficit Bulgarian Split Squat working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a2a5fe0bcc801b56c28595fc439d23c5fc148d8dbd90746ae8d51d4d0fb74521"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "bf6e39390441fed30d075000efb3b27187343559dda6b4eeca4c623fb471960d"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete; two dumbbells, raised front platform and rear bench visible; upright split stance and lowered split squat are distinct."
+      }
     },
     {
       "order": 17,

@@ -136,3 +136,13 @@
 - Semantic: AI-assisted review pass (male athlete; bench and dumbbell between feet visible; straight-leg Start and knee-flexed curl are distinct)
 - Human gym-coach review: pending
 - Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
+
+## Pair checkpoint: V541-WED-periodized-deficit-bulgarian-split-squat-PAIR-COMPLETE
+
+- Movement: Deficit Bulgarian Split Squat (`periodized-deficit-bulgarian-split-squat`)
+- Start: `assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete; dumbbells, front platform and rear bench visible; upright and lowered split-squat phases distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for the next queued Wednesday identity from `STATE.json`

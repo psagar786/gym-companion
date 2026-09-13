@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-WED-periodized-dumbbell-lying-leg-curl-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-WED-periodized-deficit-bulgarian-split-squat-PAIR-COMPLETE",
   "totalListedRecords": 25,
   "physicalRecords": 24,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 15,
-  "completedFiles": 30,
+  "completedSets": 16,
+  "completedFiles": 32,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-hip-adductor-machine",
@@ -33,14 +33,15 @@
     "periodized-cable-pull-through",
     "periodized-goblet-squat-to-box",
     "periodized-bodyweight-box-squat",
-    "periodized-dumbbell-lying-leg-curl"
+    "periodized-dumbbell-lying-leg-curl",
+    "periodized-deficit-bulgarian-split-squat"
   ],
-  "lastCompletedCommit": "f769f57",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-deficit-bulgarian-split-squat",
+  "nextAtomicAction": "Generate Start for periodized-step-ups-on-bench",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -207,6 +208,18 @@
         "width": 512,
         "height": 512,
         "sha256": "335029b3466237ceb9226b455dbcdb1043dc9b598b04a2525fc8337c0b6808aa"
+      }
+    },
+    "periodized-deficit-bulgarian-split-squat": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "a2a5fe0bcc801b56c28595fc439d23c5fc148d8dbd90746ae8d51d4d0fb74521"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "bf6e39390441fed30d075000efb3b27187343559dda6b4eeca4c623fb471960d"
       }
     }
   },
@@ -510,6 +523,26 @@
           "sha256": "335029b3466237ceb9226b455dbcdb1043dc9b598b04a2525fc8337c0b6808aa"
         }
       }
+    },
+    "periodized-deficit-bulgarian-split-squat": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a2a5fe0bcc801b56c28595fc439d23c5fc148d8dbd90746ae8d51d4d0fb74521"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "bf6e39390441fed30d075000efb3b27187343559dda6b4eeca4c623fb471960d"
+        }
+      }
     }
   },
   "validationLog": [
@@ -620,6 +653,14 @@
     {
       "checkpoint": "V541-WED-periodized-dumbbell-lying-leg-curl-PAIR-COMPLETE",
       "movementId": "periodized-dumbbell-lying-leg-curl",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-deficit-bulgarian-split-squat-PAIR-COMPLETE",
+      "movementId": "periodized-deficit-bulgarian-split-squat",
       "files": 2,
       "technical": "pass",
       "semantic": "ai-review-pass",
