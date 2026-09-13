@@ -1679,11 +1679,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-start.png",
+          "hash": "8e4d04d09ed235060dda1516a8903ef001c650b4f1e91bf86807e65914f74f4d",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-movement.png",
+          "hash": "fdb972ac866e9b75bb48e8bcdd75ed70acc056ceaaec188ccc3e88d4194df51b",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:54:08.687Z"
     },
     {
       "canonicalMovementId": "biweekly-hanging-straight-leg-toes-to-bar",
