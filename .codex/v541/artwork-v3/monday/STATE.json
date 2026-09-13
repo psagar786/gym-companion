@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 7,
-  "completedFiles": 14,
-  "remainingSets": 54,
-  "remainingFiles": 108,
+  "completedSets": 8,
+  "completedFiles": 16,
+  "remainingSets": 53,
+  "remainingFiles": 106,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "",
-  "nextAtomicAction": "Generate Start for Neutral-Grip Mag-Grip Lat Pulldown"
+  "nextAtomicAction": "Generate Start for Seated Cable Row to Sternum (Neutral Grip)"
 }
