@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-WED-periodized-goblet-squat-to-box-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-WED-periodized-bodyweight-box-squat-PAIR-COMPLETE",
   "totalListedRecords": 25,
   "physicalRecords": 24,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 13,
-  "completedFiles": 26,
+  "completedSets": 14,
+  "completedFiles": 28,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-hip-adductor-machine",
@@ -31,14 +31,15 @@
     "periodized-side-plank-abduction",
     "periodized-barbell-rdl",
     "periodized-cable-pull-through",
-    "periodized-goblet-squat-to-box"
+    "periodized-goblet-squat-to-box",
+    "periodized-bodyweight-box-squat"
   ],
-  "lastCompletedCommit": "c742868",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-bodyweight-box-squat",
+  "nextAtomicAction": "Generate Start for periodized-dumbbell-lying-leg-curl",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -181,6 +182,18 @@
         "width": 512,
         "height": 512,
         "sha256": "a2b31fdef193327e784cb4e273b6f6145f1976602d2d4ec0e322ce0eebd0c1cd"
+      }
+    },
+    "periodized-bodyweight-box-squat": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "e253fc55ebbc0d35852f25969b657e0a931c103900ee3fc37ade9074a7368351"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "5477ae17bc20081162959e5cd13ab4aeeffc1bfc479d14acf12c0d9b57573904"
       }
     }
   },
@@ -444,6 +457,26 @@
           "sha256": "a2b31fdef193327e784cb4e273b6f6145f1976602d2d4ec0e322ce0eebd0c1cd"
         }
       }
+    },
+    "periodized-bodyweight-box-squat": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "e253fc55ebbc0d35852f25969b657e0a931c103900ee3fc37ade9074a7368351"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "5477ae17bc20081162959e5cd13ab4aeeffc1bfc479d14acf12c0d9b57573904"
+        }
+      }
     }
   },
   "validationLog": [
@@ -538,6 +571,14 @@
     {
       "checkpoint": "V541-WED-periodized-goblet-squat-to-box-PAIR-COMPLETE",
       "movementId": "periodized-goblet-squat-to-box",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-bodyweight-box-squat-PAIR-COMPLETE",
+      "movementId": "periodized-bodyweight-box-squat",
       "files": 2,
       "technical": "pass",
       "semantic": "ai-review-pass",

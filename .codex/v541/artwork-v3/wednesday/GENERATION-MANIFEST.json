@@ -717,7 +717,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-movement.png"
@@ -728,9 +731,27 @@
         "start": "Fitness 7 illustration: Bodyweight Box Squat starting position",
         "movement": "Fitness 7 illustration: Bodyweight Box Squat working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "e253fc55ebbc0d35852f25969b657e0a931c103900ee3fc37ade9074a7368351"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "5477ae17bc20081162959e5cd13ab4aeeffc1bfc479d14acf12c0d9b57573904"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete; box visible; upright Start and controlled bodyweight squat Movement are clearly distinct."
+      }
     },
     {
       "order": 15,

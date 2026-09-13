@@ -116,3 +116,13 @@
 - Semantic: AI-assisted review pass (male athlete; dumbbell and box visible; standing Start and controlled box-touch squat are distinct)
 - Human gym-coach review: pending
 - Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
+
+## Pair checkpoint: V541-WED-periodized-bodyweight-box-squat-PAIR-COMPLETE
+
+- Movement: Bodyweight Box Squat (`periodized-bodyweight-box-squat`)
+- Start: `assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete; box visible; upright Start and controlled bodyweight squat are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
