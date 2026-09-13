@@ -1923,11 +1923,26 @@
         "start": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-start.png",
+          "hash": "d1cca547adeff189cf97f75ece395795f08b84ac4d61e0815faab6d8d62fb393",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-movement.png",
+          "hash": "4d8d1d0948d55540c7220e5418371631851907b8c11fc8b7e47c9fde5e3a33f7",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:12:13.097Z"
     },
     {
       "canonicalMovementId": "periodized-band-pull-apart",
