@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 13,
-  "completedFiles": 26,
-  "remainingSets": 48,
-  "remainingFiles": 96,
+  "completedSets": 14,
+  "completedFiles": 28,
+  "remainingSets": 47,
+  "remainingFiles": 94,
   "currentBatch": "B02",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "ccaab28",
-  "nextAtomicAction": "Generate Start for Stick Around-the-Worlds"
+  "nextAtomicAction": "Generate Start for Stick Behind-the-Back Chest Opener"
 }

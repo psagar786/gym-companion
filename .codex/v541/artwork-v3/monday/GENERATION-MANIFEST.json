@@ -949,11 +949,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-start.png",
+          "hash": "82debde7b5a9b37d3dc7e03d1a6ba5c9824f2b4b7a29f7d07d85f03b56f7bd86",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-movement.png",
+          "hash": "4c6888076846a6c9999106ddb55695dde1a9d78e0a44fd34783461ef00d04031",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:11:52.907Z"
     },
     {
       "canonicalMovementId": "biweekly-stick-behind-the-back-chest-opener",
