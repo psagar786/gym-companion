@@ -2829,11 +2829,26 @@
         "start": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-start.png",
+          "hash": "e089caa63642918d806f7fdd5af4ea537c56b86755d09da1d47ecf1386a3e9a2",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-movement.png",
+          "hash": "3f2f63803ce2a921a1ce66977cf45fb5b5afdcc0f3a142e9191ebb3cbb40f64a",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T11:29:54.805Z"
     },
     {
       "canonicalMovementId": "periodized-incline-machine-press",
