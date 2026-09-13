@@ -39,4 +39,5 @@
 - 2026-09-13T06:15:52.290Z — Band Pull-Apart: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T06:20:09.521Z — Cable Pushdown: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T06:24:13.731Z — Captain's Chair Leg Raise: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T06:29:56.961Z — Chest-Supported DB Row: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 

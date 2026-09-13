@@ -2164,11 +2164,26 @@
         "start": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-start.png",
+          "hash": "1af203b7223383dfc1537c03ae69eca401fd358d74e8dea8025a603ecf0b92ff",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-movement.png",
+          "hash": "72ef90632f074df1df082df3be8149e588ac77f15fee6361cdb28cfb307e2878",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:29:56.960Z"
     },
     {
       "canonicalMovementId": "periodized-chest-supported-machine-row",
