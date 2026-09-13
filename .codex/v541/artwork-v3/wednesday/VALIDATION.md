@@ -29,6 +29,13 @@
 
 ## Pair checkpoint
 
+- Movement: biweekly-dumbbell-walking-lunges
+- Start: 512x512 PNG, 2dcc304694c4bc78a59837737ef2c1f1b73c483b48182a6180171bd9b4424a07
+- Movement: 512x512 PNG, 66b93e2ec5c71542f6fadecde7cae536e82e11a8271bb8b769aa2f24bc6a5e72
+- Pair status: technical pass and AI-assisted semantic pass; human gym-coach review pending.
+
+## Pair checkpoint
+
 - Movement: biweekly-lying-leg-curl-machine
 - Start: 512x512 PNG, a351b71b965a5fd170f08c6f29c1d89955ed90389fa39ecee97f625ae1fd7d19
 - Movement: 512x512 PNG, 7029731722161c59295560ac297ef67095757bdc9c6e52fa5b5871c9982036a5
