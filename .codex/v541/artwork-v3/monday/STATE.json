@@ -1,0 +1,26 @@
+{
+  "plan": "periodized-abc",
+  "day": "Monday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "totalCanonicalSets": 61,
+  "completedSets": 1,
+  "completedFiles": 2,
+  "remainingSets": 60,
+  "remainingFiles": 120,
+  "currentBatch": "B01",
+  "currentMovementId": null,
+  "currentPhase": null,
+  "failedMovementIds": [],
+  "excludedReviewOnlyIds": [
+    "periodized-ab-wheel-rollout",
+    "periodized-band-pull-apart",
+    "periodized-captain-s-chair-leg-raise",
+    "periodized-reverse-pec-deck-fly"
+  ],
+  "lastCompletedCommit": "",
+  "nextAtomicAction": "Generate Start for Flat Dumbbell Bench Press"
+}
