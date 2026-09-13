@@ -56,3 +56,33 @@
 - Semantic: AI-assisted review pass (male athlete, single dumbbell, wide stance; Start and deep working squat are visibly distinct)
 - Human gym-coach review: pending
 - Next action: Generate Start for `periodized-cable-hip-adduction`
+
+## Pair checkpoint: V541-WED-periodized-cable-hip-adduction-PAIR-COMPLETE
+
+- Movement: Cable Hip Adduction (`periodized-cable-hip-adduction`)
+- Start: `assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete, low cable and ankle cuff visible; Start and controlled cross-body adduction are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for `periodized-side-lying-adduction`
+
+## Pair checkpoint: V541-WED-periodized-side-lying-adduction-PAIR-COMPLETE
+
+- Movement: Side-Lying Adduction (`periodized-side-lying-adduction`)
+- Start: `assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete on mat; stable side-lying setup and lifted lower-leg adduction are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for `periodized-side-plank-abduction`
+
+## Pair checkpoint: V541-WED-periodized-side-plank-abduction-PAIR-COMPLETE
+
+- Movement: Side Plank Abduction (`periodized-side-plank-abduction`)
+- Start: `assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete on mat; stable side plank and top-leg abduction are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for `periodized-barbell-rdl`

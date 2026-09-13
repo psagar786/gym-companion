@@ -393,7 +393,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png"
@@ -404,9 +407,27 @@
         "start": "Fitness 7 illustration: Cable Hip Adduction starting position",
         "movement": "Fitness 7 illustration: Cable Hip Adduction working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "e745b13142521783d48bca7f09ef545363d684f7172887e2715a06652f21e03a"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "82aca58035c1d29285005dbfba28333d7187e115fe30b6c74766eb3484cebe9f"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete; low cable and ankle cuff visible; stable abduction Start and controlled cross-body adduction Movement are distinct."
+      }
     },
     {
       "order": 9,
@@ -426,7 +447,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-movement.png"
@@ -437,9 +461,27 @@
         "start": "Fitness 7 illustration: Side-Lying Adduction starting position",
         "movement": "Fitness 7 illustration: Side-Lying Adduction working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d242fe687ed76f0e0bc1ca6c15457fa19a966ee77233942095e2887306ac4958"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "0a963d8dabf7e54ac6189ff2b5941d1332da0f56c744d8c9728efd5f9771d6d4"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete on mat; side-lying setup and lifted lower-leg adduction are clearly distinct."
+      }
     },
     {
       "order": 10,
@@ -459,7 +501,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-movement.png"
@@ -470,9 +515,27 @@
         "start": "Fitness 7 illustration: Side Plank Abduction starting position",
         "movement": "Fitness 7 illustration: Side Plank Abduction working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "48360dda742343e8710696d14f09b6a7d8be2496ecd159b10f49bf2a841e4521"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "026b0990771b30479ea216a6c28be8b74ea49262451b28e5b3aa7615e1a3ed3e"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete on mat; stable side plank Start and top-leg abduction Movement are visibly distinct."
+      }
     },
     {
       "order": 11,

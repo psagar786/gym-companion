@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-WED-periodized-wide-stance-sumo-goblet-squat-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-WED-periodized-side-plank-abduction-PAIR-COMPLETE",
   "totalListedRecords": 25,
   "physicalRecords": 24,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 7,
-  "completedFiles": 14,
+  "completedSets": 10,
+  "completedFiles": 20,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-hip-adductor-machine",
@@ -25,14 +25,17 @@
     "biweekly-45-incline-leg-press-mid-stance",
     "biweekly-lying-leg-curl-machine",
     "biweekly-dumbbell-walking-lunges",
-    "periodized-wide-stance-sumo-goblet-squat"
+    "periodized-wide-stance-sumo-goblet-squat",
+    "periodized-cable-hip-adduction",
+    "periodized-side-lying-adduction",
+    "periodized-side-plank-abduction"
   ],
-  "lastCompletedCommit": "0653dc3",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-cable-hip-adduction",
+  "nextAtomicAction": "Generate Start for periodized-barbell-rdl",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -103,6 +106,42 @@
         "width": 512,
         "height": 512,
         "sha256": "02226e96cf8634543a5e6de33b9f21ea3b9038be37e97b4cebef6369e1b3a67b"
+      }
+    },
+    "periodized-cable-hip-adduction": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "e745b13142521783d48bca7f09ef545363d684f7172887e2715a06652f21e03a"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "82aca58035c1d29285005dbfba28333d7187e115fe30b6c74766eb3484cebe9f"
+      }
+    },
+    "periodized-side-lying-adduction": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "d242fe687ed76f0e0bc1ca6c15457fa19a966ee77233942095e2887306ac4958"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "0a963d8dabf7e54ac6189ff2b5941d1332da0f56c744d8c9728efd5f9771d6d4"
+      }
+    },
+    "periodized-side-plank-abduction": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "48360dda742343e8710696d14f09b6a7d8be2496ecd159b10f49bf2a841e4521"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "026b0990771b30479ea216a6c28be8b74ea49262451b28e5b3aa7615e1a3ed3e"
       }
     }
   },
@@ -246,6 +285,66 @@
           "sha256": "02226e96cf8634543a5e6de33b9f21ea3b9038be37e97b4cebef6369e1b3a67b"
         }
       }
+    },
+    "periodized-cable-hip-adduction": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "e745b13142521783d48bca7f09ef545363d684f7172887e2715a06652f21e03a"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "82aca58035c1d29285005dbfba28333d7187e115fe30b6c74766eb3484cebe9f"
+        }
+      }
+    },
+    "periodized-side-lying-adduction": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d242fe687ed76f0e0bc1ca6c15457fa19a966ee77233942095e2887306ac4958"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "0a963d8dabf7e54ac6189ff2b5941d1332da0f56c744d8c9728efd5f9771d6d4"
+        }
+      }
+    },
+    "periodized-side-plank-abduction": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "48360dda742343e8710696d14f09b6a7d8be2496ecd159b10f49bf2a841e4521"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "026b0990771b30479ea216a6c28be8b74ea49262451b28e5b3aa7615e1a3ed3e"
+        }
+      }
     }
   },
   "validationLog": [
@@ -292,6 +391,30 @@
     {
       "checkpoint": "V541-WED-periodized-wide-stance-sumo-goblet-squat-PAIR-COMPLETE",
       "movementId": "periodized-wide-stance-sumo-goblet-squat",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-cable-hip-adduction-PAIR-COMPLETE",
+      "movementId": "periodized-cable-hip-adduction",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-side-lying-adduction-PAIR-COMPLETE",
+      "movementId": "periodized-side-lying-adduction",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-side-plank-abduction-PAIR-COMPLETE",
+      "movementId": "periodized-side-plank-abduction",
       "files": 2,
       "technical": "pass",
       "semantic": "ai-review-pass",
