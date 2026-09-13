@@ -23,6 +23,6 @@
     "Existing V2 pairs have technical validation but no qualified gym-coach approval.",
     "No images were generated in this audit pass."
   ],
-  "lastCommit": "76f2530",
+  "lastCommit": "81a45fd",
   "nextAtomicAction": "Review ALIAS-DECISIONS.json and approve or separate each duplicate-name group before generating any artwork"
 }
