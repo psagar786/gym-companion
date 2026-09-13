@@ -77,7 +77,7 @@
     },
     "localReview": {
       "status": "ready-for-user-review",
-      "browserUrl": "http://localhost:4190/?qa=tuesday-v3&week=A",
+      "browserUrl": "http://localhost:4175/?qa=tuesday-v3&week=A",
       "weeks": [
         "A",
         "B",
