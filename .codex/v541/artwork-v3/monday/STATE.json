@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 5,
-  "completedFiles": 10,
-  "remainingSets": 56,
-  "remainingFiles": 112,
+  "completedSets": 6,
+  "completedFiles": 12,
+  "remainingSets": 55,
+  "remainingFiles": 110,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "",
-  "nextAtomicAction": "Generate Start for Incline Dumbbell Bench Press (30°)"
+  "nextAtomicAction": "Generate Start for Incline Dumbbell Hex Press"
 }
