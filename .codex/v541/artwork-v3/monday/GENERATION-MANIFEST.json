@@ -1315,11 +1315,26 @@
         "start": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-start.png",
         "movement": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-start.png",
+          "hash": "4d93d91474caa690c84f4e8edc14f964538b9345ff38846792d01f7465c86fe3",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-movement.png",
+          "hash": "47b22eb4de0c019b0a844879f592b8b4af861c45c66ac4b478232b8f670fbbf2",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:31:34.435Z"
     },
     {
       "canonicalMovementId": "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9",
