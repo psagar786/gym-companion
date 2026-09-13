@@ -2348,11 +2348,26 @@
         "start": "assets/exercises/periodized-v3/periodized-db-pullover-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-db-pullover-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-db-pullover-v3-start.png",
+          "hash": "c63dff97f684eb25d25d2f5e867519a9c1b2b9308ed5cc95ebfb62315c992983",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-db-pullover-v3-movement.png",
+          "hash": "409c046d70453a1059f9ea4cf017a7cf6a895cb88da8cf2309fdd902dc06bd7f",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:48:59.597Z"
     },
     {
       "canonicalMovementId": "periodized-deficit-push-ups",
