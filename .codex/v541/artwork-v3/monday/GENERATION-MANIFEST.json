@@ -1195,11 +1195,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-start.png",
+          "hash": "59764e6ec88a5cda534d0551a444d2296cfa635bdc5526205364b8617b9437d2",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-movement.png",
+          "hash": "50f734e66005412c6881d69cea9103e7750baf0cf6fea9ddf8ab75e4d39a8eec",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:24:21.555Z"
     },
     {
       "canonicalMovementId": "biweekly-stick-shoulder-dislocates",
