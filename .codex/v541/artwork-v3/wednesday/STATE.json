@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-WED-periodized-bodyweight-box-squat-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-WED-periodized-dumbbell-lying-leg-curl-PAIR-COMPLETE",
   "totalListedRecords": 25,
   "physicalRecords": 24,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 14,
-  "completedFiles": 28,
+  "completedSets": 15,
+  "completedFiles": 30,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-hip-adductor-machine",
@@ -32,14 +32,15 @@
     "periodized-barbell-rdl",
     "periodized-cable-pull-through",
     "periodized-goblet-squat-to-box",
-    "periodized-bodyweight-box-squat"
+    "periodized-bodyweight-box-squat",
+    "periodized-dumbbell-lying-leg-curl"
   ],
-  "lastCompletedCommit": "bd40db8",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-dumbbell-lying-leg-curl",
+  "nextAtomicAction": "Generate Start for periodized-deficit-bulgarian-split-squat",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -194,6 +195,18 @@
         "width": 512,
         "height": 512,
         "sha256": "5477ae17bc20081162959e5cd13ab4aeeffc1bfc479d14acf12c0d9b57573904"
+      }
+    },
+    "periodized-dumbbell-lying-leg-curl": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "aca4af00c87050ee52a81bc7799486f22bc044d176e2870840067a75b3ec79de"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "335029b3466237ceb9226b455dbcdb1043dc9b598b04a2525fc8337c0b6808aa"
       }
     }
   },
@@ -477,6 +490,26 @@
           "sha256": "5477ae17bc20081162959e5cd13ab4aeeffc1bfc479d14acf12c0d9b57573904"
         }
       }
+    },
+    "periodized-dumbbell-lying-leg-curl": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "aca4af00c87050ee52a81bc7799486f22bc044d176e2870840067a75b3ec79de"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "335029b3466237ceb9226b455dbcdb1043dc9b598b04a2525fc8337c0b6808aa"
+        }
+      }
     }
   },
   "validationLog": [
@@ -579,6 +612,14 @@
     {
       "checkpoint": "V541-WED-periodized-bodyweight-box-squat-PAIR-COMPLETE",
       "movementId": "periodized-bodyweight-box-squat",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-dumbbell-lying-leg-curl-PAIR-COMPLETE",
+      "movementId": "periodized-dumbbell-lying-leg-curl",
       "files": 2,
       "technical": "pass",
       "semantic": "ai-review-pass",

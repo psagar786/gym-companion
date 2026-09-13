@@ -126,3 +126,13 @@
 - Semantic: AI-assisted review pass (male athlete; box visible; upright Start and controlled bodyweight squat are distinct)
 - Human gym-coach review: pending
 - Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
+
+## Pair checkpoint: V541-WED-periodized-dumbbell-lying-leg-curl-PAIR-COMPLETE
+
+- Movement: Dumbbell Lying Leg Curl (`periodized-dumbbell-lying-leg-curl`)
+- Start: `assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete; bench and dumbbell between feet visible; straight-leg Start and knee-flexed curl are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for the next queued Wednesday identity from `STATE.json`

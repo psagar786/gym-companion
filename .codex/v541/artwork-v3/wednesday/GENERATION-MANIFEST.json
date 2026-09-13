@@ -771,7 +771,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-movement.png"
@@ -782,9 +785,27 @@
         "start": "Fitness 7 illustration: Dumbbell Lying Leg Curl starting position",
         "movement": "Fitness 7 illustration: Dumbbell Lying Leg Curl working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "aca4af00c87050ee52a81bc7799486f22bc044d176e2870840067a75b3ec79de"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "335029b3466237ceb9226b455dbcdb1043dc9b598b04a2525fc8337c0b6808aa"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete; bench and dumbbell between feet visible; straight-leg Start and knee-flexed curl Movement are distinct."
+      }
     },
     {
       "order": 16,
