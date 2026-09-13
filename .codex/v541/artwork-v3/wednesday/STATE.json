@@ -36,7 +36,7 @@
     "periodized-dumbbell-lying-leg-curl",
     "periodized-deficit-bulgarian-split-squat"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "4eef2a7",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
