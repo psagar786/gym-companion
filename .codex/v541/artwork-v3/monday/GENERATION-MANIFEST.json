@@ -2529,11 +2529,26 @@
         "start": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-start.png",
+          "hash": "447aabcea38886b29a49c36f672e566f0237c6ab13b82f0e2edf4148ef231bb2",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-movement.png",
+          "hash": "704cdfc5d0acfe902d33e0557cce54b1e25f43c722279059ac8fdc1b2bcf3b47",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T07:08:06.975Z"
     },
     {
       "canonicalMovementId": "periodized-flat-dumbbell-bench",

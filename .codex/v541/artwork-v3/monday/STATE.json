@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 39,
-  "completedFiles": 78,
-  "remainingSets": 22,
-  "remainingFiles": 44,
+  "completedSets": 40,
+  "completedFiles": 80,
+  "remainingSets": 21,
+  "remainingFiles": 42,
   "currentBatch": "B04",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "f68d375",
-  "nextAtomicAction": "Generate Start for Flat Barbell Bench"
+  "nextAtomicAction": "Generate Start for Flat Dumbbell Bench"
 }
