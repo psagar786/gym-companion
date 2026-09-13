@@ -43,6 +43,7 @@ state.remainingSets = manifest.totalSets - completed;
 state.remainingFiles = state.remainingSets * 2;
 state.currentMovementId = null;
 state.currentPhase = null;
+state.completedMovementIds = [...new Set([...(state.completedMovementIds || []), id])];
 state.currentCheckpoint = `V541-TUE-${id}-PAIR-COMPLETE`;
 state.nextAtomicAction = next ? `Generate Start for ${next.name}` : 'Run Tuesday technical validation';
 write('GENERATION-MANIFEST.json', manifest);
