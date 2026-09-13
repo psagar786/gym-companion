@@ -1,0 +1,3593 @@
+{
+  "schemaVersion": "fitness7-alias-decisions-v3",
+  "generatedAt": "2026-09-13T04:03:56.029Z",
+  "summary": {
+    "normalizedGroups": 273,
+    "duplicateNameGroups": 20,
+    "candidateRuntimeIdentitiesInDuplicateGroups": 40,
+    "allRequireHumanReview": true
+  },
+  "decisions": [
+    {
+      "normalizedName": "incline db bench press",
+      "candidateIds": [
+        "biweekly-incline-dumbbell-bench-press-30"
+      ],
+      "names": [
+        "Incline Dumbbell Bench Press (30°)"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-incline-dumbbell-bench-press-30",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline smith press",
+      "candidateIds": [
+        "periodized-incline-smith-machine-press"
+      ],
+      "names": [
+        "Incline Smith Machine Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-smith-machine-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline barbell bench",
+      "candidateIds": [
+        "periodized-incline-barbell-bench"
+      ],
+      "names": [
+        "Incline Barbell Bench"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-barbell-bench",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "deficit push ups",
+      "candidateIds": [
+        "periodized-deficit-push-ups"
+      ],
+      "names": [
+        "Deficit Push-Ups"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-deficit-push-ups",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "wide grip lat pulldown",
+      "candidateIds": [
+        "biweekly-wide-grip-lat-pulldown",
+        "periodized-wide-grip-lat-pulldown"
+      ],
+      "names": [
+        "Wide-Grip Lat Pulldown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-wide-grip-lat-pulldown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "neutral grip mag pulldown",
+      "candidateIds": [
+        "periodized-neutral-grip-mag-pulldown"
+      ],
+      "names": [
+        "Neutral-Grip Mag Pulldown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-neutral-grip-mag-pulldown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "assisted pull ups",
+      "candidateIds": [
+        "periodized-assisted-pull-ups"
+      ],
+      "names": [
+        "Assisted Pull-Ups"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-assisted-pull-ups",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "chest supported incline db row",
+      "candidateIds": [
+        "biweekly-chest-supported-incline-dumbbell-row"
+      ],
+      "names": [
+        "Chest-Supported Incline Dumbbell Row"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-chest-supported-incline-dumbbell-row",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "seated cable row",
+      "candidateIds": [
+        "periodized-seated-cable-row",
+        "periodized-seated-cable-row-sternum"
+      ],
+      "names": [
+        "Seated Cable Row (Sternum)",
+        "Seated Cable Row"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "periodized-seated-cable-row",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "chest supported row",
+      "candidateIds": [
+        "periodized-chest-supported-machine-row"
+      ],
+      "names": [
+        "Chest-Supported Machine Row"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-chest-supported-machine-row",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "t bar row",
+      "candidateIds": [
+        "periodized-t-bar-row"
+      ],
+      "names": [
+        "T-Bar Row"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-t-bar-row",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "flat db bench press",
+      "candidateIds": [
+        "biweekly-flat-dumbbell-bench-press"
+      ],
+      "names": [
+        "Flat Dumbbell Bench Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-flat-dumbbell-bench-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "flat barbell bench",
+      "candidateIds": [
+        "periodized-flat-barbell-bench"
+      ],
+      "names": [
+        "Flat Barbell Bench"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-flat-barbell-bench",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "parallel bar dips",
+      "candidateIds": [
+        "periodized-parallel-bar-dips"
+      ],
+      "names": [
+        "Parallel Bar Dips"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-parallel-bar-dips",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "straight arm cable pulldown",
+      "candidateIds": [
+        "biweekly-straight-arm-cable-pulldown",
+        "periodized-straight-arm-cable-pulldown"
+      ],
+      "names": [
+        "Straight-Arm Cable Pulldown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-straight-arm-cable-pulldown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db pullover bench",
+      "candidateIds": [
+        "periodized-dumbbell-pullover-on-bench"
+      ],
+      "names": [
+        "Dumbbell Pullover on Bench"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-dumbbell-pullover-on-bench",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable pushdown",
+      "candidateIds": [
+        "periodized-cable-pushdown"
+      ],
+      "names": [
+        "Cable Pushdown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-pushdown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline db hex press",
+      "candidateIds": [
+        "biweekly-incline-dumbbell-hex-press",
+        "periodized-incline-db-hex-press"
+      ],
+      "names": [
+        "Incline Dumbbell Hex Press",
+        "Incline DB Hex Press"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-incline-dumbbell-hex-press",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "low incline cable fly",
+      "candidateIds": [
+        "periodized-low-incline-cable-fly"
+      ],
+      "names": [
+        "Low Incline Cable Fly"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-low-incline-cable-fly",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "standing plate press",
+      "candidateIds": [
+        "periodized-standing-plate-press"
+      ],
+      "names": [
+        "Standing Plate Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-standing-plate-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "close grip incline db press",
+      "candidateIds": [
+        "periodized-close-grip-incline-db-press"
+      ],
+      "names": [
+        "Close-Grip Incline DB Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-close-grip-incline-db-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable face pull external rotation",
+      "candidateIds": [
+        "biweekly-cable-face-pull-with-external-rotation"
+      ],
+      "names": [
+        "Cable Face Pull with External Rotation"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-cable-face-pull-with-external-rotation",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "reverse pec deck fly",
+      "candidateIds": [
+        "periodized-reverse-pec-deck-fly"
+      ],
+      "names": [
+        "Reverse Pec Deck Fly"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-reverse-pec-deck-fly",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline prone db y raise",
+      "candidateIds": [
+        "periodized-incline-prone-db-y-raise"
+      ],
+      "names": [
+        "Incline Prone DB Y-Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-prone-db-y-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "band pull apart",
+      "candidateIds": [
+        "periodized-band-pull-apart"
+      ],
+      "names": [
+        "Band Pull-Apart"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-band-pull-apart",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hanging straight leg raise",
+      "candidateIds": [
+        "biweekly-hanging-straight-leg-raise"
+      ],
+      "names": [
+        "Hanging Straight-Leg Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-hanging-straight-leg-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "captain s chair leg raise",
+      "candidateIds": [
+        "periodized-captain-s-chair-leg-raise"
+      ],
+      "names": [
+        "Captain's Chair Leg Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-captain-s-chair-leg-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "ab wheel rollout",
+      "candidateIds": [
+        "periodized-ab-wheel-rollout"
+      ],
+      "names": [
+        "Ab Wheel Rollout"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-ab-wheel-rollout",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "floor leg raise",
+      "candidateIds": [
+        "periodized-floor-leg-raise"
+      ],
+      "names": [
+        "Floor Leg Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-floor-leg-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick shoulder dislocates",
+      "candidateIds": [
+        "biweekly-stick-shoulder-dislocates"
+      ],
+      "names": [
+        "Stick Shoulder Dislocates"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-shoulder-dislocates",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick around worlds",
+      "candidateIds": [
+        "biweekly-stick-around-the-worlds"
+      ],
+      "names": [
+        "Stick Around-the-Worlds"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-around-the-worlds",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick overhead thoracic spine extensions",
+      "candidateIds": [
+        "biweekly-stick-overhead-thoracic-spine-extensions"
+      ],
+      "names": [
+        "Stick Overhead Thoracic Spine Extensions"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-overhead-thoracic-spine-extensions",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick behind back chest opener",
+      "candidateIds": [
+        "biweekly-stick-behind-the-back-chest-opener"
+      ],
+      "names": [
+        "Stick Behind-the-Back Chest Opener"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-behind-the-back-chest-opener",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick overhead lat stretch",
+      "candidateIds": [
+        "biweekly-stick-overhead-lat-stretch"
+      ],
+      "names": [
+        "Stick Overhead Lat Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-overhead-lat-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "doorway pec stretch",
+      "candidateIds": [
+        "biweekly-doorway-pec-stretch"
+      ],
+      "names": [
+        "Doorway Pec Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-doorway-pec-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "15 min liss incline walk",
+      "candidateIds": [
+        "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9"
+      ],
+      "names": [
+        "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick seated russian twists",
+      "candidateIds": [
+        "biweekly-stick-seated-russian-twists"
+      ],
+      "names": [
+        "Stick Seated Russian Twists"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-seated-russian-twists",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable russian twist",
+      "candidateIds": [
+        "periodized-cable-russian-twist"
+      ],
+      "names": [
+        "Cable Russian Twist"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-russian-twist",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "floor bodyweight twist",
+      "candidateIds": [
+        "periodized-floor-bodyweight-twist"
+      ],
+      "names": [
+        "Floor Bodyweight Twist"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-floor-bodyweight-twist",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "medicine ball twists",
+      "candidateIds": [
+        "periodized-medicine-ball-twists"
+      ],
+      "names": [
+        "Medicine Ball Twists"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-medicine-ball-twists",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "lying pelvic tilt leg raise",
+      "candidateIds": [
+        "biweekly-lying-pelvic-tilt-leg-raise"
+      ],
+      "names": [
+        "Lying Pelvic-Tilt Leg Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-lying-pelvic-tilt-leg-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bench reverse crunch",
+      "candidateIds": [
+        "periodized-bench-reverse-crunch"
+      ],
+      "names": [
+        "Bench Reverse Crunch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-bench-reverse-crunch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hanging leg raise",
+      "candidateIds": [
+        "periodized-hanging-leg-raise"
+      ],
+      "names": [
+        "Hanging Leg Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-hanging-leg-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable pallof press iso hold",
+      "candidateIds": [
+        "biweekly-cable-pallof-press-with-iso-hold"
+      ],
+      "names": [
+        "Cable Pallof Press with Iso-Hold"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-cable-pallof-press-with-iso-hold",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "side plank hold",
+      "candidateIds": [
+        "periodized-side-plank-hold"
+      ],
+      "names": [
+        "Side Plank Hold"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-side-plank-hold",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db suitcase carry",
+      "candidateIds": [
+        "periodized-db-suitcase-carry"
+      ],
+      "names": [
+        "DB Suitcase Carry"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-db-suitcase-carry",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick standing lateral side bends",
+      "candidateIds": [
+        "biweekly-stick-standing-lateral-side-bends"
+      ],
+      "names": [
+        "Stick Standing Lateral Side Bends"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-standing-lateral-side-bends",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "light db side bend",
+      "candidateIds": [
+        "periodized-light-db-side-bend"
+      ],
+      "names": [
+        "Light DB Side Bend"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-light-db-side-bend",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "side plank hip dips",
+      "candidateIds": [
+        "periodized-side-plank-hip-dips"
+      ],
+      "names": [
+        "Side Plank Hip Dips"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-side-plank-hip-dips",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable side crunch",
+      "candidateIds": [
+        "periodized-cable-side-crunch"
+      ],
+      "names": [
+        "Cable Side Crunch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-side-crunch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "transverse abdominis stomach vacuum",
+      "candidateIds": [
+        "biweekly-transverse-abdominis-stomach-vacuum"
+      ],
+      "names": [
+        "Transverse Abdominis Stomach Vacuum"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-transverse-abdominis-stomach-vacuum",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "lying supine vacuum",
+      "candidateIds": [
+        "periodized-lying-supine-vacuum"
+      ],
+      "names": [
+        "Lying Supine Vacuum"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-lying-supine-vacuum",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline bench plank vacuum",
+      "candidateIds": [
+        "periodized-incline-bench-plank-vacuum"
+      ],
+      "names": [
+        "Incline Bench Plank Vacuum"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-bench-plank-vacuum",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cat cow vacuum",
+      "candidateIds": [
+        "periodized-cat-cow-vacuum"
+      ],
+      "names": [
+        "Cat-Cow Vacuum"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cat-cow-vacuum",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "kneeling cable rope crunch",
+      "candidateIds": [
+        "biweekly-kneeling-cable-rope-crunch",
+        "periodized-kneeling-cable-rope-crunch"
+      ],
+      "names": [
+        "Kneeling Cable Rope Crunch"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-kneeling-cable-rope-crunch",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "decline bench weighted crunch",
+      "candidateIds": [
+        "biweekly-decline-bench-weighted-crunch",
+        "periodized-decline-bench-weighted-crunch"
+      ],
+      "names": [
+        "Decline Bench Weighted Crunch"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-decline-bench-weighted-crunch",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stability ball crunch",
+      "candidateIds": [
+        "periodized-stability-ball-crunch"
+      ],
+      "names": [
+        "Stability Ball Crunch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-stability-ball-crunch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "floor crunch",
+      "candidateIds": [
+        "periodized-floor-crunch"
+      ],
+      "names": [
+        "Floor Crunch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-floor-crunch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick standing torso twists",
+      "candidateIds": [
+        "biweekly-stick-standing-torso-twists"
+      ],
+      "names": [
+        "Stick Standing Torso Twists"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-standing-torso-twists",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick overhead side bends",
+      "candidateIds": [
+        "biweekly-stick-overhead-side-bends"
+      ],
+      "names": [
+        "Stick Overhead Side Bends"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-overhead-side-bends",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick high knee marches",
+      "candidateIds": [
+        "biweekly-stick-high-knee-marches"
+      ],
+      "names": [
+        "Stick High Knee Marches"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-high-knee-marches",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick standing overhead side stretch",
+      "candidateIds": [
+        "biweekly-stick-standing-overhead-side-stretch"
+      ],
+      "names": [
+        "Stick Standing Overhead Side Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-standing-overhead-side-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick spinal twist",
+      "candidateIds": [
+        "biweekly-stick-spinal-twist"
+      ],
+      "names": [
+        "Stick Spinal Twist"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-spinal-twist",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cobra pose",
+      "candidateIds": [
+        "biweekly-cobra-pose"
+      ],
+      "names": [
+        "Cobra Pose"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-cobra-pose",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline walk",
+      "candidateIds": [
+        "biweekly-incline-walk"
+      ],
+      "names": [
+        "Incline Walk"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-incline-walk",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "intervals",
+      "candidateIds": [
+        "biweekly-intervals"
+      ],
+      "names": [
+        "Intervals"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-intervals",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "seated hip adductor",
+      "candidateIds": [
+        "biweekly-seated-hip-adductor-machine"
+      ],
+      "names": [
+        "Seated Hip Adductor Machine"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-seated-hip-adductor-machine",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "wide stance sumo goblet squat",
+      "candidateIds": [
+        "periodized-wide-stance-sumo-goblet-squat"
+      ],
+      "names": [
+        "Wide-Stance Sumo Goblet Squat"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-wide-stance-sumo-goblet-squat",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable hip adduction",
+      "candidateIds": [
+        "periodized-cable-hip-adduction"
+      ],
+      "names": [
+        "Cable Hip Adduction"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-hip-adduction",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "side lying adduction",
+      "candidateIds": [
+        "periodized-side-lying-adduction"
+      ],
+      "names": [
+        "Side-Lying Adduction"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-side-lying-adduction",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "seated hip abductor",
+      "candidateIds": [
+        "biweekly-seated-hip-abductor-machine"
+      ],
+      "names": [
+        "Seated Hip Abductor Machine"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-seated-hip-abductor-machine",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "side plank abduction",
+      "candidateIds": [
+        "periodized-side-plank-abduction"
+      ],
+      "names": [
+        "Side Plank Abduction"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-side-plank-abduction",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db rdl",
+      "candidateIds": [
+        "biweekly-dumbbell-romanian-deadlift-rdl",
+        "periodized-dumbbell-rdl"
+      ],
+      "names": [
+        "Dumbbell Romanian Deadlift (RDL)",
+        "Dumbbell RDL"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-dumbbell-romanian-deadlift-rdl",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "barbell rdl",
+      "candidateIds": [
+        "periodized-barbell-rdl"
+      ],
+      "names": [
+        "Barbell RDL"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-barbell-rdl",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable pull through",
+      "candidateIds": [
+        "periodized-cable-pull-through"
+      ],
+      "names": [
+        "Cable Pull-Through"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-pull-through",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "45 incline leg press",
+      "candidateIds": [
+        "biweekly-45-incline-leg-press-mid-stance",
+        "periodized-45-incline-leg-press"
+      ],
+      "names": [
+        "45° Incline Leg Press (Mid-Stance)",
+        "45° Incline Leg Press"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-45-incline-leg-press-mid-stance",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "goblet squat to box",
+      "candidateIds": [
+        "periodized-goblet-squat-to-box"
+      ],
+      "names": [
+        "Goblet Squat to Box"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-goblet-squat-to-box",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bodyweight box squat",
+      "candidateIds": [
+        "periodized-bodyweight-box-squat"
+      ],
+      "names": [
+        "Bodyweight Box Squat"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-bodyweight-box-squat",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "lying leg curl",
+      "candidateIds": [
+        "biweekly-lying-leg-curl-machine",
+        "periodized-lying-leg-curl"
+      ],
+      "names": [
+        "Lying Leg Curl",
+        "Lying Leg Curl Machine"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-lying-leg-curl-machine",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db lying leg curl",
+      "candidateIds": [
+        "periodized-dumbbell-lying-leg-curl"
+      ],
+      "names": [
+        "Dumbbell Lying Leg Curl"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-dumbbell-lying-leg-curl",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db walking lunges",
+      "candidateIds": [
+        "biweekly-dumbbell-walking-lunges"
+      ],
+      "names": [
+        "Dumbbell Walking Lunges"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-dumbbell-walking-lunges",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "deficit bulgarian split squat",
+      "candidateIds": [
+        "periodized-deficit-bulgarian-split-squat"
+      ],
+      "names": [
+        "Deficit Bulgarian Split Squat"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-deficit-bulgarian-split-squat",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "step ups bench",
+      "candidateIds": [
+        "periodized-step-ups-on-bench"
+      ],
+      "names": [
+        "Step-Ups on Bench"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-step-ups-on-bench",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "reverse lunges",
+      "candidateIds": [
+        "periodized-reverse-lunges"
+      ],
+      "names": [
+        "Reverse Lunges"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-reverse-lunges",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "deficit bulgarian split squats",
+      "candidateIds": [
+        "biweekly-deficit-bulgarian-split-squats"
+      ],
+      "names": [
+        "Deficit Bulgarian Split Squats"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-deficit-bulgarian-split-squats",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "single leg press",
+      "candidateIds": [
+        "periodized-single-leg-press"
+      ],
+      "names": [
+        "Single-Leg Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-single-leg-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "single leg step ups",
+      "candidateIds": [
+        "periodized-single-leg-step-ups"
+      ],
+      "names": [
+        "Single-Leg Step-Ups"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-single-leg-step-ups",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bodyweight split squats",
+      "candidateIds": [
+        "periodized-bodyweight-split-squats"
+      ],
+      "names": [
+        "Bodyweight Split Squats"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-bodyweight-split-squats",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "standing calf raise",
+      "candidateIds": [
+        "biweekly-standing-machine-calf-raise",
+        "periodized-standing-calf-raise"
+      ],
+      "names": [
+        "Standing Machine Calf Raise",
+        "Standing Calf Raise"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-standing-machine-calf-raise",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "seated calf raise",
+      "candidateIds": [
+        "biweekly-seated-calf-raise-machine",
+        "periodized-seated-calf-raise"
+      ],
+      "names": [
+        "Seated Calf Raise",
+        "Seated Calf Raise Machine"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-seated-calf-raise-machine",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db single leg calf raise",
+      "candidateIds": [
+        "periodized-dumbbell-single-leg-calf-raise"
+      ],
+      "names": [
+        "Dumbbell Single-Leg Calf Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-dumbbell-single-leg-calf-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "leg press calf raise",
+      "candidateIds": [
+        "periodized-leg-press-calf-raise"
+      ],
+      "names": [
+        "Leg Press Calf Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-leg-press-calf-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick overhead deep squat prys",
+      "candidateIds": [
+        "biweekly-stick-overhead-deep-squat-prys"
+      ],
+      "names": [
+        "Stick Overhead Deep Squat Prys"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-overhead-deep-squat-prys",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick good mornings",
+      "candidateIds": [
+        "biweekly-stick-good-mornings"
+      ],
+      "names": [
+        "Stick Good Mornings"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-good-mornings",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick lateral leg swings",
+      "candidateIds": [
+        "biweekly-stick-lateral-leg-swings"
+      ],
+      "names": [
+        "Stick Lateral Leg Swings"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-lateral-leg-swings",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick quad stretch",
+      "candidateIds": [
+        "biweekly-stick-quad-stretch"
+      ],
+      "names": [
+        "Stick Quad Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-quad-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "butterfly groin stretch",
+      "candidateIds": [
+        "biweekly-butterfly-groin-stretch"
+      ],
+      "names": [
+        "Butterfly Groin Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-butterfly-groin-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hamstring stretch",
+      "candidateIds": [
+        "biweekly-hamstring-stretch"
+      ],
+      "names": [
+        "Hamstring Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-hamstring-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "seated db overhead shoulder press",
+      "candidateIds": [
+        "biweekly-seated-dumbbell-overhead-shoulder-press"
+      ],
+      "names": [
+        "Seated Dumbbell Overhead Shoulder Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-seated-dumbbell-overhead-shoulder-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "standing barbell overhead press",
+      "candidateIds": [
+        "biweekly-standing-barbell-overhead-press",
+        "periodized-standing-barbell-overhead-press"
+      ],
+      "names": [
+        "Standing Barbell Overhead Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-standing-barbell-overhead-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "shoulder press",
+      "candidateIds": [
+        "periodized-machine-shoulder-press"
+      ],
+      "names": [
+        "Machine Shoulder Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-machine-shoulder-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "arnold press",
+      "candidateIds": [
+        "periodized-arnold-press"
+      ],
+      "names": [
+        "Arnold Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-arnold-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "close grip v bar lat pulldown",
+      "candidateIds": [
+        "biweekly-close-grip-v-bar-lat-pulldown"
+      ],
+      "names": [
+        "Close-Grip V-Bar Lat Pulldown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-close-grip-v-bar-lat-pulldown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "underhand lat pulldown",
+      "candidateIds": [
+        "periodized-underhand-lat-pulldown"
+      ],
+      "names": [
+        "Underhand Lat Pulldown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-underhand-lat-pulldown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "single arm cable pulldown",
+      "candidateIds": [
+        "periodized-single-arm-cable-pulldown"
+      ],
+      "names": [
+        "Single-Arm Cable Pulldown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-single-arm-cable-pulldown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "chin ups",
+      "candidateIds": [
+        "periodized-chin-ups"
+      ],
+      "names": [
+        "Chin-Ups"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-chin-ups",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "seated wide grip cable row",
+      "candidateIds": [
+        "biweekly-seated-wide-grip-cable-row"
+      ],
+      "names": [
+        "Seated Wide-Grip Cable Row"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-seated-wide-grip-cable-row",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline db prone row",
+      "candidateIds": [
+        "periodized-incline-db-prone-row"
+      ],
+      "names": [
+        "Incline DB Prone Row"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-db-prone-row",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable fly",
+      "candidateIds": [
+        "periodized-cable-fly"
+      ],
+      "names": [
+        "Cable Fly"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-fly",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "standing cable crossover",
+      "candidateIds": [
+        "periodized-standing-cable-crossover"
+      ],
+      "names": [
+        "Standing Cable Crossover"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-standing-cable-crossover",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db incline fly",
+      "candidateIds": [
+        "periodized-dumbbell-incline-fly"
+      ],
+      "names": [
+        "Dumbbell Incline Fly"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-dumbbell-incline-fly",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline db curl",
+      "candidateIds": [
+        "biweekly-incline-dumbbell-curl"
+      ],
+      "names": [
+        "Incline Dumbbell Curl"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-incline-dumbbell-curl",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "rope tricep pressdown",
+      "candidateIds": [
+        "periodized-rope-tricep-pressdown"
+      ],
+      "names": [
+        "Rope Tricep Pressdown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-rope-tricep-pressdown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "ez bar curl skullcrushers",
+      "candidateIds": [
+        "periodized-ez-bar-curl-skullcrushers"
+      ],
+      "names": [
+        "Ez-Bar Curl & Skullcrushers"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-ez-bar-curl-skullcrushers",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable hammer curl dips",
+      "candidateIds": [
+        "periodized-cable-hammer-curl-dips"
+      ],
+      "names": [
+        "Cable Hammer Curl & Dips"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-hammer-curl-dips",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "concentration curls",
+      "candidateIds": [
+        "periodized-concentration-curls"
+      ],
+      "names": [
+        "Concentration Curls"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-concentration-curls",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline db reverse fly",
+      "candidateIds": [
+        "periodized-incline-dumbbell-reverse-fly"
+      ],
+      "names": [
+        "Incline Dumbbell Reverse Fly"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-dumbbell-reverse-fly",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline prone db reverse fly",
+      "candidateIds": [
+        "biweekly-incline-prone-dumbbell-reverse-fly",
+        "periodized-incline-prone-db-reverse-fly"
+      ],
+      "names": [
+        "Incline Prone DB Reverse Fly",
+        "Incline Prone Dumbbell Reverse Fly"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-incline-prone-dumbbell-reverse-fly",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db pullover flat bench",
+      "candidateIds": [
+        "biweekly-dumbbell-pullover-on-flat-bench"
+      ],
+      "names": [
+        "Dumbbell Pullover on Flat Bench"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-dumbbell-pullover-on-flat-bench",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "straight arm cable pushdown",
+      "candidateIds": [
+        "periodized-straight-arm-cable-pushdown"
+      ],
+      "names": [
+        "Straight-Arm Cable Pushdown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-straight-arm-cable-pushdown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline cable pullover",
+      "candidateIds": [
+        "periodized-incline-cable-pullover"
+      ],
+      "names": [
+        "Incline Cable Pullover"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-cable-pullover",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "decline db pullover",
+      "candidateIds": [
+        "periodized-decline-db-pullover"
+      ],
+      "names": [
+        "Decline DB Pullover"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-decline-db-pullover",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "side plank hold rotation",
+      "candidateIds": [
+        "biweekly-side-plank-hold-with-rotation"
+      ],
+      "names": [
+        "Side Plank Hold with Rotation"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-side-plank-hold-with-rotation",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable pallof press",
+      "candidateIds": [
+        "periodized-cable-pallof-press"
+      ],
+      "names": [
+        "Cable Pallof Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-pallof-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hanging oblique knee raise",
+      "candidateIds": [
+        "biweekly-hanging-oblique-knee-raise",
+        "periodized-hanging-oblique-knee-raise"
+      ],
+      "names": [
+        "Hanging Oblique Knee Raise"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-hanging-oblique-knee-raise",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "suitcase carry",
+      "candidateIds": [
+        "periodized-suitcase-carry"
+      ],
+      "names": [
+        "Suitcase Carry"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-suitcase-carry",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick dislocates",
+      "candidateIds": [
+        "biweekly-stick-dislocates"
+      ],
+      "names": [
+        "Stick Dislocates"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-dislocates",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick lat stretch",
+      "candidateIds": [
+        "biweekly-stick-lat-stretch"
+      ],
+      "names": [
+        "Stick Lat Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-lat-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick doorway chest stretch",
+      "candidateIds": [
+        "biweekly-stick-doorway-chest-stretch"
+      ],
+      "names": [
+        "Stick Doorway Chest Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-doorway-chest-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cross body stretch",
+      "candidateIds": [
+        "biweekly-cross-body-stretch"
+      ],
+      "names": [
+        "Cross-Body Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-cross-body-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick standing trunk rotations",
+      "candidateIds": [
+        "biweekly-stick-standing-trunk-rotations"
+      ],
+      "names": [
+        "Stick Standing Trunk Rotations"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-standing-trunk-rotations",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable woodchopper",
+      "candidateIds": [
+        "periodized-cable-woodchopper-low-to-high"
+      ],
+      "names": [
+        "Cable Woodchopper (Low-to-High)"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-woodchopper-low-to-high",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "russian twists",
+      "candidateIds": [
+        "periodized-russian-twists"
+      ],
+      "names": [
+        "Russian Twists"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-russian-twists",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "floor reverse crunch pelvic tilt",
+      "candidateIds": [
+        "biweekly-floor-reverse-crunch-with-pelvic-tilt"
+      ],
+      "names": [
+        "Floor Reverse Crunch with Pelvic Tilt"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-floor-reverse-crunch-with-pelvic-tilt",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "lying leg lift",
+      "candidateIds": [
+        "periodized-lying-leg-lift"
+      ],
+      "names": [
+        "Lying Leg Lift"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-lying-leg-lift",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick overhead lateral side bends",
+      "candidateIds": [
+        "biweekly-stick-overhead-lateral-side-bends"
+      ],
+      "names": [
+        "Stick Overhead Lateral Side Bends"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-overhead-lateral-side-bends",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "standard forearm plank to rkc hardstyle plank",
+      "candidateIds": [
+        "biweekly-standard-forearm-plank-to-rkc-hardstyle-plank"
+      ],
+      "names": [
+        "Standard Forearm Plank to RKC Hardstyle Plank"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-standard-forearm-plank-to-rkc-hardstyle-plank",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "extended plank",
+      "candidateIds": [
+        "periodized-extended-plank"
+      ],
+      "names": [
+        "Extended Plank"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-extended-plank",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "transverse abdominis stomach vacuums",
+      "candidateIds": [
+        "biweekly-transverse-abdominis-stomach-vacuums"
+      ],
+      "names": [
+        "Transverse Abdominis Stomach Vacuums"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-transverse-abdominis-stomach-vacuums",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "quadruped vacuum",
+      "candidateIds": [
+        "periodized-quadruped-vacuum"
+      ],
+      "names": [
+        "Quadruped Vacuum"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-quadruped-vacuum",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "lying vacuum",
+      "candidateIds": [
+        "periodized-lying-vacuum"
+      ],
+      "names": [
+        "Lying Vacuum"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-lying-vacuum",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "plank vacuum",
+      "candidateIds": [
+        "periodized-plank-vacuum"
+      ],
+      "names": [
+        "Plank Vacuum"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-plank-vacuum",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "knee tuck",
+      "candidateIds": [
+        "periodized-knee-tuck"
+      ],
+      "names": [
+        "Knee Tuck"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-knee-tuck",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hanging windshield wipers",
+      "candidateIds": [
+        "biweekly-hanging-windshield-wipers",
+        "periodized-hanging-windshield-wipers"
+      ],
+      "names": [
+        "Hanging Windshield Wipers"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-hanging-windshield-wipers",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "dragon flag negatives",
+      "candidateIds": [
+        "periodized-dragon-flag-negatives"
+      ],
+      "names": [
+        "Dragon Flag Negatives"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-dragon-flag-negatives",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "decline leg raise",
+      "candidateIds": [
+        "periodized-decline-leg-raise"
+      ],
+      "names": [
+        "Decline Leg Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-decline-leg-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick trunk rotations",
+      "candidateIds": [
+        "biweekly-stick-trunk-rotations"
+      ],
+      "names": [
+        "Stick Trunk Rotations"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-trunk-rotations",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick lat oblique reach",
+      "candidateIds": [
+        "biweekly-stick-lat-oblique-reach"
+      ],
+      "names": [
+        "Stick Lat & Oblique Reach"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-lat-oblique-reach",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cat cow mobility",
+      "candidateIds": [
+        "biweekly-cat-cow-mobility"
+      ],
+      "names": [
+        "Cat-Cow Mobility"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-cat-cow-mobility",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "child s pose",
+      "candidateIds": [
+        "biweekly-child-s-pose"
+      ],
+      "names": [
+        "Child's Pose"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-child-s-pose",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "glute bridge",
+      "candidateIds": [
+        "periodized-glute-bridge"
+      ],
+      "names": [
+        "Glute Bridge"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-glute-bridge",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db glute bridge",
+      "candidateIds": [
+        "periodized-dumbbell-glute-bridge"
+      ],
+      "names": [
+        "Dumbbell Glute Bridge"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-dumbbell-glute-bridge",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "single leg hip thrust",
+      "candidateIds": [
+        "periodized-single-leg-hip-thrust"
+      ],
+      "names": [
+        "Single-Leg Hip Thrust"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-single-leg-hip-thrust",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hip thrust",
+      "candidateIds": [
+        "periodized-machine-hip-thrust"
+      ],
+      "names": [
+        "Machine Hip Thrust"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-machine-hip-thrust",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "wide stance leg press",
+      "candidateIds": [
+        "periodized-wide-stance-leg-press"
+      ],
+      "names": [
+        "Wide-Stance Leg Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-wide-stance-leg-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "sumo goblet squat",
+      "candidateIds": [
+        "periodized-sumo-goblet-squat"
+      ],
+      "names": [
+        "Sumo Goblet Squat"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-sumo-goblet-squat",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "seated cable row to mid torso",
+      "candidateIds": [
+        "biweekly-seated-cable-row-to-mid-torso"
+      ],
+      "names": [
+        "Seated Cable Row to Mid-Torso"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-seated-cable-row-to-mid-torso",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "single arm db row",
+      "candidateIds": [
+        "biweekly-single-arm-dumbbell-row",
+        "periodized-single-arm-db-row"
+      ],
+      "names": [
+        "Single-Arm DB Row",
+        "Single-Arm Dumbbell Row"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-single-arm-dumbbell-row",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "meadows row",
+      "candidateIds": [
+        "periodized-meadows-row"
+      ],
+      "names": [
+        "Meadows Row"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-meadows-row",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "chest supported t bar row",
+      "candidateIds": [
+        "biweekly-chest-supported-t-bar-row",
+        "periodized-chest-supported-t-bar-row"
+      ],
+      "names": [
+        "Chest-Supported T-Bar Row"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-chest-supported-t-bar-row",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable standing abduction",
+      "candidateIds": [
+        "periodized-cable-standing-abduction"
+      ],
+      "names": [
+        "Cable Standing Abduction"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-cable-standing-abduction",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "side plank clamshells",
+      "candidateIds": [
+        "periodized-side-plank-clamshells"
+      ],
+      "names": [
+        "Side Plank Clamshells"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-side-plank-clamshells",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db stiff leg rdl",
+      "candidateIds": [
+        "biweekly-dumbbell-stiff-leg-romanian-deadlift"
+      ],
+      "names": [
+        "Dumbbell Stiff-Leg Romanian Deadlift"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-dumbbell-stiff-leg-romanian-deadlift",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "single leg db rdl",
+      "candidateIds": [
+        "periodized-single-leg-db-rdl"
+      ],
+      "names": [
+        "Single-Leg DB RDL"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-single-leg-db-rdl",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "nordic curl negatives",
+      "candidateIds": [
+        "periodized-nordic-curl-negatives"
+      ],
+      "names": [
+        "Nordic Curl Negatives"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-nordic-curl-negatives",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db shrugs 2s pause",
+      "candidateIds": [
+        "biweekly-dumbbell-shrugs-with-2s-pause"
+      ],
+      "names": [
+        "Dumbbell Shrugs with 2s Pause"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-dumbbell-shrugs-with-2s-pause",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable upright row",
+      "candidateIds": [
+        "biweekly-cable-upright-row-wide-grip",
+        "periodized-cable-upright-row-wide"
+      ],
+      "names": [
+        "Cable Upright Row (Wide)",
+        "Cable Upright Row (Wide-Grip)"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-cable-upright-row-wide-grip",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "barbell shrug",
+      "candidateIds": [
+        "periodized-barbell-shrug"
+      ],
+      "names": [
+        "Barbell Shrug"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-barbell-shrug",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hex bar shrug",
+      "candidateIds": [
+        "periodized-hex-bar-shrug"
+      ],
+      "names": [
+        "Hex Bar Shrug"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-hex-bar-shrug",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bodyweight air squats to walking lunges",
+      "candidateIds": [
+        "biweekly-bodyweight-air-squats-to-walking-lunges"
+      ],
+      "names": [
+        "Bodyweight Air Squats to Walking Lunges"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-bodyweight-air-squats-to-walking-lunges",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bulgarian split squat 1 5 reps",
+      "candidateIds": [
+        "periodized-bulgarian-split-squat-1-5-reps"
+      ],
+      "names": [
+        "Bulgarian Split Squat 1.5 Reps"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-reps",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "step ups",
+      "candidateIds": [
+        "periodized-step-ups"
+      ],
+      "names": [
+        "Step-Ups"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-step-ups",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "jump squats",
+      "candidateIds": [
+        "periodized-jump-squats"
+      ],
+      "names": [
+        "Jump Squats"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-jump-squats",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "dead bug to dragon flag negatives",
+      "candidateIds": [
+        "biweekly-dead-bug-to-dragon-flag-negatives"
+      ],
+      "names": [
+        "Dead Bug to Dragon Flag Negatives"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-dead-bug-to-dragon-flag-negatives",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hanging knee tuck",
+      "candidateIds": [
+        "periodized-hanging-knee-tuck"
+      ],
+      "names": [
+        "Hanging Knee Tuck"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-hanging-knee-tuck",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hollow body hold",
+      "candidateIds": [
+        "periodized-hollow-body-hold"
+      ],
+      "names": [
+        "Hollow Body Hold"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-hollow-body-hold",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick deep squat prys",
+      "candidateIds": [
+        "biweekly-stick-deep-squat-prys"
+      ],
+      "names": [
+        "Stick Deep Squat Prys"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-deep-squat-prys",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick torso twists",
+      "candidateIds": [
+        "biweekly-stick-torso-twists"
+      ],
+      "names": [
+        "Stick Torso Twists"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-torso-twists",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick hamstring stretch",
+      "candidateIds": [
+        "biweekly-stick-hamstring-stretch"
+      ],
+      "names": [
+        "Stick Hamstring Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-hamstring-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "pigeon pose",
+      "candidateIds": [
+        "biweekly-pigeon-pose"
+      ],
+      "names": [
+        "Pigeon Pose"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-pigeon-pose",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "figure four stretch",
+      "candidateIds": [
+        "biweekly-figure-four-stretch"
+      ],
+      "names": [
+        "Figure-Four Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-figure-four-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "30 min brisk walk",
+      "candidateIds": [
+        "biweekly-30-min-brisk-walk"
+      ],
+      "names": [
+        "30-min brisk walk"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-30-min-brisk-walk",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "full body stick mobility",
+      "candidateIds": [
+        "biweekly-full-body-stick-mobility"
+      ],
+      "names": [
+        "full-body stick mobility"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-full-body-stick-mobility",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline barbell bench press",
+      "candidateIds": [
+        "biweekly-incline-barbell-bench-press-30"
+      ],
+      "names": [
+        "Incline Barbell Bench Press (30°)"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-incline-barbell-bench-press-30",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline db press",
+      "candidateIds": [
+        "periodized-incline-db-press",
+        "periodized-incline-dumbbell-press"
+      ],
+      "names": [
+        "Incline Dumbbell Press",
+        "Incline DB Press"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "periodized-incline-db-press",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline press",
+      "candidateIds": [
+        "periodized-incline-machine-press"
+      ],
+      "names": [
+        "Incline Machine Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-machine-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline deficit push ups",
+      "candidateIds": [
+        "periodized-incline-deficit-push-ups"
+      ],
+      "names": [
+        "Incline Deficit Push-Ups"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-deficit-push-ups",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "neutral grip mag grip lat pulldown",
+      "candidateIds": [
+        "biweekly-neutral-grip-mag-grip-lat-pulldown"
+      ],
+      "names": [
+        "Neutral-Grip Mag-Grip Lat Pulldown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-neutral-grip-mag-grip-lat-pulldown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "assisted neutral chin up",
+      "candidateIds": [
+        "periodized-assisted-neutral-chin-up"
+      ],
+      "names": [
+        "Assisted Neutral Chin-Up"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-assisted-neutral-chin-up",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "seated cable row to sternum",
+      "candidateIds": [
+        "biweekly-seated-cable-row-to-sternum-neutral-grip"
+      ],
+      "names": [
+        "Seated Cable Row to Sternum (Neutral Grip)"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-seated-cable-row-to-sternum-neutral-grip",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "chest supported db row",
+      "candidateIds": [
+        "periodized-chest-supported-db-row"
+      ],
+      "names": [
+        "Chest-Supported DB Row"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-chest-supported-db-row",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "row",
+      "candidateIds": [
+        "periodized-machine-row"
+      ],
+      "names": [
+        "Machine Row"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-machine-row",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "flat db bench",
+      "candidateIds": [
+        "periodized-flat-dumbbell-bench"
+      ],
+      "names": [
+        "Flat Dumbbell Bench"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-flat-dumbbell-bench",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "weighted push ups",
+      "candidateIds": [
+        "periodized-weighted-push-ups"
+      ],
+      "names": [
+        "Weighted Push-Ups"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-weighted-push-ups",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "single arm iliac cable lat pulldown",
+      "candidateIds": [
+        "biweekly-single-arm-iliac-cable-lat-pulldown"
+      ],
+      "names": [
+        "Single-Arm Iliac Cable Lat Pulldown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-single-arm-iliac-cable-lat-pulldown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db pullover",
+      "candidateIds": [
+        "periodized-db-pullover"
+      ],
+      "names": [
+        "DB Pullover"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-db-pullover",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "kneeling cable lat pull",
+      "candidateIds": [
+        "periodized-kneeling-cable-lat-pull"
+      ],
+      "names": [
+        "Kneeling Cable Lat Pull"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-kneeling-cable-lat-pull",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "standing low to high cable crossover",
+      "candidateIds": [
+        "biweekly-standing-low-to-high-cable-crossover"
+      ],
+      "names": [
+        "Standing Low-to-High Cable Crossover"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-standing-low-to-high-cable-crossover",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline fly",
+      "candidateIds": [
+        "periodized-incline-machine-fly"
+      ],
+      "names": [
+        "Incline Machine Fly"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-machine-fly",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "plate press",
+      "candidateIds": [
+        "periodized-plate-press"
+      ],
+      "names": [
+        "Plate Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-plate-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hanging straight leg toes to bar",
+      "candidateIds": [
+        "biweekly-hanging-straight-leg-toes-to-bar"
+      ],
+      "names": [
+        "Hanging Straight-Leg Toes-to-Bar"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-hanging-straight-leg-toes-to-bar",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline reverse crunch",
+      "candidateIds": [
+        "periodized-incline-reverse-crunch"
+      ],
+      "names": [
+        "Incline Reverse Crunch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-reverse-crunch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick overhead thoracic extensions",
+      "candidateIds": [
+        "biweekly-stick-overhead-thoracic-extensions"
+      ],
+      "names": [
+        "Stick Overhead Thoracic Extensions"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-overhead-thoracic-extensions",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick behind back opener",
+      "candidateIds": [
+        "biweekly-stick-behind-the-back-opener"
+      ],
+      "names": [
+        "Stick Behind-the-Back Opener"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-behind-the-back-opener",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "overhead lat lengthener",
+      "candidateIds": [
+        "biweekly-overhead-lat-lengthener"
+      ],
+      "names": [
+        "Overhead Lat Lengthener"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-overhead-lat-lengthener",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "doorway stretch",
+      "candidateIds": [
+        "biweekly-doorway-stretch"
+      ],
+      "names": [
+        "Doorway Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-doorway-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "standing cable woodchopper",
+      "candidateIds": [
+        "biweekly-standing-cable-woodchopper-high-to-low",
+        "biweekly-standing-cable-woodchopper-low-to-high"
+      ],
+      "names": [
+        "Standing Cable Woodchopper (High-to-Low)",
+        "Standing Cable Woodchopper (Low-to-High)"
+      ],
+      "decision": "separate",
+      "canonicalMovementId": "biweekly-standing-cable-woodchopper-high-to-low",
+      "mechanicalEvidence": "Name or equipment differs; keep independent until a human confirms identical mechanics.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick russian twists",
+      "candidateIds": [
+        "periodized-stick-russian-twists"
+      ],
+      "names": [
+        "Stick Russian Twists"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-stick-russian-twists",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db woodchopper",
+      "candidateIds": [
+        "periodized-dumbbell-woodchopper"
+      ],
+      "names": [
+        "Dumbbell Woodchopper"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-dumbbell-woodchopper",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "hanging knee raise",
+      "candidateIds": [
+        "periodized-hanging-knee-raise"
+      ],
+      "names": [
+        "Hanging Knee Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-hanging-knee-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "leg raise",
+      "candidateIds": [
+        "periodized-leg-raise"
+      ],
+      "names": [
+        "Leg Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-leg-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "lying floor leg raise",
+      "candidateIds": [
+        "periodized-lying-floor-leg-raise"
+      ],
+      "names": [
+        "Lying Floor Leg Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-lying-floor-leg-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "half kneeling cable pallof press overhead raise",
+      "candidateIds": [
+        "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise"
+      ],
+      "names": [
+        "Half-Kneeling Cable Pallof Press with Overhead Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "standard pallof press",
+      "candidateIds": [
+        "periodized-standard-pallof-press"
+      ],
+      "names": [
+        "Standard Pallof Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-standard-pallof-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "side plank hip dips rotation",
+      "candidateIds": [
+        "biweekly-side-plank-hip-dips-with-rotation"
+      ],
+      "names": [
+        "Side Plank Hip Dips with Rotation"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-side-plank-hip-dips-with-rotation",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick side bends",
+      "candidateIds": [
+        "periodized-stick-side-bends"
+      ],
+      "names": [
+        "Stick Side Bends"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-stick-side-bends",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db side bend",
+      "candidateIds": [
+        "periodized-db-side-bend"
+      ],
+      "names": [
+        "DB Side Bend"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-db-side-bend",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "standing seated transverse abdominis stomach vacuum",
+      "candidateIds": [
+        "biweekly-standing-seated-transverse-abdominis-stomach-vacuum"
+      ],
+      "names": [
+        "Standing & Seated Transverse Abdominis Stomach Vacuum"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-standing-seated-transverse-abdominis-stomach-vacuum",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick overhead side stretch",
+      "candidateIds": [
+        "biweekly-stick-overhead-side-stretch"
+      ],
+      "names": [
+        "Stick Overhead Side Stretch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-overhead-side-stretch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "wide stance sumo leg press",
+      "candidateIds": [
+        "periodized-wide-stance-sumo-leg-press"
+      ],
+      "names": [
+        "Wide-Stance Sumo Leg Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-wide-stance-sumo-leg-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "rdl",
+      "candidateIds": [
+        "periodized-romanian-deadlift"
+      ],
+      "names": [
+        "Romanian Deadlift"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-romanian-deadlift",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "deficit barbell rdl",
+      "candidateIds": [
+        "periodized-deficit-barbell-rdl"
+      ],
+      "names": [
+        "Deficit Barbell RDL"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-deficit-barbell-rdl",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "conventional deadlift",
+      "candidateIds": [
+        "periodized-conventional-deadlift"
+      ],
+      "names": [
+        "Conventional Deadlift"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-conventional-deadlift",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "leg press",
+      "candidateIds": [
+        "periodized-leg-press"
+      ],
+      "names": [
+        "Leg Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-leg-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "goblet squat",
+      "candidateIds": [
+        "periodized-goblet-squat"
+      ],
+      "names": [
+        "Goblet Squat"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-goblet-squat",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "reverse lunges dbs",
+      "candidateIds": [
+        "biweekly-reverse-lunges-with-dumbbells"
+      ],
+      "names": [
+        "Reverse Lunges with Dumbbells"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-reverse-lunges-with-dumbbells",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "walking lunges",
+      "candidateIds": [
+        "periodized-walking-lunges"
+      ],
+      "names": [
+        "Walking Lunges"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-walking-lunges",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bulgarian split squats",
+      "candidateIds": [
+        "periodized-bulgarian-split-squats"
+      ],
+      "names": [
+        "Bulgarian Split Squats"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-bulgarian-split-squats",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "sissy squat",
+      "candidateIds": [
+        "biweekly-sissy-squat"
+      ],
+      "names": [
+        "Sissy Squat"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-sissy-squat",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "leg extension dropset",
+      "candidateIds": [
+        "periodized-leg-extension-dropset"
+      ],
+      "names": [
+        "Leg Extension Dropset"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-leg-extension-dropset",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "single leg extension",
+      "candidateIds": [
+        "periodized-single-leg-extension"
+      ],
+      "names": [
+        "Single-Leg Extension"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-single-leg-extension",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "deficit split squat",
+      "candidateIds": [
+        "periodized-deficit-split-squat"
+      ],
+      "names": [
+        "Deficit Split Squat"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-deficit-split-squat",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bodyweight sissy squat",
+      "candidateIds": [
+        "periodized-bodyweight-sissy-squat"
+      ],
+      "names": [
+        "Bodyweight Sissy Squat"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-bodyweight-sissy-squat",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "single leg calf raise",
+      "candidateIds": [
+        "periodized-single-leg-calf-raise"
+      ],
+      "names": [
+        "Single-Leg Calf Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-single-leg-calf-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick overhead deep squats",
+      "candidateIds": [
+        "biweekly-stick-overhead-deep-squats"
+      ],
+      "names": [
+        "Stick Overhead Deep Squats"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-overhead-deep-squats",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick hip swings",
+      "candidateIds": [
+        "biweekly-stick-hip-swings"
+      ],
+      "names": [
+        "Stick Hip Swings"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-stick-hip-swings",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "seated db shoulder press",
+      "candidateIds": [
+        "periodized-seated-db-shoulder-press"
+      ],
+      "names": [
+        "Seated DB Shoulder Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-seated-db-shoulder-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "landmine press",
+      "candidateIds": [
+        "periodized-landmine-press"
+      ],
+      "names": [
+        "Landmine Press"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-landmine-press",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "neutral grip lat pulldown",
+      "candidateIds": [
+        "biweekly-neutral-grip-lat-pulldown-close-grip-v-bar"
+      ],
+      "names": [
+        "Neutral-Grip Lat Pulldown (Close-Grip V-Bar)"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-neutral-grip-lat-pulldown-close-grip-v-bar",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "assisted pull up",
+      "candidateIds": [
+        "periodized-assisted-pull-up"
+      ],
+      "names": [
+        "Assisted Pull-Up"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-assisted-pull-up",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline bench row",
+      "candidateIds": [
+        "periodized-incline-bench-row"
+      ],
+      "names": [
+        "Incline Bench Row"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-bench-row",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline smith press 45",
+      "candidateIds": [
+        "biweekly-incline-smith-machine-press-45"
+      ],
+      "names": [
+        "Incline Smith Machine Press 45°"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-incline-smith-machine-press-45",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "low to high cable fly",
+      "candidateIds": [
+        "periodized-low-to-high-cable-fly"
+      ],
+      "names": [
+        "Low-to-High Cable Fly"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-low-to-high-cable-fly",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "weighted dips",
+      "candidateIds": [
+        "periodized-weighted-dips"
+      ],
+      "names": [
+        "Weighted Dips"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-weighted-dips",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bayesian cable curl",
+      "candidateIds": [
+        "biweekly-bayesian-cable-curl"
+      ],
+      "names": [
+        "Bayesian Cable Curl"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-bayesian-cable-curl",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "overhead dual cable tricep extension",
+      "candidateIds": [
+        "periodized-overhead-dual-cable-tricep-extension"
+      ],
+      "names": [
+        "Overhead Dual-Cable Tricep Extension"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-overhead-dual-cable-tricep-extension",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline db curl rope pressdown",
+      "candidateIds": [
+        "periodized-incline-db-curl-rope-pressdown"
+      ],
+      "names": [
+        "Incline DB Curl & Rope Pressdown"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-incline-db-curl-rope-pressdown",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "ez bar preacher curl skullcrushers",
+      "candidateIds": [
+        "periodized-ez-bar-preacher-curl-skullcrushers"
+      ],
+      "names": [
+        "Ez-Bar Preacher Curl & Skullcrushers"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-ez-bar-preacher-curl-skullcrushers",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline cable pullover stretched bias",
+      "candidateIds": [
+        "biweekly-incline-cable-pullover-with-stretched-bias"
+      ],
+      "names": [
+        "Incline Cable Pullover with Stretched Bias"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-incline-cable-pullover-with-stretched-bias",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "captain s chair oblique raise",
+      "candidateIds": [
+        "periodized-captain-s-chair-oblique-raise"
+      ],
+      "names": [
+        "Captain's Chair Oblique Raise"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-captain-s-chair-oblique-raise",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "landmine rotations",
+      "candidateIds": [
+        "periodized-landmine-rotations"
+      ],
+      "names": [
+        "Landmine Rotations"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-landmine-rotations",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "incline bench reverse crunch pelvic curl",
+      "candidateIds": [
+        "biweekly-incline-bench-reverse-crunch-with-pelvic-curl"
+      ],
+      "names": [
+        "Incline Bench Reverse Crunch with Pelvic Curl"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-incline-bench-reverse-crunch-with-pelvic-curl",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "floor reverse crunch",
+      "candidateIds": [
+        "periodized-floor-reverse-crunch"
+      ],
+      "names": [
+        "Floor Reverse Crunch"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-floor-reverse-crunch",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "cable side crunch mat",
+      "candidateIds": [
+        "biweekly-cable-side-crunch-on-mat"
+      ],
+      "names": [
+        "Cable Side Crunch on Mat"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-cable-side-crunch-on-mat",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "stick lateral side bends",
+      "candidateIds": [
+        "periodized-stick-lateral-side-bends"
+      ],
+      "names": [
+        "Stick Lateral Side Bends"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-stick-lateral-side-bends",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "dead bug",
+      "candidateIds": [
+        "periodized-dead-bug"
+      ],
+      "names": [
+        "Dead Bug"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-dead-bug",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "forearm plank",
+      "candidateIds": [
+        "periodized-forearm-plank"
+      ],
+      "names": [
+        "Forearm Plank"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-forearm-plank",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "rkc hardstyle plank",
+      "candidateIds": [
+        "periodized-rkc-hardstyle-plank"
+      ],
+      "names": [
+        "RKC Hardstyle Plank"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-rkc-hardstyle-plank",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bicycle kicks",
+      "candidateIds": [
+        "periodized-bicycle-kicks"
+      ],
+      "names": [
+        "Bicycle Kicks"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-bicycle-kicks",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "decline bench russian twists",
+      "candidateIds": [
+        "periodized-decline-bench-russian-twists"
+      ],
+      "names": [
+        "Decline Bench Russian Twists"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-decline-bench-russian-twists",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "kas glute bridge",
+      "candidateIds": [
+        "biweekly-kas-glute-bridge"
+      ],
+      "names": [
+        "Kas Glute Bridge"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-kas-glute-bridge",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "romanian barbell deadlift",
+      "candidateIds": [
+        "periodized-romanian-barbell-deadlift"
+      ],
+      "names": [
+        "Romanian Barbell Deadlift"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-romanian-barbell-deadlift",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "nordic hamstring curls",
+      "candidateIds": [
+        "periodized-nordic-hamstring-curls"
+      ],
+      "names": [
+        "Nordic Hamstring Curls"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-nordic-hamstring-curls",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "barbell shrugs",
+      "candidateIds": [
+        "periodized-barbell-shrugs"
+      ],
+      "names": [
+        "Barbell Shrugs"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-barbell-shrugs",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "db shrugs",
+      "candidateIds": [
+        "periodized-dumbbell-shrugs"
+      ],
+      "names": [
+        "Dumbbell Shrugs"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-dumbbell-shrugs",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "face pulls",
+      "candidateIds": [
+        "periodized-face-pulls"
+      ],
+      "names": [
+        "Face Pulls"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "periodized-face-pulls",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "bulgarian split squats 1 5 rep style",
+      "candidateIds": [
+        "biweekly-bulgarian-split-squats-with-1-5-rep-style"
+      ],
+      "names": [
+        "Bulgarian Split Squats with 1.5 Rep Style"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-bulgarian-split-squats-with-1-5-rep-style",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "dragon flag negatives flat bench",
+      "candidateIds": [
+        "biweekly-dragon-flag-negatives-on-flat-bench"
+      ],
+      "names": [
+        "Dragon Flag Negatives on Flat Bench"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "biweekly-dragon-flag-negatives-on-flat-bench",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "wrist extensor isometric",
+      "candidateIds": [
+        "tendon-wrist-extensor-isometric"
+      ],
+      "names": [
+        "Wrist extensor isometric"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "tendon-wrist-extensor-isometric",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "wrist flexor isometric",
+      "candidateIds": [
+        "tendon-wrist-flexor-isometric"
+      ],
+      "names": [
+        "Wrist flexor isometric"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "tendon-wrist-flexor-isometric",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "patellar tendon isometric",
+      "candidateIds": [
+        "tendon-patellar-tendon-isometric"
+      ],
+      "names": [
+        "Patellar tendon isometric"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "tendon-patellar-tendon-isometric",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "calf isometric",
+      "candidateIds": [
+        "tendon-calf-isometric"
+      ],
+      "names": [
+        "Calf isometric"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "tendon-calf-isometric",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    },
+    {
+      "normalizedName": "core brace isometric",
+      "candidateIds": [
+        "tendon-core-brace-isometric"
+      ],
+      "names": [
+        "Core brace isometric"
+      ],
+      "decision": "share",
+      "canonicalMovementId": "tendon-core-brace-isometric",
+      "mechanicalEvidence": "Exact display name and normalized equipment match; confirm joint path and range before final approval.",
+      "reviewerStatus": "needs-human-review"
+    }
+  ]
+}
