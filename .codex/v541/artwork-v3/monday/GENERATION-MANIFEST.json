@@ -2468,11 +2468,26 @@
         "start": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-start.png",
+          "hash": "e322dd218cb341e8c57e7ffa27aaf25f576b0853dc88e729838d1759ee8289f1",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-movement.png",
+          "hash": "4c9262f3a924a9edd33baf6dbd5aecd68c971ae64db42c5b4ac910a3574932db",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T07:02:14.518Z"
     },
     {
       "canonicalMovementId": "periodized-flat-barbell-bench",
