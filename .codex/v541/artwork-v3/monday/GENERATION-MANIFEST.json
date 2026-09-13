@@ -1012,11 +1012,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-start.png",
+          "hash": "4ab9306b8e8559fc347d3b88a4add07ce2507d69404a1c8ed74723c1c56251a8",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-movement.png",
+          "hash": "bc741b112b4048d34b67d876567da99430a2466ba598d5f5c80933417a941e39",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:14:20.976Z"
     },
     {
       "canonicalMovementId": "biweekly-stick-behind-the-back-opener",
