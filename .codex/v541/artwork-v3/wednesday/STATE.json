@@ -34,7 +34,7 @@
     "periodized-goblet-squat-to-box",
     "periodized-bodyweight-box-squat"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "bd40db8",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
