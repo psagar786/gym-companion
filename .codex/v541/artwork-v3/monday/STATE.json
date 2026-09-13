@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 1,
-  "completedFiles": 2,
-  "remainingSets": 60,
-  "remainingFiles": 120,
+  "completedSets": 2,
+  "completedFiles": 4,
+  "remainingSets": 59,
+  "remainingFiles": 118,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "",
-  "nextAtomicAction": "Generate Start for Flat Dumbbell Bench Press"
+  "nextAtomicAction": "Generate Start for Hanging Straight-Leg Raise"
 }

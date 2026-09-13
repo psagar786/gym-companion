@@ -210,11 +210,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-start.png",
+          "hash": "20ec4a09fb4dca5b233777c3f72d98d8535383580df97998dbbdf4fd9d0047f9",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-movement.png",
+          "hash": "6260b3f0e173ba927894852600a7632538771d4b1465bc84a53586d4e0f50d58",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T04:29:48.254Z"
     },
     {
       "canonicalMovementId": "biweekly-hanging-straight-leg-raise",
