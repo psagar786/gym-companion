@@ -49,4 +49,11 @@
 - 2026-09-13T07:15:46.010Z — Flat Dumbbell Bench: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T07:23:42.845Z — Floor Leg Raise: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T07:28:27.464Z — Incline Barbell Bench: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T07:31:53.699Z — Incline Deficit Push-Ups: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+## Checkpoint after pair 44
+
+- Completed: 44/61 canonical Monday pairs (88/122 files).
+- Next action: Generate Start for Incline Machine Fly.
+- Image generation was rate-limited before that pair started; no partial output was integrated.
+- Incline Deficit Push-Ups was generated with the mechanically correct low-handle/elevated-step setup; its source manifest equipment label remains flagged for review.
 

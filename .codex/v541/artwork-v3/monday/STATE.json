@@ -7,14 +7,19 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 43,
-  "completedFiles": 86,
-  "remainingSets": 18,
-  "remainingFiles": 36,
+  "completedSets": 44,
+  "completedFiles": 88,
+  "remainingSets": 17,
+  "remainingFiles": 34,
   "currentBatch": "B04",
   "currentMovementId": null,
   "currentPhase": null,
   "failedMovementIds": [],
+  "knownIssues": [
+    "Image generation rate limit reached while starting Incline Machine Fly; no output file was created. Resume the same nextAtomicAction after reset.",
+    "Incline Deficit Push-Ups manifest equipment is inherited as Barbell / rack; generated pair uses low push-up handles on an elevated step and requires metadata review.",
+    "Semantic and gym-coach review remain pending for all generated pairs."
+  ],
   "excludedReviewOnlyIds": [
     "periodized-ab-wheel-rollout",
     "periodized-band-pull-apart",
@@ -22,5 +27,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "ecc47ca",
-  "nextAtomicAction": "Generate Start for Incline Deficit Push-Ups"
+  "nextAtomicAction": "Generate Start for Incline Machine Fly"
 }
