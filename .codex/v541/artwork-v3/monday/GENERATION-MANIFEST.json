@@ -2889,11 +2889,26 @@
         "start": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-start.png",
+          "hash": "106217a757fe392bfa03e2e8ab65b228002b60194072fd9a907808d4cf1957e2",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-movement.png",
+          "hash": "420603454e92ef256d29881d94b5b6c0d22ce1ca2d05e531f09af80ceada2cfe",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T11:34:08.802Z"
     },
     {
       "canonicalMovementId": "periodized-incline-prone-db-y-raise",
@@ -2934,11 +2949,26 @@
         "start": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-start.png",
+          "hash": "204827f5e8330102de56ad0ae21f8bc4a2268cde7ac757677e934353d403ce26",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-movement.png",
+          "hash": "84ff501360c7e7f0f9df0ea678a62303de5524a10671c535f6e877e0af364253",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T11:37:19.587Z"
     },
     {
       "canonicalMovementId": "periodized-incline-reverse-crunch",

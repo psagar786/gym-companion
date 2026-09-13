@@ -57,4 +57,6 @@
 - Image generation was rate-limited before that pair started; no partial output was integrated.
 - Incline Deficit Push-Ups was generated with the mechanically correct low-handle/elevated-step setup; its source manifest equipment label remains flagged for review.
 - 2026-09-13T11:29:54.807Z — Incline Machine Fly: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T11:34:08.807Z — Incline Machine Press: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T11:37:19.589Z — Incline Prone DB Y-Raise: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 

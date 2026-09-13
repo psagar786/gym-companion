@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 45,
-  "completedFiles": 90,
-  "remainingSets": 16,
-  "remainingFiles": 32,
+  "completedSets": 47,
+  "completedFiles": 94,
+  "remainingSets": 14,
+  "remainingFiles": 28,
   "currentBatch": "B04",
   "currentMovementId": null,
   "currentPhase": null,
@@ -27,5 +27,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "db714cc",
-  "nextAtomicAction": "Generate Start for Incline Machine Press"
+  "nextAtomicAction": "Generate Start for Incline Reverse Crunch"
 }
