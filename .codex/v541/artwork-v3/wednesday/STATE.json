@@ -27,7 +27,7 @@
     "biweekly-dumbbell-walking-lunges",
     "periodized-wide-stance-sumo-goblet-squat"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "0653dc3",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
