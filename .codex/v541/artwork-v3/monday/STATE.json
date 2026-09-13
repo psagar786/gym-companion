@@ -7,11 +7,11 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 11,
-  "completedFiles": 22,
-  "remainingSets": 50,
-  "remainingFiles": 100,
-  "currentBatch": "B01",
+  "completedSets": 12,
+  "completedFiles": 24,
+  "remainingSets": 49,
+  "remainingFiles": 98,
+  "currentBatch": "B02",
   "currentMovementId": null,
   "currentPhase": null,
   "failedMovementIds": [],
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "ccaab28",
-  "nextAtomicAction": "Generate Start for Straight-Arm Cable Pulldown"
+  "nextAtomicAction": "Generate Start for Wide-Grip Lat Pulldown"
 }

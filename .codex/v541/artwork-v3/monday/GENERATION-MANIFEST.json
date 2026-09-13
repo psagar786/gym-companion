@@ -821,11 +821,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-start.png",
+          "hash": "527ee9326d75cec3cc59e3473f109930965305322c4f50323c44c480e9aae388",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-movement.png",
+          "hash": "9b0ed8d79e018961aac079c31b27ed849055a1dc9323e23f6424a6b8144f8c0e",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:03:08.441Z"
     },
     {
       "canonicalMovementId": "biweekly-wide-grip-lat-pulldown",
