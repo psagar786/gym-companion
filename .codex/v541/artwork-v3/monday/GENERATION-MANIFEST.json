@@ -2769,11 +2769,26 @@
         "start": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-start.png",
+          "hash": "32775ba9e9086ca57b7ad5bc1201663f73f2216bdaeae47c84bea104dd9d5b15",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-movement.png",
+          "hash": "c1d9aa0a88fba22d0de1c7a38c1045aed5158436ed718751b0bd7130e42ee81e",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T07:31:53.697Z"
     },
     {
       "canonicalMovementId": "periodized-incline-machine-fly",
