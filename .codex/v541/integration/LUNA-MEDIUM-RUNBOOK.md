@@ -1,5 +1,7 @@
 # Fitness 7 V5.4.1 Luna Medium runbook
 
+For the full task-by-task procedure, viewport checklist, failure codes, checkpoint names, and preview-deployment gate, use `LUNA-MEDIUM-EXECUTION-PLAN.md` in this directory. This shorter runbook is the operating summary.
+
 ## Fixed scope
 
 Work only in `/Users/exxxy/Documents/Daily AI Help/gym-companion-v541-art-integration` on branch `codex/v541-v2-art-integration`. The baseline branches remain read-only. Do not deploy until the local V5.4.1 review is accepted.
