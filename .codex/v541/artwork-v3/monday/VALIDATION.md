@@ -24,4 +24,5 @@
 - 2026-09-13T05:18:01.856Z — Stick Behind-the-Back Opener: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T05:20:54.499Z — Stick Overhead Thoracic Extensions: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T05:24:21.556Z — Stick Overhead Thoracic Spine Extensions: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T05:27:06.862Z — Stick Shoulder Dislocates: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 

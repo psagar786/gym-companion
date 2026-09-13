@@ -1256,11 +1256,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-start.png",
+          "hash": "a54d6aeb75c28b78ea3d30a21fa795586423c426dad05e2e2d7490f8a18c68b6",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-movement.png",
+          "hash": "198da693e243bad7179a94e78fd3a0cbbfe23ae540690085506ed2a7d1f10612",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:27:06.861Z"
     },
     {
       "canonicalMovementId": "tendon-wrist-extensor-isometric",
