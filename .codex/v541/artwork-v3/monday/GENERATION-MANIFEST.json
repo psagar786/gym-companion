@@ -713,12 +713,12 @@
         },
         "movement": {
           "path": "assets/exercises/periodized-v3/biweekly-single-arm-iliac-cable-lat-pulldown-v3-movement.png",
-          "hash": "bb2c31256ed7856dc840d46b2c0c8a619b7b7b2db9d31c3e9d4b56bfa5c2b03e",
+          "hash": "8382974ab5b9c0f1cf8b2a9728e85134426e014ec415a8a54613a6733106573c",
           "width": 512,
           "height": 512
         }
       },
-      "generatedAt": "2026-09-13T04:50:37.438Z"
+      "generatedAt": "2026-09-13T04:52:53.677Z"
     },
     {
       "canonicalMovementId": "biweekly-standing-low-to-high-cable-crossover",
