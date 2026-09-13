@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-WED-biweekly-dumbbell-walking-lunges-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-WED-periodized-wide-stance-sumo-goblet-squat-PAIR-COMPLETE",
   "totalListedRecords": 25,
   "physicalRecords": 24,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 6,
-  "completedFiles": 12,
+  "completedSets": 7,
+  "completedFiles": 14,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-hip-adductor-machine",
@@ -24,14 +24,15 @@
     "biweekly-dumbbell-romanian-deadlift-rdl",
     "biweekly-45-incline-leg-press-mid-stance",
     "biweekly-lying-leg-curl-machine",
-    "biweekly-dumbbell-walking-lunges"
+    "biweekly-dumbbell-walking-lunges",
+    "periodized-wide-stance-sumo-goblet-squat"
   ],
-  "lastCompletedCommit": "3e95f4e",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-wide-stance-sumo-goblet-squat",
+  "nextAtomicAction": "Generate Start for periodized-cable-hip-adduction",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -90,6 +91,18 @@
         "width": 512,
         "height": 512,
         "sha256": "66b93e2ec5c71542f6fadecde7cae536e82e11a8271bb8b769aa2f24bc6a5e72"
+      }
+    },
+    "periodized-wide-stance-sumo-goblet-squat": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "dc1f33674ff3dd3cfd9e291c4e4ee6a123611ad55c323e046554eec5e3afb331"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "02226e96cf8634543a5e6de33b9f21ea3b9038be37e97b4cebef6369e1b3a67b"
       }
     }
   },
@@ -213,6 +226,26 @@
           "sha256": "66b93e2ec5c71542f6fadecde7cae536e82e11a8271bb8b769aa2f24bc6a5e72"
         }
       }
+    },
+    "periodized-wide-stance-sumo-goblet-squat": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "dc1f33674ff3dd3cfd9e291c4e4ee6a123611ad55c323e046554eec5e3afb331"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "02226e96cf8634543a5e6de33b9f21ea3b9038be37e97b4cebef6369e1b3a67b"
+        }
+      }
     }
   },
   "validationLog": [
@@ -255,6 +288,16 @@
       "technical": "pass",
       "semantic": "ai-review-pass",
       "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-wide-stance-sumo-goblet-squat-PAIR-COMPLETE",
+      "movementId": "periodized-wide-stance-sumo-goblet-squat",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
     }
-  ]
+  ],
+  "currentMovementId": null,
+  "currentPhase": null
 }

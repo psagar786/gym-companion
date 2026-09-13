@@ -1,0 +1,39 @@
+{
+  "project": "Fitness 7 V5.4.1 Thursday artwork-only production",
+  "branch": "codex/v541-v2-art-integration",
+  "day": "Thursday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "currentCheckpoint": "V541-THU-01-QUEUE-FROZEN",
+  "totalListedRecords": 30,
+  "physicalRecords": 30,
+  "tuesdayLibrarySetsReviewed": 36,
+  "mondayReuseCandidates": 6,
+  "tuesdayReuseCandidates": 0,
+  "newGenerationSetsBeforeReuseReview": 24,
+  "newGenerationFilesBeforeReuseReview": 48,
+  "completedSets": 0,
+  "completedFiles": 0,
+  "failedMovementIds": [],
+  "completedMovementIds": [],
+  "lastCompletedCommit": "",
+  "knownIssues": [
+    "Reuse is not approved by name alone.",
+    "Technical and AI semantic review are not qualified gym-coach approval."
+  ],
+  "nextAtomicAction": "Generate Start for biweekly-seated-dumbbell-overhead-shoulder-press",
+  "queueFrozen": true,
+  "tuesdayReuseAudit": {
+    "tuesdayCanonicalRecordsInspected": 36,
+    "tuesdayRuntimeMappingsInspected": 52,
+    "exactNameOrIdCandidates": 0,
+    "approvedCandidates": 0,
+    "rejectedCandidates": 0,
+    "decision": "No exact Tuesday reuse candidate approved; mechanics, equipment, grip, stance, path and range were checked."
+  },
+  "newGenerationSets": 24,
+  "newGenerationFiles": 48
+}

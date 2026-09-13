@@ -47,3 +47,12 @@
 - Start: 512x512 PNG, 609797c589992b7c7d363e5fb24f988aab711d0b28f03fc1971b5ad336c41de6
 - Movement: 512x512 PNG, 574d27f5f0d76794073464f2f3e9a06f41542d99210a7bc131fc73de31d112d8
 - Pair status: technical pass and AI-assisted semantic pass; human gym-coach review pending.
+## Pair checkpoint: V541-WED-periodized-wide-stance-sumo-goblet-squat-PAIR-COMPLETE
+
+- Movement: Wide-Stance Sumo Goblet Squat (`periodized-wide-stance-sumo-goblet-squat`)
+- Start: `assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete, single dumbbell, wide stance; Start and deep working squat are visibly distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for `periodized-cable-hip-adduction`
