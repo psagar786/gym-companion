@@ -33,4 +33,5 @@
 - 2026-09-13T05:49:44.751Z — Stick Overhead Lat Stretch: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T05:54:08.689Z — Cable Face Pull with External Rotation: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 - 2026-09-13T05:57:31.803Z — Hanging Straight-Leg Toes-to-Bar: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
+- 2026-09-13T06:00:54.664Z — Ab Wheel Rollout: Start and Movement technical pass (512×512 PNG, distinct SHA-256 hashes). Semantic review remains pending; no coach approval claimed.
 

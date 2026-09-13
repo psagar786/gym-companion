@@ -1803,11 +1803,26 @@
         "start": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-start.png",
+          "hash": "a10a7a96af86dbfa3aa40f19d492c1a10cd431141eea22a48b002b5a725f55e5",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-movement.png",
+          "hash": "5a921269b469533a51adb0b5c66c3246a6b763a61c04dd37ab6f4c3b21407d81",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:00:54.661Z"
     },
     {
       "canonicalMovementId": "periodized-assisted-neutral-chin-up",
