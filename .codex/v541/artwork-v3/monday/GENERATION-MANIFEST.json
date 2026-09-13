@@ -2589,11 +2589,26 @@
         "start": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-start.png",
+          "hash": "cedacc318147c00bf1049268c070f1b119b4307501143b6fbc5e7306bbb1176a",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-movement.png",
+          "hash": "96ae3b28473f0678a4baa6a6fa9462bc50a85f4aa3633ec65419f9b83aa1c9ac",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T07:15:46.008Z"
     },
     {
       "canonicalMovementId": "periodized-floor-leg-raise",
