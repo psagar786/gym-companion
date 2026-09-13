@@ -2649,11 +2649,26 @@
         "start": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-start.png",
+          "hash": "e16e94ea41a31e371016dd712e26e77cbada76612d01ad7316507f183f6c85e4",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-movement.png",
+          "hash": "8fc9c6c3cfaa07e10c5c76294abe450f994482e2672c7575bffaa3feb7e910b9",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T07:23:42.843Z"
     },
     {
       "canonicalMovementId": "periodized-incline-barbell-bench",
