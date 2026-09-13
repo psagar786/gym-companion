@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    {
+      "runtimeId": "periodized-stick-russian-twists",
+      "canonicalMovementId": "biweekly-stick-seated-russian-twists",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-light-db-side-bend",
+      "canonicalMovementId": "periodized-db-side-bend",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-stick-side-bends",
+      "canonicalMovementId": "biweekly-stick-standing-lateral-side-bends",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-lying-supine-vacuum",
+      "canonicalMovementId": "periodized-lying-vacuum",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-decline-bench-weighted-crunch",
+      "canonicalMovementId": "biweekly-decline-bench-weighted-crunch",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-kneeling-cable-rope-crunch",
+      "canonicalMovementId": "biweekly-kneeling-cable-rope-crunch",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "biweekly-stick-standing-overhead-side-stretch",
+      "canonicalMovementId": "biweekly-stick-overhead-side-stretch",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "biweekly-stick-spinal-twist",
+      "canonicalMovementId": "biweekly-stick-standing-torso-twists",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "biweekly-stick-overhead-side-bends",
+      "canonicalMovementId": "biweekly-stick-overhead-side-stretch",
+      "status": "share-exact-mechanics"
+    }
+  ],
+  "mondayReuse": [
+    {
+      "runtimeId": "periodized-lying-floor-leg-raise",
+      "canonicalMovementId": "periodized-floor-leg-raise",
+      "source": "Monday V3",
+      "reason": "Same lying floor straight-leg raise mechanics.",
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-leg-raise",
+      "canonicalMovementId": "periodized-floor-leg-raise",
+      "source": "Monday V3",
+      "reason": "Normalized generic Leg Raise to the lying floor variation in this option list.",
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-hanging-leg-raise",
+      "canonicalMovementId": "biweekly-hanging-straight-leg-raise",
+      "source": "Monday V3",
+      "reason": "Explicitly normalized to straight-leg hanging raise.",
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-incline-reverse-crunch",
+      "canonicalMovementId": "periodized-incline-reverse-crunch",
+      "source": "Monday V3",
+      "reason": "Exact incline reverse-crunch mechanics.",
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "biweekly-incline-walk",
+      "canonicalMovementId": "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9",
+      "source": "Monday V3",
+      "reason": "Treadmill walking posture is unchanged; pace/incline remain prescription text.",
+      "status": "reuse-approved-monday-v3"
+    }
+  ]
+}

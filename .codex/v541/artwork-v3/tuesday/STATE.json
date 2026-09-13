@@ -1,0 +1,29 @@
+{
+  "project": "Fitness 7 V5.4.1 Tuesday V3 Artwork",
+  "branch": "codex/v541-v2-art-integration",
+  "day": "Tuesday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "rawRuntimeIdentities": 50,
+  "canonicalSets": 41,
+  "mondayReuseSets": 4,
+  "mondayReuseRuntimeMappings": 5,
+  "newGenerationSets": 36,
+  "newGenerationFiles": 72,
+  "deferredTendonSets": 1,
+  "completedSets": 6,
+  "completedFiles": 12,
+  "currentBatch": "B01",
+  "currentMovementId": null,
+  "currentPhase": null,
+  "failedMovementIds": [],
+  "completedMovementIds": [],
+  "lastCompletedCommit": "",
+  "currentCheckpoint": "V541-TUE-periodized-bench-reverse-crunch-PAIR-COMPLETE",
+  "nextAtomicAction": "Generate Start for Cable Pallof Press with Iso-Hold",
+  "remainingSets": 30,
+  "remainingFiles": 60
+}

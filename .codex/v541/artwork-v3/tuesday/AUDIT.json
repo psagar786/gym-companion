@@ -1,0 +1,3229 @@
+{
+  "schemaVersion": "fitness7-tuesday-v3-audit-v1",
+  "generatedAt": "2026-09-13T13:58:31.891Z",
+  "plan": "periodized-abc",
+  "day": "Tuesday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "counts": {
+    "rawRuntimeIdentities": 50,
+    "occurrenceRows": 122,
+    "canonicalSets": 41,
+    "mondayReuseRuntimeMappings": 5,
+    "mondayReuseSets": 4,
+    "newGenerationSets": 36,
+    "newGenerationFiles": 72,
+    "deferredTendonSets": 1,
+    "authoredOptionalSets": 0
+  },
+  "roleCounts": {
+    "core": 12,
+    "alternative": 28,
+    "warmup": 3,
+    "cardio": 2,
+    "recovery": 4,
+    "tendon": 1
+  },
+  "occurrences": [
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Stick Seated Russian Twists",
+      "runtimeId": "biweekly-stick-seated-russian-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 20 Reps total | Rest: 60s | Feet on floor, slow rotation",
+        "intermediate": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches",
+        "advanced": "4 Sets x 30 Reps total | Rest: 30s | Feet elevated + 5kg plate / Stick with 2s pause"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Cable Russian Twist",
+      "runtimeId": "periodized-cable-russian-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 20 Reps total | Rest: 60s | Feet on floor, slow rotation",
+        "intermediate": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches",
+        "advanced": "4 Sets x 30 Reps total | Rest: 30s | Feet elevated + 5kg plate / Stick with 2s pause"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Floor Bodyweight Twist",
+      "runtimeId": "periodized-floor-bodyweight-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 20 Reps total | Rest: 60s | Feet on floor, slow rotation",
+        "intermediate": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches",
+        "advanced": "4 Sets x 30 Reps total | Rest: 30s | Feet elevated + 5kg plate / Stick with 2s pause"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Medicine Ball Twists",
+      "runtimeId": "periodized-medicine-ball-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 20 Reps total | Rest: 60s | Feet on floor, slow rotation",
+        "intermediate": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches",
+        "advanced": "4 Sets x 30 Reps total | Rest: 30s | Feet elevated + 5kg plate / Stick with 2s pause"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Lying Pelvic-Tilt Leg Raise",
+      "runtimeId": "biweekly-lying-pelvic-tilt-leg-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        18
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Lower back pressed flat into floor",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Hands under glutes, pause 1s at bottom",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | On decline bench + 3-second negative lowering"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Bench Reverse Crunch",
+      "runtimeId": "periodized-bench-reverse-crunch",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        18
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Lower back pressed flat into floor",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Hands under glutes, pause 1s at bottom",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | On decline bench + 3-second negative lowering"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Hanging Leg Raise",
+      "runtimeId": "periodized-hanging-leg-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        18
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Lower back pressed flat into floor",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Hands under glutes, pause 1s at bottom",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | On decline bench + 3-second negative lowering"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Cable Pallof Press with Iso-Hold",
+      "runtimeId": "biweekly-cable-pallof-press-with-iso-hold",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        19
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10 Reps/side (Hold 2s) | Rest: 60s | Solid athletic stance",
+        "intermediate": "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance",
+        "advanced": "4 Sets x 14 Reps/side (Hold 4s + overhead raise) | Rest: 45s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Side Plank Hold",
+      "runtimeId": "periodized-side-plank-hold",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        19
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10 Reps/side (Hold 2s) | Rest: 60s | Solid athletic stance",
+        "intermediate": "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance",
+        "advanced": "4 Sets x 14 Reps/side (Hold 4s + overhead raise) | Rest: 45s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "DB Suitcase Carry",
+      "runtimeId": "periodized-db-suitcase-carry",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        19
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10 Reps/side (Hold 2s) | Rest: 60s | Solid athletic stance",
+        "intermediate": "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance",
+        "advanced": "4 Sets x 14 Reps/side (Hold 4s + overhead raise) | Rest: 45s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Stick Standing Lateral Side Bends",
+      "runtimeId": "biweekly-stick-standing-lateral-side-bends",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend",
+        "advanced": "4 Sets x 20 Reps/side | Rest: 30s | Stick locked overhead or Cable Side Crunch"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Light DB Side Bend",
+      "runtimeId": "periodized-light-db-side-bend",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend",
+        "advanced": "4 Sets x 20 Reps/side | Rest: 30s | Stick locked overhead or Cable Side Crunch"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Side Plank Hip Dips",
+      "runtimeId": "periodized-side-plank-hip-dips",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend",
+        "advanced": "4 Sets x 20 Reps/side | Rest: 30s | Stick locked overhead or Cable Side Crunch"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Cable Side Crunch",
+      "runtimeId": "periodized-cable-side-crunch",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend",
+        "advanced": "4 Sets x 20 Reps/side | Rest: 30s | Stick locked overhead or Cable Side Crunch"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Transverse Abdominis Stomach Vacuum",
+      "runtimeId": "biweekly-transverse-abdominis-stomach-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Quadruped Vacuum on All Fours | 4 Sets x 15s Hold | Rest: 30s",
+        "advanced": "Standing & Seated Vacuum | 4 Sets x 20-25s Hold | Rest: 20s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Lying Supine Vacuum",
+      "runtimeId": "periodized-lying-supine-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Quadruped Vacuum on All Fours | 4 Sets x 15s Hold | Rest: 30s",
+        "advanced": "Standing & Seated Vacuum | 4 Sets x 20-25s Hold | Rest: 20s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Incline Bench Plank Vacuum",
+      "runtimeId": "periodized-incline-bench-plank-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Quadruped Vacuum on All Fours | 4 Sets x 15s Hold | Rest: 30s",
+        "advanced": "Standing & Seated Vacuum | 4 Sets x 20-25s Hold | Rest: 20s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Cat-Cow Vacuum",
+      "runtimeId": "periodized-cat-cow-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Quadruped Vacuum on All Fours | 4 Sets x 15s Hold | Rest: 30s",
+        "advanced": "Standing & Seated Vacuum | 4 Sets x 20-25s Hold | Rest: 20s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Kneeling Cable Rope Crunch",
+      "runtimeId": "biweekly-kneeling-cable-rope-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Round spine, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Decline Bench Weighted Crunch",
+      "runtimeId": "periodized-decline-bench-weighted-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Round spine, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Stability Ball Crunch",
+      "runtimeId": "periodized-stability-ball-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Round spine, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Floor Crunch",
+      "runtimeId": "periodized-floor-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Round spine, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick Standing Torso Twists",
+      "runtimeId": "biweekly-stick-standing-torso-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        15
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick Overhead Side Bends",
+      "runtimeId": "biweekly-stick-overhead-side-bends",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        15
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick High Knee Marches",
+      "runtimeId": "biweekly-stick-high-knee-marches",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        15
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "cardio",
+      "variationLabel": null,
+      "name": "Incline Walk",
+      "runtimeId": "biweekly-incline-walk",
+      "equipment": "Treadmill",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        16
+      ],
+      "prescriptions": {
+        "beginner": "15m (Incline 8%, 3.5km/h)",
+        "intermediate": "20m (Incline 10%, 4.0km/h)",
+        "advanced": "25m (Incline 12%, 4.2km/h)"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "cardio",
+      "variationLabel": null,
+      "name": "Intervals",
+      "runtimeId": "biweekly-intervals",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        23
+      ],
+      "prescriptions": {
+        "beginner": "10m Elliptical",
+        "intermediate": "15m Incline Intervals",
+        "advanced": "15m HIIT Bike Sprints (30s ON / 30s OFF)"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Stick Standing Overhead Side Stretch",
+      "runtimeId": "biweekly-stick-standing-overhead-side-stretch",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        24
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Stick Spinal Twist",
+      "runtimeId": "biweekly-stick-spinal-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        24
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Cobra Pose",
+      "runtimeId": "biweekly-cobra-pose",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        24
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Standing Cable Woodchopper (High-to-Low)",
+      "runtimeId": "biweekly-standing-cable-woodchopper-high-to-low",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        82
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 12 Reps/side | Rest: 60s | Pivot back foot, rotate across torso",
+        "intermediate": "4 Sets x 14 Reps/side | Rest: 45s | Explosive chop, 2s controlled return",
+        "advanced": "4 Sets x 16 Reps/side | Rest: 30s | Heavy stack + 1s peak oblique lock"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Stick Russian Twists",
+      "runtimeId": "periodized-stick-russian-twists",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        82
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 12 Reps/side | Rest: 60s | Pivot back foot, rotate across torso",
+        "intermediate": "4 Sets x 14 Reps/side | Rest: 45s | Explosive chop, 2s controlled return",
+        "advanced": "4 Sets x 16 Reps/side | Rest: 30s | Heavy stack + 1s peak oblique lock"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Dumbbell Woodchopper",
+      "runtimeId": "periodized-dumbbell-woodchopper",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        82
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 12 Reps/side | Rest: 60s | Pivot back foot, rotate across torso",
+        "intermediate": "4 Sets x 14 Reps/side | Rest: 45s | Explosive chop, 2s controlled return",
+        "advanced": "4 Sets x 16 Reps/side | Rest: 30s | Heavy stack + 1s peak oblique lock"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Hanging Knee Raise",
+      "runtimeId": "periodized-hanging-knee-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Review before use · source equipment excluded; approved substitute shown",
+      "sourceRows": [
+        83
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Back against pad, curl pelvis up",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Straight legs to parallel, pause at top",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Straight legs + 2s isometric hold at top"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Leg Raise",
+      "runtimeId": "periodized-leg-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Review before use · source equipment excluded; approved substitute shown",
+      "sourceRows": [
+        83
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Back against pad, curl pelvis up",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Straight legs to parallel, pause at top",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Straight legs + 2s isometric hold at top"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Lying Floor Leg Raise",
+      "runtimeId": "periodized-lying-floor-leg-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Review before use · source equipment excluded; approved substitute shown",
+      "sourceRows": [
+        83
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Back against pad, curl pelvis up",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Straight legs to parallel, pause at top",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Straight legs + 2s isometric hold at top"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Incline Reverse Crunch",
+      "runtimeId": "periodized-incline-reverse-crunch",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Review before use · source equipment excluded; approved substitute shown",
+      "sourceRows": [
+        83
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Back against pad, curl pelvis up",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Straight legs to parallel, pause at top",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Straight legs + 2s isometric hold at top"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 4",
+      "name": "Hanging Leg Raise",
+      "runtimeId": "periodized-hanging-leg-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Review before use · source equipment excluded; approved substitute shown",
+      "sourceRows": [
+        83
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Back against pad, curl pelvis up",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Straight legs to parallel, pause at top",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Straight legs + 2s isometric hold at top"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Half-Kneeling Cable Pallof Press with Overhead Raise",
+      "runtimeId": "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        84
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10 Reps/side | Rest: 60s | Press cable forward, hold 2s",
+        "intermediate": "4 Sets x 12 Reps/side | Rest: 45s | Press forward, raise overhead, lower, return",
+        "advanced": "4 Sets x 14 Reps/side | Rest: 45s | Half-kneeling + 3s overhead lock"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Standard Pallof Press",
+      "runtimeId": "periodized-standard-pallof-press",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        84
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10 Reps/side | Rest: 60s | Press cable forward, hold 2s",
+        "intermediate": "4 Sets x 12 Reps/side | Rest: 45s | Press forward, raise overhead, lower, return",
+        "advanced": "4 Sets x 14 Reps/side | Rest: 45s | Half-kneeling + 3s overhead lock"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Side Plank Hold",
+      "runtimeId": "periodized-side-plank-hold",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        84
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10 Reps/side | Rest: 60s | Press cable forward, hold 2s",
+        "intermediate": "4 Sets x 12 Reps/side | Rest: 45s | Press forward, raise overhead, lower, return",
+        "advanced": "4 Sets x 14 Reps/side | Rest: 45s | Half-kneeling + 3s overhead lock"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Side Plank Hip Dips with Rotation",
+      "runtimeId": "biweekly-side-plank-hip-dips-with-rotation",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        85
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 12 Reps/side | Rest: 45s | Dip hip to floor, drive high",
+        "advanced": "4 Sets x 15 Reps/side | Rest: 30s | Elevated feet on bench + reach arm under"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Stick Side Bends",
+      "runtimeId": "periodized-stick-side-bends",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        85
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 12 Reps/side | Rest: 45s | Dip hip to floor, drive high",
+        "advanced": "4 Sets x 15 Reps/side | Rest: 30s | Elevated feet on bench + reach arm under"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Cable Side Crunch",
+      "runtimeId": "periodized-cable-side-crunch",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        85
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 12 Reps/side | Rest: 45s | Dip hip to floor, drive high",
+        "advanced": "4 Sets x 15 Reps/side | Rest: 30s | Elevated feet on bench + reach arm under"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "DB Side Bend",
+      "runtimeId": "periodized-db-side-bend",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        85
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 12 Reps/side | Rest: 45s | Dip hip to floor, drive high",
+        "advanced": "4 Sets x 15 Reps/side | Rest: 30s | Elevated feet on bench + reach arm under"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "runtimeId": "biweekly-standing-seated-transverse-abdominis-stomach-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        86
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Standing Stomach Vacuum | 4 Sets x 15-20s Hold | Rest: 30s",
+        "advanced": "Seated & Hanging Vacuum Hold | 4 Sets x 25s Hold | Rest: 20s | Full lung expulsion"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Quadruped Vacuum",
+      "runtimeId": "periodized-quadruped-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        86
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Standing Stomach Vacuum | 4 Sets x 15-20s Hold | Rest: 30s",
+        "advanced": "Seated & Hanging Vacuum Hold | 4 Sets x 25s Hold | Rest: 20s | Full lung expulsion"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Plank Vacuum",
+      "runtimeId": "periodized-plank-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        86
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Standing Stomach Vacuum | 4 Sets x 15-20s Hold | Rest: 30s",
+        "advanced": "Seated & Hanging Vacuum Hold | 4 Sets x 25s Hold | Rest: 20s | Full lung expulsion"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Lying Vacuum",
+      "runtimeId": "periodized-lying-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        86
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Standing Stomach Vacuum | 4 Sets x 15-20s Hold | Rest: 30s",
+        "advanced": "Seated & Hanging Vacuum Hold | 4 Sets x 25s Hold | Rest: 20s | Full lung expulsion"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Decline Bench Weighted Crunch",
+      "runtimeId": "biweekly-decline-bench-weighted-crunch",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        87
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Holding 5-10kg plate on chest, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Kneeling Cable Rope Crunch",
+      "runtimeId": "periodized-kneeling-cable-rope-crunch",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        87
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Holding 5-10kg plate on chest, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Stability Ball Crunch",
+      "runtimeId": "periodized-stability-ball-crunch",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        87
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Holding 5-10kg plate on chest, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Floor Crunch",
+      "runtimeId": "periodized-floor-crunch",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        87
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Holding 5-10kg plate on chest, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick Standing Torso Twists",
+      "runtimeId": "biweekly-stick-standing-torso-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        80
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick Overhead Side Bends",
+      "runtimeId": "biweekly-stick-overhead-side-bends",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        80
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick High Knee Marches",
+      "runtimeId": "biweekly-stick-high-knee-marches",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        80
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "cardio",
+      "variationLabel": null,
+      "name": "Incline Walk",
+      "runtimeId": "biweekly-incline-walk",
+      "equipment": "Treadmill",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        81
+      ],
+      "prescriptions": {
+        "beginner": "15m (8%, 3.5km/h)",
+        "intermediate": "20m (10%, 4.0km/h)",
+        "advanced": "25m (12%, 4.2km/h)"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "cardio",
+      "variationLabel": null,
+      "name": "Intervals",
+      "runtimeId": "biweekly-intervals",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        88
+      ],
+      "prescriptions": {
+        "beginner": "10m Stationary Cycle",
+        "intermediate": "15m Incline Intervals",
+        "advanced": "15m HIIT Bike Sprints (30s max / 30s recovery)"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Stick Overhead Side Stretch",
+      "runtimeId": "biweekly-stick-overhead-side-stretch",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        89
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Stick Spinal Twist",
+      "runtimeId": "biweekly-stick-spinal-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        89
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "B",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Cobra Pose",
+      "runtimeId": "biweekly-cobra-pose",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        89
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Stick Seated Russian Twists",
+      "runtimeId": "biweekly-stick-seated-russian-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 20 Reps total | Rest: 60s | Feet on floor, slow rotation",
+        "intermediate": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches",
+        "advanced": "4 Sets x 30 Reps total | Rest: 30s | Feet elevated + 5kg plate / Stick with 2s pause"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Cable Russian Twist",
+      "runtimeId": "periodized-cable-russian-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 20 Reps total | Rest: 60s | Feet on floor, slow rotation",
+        "intermediate": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches",
+        "advanced": "4 Sets x 30 Reps total | Rest: 30s | Feet elevated + 5kg plate / Stick with 2s pause"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Floor Bodyweight Twist",
+      "runtimeId": "periodized-floor-bodyweight-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 20 Reps total | Rest: 60s | Feet on floor, slow rotation",
+        "intermediate": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches",
+        "advanced": "4 Sets x 30 Reps total | Rest: 30s | Feet elevated + 5kg plate / Stick with 2s pause"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Medicine Ball Twists",
+      "runtimeId": "periodized-medicine-ball-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 20 Reps total | Rest: 60s | Feet on floor, slow rotation",
+        "intermediate": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches",
+        "advanced": "4 Sets x 30 Reps total | Rest: 30s | Feet elevated + 5kg plate / Stick with 2s pause"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Lying Pelvic-Tilt Leg Raise",
+      "runtimeId": "biweekly-lying-pelvic-tilt-leg-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        18
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Lower back pressed flat into floor",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Hands under glutes, pause 1s at bottom",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | On decline bench + 3-second negative lowering"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Bench Reverse Crunch",
+      "runtimeId": "periodized-bench-reverse-crunch",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        18
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Lower back pressed flat into floor",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Hands under glutes, pause 1s at bottom",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | On decline bench + 3-second negative lowering"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Hanging Leg Raise",
+      "runtimeId": "periodized-hanging-leg-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        18
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10-12 Reps | Rest: 60s | Lower back pressed flat into floor",
+        "intermediate": "4 Sets x 12-14 Reps | Rest: 45s | Hands under glutes, pause 1s at bottom",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | On decline bench + 3-second negative lowering"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Cable Pallof Press with Iso-Hold",
+      "runtimeId": "biweekly-cable-pallof-press-with-iso-hold",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        19
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10 Reps/side (Hold 2s) | Rest: 60s | Solid athletic stance",
+        "intermediate": "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance",
+        "advanced": "4 Sets x 14 Reps/side (Hold 4s + overhead raise) | Rest: 45s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Side Plank Hold",
+      "runtimeId": "periodized-side-plank-hold",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        19
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10 Reps/side (Hold 2s) | Rest: 60s | Solid athletic stance",
+        "intermediate": "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance",
+        "advanced": "4 Sets x 14 Reps/side (Hold 4s + overhead raise) | Rest: 45s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "DB Suitcase Carry",
+      "runtimeId": "periodized-db-suitcase-carry",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        19
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 10 Reps/side (Hold 2s) | Rest: 60s | Solid athletic stance",
+        "intermediate": "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance",
+        "advanced": "4 Sets x 14 Reps/side (Hold 4s + overhead raise) | Rest: 45s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Stick Standing Lateral Side Bends",
+      "runtimeId": "biweekly-stick-standing-lateral-side-bends",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend",
+        "advanced": "4 Sets x 20 Reps/side | Rest: 30s | Stick locked overhead or Cable Side Crunch"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Light DB Side Bend",
+      "runtimeId": "periodized-light-db-side-bend",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend",
+        "advanced": "4 Sets x 20 Reps/side | Rest: 30s | Stick locked overhead or Cable Side Crunch"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Side Plank Hip Dips",
+      "runtimeId": "periodized-side-plank-hip-dips",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend",
+        "advanced": "4 Sets x 20 Reps/side | Rest: 30s | Stick locked overhead or Cable Side Crunch"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Cable Side Crunch",
+      "runtimeId": "periodized-cable-side-crunch",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend",
+        "advanced": "4 Sets x 20 Reps/side | Rest: 30s | Stick locked overhead or Cable Side Crunch"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Transverse Abdominis Stomach Vacuum",
+      "runtimeId": "biweekly-transverse-abdominis-stomach-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Quadruped Vacuum on All Fours | 4 Sets x 15s Hold | Rest: 30s",
+        "advanced": "Standing & Seated Vacuum | 4 Sets x 20-25s Hold | Rest: 20s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Lying Supine Vacuum",
+      "runtimeId": "periodized-lying-supine-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Quadruped Vacuum on All Fours | 4 Sets x 15s Hold | Rest: 30s",
+        "advanced": "Standing & Seated Vacuum | 4 Sets x 20-25s Hold | Rest: 20s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Incline Bench Plank Vacuum",
+      "runtimeId": "periodized-incline-bench-plank-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Quadruped Vacuum on All Fours | 4 Sets x 15s Hold | Rest: 30s",
+        "advanced": "Standing & Seated Vacuum | 4 Sets x 20-25s Hold | Rest: 20s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Cat-Cow Vacuum",
+      "runtimeId": "periodized-cat-cow-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "Quadruped Vacuum on All Fours | 4 Sets x 15s Hold | Rest: 30s",
+        "advanced": "Standing & Seated Vacuum | 4 Sets x 20-25s Hold | Rest: 20s"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Kneeling Cable Rope Crunch",
+      "runtimeId": "biweekly-kneeling-cable-rope-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Round spine, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Decline Bench Weighted Crunch",
+      "runtimeId": "periodized-decline-bench-weighted-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Round spine, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Stability Ball Crunch",
+      "runtimeId": "periodized-stability-ball-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Round spine, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Floor Crunch",
+      "runtimeId": "periodized-floor-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "[Locked / Skipped for Beginner]",
+        "intermediate": "[Locked / Skipped for Intermediate]",
+        "advanced": "4 Sets x 15-18 Reps | Rest: 45s | Round spine, 2s peak flex"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick Standing Torso Twists",
+      "runtimeId": "biweekly-stick-standing-torso-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        15
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick Overhead Side Bends",
+      "runtimeId": "biweekly-stick-overhead-side-bends",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        15
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick High Knee Marches",
+      "runtimeId": "biweekly-stick-high-knee-marches",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        15
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "cardio",
+      "variationLabel": null,
+      "name": "Incline Walk",
+      "runtimeId": "biweekly-incline-walk",
+      "equipment": "Treadmill",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        16
+      ],
+      "prescriptions": {
+        "beginner": "15m (Incline 8%, 3.5km/h)",
+        "intermediate": "20m (Incline 10%, 4.0km/h)",
+        "advanced": "25m (Incline 12%, 4.2km/h)"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "cardio",
+      "variationLabel": null,
+      "name": "Intervals",
+      "runtimeId": "biweekly-intervals",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        23
+      ],
+      "prescriptions": {
+        "beginner": "10m Elliptical",
+        "intermediate": "15m Incline Intervals",
+        "advanced": "15m HIIT Bike Sprints (30s ON / 30s OFF)"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Stick Standing Overhead Side Stretch",
+      "runtimeId": "biweekly-stick-standing-overhead-side-stretch",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        24
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Stick Spinal Twist",
+      "runtimeId": "biweekly-stick-spinal-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        24
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Cobra Pose",
+      "runtimeId": "biweekly-cobra-pose",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        24
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Stick Seated Russian Twists",
+      "runtimeId": "biweekly-stick-seated-russian-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Cable Russian Twist",
+      "runtimeId": "periodized-cable-russian-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Floor Bodyweight Twist",
+      "runtimeId": "periodized-floor-bodyweight-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Medicine Ball Twists",
+      "runtimeId": "periodized-medicine-ball-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        17
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Lying Pelvic-Tilt Leg Raise",
+      "runtimeId": "biweekly-lying-pelvic-tilt-leg-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        18
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Bench Reverse Crunch",
+      "runtimeId": "periodized-bench-reverse-crunch",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        18
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Hanging Leg Raise",
+      "runtimeId": "periodized-hanging-leg-raise",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        18
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Cable Pallof Press with Iso-Hold",
+      "runtimeId": "biweekly-cable-pallof-press-with-iso-hold",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        19
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Side Plank Hold",
+      "runtimeId": "periodized-side-plank-hold",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        19
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "DB Suitcase Carry",
+      "runtimeId": "periodized-db-suitcase-carry",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        19
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Stick Standing Lateral Side Bends",
+      "runtimeId": "biweekly-stick-standing-lateral-side-bends",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Light DB Side Bend",
+      "runtimeId": "periodized-light-db-side-bend",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Side Plank Hip Dips",
+      "runtimeId": "periodized-side-plank-hip-dips",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Cable Side Crunch",
+      "runtimeId": "periodized-cable-side-crunch",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        20
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Transverse Abdominis Stomach Vacuum",
+      "runtimeId": "biweekly-transverse-abdominis-stomach-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Lying Supine Vacuum",
+      "runtimeId": "periodized-lying-supine-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Incline Bench Plank Vacuum",
+      "runtimeId": "periodized-incline-bench-plank-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Cat-Cow Vacuum",
+      "runtimeId": "periodized-cat-cow-vacuum",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        21
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "core",
+      "variationLabel": null,
+      "name": "Kneeling Cable Rope Crunch",
+      "runtimeId": "biweekly-kneeling-cable-rope-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Alternative",
+      "name": "Decline Bench Weighted Crunch",
+      "runtimeId": "periodized-decline-bench-weighted-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 2",
+      "name": "Stability Ball Crunch",
+      "runtimeId": "periodized-stability-ball-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "variationLabel": "Option 3",
+      "name": "Floor Crunch",
+      "runtimeId": "periodized-floor-crunch",
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        22
+      ],
+      "prescriptions": {
+        "beginner": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR",
+        "intermediate": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR",
+        "advanced": "4 Sets x 4–6 Reps | Rest: 180s | Focus: crisp strength reps, about 1 RIR"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick Standing Torso Twists",
+      "runtimeId": "biweekly-stick-standing-torso-twists",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        15
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick Overhead Side Bends",
+      "runtimeId": "biweekly-stick-overhead-side-bends",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        15
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "warmup",
+      "variationLabel": null,
+      "name": "Stick High Knee Marches",
+      "runtimeId": "biweekly-stick-high-knee-marches",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        15
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "cardio",
+      "variationLabel": null,
+      "name": "Incline Walk",
+      "runtimeId": "biweekly-incline-walk",
+      "equipment": "Treadmill",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        16
+      ],
+      "prescriptions": {
+        "beginner": "15m (Incline 8%, 3.5km/h)",
+        "intermediate": "20m (Incline 10%, 4.0km/h)",
+        "advanced": "25m (Incline 12%, 4.2km/h)"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "cardio",
+      "variationLabel": null,
+      "name": "Intervals",
+      "runtimeId": "biweekly-intervals",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        23
+      ],
+      "prescriptions": {
+        "beginner": "10m Elliptical",
+        "intermediate": "15m Incline Intervals",
+        "advanced": "15m HIIT Bike Sprints (30s ON / 30s OFF)"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Stick Standing Overhead Side Stretch",
+      "runtimeId": "biweekly-stick-standing-overhead-side-stretch",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        24
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Stick Spinal Twist",
+      "runtimeId": "biweekly-stick-spinal-twist",
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        24
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "C",
+      "role": "recovery",
+      "variationLabel": null,
+      "name": "Cobra Pose",
+      "runtimeId": "biweekly-cobra-pose",
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "sourceRows": [
+        24
+      ],
+      "prescriptions": {
+        "beginner": "-",
+        "intermediate": "-",
+        "advanced": "-"
+      }
+    },
+    {
+      "weekKey": "A/B/C",
+      "role": "tendon",
+      "name": "Wrist flexor isometric",
+      "runtimeId": "tendon-wrist-flexor-isometric",
+      "equipment": "Bodyweight and the opposite hand",
+      "equipmentStatus": "deferred-tendon-review",
+      "sourceRows": []
+    }
+  ],
+  "aliases": [
+    {
+      "runtimeId": "periodized-stick-russian-twists",
+      "canonicalMovementId": "biweekly-stick-seated-russian-twists",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-light-db-side-bend",
+      "canonicalMovementId": "periodized-db-side-bend",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-stick-side-bends",
+      "canonicalMovementId": "biweekly-stick-standing-lateral-side-bends",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-lying-supine-vacuum",
+      "canonicalMovementId": "periodized-lying-vacuum",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-decline-bench-weighted-crunch",
+      "canonicalMovementId": "biweekly-decline-bench-weighted-crunch",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "periodized-kneeling-cable-rope-crunch",
+      "canonicalMovementId": "biweekly-kneeling-cable-rope-crunch",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "biweekly-stick-standing-overhead-side-stretch",
+      "canonicalMovementId": "biweekly-stick-overhead-side-stretch",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "biweekly-stick-spinal-twist",
+      "canonicalMovementId": "biweekly-stick-standing-torso-twists",
+      "status": "share-exact-mechanics"
+    },
+    {
+      "runtimeId": "biweekly-stick-overhead-side-bends",
+      "canonicalMovementId": "biweekly-stick-overhead-side-stretch",
+      "status": "share-exact-mechanics"
+    }
+  ],
+  "mondayReuse": [
+    {
+      "runtimeId": "periodized-lying-floor-leg-raise",
+      "canonicalMovementId": "periodized-floor-leg-raise",
+      "source": "Monday V3",
+      "reason": "Same lying floor straight-leg raise mechanics.",
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-leg-raise",
+      "canonicalMovementId": "periodized-floor-leg-raise",
+      "source": "Monday V3",
+      "reason": "Normalized generic Leg Raise to the lying floor variation in this option list.",
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-hanging-leg-raise",
+      "canonicalMovementId": "biweekly-hanging-straight-leg-raise",
+      "source": "Monday V3",
+      "reason": "Explicitly normalized to straight-leg hanging raise.",
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-incline-reverse-crunch",
+      "canonicalMovementId": "periodized-incline-reverse-crunch",
+      "source": "Monday V3",
+      "reason": "Exact incline reverse-crunch mechanics.",
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "biweekly-incline-walk",
+      "canonicalMovementId": "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9",
+      "source": "Monday V3",
+      "reason": "Treadmill walking posture is unchanged; pace/incline remain prescription text.",
+      "status": "reuse-approved-monday-v3"
+    }
+  ],
+  "generationQueue": [
+    {
+      "canonicalMovementId": "biweekly-stick-seated-russian-twists",
+      "name": "Stick Seated Russian Twists",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        17
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit on a mat with knees bent, feet lightly planted, torso tall, and both hands holding a light stick across the chest.",
+      "movementPose": "Rotate the ribcage and stick toward one hip while keeping the pelvis steady; return through center without swinging.",
+      "gripStance": "Stick across chest; feet grounded for the base version; rotate from the trunk, not the arms.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-seated-russian-twists"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-cable-russian-twist",
+      "name": "Cable Russian Twist",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        17
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit facing away from a low cable with knees bent, feet supported, torso slightly reclined, and both hands holding the handle at the chest.",
+      "movementPose": "Rotate the ribcage and handle toward one side while the pelvis stays quiet; return through center and alternate.",
+      "gripStance": "Low cable at chest height; rotate the trunk, not just the shoulders.",
+      "mappedRuntimeIds": [
+        "periodized-cable-russian-twist"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-floor-bodyweight-twist",
+      "name": "Floor Bodyweight Twist",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        17
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit on a mat with knees bent and feet planted, torso tall and hands together at the chest.",
+      "movementPose": "Rotate the ribcage toward one hip without collapsing the spine; return to center and alternate sides.",
+      "gripStance": "Bodyweight only; keep the feet grounded and range comfortable.",
+      "mappedRuntimeIds": [
+        "periodized-floor-bodyweight-twist"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-medicine-ball-twists",
+      "name": "Medicine Ball Twists",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        17
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit with knees bent and feet grounded, holding one medicine ball at the chest with the torso slightly reclined.",
+      "movementPose": "Move the ball beside one hip by rotating the trunk while keeping the spine long; return to center and alternate.",
+      "gripStance": "Medicine ball stays close to the torso; no throwing or lumbar rounding.",
+      "mappedRuntimeIds": [
+        "periodized-medicine-ball-twists"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-lying-pelvic-tilt-leg-raise",
+      "name": "Lying Pelvic-Tilt Leg Raise",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        18
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie supine on a mat, legs straight together, hands beside the hips, and lower back gently connected to the floor.",
+      "movementPose": "Tilt the pelvis posteriorly and raise the straight legs to a comfortable height without arching the lower back; lower with control.",
+      "gripStance": "Legs together and straight; no momentum or lumbar arch.",
+      "mappedRuntimeIds": [
+        "biweekly-lying-pelvic-tilt-leg-raise"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-bench-reverse-crunch",
+      "name": "Bench Reverse Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        18
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie on a flat bench with hands gripping the sides, hips near the edge, knees bent and shins parallel to the floor.",
+      "movementPose": "Curl the pelvis toward the ribs to lift the hips slightly from the bench; lower the pelvis slowly without swinging the legs.",
+      "gripStance": "Hands stabilize the bench; movement is a pelvic curl, not a leg swing.",
+      "mappedRuntimeIds": [
+        "periodized-bench-reverse-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-cable-pallof-press-with-iso-hold",
+      "name": "Cable Pallof Press with Iso-Hold",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        19
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand side-on to a cable at sternum height, feet shoulder-width, handle at the chest, ribs stacked over pelvis.",
+      "movementPose": "Press the handle straight forward and hold while resisting trunk rotation; return the handle to the chest slowly.",
+      "gripStance": "Cable handle at sternum height; square hips and shoulders; press directly away from the stack.",
+      "mappedRuntimeIds": [
+        "biweekly-cable-pallof-press-with-iso-hold"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-side-plank-hold",
+      "name": "Side Plank Hold",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        19
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Set the forearm under the shoulder with legs extended and body in one straight line, or use the lower knee for support.",
+      "movementPose": "Lift the hips and hold a rigid side plank while breathing normally; lower with control after the hold.",
+      "gripStance": "Elbow under shoulder; hips high; do not rotate or shrug.",
+      "mappedRuntimeIds": [
+        "periodized-side-plank-hold"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-db-suitcase-carry",
+      "name": "DB Suitcase Carry",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        19
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall holding one dumbbell at the side, feet hip-width, shoulders level and ribs stacked.",
+      "movementPose": "Walk slowly while resisting side-bending and keeping the dumbbell close to the thigh; stop and lower it under control.",
+      "gripStance": "One dumbbell only; short even steps; no leaning toward or away from the load.",
+      "mappedRuntimeIds": [
+        "periodized-db-suitcase-carry"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-stick-standing-lateral-side-bends",
+      "name": "Stick Standing Lateral Side Bends",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        20
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall with a light stick across the upper back, feet hip-width, and ribs stacked over the pelvis.",
+      "movementPose": "Bend the trunk sideways without rotating or shifting the hips; return to upright under control.",
+      "gripStance": "Stick across traps for the base movement; keep both feet planted.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-standing-lateral-side-bends"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-side-plank-hip-dips",
+      "name": "Side Plank Hip Dips",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        20
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Set the lower elbow under the shoulder in a side plank with feet stacked or the lower knee down.",
+      "movementPose": "Lower the hip toward the floor a short distance, then drive it back to the straight-line plank position.",
+      "gripStance": "Forearm vertical; shoulders and hips remain stacked.",
+      "mappedRuntimeIds": [
+        "periodized-side-plank-hip-dips"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-cable-side-crunch",
+      "name": "Cable Side Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        20
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand side-on to a high cable with the handle near the temple, feet stable and torso long.",
+      "movementPose": "Shorten the side of the trunk to bring the ribs toward the hip against the cable; return slowly without rotating.",
+      "gripStance": "Cable remains above and to the side; hips stay square.",
+      "mappedRuntimeIds": [
+        "periodized-cable-side-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-incline-bench-plank-vacuum",
+      "name": "Incline Bench Plank Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        21
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Place forearms on an incline bench, step back into a straight-body plank and keep the pelvis neutral.",
+      "movementPose": "Exhale and gently draw the lower abdomen inward while maintaining the plank line; release without dropping the hips.",
+      "gripStance": "Forearms supported on the bench; brace without holding the breath.",
+      "mappedRuntimeIds": [
+        "periodized-incline-bench-plank-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-cat-cow-vacuum",
+      "name": "Cat-Cow Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        21
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Start on hands and knees with wrists under shoulders, knees under hips, and spine neutral.",
+      "movementPose": "Exhale into a gentle abdominal draw-in as the spine moves through a small comfortable flexion; return to neutral without forcing the arc.",
+      "gripStance": "Small pain-free spinal range; abdomen stays active while breathing.",
+      "mappedRuntimeIds": [
+        "periodized-cat-cow-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-kneeling-cable-rope-crunch",
+      "name": "Kneeling Cable Rope Crunch",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        22
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Kneel facing a high cable with the rope beside the ears, hips under the torso, and spine long.",
+      "movementPose": "Curl the ribs toward the pelvis by flexing the spine; pause the abdominal contraction, then re-extend slowly.",
+      "gripStance": "Rope beside ears; hips stay over knees; movement comes from the trunk.",
+      "mappedRuntimeIds": [
+        "biweekly-kneeling-cable-rope-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-stability-ball-crunch",
+      "name": "Stability Ball Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        22
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit on a stability ball and walk the feet forward until the mid-back is supported, knees bent and hands lightly behind the head.",
+      "movementPose": "Curl the ribs toward the pelvis while the ball supports the back; lower until the spine lengthens over the ball.",
+      "gripStance": "Stability ball fully visible; hands guide the head but do not pull the neck.",
+      "mappedRuntimeIds": [
+        "periodized-stability-ball-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-floor-crunch",
+      "name": "Floor Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        22
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie supine with knees bent, feet planted and fingertips behind the head without interlocking or pulling.",
+      "movementPose": "Lift the shoulder blades by curling the ribs toward the pelvis; lower until the upper back returns to the mat.",
+      "gripStance": "Feet stay grounded; small trunk curl; neck remains relaxed.",
+      "mappedRuntimeIds": [
+        "periodized-floor-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-stick-standing-torso-twists",
+      "name": "Stick Standing Torso Twists",
+      "roles": [
+        "warmup"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        15
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand with feet hip-width and a light stick across the chest, elbows relaxed and pelvis facing forward.",
+      "movementPose": "Rotate the ribcage a small distance to one side while the hips stay quiet; return through center and alternate.",
+      "gripStance": "Stick across chest; controlled thoracic rotation; no forced range.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-standing-torso-twists"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-stick-high-knee-marches",
+      "name": "Stick High Knee Marches",
+      "roles": [
+        "warmup"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        15
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall holding a light stick across the shoulders or overhead, feet hip-width and posture upright.",
+      "movementPose": "March one knee toward hip height while the opposite foot stays stable, lower it quietly and alternate sides.",
+      "gripStance": "Stick remains stable; pelvis level; no hopping or leaning.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-high-knee-marches"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-elliptical-intervals",
+      "name": "Elliptical Intervals",
+      "roles": [
+        "cardio"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        23
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand on the elliptical with feet centered on the pedals, hands lightly on the moving handles and torso upright.",
+      "movementPose": "Drive the pedals and handles in a controlled interval effort while keeping the knees tracking forward; ease down smoothly.",
+      "gripStance": "Elliptical machine; light hands; upright posture and conversational recovery between efforts.",
+      "mappedRuntimeIds": [
+        "biweekly-intervals"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-bike-sprint-intervals",
+      "name": "Stationary Bike Sprint Intervals",
+      "roles": [
+        "cardio"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        23
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit on a stationary bike with the saddle set so the knee remains softly bent at the bottom and hands relaxed on the bars.",
+      "movementPose": "Accelerate the pedals for the work interval while keeping the torso stable, then reduce resistance and cadence for recovery.",
+      "gripStance": "Stationary bike; seated posture; never sprint out of the saddle for this record.",
+      "mappedRuntimeIds": [
+        "biweekly-intervals"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-cobra-pose",
+      "name": "Cobra Pose",
+      "roles": [
+        "recovery"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        24
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie prone with hands beside the lower ribs, legs extended and tops of the feet on the mat.",
+      "movementPose": "Press lightly through the hands to lift the chest into a comfortable spinal extension while the pelvis stays heavy; lower slowly.",
+      "gripStance": "Elbows remain soft and close; stop before lumbar pinching.",
+      "mappedRuntimeIds": [
+        "biweekly-cobra-pose"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-standing-cable-woodchopper-high-to-low",
+      "name": "Standing Cable Woodchopper (High-to-Low)",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        82
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand side-on to a high cable with both hands near the outside shoulder, feet staggered, and knees softly bent.",
+      "movementPose": "Pull the handle diagonally down toward the opposite hip while rotating the trunk and pivoting the rear foot slightly; return along the same path.",
+      "gripStance": "High pulley to opposite hip; rotate as one unit without yanking with the arms.",
+      "mappedRuntimeIds": [
+        "biweekly-standing-cable-woodchopper-high-to-low"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-dumbbell-woodchopper",
+      "name": "Dumbbell Woodchopper",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        82
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand with feet staggered holding one dumbbell near the outside shoulder, knees soft and trunk braced.",
+      "movementPose": "Rotate and guide the dumbbell diagonally down toward the opposite hip, then return along the same controlled arc.",
+      "gripStance": "Dumbbell travels diagonally; pivot the feet slightly instead of wrenching the knees.",
+      "mappedRuntimeIds": [
+        "periodized-dumbbell-woodchopper"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-hanging-knee-raise",
+      "name": "Hanging Knee Raise",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        83
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Review before use · source equipment excluded; approved substitute shown",
+      "startPose": "Hang from a fixed pull-up bar with shoulders active, arms straight, knees bent about 90 degrees, and pelvis neutral.",
+      "movementPose": "Curl the pelvis and draw both knees toward the chest without swinging; lower until the legs hang quietly.",
+      "gripStance": "Shoulder-width overhand grip; bent knees; no kipping or behind-the-body swing.",
+      "mappedRuntimeIds": [
+        "periodized-hanging-knee-raise"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise",
+      "name": "Half-Kneeling Cable Pallof Press with Overhead Raise",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        84
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Kneel with the inside knee down beside a cable at sternum height, handle at the chest, glute lightly engaged, and ribs stacked.",
+      "movementPose": "Press the handle forward, then raise the straight arms overhead while resisting rotation; lower and return to the chest.",
+      "gripStance": "Half-kneeling stance; cable pulls sideways; overhead path stays in front of the face.",
+      "mappedRuntimeIds": [
+        "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-standard-pallof-press",
+      "name": "Standard Pallof Press",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        84
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand side-on to a cable at sternum height with feet shoulder-width and handle held at the chest.",
+      "movementPose": "Press the handle straight forward, pause while resisting rotation, and return it to the chest without shifting the hips.",
+      "gripStance": "Cable at sternum height; square shoulders and hips; no trunk twist.",
+      "mappedRuntimeIds": [
+        "periodized-standard-pallof-press"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-side-plank-hip-dips-with-rotation",
+      "name": "Side Plank Hip Dips with Rotation",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        85
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Set the lower elbow under the shoulder in a side plank with feet stacked or staggered and the top arm reaching upward.",
+      "movementPose": "Lower the hip a few centimetres, lift back to a straight line, then rotate the top arm under the ribs without collapsing the shoulder.",
+      "gripStance": "Forearm vertical; hips stay lifted; rotation comes from the trunk.",
+      "mappedRuntimeIds": [
+        "biweekly-side-plank-hip-dips-with-rotation"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-db-side-bend",
+      "name": "DB Side Bend",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        85
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall holding one dumbbell in one hand with feet hip-width and the free hand on the ribs.",
+      "movementPose": "Bend slightly toward the unloaded side while keeping the chest facing forward, then pull the ribs back to vertical.",
+      "gripStance": "One dumbbell; hips stay still; small pain-free lateral range.",
+      "mappedRuntimeIds": [
+        "periodized-db-side-bend"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-standing-stomach-vacuum",
+      "name": "Standing Stomach Vacuum",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall with feet hip-width and hands resting lightly on the thighs.",
+      "movementPose": "Exhale and draw the lower abdomen inward while keeping the ribs and pelvis stacked; release while breathing normally.",
+      "gripStance": "Upright stance; gentle abdominal draw-in; no breath-holding.",
+      "mappedRuntimeIds": [
+        "biweekly-standing-seated-transverse-abdominis-stomach-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-seated-stomach-vacuum",
+      "name": "Seated Stomach Vacuum",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit tall with feet grounded, hands on thighs and spine neutral.",
+      "movementPose": "Exhale and draw the lower abdomen inward without rounding the back; release gradually while breathing normally.",
+      "gripStance": "Seated neutral spine; gentle effort; stop if light-headed.",
+      "mappedRuntimeIds": [
+        "biweekly-standing-seated-transverse-abdominis-stomach-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-quadruped-vacuum",
+      "name": "Quadruped Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Start on hands and knees with a neutral spine, hands under shoulders and knees under hips.",
+      "movementPose": "Exhale and gently draw the abdomen upward and inward while keeping the spine still; release gradually.",
+      "gripStance": "Maintain neutral spine and normal breathing; no rib flare or pelvic tuck.",
+      "mappedRuntimeIds": [
+        "periodized-quadruped-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-plank-vacuum",
+      "name": "Plank Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Set a forearm plank with elbows under shoulders, legs straight and body in one line.",
+      "movementPose": "Exhale and draw the lower abdomen inward while maintaining the plank; release without sagging the hips.",
+      "gripStance": "Brace without breath-holding; keep the pelvis neutral.",
+      "mappedRuntimeIds": [
+        "periodized-plank-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "periodized-lying-vacuum",
+      "name": "Lying Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie supine with knees bent, feet on the mat, arms relaxed and lower back neutral.",
+      "movementPose": "Exhale gently, draw the lower abdomen inward without lifting the ribs or pelvis, and hold the brace before releasing slowly.",
+      "gripStance": "Quiet breathing and mild abdominal draw-in; no breath-holding or forced hollowing.",
+      "mappedRuntimeIds": [
+        "periodized-lying-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-decline-bench-weighted-crunch",
+      "name": "Decline Bench Weighted Crunch",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        87
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Secure the ankles on a decline bench, hold a light plate at the chest, and lie back with the pelvis neutral.",
+      "movementPose": "Curl the ribs toward the pelvis while keeping the plate against the chest; pause, then lower the spine to the bench slowly.",
+      "gripStance": "Decline bench and plate on chest; do not pull the head or throw the torso forward.",
+      "mappedRuntimeIds": [
+        "biweekly-decline-bench-weighted-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    },
+    {
+      "canonicalMovementId": "biweekly-stick-overhead-side-stretch",
+      "name": "Stick Overhead Side Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        89
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall holding a light stick overhead with hands wider than shoulders and feet grounded.",
+      "movementPose": "Reach upward and lean gently to one side without rotating the chest; return upright before switching sides.",
+      "gripStance": "Stick overhead; side bend only in a comfortable range; ribs stay controlled.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-overhead-side-stretch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-movement.png"
+      },
+      "generationStatus": "not-started",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+    }
+  ],
+  "deferred": [
+    {
+      "runtimeId": "tendon-wrist-flexor-isometric",
+      "reason": "User will provide tendon research before artwork/content changes."
+    }
+  ]
+}
