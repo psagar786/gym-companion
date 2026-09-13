@@ -33,7 +33,7 @@
     "periodized-cable-pull-through",
     "periodized-goblet-squat-to-box"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "c742868",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
