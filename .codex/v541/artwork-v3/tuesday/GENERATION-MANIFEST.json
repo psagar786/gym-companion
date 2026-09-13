@@ -746,9 +746,27 @@
         "start": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-start.png",
+          "hash": "f52852eb36db56759b5b3d492b757c82de01a01ff7a1d26c8f4d38ef0bdfbf19",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-movement.png",
+          "hash": "0c780554d9aab8167aeb0014253ecf5ded1b9480e5b555e8ffd17ea774a5966c",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:26:28.968Z"
     },
     {
       "canonicalMovementId": "periodized-floor-crunch",
@@ -776,9 +794,27 @@
         "start": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-start.png",
+          "hash": "a85a6c790d7270b2f047f7bc1ec7e1c03fca78fdd0bf34d43f287e9fcfb258ca",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-movement.png",
+          "hash": "69c0bf878995c575c614cd7b3abf7759578dc68e90460a123b8ca4de0486241e",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:27:32.708Z"
     },
     {
       "canonicalMovementId": "biweekly-stick-standing-torso-twists",
@@ -806,9 +842,27 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.png",
+          "hash": "cf2f4c57bcf9c66714e9a2199effb2faa892531857c5359da67899fecae15dc8",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.png",
+          "hash": "60f6f5978deae972474b899532d1b36dd2742824273eca84f0e29ce5b9f7958d",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:28:35.069Z"
     },
     {
       "canonicalMovementId": "biweekly-stick-high-knee-marches",
@@ -836,9 +890,27 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-start.png",
+          "hash": "3576f4ef56d3687f68db062ae39f152a9be6e561787464f6e83e92555ba8d4b6",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-movement.png",
+          "hash": "ba03f58db54846c252e3be5e31b79caa55a64727c563a2a989e1d17fdf62ef16",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:29:51.095Z"
     },
     {
       "canonicalMovementId": "periodized-elliptical-intervals",
@@ -866,9 +938,27 @@
         "start": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-start.png",
+          "hash": "57602ee6ebffd95ba643a43c383f77ef73d892160644e5563366a22a60a6c56d",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-movement.png",
+          "hash": "54c3957ec336f5efccc8eac6403f07ee852b06de07ffdf569a6f3f305753ac45",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:31:10.504Z"
     },
     {
       "canonicalMovementId": "periodized-bike-sprint-intervals",
@@ -896,9 +986,27 @@
         "start": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.png",
+          "hash": "fd8653533562dcac1e873c52a3117dbd289a1e289429749b49e6897fc89c14be",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.png",
+          "hash": "9c314b7b2831881590cfc13fb1186d860f77a954657bc47294756db53f9c3caa",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:32:07.925Z"
     },
     {
       "canonicalMovementId": "biweekly-cobra-pose",
@@ -926,9 +1034,27 @@
         "start": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-start.png",
+          "hash": "4add943946682b018d24395106877f50eeb323b0922c70157afc6b35b8ab90c7",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-movement.png",
+          "hash": "dd7b8465093b80563e7b0ff09d850fbb73e4eaa46e03dbe8f27994f547e5d584",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:33:18.355Z"
     },
     {
       "canonicalMovementId": "biweekly-standing-cable-woodchopper-high-to-low",
@@ -954,9 +1080,27 @@
         "start": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-start.png",
+          "hash": "45d6935c9bb3937c3a883d1b8d749ceb13fbad32bffac603bbe393dd4ea3d9f2",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-movement.png",
+          "hash": "eb5982e9facbc3d9ad04f4c5aa800c4ccebcfc6ea0b53e0e299a43fc1fcd285c",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:34:31.425Z"
     },
     {
       "canonicalMovementId": "periodized-dumbbell-woodchopper",
@@ -982,9 +1126,27 @@
         "start": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-start.png",
+          "hash": "a9466e74faf2d3cf4039cebc4624c300c1e2102ea1c600cd7fcfd05a394c6e80",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-movement.png",
+          "hash": "f2670478c17bac2364aacbb5f25dd76a62d79de38e6b1d830abc3700dd07df14",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:35:56.362Z"
     },
     {
       "canonicalMovementId": "periodized-hanging-knee-raise",
@@ -1010,9 +1172,27 @@
         "start": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
+          "hash": "9b8c644f2c9f2cbefe683d52b395d3ba85612c3aba8bf68400bc117f7d4d0a64",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png",
+          "hash": "23fd6029561559bccebbcee2c9eb50409d1c6fc866e052ef563aebd294519810",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:37:20.709Z"
     },
     {
       "canonicalMovementId": "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise",
@@ -1038,9 +1218,27 @@
         "start": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-start.png",
+          "hash": "def1a6b13005dd5c3186d54f558476aa904135179cca0ea95122dd6021b18194",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-movement.png",
+          "hash": "63d69ebbe01987394b92a8e77d6308291df85ec537f2d5199a9da10030ef59e6",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:38:22.886Z"
     },
     {
       "canonicalMovementId": "periodized-standard-pallof-press",
@@ -1066,9 +1264,27 @@
         "start": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-start.png",
+          "hash": "ee7ee42779a41b9cfb976c5fd26c92838fbe5e8489f3a0ac76fcb19b197a6113",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-movement.png",
+          "hash": "fb50b58cb579f3a43e4b52f0e7bf839a7b13c6a30911d86af1f16c5d758dad44",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:39:28.040Z"
     },
     {
       "canonicalMovementId": "biweekly-side-plank-hip-dips-with-rotation",
@@ -1094,9 +1310,27 @@
         "start": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-start.png",
+          "hash": "2b50aeacb135970c3e49d20d6914d8dd3bf831ba26ba17b116e93b189142ba89",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-movement.png",
+          "hash": "7b160860ca6ceaaa75628b2d44dee34083db353ccc089ebcbb396760a15c1778",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:40:41.280Z"
     },
     {
       "canonicalMovementId": "periodized-db-side-bend",
@@ -1122,9 +1356,27 @@
         "start": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.png",
+          "hash": "feac8f2fa18995fa675d5e004a033ee231913e7024d9eb4cf6e263582243fd1c",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.png",
+          "hash": "9c6546469e0a94b999e970cbbd0df8efdcc0adcab98d0b63a63a506f3558a4a1",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:41:51.173Z"
     },
     {
       "canonicalMovementId": "periodized-standing-stomach-vacuum",
@@ -1150,9 +1402,27 @@
         "start": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.png",
+          "hash": "2fecc2c6f347f7faa76eddb2826cd6667297ac2c40d63abf054c1300511c98bd",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.png",
+          "hash": "f13f9268ffa09a80a9f16a72ef7d714be44a67e9ad21bbaeab0200ada26ef782",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:42:54.447Z"
     },
     {
       "canonicalMovementId": "periodized-seated-stomach-vacuum",
@@ -1178,9 +1448,27 @@
         "start": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-start.png",
+          "hash": "443885fa0bbc9ce4d8ac33719454142dfd5f3f64ce30ef2a1cf1c8806816dd33",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-movement.png",
+          "hash": "895f77a84eecb20e5d04c818d43d5dbc065814d10185a05e166ab741fc1c6fc3",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:44:48.984Z"
     },
     {
       "canonicalMovementId": "periodized-quadruped-vacuum",
@@ -1206,9 +1494,27 @@
         "start": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-start.png",
+          "hash": "f56f26d28af36b9a5df97b48081a52d5a64036f3aefa6f1c8ca29eeb2dc0c0e0",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-movement.png",
+          "hash": "2869117176b328df32ebd12fd7a27a27b029af2962ba8a961eef5c5a80d2f57c",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:45:57.054Z"
     },
     {
       "canonicalMovementId": "periodized-plank-vacuum",
@@ -1234,9 +1540,27 @@
         "start": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-start.png",
+          "hash": "c5baafddfc1641c13dadee65057d377fa88209bc6d2f9190721df54aeefa57ed",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-movement.png",
+          "hash": "4fffd9e943424ec504c32e3c0784e8b3fddaec57c79a035f794a5e0981b49afe",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:47:04.139Z"
     },
     {
       "canonicalMovementId": "periodized-lying-vacuum",
@@ -1262,9 +1586,27 @@
         "start": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-start.png",
+          "hash": "c56673c22418de9a7f55d810fcf6759ff8dda94954af0b5ae1c3a6e5cca69de7",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-movement.png",
+          "hash": "a44091d7cd0e9aef4b1898b8bfada92b98d436678d87aa82e1a3b73e25389cec",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:48:21.977Z"
     },
     {
       "canonicalMovementId": "biweekly-decline-bench-weighted-crunch",
@@ -1290,9 +1632,27 @@
         "start": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-start.png",
+          "hash": "57538f82ca1d4b1761e59ed690303523fdd83acc0eabca8beaa6b4de214ff99e",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-movement.png",
+          "hash": "cb01f01cddf403a3cfa70c3b8cb0664247323bb731f8162849ce12f5b860c794",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:49:28.211Z"
     },
     {
       "canonicalMovementId": "biweekly-stick-overhead-side-stretch",
@@ -1318,9 +1678,27 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-movement.png"
       },
-      "generationStatus": "not-started",
+      "generationStatus": "technical-pass",
       "athlete": "adult male; fixed identity across Start and Movement",
-      "promptVersion": "fitness7-scientific-v3-male-tuesday"
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-start.png",
+          "hash": "da11ec28320c17996ef2427c391d81a947497fee961f17a10b8d20b2d336a170",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-movement.png",
+          "hash": "98737dcf69fe5b0bcad00f03ff1b430f61e63a4ff324d941147d5b00f9c94ff9",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:50:27.117Z"
     }
   ]
 }

@@ -14,9 +14,9 @@
   "newGenerationSets": 36,
   "newGenerationFiles": 72,
   "deferredTendonSets": 1,
-  "completedSets": 15,
-  "completedFiles": 30,
-  "currentBatch": "B01",
+  "completedSets": 36,
+  "completedFiles": 72,
+  "currentBatch": "B06",
   "currentMovementId": null,
   "currentPhase": null,
   "failedMovementIds": [],
@@ -35,11 +35,55 @@
     "periodized-cable-side-crunch",
     "periodized-incline-bench-plank-vacuum",
     "periodized-cat-cow-vacuum",
-    "biweekly-kneeling-cable-rope-crunch"
+    "biweekly-kneeling-cable-rope-crunch",
+    "periodized-stability-ball-crunch",
+    "periodized-floor-crunch",
+    "biweekly-stick-standing-torso-twists",
+    "biweekly-stick-high-knee-marches",
+    "periodized-elliptical-intervals",
+    "periodized-bike-sprint-intervals",
+    "biweekly-cobra-pose",
+    "biweekly-standing-cable-woodchopper-high-to-low",
+    "periodized-dumbbell-woodchopper",
+    "periodized-hanging-knee-raise",
+    "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise",
+    "periodized-standard-pallof-press",
+    "biweekly-side-plank-hip-dips-with-rotation",
+    "periodized-db-side-bend",
+    "periodized-standing-stomach-vacuum",
+    "periodized-seated-stomach-vacuum",
+    "periodized-quadruped-vacuum",
+    "periodized-plank-vacuum",
+    "periodized-lying-vacuum",
+    "biweekly-decline-bench-weighted-crunch",
+    "biweekly-stick-overhead-side-stretch"
   ],
   "lastCompletedCommit": "",
-  "currentCheckpoint": "V541-TUE-biweekly-kneeling-cable-rope-crunch-PAIR-COMPLETE",
-  "nextAtomicAction": "Generate Start for Stability Ball Crunch",
-  "remainingSets": 21,
-  "remainingFiles": 42
+  "currentCheckpoint": "V541-TUE-ART-LOCAL-REVIEW",
+  "nextAtomicAction": "Review Tuesday Week C in the browser, then collect any requested repair notes",
+  "remainingSets": 0,
+  "remainingFiles": 0,
+  "validation": {
+    "technical": {
+      "status": "pass",
+      "validatedPairs": 36,
+      "validatedFiles": 72,
+      "errors": []
+    },
+    "runtime": {
+      "status": "pass",
+      "mappedRuntimeIds": 50,
+      "failures": []
+    },
+    "localReview": {
+      "status": "ready-for-user-review",
+      "browserUrl": "http://localhost:4190/?qa=tuesday-v3&week=A",
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "note": "Technical and runtime checks passed; human gym-coach approval remains pending."
+    }
+  }
 }

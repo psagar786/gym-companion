@@ -19,6 +19,7 @@ const v53Plan = window.GYM_COMPANION_V53_THREEWEEK || window.GYM_COMPANION_V53_P
 const periodized = window.GYM_COMPANION_PERIODIZED_ABC || { key:'periodized-abc', planVersion:'periodized-abc-v1', cadence:['A','B','A','C'], days:[] };
 const periodizedArtwork = window.GYM_COMPANION_PERIODIZED_ARTWORK || { movements:{} };
 const periodizedV3MondayArtwork = window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK || { movements:{} };
+const periodizedV3TuesdayArtwork = window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK || { movements:{}, runtimeMap:{} };
 const periodizedV2Pilot = window.GYM_COMPANION_PERIODIZED_V2_PILOT || { movements:{}, targetSets:43, completedSets:0 };
 const app = document.querySelector('#app');
 const RELEASE_VERSION = '5.4.1';
@@ -103,6 +104,10 @@ function biweeklyWeekKey(date=new Date()) {
   return ((diff%2)+2)%2===0?'A':'B';
 }
 function biweeklyDay(dayIndex, date=scheduledDate(dayIndex)) { return biweekly.days.find(day=>day.weekKey===biweeklyWeekKey(date)&&day.dayIndex===dayIndex) || biweekly.days.find(day=>day.weekKey==='A'&&day.dayIndex===dayIndex); }
+const tuesdayQaWeek = (() => {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('qa')==='tuesday-v3' && ['A','B','C'].includes(params.get('week')) ? params.get('week') : null;
+})();
 function periodizedWeekKey(date=new Date()) {
   const anchor=new Date(`${periodized.anchorDate||mondayIso(new Date())}T00:00:00`);
   const monday=new Date(date); monday.setHours(0,0,0,0); monday.setDate(monday.getDate()-((monday.getDay()+6)%7));
@@ -110,7 +115,7 @@ function periodizedWeekKey(date=new Date()) {
   const index=((diff%periodized.cadence.length)+periodized.cadence.length)%periodized.cadence.length;
   return periodized.cadence[index]||'A';
 }
-function periodizedDay(dayIndex, date=scheduledDate(dayIndex)) { const key=periodizedWeekKey(date); return periodized.days.find(day=>day.weekKey===key&&day.dayIndex===dayIndex) || periodized.days.find(day=>day.weekKey==='A'&&day.dayIndex===dayIndex); }
+function periodizedDay(dayIndex, date=scheduledDate(dayIndex)) { const key=dayIndex===1&&tuesdayQaWeek ? tuesdayQaWeek : periodizedWeekKey(date); return periodized.days.find(day=>day.weekKey===key&&day.dayIndex===dayIndex) || periodized.days.find(day=>day.weekKey==='A'&&day.dayIndex===dayIndex); }
 function v2ArtworkRecord(item) {
   if (!item) return null;
   const name=item.name||item.title||'';
@@ -123,9 +128,20 @@ function biweeklyRegistryRecord(item) {
   const slug=slugify(name);
   const runtimeId=item?.__alternative ? `periodized-${slug}` : (item?.stableMovementId||`periodized-${slug}`);
   if (effectiveTemplateKey()==='periodized-abc') {
-    const mondayIds=[runtimeId, `tendon-${slug}`, `biweekly-${slug}`];
-    const mondayV3=mondayIds.map(id=>periodizedV3MondayArtwork.movements?.[id]).find(Boolean) || Object.values(periodizedV3MondayArtwork.movements||{}).find(record=>record.name===name||slugify(record.name)===slug);
-    if (mondayV3) return mondayV3;
+    const dayIndex=Number.isInteger(item?.dayIndex) ? item.dayIndex : state.dayIndex;
+    if (dayIndex===1) {
+      const tuesdayMapping=periodizedV3TuesdayArtwork.runtimeMap?.[runtimeId];
+      if (tuesdayMapping) {
+        const tuesdayRecord=periodizedV3TuesdayArtwork.movements?.[tuesdayMapping.canonicalMovementId];
+        if (tuesdayRecord) return tuesdayRecord;
+        const reusedMonday=periodizedV3MondayArtwork.movements?.[tuesdayMapping.canonicalMovementId];
+        if (reusedMonday) return reusedMonday;
+      }
+    }
+    if (dayIndex===0) {
+      const mondayV3=periodizedV3MondayArtwork.movements?.[runtimeId];
+      if (mondayV3) return mondayV3;
+    }
   }
   const v2=v2ArtworkRecord(item);
   if (v2) return v2;
@@ -144,7 +160,7 @@ function biweeklyItem(item) {
     name:item.name,
     image_path:imageSet.movement||imageSet.move||imageSet.start||imageSet.setup||item.image,
     imageSet,
-    alt_text:registry?.alt||item.alt_text||`Fitness 7 illustration: ${item.name}`,
+    alt_text:registry?.altStart||registry?.alt||item.alt_text||`Fitness 7 illustration: ${item.name}`,
     target_muscles:(item.targetGroups||registry?.targetGroups||[]).join(' + ')||'',
     targetGroups:item.targetGroups||registry?.targetGroups||[],
     primaryTargets:item.primaryTargets||registry?.primaryTargets||item.targetGroups||registry?.targetGroups||[],
@@ -182,6 +198,27 @@ function biweeklyItem(item) {
 function biweeklySourceItemById(id) { for (const day of biweekly.days || []) { const item=[...(day.warmup||[]),...(day.coreSlots||[]),...(day.optionalSlots||[]),...(day.cardio||[]),...(day.recovery||[])].find(candidate=>candidate.id===id); if(item) return item; } return null; }
 function periodizedSourceItemById(id) { for (const day of periodized.days || []) { const item=[...(day.warmup||[]),...(day.coreSlots||[]),...(day.optionalSlots||[]),...(day.cardio||[]),...(day.recovery||[])].find(candidate=>candidate.id===id); if(item) return item; } return null; }
 function resolveExerciseById(id) { return state.library.map(normalizeExercise).find(item=>item.id===id) || training.catalog.find(item=>item.id===id) || (state.preferences.template_key==='periodized-abc' ? biweeklyItem(periodizedSourceItemById(id)) : state.preferences.template_key==='biweekly' ? biweeklyItem(biweeklySourceItemById(id)) : null); }
+function periodizedResolvedItem(item,tier) {
+  if (!item) return item;
+  const name=String(item.name||'').toLowerCase();
+  if (name==='transverse abdominis stomach vacuum') {
+    const target=tier==='expert'
+      ? { id:'periodized-standing-stomach-vacuum', stableMovementId:'periodized-standing-stomach-vacuum', name:'Standing Stomach Vacuum' }
+      : tier==='intermediate'
+        ? { id:'periodized-quadruped-vacuum', stableMovementId:'periodized-quadruped-vacuum', name:'Quadruped Vacuum' }
+        : { id:'periodized-lying-vacuum', stableMovementId:'periodized-lying-vacuum', name:'Lying Stomach Vacuum' };
+    return {...item,...target};
+  }
+  if (name==='intervals') {
+    const target=tier==='expert'
+      ? { id:'periodized-bike-sprint-intervals', stableMovementId:'periodized-bike-sprint-intervals', name:'Stationary Bike Sprint Intervals' }
+      : tier==='intermediate'
+        ? { id:'biweekly-incline-walk', stableMovementId:'biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9', name:'Incline Treadmill Intervals' }
+        : { id:'periodized-elliptical-intervals', stableMovementId:'periodized-elliptical-intervals', name:'Elliptical Intervals' };
+    return {...item,...target};
+  }
+  return item;
+}
 function biweeklyPlan(dayIndex, date=scheduledDate(dayIndex)) {
   const day=biweeklyDay(dayIndex,date); if(!day)return null;
   const tier=state.preferences.tier||'intermediate';
@@ -196,9 +233,9 @@ function periodizedPlan(dayIndex, date=scheduledDate(dayIndex)) {
   const day=periodizedDay(dayIndex,date); if(!day)return null;
   const tier=state.preferences.tier||periodized.defaultTier||'intermediate';
   const sourceSlots=day.coreSlots||[];
-  const slots=sourceSlots.map((item,position)=>({id:item.id,position,exercise:biweeklyItem(item),alternative:item.alternatives?.[0]?biweeklyItem({...item,id:`${item.id}-alt-1`,name:item.alternatives[0],__alternative:true,imageSet:{}}):null,third:item.alternatives?.[1]?biweeklyItem({...item,id:`${item.id}-alt-2`,name:item.alternatives[1],__alternative:true,imageSet:{}}):null}));
-  const guided=items=>(items||[]).map(item=>{const normalized=biweeklyItem(item);return normalized?({...normalized,title:item.name,duration:item.prescriptions?.[tier]||normalized.scheme||'',image:previewImage(normalized),alt:normalized.alt_text||`Fitness 7 illustration: ${item.name}`,recommended:true}):null;}).filter(Boolean);
-  const optional=(day.optionalSlots||[]).filter(item=>item.levelEligibility?.[tier]!==false).map(item=>biweeklyItem(item)).filter(Boolean);
+  const slots=sourceSlots.map((rawItem,position)=>{const item=periodizedResolvedItem(rawItem,tier);return {id:item.id,position,exercise:biweeklyItem({...item,dayIndex}),alternative:item.alternatives?.[0]?biweeklyItem({...item,dayIndex,id:`${item.id}-alt-1`,name:item.alternatives[0],__alternative:true,imageSet:{}}):null,third:item.alternatives?.[1]?biweeklyItem({...item,dayIndex,id:`${item.id}-alt-2`,name:item.alternatives[1],__alternative:true,imageSet:{}}):null};});
+  const guided=items=>(items||[]).map(rawItem=>{const item=periodizedResolvedItem(rawItem,tier);const normalized=biweeklyItem({...item,dayIndex});return normalized?({...normalized,title:item.name,duration:item.prescriptions?.[tier]||normalized.scheme||'',image:previewImage(normalized),alt:normalized.alt_text||`Fitness 7 illustration: ${item.name}`,recommended:true}):null;}).filter(Boolean);
+  const optional=(day.optionalSlots||[]).filter(item=>item.levelEligibility?.[tier]!==false).map(item=>biweeklyItem({...item,dayIndex})).filter(Boolean);
   const tendonSource=v53Content.tendon?.[dayIndex] ? [v53Content.tendon[dayIndex]] : [];
   const tendon=tendonSource.map(item=>biweeklyItem(item)).filter(Boolean);
   return {id:`periodized-${day.weekKey}-${day.dayIndex}`,day_index:dayIndex,weekKey:day.weekKey,focus:day.focus,targetGroups:day.targetGroups,warmup:guided(day.warmup),tendon,recovery:guided([...(day.cardio||[]),...(day.recovery||[])]),member_plan_slots:slots,extras:optional,rotationWeek:periodized.cadence.indexOf(day.weekKey)+1,defaultChoice:0};
