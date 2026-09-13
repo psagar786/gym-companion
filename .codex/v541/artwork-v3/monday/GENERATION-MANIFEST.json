@@ -1619,11 +1619,26 @@
         "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-start.png",
+          "hash": "ba3998c938ffeb5806fd62bbfa6c693c0cdea0b8755e6e79ef43b5bc7d407982",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-movement.png",
+          "hash": "bd29a0a02e4ad650bb98202c19236f51ed99f9dbcc304a5c3afe21f5bfbc1c18",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T05:49:44.748Z"
     },
     {
       "canonicalMovementId": "biweekly-cable-face-pull-with-external-rotation",
