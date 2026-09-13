@@ -2104,11 +2104,26 @@
         "start": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-start.png",
+          "hash": "6b2cd40984c6449aab9d0b43a9a2e3f0fa786aa78346f1768c84227f04fb0143",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-movement.png",
+          "hash": "6a7521d5a4e58776864ca573d54bfe2bb2ed7e6b7c6059b9923d81b14cc2b9e4",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:24:13.729Z"
     },
     {
       "canonicalMovementId": "periodized-chest-supported-db-row",
