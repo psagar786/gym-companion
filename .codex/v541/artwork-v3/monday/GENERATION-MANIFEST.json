@@ -2408,11 +2408,26 @@
         "start": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-movement.png"
       },
-      "generationStatus": "not-started",
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "generationStatus": "technical-pass",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
       "humanCoachReviewStatus": "pending",
-      "failureReasons": []
+      "failureReasons": [],
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-start.png",
+          "hash": "5837f81b433048e9cd1a79760fe919709d0f93cf99df33fd59665bb52cd611c1",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-movement.png",
+          "hash": "36537b9959c752e9c12f1164c3e1721a621fc806338e565ca861fc57314b9a39",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T06:54:35.171Z"
     },
     {
       "canonicalMovementId": "periodized-dumbbell-pullover-on-bench",

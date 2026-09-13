@@ -7,10 +7,10 @@
     "C"
   ],
   "totalCanonicalSets": 61,
-  "completedSets": 37,
-  "completedFiles": 74,
-  "remainingSets": 24,
-  "remainingFiles": 48,
+  "completedSets": 38,
+  "completedFiles": 76,
+  "remainingSets": 23,
+  "remainingFiles": 46,
   "currentBatch": "B04",
   "currentMovementId": null,
   "currentPhase": null,
@@ -22,5 +22,5 @@
     "periodized-reverse-pec-deck-fly"
   ],
   "lastCompletedCommit": "f68d375",
-  "nextAtomicAction": "Generate Start for Deficit Push-Ups"
+  "nextAtomicAction": "Generate Start for Dumbbell Pullover on Bench"
 }
