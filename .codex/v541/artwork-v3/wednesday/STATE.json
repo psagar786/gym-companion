@@ -39,7 +39,7 @@
     "periodized-reverse-lunges",
     "biweekly-stick-overhead-deep-squat-prys"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "204922d",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
