@@ -1149,7 +1149,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-movement.png"
@@ -1160,9 +1163,27 @@
         "start": "Fitness 7 illustration: Stick Quad Stretch starting position",
         "movement": "Fitness 7 illustration: Stick Quad Stretch working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "588e484bf25ac499f1bacf406aa2cbad05ac353951a75193fb099ef738424d09"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "c84c1ee46f6c97ce5ed4a11b0c53b3400f1a2ef516f75c51645ac51307305e71"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete, support-stick assisted quad stretch; stable bilateral start and unilateral bent-knee movement are clearly distinct."
+      }
     },
     {
       "order": 23,

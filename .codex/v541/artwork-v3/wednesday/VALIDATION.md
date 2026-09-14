@@ -196,3 +196,12 @@
 - Semantic AI review: pass (male athlete, stick-supported lateral leg swing mechanics, phase distinction visible).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `biweekly-stick-quad-stretch`.
+
+## Pair checkpoint — Stick Quad Stretch
+
+- Start: `assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, support, and stick visible).
+- Semantic AI review: pass (male athlete, standing quad stretch mechanics, phase distinction visible).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `biweekly-butterfly-groin-stretch`.
