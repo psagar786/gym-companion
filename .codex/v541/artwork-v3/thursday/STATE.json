@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-THU-periodized-underhand-lat-pulldown-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-THU-periodized-chin-ups-PAIR-COMPLETE",
   "totalListedRecords": 30,
   "physicalRecords": 30,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 10,
-  "completedFiles": 20,
+  "completedSets": 11,
+  "completedFiles": 22,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-dumbbell-overhead-shoulder-press",
@@ -28,14 +28,15 @@
     "periodized-machine-shoulder-press",
     "periodized-arnold-press",
     "periodized-standing-barbell-overhead-press",
-    "periodized-underhand-lat-pulldown"
+    "periodized-underhand-lat-pulldown",
+    "periodized-chin-ups"
   ],
-  "lastCompletedCommit": "2ddc1bf",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-chin-ups",
+  "nextAtomicAction": "Generate Start for periodized-single-arm-cable-pulldown",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -47,8 +48,8 @@
   },
   "newGenerationSets": 24,
   "newGenerationFiles": 48,
-  "remainingSets": 14,
-  "remainingFiles": 28,
+  "remainingSets": 13,
+  "remainingFiles": 26,
   "currentMovementId": null,
   "currentPhase": null,
   "outputHashes": {
@@ -171,6 +172,18 @@
         "height": 512,
         "sha256": "3a15fdcfb232972631a760f150f0c38f9fb08849756aeacc074520ac718039ea"
       }
+    },
+    "periodized-chin-ups": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "df3cbd500dcd173a4efc6e453d1caeb9af601c136514a6576b2e2c6a7baaf85d"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "d3e114a6912fa926d159f8bc2d7bad5e4baa10d2663f50af4d39165dec18cd7c"
+      }
     }
   },
   "validationResults": {
@@ -220,6 +233,11 @@
       "humanCoach": "pending"
     },
     "periodized-underhand-lat-pulldown": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-chin-ups": {
       "technical": "pass",
       "semantic": "ai-review-pass",
       "humanCoach": "pending"
@@ -274,6 +292,11 @@
     {
       "checkpoint": "V541-THU-periodized-underhand-lat-pulldown-PAIR-COMPLETE",
       "movementId": "periodized-underhand-lat-pulldown",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-chin-ups-PAIR-COMPLETE",
+      "movementId": "periodized-chin-ups",
       "status": "technical-and-semantic-pass"
     }
   ]

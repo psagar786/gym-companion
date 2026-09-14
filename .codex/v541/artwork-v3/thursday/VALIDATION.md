@@ -109,3 +109,12 @@
 - Semantic AI review: pass (male athlete, underhand pulldown mechanics, overhead-to-chest phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-chin-ups`.
+
+## Pair checkpoint — Chin-Ups
+
+- Start: `assets/exercises/periodized-v3/periodized-chin-ups-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-chin-ups-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete and bar visible).
+- Semantic AI review: pass (male athlete, supinated chin-up mechanics, dead-hang-to-elevated phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-single-arm-cable-pulldown`.

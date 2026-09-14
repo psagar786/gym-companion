@@ -561,7 +561,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-chin-ups-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-chin-ups-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-chin-ups-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-chin-ups-v3-movement.png"
@@ -572,9 +575,27 @@
         "start": "Fitness 7 illustration: Chin-Ups starting position",
         "movement": "Fitness 7 illustration: Chin-Ups working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "df3cbd500dcd173a4efc6e453d1caeb9af601c136514a6576b2e2c6a7baaf85d"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d3e114a6912fa926d159f8bc2d7bad5e4baa10d2663f50af4d39165dec18cd7c"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete on fixed bar; dead-hang Start and elbows-flexed elevated Movement positions clearly differ."
+      }
     },
     {
       "order": 12,
