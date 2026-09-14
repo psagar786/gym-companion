@@ -21,7 +21,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-movement.png"
@@ -32,9 +35,27 @@
         "start": "Fitness 7 illustration: Seated Dumbbell Overhead Shoulder Press starting position",
         "movement": "Fitness 7 illustration: Seated Dumbbell Overhead Shoulder Press working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "6b5b9e4a8ef0c2d47c9262c9ef7946f61013a08b836d59be67748e6125426297"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "4a4a4552210013085852122cb169f133e4e11f835d4b6b2d3384d34a1dec402c"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete, seated dumbbell press; shoulder-height Start and overhead Movement positions clearly differ."
+      }
     },
     {
       "order": 2,

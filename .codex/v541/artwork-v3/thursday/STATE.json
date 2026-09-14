@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-THU-01-QUEUE-FROZEN",
+  "currentCheckpoint": "V541-THU-biweekly-seated-dumbbell-overhead-shoulder-press-PAIR-COMPLETE",
   "totalListedRecords": 30,
   "physicalRecords": 30,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,16 +15,18 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 0,
-  "completedFiles": 0,
+  "completedSets": 1,
+  "completedFiles": 2,
   "failedMovementIds": [],
-  "completedMovementIds": [],
+  "completedMovementIds": [
+    "biweekly-seated-dumbbell-overhead-shoulder-press"
+  ],
   "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for biweekly-seated-dumbbell-overhead-shoulder-press",
+  "nextAtomicAction": "Generate Start for biweekly-close-grip-v-bar-lat-pulldown",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -35,5 +37,37 @@
     "decision": "No exact Tuesday reuse candidate approved; mechanics, equipment, grip, stance, path and range were checked."
   },
   "newGenerationSets": 24,
-  "newGenerationFiles": 48
+  "newGenerationFiles": 48,
+  "remainingSets": 23,
+  "remainingFiles": 46,
+  "currentMovementId": null,
+  "currentPhase": null,
+  "outputHashes": {
+    "biweekly-seated-dumbbell-overhead-shoulder-press": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "6b5b9e4a8ef0c2d47c9262c9ef7946f61013a08b836d59be67748e6125426297"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "4a4a4552210013085852122cb169f133e4e11f835d4b6b2d3384d34a1dec402c"
+      }
+    }
+  },
+  "validationResults": {
+    "biweekly-seated-dumbbell-overhead-shoulder-press": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    }
+  },
+  "validationLog": [
+    {
+      "checkpoint": "V541-THU-biweekly-seated-dumbbell-overhead-shoulder-press-PAIR-COMPLETE",
+      "movementId": "biweekly-seated-dumbbell-overhead-shoulder-press",
+      "status": "technical-and-semantic-pass"
+    }
+  ]
 }

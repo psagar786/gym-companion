@@ -19,3 +19,12 @@
 - Approved Tuesday reuse: 0
 - New generation queue: 24 pairs / 48 files
 - Six exact Monday V3 reuse mappings remain outside new generation.
+
+## Pair checkpoint — Seated Dumbbell Overhead Shoulder Press
+
+- Start: `assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, bench, and dumbbells visible).
+- Semantic AI review: pass (male athlete, seated dumbbell press mechanics, shoulder-height-to-overhead phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `biweekly-close-grip-v-bar-lat-pulldown`.
