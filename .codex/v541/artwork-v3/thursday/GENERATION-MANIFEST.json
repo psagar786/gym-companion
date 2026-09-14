@@ -669,7 +669,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-movement.png"
@@ -680,9 +683,27 @@
         "start": "Fitness 7 illustration: Incline DB Prone Row starting position",
         "movement": "Fitness 7 illustration: Incline DB Prone Row working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "8d1a4421e387191aea4d13e48d48822d0ad79c3b1efbef2423592aea1562221e"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "7a6c6da611b96b39ba850db74e0d662c8a674b61e12fc02952ed80302fcf03ff"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete chest-supported on incline bench; arms-hanging Start and elbows-back Movement positions clearly differ."
+      }
     },
     {
       "order": 14,

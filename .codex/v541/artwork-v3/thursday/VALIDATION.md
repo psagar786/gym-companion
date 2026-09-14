@@ -135,3 +135,12 @@
 - Semantic AI review: pass (male athlete, single-arm pulldown mechanics, overhead-to-elbow-at-hip phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-incline-db-prone-row`.
+
+## Pair checkpoint — Incline DB Prone Row
+
+- Start: `assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, bench, and dumbbells visible).
+- Semantic AI review: pass (male athlete, chest-supported row mechanics, arms-down-to-elbows-back phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-standing-cable-crossover`.
