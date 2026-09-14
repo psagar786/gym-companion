@@ -21,7 +21,7 @@
   "completedMovementIds": [
     "biweekly-seated-dumbbell-overhead-shoulder-press"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "5251875",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
