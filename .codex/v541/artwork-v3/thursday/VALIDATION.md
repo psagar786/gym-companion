@@ -144,3 +144,12 @@
 - Semantic AI review: pass (male athlete, chest-supported row mechanics, arms-down-to-elbows-back phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-standing-cable-crossover`.
+
+## Pair checkpoint — Standing Cable Crossover
+
+- Start: `assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, handles, cables, and columns visible).
+- Semantic AI review: pass (male athlete, standing crossover mechanics, wide-start to crossed-handle phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-dumbbell-incline-fly`.

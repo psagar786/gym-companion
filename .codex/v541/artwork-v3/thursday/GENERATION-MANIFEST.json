@@ -723,7 +723,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-movement.png"
@@ -734,9 +737,27 @@
         "start": "Fitness 7 illustration: Standing Cable Crossover starting position",
         "movement": "Fitness 7 illustration: Standing Cable Crossover working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "fa02f70d5ae21f42b1312afdc9a19f6b64b1057169cf7dcf3492b1901c679c8a"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "5c8aa88b160fb35669e3c257b7d5abe3fe32d26a98f3189e9fd85813dd1bc789"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete between dual cable columns; arms-open Start and crossed-handle Movement positions clearly differ."
+      }
     },
     {
       "order": 15,
