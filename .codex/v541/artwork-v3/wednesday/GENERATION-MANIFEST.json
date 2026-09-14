@@ -933,7 +933,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.png"
@@ -944,9 +947,27 @@
         "start": "Fitness 7 illustration: Reverse Lunges starting position",
         "movement": "Fitness 7 illustration: Reverse Lunges working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "3b9513a19167690b06a6e4f4e72aae6179c4b0a7fb13b1abdf8bf6cd8ae4d420"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "8e7063ea9ec144d712f7f9182e688ec45696cf07a2c6dfefa999661be9fabb45"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete; optional dumbbells and controlled reverse-lunge position are clearly shown; Start and Movement differ."
+      }
     },
     {
       "order": 19,

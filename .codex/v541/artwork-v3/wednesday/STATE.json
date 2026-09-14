@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-WED-periodized-step-ups-on-bench-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-WED-periodized-reverse-lunges-PAIR-COMPLETE",
   "totalListedRecords": 25,
   "physicalRecords": 24,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 17,
-  "completedFiles": 34,
+  "completedSets": 18,
+  "completedFiles": 36,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-hip-adductor-machine",
@@ -35,14 +35,15 @@
     "periodized-bodyweight-box-squat",
     "periodized-dumbbell-lying-leg-curl",
     "periodized-deficit-bulgarian-split-squat",
-    "periodized-step-ups-on-bench"
+    "periodized-step-ups-on-bench",
+    "periodized-reverse-lunges"
   ],
-  "lastCompletedCommit": "ef997c4",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-reverse-lunges",
+  "nextAtomicAction": "Generate Start for biweekly-stick-overhead-deep-squat-prys",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -233,6 +234,18 @@
         "width": 512,
         "height": 512,
         "sha256": "d90c65b61b746f8543c350f12094f70e3e83a3b581f5f32e01be8410a81c5bab"
+      }
+    },
+    "periodized-reverse-lunges": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "3b9513a19167690b06a6e4f4e72aae6179c4b0a7fb13b1abdf8bf6cd8ae4d420"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "8e7063ea9ec144d712f7f9182e688ec45696cf07a2c6dfefa999661be9fabb45"
       }
     }
   },
@@ -576,6 +589,26 @@
           "sha256": "d90c65b61b746f8543c350f12094f70e3e83a3b581f5f32e01be8410a81c5bab"
         }
       }
+    },
+    "periodized-reverse-lunges": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "3b9513a19167690b06a6e4f4e72aae6179c4b0a7fb13b1abdf8bf6cd8ae4d420"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "8e7063ea9ec144d712f7f9182e688ec45696cf07a2c6dfefa999661be9fabb45"
+        }
+      }
     }
   },
   "validationLog": [
@@ -707,6 +740,14 @@
       "semantic": "ai-review-pass",
       "humanCoach": "pending",
       "repair": "start-regenerated-after-initial-phase-rejection"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-reverse-lunges-PAIR-COMPLETE",
+      "movementId": "periodized-reverse-lunges",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
     }
   ],
   "currentMovementId": null,

@@ -157,3 +157,13 @@
 - Human gym-coach review: pending
 - Repair note: Initial Start was rejected because it depicted the working position; regenerated with stable pre-step setup.
 - Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
+
+## Pair checkpoint: V541-WED-periodized-reverse-lunges-PAIR-COMPLETE
+
+- Movement: Reverse Lunges (`periodized-reverse-lunges`)
+- Start: `assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete; optional dumbbells; tall Start and controlled reverse-lunge Movement are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
