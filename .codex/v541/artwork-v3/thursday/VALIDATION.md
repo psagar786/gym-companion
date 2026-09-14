@@ -91,3 +91,12 @@
 - Semantic AI review: pass (male athlete, Arnold press mechanics, palms-in shoulder start and rotated overhead working phase distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-standing-barbell-overhead-press`.
+
+## Pair checkpoint — Standing Barbell Overhead Press
+
+- Start: `assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, barbell, and rack visible).
+- Semantic AI review: pass (male athlete, strict barbell press mechanics, clavicle-height-to-overhead phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-underhand-lat-pulldown`.

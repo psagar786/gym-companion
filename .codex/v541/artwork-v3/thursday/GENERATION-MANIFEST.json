@@ -453,7 +453,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-movement.png"
@@ -464,9 +467,27 @@
         "start": "Fitness 7 illustration: Standing Barbell Overhead Press starting position",
         "movement": "Fitness 7 illustration: Standing Barbell Overhead Press working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "ebfd4841f0009de50e2007cab6495d6acbaf1f978aee97de77935a9331c4c614"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "91ec757b534e46759ed8656108589ed422c73c8487f05a241017d6c19532f537"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete in rack; bar at clavicle Start and overhead Movement positions clearly differ."
+      }
     },
     {
       "order": 10,
