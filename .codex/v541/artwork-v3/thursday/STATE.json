@@ -30,7 +30,7 @@
     "periodized-standing-barbell-overhead-press",
     "periodized-underhand-lat-pulldown"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "2ddc1bf",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
