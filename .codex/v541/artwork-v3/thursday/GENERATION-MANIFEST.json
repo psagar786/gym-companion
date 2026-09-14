@@ -399,7 +399,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-arnold-press-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-arnold-press-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-arnold-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-arnold-press-v3-movement.png"
@@ -410,9 +413,27 @@
         "start": "Fitness 7 illustration: Arnold Press starting position",
         "movement": "Fitness 7 illustration: Arnold Press working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "91ab2c3363cf57abb01decd9baee240e7c12a48b12320770905349e32e8fde42"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "8a35ba5926c919c1858b9d907368ed18c7888f8a91b7afd7243c1691b75a2010"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete seated; dumbbells at shoulders Start and overhead with rotated palms Movement positions clearly differ."
+      }
     },
     {
       "order": 9,
