@@ -34,7 +34,12 @@
   "lastCompletedCommit": "ed1f004",
   "knownIssues": [
     "Reuse is not approved by name alone.",
-    "Technical and AI semantic review are not qualified gym-coach approval."
+    "Technical and AI semantic review are not qualified gym-coach approval.",
+    {
+      "type": "image-generation-limit",
+      "movementId": "periodized-single-arm-cable-pulldown",
+      "detail": "Built-in image generation returned HTTP 429 usage_limit_reached before output was created. Resume this single Start phase after reset."
+    }
   ],
   "nextAtomicAction": "Generate Start for periodized-single-arm-cable-pulldown",
   "queueFrozen": true,
@@ -50,8 +55,8 @@
   "newGenerationFiles": 48,
   "remainingSets": 13,
   "remainingFiles": 26,
-  "currentMovementId": null,
-  "currentPhase": null,
+  "currentMovementId": "periodized-single-arm-cable-pulldown",
+  "currentPhase": "start",
   "outputHashes": {
     "biweekly-seated-dumbbell-overhead-shoulder-press": {
       "start": {

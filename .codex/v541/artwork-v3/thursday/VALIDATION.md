@@ -118,3 +118,11 @@
 - Semantic AI review: pass (male athlete, supinated chin-up mechanics, dead-hang-to-elevated phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-single-arm-cable-pulldown`.
+
+## Pause checkpoint — Image generation limit
+
+- Completed Thursday pairs: 11/24 (22/48 files).
+- Current movement: `periodized-single-arm-cable-pulldown`.
+- Current phase: Start (no output generated).
+- Cause: built-in image generation returned HTTP 429 `usage_limit_reached`.
+- Resume action: Generate Start for `periodized-single-arm-cable-pulldown`; do not regenerate completed pairs.
