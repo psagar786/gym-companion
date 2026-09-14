@@ -129,7 +129,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-movement.png"
@@ -140,9 +143,27 @@
         "start": "Fitness 7 illustration: Seated Wide-Grip Cable Row starting position",
         "movement": "Fitness 7 illustration: Seated Wide-Grip Cable Row working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "63376ab61f2232db9b5f7e07345e92240fd17414048521a77c559060d2134799"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "1d3be733ca3e8cc1fa29657f0fc31aee4121c8d6eb0d6cdc0be4e83bba6a0345"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete at low cable row; arms-extended Start and elbows-back Movement positions clearly differ."
+      }
     },
     {
       "order": 4,

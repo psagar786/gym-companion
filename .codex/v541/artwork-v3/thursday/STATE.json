@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-THU-biweekly-close-grip-v-bar-lat-pulldown-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-THU-biweekly-seated-wide-grip-cable-row-PAIR-COMPLETE",
   "totalListedRecords": 30,
   "physicalRecords": 30,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,19 +15,20 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 2,
-  "completedFiles": 4,
+  "completedSets": 3,
+  "completedFiles": 6,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-dumbbell-overhead-shoulder-press",
-    "biweekly-close-grip-v-bar-lat-pulldown"
+    "biweekly-close-grip-v-bar-lat-pulldown",
+    "biweekly-seated-wide-grip-cable-row"
   ],
-  "lastCompletedCommit": "fe83b65",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for biweekly-seated-wide-grip-cable-row",
+  "nextAtomicAction": "Generate Start for periodized-cable-fly",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -39,8 +40,8 @@
   },
   "newGenerationSets": 24,
   "newGenerationFiles": 48,
-  "remainingSets": 22,
-  "remainingFiles": 44,
+  "remainingSets": 21,
+  "remainingFiles": 42,
   "currentMovementId": null,
   "currentPhase": null,
   "outputHashes": {
@@ -67,6 +68,18 @@
         "height": 512,
         "sha256": "32200251ec2db48e1e59062f3006a935028f28010fcf80bf0f01deb695a2e0fa"
       }
+    },
+    "biweekly-seated-wide-grip-cable-row": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "63376ab61f2232db9b5f7e07345e92240fd17414048521a77c559060d2134799"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "1d3be733ca3e8cc1fa29657f0fc31aee4121c8d6eb0d6cdc0be4e83bba6a0345"
+      }
     }
   },
   "validationResults": {
@@ -76,6 +89,11 @@
       "humanCoach": "pending"
     },
     "biweekly-close-grip-v-bar-lat-pulldown": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "biweekly-seated-wide-grip-cable-row": {
       "technical": "pass",
       "semantic": "ai-review-pass",
       "humanCoach": "pending"
@@ -90,6 +108,11 @@
     {
       "checkpoint": "V541-THU-biweekly-close-grip-v-bar-lat-pulldown-PAIR-COMPLETE",
       "movementId": "biweekly-close-grip-v-bar-lat-pulldown",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-biweekly-seated-wide-grip-cable-row-PAIR-COMPLETE",
+      "movementId": "biweekly-seated-wide-grip-cable-row",
       "status": "technical-and-semantic-pass"
     }
   ]

@@ -37,3 +37,12 @@
 - Semantic AI review: pass (male athlete, close-neutral pulldown mechanics, overhead-to-chest phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `biweekly-seated-wide-grip-cable-row`.
+
+## Pair checkpoint — Seated Wide-Grip Cable Row
+
+- Start: `assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, bar, cable, foot platform, and machine visible).
+- Semantic AI review: pass (male athlete, wide-grip seated row mechanics, arms-extended-to-retracted phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-cable-fly`.
