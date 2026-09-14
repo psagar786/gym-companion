@@ -1257,7 +1257,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-movement.png"
@@ -1268,9 +1271,27 @@
         "start": "Fitness 7 illustration: Hamstring Stretch starting position",
         "movement": "Fitness 7 illustration: Hamstring Stretch working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "7739e3d60e084885bd1ac703009970b1d7035c9ab3ba546f811aa3e7935522fd"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "419559c087350a32df6992affd0a1fe4c7c849a807b003ec3321b8e73adda950"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete on mat; upright seated start and controlled forward hinge movement are clearly distinct."
+      }
     }
   ],
   "excluded": [
