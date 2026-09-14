@@ -1,7 +1,12 @@
 {
-  "status": "prepared-before-deployment",
+  "status": "prepared-before-production",
   "previousSourceCommit": "aa5039dc42a3042bd58aff6f6eb4700866eea6ea",
   "previousProductionDeployment": null,
+  "previewDeployment": {
+    "id": "dpl_6SHFjtLuyqGs7K3Y5K8gAHvFJ2hu",
+    "url": "https://fitness7-gym-companion-member-72mkdl6ab-sagar-pm.vercel.app",
+    "commit": "9710adf"
+  },
   "previousProductionUrl": null,
   "releasePreviewUrl": null,
   "releaseProductionUrl": null,

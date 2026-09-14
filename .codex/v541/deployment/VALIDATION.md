@@ -39,3 +39,14 @@
 - Periodized validator retained its existing 26 equipment-review warnings; no movement was silently approved.
 
 Next action: commit the verified V5.4.1 source-ready release.
+
+## V541-DEPLOY-04-PREVIEW-VERIFIED
+
+- Preview: `https://fitness7-gym-companion-member-72mkdl6ab-sagar-pm.vercel.app`
+- Deployment ID: `dpl_6SHFjtLuyqGs7K3Y5K8gAHvFJ2hu`
+- Ready state: READY.
+- `/api/config`: member mode with demo mode enabled; no privileged key surfaced.
+- Browser smoke: demo sign-in, clean Home, Monday V3 artwork, and pending Friday behavior passed.
+- Pending Friday cards made zero periodized artwork requests and displayed `Coming soon`.
+
+Next action: open a pull request from `codex/v541-release` to `main`.
