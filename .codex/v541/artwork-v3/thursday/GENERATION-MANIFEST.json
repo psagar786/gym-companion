@@ -183,7 +183,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-fly-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-fly-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-cable-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cable-fly-v3-movement.png"
@@ -194,9 +197,27 @@
         "start": "Fitness 7 illustration: Cable Fly starting position",
         "movement": "Fitness 7 illustration: Cable Fly working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "b7391066e78a6d092d99e93f7fa0747fb28e70ae374f3f1e8c10e1b8904cd7ac"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "9bb76a0811c1c41e4ab23d9289ac333ace7573448b32f6aca4a8f68cf991cdeb"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete, standing dual-cable fly; wide-arm Start and handles-together Movement positions clearly differ."
+      }
     },
     {
       "order": 5,

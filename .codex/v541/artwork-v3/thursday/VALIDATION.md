@@ -46,3 +46,12 @@
 - Semantic AI review: pass (male athlete, wide-grip seated row mechanics, arms-extended-to-retracted phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-cable-fly`.
+
+## Pair checkpoint — Cable Fly
+
+- Start: `assets/exercises/periodized-v3/periodized-cable-fly-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-cable-fly-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, handles, cables, and columns visible).
+- Semantic AI review: pass (male athlete, standing cable fly mechanics, arms-open-to-handles-together phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `biweekly-incline-dumbbell-curl`.

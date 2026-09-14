@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-THU-biweekly-seated-wide-grip-cable-row-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-THU-periodized-cable-fly-PAIR-COMPLETE",
   "totalListedRecords": 30,
   "physicalRecords": 30,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,20 +15,21 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 3,
-  "completedFiles": 6,
+  "completedSets": 4,
+  "completedFiles": 8,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-dumbbell-overhead-shoulder-press",
     "biweekly-close-grip-v-bar-lat-pulldown",
-    "biweekly-seated-wide-grip-cable-row"
+    "biweekly-seated-wide-grip-cable-row",
+    "periodized-cable-fly"
   ],
-  "lastCompletedCommit": "96e2828",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-cable-fly",
+  "nextAtomicAction": "Generate Start for biweekly-incline-dumbbell-curl",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -40,8 +41,8 @@
   },
   "newGenerationSets": 24,
   "newGenerationFiles": 48,
-  "remainingSets": 21,
-  "remainingFiles": 42,
+  "remainingSets": 20,
+  "remainingFiles": 40,
   "currentMovementId": null,
   "currentPhase": null,
   "outputHashes": {
@@ -80,6 +81,18 @@
         "height": 512,
         "sha256": "1d3be733ca3e8cc1fa29657f0fc31aee4121c8d6eb0d6cdc0be4e83bba6a0345"
       }
+    },
+    "periodized-cable-fly": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "b7391066e78a6d092d99e93f7fa0747fb28e70ae374f3f1e8c10e1b8904cd7ac"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "9bb76a0811c1c41e4ab23d9289ac333ace7573448b32f6aca4a8f68cf991cdeb"
+      }
     }
   },
   "validationResults": {
@@ -94,6 +107,11 @@
       "humanCoach": "pending"
     },
     "biweekly-seated-wide-grip-cable-row": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-cable-fly": {
       "technical": "pass",
       "semantic": "ai-review-pass",
       "humanCoach": "pending"
@@ -113,6 +131,11 @@
     {
       "checkpoint": "V541-THU-biweekly-seated-wide-grip-cable-row-PAIR-COMPLETE",
       "movementId": "biweekly-seated-wide-grip-cable-row",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-cable-fly-PAIR-COMPLETE",
+      "movementId": "periodized-cable-fly",
       "status": "technical-and-semantic-pass"
     }
   ]
