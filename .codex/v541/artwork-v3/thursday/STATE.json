@@ -23,7 +23,7 @@
     "biweekly-close-grip-v-bar-lat-pulldown",
     "biweekly-seated-wide-grip-cable-row"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "96e2828",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
