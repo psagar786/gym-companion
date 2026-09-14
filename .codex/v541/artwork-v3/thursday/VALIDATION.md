@@ -55,3 +55,12 @@
 - Semantic AI review: pass (male athlete, standing cable fly mechanics, arms-open-to-handles-together phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `biweekly-incline-dumbbell-curl`.
+
+## Pair checkpoint — Incline Dumbbell Curl
+
+- Start: `assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, bench, and dumbbells visible).
+- Semantic AI review: pass (male athlete, incline curl mechanics, arms-down-to-curl phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-incline-dumbbell-reverse-fly`.

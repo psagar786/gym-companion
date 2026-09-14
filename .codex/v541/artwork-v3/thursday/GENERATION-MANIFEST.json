@@ -237,7 +237,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-movement.png"
@@ -248,9 +251,27 @@
         "start": "Fitness 7 illustration: Incline Dumbbell Curl starting position",
         "movement": "Fitness 7 illustration: Incline Dumbbell Curl working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "0b50d116f20dcea3cf28d2b9e28eef2cca0085fc6698936333ca7e71383040c7"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "2a9dbf2c801199ac79592247cc91442dcccb05de808711ab0d060609f42ff47c"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete on incline bench; arms hanging Start and fully curled Movement positions visibly differ."
+      }
     },
     {
       "order": 6,
