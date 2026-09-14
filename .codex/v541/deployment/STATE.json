@@ -29,5 +29,5 @@
     "Current app contains historical artwork namespaces that must not be deleted before active-asset mapping."
   ],
   "lastCommit": "d66f5be",
-  "nextAtomicAction": "Run final release smoke checks and confirm the retained-version links"
+  "nextAtomicAction": "Await member review; future changes should branch from main and open a pull request"
 }

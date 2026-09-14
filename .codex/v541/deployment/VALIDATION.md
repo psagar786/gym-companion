@@ -70,3 +70,10 @@ Next action: open a pull request from `codex/v541-release` to `main`.
 - Local backup restore hash check remains PASS. No local source or historical asset was deleted.
 
 Next action: run final release smoke checks and confirm the retained-version links.
+
+## Final smoke confirmation
+
+- V5 retained URL: HTTP 200.
+- V5.2 retained URL: HTTP 200.
+- V5.4.1 production URL: HTTP 200.
+- Final checkpoint: `V541-DEPLOY-06-VERSIONS-CONSOLIDATED`.
