@@ -879,7 +879,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png"
@@ -890,9 +893,27 @@
         "start": "Fitness 7 illustration: Step-Ups on Bench starting position",
         "movement": "Fitness 7 illustration: Step-Ups on Bench working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a0d1d9a1a7320aff2db90d48f2eea06e7e90b7fb2cae15e9e388828ca9e6feb1"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d90c65b61b746f8543c350f12094f70e3e83a3b581f5f32e01be8410a81c5bab"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Initial Start rejected and regenerated; final pair shows both-feet floor setup and one-foot-on-bench working step-up with male athlete."
+      }
     },
     {
       "order": 18,

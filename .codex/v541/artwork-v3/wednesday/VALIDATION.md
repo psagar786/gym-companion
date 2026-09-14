@@ -146,3 +146,14 @@
 - Semantic: AI-assisted review pass (male athlete; dumbbells, front platform and rear bench visible; upright and lowered split-squat phases distinct)
 - Human gym-coach review: pending
 - Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
+
+## Pair checkpoint: V541-WED-periodized-step-ups-on-bench-PAIR-COMPLETE
+
+- Movement: Step-Ups on Bench (`periodized-step-ups-on-bench`)
+- Start: `assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass after repair (final Start shows both feet on floor; Movement shows one-foot-on-bench step-up with knee drive)
+- Human gym-coach review: pending
+- Repair note: Initial Start was rejected because it depicted the working position; regenerated with stable pre-step setup.
+- Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
