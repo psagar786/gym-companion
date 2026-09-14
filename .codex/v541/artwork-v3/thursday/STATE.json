@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-THU-periodized-standing-cable-crossover-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-THU-periodized-dumbbell-incline-fly-PAIR-COMPLETE",
   "totalListedRecords": 30,
   "physicalRecords": 30,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 14,
-  "completedFiles": 28,
+  "completedSets": 15,
+  "completedFiles": 30,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-dumbbell-overhead-shoulder-press",
@@ -32,9 +32,10 @@
     "periodized-chin-ups",
     "periodized-single-arm-cable-pulldown",
     "periodized-incline-db-prone-row",
-    "periodized-standing-cable-crossover"
+    "periodized-standing-cable-crossover",
+    "periodized-dumbbell-incline-fly"
   ],
-  "lastCompletedCommit": "3472002",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval.",
@@ -44,7 +45,7 @@
       "detail": "Built-in image generation returned HTTP 429 usage_limit_reached before output was created. Resume this single Start phase after reset."
     }
   ],
-  "nextAtomicAction": "Generate Start for periodized-dumbbell-incline-fly",
+  "nextAtomicAction": "Generate Start for periodized-rope-tricep-pressdown",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -56,8 +57,8 @@
   },
   "newGenerationSets": 24,
   "newGenerationFiles": 48,
-  "remainingSets": 10,
-  "remainingFiles": 20,
+  "remainingSets": 9,
+  "remainingFiles": 18,
   "currentMovementId": null,
   "currentPhase": null,
   "outputHashes": {
@@ -228,6 +229,18 @@
         "height": 512,
         "sha256": "5c8aa88b160fb35669e3c257b7d5abe3fe32d26a98f3189e9fd85813dd1bc789"
       }
+    },
+    "periodized-dumbbell-incline-fly": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "741de6935dcf646f2ce94440671dac8560e68502828d456f55ace9ab1ba6eb19"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "aa0a44668bbd5c2cddc62ceba183884289907c3c51716cfb2223e408ba3cb90d"
+      }
     }
   },
   "validationResults": {
@@ -297,6 +310,11 @@
       "humanCoach": "pending"
     },
     "periodized-standing-cable-crossover": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-dumbbell-incline-fly": {
       "technical": "pass",
       "semantic": "ai-review-pass",
       "humanCoach": "pending"
@@ -371,6 +389,11 @@
     {
       "checkpoint": "V541-THU-periodized-standing-cable-crossover-PAIR-COMPLETE",
       "movementId": "periodized-standing-cable-crossover",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-dumbbell-incline-fly-PAIR-COMPLETE",
+      "movementId": "periodized-dumbbell-incline-fly",
       "status": "technical-and-semantic-pass"
     }
   ]

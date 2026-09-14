@@ -153,3 +153,12 @@
 - Semantic AI review: pass (male athlete, standing crossover mechanics, wide-start to crossed-handle phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-dumbbell-incline-fly`.
+
+## Pair checkpoint — Dumbbell Incline Fly
+
+- Start: `assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, bench, and dumbbells visible).
+- Semantic AI review: pass (male athlete, incline fly mechanics, dumbbells-together Start and arms-open Movement positions distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-rope-tricep-pressdown`.

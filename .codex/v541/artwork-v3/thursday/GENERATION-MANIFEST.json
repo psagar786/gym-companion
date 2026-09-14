@@ -777,7 +777,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-movement.png"
@@ -788,9 +791,27 @@
         "start": "Fitness 7 illustration: Dumbbell Incline Fly starting position",
         "movement": "Fitness 7 illustration: Dumbbell Incline Fly working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "741de6935dcf646f2ce94440671dac8560e68502828d456f55ace9ab1ba6eb19"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "aa0a44668bbd5c2cddc62ceba183884289907c3c51716cfb2223e408ba3cb90d"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete on incline bench; dumbbells together above chest Start and arms-open Movement positions clearly differ."
+      }
     },
     {
       "order": 16,
