@@ -59,8 +59,8 @@
     "biweekly-stick-overhead-side-stretch"
   ],
   "lastCompletedCommit": "9f88858",
-  "currentCheckpoint": "V541-TUE-ART-LOCAL-REVIEW",
-  "nextAtomicAction": "Review Tuesday Week C in the browser, then collect any requested repair notes",
+  "currentCheckpoint": "V541-TUE-RUNTIME-MAPPED",
+  "nextAtomicAction": "Start the local Tuesday A/B/C browser review",
   "remainingSets": 0,
   "remainingFiles": 0,
   "validation": {

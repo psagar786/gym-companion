@@ -1,0 +1,41 @@
+# V5.4.1 local-first deployment validation
+
+## V541-DEPLOY-00-BACKUP
+
+- Source checkout: `gym-companion-v541-art-integration`
+- Source branch preserved: `codex/v541-v2-art-integration`
+- Release branch: `codex/v541-release`
+- Source commit: `aa5039dc42a3042bd58aff6f6eb4700866eea6ea`
+- Local backup: `/Users/exxxy/Documents/Daily AI Help/fitness7-backups/v5.4.1-pre-deploy-2026-09-14/`
+- Backed-up source files: 1,704
+- Backup hash verification: PASS
+- Thursday artwork: 15/24 new pairs complete; 9 pairs remain pending
+- Vercel inventory: pending authenticated CLI access
+
+## V541-DEPLOY-01-ACTIVE-ASSETS
+
+- Active runtime asset manifest: `.codex/v541/deployment/ACTIVE-ASSET-MANIFEST.json`
+- Active files: 272 PNG files / 136 pairs
+- Active bytes before optional WebP optimization: 91,382,384
+- Deploy scope: `assets/exercises/periodized-v3/**` plus the Fitness 7 logo
+- Excluded: `.codex`, batches, reports, outputs, backups, and historical exercise namespaces
+- Wednesday/Thursday day registry: 58 + 62 records, with explicit pending records blocking unrelated fallback art
+- Day artwork validator: PASS for all mapped Wednesday/Thursday runtime records
+- Thursday pending artwork remains explicit: 9 generation pairs are not active
+
+## V541-DEPLOY-02-SOURCE-READY
+
+- Day-aware V3 artwork registry is loaded before the member app and is authoritative for Monday through Saturday.
+- Explicit pending records no longer fall through to legacy, V2, or unrelated artwork.
+- Internal artwork review banners are suppressed on normal member workouts and remain available only with an explicit `qa` query.
+- `Coming soon` is shown for incomplete artwork instead of an unrelated image.
+
+## V541-DEPLOY-03-LOCAL-VERIFIED
+
+- Preview checked at `http://localhost:4178` from the release workspace (port 4175 was already occupied by another local process).
+- Demo sign-in, clean Home, Monday, Tuesday, Wednesday, Thursday, and pending Friday card behavior passed.
+- Monday, Wednesday, and completed Thursday V3 artwork paths resolved; Tuesday V3 paths resolved; pending day records showed no image requests.
+- Syntax, day-artwork, periodized routine, member-release, and Tuesday-runtime validators passed.
+- Periodized validator retained its existing 26 equipment-review warnings; no movement was silently approved.
+
+Next action: commit the verified V5.4.1 source-ready release.

@@ -1,0 +1,13 @@
+{
+  "status": "prepared-before-deployment",
+  "previousSourceCommit": "aa5039dc42a3042bd58aff6f6eb4700866eea6ea",
+  "previousProductionDeployment": null,
+  "previousProductionUrl": null,
+  "releasePreviewUrl": null,
+  "releaseProductionUrl": null,
+  "rollbackCommand": "vercel rollback <deployment-id>",
+  "notes": [
+    "Populate Vercel deployment fields only after authenticated project inventory.",
+    "Rollback must restore deployment state without altering member data."
+  ]
+}

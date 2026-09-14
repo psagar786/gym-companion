@@ -80,3 +80,15 @@ Audit frozen. No Tuesday assets have been generated or integrated.
 - Monday V3 assets remain unchanged.
 - Tendon artwork remains deferred as requested.
 - Human gym-coach approval remains a separate pending step.
+
+## Runtime mapping validation (2026-09-14T13:01:16.450Z)
+
+- Tuesday A/B/C tiers checked: 3 weeks × 3 tiers
+- Explicit runtime mappings resolved: 50
+- Status: **PASS**
+
+## Runtime mapping validation (2026-09-14T13:04:11.665Z)
+
+- Tuesday A/B/C tiers checked: 3 weeks × 3 tiers
+- Explicit runtime mappings resolved: 50
+- Status: **PASS**

@@ -20,6 +20,7 @@ const periodized = window.GYM_COMPANION_PERIODIZED_ABC || { key:'periodized-abc'
 const periodizedArtwork = window.GYM_COMPANION_PERIODIZED_ARTWORK || { movements:{} };
 const periodizedV3MondayArtwork = window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK || { movements:{} };
 const periodizedV3TuesdayArtwork = window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK || { movements:{}, runtimeMap:{} };
+const periodizedV3DayArtwork = window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK || { days:{} };
 const periodizedV2Pilot = window.GYM_COMPANION_PERIODIZED_V2_PILOT || { movements:{}, targetSets:43, completedSets:0 };
 const app = document.querySelector('#app');
 const RELEASE_VERSION = '5.4.1';
@@ -34,7 +35,7 @@ function previewImage(item) {
 function imageMarkup(item, className='visual') {
   const path=previewImage(item), name=item?.title||item?.name||'Exercise';
   const alt=item?.alt_text||item?.alt||`Fitness 7 illustration: ${name}`;
-  const status=item?.artworkStatus==='pending' ? 'Artwork in production' : 'Artwork pending';
+  const status=item?.artworkStatus==='pending' ? 'Coming soon' : 'Artwork pending';
   const encodedPath=escapeHtml(path);
   return `<span class="${className} image-frame ${path?'has-image':'no-image'}" data-image-path="${encodedPath}" role="img" aria-label="${escapeHtml(alt)}" title="${escapeHtml(path||'No artwork path configured')}">${path?`<img src="${encodedPath}" alt="${escapeHtml(alt)}" loading="lazy" onload="this.parentElement.classList.add('asset-loaded')" onerror="window.fitness7ImageError(this)">`:''}<span class="asset-placeholder-label">${status}</span></span>`;
 }
@@ -139,9 +140,26 @@ function biweeklyRegistryRecord(item) {
       }
     }
     if (dayIndex===0) {
-      const mondayV3=periodizedV3MondayArtwork.movements?.[runtimeId];
+      const mondayV3=periodizedV3MondayArtwork.movements?.[runtimeId]
+        || periodizedV3MondayArtwork.movements?.[item?.stableMovementId]
+        || Object.values(periodizedV3MondayArtwork.movements||{}).find(record => slugify(record.name)===slugify(name));
       if (mondayV3) return mondayV3;
+      return { stableMovementId: runtimeId, name, artworkStatus: 'pending', imageSet: {} };
     }
+    if (dayIndex===1 && !periodizedV3TuesdayArtwork.runtimeMap?.[runtimeId] && !periodizedV3TuesdayArtwork.runtimeMap?.[item?.stableMovementId] && !periodizedV3TuesdayArtwork.runtimeMap?.[`periodized-${slug}`]) {
+      return { stableMovementId: runtimeId, name, artworkStatus: 'pending', imageSet: {} };
+    }
+    const dayName = ['Wednesday','Thursday','Friday','Saturday'][dayIndex-2];
+    const dayArtwork = dayName ? periodizedV3DayArtwork.days?.[dayName] : null;
+    if (dayArtwork) {
+      const mapping = dayArtwork.runtimeMap?.[runtimeId] || dayArtwork.runtimeMap?.[item?.stableMovementId] || dayArtwork.runtimeMap?.[`periodized-${slug}`];
+      const record = mapping?.canonicalMovementId ? dayArtwork.movements?.[mapping.canonicalMovementId] : dayArtwork.movements?.[runtimeId];
+      if (record) return record;
+    }
+    // Periodized artwork is day-scoped. If a day registry record is absent,
+    // stop here with an explicit pending state instead of falling through to
+    // V2/legacy artwork that may depict a different movement.
+    if (dayIndex>=2 && dayIndex<=5) return { stableMovementId: runtimeId, name, artworkStatus: 'pending', imageSet: {} };
   }
   const v2=v2ArtworkRecord(item);
   if (v2) return v2;
@@ -152,13 +170,17 @@ function biweeklyRegistryRecord(item) {
 function biweeklyItem(item) {
   if(!item)return null;
   const registry=biweeklyRegistryRecord(item);
-  const imageSet=registry?.imageSet||item.imageSet||{};
+  // A day-aware registry record is authoritative. In particular, an explicit
+  // pending record must not fall through to a legacy image from the source
+  // row, which could show another movement's artwork.
+  const hasRegistry=Boolean(registry);
+  const imageSet=hasRegistry?(registry.imageSet||{}):(item.imageSet||{});
   const exercise={
     id:item.id,
     stableMovementId:registry?.stableMovementId||item.stableMovementId||slugify(item.name),
     slug:slugify(item.name),
     name:item.name,
-    image_path:imageSet.movement||imageSet.move||imageSet.start||imageSet.setup||item.image,
+    image_path:imageSet.movement||imageSet.move||imageSet.start||imageSet.setup||(hasRegistry?null:item.image),
     imageSet,
     alt_text:registry?.altStart||registry?.alt||item.alt_text||`Fitness 7 illustration: ${item.name}`,
     target_muscles:(item.targetGroups||registry?.targetGroups||[]).join(' + ')||'',
@@ -489,7 +511,10 @@ function renderWorkout() {
   const reviewCopy=state.dayIndex===0&&effectiveTemplateKey()==='periodized-abc'
     ? 'Monday’s periodized-v3 Start and Movement artwork is loaded in this local preview. Semantic review remains open before wider rollout.'
     : 'Week cards use only exact approved artwork. Artwork still under review remains outside active rollout; no unrelated image is used.';
-  const reviewPreview=biweeklyPreviewMode()?`<aside class="preview-banner artwork-preview-notice"><b>Bi-Weekly review preview</b><span>${escapeHtml(plan.weekKey)} · ${reviewCopy}</span></aside>`:'';
+  // Keep internal artwork/review context out of the normal member workout. It
+  // remains available only when an explicit QA query is present.
+  const qaMode=new URLSearchParams(location.search).get('qa');
+  const reviewPreview=biweeklyPreviewMode()&&qaMode?`<aside class="preview-banner artwork-preview-notice"><b>Bi-Weekly review preview</b><span>${escapeHtml(plan.weekKey)} · ${reviewCopy}</span></aside>`:'';
   app.innerHTML=`<main class="shell">${header()}${banner()}${notice()}${reviewPreview}<button class="link-button" data-screen="home">‹ All days</button><section class="detail-head"><div><p class="eyebrow">${scheduledDate(state.dayIndex).toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long'})}</p><h1>${escapeHtml(snap.focus)}</h1><p>${escapeHtml(tierDefaults[state.preferences.tier]?.label||'Intermediate')} · ${done}/${snap.slots.length} main exercises completed</p></div></section>${outcomeMarkup}${guided('Warm-up',snap.warmup,progress.warmup,'warmup',guidedCandidates('warmup',plan))}${snap.tendon?.length?guided('Tendon preparation',snap.tendon,progress.tendon,'tendon'):''}<section class="section-title"><div><p class="eyebrow">MAIN WORKOUT</p><h2>Your exercises</h2></div></section><section class="workout-list">${snap.slots.map((slot,index)=>renderExercise(slot,index)).join('')}</section><section class="post-main-actions"><button class="button" data-open-extras>＋ Add optional exercise</button><small>Up to two recurring extras for this weekday</small></section>${snap.extras?.length?`<section class="section-title"><div><p class="eyebrow">OPTIONAL EXTRAS</p><h2>Extra work</h2><p class="muted">Tap − to remove a recurring extra.</p></div></section><section class="workout-list">${snap.extras.map((slot,index)=>`${renderExercise(slot,index,true)}<button class="pill extra-remove" data-remove-extra="${index}">− Remove extra</button>`).join('')}</section>`:''}${optional}${guided('Post-workout recovery',snap.recovery,progress.recovery,'recovery',guidedCandidates('recovery',plan))}<section class="utility"><button class="button secondary" data-clear-session="${date}">Clear today’s checkmarks</button></section></main>`;
 }
 function renderDetail() { const item=detailRecord(prescribeExercise(state.detailItem||{})), prescription=item.tierPrescription||tierPrescription(item), review=item.equipmentStatus==='Review before use', steps=(item.detailSteps||[]).slice(0,2), phaseLabels=['Start','Movement']; app.innerHTML=`<main class="shell">${header()}${banner()}<button class="link-button" data-close-detail>‹ Back to workout</button><section class="detail-hero"><p class="eyebrow">EXERCISE GUIDE · ${escapeHtml(tierDefaults[state.preferences.tier]?.label||'Intermediate')}</p><h1>${escapeHtml(item.name)}</h1>${review?'<span class="equipment-review">Review before use</span>':''}</section><section class="dose-card"><span><b>${escapeHtml(prescription.sets||'—')}</b><small>Sets</small></span><span><b>${escapeHtml(prescription.duration||prescription.reps||'—')}</b><small>${prescription.duration?'Hold':'Reps'}</small></span><span><b>${escapeHtml(prescription.rest||'As needed')}</b><small>Rest</small></span></section><section class="detail-steps">${steps.map((step,index)=>`<article class="card detail-step"><div class="detail-phase-image">${imageMarkup({name:item.name,imageSet:{move:step.image},alt:step.alt,artworkStatus:item.artworkStatus},'visual detail-visual')}</div><div><span class="step-label">${index+1}</span><span class="phase-name">${phaseLabels[index]}</span><p>${escapeHtml(step.instruction)}</p></div></article>`).join('')}</section><section class="card detail-copy"><p><b>How to progress</b><br>${escapeHtml(prescription.progression)}</p><p class="safety-line"><b>Safety</b><br>${escapeHtml(item.safetyCue||'Stop for sharp pain, dizziness, or unusual breathlessness.')}</p>${item.videoUrl?`<a class="button secondary video-link" href="${escapeHtml(item.videoUrl)}" target="_blank" rel="noreferrer">Watch demonstration ↗</a>`:''}</section></main>`; }
