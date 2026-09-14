@@ -205,3 +205,12 @@
 - Semantic AI review: pass (male athlete, standing quad stretch mechanics, phase distinction visible).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `biweekly-butterfly-groin-stretch`.
+
+## Pair checkpoint — Butterfly Groin Stretch
+
+- Start: `assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete and mat visible).
+- Semantic AI review: pass (male athlete, butterfly stretch mechanics, upright-to-forward hinge phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `biweekly-hamstring-stretch`.

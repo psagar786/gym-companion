@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-WED-biweekly-stick-quad-stretch-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-WED-biweekly-butterfly-groin-stretch-PAIR-COMPLETE",
   "totalListedRecords": 25,
   "physicalRecords": 24,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 22,
-  "completedFiles": 44,
+  "completedSets": 23,
+  "completedFiles": 46,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-hip-adductor-machine",
@@ -40,14 +40,15 @@
     "biweekly-stick-overhead-deep-squat-prys",
     "biweekly-stick-good-mornings",
     "biweekly-stick-lateral-leg-swings",
-    "biweekly-stick-quad-stretch"
+    "biweekly-stick-quad-stretch",
+    "biweekly-butterfly-groin-stretch"
   ],
-  "lastCompletedCommit": "bd23d8a",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for biweekly-butterfly-groin-stretch",
+  "nextAtomicAction": "Generate Start for biweekly-hamstring-stretch",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -298,6 +299,18 @@
         "width": 512,
         "height": 512,
         "sha256": "c84c1ee46f6c97ce5ed4a11b0c53b3400f1a2ef516f75c51645ac51307305e71"
+      }
+    },
+    "biweekly-butterfly-groin-stretch": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "26a6fe45e7100c89aa190eaa8f22dc87c36eb6312ca83864c650fb56a031f7f3"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "5661443dfc86084f5dad8c2f8710d08ed0504d81794935a899ab1b33febbcab7"
       }
     }
   },
@@ -711,6 +724,11 @@
       "technical": "pass",
       "semantic": "ai-review-pass",
       "humanCoach": "pending"
+    },
+    "biweekly-butterfly-groin-stretch": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
     }
   },
   "validationLog": [
@@ -876,10 +894,15 @@
       "checkpoint": "V541-WED-biweekly-stick-quad-stretch-PAIR-COMPLETE",
       "movementId": "biweekly-stick-quad-stretch",
       "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-butterfly-groin-stretch-PAIR-COMPLETE",
+      "movementId": "biweekly-butterfly-groin-stretch",
+      "status": "technical-and-semantic-pass"
     }
   ],
   "currentMovementId": null,
   "currentPhase": null,
-  "remainingSets": 2,
-  "remainingFiles": 4
+  "remainingSets": 1,
+  "remainingFiles": 2
 }
