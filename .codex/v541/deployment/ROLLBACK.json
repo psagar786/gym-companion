@@ -7,6 +7,12 @@
     "url": "https://fitness7-gym-companion-member-72mkdl6ab-sagar-pm.vercel.app",
     "commit": "9710adf"
   },
+  "productionDeployment": {
+    "id": "dpl_AZ1YNnSXozGJZHk5xjZ2A7gmEapy",
+    "url": "https://fitness7-gym-companion-member-c9nzjub8b-sagar-pm.vercel.app",
+    "alias": "https://fitness7-gym-companion-member.vercel.app",
+    "commit": "1eeda26337ec77bda2e9b89dd7b10511f5100b68"
+  },
   "previousProductionUrl": null,
   "releasePreviewUrl": null,
   "releaseProductionUrl": null,

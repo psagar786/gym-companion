@@ -4,8 +4,8 @@
   "repository": "psagar786/gym-companion",
   "sourceBranch": "codex/v541-v2-art-integration",
   "releaseBranch": "codex/v541-release",
-  "currentCheckpoint": "V541-DEPLOY-04-PREVIEW-VERIFIED",
-  "completedUnits": ["BACKUP", "ACTIVE-ASSET-MANIFEST", "SOURCE-READY", "LOCAL-VERIFIED", "SOURCE-PUSHED", "VERCEL-LINKED", "PREVIEW-CREATED", "PREVIEW-VERIFIED"],
+  "currentCheckpoint": "V541-DEPLOY-06-VERSIONS-CONSOLIDATED",
+  "completedUnits": ["BACKUP", "ACTIVE-ASSET-MANIFEST", "SOURCE-READY", "LOCAL-VERIFIED", "SOURCE-PUSHED", "VERCEL-LINKED", "PREVIEW-CREATED", "PREVIEW-VERIFIED", "PRODUCTION-VERIFIED", "RELEASE-TAGGED", "LEGACY-INVENTORY", "LEGACY-GIT-FROZEN"],
   "failedUnits": [],
   "changedFiles": [".codex/v541/deployment/STATE.json", ".codex/v541/deployment/BACKUP-MANIFEST.json", ".codex/v541/deployment/PROJECT-INVENTORY.md", ".codex/v541/deployment/VALIDATION.md", ".codex/v541/deployment/ROLLBACK.json", ".codex/v541/deployment/ACTIVE-ASSET-MANIFEST.json", "data/periodized-v3-day-artwork.js", "scripts/build-periodized-v3-day-registry.mjs", "scripts/build-v541-active-asset-manifest.mjs", "scripts/validate-v541-day-artwork.mjs", "index.html", "member-app.js", ".vercelignore"],
   "validationResults": {
@@ -17,7 +17,11 @@
     "validators": {"syntax": "pass", "dayArtwork": "pass", "periodized": "pass-with-equipment-review-warnings", "memberRelease": "pass", "tuesdayRuntime": "pass"},
     "githubPush": {"branch": "codex/v541-release", "commit": "415d094", "remote": "psagar786/gym-companion", "status": "pass"},
     "vercelLink": {"team": "sagar-pm", "project": "fitness7-gym-companion-member", "status": "pass"},
-    "preview": {"url": "https://fitness7-gym-companion-member-72mkdl6ab-sagar-pm.vercel.app", "deploymentId": "dpl_6SHFjtLuyqGs7K3Y5K8gAHvFJ2hu", "readyState": "READY", "apiConfig": "member/demo", "browserSmoke": "pass"}
+    "preview": {"url": "https://fitness7-gym-companion-member-72mkdl6ab-sagar-pm.vercel.app", "deploymentId": "dpl_6SHFjtLuyqGs7K3Y5K8gAHvFJ2hu", "readyState": "READY", "apiConfig": "member/demo", "browserSmoke": "pass"},
+    "production": {"url": "https://fitness7-gym-companion-member.vercel.app", "deploymentUrl": "https://fitness7-gym-companion-member-c9nzjub8b-sagar-pm.vercel.app", "deploymentId": "dpl_AZ1YNnSXozGJZHk5xjZ2A7gmEapy", "commit": "1eeda26337ec77bda2e9b89dd7b10511f5100b68", "apiConfig": "member/demo", "browserSmoke": "pass"},
+    "releaseTag": "v5.4.1",
+    "retainedVersions": ["https://gym-companion-member-v5.vercel.app", "https://gym-companion-member-v52.vercel.app", "https://fitness7-gym-companion-member.vercel.app"],
+    "legacyGitHooks": "already-disconnected for all five inventoried projects; existing deployments preserved"
   },
   "knownIssues": [
     "Thursday artwork is incomplete: 15 of 24 new pairs are committed; 9 pairs remain pending.",
@@ -25,5 +29,5 @@
     "Current app contains historical artwork namespaces that must not be deleted before active-asset mapping."
   ],
   "lastCommit": "d66f5be",
-  "nextAtomicAction": "Open a pull request from codex/v541-release to main"
+  "nextAtomicAction": "Run final release smoke checks and confirm the retained-version links"
 }

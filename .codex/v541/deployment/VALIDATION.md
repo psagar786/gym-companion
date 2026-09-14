@@ -50,3 +50,23 @@ Next action: commit the verified V5.4.1 source-ready release.
 - Pending Friday cards made zero periodized artwork requests and displayed `Coming soon`.
 
 Next action: open a pull request from `codex/v541-release` to `main`.
+
+## V541-DEPLOY-05-PRODUCTION-VERIFIED
+
+- Production alias: `https://fitness7-gym-companion-member.vercel.app`
+- Deployment URL: `https://fitness7-gym-companion-member-c9nzjub8b-sagar-pm.vercel.app`
+- Deployment ID: `dpl_AZ1YNnSXozGJZHk5xjZ2A7gmEapy`
+- Main commit: `1eeda26337ec77bda2e9b89dd7b10511f5100b68`
+- `/api/config`: member/demo response verified.
+- Browser smoke: production sign-in, clean Home, Monday V3 artwork, and pending Friday behavior passed.
+- Release tag: `v5.4.1`.
+
+## V541-DEPLOY-06-VERSIONS-CONSOLIDATED
+
+- Retained public versions: V5 (`gym-companion-member-v5.vercel.app`), V5.2 (`gym-companion-member-v52.vercel.app`), and V5.4.1 (`fitness7-gym-companion-member.vercel.app`).
+- Legacy project inventory is recorded with project and deployment IDs.
+- All five inventoried legacy projects reported no connected Git repository when checked; existing production deployments remain online.
+- The release workspace is relinked to `sagar-pm/fitness7-gym-companion-member`.
+- Local backup restore hash check remains PASS. No local source or historical asset was deleted.
+
+Next action: run final release smoke checks and confirm the retained-version links.

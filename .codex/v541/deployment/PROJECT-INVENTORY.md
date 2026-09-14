@@ -17,7 +17,15 @@
 
 ## Legacy projects
 
-Authenticated Vercel inventory is required before changing build settings. Record each project’s project ID, production URL, production deployment ID, production SHA, production branch, and last deployment timestamp. Freeze automatic Git builds first. Do not remove the coach project or any retained public version.
+| Project | Production URL | Latest deployment ID | Action |
+|---|---|---|---|
+| `gym-companion-guided-v2` | `https://gym-companion-guided-v2.vercel.app` | `prj_qyABfPbUWfpcunlrJ42xyQqHaPpO` / `dpl_7kpddVYyaNwBGRnV6AigeY9reaoN` | Freeze Git builds; retain online |
+| `gym-companion` | `https://gym-companion-blush.vercel.app` | `prj_foraxqtwfLh2RfkFrLFoMutB61IY` / `dpl_D4idkVR2vmwoC6uiZgZxxr5vD7uU` | Freeze Git builds; retain online |
+| `gym-companion-member-v3` | `https://gym-companion-member-v3.vercel.app` | `prj_IjblX0ZXpaCL9xgMgW2DAFEpdCCu` / `dpl_7yjB9LPdhLWpya37DJwv75yBnHbb` | Freeze Git builds; retain online |
+| `gym-companion-coach-v3` | `https://gym-companion-coach-v3.vercel.app` | `prj_VXw0YwqJ2HWicXPu72czEpC2KFAt` / `dpl_DF53hCXT5dwpgHqKiWyUKtEHBSV8` | Freeze Git builds; never delete |
+| `gym-companion-member-v4` | `https://gym-companion-member-v4.vercel.app` | `prj_BpEmrRMKtoHAHTzYPegR50HzeQ1t` / `dpl_4mCNxpAAjEQRWN3yo5CBAHzQna3B` | Freeze Git builds; retain online |
+
+Deployment timestamps and project IDs are available from the authenticated Vercel project inventory; no legacy project has been deleted or overwritten. Automatic-build freezing is the next cleanup action and will not affect existing production deployments.
 
 ## Access status
 
