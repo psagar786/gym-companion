@@ -126,3 +126,12 @@
 - Current phase: Start (no output generated).
 - Cause: built-in image generation returned HTTP 429 `usage_limit_reached`.
 - Resume action: Generate Start for `periodized-single-arm-cable-pulldown`; do not regenerate completed pairs.
+
+## Pair checkpoint — Single-Arm Cable Pulldown
+
+- Start: `assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, handle, cable, and machine visible).
+- Semantic AI review: pass (male athlete, single-arm pulldown mechanics, overhead-to-elbow-at-hip phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-incline-db-prone-row`.

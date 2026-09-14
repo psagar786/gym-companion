@@ -615,7 +615,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-movement.png"
@@ -626,9 +629,27 @@
         "start": "Fitness 7 illustration: Single-Arm Cable Pulldown starting position",
         "movement": "Fitness 7 illustration: Single-Arm Cable Pulldown working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "74efea7242d200e02f76e9bb9038be996abe44163765d751c1803e96b06246e2"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "df0aef1d3921276eb42f18ffe69b75048a78044262fe98b4c69578a44190ccba"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete standing at high cable; overhead Start and elbow-to-hip Movement positions clearly differ."
+      }
     },
     {
       "order": 13,
