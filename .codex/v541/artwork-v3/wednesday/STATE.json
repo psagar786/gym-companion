@@ -38,7 +38,7 @@
     "periodized-step-ups-on-bench",
     "periodized-reverse-lunges"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "8406859",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
