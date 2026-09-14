@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-THU-periodized-standing-barbell-overhead-press-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-THU-periodized-underhand-lat-pulldown-PAIR-COMPLETE",
   "totalListedRecords": 30,
   "physicalRecords": 30,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 9,
-  "completedFiles": 18,
+  "completedSets": 10,
+  "completedFiles": 20,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-dumbbell-overhead-shoulder-press",
@@ -27,14 +27,15 @@
     "periodized-incline-dumbbell-reverse-fly",
     "periodized-machine-shoulder-press",
     "periodized-arnold-press",
-    "periodized-standing-barbell-overhead-press"
+    "periodized-standing-barbell-overhead-press",
+    "periodized-underhand-lat-pulldown"
   ],
-  "lastCompletedCommit": "3951dad",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-underhand-lat-pulldown",
+  "nextAtomicAction": "Generate Start for periodized-chin-ups",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -46,8 +47,8 @@
   },
   "newGenerationSets": 24,
   "newGenerationFiles": 48,
-  "remainingSets": 15,
-  "remainingFiles": 30,
+  "remainingSets": 14,
+  "remainingFiles": 28,
   "currentMovementId": null,
   "currentPhase": null,
   "outputHashes": {
@@ -158,6 +159,18 @@
         "height": 512,
         "sha256": "91ec757b534e46759ed8656108589ed422c73c8487f05a241017d6c19532f537"
       }
+    },
+    "periodized-underhand-lat-pulldown": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "0307ba73b25db254915dc997523ce67bf4deee4cf1c846fb1e3a1b51ded45b56"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "3a15fdcfb232972631a760f150f0c38f9fb08849756aeacc074520ac718039ea"
+      }
     }
   },
   "validationResults": {
@@ -202,6 +215,11 @@
       "humanCoach": "pending"
     },
     "periodized-standing-barbell-overhead-press": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-underhand-lat-pulldown": {
       "technical": "pass",
       "semantic": "ai-review-pass",
       "humanCoach": "pending"
@@ -251,6 +269,11 @@
     {
       "checkpoint": "V541-THU-periodized-standing-barbell-overhead-press-PAIR-COMPLETE",
       "movementId": "periodized-standing-barbell-overhead-press",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-underhand-lat-pulldown-PAIR-COMPLETE",
+      "movementId": "periodized-underhand-lat-pulldown",
       "status": "technical-and-semantic-pass"
     }
   ]

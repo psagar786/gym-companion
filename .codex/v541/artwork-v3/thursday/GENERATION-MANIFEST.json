@@ -507,7 +507,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-movement.png"
@@ -518,9 +521,27 @@
         "start": "Fitness 7 illustration: Underhand Lat Pulldown starting position",
         "movement": "Fitness 7 illustration: Underhand Lat Pulldown working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "0307ba73b25db254915dc997523ce67bf4deee4cf1c846fb1e3a1b51ded45b56"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "3a15fdcfb232972631a760f150f0c38f9fb08849756aeacc074520ac718039ea"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete at lat-pulldown station; underhand arms-overhead Start and bar-to-chest Movement positions clearly differ."
+      }
     },
     {
       "order": 11,

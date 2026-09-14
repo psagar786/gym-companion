@@ -100,3 +100,12 @@
 - Semantic AI review: pass (male athlete, strict barbell press mechanics, clavicle-height-to-overhead phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-underhand-lat-pulldown`.
+
+## Pair checkpoint — Underhand Lat Pulldown
+
+- Start: `assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, bar, cable, and machine visible).
+- Semantic AI review: pass (male athlete, underhand pulldown mechanics, overhead-to-chest phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-chin-ups`.
