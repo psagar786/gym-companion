@@ -28,3 +28,12 @@
 - Semantic AI review: pass (male athlete, seated dumbbell press mechanics, shoulder-height-to-overhead phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `biweekly-close-grip-v-bar-lat-pulldown`.
+
+## Pair checkpoint — Close-Grip V-Bar Lat Pulldown
+
+- Start: `assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, cable, V-bar, and machine visible).
+- Semantic AI review: pass (male athlete, close-neutral pulldown mechanics, overhead-to-chest phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `biweekly-seated-wide-grip-cable-row`.

@@ -75,7 +75,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-movement.png"
@@ -86,9 +89,27 @@
         "start": "Fitness 7 illustration: Close-Grip V-Bar Lat Pulldown starting position",
         "movement": "Fitness 7 illustration: Close-Grip V-Bar Lat Pulldown working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "1f6e812809932112b03d3874c4adc591c57be3d33f808a136090e1f0936c93e6"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "32200251ec2db48e1e59062f3006a935028f28010fcf80bf0f01deb695a2e0fa"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete at lat-pulldown station; arms-overhead Start and bar-to-chest Movement positions visibly distinct."
+      }
     },
     {
       "order": 3,
