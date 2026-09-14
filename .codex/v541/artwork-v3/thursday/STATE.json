@@ -28,7 +28,7 @@
     "periodized-machine-shoulder-press",
     "periodized-arnold-press"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "6571834",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
