@@ -21,6 +21,12 @@ Authenticated Vercel inventory is required before changing build settings. Recor
 
 ## Access status
 
-- Local `vercel` executable: not installed.
-- Project linking: pending authenticated Vercel CLI setup.
-- Environment variables: not copied or displayed.
+- Authenticated Vercel CLI account: `psagar786`.
+- Authorized team: `sagar-pm`.
+- Permanent member project: `fitness7-gym-companion-member`.
+- Permanent production URL: `https://fitness7-gym-companion-member.vercel.app`.
+- Project ID: `prj_qbY8V7wbd6Ml53sBKmfwfBGI5buQ`.
+- Existing member-project environment names: `APP_MODE`, `DEMO_MODE`, `MEMBER_APP_URL` (Preview and Production where configured). Values are intentionally not recorded.
+- Service-role variable check: no `SUPABASE_SERVICE_ROLE_KEY` appears in the member-project environment inventory.
+
+Legacy projects remain online for comparison and are not modified in this checkpoint. Their automatic-build settings will be addressed only after the permanent preview and production are verified.
