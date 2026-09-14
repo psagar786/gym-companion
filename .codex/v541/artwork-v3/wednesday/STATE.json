@@ -37,7 +37,7 @@
     "periodized-deficit-bulgarian-split-squat",
     "periodized-step-ups-on-bench"
   ],
-  "lastCompletedCommit": "",
+  "lastCompletedCommit": "ef997c4",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
