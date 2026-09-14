@@ -1041,7 +1041,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png"
@@ -1052,9 +1055,27 @@
         "start": "Fitness 7 illustration: Stick Good Mornings starting position",
         "movement": "Fitness 7 illustration: Stick Good Mornings working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "5d4ba451e98cd37cf8475f5490b0b848512ec60c77c6163bcd91bb1d8aa93009"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "3e356d9753ed45119e5fa6ba877ff18ef45a04c1dea7e8e5dcad372c22936586"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete with stick across upper back; upright Start and controlled neutral hip hinge Movement are visibly distinct."
+      }
     },
     {
       "order": 21,
