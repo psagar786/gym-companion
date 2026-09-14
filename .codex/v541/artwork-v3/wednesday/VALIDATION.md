@@ -187,3 +187,12 @@
 - Semantic: AI-assisted review pass (male athlete with stick across upper back; upright Start and neutral hip-hinge Movement are distinct)
 - Human gym-coach review: pending
 - Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
+
+## Pair checkpoint — Stick Lateral Leg Swings
+
+- Start: `assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete and stick visible).
+- Semantic AI review: pass (male athlete, stick-supported lateral leg swing mechanics, phase distinction visible).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `biweekly-stick-quad-stretch`.

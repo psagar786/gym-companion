@@ -1095,7 +1095,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-movement.png"
@@ -1106,9 +1109,27 @@
         "start": "Fitness 7 illustration: Stick Lateral Leg Swings starting position",
         "movement": "Fitness 7 illustration: Stick Lateral Leg Swings working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "80705f0c93458d2912df76a85450f43b0de16054b2cc624644874088fc665257"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "fd212b318aea9d935182d5b25e64aba84462f8bfa17c0df7276addaeb3fd37e8"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete with vertical stick; stable setup and lateral leg swing working position are visibly distinct."
+      }
     },
     {
       "order": 22,
