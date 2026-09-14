@@ -987,7 +987,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-movement.png"
@@ -998,9 +1001,27 @@
         "start": "Fitness 7 illustration: Stick Overhead Deep Squat Prys starting position",
         "movement": "Fitness 7 illustration: Stick Overhead Deep Squat Prys working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "897695a34c50fc3c9e727dc8ed58fbd63be5dfcad1700531baab556bf753ff29"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "573757541b3ebf472ebfbe65846f4a3315e598710c6c4cedb0d102d21acf9cca"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete with wide-grip stick; standing Start and deep overhead squat Movement are distinct with full stick and body visible."
+      }
     },
     {
       "order": 20,

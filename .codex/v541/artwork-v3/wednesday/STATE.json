@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-WED-periodized-reverse-lunges-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-WED-biweekly-stick-overhead-deep-squat-prys-PAIR-COMPLETE",
   "totalListedRecords": 25,
   "physicalRecords": 24,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 18,
-  "completedFiles": 36,
+  "completedSets": 19,
+  "completedFiles": 38,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-hip-adductor-machine",
@@ -36,14 +36,15 @@
     "periodized-dumbbell-lying-leg-curl",
     "periodized-deficit-bulgarian-split-squat",
     "periodized-step-ups-on-bench",
-    "periodized-reverse-lunges"
+    "periodized-reverse-lunges",
+    "biweekly-stick-overhead-deep-squat-prys"
   ],
-  "lastCompletedCommit": "8406859",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for biweekly-stick-overhead-deep-squat-prys",
+  "nextAtomicAction": "Generate Start for biweekly-stick-good-mornings",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -246,6 +247,18 @@
         "width": 512,
         "height": 512,
         "sha256": "8e7063ea9ec144d712f7f9182e688ec45696cf07a2c6dfefa999661be9fabb45"
+      }
+    },
+    "biweekly-stick-overhead-deep-squat-prys": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "897695a34c50fc3c9e727dc8ed58fbd63be5dfcad1700531baab556bf753ff29"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "573757541b3ebf472ebfbe65846f4a3315e598710c6c4cedb0d102d21acf9cca"
       }
     }
   },
@@ -609,6 +622,26 @@
           "sha256": "8e7063ea9ec144d712f7f9182e688ec45696cf07a2c6dfefa999661be9fabb45"
         }
       }
+    },
+    "biweekly-stick-overhead-deep-squat-prys": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-start.png",
+        "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "897695a34c50fc3c9e727dc8ed58fbd63be5dfcad1700531baab556bf753ff29"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "573757541b3ebf472ebfbe65846f4a3315e598710c6c4cedb0d102d21acf9cca"
+        }
+      }
     }
   },
   "validationLog": [
@@ -744,6 +777,14 @@
     {
       "checkpoint": "V541-WED-periodized-reverse-lunges-PAIR-COMPLETE",
       "movementId": "periodized-reverse-lunges",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-stick-overhead-deep-squat-prys-PAIR-COMPLETE",
+      "movementId": "biweekly-stick-overhead-deep-squat-prys",
       "files": 2,
       "technical": "pass",
       "semantic": "ai-review-pass",

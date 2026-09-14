@@ -167,3 +167,13 @@
 - Semantic: AI-assisted review pass (male athlete; optional dumbbells; tall Start and controlled reverse-lunge Movement are distinct)
 - Human gym-coach review: pending
 - Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
+
+## Pair checkpoint: V541-WED-biweekly-stick-overhead-deep-squat-prys-PAIR-COMPLETE
+
+- Movement: Stick Overhead Deep Squat Pry (`biweekly-stick-overhead-deep-squat-prys`)
+- Start: `assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-movement.png`
+- Technical: pass (PNG, 512×512, distinct SHA-256 hashes)
+- Semantic: AI-assisted review pass (male athlete, wide-grip stick; standing Start and deep overhead squat Movement are distinct)
+- Human gym-coach review: pending
+- Next action: Generate Start for the next queued Wednesday identity from `STATE.json`
