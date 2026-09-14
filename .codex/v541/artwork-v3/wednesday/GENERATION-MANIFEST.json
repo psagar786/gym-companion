@@ -20,7 +20,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-movement.png"
@@ -73,7 +73,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-movement.png"
@@ -126,7 +126,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-movement.png"
@@ -179,7 +179,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-movement.png"
@@ -232,7 +232,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-movement.png"
@@ -285,7 +285,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-movement.png"
@@ -338,7 +338,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-movement.png"
@@ -392,7 +392,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png"
@@ -446,7 +446,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-movement.png"
@@ -500,7 +500,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-movement.png"
@@ -554,7 +554,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png"
@@ -608,7 +608,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-movement.png"
@@ -662,7 +662,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-movement.png"
@@ -716,7 +716,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-movement.png"
@@ -770,7 +770,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-movement.png"
@@ -824,7 +824,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.png"
@@ -878,7 +878,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png"
@@ -932,7 +932,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.png"
@@ -986,7 +986,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-movement.png"
@@ -1040,7 +1040,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png"
@@ -1094,7 +1094,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-movement.png"
@@ -1148,7 +1148,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-movement.png"
@@ -1202,7 +1202,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-movement.png"
@@ -1256,7 +1256,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-movement.png"

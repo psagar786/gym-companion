@@ -1,5 +1,15 @@
 # Thursday artwork-only validation
 
+## Resume completion — 2026-09-14
+
+- Resumed from the saved checkpoint and completed the remaining 9 generation pairs (18 PNGs).
+- Final generation queue: 24/24 pairs present; 48/48 files present for the Thursday queue.
+- All generated files decode as 512×512 PNGs with distinct Start and Movement hashes.
+- New pairs completed in this continuation: Rope Tricep Pressdown; EZ-Bar Curl & Skullcrushers (combined-title review); Cable Hammer Curl & Dips (combined-title review); Concentration Curls; Incline Prone DB Reverse Fly; Stick Dislocates; Stick Lat Stretch; Stick Doorway Chest Stretch; Cross-Body Stretch.
+- Male-athlete requirement was applied to every newly generated frame.
+- Human gym-coach review remains pending; technical/AI semantic review is not qualified coach approval.
+- The day registry was rebuilt after the assets were written. The validator reports no structural failures.
+
 - Tuesday V3 movement records inspected: 36.
 - Tuesday runtime-map records inspected: 52.
 - Listed day records: 30.

@@ -20,7 +20,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-movement.png"
@@ -74,7 +74,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-movement.png"
@@ -128,7 +128,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-movement.png"
@@ -182,7 +182,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-cable-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cable-fly-v3-movement.png"
@@ -236,7 +236,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-movement.png"
@@ -290,7 +290,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-movement.png"
@@ -344,7 +344,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-movement.png"
@@ -398,7 +398,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-arnold-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-arnold-press-v3-movement.png"
@@ -452,7 +452,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-movement.png"
@@ -506,7 +506,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-movement.png"
@@ -560,7 +560,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-chin-ups-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-chin-ups-v3-movement.png"
@@ -614,7 +614,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-movement.png"
@@ -668,7 +668,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-movement.png"
@@ -722,7 +722,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-movement.png"
@@ -776,7 +776,7 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
+      "status": "generated",
       "imageSet": {
         "start": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-movement.png"
@@ -830,8 +830,11 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
-      "imageSet": null,
+      "status": "generated",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-rope-tricep-pressdown-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-rope-tricep-pressdown-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-rope-tricep-pressdown-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-rope-tricep-pressdown-v3-movement.png"
@@ -842,9 +845,26 @@
         "start": "Fitness 7 illustration: Rope Tricep Pressdown starting position",
         "movement": "Fitness 7 illustration: Rope Tricep Pressdown working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "pass",
+      "humanCoachReviewStatus": "pending",
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male rope pressdown with elbows tucked; Start and active pressdown positions differ clearly."
+      },
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "6d39f564e648c207669544bd5f4084d0514194b6d0dddca4222f3a2128e5f369"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "46a015b884ac8a0122a2be823885d6e839c8eb64be8b8ed2b77b20f8f135783a"
+        }
+      }
     },
     {
       "order": 17,
@@ -863,8 +883,11 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
-      "imageSet": null,
+      "status": "generated",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-ez-bar-curl-skullcrushers-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-ez-bar-curl-skullcrushers-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-ez-bar-curl-skullcrushers-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-ez-bar-curl-skullcrushers-v3-movement.png"
@@ -875,9 +898,26 @@
         "start": "Fitness 7 illustration: EZ-Bar Curl & Skullcrushers starting position",
         "movement": "Fitness 7 illustration: EZ-Bar Curl & Skullcrushers working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "needs-human-review",
+      "humanCoachReviewStatus": "pending",
+      "pairReview": {
+        "status": "technical-pass-semantic-review",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Generated as the authored combined alternative title; current frames depict a seated EZ-bar curl sequence and require confirmation that the combined curl/skullcrusher content should remain one selectable identity."
+      },
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "3807b9b5d1b713cd802d3dde9f219e395f34bc011cdfab48d8f06cb21c12c52b"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "2467e27acb1e3a8acf714a06ce9067a07f186098c52cd31e1600cb98dc98e778"
+        }
+      }
     },
     {
       "order": 18,
@@ -896,8 +936,11 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
-      "imageSet": null,
+      "status": "generated",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-hammer-curl-dips-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-hammer-curl-dips-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-cable-hammer-curl-dips-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cable-hammer-curl-dips-v3-movement.png"
@@ -908,9 +951,26 @@
         "start": "Fitness 7 illustration: Cable Hammer Curl & Dips starting position",
         "movement": "Fitness 7 illustration: Cable Hammer Curl & Dips working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "needs-human-review",
+      "humanCoachReviewStatus": "pending",
+      "pairReview": {
+        "status": "technical-pass-semantic-review",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Generated as a cable hammer curl representation of a combined curl-and-dips alternative; paired-title semantics need review."
+      },
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "e1036f65d3099d84804c80cd94c29f7e5b604a72aff2a83a972ead5d5752d4bd"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "84c68dcfb2c5dca61dad48c0b9f7928851d9081780e7684241e6a0278d795a66"
+        }
+      }
     },
     {
       "order": 19,
@@ -929,8 +989,11 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
-      "imageSet": null,
+      "status": "generated",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-concentration-curls-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-concentration-curls-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-concentration-curls-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-concentration-curls-v3-movement.png"
@@ -941,9 +1004,26 @@
         "start": "Fitness 7 illustration: Concentration Curls starting position",
         "movement": "Fitness 7 illustration: Concentration Curls working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "pass",
+      "humanCoachReviewStatus": "pending",
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete, bench-supported concentration curl; lowered Start and flexed Movement positions differ clearly."
+      },
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "5e7791ace19e07391aabf28fac56e29db24d3424523856bb2d0e7e98ab11e13a"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "9cf2f11875aa723b22c5d72c17842bd7bb7619b77024e6d8bcc6626494d17985"
+        }
+      }
     },
     {
       "order": 20,
@@ -962,8 +1042,11 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
-      "imageSet": null,
+      "status": "generated",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-incline-prone-db-reverse-fly-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-prone-db-reverse-fly-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-incline-prone-db-reverse-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-prone-db-reverse-fly-v3-movement.png"
@@ -974,9 +1057,26 @@
         "start": "Fitness 7 illustration: Incline Prone DB Reverse Fly starting position",
         "movement": "Fitness 7 illustration: Incline Prone DB Reverse Fly working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "pass",
+      "humanCoachReviewStatus": "pending",
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Chest-supported incline reverse fly with arms-down Start and arms-open Movement; equipment and phase difference are clear."
+      },
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "9f798ddf39c67f43fb83ba2364605cd76553e011984ea2fdfa958400cedcf353"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "6084829f9d562225ceb51fe930c2efc715fc96572651dbe09911cdc112b8a485"
+        }
+      }
     },
     {
       "order": 21,
@@ -995,8 +1095,11 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
-      "imageSet": null,
+      "status": "generated",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-dislocates-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-dislocates-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-dislocates-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-dislocates-v3-movement.png"
@@ -1007,9 +1110,26 @@
         "start": "Fitness 7 illustration: Stick Dislocates starting position",
         "movement": "Fitness 7 illustration: Stick Dislocates working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "pass",
+      "humanCoachReviewStatus": "pending",
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male stick mobility sequence; stick held wide in front at Start and overhead at Movement with pain-free-range constraint."
+      },
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "207b4025b21ce615f7d2cb28691c067ce37a1f4fd5847150dc7504b8cc2f7201"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "fcd89466bb56347131697df211c7dcec3158ed5b17684c1ab5df67fc946e455a"
+        }
+      }
     },
     {
       "order": 22,
@@ -1028,8 +1148,11 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
-      "imageSet": null,
+      "status": "generated",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-movement.png"
@@ -1040,9 +1163,26 @@
         "start": "Fitness 7 illustration: Stick Lat Stretch starting position",
         "movement": "Fitness 7 illustration: Stick Lat Stretch working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "pass",
+      "humanCoachReviewStatus": "pending",
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male stick lat stretch with upright Start and controlled side-lean Movement; stick and full body visible."
+      },
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "ace5fa5d12fa81964983f29b4b25b5546857f5297a6051c1163bf8b284cb8e5b"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d5e3d22be1876c447f7f53c52e90d1e17dceb785029c1c1f50a7acac43738630"
+        }
+      }
     },
     {
       "order": 23,
@@ -1061,8 +1201,11 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
-      "imageSet": null,
+      "status": "generated",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-doorway-chest-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-doorway-chest-stretch-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-stick-doorway-chest-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-stick-doorway-chest-stretch-v3-movement.png"
@@ -1073,9 +1216,26 @@
         "start": "Fitness 7 illustration: Stick Doorway Chest Stretch starting position",
         "movement": "Fitness 7 illustration: Stick Doorway Chest Stretch working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "pass",
+      "humanCoachReviewStatus": "pending",
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male doorway chest stretch with stick behind hips; stepping/open-chest Movement differs from relaxed Start."
+      },
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "bcc5f9471d66024267b222def54848180e9a781145ace1d23af117b6c1d6ceee"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "fe1515bec3deab82a18dcf20fd597324e36e4f320318de0b6700792bfecc0a4c"
+        }
+      }
     },
     {
       "order": 24,
@@ -1094,8 +1254,11 @@
       "tuesdayDecision": "no-name-or-id-match-found",
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
-      "status": "generate",
-      "imageSet": null,
+      "status": "generated",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-cross-body-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-cross-body-stretch-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/biweekly-cross-body-stretch-v3-start.png",
         "movement": "assets/exercises/periodized-v3/biweekly-cross-body-stretch-v3-movement.png"
@@ -1106,9 +1269,26 @@
         "start": "Fitness 7 illustration: Cross-Body Stretch starting position",
         "movement": "Fitness 7 illustration: Cross-Body Stretch working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "pass",
+      "humanCoachReviewStatus": "pending",
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male cross-body shoulder stretch with supported end-range Movement; full limbs and neutral gym framing."
+      },
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "983d09cb34301b77880da71eff4e7e8b24e334d7fc8ff0df49d2c71b31bd830c"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "5f6575a426c3d03989d3b6e4ba5e94a573a3a338974116839d3e7336c90b02ff"
+        }
+      }
     }
   ],
   "excluded": []
