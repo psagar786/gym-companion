@@ -291,7 +291,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-movement.png"
@@ -302,9 +305,27 @@
         "start": "Fitness 7 illustration: Incline Dumbbell Reverse Fly starting position",
         "movement": "Fitness 7 illustration: Incline Dumbbell Reverse Fly working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "04943e6d7514d3151acdb25b0b5f2e4258d068a25ffc81cb8b2aa7a245b64669"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "c91e4f63ecc2a72614d8fb4f684475706f9e9a6f3dfca472d9dd675ea4282f23"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete chest-supported on incline bench; arms-down Start and wide-T Movement positions clearly differ."
+      }
     },
     {
       "order": 7,

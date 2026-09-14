@@ -64,3 +64,12 @@
 - Semantic AI review: pass (male athlete, incline curl mechanics, arms-down-to-curl phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-incline-dumbbell-reverse-fly`.
+
+## Pair checkpoint — Incline Dumbbell Reverse Fly
+
+- Start: `assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete, bench, and dumbbells visible).
+- Semantic AI review: pass (male athlete, chest-supported reverse fly mechanics, arms-down-to-wide-T phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-machine-shoulder-press`.
