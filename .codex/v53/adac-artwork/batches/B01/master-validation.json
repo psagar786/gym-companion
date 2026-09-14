@@ -1,0 +1,8 @@
+{
+  "batch": "B01",
+  "start": {"file": "start-master.png", "width": 1254, "height": 1254, "technicalStatus": "PASS"},
+  "movement": {"file": "movement-master.png", "width": 1254, "height": 1254, "technicalStatus": "PASS"},
+  "grid": "5x5 row-major",
+  "mapping": "batch-manifest.json",
+  "notes": "Draft boards are technically addressable. Several crops have foreground-margin warnings and require semantic review or individual repair before final approval."
+}

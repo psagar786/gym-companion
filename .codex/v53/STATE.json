@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "objective": "Fitness 7 V5.3 improvements built on the complete V5.2 baseline",
+  "activeBranch": "feature/member-accounts-v53",
+  "baselineCommit": "510348d",
+  "latestCommit": "HEAD",
+  "checkpoint": "V53-S1-periodized-abc-local",
+  "currentStage": "stage-1-content",
+  "currentWorkUnit": "V53-04-periodized-abc-source",
+  "nextWorkUnit": "V53-05-content-freeze",
+  "nextAtomicAction": "Review the periodized A/B/C audit and approve any remaining source-sheet substitutions before the UI audit.",
+  "completedWorkUnits": ["V53-00-v52-realignment", "V53-01-stick-and-tendon-content", "V53-02-threeweek-ppl-data", "V53-02-runtime-audit", "V53-03-runtime-wiring", "V53-04-periodized-abc-source"],
+  "backupRef": "backup/v53-pre-v52-realignment",
+  "knownIssues": [
+    "Earlier V5.3 changes were intentionally backed up because they narrowed the V5.2 experience.",
+    "The visible V5.2 flow is preserved; V5.3 adds the three-week PPL resolver and keeps legacy plans readable.",
+    "Tendon preparation is visible and separately checkable; it is intentionally excluded from the three calendar rings.",
+    "V5.3 artwork and visual/coach review remain pending; no placeholder or unrelated asset is approved for release.",
+    "Local preview server is available at http://localhost:4175/ when started with scripts/local-v53-server.mjs.",
+    "Periodized A-B-A-C runtime source is wired locally; 26 source movements retain equipment-review warnings pending coach approval."
+  ]
+}

@@ -1,0 +1,43 @@
+name: Fitness 7 member validation
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-member:
+    name: Validate member release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check member-app.js
+          node --check bootstrap.js
+          node --check api/config.js
+
+      - name: Validate member release boundary
+        run: node scripts/validate-member-release.mjs
+
+      - name: Validate Periodized A-B-C source
+        run: node scripts/validate-periodized-abc.mjs
+
+      - name: Validate three-week selectable routine
+        run: node scripts/validate-threeweek-ppl.mjs --audit
+
+      - name: Validate V5 guide content
+        run: node scripts/validate-v5-guides.mjs
+
+      - name: Validate artwork references
+        run: node scripts/validate-v51-artwork.mjs

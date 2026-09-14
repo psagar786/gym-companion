@@ -1,0 +1,2387 @@
+{
+  "schemaVersion": 1,
+  "planVersion": "v5.1",
+  "generatedAt": "2026-08-13T07:35:20.607Z",
+  "qualityReference": "Pull-up",
+  "generationStatus": {
+    "state": "blocked",
+    "reason": "Built-in image generation returned HTTP 403 during the V5.1 remediation pass.",
+    "regeneratedMovementCount": 0
+  },
+  "movementCount": 74,
+  "phaseImageCount": 222,
+  "movements": [
+    {
+      "id": "alternating-dumbbell-curl",
+      "name": "Alternating dumbbell curl",
+      "equipment": "Dumbbells",
+      "movementPattern": "elbow flexion",
+      "targetArea": "Biceps",
+      "baseImage": "assets/exercises/alternating-dumbbell-curl.png",
+      "phases": {
+        "setup": "assets/exercises/alternating-dumbbell-curl-phase-setup.png",
+        "move": "assets/exercises/alternating-dumbbell-curl-phase-move.png",
+        "return": "assets/exercises/alternating-dumbbell-curl-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Thursday:core-5-alternative"
+      ]
+    },
+    {
+      "id": "ankle-rocks",
+      "name": "Ankle rocks",
+      "equipment": "Bodyweight",
+      "movementPattern": "mobility",
+      "targetArea": "Ankle mobility",
+      "baseImage": "assets/exercises/ankle-rocks.png",
+      "phases": {
+        "setup": "assets/exercises/ankle-rocks-phase-setup.png",
+        "move": "assets/exercises/ankle-rocks-phase-move.png",
+        "return": "assets/exercises/ankle-rocks-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:warmup-1",
+        "Saturday:warmup-1"
+      ]
+    },
+    {
+      "id": "back-squat",
+      "name": "Back squat",
+      "equipment": "Barbell",
+      "movementPattern": "squat",
+      "targetArea": "Quads + glutes",
+      "baseImage": "assets/exercises/back-squat.png",
+      "phases": {
+        "setup": "assets/exercises/back-squat-phase-setup.png",
+        "move": "assets/exercises/back-squat-phase-move.png",
+        "return": "assets/exercises/back-squat-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-1-primary",
+        "Saturday:core-1-alternative"
+      ]
+    },
+    {
+      "id": "band-assisted-pull-up",
+      "name": "Band-assisted pull-up",
+      "equipment": "Pull-up bar + band",
+      "movementPattern": "vertical pull",
+      "targetArea": "Lats + upper back",
+      "baseImage": "assets/exercises/band-assisted-pull-up.png",
+      "phases": {
+        "setup": "assets/exercises/band-assisted-pull-up-phase-setup.png",
+        "move": "assets/exercises/band-assisted-pull-up-phase-move.png",
+        "return": "assets/exercises/band-assisted-pull-up-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-1-alternative"
+      ]
+    },
+    {
+      "id": "barbell-row",
+      "name": "Barbell row",
+      "equipment": "Barbell",
+      "movementPattern": "horizontal pull",
+      "targetArea": "Upper back + lats",
+      "baseImage": "assets/exercises/barbell-row.png",
+      "phases": {
+        "setup": "assets/exercises/barbell-row-phase-setup.png",
+        "move": "assets/exercises/barbell-row-phase-move.png",
+        "return": "assets/exercises/barbell-row-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-3-alternative",
+        "Thursday:core-2-alternative"
+      ]
+    },
+    {
+      "id": "bodyweight-squat",
+      "name": "Bodyweight squat",
+      "equipment": "Bodyweight",
+      "movementPattern": "squat",
+      "targetArea": "Quads + glutes",
+      "baseImage": "assets/exercises/bodyweight-squat.png",
+      "phases": {
+        "setup": "assets/exercises/bodyweight-squat-phase-setup.png",
+        "move": "assets/exercises/bodyweight-squat-phase-move.png",
+        "return": "assets/exercises/bodyweight-squat-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:warmup-2",
+        "Saturday:warmup-2"
+      ]
+    },
+    {
+      "id": "bulgarian-split-squat",
+      "name": "Bulgarian split squat",
+      "equipment": "Dumbbells",
+      "movementPattern": "single-leg squat",
+      "targetArea": "Quads + glutes",
+      "baseImage": "assets/exercises/bulgarian-split-squat.png",
+      "phases": {
+        "setup": "assets/exercises/bulgarian-split-squat-phase-setup.png",
+        "move": "assets/exercises/bulgarian-split-squat-phase-move.png",
+        "return": "assets/exercises/bulgarian-split-squat-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-3-primary"
+      ]
+    },
+    {
+      "id": "cable-crunch",
+      "name": "Cable crunch",
+      "equipment": "Cable",
+      "movementPattern": "trunk flexion",
+      "targetArea": "Abs",
+      "baseImage": "assets/exercises/cable-crunch.png",
+      "phases": {
+        "setup": "assets/exercises/cable-crunch-phase-setup.png",
+        "move": "assets/exercises/cable-crunch-phase-move.png",
+        "return": "assets/exercises/cable-crunch-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Saturday:optional"
+      ]
+    },
+    {
+      "id": "cable-curl",
+      "name": "Cable curl",
+      "equipment": "Cable",
+      "movementPattern": "elbow flexion",
+      "targetArea": "Biceps",
+      "baseImage": "assets/exercises/cable-curl.png",
+      "phases": {
+        "setup": "assets/exercises/cable-curl-phase-setup.png",
+        "move": "assets/exercises/cable-curl-phase-move.png",
+        "return": "assets/exercises/cable-curl-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-5-alternative",
+        "Thursday:core-6-primary"
+      ]
+    },
+    {
+      "id": "cable-fly",
+      "name": "Cable fly",
+      "equipment": "Cable",
+      "movementPattern": "fly",
+      "targetArea": "Chest",
+      "baseImage": "assets/exercises/cable-fly.png",
+      "phases": {
+        "setup": "assets/exercises/cable-fly-phase-setup.png",
+        "move": "assets/exercises/cable-fly-phase-move.png",
+        "return": "assets/exercises/cable-fly-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-3-primary",
+        "Friday:core-2-primary"
+      ]
+    },
+    {
+      "id": "cable-lateral-raise",
+      "name": "Cable lateral raise",
+      "equipment": "Cable",
+      "movementPattern": "shoulder abduction",
+      "targetArea": "Side delts",
+      "baseImage": "assets/exercises/cable-lateral-raise.png",
+      "phases": {
+        "setup": "assets/exercises/cable-lateral-raise-phase-setup.png",
+        "move": "assets/exercises/cable-lateral-raise-phase-move.png",
+        "return": "assets/exercises/cable-lateral-raise-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:optional",
+        "Friday:core-3-primary",
+        "Friday:core-4-alternative"
+      ]
+    },
+    {
+      "id": "cable-pullover",
+      "name": "Cable pullover",
+      "equipment": "Cable",
+      "movementPattern": "shoulder extension",
+      "targetArea": "Lats + serratus",
+      "baseImage": "assets/exercises/cable-pullover.png",
+      "phases": {
+        "setup": "assets/exercises/cable-pullover-phase-setup.png",
+        "move": "assets/exercises/cable-pullover-phase-move.png",
+        "return": "assets/exercises/cable-pullover-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:optional",
+        "Thursday:optional"
+      ]
+    },
+    {
+      "id": "cable-rear-delt-fly",
+      "name": "Cable rear-delt fly",
+      "equipment": "Cable",
+      "movementPattern": "rear-delt fly",
+      "targetArea": "Rear delts + upper back",
+      "baseImage": "assets/exercises/cable-rear-delt-fly.png",
+      "phases": {
+        "setup": "assets/exercises/cable-rear-delt-fly-phase-setup.png",
+        "move": "assets/exercises/cable-rear-delt-fly-phase-move.png",
+        "return": "assets/exercises/cable-rear-delt-fly-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-4-primary",
+        "Thursday:core-4-primary"
+      ]
+    },
+    {
+      "id": "calf-stretch",
+      "name": "Calf stretch",
+      "equipment": "Wall",
+      "movementPattern": "stretch",
+      "targetArea": "Calf mobility",
+      "baseImage": "assets/exercises/calf-stretch.png",
+      "phases": {
+        "setup": "assets/exercises/calf-stretch-phase-setup.png",
+        "move": "assets/exercises/calf-stretch-phase-move.png",
+        "return": "assets/exercises/calf-stretch-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:recovery-4",
+        "Saturday:recovery-4"
+      ]
+    },
+    {
+      "id": "chest-opener",
+      "name": "Chest opener",
+      "equipment": "See movement specification",
+      "movementPattern": "warmup-4",
+      "targetArea": "See movement specification",
+      "baseImage": "assets/exercises/chest-opener.png",
+      "phases": {
+        "setup": "assets/exercises/chest-opener-phase-setup.png",
+        "move": "assets/exercises/chest-opener-phase-move.png",
+        "return": "assets/exercises/chest-opener-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:warmup-4",
+        "Friday:warmup-4"
+      ]
+    },
+    {
+      "id": "chest-supported-row",
+      "name": "Chest-supported row",
+      "equipment": "Bench + dumbbells",
+      "movementPattern": "horizontal pull",
+      "targetArea": "Upper back + lats",
+      "baseImage": "assets/exercises/chest-supported-row.png",
+      "phases": {
+        "setup": "assets/exercises/chest-supported-row-phase-setup.png",
+        "move": "assets/exercises/chest-supported-row-phase-move.png",
+        "return": "assets/exercises/chest-supported-row-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-2-primary",
+        "Thursday:optional"
+      ]
+    },
+    {
+      "id": "close-grip-press",
+      "name": "Close-grip press",
+      "equipment": "Barbell",
+      "movementPattern": "horizontal press",
+      "targetArea": "Triceps + chest",
+      "baseImage": "assets/exercises/close-grip-press.png",
+      "phases": {
+        "setup": "assets/exercises/close-grip-press-phase-setup.png",
+        "move": "assets/exercises/close-grip-press-phase-move.png",
+        "return": "assets/exercises/close-grip-press-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-5-alternative",
+        "Tuesday:optional",
+        "Friday:core-5-primary"
+      ]
+    },
+    {
+      "id": "dead-bug",
+      "name": "Dead bug",
+      "equipment": "Bodyweight",
+      "movementPattern": "anti-extension",
+      "targetArea": "Deep core",
+      "baseImage": "assets/exercises/dead-bug.png",
+      "phases": {
+        "setup": "assets/exercises/dead-bug-phase-setup.png",
+        "move": "assets/exercises/dead-bug-phase-move.png",
+        "return": "assets/exercises/dead-bug-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Saturday:core-6-alternative"
+      ]
+    },
+    {
+      "id": "doorway-pec-stretch",
+      "name": "Doorway pec stretch",
+      "equipment": "Doorway",
+      "movementPattern": "stretch",
+      "targetArea": "Chest mobility",
+      "baseImage": "assets/exercises/doorway-pec-stretch.png",
+      "phases": {
+        "setup": "assets/exercises/doorway-pec-stretch-phase-setup.png",
+        "move": "assets/exercises/doorway-pec-stretch-phase-move.png",
+        "return": "assets/exercises/doorway-pec-stretch-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:recovery-2",
+        "Tuesday:recovery-2",
+        "Thursday:recovery-2",
+        "Friday:recovery-2"
+      ]
+    },
+    {
+      "id": "dumbbell-fly",
+      "name": "Dumbbell fly",
+      "equipment": "Dumbbells",
+      "movementPattern": "fly",
+      "targetArea": "Chest",
+      "baseImage": "assets/exercises/dumbbell-fly.png",
+      "phases": {
+        "setup": "assets/exercises/dumbbell-fly-phase-setup.png",
+        "move": "assets/exercises/dumbbell-fly-phase-move.png",
+        "return": "assets/exercises/dumbbell-fly-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-3-alternative",
+        "Tuesday:optional",
+        "Friday:core-2-alternative",
+        "Friday:optional"
+      ]
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "name": "Dumbbell lateral raise",
+      "equipment": "Dumbbells",
+      "movementPattern": "shoulder abduction",
+      "targetArea": "Side delts",
+      "baseImage": "assets/exercises/dumbbell-lateral-raise.png",
+      "phases": {
+        "setup": "assets/exercises/dumbbell-lateral-raise-phase-setup.png",
+        "move": "assets/exercises/dumbbell-lateral-raise-phase-move.png",
+        "return": "assets/exercises/dumbbell-lateral-raise-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:optional",
+        "Friday:core-3-alternative",
+        "Friday:core-4-primary"
+      ]
+    },
+    {
+      "id": "dumbbell-rdl",
+      "name": "Dumbbell RDL",
+      "equipment": "Dumbbells",
+      "movementPattern": "hinge",
+      "targetArea": "Hamstrings + glutes",
+      "baseImage": "assets/exercises/dumbbell-rdl.png",
+      "phases": {
+        "setup": "assets/exercises/dumbbell-rdl-phase-setup.png",
+        "move": "assets/exercises/dumbbell-rdl-phase-move.png",
+        "return": "assets/exercises/dumbbell-rdl-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-2-alternative",
+        "Wednesday:optional",
+        "Saturday:optional"
+      ]
+    },
+    {
+      "id": "exercise-bike",
+      "name": "Exercise bike",
+      "equipment": "Bike",
+      "movementPattern": "steady cardio",
+      "targetArea": "Zone 2 conditioning",
+      "baseImage": "assets/exercises/exercise-bike.png",
+      "phases": {
+        "setup": "assets/exercises/exercise-bike-phase-setup.png",
+        "move": "assets/exercises/exercise-bike-phase-move.png",
+        "return": "assets/exercises/exercise-bike-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:recovery-1-choice-2",
+        "Tuesday:recovery-1-choice-2",
+        "Thursday:recovery-1-choice-2",
+        "Friday:recovery-1-choice-2"
+      ]
+    },
+    {
+      "id": "flat-barbell-press",
+      "name": "Flat barbell press",
+      "equipment": "Barbell",
+      "movementPattern": "horizontal press",
+      "targetArea": "Chest + triceps",
+      "baseImage": "assets/exercises/flat-barbell-press.png",
+      "phases": {
+        "setup": "assets/exercises/flat-barbell-press-phase-setup.png",
+        "move": "assets/exercises/flat-barbell-press-phase-move.png",
+        "return": "assets/exercises/flat-barbell-press-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-2-primary"
+      ]
+    },
+    {
+      "id": "flat-dumbbell-press",
+      "name": "Flat dumbbell press",
+      "equipment": "Dumbbells",
+      "movementPattern": "horizontal press",
+      "targetArea": "Chest + triceps",
+      "baseImage": "assets/exercises/flat-dumbbell-press.png",
+      "phases": {
+        "setup": "assets/exercises/flat-dumbbell-press-phase-setup.png",
+        "move": "assets/exercises/flat-dumbbell-press-phase-move.png",
+        "return": "assets/exercises/flat-dumbbell-press-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-2-alternative"
+      ]
+    },
+    {
+      "id": "glute-bridge",
+      "name": "Glute bridge",
+      "equipment": "Bodyweight/dumbbell",
+      "movementPattern": "hip extension",
+      "targetArea": "Glutes",
+      "baseImage": "assets/exercises/glute-bridge.png",
+      "phases": {
+        "setup": "assets/exercises/glute-bridge-phase-setup.png",
+        "move": "assets/exercises/glute-bridge-phase-move.png",
+        "return": "assets/exercises/glute-bridge-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:optional",
+        "Saturday:core-2-primary"
+      ]
+    },
+    {
+      "id": "hammer-curl",
+      "name": "Hammer curl",
+      "equipment": "Dumbbells",
+      "movementPattern": "elbow flexion",
+      "targetArea": "Brachialis + forearms",
+      "baseImage": "assets/exercises/hammer-curl.png",
+      "phases": {
+        "setup": "assets/exercises/hammer-curl-phase-setup.png",
+        "move": "assets/exercises/hammer-curl-phase-move.png",
+        "return": "assets/exercises/hammer-curl-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-6-primary",
+        "Thursday:core-6-alternative"
+      ]
+    },
+    {
+      "id": "hamstring-stretch",
+      "name": "Hamstring stretch",
+      "equipment": "Bodyweight",
+      "movementPattern": "stretch",
+      "targetArea": "Hamstring mobility",
+      "baseImage": "assets/exercises/hamstring-stretch.png",
+      "phases": {
+        "setup": "assets/exercises/hamstring-stretch-phase-setup.png",
+        "move": "assets/exercises/hamstring-stretch-phase-move.png",
+        "return": "assets/exercises/hamstring-stretch-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:recovery-3",
+        "Saturday:recovery-3"
+      ]
+    },
+    {
+      "id": "hanging-knee-raise",
+      "name": "Hanging knee raise",
+      "equipment": "Pull-up bar",
+      "movementPattern": "trunk flexion",
+      "targetArea": "Lower abs + hip flexors",
+      "baseImage": "assets/exercises/hanging-knee-raise.png",
+      "phases": {
+        "setup": "assets/exercises/hanging-knee-raise-phase-setup.png",
+        "move": "assets/exercises/hanging-knee-raise-phase-move.png",
+        "return": "assets/exercises/hanging-knee-raise-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Saturday:core-4-primary"
+      ]
+    },
+    {
+      "id": "hip-hinge-drill",
+      "name": "Hip hinge drill",
+      "equipment": "Bodyweight",
+      "movementPattern": "mobility",
+      "targetArea": "Hinge rehearsal",
+      "baseImage": "assets/exercises/hip-hinge-drill.png",
+      "phases": {
+        "setup": "assets/exercises/hip-hinge-drill-phase-setup.png",
+        "move": "assets/exercises/hip-hinge-drill-phase-move.png",
+        "return": "assets/exercises/hip-hinge-drill-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:warmup-3",
+        "Saturday:warmup-3"
+      ]
+    },
+    {
+      "id": "hip-mobility",
+      "name": "Hip mobility",
+      "equipment": "Bodyweight",
+      "movementPattern": "mobility",
+      "targetArea": "Hip mobility",
+      "baseImage": "assets/exercises/hip-mobility.png",
+      "phases": {
+        "setup": "assets/exercises/hip-mobility-phase-setup.png",
+        "move": "assets/exercises/hip-mobility-phase-move.png",
+        "return": "assets/exercises/hip-mobility-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:recovery-5",
+        "Saturday:recovery-5"
+      ]
+    },
+    {
+      "id": "hip-abductor-machine",
+      "name": "Hip-abductor machine",
+      "equipment": "Machine",
+      "movementPattern": "hip abduction",
+      "targetArea": "Glute medius",
+      "baseImage": "assets/exercises/hip-abductor-machine.png",
+      "phases": {
+        "setup": "assets/exercises/hip-abductor-machine-phase-setup.png",
+        "move": "assets/exercises/hip-abductor-machine-phase-move.png",
+        "return": "assets/exercises/hip-abductor-machine-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-4-alternative",
+        "Wednesday:optional",
+        "Saturday:core-2-alternative"
+      ]
+    },
+    {
+      "id": "incline-dumbbell-curl",
+      "name": "Incline dumbbell curl",
+      "equipment": "Dumbbells",
+      "movementPattern": "elbow flexion",
+      "targetArea": "Biceps",
+      "baseImage": "assets/exercises/incline-dumbbell-curl.png",
+      "phases": {
+        "setup": "assets/exercises/incline-dumbbell-curl-phase-setup.png",
+        "move": "assets/exercises/incline-dumbbell-curl-phase-move.png",
+        "return": "assets/exercises/incline-dumbbell-curl-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-5-primary",
+        "Thursday:optional"
+      ]
+    },
+    {
+      "id": "incline-dumbbell-press",
+      "name": "Incline dumbbell press",
+      "equipment": "Dumbbells",
+      "movementPattern": "horizontal press",
+      "targetArea": "Upper chest + triceps",
+      "baseImage": "assets/exercises/incline-dumbbell-press.png",
+      "phases": {
+        "setup": "assets/exercises/incline-dumbbell-press-phase-setup.png",
+        "move": "assets/exercises/incline-dumbbell-press-phase-move.png",
+        "return": "assets/exercises/incline-dumbbell-press-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-1-primary",
+        "Friday:core-1-alternative"
+      ]
+    },
+    {
+      "id": "incline-dumbbell-reverse-fly",
+      "name": "Incline dumbbell reverse fly",
+      "equipment": "Dumbbells",
+      "movementPattern": "rear-delt fly",
+      "targetArea": "Rear delts",
+      "baseImage": "assets/exercises/incline-dumbbell-reverse-fly.png",
+      "phases": {
+        "setup": "assets/exercises/incline-dumbbell-reverse-fly-phase-setup.png",
+        "move": "assets/exercises/incline-dumbbell-reverse-fly-phase-move.png",
+        "return": "assets/exercises/incline-dumbbell-reverse-fly-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-4-alternative",
+        "Thursday:core-4-alternative"
+      ]
+    },
+    {
+      "id": "incline-machine-press",
+      "name": "Incline machine press",
+      "equipment": "Machine",
+      "movementPattern": "horizontal press",
+      "targetArea": "Upper chest + triceps",
+      "baseImage": "assets/exercises/incline-machine-press.png",
+      "phases": {
+        "setup": "assets/exercises/incline-machine-press-phase-setup.png",
+        "move": "assets/exercises/incline-machine-press-phase-move.png",
+        "return": "assets/exercises/incline-machine-press-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-1-alternative",
+        "Friday:core-1-primary"
+      ]
+    },
+    {
+      "id": "incline-treadmill-walk",
+      "name": "Incline treadmill walk",
+      "equipment": "Treadmill",
+      "movementPattern": "steady cardio",
+      "targetArea": "Zone 2 conditioning",
+      "baseImage": "assets/exercises/incline-treadmill-walk.png",
+      "phases": {
+        "setup": "assets/exercises/incline-treadmill-walk-phase-setup.png",
+        "move": "assets/exercises/incline-treadmill-walk-phase-move.png",
+        "return": "assets/exercises/incline-treadmill-walk-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:recovery-1-choice-1",
+        "Tuesday:recovery-1-choice-1",
+        "Wednesday:recovery-1",
+        "Thursday:recovery-1-choice-1",
+        "Friday:recovery-1-choice-1",
+        "Saturday:recovery-1"
+      ]
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat pulldown",
+      "equipment": "Cable machine",
+      "movementPattern": "vertical pull",
+      "targetArea": "Lats + biceps",
+      "baseImage": "assets/exercises/lat-pulldown.png",
+      "phases": {
+        "setup": "assets/exercises/lat-pulldown-phase-setup.png",
+        "move": "assets/exercises/lat-pulldown-phase-move.png",
+        "return": "assets/exercises/lat-pulldown-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Thursday:core-1-alternative"
+      ]
+    },
+    {
+      "id": "lat-stretch",
+      "name": "Lat stretch",
+      "equipment": "Bodyweight",
+      "movementPattern": "stretch",
+      "targetArea": "Lat mobility",
+      "baseImage": "assets/exercises/lat-stretch.png",
+      "phases": {
+        "setup": "assets/exercises/lat-stretch-phase-setup.png",
+        "move": "assets/exercises/lat-stretch-phase-move.png",
+        "return": "assets/exercises/lat-stretch-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:recovery-3",
+        "Tuesday:recovery-3",
+        "Thursday:recovery-3",
+        "Friday:recovery-3"
+      ]
+    },
+    {
+      "id": "leg-extension",
+      "name": "Leg extension",
+      "equipment": "Machine",
+      "movementPattern": "knee extension",
+      "targetArea": "Quads",
+      "baseImage": "assets/exercises/leg-extension.png",
+      "phases": {
+        "setup": "assets/exercises/leg-extension-phase-setup.png",
+        "move": "assets/exercises/leg-extension-phase-move.png",
+        "return": "assets/exercises/leg-extension-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-4-primary"
+      ]
+    },
+    {
+      "id": "leg-press",
+      "name": "Leg press",
+      "equipment": "Machine",
+      "movementPattern": "squat",
+      "targetArea": "Quads + glutes",
+      "baseImage": "assets/exercises/leg-press.png",
+      "phases": {
+        "setup": "assets/exercises/leg-press-phase-setup.png",
+        "move": "assets/exercises/leg-press-phase-move.png",
+        "return": "assets/exercises/leg-press-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-1-alternative",
+        "Saturday:core-1-primary"
+      ]
+    },
+    {
+      "id": "lying-leg-curl",
+      "name": "Lying leg curl",
+      "equipment": "Machine",
+      "movementPattern": "knee flexion",
+      "targetArea": "Hamstrings",
+      "baseImage": "assets/exercises/lying-leg-curl.png",
+      "phases": {
+        "setup": "assets/exercises/lying-leg-curl-phase-setup.png",
+        "move": "assets/exercises/lying-leg-curl-phase-move.png",
+        "return": "assets/exercises/lying-leg-curl-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-5-primary",
+        "Saturday:core-3-alternative"
+      ]
+    },
+    {
+      "id": "machine-row",
+      "name": "Machine row",
+      "equipment": "Machine",
+      "movementPattern": "horizontal pull",
+      "targetArea": "Upper back + lats",
+      "baseImage": "assets/exercises/machine-row.png",
+      "phases": {
+        "setup": "assets/exercises/machine-row-phase-setup.png",
+        "move": "assets/exercises/machine-row-phase-move.png",
+        "return": "assets/exercises/machine-row-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-2-alternative",
+        "Thursday:core-3-alternative"
+      ]
+    },
+    {
+      "id": "neutral-grip-pulldown",
+      "name": "Neutral-grip pulldown",
+      "equipment": "Cable machine",
+      "movementPattern": "vertical pull",
+      "targetArea": "Lats + biceps",
+      "baseImage": "assets/exercises/neutral-grip-pulldown.png",
+      "phases": {
+        "setup": "assets/exercises/neutral-grip-pulldown-phase-setup.png",
+        "move": "assets/exercises/neutral-grip-pulldown-phase-move.png",
+        "return": "assets/exercises/neutral-grip-pulldown-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Thursday:core-1-primary"
+      ]
+    },
+    {
+      "id": "overhead-cable-extension",
+      "name": "Overhead cable extension",
+      "equipment": "Cable",
+      "movementPattern": "elbow extension",
+      "targetArea": "Triceps long head",
+      "baseImage": "assets/exercises/overhead-cable-extension.png",
+      "phases": {
+        "setup": "assets/exercises/overhead-cable-extension-phase-setup.png",
+        "move": "assets/exercises/overhead-cable-extension-phase-move.png",
+        "return": "assets/exercises/overhead-cable-extension-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-6-primary",
+        "Friday:core-6-alternative",
+        "Friday:optional"
+      ]
+    },
+    {
+      "id": "pallof-press",
+      "name": "Pallof press",
+      "equipment": "Cable",
+      "movementPattern": "anti-rotation",
+      "targetArea": "Obliques + core",
+      "baseImage": "assets/exercises/pallof-press.png",
+      "phases": {
+        "setup": "assets/exercises/pallof-press-phase-setup.png",
+        "move": "assets/exercises/pallof-press-phase-move.png",
+        "return": "assets/exercises/pallof-press-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Saturday:core-5-primary"
+      ]
+    },
+    {
+      "id": "plank",
+      "name": "Plank",
+      "equipment": "Bodyweight",
+      "movementPattern": "anti-extension",
+      "targetArea": "Anterior core",
+      "baseImage": "assets/exercises/plank.png",
+      "phases": {
+        "setup": "assets/exercises/plank-phase-setup.png",
+        "move": "assets/exercises/plank-phase-move.png",
+        "return": "assets/exercises/plank-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Saturday:core-6-primary"
+      ]
+    },
+    {
+      "id": "preacher-curl",
+      "name": "Preacher curl",
+      "equipment": "Machine/bench",
+      "movementPattern": "elbow flexion",
+      "targetArea": "Biceps",
+      "baseImage": "assets/exercises/preacher-curl.png",
+      "phases": {
+        "setup": "assets/exercises/preacher-curl-phase-setup.png",
+        "move": "assets/exercises/preacher-curl-phase-move.png",
+        "return": "assets/exercises/preacher-curl-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:optional",
+        "Thursday:core-5-primary"
+      ]
+    },
+    {
+      "id": "prone-y-raise",
+      "name": "Prone Y raise",
+      "equipment": "Bodyweight",
+      "movementPattern": "activation",
+      "targetArea": "Lower traps",
+      "baseImage": "assets/exercises/prone-y-raise.png",
+      "phases": {
+        "setup": "assets/exercises/prone-y-raise-phase-setup.png",
+        "move": "assets/exercises/prone-y-raise-phase-move.png",
+        "return": "assets/exercises/prone-y-raise-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:warmup-3",
+        "Thursday:warmup-3"
+      ]
+    },
+    {
+      "id": "pull-up",
+      "name": "Pull-up",
+      "equipment": "Pull-up bar",
+      "movementPattern": "vertical pull",
+      "targetArea": "Lats + upper back",
+      "baseImage": "assets/exercises/pull-up.png",
+      "phases": {
+        "setup": "assets/exercises/pull-up-phase-setup.png",
+        "move": "assets/exercises/pull-up-phase-move.png",
+        "return": "assets/exercises/pull-up-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-1-primary"
+      ]
+    },
+    {
+      "id": "pull-up-pattern-rehearsal",
+      "name": "Pull-up pattern rehearsal",
+      "equipment": "Bodyweight",
+      "movementPattern": "mobility",
+      "targetArea": "Scapular control",
+      "baseImage": "assets/exercises/pull-up-pattern-rehearsal.png",
+      "phases": {
+        "setup": "assets/exercises/pull-up-pattern-rehearsal-phase-setup.png",
+        "move": "assets/exercises/pull-up-pattern-rehearsal-phase-move.png",
+        "return": "assets/exercises/pull-up-pattern-rehearsal-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:warmup-4",
+        "Thursday:warmup-4"
+      ]
+    },
+    {
+      "id": "push-up",
+      "name": "Push-up",
+      "equipment": "Bodyweight",
+      "movementPattern": "horizontal press",
+      "targetArea": "Chest + triceps",
+      "baseImage": "assets/exercises/push-up.png",
+      "phases": {
+        "setup": "assets/exercises/push-up-phase-setup.png",
+        "move": "assets/exercises/push-up-phase-move.png",
+        "return": "assets/exercises/push-up-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:optional",
+        "Friday:optional"
+      ]
+    },
+    {
+      "id": "quad-stretch",
+      "name": "Quad stretch",
+      "equipment": "Bodyweight",
+      "movementPattern": "stretch",
+      "targetArea": "Quad mobility",
+      "baseImage": "assets/exercises/quad-stretch.png",
+      "phases": {
+        "setup": "assets/exercises/quad-stretch-phase-setup.png",
+        "move": "assets/exercises/quad-stretch-phase-move.png",
+        "return": "assets/exercises/quad-stretch-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:recovery-2",
+        "Saturday:recovery-2"
+      ]
+    },
+    {
+      "id": "reverse-crunch",
+      "name": "Reverse crunch",
+      "equipment": "Bodyweight",
+      "movementPattern": "trunk flexion",
+      "targetArea": "Lower abs",
+      "baseImage": "assets/exercises/reverse-crunch.png",
+      "phases": {
+        "setup": "assets/exercises/reverse-crunch-phase-setup.png",
+        "move": "assets/exercises/reverse-crunch-phase-move.png",
+        "return": "assets/exercises/reverse-crunch-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Saturday:core-4-alternative",
+        "Saturday:optional"
+      ]
+    },
+    {
+      "id": "reverse-lunge",
+      "name": "Reverse lunge",
+      "equipment": "Bodyweight/dumbbells",
+      "movementPattern": "single-leg squat",
+      "targetArea": "Quads + glutes",
+      "baseImage": "assets/exercises/reverse-lunge.png",
+      "phases": {
+        "setup": "assets/exercises/reverse-lunge-phase-setup.png",
+        "move": "assets/exercises/reverse-lunge-phase-move.png",
+        "return": "assets/exercises/reverse-lunge-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:warmup-4",
+        "Saturday:warmup-4"
+      ]
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": "Romanian deadlift",
+      "equipment": "Barbell",
+      "movementPattern": "hinge",
+      "targetArea": "Hamstrings + glutes",
+      "baseImage": "assets/exercises/romanian-deadlift.png",
+      "phases": {
+        "setup": "assets/exercises/romanian-deadlift-phase-setup.png",
+        "move": "assets/exercises/romanian-deadlift-phase-move.png",
+        "return": "assets/exercises/romanian-deadlift-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-2-primary"
+      ]
+    },
+    {
+      "id": "rope-hammer-curl",
+      "name": "Rope hammer curl",
+      "equipment": "Cable",
+      "movementPattern": "elbow flexion",
+      "targetArea": "Brachialis + forearms",
+      "baseImage": "assets/exercises/rope-hammer-curl.png",
+      "phases": {
+        "setup": "assets/exercises/rope-hammer-curl-phase-setup.png",
+        "move": "assets/exercises/rope-hammer-curl-phase-move.png",
+        "return": "assets/exercises/rope-hammer-curl-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-6-alternative",
+        "Thursday:optional"
+      ]
+    },
+    {
+      "id": "rope-pressdown",
+      "name": "Rope pressdown",
+      "equipment": "Cable",
+      "movementPattern": "elbow extension",
+      "targetArea": "Triceps",
+      "baseImage": "assets/exercises/rope-pressdown.png",
+      "phases": {
+        "setup": "assets/exercises/rope-pressdown-phase-setup.png",
+        "move": "assets/exercises/rope-pressdown-phase-move.png",
+        "return": "assets/exercises/rope-pressdown-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-5-primary",
+        "Friday:core-5-alternative",
+        "Friday:optional"
+      ]
+    },
+    {
+      "id": "scapular-push-up",
+      "name": "Scapular push-up",
+      "equipment": "Bodyweight",
+      "movementPattern": "mobility",
+      "targetArea": "Scapular control",
+      "baseImage": "assets/exercises/scapular-push-up.png",
+      "phases": {
+        "setup": "assets/exercises/scapular-push-up-phase-setup.png",
+        "move": "assets/exercises/scapular-push-up-phase-move.png",
+        "return": "assets/exercises/scapular-push-up-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:warmup-3",
+        "Friday:warmup-3"
+      ]
+    },
+    {
+      "id": "seated-cable-row",
+      "name": "Seated cable row",
+      "equipment": "Cable",
+      "movementPattern": "horizontal pull",
+      "targetArea": "Mid back + lats",
+      "baseImage": "assets/exercises/seated-cable-row.png",
+      "phases": {
+        "setup": "assets/exercises/seated-cable-row-phase-setup.png",
+        "move": "assets/exercises/seated-cable-row-phase-move.png",
+        "return": "assets/exercises/seated-cable-row-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:core-3-primary",
+        "Thursday:core-3-primary"
+      ]
+    },
+    {
+      "id": "seated-calf-raise",
+      "name": "Seated calf raise",
+      "equipment": "Machine",
+      "movementPattern": "calf raise",
+      "targetArea": "Soleus",
+      "baseImage": "assets/exercises/seated-calf-raise.png",
+      "phases": {
+        "setup": "assets/exercises/seated-calf-raise-phase-setup.png",
+        "move": "assets/exercises/seated-calf-raise-phase-move.png",
+        "return": "assets/exercises/seated-calf-raise-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-6-alternative",
+        "Wednesday:optional"
+      ]
+    },
+    {
+      "id": "seated-dumbbell-shoulder-press",
+      "name": "Seated dumbbell shoulder press",
+      "equipment": "Dumbbells",
+      "movementPattern": "vertical press",
+      "targetArea": "Shoulders + triceps",
+      "baseImage": "assets/exercises/seated-dumbbell-shoulder-press.png",
+      "phases": {
+        "setup": "assets/exercises/seated-dumbbell-shoulder-press-phase-setup.png",
+        "move": "assets/exercises/seated-dumbbell-shoulder-press-phase-move.png",
+        "return": "assets/exercises/seated-dumbbell-shoulder-press-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-4-primary",
+        "Friday:optional"
+      ]
+    },
+    {
+      "id": "seated-leg-curl",
+      "name": "Seated leg curl",
+      "equipment": "Machine",
+      "movementPattern": "knee flexion",
+      "targetArea": "Hamstrings",
+      "baseImage": "assets/exercises/seated-leg-curl.png",
+      "phases": {
+        "setup": "assets/exercises/seated-leg-curl-phase-setup.png",
+        "move": "assets/exercises/seated-leg-curl-phase-move.png",
+        "return": "assets/exercises/seated-leg-curl-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-5-alternative",
+        "Saturday:core-3-primary"
+      ]
+    },
+    {
+      "id": "seated-shoulder-press",
+      "name": "Seated shoulder press",
+      "equipment": "Machine",
+      "movementPattern": "vertical press",
+      "targetArea": "Shoulders + triceps",
+      "baseImage": "assets/exercises/seated-shoulder-press.png",
+      "phases": {
+        "setup": "assets/exercises/seated-shoulder-press-phase-setup.png",
+        "move": "assets/exercises/seated-shoulder-press-phase-move.png",
+        "return": "assets/exercises/seated-shoulder-press-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-4-alternative"
+      ]
+    },
+    {
+      "id": "shoulder-circles",
+      "name": "Shoulder circles",
+      "equipment": "Bodyweight",
+      "movementPattern": "mobility",
+      "targetArea": "Shoulder mobility",
+      "baseImage": "assets/exercises/shoulder-circles.png",
+      "phases": {
+        "setup": "assets/exercises/shoulder-circles-phase-setup.png",
+        "move": "assets/exercises/shoulder-circles-phase-move.png",
+        "return": "assets/exercises/shoulder-circles-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:warmup-1",
+        "Tuesday:warmup-1",
+        "Thursday:warmup-1",
+        "Friday:warmup-1"
+      ]
+    },
+    {
+      "id": "side-plank",
+      "name": "Side plank",
+      "equipment": "Bodyweight",
+      "movementPattern": "anti-lateral flexion",
+      "targetArea": "Obliques",
+      "baseImage": "assets/exercises/side-plank.png",
+      "phases": {
+        "setup": "assets/exercises/side-plank-phase-setup.png",
+        "move": "assets/exercises/side-plank-phase-move.png",
+        "return": "assets/exercises/side-plank-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Saturday:core-5-alternative"
+      ]
+    },
+    {
+      "id": "single-arm-cable-pulldown",
+      "name": "Single-arm cable pulldown",
+      "equipment": "Cable",
+      "movementPattern": "vertical pull",
+      "targetArea": "Lats",
+      "baseImage": "assets/exercises/single-arm-cable-pulldown.png",
+      "phases": {
+        "setup": "assets/exercises/single-arm-cable-pulldown-phase-setup.png",
+        "move": "assets/exercises/single-arm-cable-pulldown-phase-move.png",
+        "return": "assets/exercises/single-arm-cable-pulldown-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:optional"
+      ]
+    },
+    {
+      "id": "single-dumbbell-extension",
+      "name": "Single-dumbbell extension",
+      "equipment": "Dumbbell",
+      "movementPattern": "elbow extension",
+      "targetArea": "Triceps long head",
+      "baseImage": "assets/exercises/single-dumbbell-extension.png",
+      "phases": {
+        "setup": "assets/exercises/single-dumbbell-extension-phase-setup.png",
+        "move": "assets/exercises/single-dumbbell-extension-phase-move.png",
+        "return": "assets/exercises/single-dumbbell-extension-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:core-6-alternative",
+        "Friday:core-6-primary"
+      ]
+    },
+    {
+      "id": "standing-calf-raise",
+      "name": "Standing calf raise",
+      "equipment": "Machine/bodyweight",
+      "movementPattern": "calf raise",
+      "targetArea": "Gastrocnemius",
+      "baseImage": "assets/exercises/standing-calf-raise.png",
+      "phases": {
+        "setup": "assets/exercises/standing-calf-raise-phase-setup.png",
+        "move": "assets/exercises/standing-calf-raise-phase-move.png",
+        "return": "assets/exercises/standing-calf-raise-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-6-primary",
+        "Saturday:optional"
+      ]
+    },
+    {
+      "id": "straight-arm-pulldown",
+      "name": "Straight-arm pulldown",
+      "equipment": "Cable",
+      "movementPattern": "shoulder extension",
+      "targetArea": "Lats + serratus",
+      "baseImage": "assets/exercises/straight-arm-pulldown.png",
+      "phases": {
+        "setup": "assets/exercises/straight-arm-pulldown-phase-setup.png",
+        "move": "assets/exercises/straight-arm-pulldown-phase-move.png",
+        "return": "assets/exercises/straight-arm-pulldown-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:optional",
+        "Thursday:optional"
+      ]
+    },
+    {
+      "id": "t-bar-row",
+      "name": "T-bar row",
+      "equipment": "T-bar",
+      "movementPattern": "horizontal pull",
+      "targetArea": "Upper back",
+      "baseImage": "assets/exercises/t-bar-row.png",
+      "phases": {
+        "setup": "assets/exercises/t-bar-row-phase-setup.png",
+        "move": "assets/exercises/t-bar-row-phase-move.png",
+        "return": "assets/exercises/t-bar-row-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:optional",
+        "Thursday:core-2-primary"
+      ]
+    },
+    {
+      "id": "thoracic-rotations",
+      "name": "Thoracic rotations",
+      "equipment": "Bodyweight",
+      "movementPattern": "mobility",
+      "targetArea": "Thoracic mobility",
+      "baseImage": "assets/exercises/thoracic-rotations.png",
+      "phases": {
+        "setup": "assets/exercises/thoracic-rotations-phase-setup.png",
+        "move": "assets/exercises/thoracic-rotations-phase-move.png",
+        "return": "assets/exercises/thoracic-rotations-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Monday:warmup-2",
+        "Thursday:warmup-2"
+      ]
+    },
+    {
+      "id": "walking-lunge",
+      "name": "Walking lunge",
+      "equipment": "Bodyweight/dumbbells",
+      "movementPattern": "single-leg squat",
+      "targetArea": "Quads + glutes",
+      "baseImage": "assets/exercises/walking-lunge.png",
+      "phases": {
+        "setup": "assets/exercises/walking-lunge-phase-setup.png",
+        "move": "assets/exercises/walking-lunge-phase-move.png",
+        "return": "assets/exercises/walking-lunge-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Wednesday:core-3-alternative",
+        "Wednesday:optional",
+        "Saturday:optional"
+      ]
+    },
+    {
+      "id": "wall-slides",
+      "name": "Wall slides",
+      "equipment": "Wall",
+      "movementPattern": "mobility",
+      "targetArea": "Shoulder mobility",
+      "baseImage": "assets/exercises/wall-slides.png",
+      "phases": {
+        "setup": "assets/exercises/wall-slides-phase-setup.png",
+        "move": "assets/exercises/wall-slides-phase-move.png",
+        "return": "assets/exercises/wall-slides-phase-return.png"
+      },
+      "requiredCanvas": {
+        "width": 512,
+        "height": 512,
+        "minimumClearMarginPx": 51
+      },
+      "sequenceRules": [
+        "same athlete, equipment, clothing, lighting, and camera angle in all phases",
+        "one athlete and one pose per frame; no collage, inset, split screen, or mirrored duplicate",
+        "setup, move, and return must show meaningfully different joint positions",
+        "charcoal background, high-contrast off-white figure/equipment, restrained orange motion emphasis",
+        "full athlete and equipment remain inside the safe margin"
+      ],
+      "visualReviewStatus": "pending-regeneration",
+      "coachReviewStatus": "pending",
+      "assetVersion": "v4-existing",
+      "usages": [
+        "Tuesday:warmup-2",
+        "Friday:warmup-2"
+      ]
+    }
+  ]
+}

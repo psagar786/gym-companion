@@ -1,0 +1,4679 @@
+{
+  "generatedAt": "2026-09-12T03:57:40.980Z",
+  "planVersion": "periodized-abc-v1",
+  "runtimeIdentityCount": 291,
+  "v2ArtworkSetCount": 43,
+  "v2ArtworkFileCount": 86,
+  "mappedRuntimeIdentityCount": 59,
+  "uncoveredRuntimeIdentityCount": 232,
+  "unusedPilotSetCount": 8,
+  "technicalPassCount": 43,
+  "assetRows": [
+    {
+      "movementId": "periodized-incline-dumbbell-bench-press",
+      "name": "Incline Dumbbell Bench Press (30°)",
+      "sourceRow": 2,
+      "runtimeIds": [
+        "biweekly-incline-dumbbell-bench-press-30",
+        "periodized-incline-dumbbell-press",
+        "periodized-incline-db-press"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-incline-dumbbell-bench-press-30",
+        "periodized-incline-dumbbell-press",
+        "periodized-incline-db-press"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-incline-dumbbell-bench-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "8d28b0ae463468210c6ad982fcc22a8ab1b8a309800f552beeaa51a4984f5f01"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-incline-dumbbell-bench-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "ea95bb31180cad2041d64b18f5180d56ed3996283fc86bacf9a1618ba2c9a4f5"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-flat-dumbbell-bench-press",
+      "name": "Flat Dumbbell Bench Press",
+      "sourceRow": 3,
+      "runtimeIds": [
+        "biweekly-flat-dumbbell-bench-press",
+        "periodized-flat-dumbbell-bench"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-flat-dumbbell-bench-press",
+        "periodized-flat-dumbbell-bench"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-flat-dumbbell-bench-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "516a3103b7aa1d0ec2afaf1d103ecc6c1a36cd31ed0974a02e3ead5fa1b51c46"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-flat-dumbbell-bench-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "f365c134181f6d4b66add692ad12d2660088bfb25d4b347e4f40defedb1ae3dd"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-incline-barbell-bench-press",
+      "name": "Incline Barbell Bench Press",
+      "sourceRow": 4,
+      "runtimeIds": [
+        "biweekly-incline-barbell-bench-press-30",
+        "periodized-incline-barbell-bench"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-incline-barbell-bench-press-30",
+        "periodized-incline-barbell-bench"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-incline-barbell-bench-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "cab7e3d8186bea8aa23edab97c7efc8b7a02170f6d12fccf7b8a600a09e2a18b"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-incline-barbell-bench-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "57ae010ecc23f3e9d97d7727efdaffb1b6d8d3a6e00f36e77ad2ad2214d0b8fb"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-incline-smith-machine-press",
+      "name": "Incline Smith Machine Press",
+      "sourceRow": 5,
+      "runtimeIds": [
+        "periodized-incline-smith-machine-press"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-incline-smith-machine-press"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-incline-smith-machine-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "e9a444381936ad35b826715bdd27305a86033767cadc5d15f02dc21eddd003ad"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-incline-smith-machine-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "412410f966182d4b377f57c1dff8332d6d1f12fd8d2893e5c690e8f243977fdf"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-standing-cable-chest-press",
+      "name": "Standing Cable Chest Press",
+      "sourceRow": 6,
+      "runtimeIds": [],
+      "matchedRuntimeIds": [],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-standing-cable-chest-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "9c1cfe3303900ecf04b6d74a7cd1911a5a69ef5e7c76f6af4aa6960b4f9f886a"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-standing-cable-chest-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "000561bc9052572fa8f5e6ab7569c0d43f9f3ea7c9dd23cf99528001f0326347"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-incline-hex-press",
+      "name": "Incline Dumbbell Hex Press",
+      "sourceRow": 7,
+      "runtimeIds": [
+        "periodized-incline-db-hex-press",
+        "biweekly-incline-dumbbell-hex-press"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-incline-db-hex-press",
+        "biweekly-incline-dumbbell-hex-press"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-incline-hex-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "cfdb55734814e4535182b1c447e629e2d6a171a2c1b6fc97368d53d9bf932fa6"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-incline-hex-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "310125505ec499c6c02627bdda7d400b5380951e240de479160736f7e6dee67a"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-low-to-high-cable-fly",
+      "name": "Low-to-High Cable Fly",
+      "sourceRow": 8,
+      "runtimeIds": [
+        "periodized-low-to-high-cable-fly",
+        "biweekly-standing-low-to-high-cable-crossover"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-low-to-high-cable-fly",
+        "biweekly-standing-low-to-high-cable-crossover"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-low-to-high-cable-fly-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "8687838bffaffeb6ca857381dfc1b4a1e1a6cbaf9002e673c62a7a85bf4a69b0"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-low-to-high-cable-fly-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "85127885cdbd50c89e87282fb72f485dd2e922cd3963cfd9a5e8c034417058ea"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-high-to-low-cable-fly",
+      "name": "High-to-Low Cable Fly",
+      "sourceRow": 9,
+      "runtimeIds": [],
+      "matchedRuntimeIds": [],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-high-to-low-cable-fly-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "a61c0fd1d6e490dca4a439bf7fd19abebb9a509c1bed2345bc2f1cdc6d812850"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-high-to-low-cable-fly-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "328f1920514dac060711cdd5ed448ff322b662f54692a17fa55207a66703a4b5"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-standing-barbell-overhead-press",
+      "name": "Standing Barbell Overhead Press",
+      "sourceRow": 10,
+      "runtimeIds": [
+        "periodized-standing-barbell-overhead-press",
+        "biweekly-standing-barbell-overhead-press"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-standing-barbell-overhead-press",
+        "biweekly-standing-barbell-overhead-press"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-standing-barbell-overhead-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "57435405946870235b629dd1136c4878da324a443f7aca3cdbd6a9ecde30c7c1"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-standing-barbell-overhead-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "fc45a3965710520a7203ba3ed9aba64dfa515425bfb28a06116d6104dec70af8"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-seated-dumbbell-shoulder-press",
+      "name": "Seated Dumbbell Shoulder Press",
+      "sourceRow": 11,
+      "runtimeIds": [
+        "periodized-seated-db-shoulder-press",
+        "biweekly-seated-dumbbell-overhead-shoulder-press"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-seated-db-shoulder-press",
+        "biweekly-seated-dumbbell-overhead-shoulder-press"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-seated-dumbbell-shoulder-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "d146978051e56349999bdf52524a0f5f63155bd4ab77b8f59c3140eca5e7970b"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-seated-dumbbell-shoulder-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "89bbd03edff02fd6f6ec25457a6774598597a21748b5cb838925a903ee8ebf91"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-wide-grip-lat-pulldown",
+      "name": "Wide-Grip Lat Pulldown",
+      "sourceRow": 12,
+      "runtimeIds": [
+        "periodized-wide-grip-lat-pulldown",
+        "biweekly-wide-grip-lat-pulldown"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-wide-grip-lat-pulldown",
+        "biweekly-wide-grip-lat-pulldown"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-wide-grip-lat-pulldown-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "e17eb263813f286dc7ecbc2ced9c13af0f9d9b2b2c9e9059a80c20fd4d57da23"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-wide-grip-lat-pulldown-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "3b66864f89798f97ec3d59780a05c6a5da460d02113b28cdb5cf55ab458758e5"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-close-neutral-v-bar-pulldown",
+      "name": "Close Neutral-Grip V-Bar Pulldown",
+      "sourceRow": 13,
+      "runtimeIds": [
+        "biweekly-close-grip-v-bar-lat-pulldown",
+        "biweekly-neutral-grip-lat-pulldown-close-grip-v-bar"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-close-grip-v-bar-lat-pulldown",
+        "biweekly-neutral-grip-lat-pulldown-close-grip-v-bar"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-close-neutral-v-bar-pulldown-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "ef881cf4c37ea8e7a7b70e0831ef6dbd30ed6e03dc6ba240277ec6818f2b604a"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-close-neutral-v-bar-pulldown-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "dad7e71710bfe6de6baa4c6b82bd93929d56ccccf5864e2553cbc90e4b9e4ded"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-single-arm-cable-pulldown",
+      "name": "Single-Arm Cable Pulldown",
+      "sourceRow": 14,
+      "runtimeIds": [
+        "periodized-single-arm-cable-pulldown",
+        "biweekly-single-arm-iliac-cable-lat-pulldown"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-single-arm-cable-pulldown",
+        "biweekly-single-arm-iliac-cable-lat-pulldown"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-single-arm-cable-pulldown-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "fb47c8937443e0d82782cf73b1acb4a1c1e664fcb7309e6e603476d22e75fa30"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-single-arm-cable-pulldown-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "fdc8df5e283229674d26ade6bc3cc44b9f9a863dd96838197d0781ef43c99601"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-chest-supported-incline-dumbbell-row",
+      "name": "Chest-Supported Incline Dumbbell Row",
+      "sourceRow": 15,
+      "runtimeIds": [
+        "biweekly-chest-supported-incline-dumbbell-row",
+        "periodized-chest-supported-db-row"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-chest-supported-incline-dumbbell-row",
+        "periodized-chest-supported-db-row"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-chest-supported-incline-dumbbell-row-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "de23e794bda47d2f412dcc92f28bc82a8b1b915b93b71371f8e745343f7fdef4"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-chest-supported-incline-dumbbell-row-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "63d1168026e7a1e7b656ba008c395f8527ce0970083d1fe493ef8d6ff276df76"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-seated-neutral-cable-row",
+      "name": "Seated Cable Row (Neutral Grip)",
+      "sourceRow": 16,
+      "runtimeIds": [
+        "periodized-seated-cable-row",
+        "periodized-seated-cable-row-sternum",
+        "biweekly-seated-cable-row-to-sternum-neutral-grip"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-seated-cable-row",
+        "periodized-seated-cable-row-sternum",
+        "biweekly-seated-cable-row-to-sternum-neutral-grip"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-seated-neutral-cable-row-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "050d917eac23e97e4fc036a957fe6836e01e9bf32eab7bf14ddd131851622ad3"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-seated-neutral-cable-row-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "6da6ee040d1d982243dc934fd7b469f29093985b061376d753bb8702e54acc43"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-t-bar-row",
+      "name": "T-Bar Row",
+      "sourceRow": 17,
+      "runtimeIds": [
+        "periodized-t-bar-row"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-t-bar-row"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-t-bar-row-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "7bcdb2bdee0a4592dd8402daa4de38d2af10585970932ab26075c24cb7394b2b"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-t-bar-row-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "ee323fe7fb5ca66090d135ee52bbe946239c48595479a768700f5b2b51ffcf7c"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-straight-arm-cable-pulldown",
+      "name": "Straight-Arm Cable Pulldown",
+      "sourceRow": 18,
+      "runtimeIds": [
+        "periodized-straight-arm-cable-pulldown",
+        "biweekly-straight-arm-cable-pulldown"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-straight-arm-cable-pulldown",
+        "biweekly-straight-arm-cable-pulldown"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-straight-arm-cable-pulldown-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "91120b68e7cea515f05c5f674a3f16137a919f811ca96baa3872c1d62b601351"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-straight-arm-cable-pulldown-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "ccb42a36151e1a3dca05c95fa56addb98cc50995b61a2a48000129a7c439eed5"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-cable-face-pull-external-rotation",
+      "name": "Cable Face Pull with External Rotation",
+      "sourceRow": 19,
+      "runtimeIds": [
+        "biweekly-cable-face-pull-with-external-rotation"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-cable-face-pull-with-external-rotation"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-cable-face-pull-external-rotation-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "412d19804e08fde47737e0e290356e90866e53f9814efb00f25968e9a7b8b4f4"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-cable-face-pull-external-rotation-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "3f8a29047a0de588cb2dcc6a1a8099bbf2a5905ef0581a3eb9bdefbe28cb559e"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-incline-prone-dumbbell-reverse-fly",
+      "name": "Incline Prone Dumbbell Reverse Fly",
+      "sourceRow": 20,
+      "runtimeIds": [
+        "periodized-incline-prone-db-reverse-fly",
+        "periodized-incline-dumbbell-reverse-fly",
+        "biweekly-incline-prone-dumbbell-reverse-fly"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-incline-prone-db-reverse-fly",
+        "periodized-incline-dumbbell-reverse-fly",
+        "biweekly-incline-prone-dumbbell-reverse-fly"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-incline-prone-dumbbell-reverse-fly-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "fab93db6accdc16e1c9c098ab98f5b3f7c1a9f870abe283cae8fbc23b608794e"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-incline-prone-dumbbell-reverse-fly-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "311a87c3de9fd177327090a1132219185a06bf97c22ee25d1c8b94c165cb5e03"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-barbell-back-squat",
+      "name": "Barbell Back Squat",
+      "sourceRow": 21,
+      "runtimeIds": [],
+      "matchedRuntimeIds": [],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-barbell-back-squat-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "9c05b4450c1efc617379e697a34be6fd4f8fcebb325b5bc31633c0b981b066fc"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-barbell-back-squat-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "18859888e5338c64da374c27d5a8e17c0b9ef6cefd7b4cb673566d9808bf2e3e"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-45-degree-leg-press",
+      "name": "45° Incline Leg Press",
+      "sourceRow": 22,
+      "runtimeIds": [
+        "periodized-45-incline-leg-press",
+        "biweekly-45-incline-leg-press-mid-stance"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-45-incline-leg-press",
+        "biweekly-45-incline-leg-press-mid-stance"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-45-degree-leg-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "b2d9bf70ba37f3be75ffb61abe6bbd956a1b663279e91e6813f30fdeb95d9538"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-45-degree-leg-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "4b635bb7bdbd2b130fd79e75108a0914c7b7316ad2cef1acc566b75f96927faf"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-dumbbell-romanian-deadlift",
+      "name": "Dumbbell Romanian Deadlift",
+      "sourceRow": 23,
+      "runtimeIds": [
+        "biweekly-dumbbell-romanian-deadlift-rdl"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-dumbbell-romanian-deadlift-rdl"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-dumbbell-romanian-deadlift-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "c1f6c643c5ffcfa6cb6029651a60a4a9b4322570151aaf44e4fab6f1e9c0fdd4"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-dumbbell-romanian-deadlift-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "d11b6d13f4e581ebacdf9a6ae35c968190bb0ed29a29ef628695437dc8b3829d"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-conventional-barbell-deadlift",
+      "name": "Conventional Barbell Deadlift",
+      "sourceRow": 24,
+      "runtimeIds": [
+        "periodized-conventional-deadlift"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-conventional-deadlift"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-conventional-barbell-deadlift-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "eca78c35cad4ca3a4dd6b729b621a995fc501093660e2173e7926011a4e3ffb6"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-conventional-barbell-deadlift-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "2503765aa3889b42286ba631b4eed6f866533313e1697525d7f8ecb7d99063b5"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-seated-hip-adductor-machine",
+      "name": "Seated Hip Adductor Machine",
+      "sourceRow": 25,
+      "runtimeIds": [
+        "biweekly-seated-hip-adductor-machine"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-seated-hip-adductor-machine"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-seated-hip-adductor-machine-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "1afb0fbc0846b46be6e9dc966942cb6745e4ef1da861502a508d800115c89105"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-seated-hip-adductor-machine-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "15df4419aa2f0bfb41fdcd12e5af6a74e9dd5679a4240393d4765879036bd51b"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-seated-hip-abductor-machine",
+      "name": "Seated Hip Abductor Machine",
+      "sourceRow": 26,
+      "runtimeIds": [
+        "biweekly-seated-hip-abductor-machine"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-seated-hip-abductor-machine"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-seated-hip-abductor-machine-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "e3acbbce06bb30253d353893d15cd20432bc6cf8879cba89e9825ed8a0d80fce"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-seated-hip-abductor-machine-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "b6361b2a432ec5cc8f7e79c8eb90faa40a76cf45ee1708541ac567ba98ffd712"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-dumbbell-glute-bridge",
+      "name": "Dumbbell Glute Bridge",
+      "sourceRow": 27,
+      "runtimeIds": [
+        "periodized-dumbbell-glute-bridge"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-dumbbell-glute-bridge"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-dumbbell-glute-bridge-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "2855b3ef7e07da5b3e81cf14c3f52454ccc9b70f67c2d90e6567c409eec74d44"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-dumbbell-glute-bridge-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "0b05e9f74773d176a85735e9033c54cb2c4d9ae00316a5de933337bb77a1381c"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-prone-lying-leg-curl",
+      "name": "Prone Lying Leg Curl Machine",
+      "sourceRow": 28,
+      "runtimeIds": [
+        "periodized-lying-leg-curl",
+        "biweekly-lying-leg-curl-machine"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-lying-leg-curl",
+        "biweekly-lying-leg-curl-machine"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-prone-lying-leg-curl-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "21ef616d449a4a0fdfa208c76bc25b227cbc92cf6f26a1034aa8f3922f670b58"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-prone-lying-leg-curl-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "5718a0b27702b21b17c17b9b4c6fb106ffe421362b576d077302e9d113c75523"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-dumbbell-walking-lunges",
+      "name": "Dumbbell Walking Lunges",
+      "sourceRow": 29,
+      "runtimeIds": [
+        "biweekly-dumbbell-walking-lunges"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-dumbbell-walking-lunges"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-dumbbell-walking-lunges-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "72b9209c079231acbb1030412aa7b1850f200f8b64dadef505898783f635dcda"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-dumbbell-walking-lunges-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "83c19cdb537bb8669648b9557071f748aca4db8fa1ae93a030093f856d2d0c7c"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-hanging-knee-raise",
+      "name": "Hanging Knee Raise",
+      "sourceRow": 30,
+      "runtimeIds": [
+        "periodized-hanging-knee-raise"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-hanging-knee-raise"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-hanging-knee-raise-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "a0ec2ce66ef76d94719a8acf74c6d670cbb0a8a00dfc250c4eb703a62832f3ab"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-hanging-knee-raise-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "cfbca91aa9508d7cdf73d3e1863b9457da614feee9ddc5358eae498d203eb043"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-cable-pallof-press",
+      "name": "Cable Pallof Press",
+      "sourceRow": 31,
+      "runtimeIds": [
+        "periodized-cable-pallof-press",
+        "periodized-standard-pallof-press"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-cable-pallof-press",
+        "periodized-standard-pallof-press"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-cable-pallof-press-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "9517512f4e0daa6e0f95bc1741f08913e67528af1a9020933be254ec847c29ea"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-cable-pallof-press-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "f9a3189894e822de8a6fe5930c407cd7b0deb3db1e5dcde4300b60a0492195a2"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-cable-woodchopper",
+      "name": "Cable Woodchopper",
+      "sourceRow": 32,
+      "runtimeIds": [],
+      "matchedRuntimeIds": [],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-cable-woodchopper-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "5228ad3eb06e93eeb2b5c96c66db67b15a526c90b2ba7f0f6d9383458160580d"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-cable-woodchopper-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "d1a0cd40a929aed8cf3023ad56dca844bd11fcc4db257b5d0e93d659ed8ba665"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-incline-bench-reverse-crunch",
+      "name": "Incline Bench Reverse Crunch",
+      "sourceRow": 33,
+      "runtimeIds": [
+        "periodized-incline-reverse-crunch",
+        "biweekly-incline-bench-reverse-crunch-with-pelvic-curl"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-incline-reverse-crunch",
+        "biweekly-incline-bench-reverse-crunch-with-pelvic-curl"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-incline-bench-reverse-crunch-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "b1346394269c563b6c795c6634d47ddd76c32742b98222cf642db66b8349f82c"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-incline-bench-reverse-crunch-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "da8af3734e35bda42f013191a3c490a15d36da5abaaf14a2ddcb4a5d18afdd50"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-rkc-hardstyle-plank",
+      "name": "RKC Hardstyle Plank",
+      "sourceRow": 34,
+      "runtimeIds": [
+        "periodized-rkc-hardstyle-plank"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-rkc-hardstyle-plank"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-rkc-hardstyle-plank-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "460fa9dde258d932d658fa4aa10206f6112d36f2b83befd58fbae21171e2f99e"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-rkc-hardstyle-plank-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "54125816377303f4a7b377f6c2f1e189dd174dd36d305a4fda0ab8bd47cd50a8"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-transverse-abdominis-stomach-vacuum",
+      "name": "Transverse Abdominis Stomach Vacuum",
+      "sourceRow": 35,
+      "runtimeIds": [
+        "biweekly-transverse-abdominis-stomach-vacuum",
+        "biweekly-transverse-abdominis-stomach-vacuums"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-transverse-abdominis-stomach-vacuum",
+        "biweekly-transverse-abdominis-stomach-vacuums"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-transverse-abdominis-stomach-vacuum-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "dce7afebd37ac9de6d373c75636b8d46455b3ad482cd3ad16a26ff3fa6d9453a"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-transverse-abdominis-stomach-vacuum-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "12a0a7ea11be3d06575a6c767da880ee0ee41683995f6c5089a7c5715c1db334"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-rotator-cuff-external-rotation-isometric",
+      "name": "Rotator Cuff External Rotation Isometric Hold",
+      "sourceRow": 36,
+      "runtimeIds": [],
+      "matchedRuntimeIds": [],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-rotator-cuff-external-rotation-isometric-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "940b8a77b151e37c015fd267561f936ea89f3a2d70e022b9628dd54dd6861656"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-rotator-cuff-external-rotation-isometric-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "914969cf05b80dd059ac6b748346ca38cf63e5ee8795358872c153a26eba3f35"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-side-plank-ql-isometric-hold",
+      "name": "Side Plank QL Isometric Hold",
+      "sourceRow": 37,
+      "runtimeIds": [
+        "periodized-side-plank-hold"
+      ],
+      "matchedRuntimeIds": [
+        "periodized-side-plank-hold"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-side-plank-ql-isometric-hold-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "acd979ac62a034b37af2e55d8e9beeef410aa9a2f27cf5bc100d70c5e38ba3f0"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-side-plank-ql-isometric-hold-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "4586ea3033fad2f9c2896c376f902b9d3a15ac64e43bd809f901b12a0a7eb5f5"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-poliquin-vmo-step-up-hold",
+      "name": "Poliquin Heel-Elevated VMO Step-Up Hold",
+      "sourceRow": 38,
+      "runtimeIds": [],
+      "matchedRuntimeIds": [],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-poliquin-vmo-step-up-hold-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "17b22505540e0ee080157d9941fbc4a23d906e89d9acfc59c803f23843799a20"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-poliquin-vmo-step-up-hold-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "0502b7e69da39f195e96e25fdcfd31f7b94d23b2ccc4f428c66f8613a9463205"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-reverse-grip-dumbbell-wrist-forearm-isometric",
+      "name": "Reverse-Grip Dumbbell Wrist and Forearm Isometric Hold",
+      "sourceRow": 39,
+      "runtimeIds": [],
+      "matchedRuntimeIds": [],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-reverse-grip-dumbbell-wrist-forearm-isometric-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "676c0d61b9b10a8129d16b5b6eb4298f5db9aef0380e3424c105bb53073cb401"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-reverse-grip-dumbbell-wrist-forearm-isometric-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "a7c45f9b729f8475d856c8e95fed9b4da5bd897b4e202f5e4208ba41f3f2f048"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-45-degree-back-extension-hold",
+      "name": "45° Back Extension Peak Hold",
+      "sourceRow": 40,
+      "runtimeIds": [],
+      "matchedRuntimeIds": [],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-45-degree-back-extension-hold-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "2f5e706e475a344f6bdb197e14520ab5733c28b77d241a1de7312fe876d99539"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-45-degree-back-extension-hold-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "dbf574f5b1d6871ac4dd3f71c65fd821069cb662d7cce38e3517d7a622484767"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-stick-shoulder-dislocates",
+      "name": "Stick Shoulder Dislocates",
+      "sourceRow": 41,
+      "runtimeIds": [
+        "biweekly-stick-shoulder-dislocates",
+        "biweekly-stick-dislocates"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-stick-shoulder-dislocates",
+        "biweekly-stick-dislocates"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-stick-shoulder-dislocates-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "e40a8e77cb983646119a1dbb68c7f6fcfa9d961a00cc54beaa4d26791b0eb00a"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-stick-shoulder-dislocates-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "8382e171eaacf4ffbf6283f109ca2b8435587171d3ccaa67dee6fe5c9a6b8729"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-stick-around-the-world",
+      "name": "Stick Around the World",
+      "sourceRow": 42,
+      "runtimeIds": [
+        "biweekly-stick-around-the-worlds"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-stick-around-the-worlds"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-stick-around-the-world-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "d87d3002d954c8f4f0796306ec2a3d48fb3f84f5cff598a1a913544e5312436e"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-stick-around-the-world-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "c6677611fc87bf2ba78431b0a1f1417335c53a0f9f6c185ebda523ccac41685b"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-stick-overhead-thoracic-extensions",
+      "name": "Stick Overhead Thoracic Extensions",
+      "sourceRow": 43,
+      "runtimeIds": [
+        "biweekly-stick-overhead-thoracic-extensions",
+        "biweekly-stick-overhead-thoracic-spine-extensions"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-stick-overhead-thoracic-extensions",
+        "biweekly-stick-overhead-thoracic-spine-extensions"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-stick-overhead-thoracic-extensions-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "ddf1fdf34b6d246ec6a62e36b7c50953b95d28631c3cdb3267a9f48923d39e7a"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-stick-overhead-thoracic-extensions-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "514a382bb341a7c0f7f95bde403087bc6f9346571f722471e1a706222b302b1e"
+        }
+      ],
+      "technicalPass": true
+    },
+    {
+      "movementId": "periodized-stick-standing-trunk-rotation",
+      "name": "Standing Stick Trunk Rotation",
+      "sourceRow": 44,
+      "runtimeIds": [
+        "biweekly-stick-standing-trunk-rotations"
+      ],
+      "matchedRuntimeIds": [
+        "biweekly-stick-standing-trunk-rotations"
+      ],
+      "unknownRuntimeIds": [],
+      "phases": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v2/periodized-stick-standing-trunk-rotation-v2-start.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "0773696ef056b4a25211c5216b0a1cd185bdd3bfe632351f43a866edb5b38b58"
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v2/periodized-stick-standing-trunk-rotation-v2-movement.png",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "hash": "a6bab1462405e0710cbd989fb7b00183666cfd67f6d8c37f986f931adcf711d6"
+        }
+      ],
+      "technicalPass": true
+    }
+  ],
+  "unusedPilotSets": [
+    {
+      "movementId": "periodized-standing-cable-chest-press",
+      "name": "Standing Cable Chest Press",
+      "sourceRow": 6
+    },
+    {
+      "movementId": "periodized-high-to-low-cable-fly",
+      "name": "High-to-Low Cable Fly",
+      "sourceRow": 9
+    },
+    {
+      "movementId": "periodized-barbell-back-squat",
+      "name": "Barbell Back Squat",
+      "sourceRow": 21
+    },
+    {
+      "movementId": "periodized-cable-woodchopper",
+      "name": "Cable Woodchopper",
+      "sourceRow": 32
+    },
+    {
+      "movementId": "periodized-rotator-cuff-external-rotation-isometric",
+      "name": "Rotator Cuff External Rotation Isometric Hold",
+      "sourceRow": 36
+    },
+    {
+      "movementId": "periodized-poliquin-vmo-step-up-hold",
+      "name": "Poliquin Heel-Elevated VMO Step-Up Hold",
+      "sourceRow": 38
+    },
+    {
+      "movementId": "periodized-reverse-grip-dumbbell-wrist-forearm-isometric",
+      "name": "Reverse-Grip Dumbbell Wrist and Forearm Isometric Hold",
+      "sourceRow": 39
+    },
+    {
+      "movementId": "periodized-45-degree-back-extension-hold",
+      "name": "45° Back Extension Peak Hold",
+      "sourceRow": 40
+    }
+  ],
+  "uncoveredRuntime": [
+    {
+      "id": "periodized-deficit-push-ups",
+      "name": "Deficit Push-Ups",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-neutral-grip-mag-pulldown",
+      "name": "Neutral-Grip Mag Pulldown",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-assisted-pull-ups",
+      "name": "Assisted Pull-Ups",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-chest-supported-machine-row",
+      "name": "Chest-Supported Machine Row",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-flat-barbell-bench",
+      "name": "Flat Barbell Bench",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-parallel-bar-dips",
+      "name": "Parallel Bar Dips",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-dumbbell-pullover-on-bench",
+      "name": "Dumbbell Pullover on Bench",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-pushdown",
+      "name": "Cable Pushdown",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-low-incline-cable-fly",
+      "name": "Low Incline Cable Fly",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-standing-plate-press",
+      "name": "Standing Plate Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-close-grip-incline-db-press",
+      "name": "Close-Grip Incline DB Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-reverse-pec-deck-fly",
+      "name": "Reverse Pec Deck Fly",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-incline-prone-db-y-raise",
+      "name": "Incline Prone DB Y-Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-band-pull-apart",
+      "name": "Band Pull-Apart",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-hanging-straight-leg-raise",
+      "name": "Hanging Straight-Leg Raise",
+      "roles": [
+        "optional",
+        "core"
+      ],
+      "days": [
+        "Monday",
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-captain-s-chair-leg-raise",
+      "name": "Captain's Chair Leg Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-ab-wheel-rollout",
+      "name": "Ab Wheel Rollout",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday",
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-floor-leg-raise",
+      "name": "Floor Leg Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-behind-the-back-chest-opener",
+      "name": "Stick Behind-the-Back Chest Opener",
+      "roles": [
+        "recovery",
+        "warmup"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-overhead-lat-stretch",
+      "name": "Stick Overhead Lat Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-doorway-pec-stretch",
+      "name": "Doorway Pec Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9",
+      "name": "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)",
+      "roles": [
+        "cardio"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-seated-russian-twists",
+      "name": "Stick Seated Russian Twists",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-russian-twist",
+      "name": "Cable Russian Twist",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-floor-bodyweight-twist",
+      "name": "Floor Bodyweight Twist",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-medicine-ball-twists",
+      "name": "Medicine Ball Twists",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-lying-pelvic-tilt-leg-raise",
+      "name": "Lying Pelvic-Tilt Leg Raise",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-bench-reverse-crunch",
+      "name": "Bench Reverse Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-hanging-leg-raise",
+      "name": "Hanging Leg Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-cable-pallof-press-with-iso-hold",
+      "name": "Cable Pallof Press with Iso-Hold",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-db-suitcase-carry",
+      "name": "DB Suitcase Carry",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-standing-lateral-side-bends",
+      "name": "Stick Standing Lateral Side Bends",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-light-db-side-bend",
+      "name": "Light DB Side Bend",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-side-plank-hip-dips",
+      "name": "Side Plank Hip Dips",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-side-crunch",
+      "name": "Cable Side Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-lying-supine-vacuum",
+      "name": "Lying Supine Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-incline-bench-plank-vacuum",
+      "name": "Incline Bench Plank Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cat-cow-vacuum",
+      "name": "Cat-Cow Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-kneeling-cable-rope-crunch",
+      "name": "Kneeling Cable Rope Crunch",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-decline-bench-weighted-crunch",
+      "name": "Decline Bench Weighted Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-stability-ball-crunch",
+      "name": "Stability Ball Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-floor-crunch",
+      "name": "Floor Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-standing-torso-twists",
+      "name": "Stick Standing Torso Twists",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-overhead-side-bends",
+      "name": "Stick Overhead Side Bends",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-high-knee-marches",
+      "name": "Stick High Knee Marches",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-standing-overhead-side-stretch",
+      "name": "Stick Standing Overhead Side Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-spinal-twist",
+      "name": "Stick Spinal Twist",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-cobra-pose",
+      "name": "Cobra Pose",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-incline-walk",
+      "name": "Incline Walk",
+      "roles": [
+        "cardio"
+      ],
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-intervals",
+      "name": "Intervals",
+      "roles": [
+        "cardio"
+      ],
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-wide-stance-sumo-goblet-squat",
+      "name": "Wide-Stance Sumo Goblet Squat",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-hip-adduction",
+      "name": "Cable Hip Adduction",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday",
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-side-lying-adduction",
+      "name": "Side-Lying Adduction",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-side-plank-abduction",
+      "name": "Side Plank Abduction",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-barbell-rdl",
+      "name": "Barbell RDL",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-pull-through",
+      "name": "Cable Pull-Through",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-goblet-squat-to-box",
+      "name": "Goblet Squat to Box",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-bodyweight-box-squat",
+      "name": "Bodyweight Box Squat",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-dumbbell-lying-leg-curl",
+      "name": "Dumbbell Lying Leg Curl",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-deficit-bulgarian-split-squat",
+      "name": "Deficit Bulgarian Split Squat",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-step-ups-on-bench",
+      "name": "Step-Ups on Bench",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-reverse-lunges",
+      "name": "Reverse Lunges",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-deficit-bulgarian-split-squats",
+      "name": "Deficit Bulgarian Split Squats",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-single-leg-press",
+      "name": "Single-Leg Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-single-leg-step-ups",
+      "name": "Single-Leg Step-Ups",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-bodyweight-split-squats",
+      "name": "Bodyweight Split Squats",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-standing-machine-calf-raise",
+      "name": "Standing Machine Calf Raise",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-seated-calf-raise",
+      "name": "Seated Calf Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-dumbbell-single-leg-calf-raise",
+      "name": "Dumbbell Single-Leg Calf Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-leg-press-calf-raise",
+      "name": "Leg Press Calf Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-overhead-deep-squat-prys",
+      "name": "Stick Overhead Deep Squat Prys",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-good-mornings",
+      "name": "Stick Good Mornings",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-lateral-leg-swings",
+      "name": "Stick Lateral Leg Swings",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-quad-stretch",
+      "name": "Stick Quad Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-butterfly-groin-stretch",
+      "name": "Butterfly Groin Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-hamstring-stretch",
+      "name": "Hamstring Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-no-cardio-safeguard-knee-cns-recovery",
+      "name": "NO CARDIO (Safeguard Knee & CNS Recovery)",
+      "roles": [
+        "cardio"
+      ],
+      "days": [
+        "Wednesday",
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-machine-shoulder-press",
+      "name": "Machine Shoulder Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-arnold-press",
+      "name": "Arnold Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-underhand-lat-pulldown",
+      "name": "Underhand Lat Pulldown",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-chin-ups",
+      "name": "Chin-Ups",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-seated-wide-grip-cable-row",
+      "name": "Seated Wide-Grip Cable Row",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-incline-db-prone-row",
+      "name": "Incline DB Prone Row",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-fly",
+      "name": "Cable Fly",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-standing-cable-crossover",
+      "name": "Standing Cable Crossover",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-dumbbell-incline-fly",
+      "name": "Dumbbell Incline Fly",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-incline-dumbbell-curl",
+      "name": "Incline Dumbbell Curl",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-rope-tricep-pressdown",
+      "name": "Rope Tricep Pressdown",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-ez-bar-curl-skullcrushers",
+      "name": "Ez-Bar Curl & Skullcrushers",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-hammer-curl-dips",
+      "name": "Cable Hammer Curl & Dips",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-concentration-curls",
+      "name": "Concentration Curls",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-dumbbell-pullover-on-flat-bench",
+      "name": "Dumbbell Pullover on Flat Bench",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-straight-arm-cable-pushdown",
+      "name": "Straight-Arm Cable Pushdown",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-incline-cable-pullover",
+      "name": "Incline Cable Pullover",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-decline-db-pullover",
+      "name": "Decline DB Pullover",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-side-plank-hold-with-rotation",
+      "name": "Side Plank Hold with Rotation",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-hanging-oblique-knee-raise",
+      "name": "Hanging Oblique Knee Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-suitcase-carry",
+      "name": "Suitcase Carry",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-lat-stretch",
+      "name": "Stick Lat Stretch",
+      "roles": [
+        "warmup",
+        "recovery"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-doorway-chest-stretch",
+      "name": "Stick Doorway Chest Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-cross-body-stretch",
+      "name": "Cross-Body Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-woodchopper-low-to-high",
+      "name": "Cable Woodchopper (Low-to-High)",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-russian-twists",
+      "name": "Russian Twists",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-floor-reverse-crunch-with-pelvic-tilt",
+      "name": "Floor Reverse Crunch with Pelvic Tilt",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-lying-leg-lift",
+      "name": "Lying Leg Lift",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-overhead-lateral-side-bends",
+      "name": "Stick Overhead Lateral Side Bends",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-standard-forearm-plank-to-rkc-hardstyle-plank",
+      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-extended-plank",
+      "name": "Extended Plank",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-quadruped-vacuum",
+      "name": "Quadruped Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday",
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-lying-vacuum",
+      "name": "Lying Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday",
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-plank-vacuum",
+      "name": "Plank Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday",
+        "Tuesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-knee-tuck",
+      "name": "Knee Tuck",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-hanging-windshield-wipers",
+      "name": "Hanging Windshield Wipers",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-dragon-flag-negatives",
+      "name": "Dragon Flag Negatives",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-decline-leg-raise",
+      "name": "Decline Leg Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-trunk-rotations",
+      "name": "Stick Trunk Rotations",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-lat-oblique-reach",
+      "name": "Stick Lat & Oblique Reach",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-cat-cow-mobility",
+      "name": "Cat-Cow Mobility",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-child-s-pose",
+      "name": "Child's Pose",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-glute-bridge",
+      "name": "Glute Bridge",
+      "roles": [
+        "core",
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-single-leg-hip-thrust",
+      "name": "Single-Leg Hip Thrust",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-machine-hip-thrust",
+      "name": "Machine Hip Thrust",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-wide-stance-leg-press",
+      "name": "Wide-Stance Leg Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-sumo-goblet-squat",
+      "name": "Sumo Goblet Squat",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday",
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-seated-cable-row-to-mid-torso",
+      "name": "Seated Cable Row to Mid-Torso",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-single-arm-db-row",
+      "name": "Single-Arm DB Row",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday",
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-meadows-row",
+      "name": "Meadows Row",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday",
+        "Monday",
+        "Thursday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-chest-supported-t-bar-row",
+      "name": "Chest-Supported T-Bar Row",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-standing-abduction",
+      "name": "Cable Standing Abduction",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday",
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-side-plank-clamshells",
+      "name": "Side Plank Clamshells",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-dumbbell-stiff-leg-romanian-deadlift",
+      "name": "Dumbbell Stiff-Leg Romanian Deadlift",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-single-leg-db-rdl",
+      "name": "Single-Leg DB RDL",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-nordic-curl-negatives",
+      "name": "Nordic Curl Negatives",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-dumbbell-shrugs-with-2s-pause",
+      "name": "Dumbbell Shrugs with 2s Pause",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-cable-upright-row-wide",
+      "name": "Cable Upright Row (Wide)",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-barbell-shrug",
+      "name": "Barbell Shrug",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-hex-bar-shrug",
+      "name": "Hex Bar Shrug",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-bodyweight-air-squats-to-walking-lunges",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-bulgarian-split-squat-1-5-reps",
+      "name": "Bulgarian Split Squat 1.5 Reps",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-step-ups",
+      "name": "Step-Ups",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday",
+        "Wednesday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-jump-squats",
+      "name": "Jump Squats",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-dead-bug-to-dragon-flag-negatives",
+      "name": "Dead Bug to Dragon Flag Negatives",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-hanging-knee-tuck",
+      "name": "Hanging Knee Tuck",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-hollow-body-hold",
+      "name": "Hollow Body Hold",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-deep-squat-prys",
+      "name": "Stick Deep Squat Prys",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-torso-twists",
+      "name": "Stick Torso Twists",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-stick-hamstring-stretch",
+      "name": "Stick Hamstring Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-pigeon-pose",
+      "name": "Pigeon Pose",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-figure-four-stretch",
+      "name": "Figure-Four Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-30-min-brisk-walk",
+      "name": "30-min brisk walk",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Sunday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-full-body-stick-mobility",
+      "name": "full-body stick mobility",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Sunday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-hydration",
+      "name": "hydration",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Sunday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "biweekly-nutritional-adherence",
+      "name": "nutritional adherence.",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Sunday"
+      ],
+      "weeks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "periodized-incline-machine-press",
+      "name": "Incline Machine Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-incline-deficit-push-ups",
+      "name": "Incline Deficit Push-Ups",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-neutral-grip-mag-grip-lat-pulldown",
+      "name": "Neutral-Grip Mag-Grip Lat Pulldown",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-assisted-neutral-chin-up",
+      "name": "Assisted Neutral Chin-Up",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-machine-row",
+      "name": "Machine Row",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday",
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-weighted-push-ups",
+      "name": "Weighted Push-Ups",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-db-pullover",
+      "name": "DB Pullover",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-kneeling-cable-lat-pull",
+      "name": "Kneeling Cable Lat Pull",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-incline-machine-fly",
+      "name": "Incline Machine Fly",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-plate-press",
+      "name": "Plate Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-hanging-straight-leg-toes-to-bar",
+      "name": "Hanging Straight-Leg Toes-to-Bar",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-stick-behind-the-back-opener",
+      "name": "Stick Behind-the-Back Opener",
+      "roles": [
+        "recovery",
+        "warmup"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-overhead-lat-lengthener",
+      "name": "Overhead Lat Lengthener",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-doorway-stretch",
+      "name": "Doorway Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-standing-cable-woodchopper-high-to-low",
+      "name": "Standing Cable Woodchopper (High-to-Low)",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-stick-russian-twists",
+      "name": "Stick Russian Twists",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-dumbbell-woodchopper",
+      "name": "Dumbbell Woodchopper",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-leg-raise",
+      "name": "Leg Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-lying-floor-leg-raise",
+      "name": "Lying Floor Leg Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise",
+      "name": "Half-Kneeling Cable Pallof Press with Overhead Raise",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-side-plank-hip-dips-with-rotation",
+      "name": "Side Plank Hip Dips with Rotation",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-stick-side-bends",
+      "name": "Stick Side Bends",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-db-side-bend",
+      "name": "DB Side Bend",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-standing-seated-transverse-abdominis-stomach-vacuum",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-decline-bench-weighted-crunch",
+      "name": "Decline Bench Weighted Crunch",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-kneeling-cable-rope-crunch",
+      "name": "Kneeling Cable Rope Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-stick-overhead-side-stretch",
+      "name": "Stick Overhead Side Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-wide-stance-sumo-leg-press",
+      "name": "Wide-Stance Sumo Leg Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-romanian-deadlift",
+      "name": "Romanian Deadlift",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-deficit-barbell-rdl",
+      "name": "Deficit Barbell RDL",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-dumbbell-rdl",
+      "name": "Dumbbell RDL",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday",
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-leg-press",
+      "name": "Leg Press",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-goblet-squat",
+      "name": "Goblet Squat",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-reverse-lunges-with-dumbbells",
+      "name": "Reverse Lunges with Dumbbells",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-walking-lunges",
+      "name": "Walking Lunges",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday",
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-bulgarian-split-squats",
+      "name": "Bulgarian Split Squats",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-sissy-squat",
+      "name": "Sissy Squat",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-leg-extension-dropset",
+      "name": "Leg Extension Dropset",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-single-leg-extension",
+      "name": "Single-Leg Extension",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-deficit-split-squat",
+      "name": "Deficit Split Squat",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-bodyweight-sissy-squat",
+      "name": "Bodyweight Sissy Squat",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-seated-calf-raise-machine",
+      "name": "Seated Calf Raise Machine",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-standing-calf-raise",
+      "name": "Standing Calf Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-single-leg-calf-raise",
+      "name": "Single-Leg Calf Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-stick-overhead-deep-squats",
+      "name": "Stick Overhead Deep Squats",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-stick-hip-swings",
+      "name": "Stick Hip Swings",
+      "roles": [
+        "warmup"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-landmine-press",
+      "name": "Landmine Press",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-assisted-pull-up",
+      "name": "Assisted Pull-Up",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-chest-supported-t-bar-row",
+      "name": "Chest-Supported T-Bar Row",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-incline-bench-row",
+      "name": "Incline Bench Row",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-incline-smith-machine-press-45",
+      "name": "Incline Smith Machine Press 45°",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-weighted-dips",
+      "name": "Weighted Dips",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-bayesian-cable-curl",
+      "name": "Bayesian Cable Curl",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-overhead-dual-cable-tricep-extension",
+      "name": "Overhead Dual-Cable Tricep Extension",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-incline-db-curl-rope-pressdown",
+      "name": "Incline DB Curl & Rope Pressdown",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-ez-bar-preacher-curl-skullcrushers",
+      "name": "Ez-Bar Preacher Curl & Skullcrushers",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-incline-cable-pullover-with-stretched-bias",
+      "name": "Incline Cable Pullover with Stretched Bias",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-hanging-oblique-knee-raise",
+      "name": "Hanging Oblique Knee Raise",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-captain-s-chair-oblique-raise",
+      "name": "Captain's Chair Oblique Raise",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-standing-cable-woodchopper-low-to-high",
+      "name": "Standing Cable Woodchopper (Low-to-High)",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-landmine-rotations",
+      "name": "Landmine Rotations",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-floor-reverse-crunch",
+      "name": "Floor Reverse Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-cable-side-crunch-on-mat",
+      "name": "Cable Side Crunch on Mat",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-stick-lateral-side-bends",
+      "name": "Stick Lateral Side Bends",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-dead-bug",
+      "name": "Dead Bug",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-forearm-plank",
+      "name": "Forearm Plank",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-hanging-windshield-wipers",
+      "name": "Hanging Windshield Wipers",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-bicycle-kicks",
+      "name": "Bicycle Kicks",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-decline-bench-russian-twists",
+      "name": "Decline Bench Russian Twists",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Friday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-kas-glute-bridge",
+      "name": "Kas Glute Bridge",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-single-arm-dumbbell-row",
+      "name": "Single-Arm Dumbbell Row",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-romanian-barbell-deadlift",
+      "name": "Romanian Barbell Deadlift",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-nordic-hamstring-curls",
+      "name": "Nordic Hamstring Curls",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-cable-upright-row-wide-grip",
+      "name": "Cable Upright Row (Wide-Grip)",
+      "roles": [
+        "core"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-barbell-shrugs",
+      "name": "Barbell Shrugs",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-dumbbell-shrugs",
+      "name": "Dumbbell Shrugs",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "periodized-face-pulls",
+      "name": "Face Pulls",
+      "roles": [
+        "alternative"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-bulgarian-split-squats-with-1-5-rep-style",
+      "name": "Bulgarian Split Squats with 1.5 Rep Style",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    },
+    {
+      "id": "biweekly-dragon-flag-negatives-on-flat-bench",
+      "name": "Dragon Flag Negatives on Flat Bench",
+      "roles": [
+        "optional"
+      ],
+      "days": [
+        "Saturday"
+      ],
+      "weeks": [
+        "B"
+      ]
+    }
+  ]
+}

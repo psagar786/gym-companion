@@ -1,0 +1,8 @@
+{
+  "batch": "B02",
+  "start": {"file": "start-master.png", "width": 1254, "height": 1254, "technicalStatus": "PASS"},
+  "movement": {"file": "movement-master.png", "width": 1254, "height": 1254, "technicalStatus": "PASS"},
+  "grid": "5x5 row-major",
+  "mapping": "batch-manifest.json",
+  "notes": "Both boards preserve the locked mapping. Crops are draft upscales and require visual inspection before approval."
+}

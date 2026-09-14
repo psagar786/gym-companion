@@ -1,0 +1,400 @@
+{
+  "project": "Fitness 7 V5.4.1 Thursday artwork-only production",
+  "branch": "codex/v541-v2-art-integration",
+  "day": "Thursday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "currentCheckpoint": "V541-THU-periodized-dumbbell-incline-fly-PAIR-COMPLETE",
+  "totalListedRecords": 30,
+  "physicalRecords": 30,
+  "tuesdayLibrarySetsReviewed": 36,
+  "mondayReuseCandidates": 6,
+  "tuesdayReuseCandidates": 0,
+  "newGenerationSetsBeforeReuseReview": 24,
+  "newGenerationFilesBeforeReuseReview": 48,
+  "completedSets": 15,
+  "completedFiles": 30,
+  "failedMovementIds": [],
+  "completedMovementIds": [
+    "biweekly-seated-dumbbell-overhead-shoulder-press",
+    "biweekly-close-grip-v-bar-lat-pulldown",
+    "biweekly-seated-wide-grip-cable-row",
+    "periodized-cable-fly",
+    "biweekly-incline-dumbbell-curl",
+    "periodized-incline-dumbbell-reverse-fly",
+    "periodized-machine-shoulder-press",
+    "periodized-arnold-press",
+    "periodized-standing-barbell-overhead-press",
+    "periodized-underhand-lat-pulldown",
+    "periodized-chin-ups",
+    "periodized-single-arm-cable-pulldown",
+    "periodized-incline-db-prone-row",
+    "periodized-standing-cable-crossover",
+    "periodized-dumbbell-incline-fly"
+  ],
+  "lastCompletedCommit": "61938e4",
+  "knownIssues": [
+    "Reuse is not approved by name alone.",
+    "Technical and AI semantic review are not qualified gym-coach approval.",
+    {
+      "type": "image-generation-limit",
+      "movementId": "periodized-single-arm-cable-pulldown",
+      "detail": "Built-in image generation returned HTTP 429 usage_limit_reached before output was created. Resume this single Start phase after reset."
+    }
+  ],
+  "nextAtomicAction": "Generate Start for periodized-rope-tricep-pressdown",
+  "queueFrozen": true,
+  "tuesdayReuseAudit": {
+    "tuesdayCanonicalRecordsInspected": 36,
+    "tuesdayRuntimeMappingsInspected": 52,
+    "exactNameOrIdCandidates": 0,
+    "approvedCandidates": 0,
+    "rejectedCandidates": 0,
+    "decision": "No exact Tuesday reuse candidate approved; mechanics, equipment, grip, stance, path and range were checked."
+  },
+  "newGenerationSets": 24,
+  "newGenerationFiles": 48,
+  "remainingSets": 9,
+  "remainingFiles": 18,
+  "currentMovementId": null,
+  "currentPhase": null,
+  "outputHashes": {
+    "biweekly-seated-dumbbell-overhead-shoulder-press": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "6b5b9e4a8ef0c2d47c9262c9ef7946f61013a08b836d59be67748e6125426297"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "4a4a4552210013085852122cb169f133e4e11f835d4b6b2d3384d34a1dec402c"
+      }
+    },
+    "biweekly-close-grip-v-bar-lat-pulldown": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "1f6e812809932112b03d3874c4adc591c57be3d33f808a136090e1f0936c93e6"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "32200251ec2db48e1e59062f3006a935028f28010fcf80bf0f01deb695a2e0fa"
+      }
+    },
+    "biweekly-seated-wide-grip-cable-row": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "63376ab61f2232db9b5f7e07345e92240fd17414048521a77c559060d2134799"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "1d3be733ca3e8cc1fa29657f0fc31aee4121c8d6eb0d6cdc0be4e83bba6a0345"
+      }
+    },
+    "periodized-cable-fly": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "b7391066e78a6d092d99e93f7fa0747fb28e70ae374f3f1e8c10e1b8904cd7ac"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "9bb76a0811c1c41e4ab23d9289ac333ace7573448b32f6aca4a8f68cf991cdeb"
+      }
+    },
+    "biweekly-incline-dumbbell-curl": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "0b50d116f20dcea3cf28d2b9e28eef2cca0085fc6698936333ca7e71383040c7"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "2a9dbf2c801199ac79592247cc91442dcccb05de808711ab0d060609f42ff47c"
+      }
+    },
+    "periodized-incline-dumbbell-reverse-fly": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "04943e6d7514d3151acdb25b0b5f2e4258d068a25ffc81cb8b2aa7a245b64669"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "c91e4f63ecc2a72614d8fb4f684475706f9e9a6f3dfca472d9dd675ea4282f23"
+      }
+    },
+    "periodized-machine-shoulder-press": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "aaf5ff045ec5292c8ac4b38581dd8989279e7be146a4a76e49483d7c8b86f5e4"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "15db43c64d5b9277a481906b3773f8bcad7ecbe465bc483e44d95c16c0576c14"
+      }
+    },
+    "periodized-arnold-press": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "91ab2c3363cf57abb01decd9baee240e7c12a48b12320770905349e32e8fde42"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "8a35ba5926c919c1858b9d907368ed18c7888f8a91b7afd7243c1691b75a2010"
+      }
+    },
+    "periodized-standing-barbell-overhead-press": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "ebfd4841f0009de50e2007cab6495d6acbaf1f978aee97de77935a9331c4c614"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "91ec757b534e46759ed8656108589ed422c73c8487f05a241017d6c19532f537"
+      }
+    },
+    "periodized-underhand-lat-pulldown": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "0307ba73b25db254915dc997523ce67bf4deee4cf1c846fb1e3a1b51ded45b56"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "3a15fdcfb232972631a760f150f0c38f9fb08849756aeacc074520ac718039ea"
+      }
+    },
+    "periodized-chin-ups": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "df3cbd500dcd173a4efc6e453d1caeb9af601c136514a6576b2e2c6a7baaf85d"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "d3e114a6912fa926d159f8bc2d7bad5e4baa10d2663f50af4d39165dec18cd7c"
+      }
+    },
+    "periodized-single-arm-cable-pulldown": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "74efea7242d200e02f76e9bb9038be996abe44163765d751c1803e96b06246e2"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "df0aef1d3921276eb42f18ffe69b75048a78044262fe98b4c69578a44190ccba"
+      }
+    },
+    "periodized-incline-db-prone-row": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "8d1a4421e387191aea4d13e48d48822d0ad79c3b1efbef2423592aea1562221e"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "7a6c6da611b96b39ba850db74e0d662c8a674b61e12fc02952ed80302fcf03ff"
+      }
+    },
+    "periodized-standing-cable-crossover": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "fa02f70d5ae21f42b1312afdc9a19f6b64b1057169cf7dcf3492b1901c679c8a"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "5c8aa88b160fb35669e3c257b7d5abe3fe32d26a98f3189e9fd85813dd1bc789"
+      }
+    },
+    "periodized-dumbbell-incline-fly": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "741de6935dcf646f2ce94440671dac8560e68502828d456f55ace9ab1ba6eb19"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "aa0a44668bbd5c2cddc62ceba183884289907c3c51716cfb2223e408ba3cb90d"
+      }
+    }
+  },
+  "validationResults": {
+    "biweekly-seated-dumbbell-overhead-shoulder-press": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "biweekly-close-grip-v-bar-lat-pulldown": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "biweekly-seated-wide-grip-cable-row": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-cable-fly": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "biweekly-incline-dumbbell-curl": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-incline-dumbbell-reverse-fly": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-machine-shoulder-press": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-arnold-press": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-standing-barbell-overhead-press": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-underhand-lat-pulldown": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-chin-ups": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-single-arm-cable-pulldown": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-incline-db-prone-row": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-standing-cable-crossover": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-dumbbell-incline-fly": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    }
+  },
+  "validationLog": [
+    {
+      "checkpoint": "V541-THU-biweekly-seated-dumbbell-overhead-shoulder-press-PAIR-COMPLETE",
+      "movementId": "biweekly-seated-dumbbell-overhead-shoulder-press",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-biweekly-close-grip-v-bar-lat-pulldown-PAIR-COMPLETE",
+      "movementId": "biweekly-close-grip-v-bar-lat-pulldown",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-biweekly-seated-wide-grip-cable-row-PAIR-COMPLETE",
+      "movementId": "biweekly-seated-wide-grip-cable-row",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-cable-fly-PAIR-COMPLETE",
+      "movementId": "periodized-cable-fly",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-biweekly-incline-dumbbell-curl-PAIR-COMPLETE",
+      "movementId": "biweekly-incline-dumbbell-curl",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-incline-dumbbell-reverse-fly-PAIR-COMPLETE",
+      "movementId": "periodized-incline-dumbbell-reverse-fly",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-machine-shoulder-press-PAIR-COMPLETE",
+      "movementId": "periodized-machine-shoulder-press",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-arnold-press-PAIR-COMPLETE",
+      "movementId": "periodized-arnold-press",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-standing-barbell-overhead-press-PAIR-COMPLETE",
+      "movementId": "periodized-standing-barbell-overhead-press",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-underhand-lat-pulldown-PAIR-COMPLETE",
+      "movementId": "periodized-underhand-lat-pulldown",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-chin-ups-PAIR-COMPLETE",
+      "movementId": "periodized-chin-ups",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-single-arm-cable-pulldown-PAIR-COMPLETE",
+      "movementId": "periodized-single-arm-cable-pulldown",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-incline-db-prone-row-PAIR-COMPLETE",
+      "movementId": "periodized-incline-db-prone-row",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-standing-cable-crossover-PAIR-COMPLETE",
+      "movementId": "periodized-standing-cable-crossover",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-dumbbell-incline-fly-PAIR-COMPLETE",
+      "movementId": "periodized-dumbbell-incline-fly",
+      "status": "technical-and-semantic-pass"
+    }
+  ]
+}

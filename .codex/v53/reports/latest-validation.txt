@@ -1,0 +1,555 @@
+V5.3 three-week PPL: 3/3 weeks, 18/18 days, 108/108 slots, 86 movement identities.
+551 activation errors; 2 review warnings.
+ERROR [MISSING_IMAGE] week1.day0.slot1.option1: Missing assets/exercises/threeweek/pull-up-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot1.option1: Missing assets/exercises/threeweek/pull-up-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot1.option1.artworkStatus: Pull-up: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot1.option1.visualReviewStatus: Pull-up: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot1.option1.coachReviewStatus: Pull-up: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot1.option2: Missing assets/exercises/threeweek/lat-pulldown-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot1.option2: Missing assets/exercises/threeweek/lat-pulldown-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot1.option2.artworkStatus: Lat pulldown: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot1.option2.visualReviewStatus: Lat pulldown: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot1.option2.coachReviewStatus: Lat pulldown: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot1.option3: Missing assets/exercises/threeweek/neutral-grip-pulldown-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot1.option3: Missing assets/exercises/threeweek/neutral-grip-pulldown-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot1.option3.artworkStatus: Neutral-grip pulldown: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot1.option3.visualReviewStatus: Neutral-grip pulldown: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot1.option3.coachReviewStatus: Neutral-grip pulldown: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot2.option1: Missing assets/exercises/threeweek/chest-supported-row-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot2.option1: Missing assets/exercises/threeweek/chest-supported-row-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot2.option1.artworkStatus: Chest-supported row: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot2.option1.visualReviewStatus: Chest-supported row: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot2.option1.coachReviewStatus: Chest-supported row: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot2.option2: Missing assets/exercises/threeweek/machine-row-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot2.option2: Missing assets/exercises/threeweek/machine-row-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot2.option2.artworkStatus: Machine row: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot2.option2.visualReviewStatus: Machine row: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot2.option2.coachReviewStatus: Machine row: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot2.option3: Missing assets/exercises/threeweek/seated-cable-row-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot2.option3: Missing assets/exercises/threeweek/seated-cable-row-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot2.option3.artworkStatus: Seated cable row: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot2.option3.visualReviewStatus: Seated cable row: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot2.option3.coachReviewStatus: Seated cable row: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot3.option1: Missing assets/exercises/threeweek/straight-arm-pulldown-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot3.option1: Missing assets/exercises/threeweek/straight-arm-pulldown-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot3.option1.artworkStatus: Straight-arm pulldown: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot3.option1.visualReviewStatus: Straight-arm pulldown: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot3.option1.coachReviewStatus: Straight-arm pulldown: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot3.option2: Missing assets/exercises/threeweek/cable-pullover-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot3.option2: Missing assets/exercises/threeweek/cable-pullover-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot3.option2.artworkStatus: Cable pullover: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot3.option2.visualReviewStatus: Cable pullover: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot3.option2.coachReviewStatus: Cable pullover: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot3.option3: Missing assets/exercises/threeweek/single-arm-cable-pulldown-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot3.option3: Missing assets/exercises/threeweek/single-arm-cable-pulldown-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot3.option3.artworkStatus: Single-arm cable pulldown: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot3.option3.visualReviewStatus: Single-arm cable pulldown: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot3.option3.coachReviewStatus: Single-arm cable pulldown: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot4.option1: Missing assets/exercises/threeweek/incline-dumbbell-reverse-fly-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot4.option1: Missing assets/exercises/threeweek/incline-dumbbell-reverse-fly-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot4.option1.artworkStatus: Incline dumbbell reverse fly: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot4.option1.visualReviewStatus: Incline dumbbell reverse fly: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot4.option1.coachReviewStatus: Incline dumbbell reverse fly: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day0.slot4.option2.whyItMatters: Rear-delt cable row is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day0.slot4.option2.commonMistake: Rear-delt cable row is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day0.slot4.option2.safetyCue: Rear-delt cable row is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day0.slot4.option2.start: Rear-delt cable row needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day0.slot4.option2: Missing assets/exercises/threeweek/rear-delt-cable-row-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day0.slot4.option2.move: Rear-delt cable row needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day0.slot4.option2: Missing assets/exercises/threeweek/rear-delt-cable-row-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot4.option2.artworkStatus: Rear-delt cable row: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot4.option2.visualReviewStatus: Rear-delt cable row: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot4.option2.coachReviewStatus: Rear-delt cable row: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot4.option3: Missing assets/exercises/threeweek/cable-rear-delt-fly-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot4.option3: Missing assets/exercises/threeweek/cable-rear-delt-fly-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot4.option3.artworkStatus: Cable rear-delt fly: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot4.option3.visualReviewStatus: Cable rear-delt fly: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot4.option3.coachReviewStatus: Cable rear-delt fly: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot5.option1: Missing assets/exercises/threeweek/incline-dumbbell-curl-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot5.option1: Missing assets/exercises/threeweek/incline-dumbbell-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot5.option1.artworkStatus: Incline dumbbell curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot5.option1.visualReviewStatus: Incline dumbbell curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot5.option1.coachReviewStatus: Incline dumbbell curl: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot5.option2: Missing assets/exercises/threeweek/cable-curl-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot5.option2: Missing assets/exercises/threeweek/cable-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot5.option2.artworkStatus: Cable curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot5.option2.visualReviewStatus: Cable curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot5.option2.coachReviewStatus: Cable curl: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot5.option3: Missing assets/exercises/threeweek/preacher-curl-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot5.option3: Missing assets/exercises/threeweek/preacher-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot5.option3.artworkStatus: Preacher curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot5.option3.visualReviewStatus: Preacher curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot5.option3.coachReviewStatus: Preacher curl: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot6.option1: Missing assets/exercises/threeweek/hammer-curl-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot6.option1: Missing assets/exercises/threeweek/hammer-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot6.option1.artworkStatus: Hammer curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot6.option1.visualReviewStatus: Hammer curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot6.option1.coachReviewStatus: Hammer curl: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.slot6.option2: Missing assets/exercises/threeweek/rope-hammer-curl-start.webp
+ERROR [MISSING_IMAGE] week1.day0.slot6.option2: Missing assets/exercises/threeweek/rope-hammer-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot6.option2.artworkStatus: Rope hammer curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot6.option2.visualReviewStatus: Rope hammer curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot6.option2.coachReviewStatus: Rope hammer curl: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day0.slot6.option3.whyItMatters: Cross-body hammer curl is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day0.slot6.option3.commonMistake: Cross-body hammer curl is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day0.slot6.option3.safetyCue: Cross-body hammer curl is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day0.slot6.option3.start: Cross-body hammer curl needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day0.slot6.option3: Missing assets/exercises/threeweek/cross-body-hammer-curl-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day0.slot6.option3.move: Cross-body hammer curl needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day0.slot6.option3: Missing assets/exercises/threeweek/cross-body-hammer-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.slot6.option3.artworkStatus: Cross-body hammer curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot6.option3.visualReviewStatus: Cross-body hammer curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.slot6.option3.coachReviewStatus: Cross-body hammer curl: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.warmup1: Missing assets/exercises/threeweek/pull-up-pattern-rehearsal-start.webp
+ERROR [MISSING_IMAGE] week1.day0.warmup1: Missing assets/exercises/threeweek/pull-up-pattern-rehearsal-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.warmup1.artworkStatus: Pull-up pattern rehearsal: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.warmup1.visualReviewStatus: Pull-up pattern rehearsal: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.warmup1.coachReviewStatus: Pull-up pattern rehearsal: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.tendon1: Missing assets/exercises/threeweek/wrist-extensor-isometric-start.webp
+ERROR [MISSING_IMAGE] week1.day0.tendon1: Missing assets/exercises/threeweek/wrist-extensor-isometric-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.tendon1.artworkStatus: Wrist extensor isometric: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.tendon1.visualReviewStatus: Wrist extensor isometric: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.tendon1.coachReviewStatus: Wrist extensor isometric: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.recovery1: Missing assets/exercises/threeweek/incline-treadmill-walk-start.webp
+ERROR [MISSING_IMAGE] week1.day0.recovery1: Missing assets/exercises/threeweek/incline-treadmill-walk-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.recovery1.artworkStatus: Incline treadmill walk: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.recovery1.visualReviewStatus: Incline treadmill walk: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.recovery1.coachReviewStatus: Incline treadmill walk: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.optional1: Missing assets/exercises/threeweek/t-bar-row-start.webp
+ERROR [MISSING_IMAGE] week1.day0.optional1: Missing assets/exercises/threeweek/t-bar-row-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.optional1.artworkStatus: T-bar row: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.optional1.visualReviewStatus: T-bar row: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.optional1.coachReviewStatus: T-bar row: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day0.optional2: Missing assets/exercises/threeweek/alternating-dumbbell-curl-start.webp
+ERROR [MISSING_IMAGE] week1.day0.optional2: Missing assets/exercises/threeweek/alternating-dumbbell-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day0.optional2.artworkStatus: Alternating dumbbell curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.optional2.visualReviewStatus: Alternating dumbbell curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day0.optional2.coachReviewStatus: Alternating dumbbell curl: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot1.option1: Missing assets/exercises/threeweek/incline-dumbbell-press-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot1.option1: Missing assets/exercises/threeweek/incline-dumbbell-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot1.option1.artworkStatus: Incline dumbbell press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot1.option1.visualReviewStatus: Incline dumbbell press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot1.option1.coachReviewStatus: Incline dumbbell press: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot1.option2: Missing assets/exercises/threeweek/incline-machine-press-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot1.option2: Missing assets/exercises/threeweek/incline-machine-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot1.option2.artworkStatus: Incline machine press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot1.option2.visualReviewStatus: Incline machine press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot1.option2.coachReviewStatus: Incline machine press: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day1.slot1.option3.whyItMatters: Paused incline dumbbell press is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day1.slot1.option3.commonMistake: Paused incline dumbbell press is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day1.slot1.option3.safetyCue: Paused incline dumbbell press is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day1.slot1.option3.start: Paused incline dumbbell press needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot1.option3: Missing assets/exercises/threeweek/paused-incline-dumbbell-press-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day1.slot1.option3.move: Paused incline dumbbell press needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot1.option3: Missing assets/exercises/threeweek/paused-incline-dumbbell-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot1.option3.artworkStatus: Paused incline dumbbell press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot1.option3.visualReviewStatus: Paused incline dumbbell press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot1.option3.coachReviewStatus: Paused incline dumbbell press: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot2.option1: Missing assets/exercises/threeweek/flat-dumbbell-press-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot2.option1: Missing assets/exercises/threeweek/flat-dumbbell-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot2.option1.artworkStatus: Flat dumbbell press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot2.option1.visualReviewStatus: Flat dumbbell press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot2.option1.coachReviewStatus: Flat dumbbell press: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot2.option2: Missing assets/exercises/threeweek/flat-barbell-press-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot2.option2: Missing assets/exercises/threeweek/flat-barbell-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot2.option2.artworkStatus: Flat barbell press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot2.option2.visualReviewStatus: Flat barbell press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot2.option2.coachReviewStatus: Flat barbell press: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot2.option3: Missing assets/exercises/threeweek/push-up-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot2.option3: Missing assets/exercises/threeweek/push-up-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot2.option3.artworkStatus: Push-up: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot2.option3.visualReviewStatus: Push-up: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot2.option3.coachReviewStatus: Push-up: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot3.option1: Missing assets/exercises/threeweek/cable-fly-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot3.option1: Missing assets/exercises/threeweek/cable-fly-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot3.option1.artworkStatus: Cable fly: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot3.option1.visualReviewStatus: Cable fly: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot3.option1.coachReviewStatus: Cable fly: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot3.option2: Missing assets/exercises/threeweek/dumbbell-fly-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot3.option2: Missing assets/exercises/threeweek/dumbbell-fly-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot3.option2.artworkStatus: Dumbbell fly: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot3.option2.visualReviewStatus: Dumbbell fly: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot3.option2.coachReviewStatus: Dumbbell fly: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day1.slot3.option3.whyItMatters: High-to-low cable fly is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day1.slot3.option3.commonMistake: High-to-low cable fly is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day1.slot3.option3.safetyCue: High-to-low cable fly is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day1.slot3.option3.start: High-to-low cable fly needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot3.option3: Missing assets/exercises/threeweek/high-to-low-cable-fly-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day1.slot3.option3.move: High-to-low cable fly needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot3.option3: Missing assets/exercises/threeweek/high-to-low-cable-fly-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot3.option3.artworkStatus: High-to-low cable fly: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot3.option3.visualReviewStatus: High-to-low cable fly: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot3.option3.coachReviewStatus: High-to-low cable fly: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot4.option1: Missing assets/exercises/threeweek/seated-dumbbell-shoulder-press-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot4.option1: Missing assets/exercises/threeweek/seated-dumbbell-shoulder-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot4.option1.artworkStatus: Seated dumbbell shoulder press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot4.option1.visualReviewStatus: Seated dumbbell shoulder press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot4.option1.coachReviewStatus: Seated dumbbell shoulder press: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day1.slot4.option2.whyItMatters: Standing dumbbell shoulder press is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day1.slot4.option2.formCue: Standing dumbbell shoulder press is missing formCue.
+ERROR [AUTHORED_CONTENT] week1.day1.slot4.option2.commonMistake: Standing dumbbell shoulder press is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day1.slot4.option2.safetyCue: Standing dumbbell shoulder press is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day1.slot4.option2.start: Standing dumbbell shoulder press needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot4.option2: Missing assets/exercises/threeweek/standing-dumbbell-shoulder-press-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day1.slot4.option2.move: Standing dumbbell shoulder press needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot4.option2: Missing assets/exercises/threeweek/standing-dumbbell-shoulder-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot4.option2.artworkStatus: Standing dumbbell shoulder press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot4.option2.visualReviewStatus: Standing dumbbell shoulder press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot4.option2.coachReviewStatus: Standing dumbbell shoulder press: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day1.slot4.option3.whyItMatters: Neutral-grip seated dumbbell press is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day1.slot4.option3.formCue: Neutral-grip seated dumbbell press is missing formCue.
+ERROR [AUTHORED_CONTENT] week1.day1.slot4.option3.commonMistake: Neutral-grip seated dumbbell press is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day1.slot4.option3.safetyCue: Neutral-grip seated dumbbell press is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day1.slot4.option3.start: Neutral-grip seated dumbbell press needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot4.option3: Missing assets/exercises/threeweek/neutral-grip-seated-dumbbell-press-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day1.slot4.option3.move: Neutral-grip seated dumbbell press needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot4.option3: Missing assets/exercises/threeweek/neutral-grip-seated-dumbbell-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot4.option3.artworkStatus: Neutral-grip seated dumbbell press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot4.option3.visualReviewStatus: Neutral-grip seated dumbbell press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot4.option3.coachReviewStatus: Neutral-grip seated dumbbell press: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot5.option1: Missing assets/exercises/threeweek/rope-pressdown-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot5.option1: Missing assets/exercises/threeweek/rope-pressdown-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot5.option1.artworkStatus: Rope pressdown: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot5.option1.visualReviewStatus: Rope pressdown: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot5.option1.coachReviewStatus: Rope pressdown: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day1.slot5.option2.whyItMatters: Single-arm rope pressdown is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day1.slot5.option2.commonMistake: Single-arm rope pressdown is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day1.slot5.option2.safetyCue: Single-arm rope pressdown is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day1.slot5.option2.start: Single-arm rope pressdown needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot5.option2: Missing assets/exercises/threeweek/single-arm-rope-pressdown-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day1.slot5.option2.move: Single-arm rope pressdown needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot5.option2: Missing assets/exercises/threeweek/single-arm-rope-pressdown-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot5.option2.artworkStatus: Single-arm rope pressdown: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot5.option2.visualReviewStatus: Single-arm rope pressdown: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot5.option2.coachReviewStatus: Single-arm rope pressdown: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day1.slot5.option3.whyItMatters: Reverse-grip cable pressdown is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day1.slot5.option3.formCue: Reverse-grip cable pressdown is missing formCue.
+ERROR [AUTHORED_CONTENT] week1.day1.slot5.option3.commonMistake: Reverse-grip cable pressdown is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day1.slot5.option3.safetyCue: Reverse-grip cable pressdown is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day1.slot5.option3.start: Reverse-grip cable pressdown needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot5.option3: Missing assets/exercises/threeweek/reverse-grip-cable-pressdown-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day1.slot5.option3.move: Reverse-grip cable pressdown needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot5.option3: Missing assets/exercises/threeweek/reverse-grip-cable-pressdown-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot5.option3.artworkStatus: Reverse-grip cable pressdown: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot5.option3.visualReviewStatus: Reverse-grip cable pressdown: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot5.option3.coachReviewStatus: Reverse-grip cable pressdown: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot6.option1: Missing assets/exercises/threeweek/overhead-cable-extension-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot6.option1: Missing assets/exercises/threeweek/overhead-cable-extension-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot6.option1.artworkStatus: Overhead cable extension: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot6.option1.visualReviewStatus: Overhead cable extension: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot6.option1.coachReviewStatus: Overhead cable extension: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.slot6.option2: Missing assets/exercises/threeweek/single-dumbbell-extension-start.webp
+ERROR [MISSING_IMAGE] week1.day1.slot6.option2: Missing assets/exercises/threeweek/single-dumbbell-extension-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot6.option2.artworkStatus: Single-dumbbell extension: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot6.option2.visualReviewStatus: Single-dumbbell extension: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot6.option2.coachReviewStatus: Single-dumbbell extension: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day1.slot6.option3.whyItMatters: Bench-supported triceps extension is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day1.slot6.option3.commonMistake: Bench-supported triceps extension is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day1.slot6.option3.safetyCue: Bench-supported triceps extension is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day1.slot6.option3.start: Bench-supported triceps extension needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot6.option3: Missing assets/exercises/threeweek/bench-supported-triceps-extension-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day1.slot6.option3.move: Bench-supported triceps extension needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day1.slot6.option3: Missing assets/exercises/threeweek/bench-supported-triceps-extension-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.slot6.option3.artworkStatus: Bench-supported triceps extension: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot6.option3.visualReviewStatus: Bench-supported triceps extension: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.slot6.option3.coachReviewStatus: Bench-supported triceps extension: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.warmup1: Missing assets/exercises/threeweek/scapular-push-up-start.webp
+ERROR [MISSING_IMAGE] week1.day1.warmup1: Missing assets/exercises/threeweek/scapular-push-up-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.warmup1.artworkStatus: Scapular push-up: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.warmup1.visualReviewStatus: Scapular push-up: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.warmup1.coachReviewStatus: Scapular push-up: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.tendon1: Missing assets/exercises/threeweek/wrist-flexor-isometric-start.webp
+ERROR [MISSING_IMAGE] week1.day1.tendon1: Missing assets/exercises/threeweek/wrist-flexor-isometric-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.tendon1.artworkStatus: Wrist flexor isometric: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.tendon1.visualReviewStatus: Wrist flexor isometric: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.tendon1.coachReviewStatus: Wrist flexor isometric: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.optional1: Missing assets/exercises/threeweek/dumbbell-lateral-raise-start.webp
+ERROR [MISSING_IMAGE] week1.day1.optional1: Missing assets/exercises/threeweek/dumbbell-lateral-raise-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.optional1.artworkStatus: Dumbbell lateral raise: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.optional1.visualReviewStatus: Dumbbell lateral raise: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.optional1.coachReviewStatus: Dumbbell lateral raise: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day1.optional2: Missing assets/exercises/threeweek/close-grip-press-start.webp
+ERROR [MISSING_IMAGE] week1.day1.optional2: Missing assets/exercises/threeweek/close-grip-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day1.optional2.artworkStatus: Close-grip press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.optional2.visualReviewStatus: Close-grip press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day1.optional2.coachReviewStatus: Close-grip press: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot1.option1: Missing assets/exercises/threeweek/leg-press-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot1.option1: Missing assets/exercises/threeweek/leg-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot1.option1.artworkStatus: Leg press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot1.option1.visualReviewStatus: Leg press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot1.option1.coachReviewStatus: Leg press: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day2.slot1.option2.whyItMatters: Goblet squat is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day2.slot1.option2.commonMistake: Goblet squat is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day2.slot1.option2.safetyCue: Goblet squat is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day2.slot1.option2.start: Goblet squat needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot1.option2: Missing assets/exercises/threeweek/goblet-squat-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day2.slot1.option2.move: Goblet squat needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot1.option2: Missing assets/exercises/threeweek/goblet-squat-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot1.option2.artworkStatus: Goblet squat: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot1.option2.visualReviewStatus: Goblet squat: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot1.option2.coachReviewStatus: Goblet squat: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot1.option3: Missing assets/exercises/threeweek/back-squat-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot1.option3: Missing assets/exercises/threeweek/back-squat-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot1.option3.artworkStatus: Back squat: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot1.option3.visualReviewStatus: Back squat: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot1.option3.coachReviewStatus: Back squat: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot2.option1: Missing assets/exercises/threeweek/dumbbell-rdl-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot2.option1: Missing assets/exercises/threeweek/dumbbell-rdl-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot2.option1.artworkStatus: Dumbbell RDL: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot2.option1.visualReviewStatus: Dumbbell RDL: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot2.option1.coachReviewStatus: Dumbbell RDL: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot2.option2: Missing assets/exercises/threeweek/romanian-deadlift-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot2.option2: Missing assets/exercises/threeweek/romanian-deadlift-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot2.option2.artworkStatus: Romanian deadlift: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot2.option2.visualReviewStatus: Romanian deadlift: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot2.option2.coachReviewStatus: Romanian deadlift: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day2.slot2.option3.whyItMatters: Single-leg RDL is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day2.slot2.option3.commonMistake: Single-leg RDL is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day2.slot2.option3.safetyCue: Single-leg RDL is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day2.slot2.option3.start: Single-leg RDL needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot2.option3: Missing assets/exercises/threeweek/single-leg-rdl-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day2.slot2.option3.move: Single-leg RDL needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot2.option3: Missing assets/exercises/threeweek/single-leg-rdl-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot2.option3.artworkStatus: Single-leg RDL: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot2.option3.visualReviewStatus: Single-leg RDL: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot2.option3.coachReviewStatus: Single-leg RDL: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot3.option1: Missing assets/exercises/threeweek/walking-lunge-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot3.option1: Missing assets/exercises/threeweek/walking-lunge-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot3.option1.artworkStatus: Walking lunge: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot3.option1.visualReviewStatus: Walking lunge: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot3.option1.coachReviewStatus: Walking lunge: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day2.slot3.option2.whyItMatters: Reverse lunge is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day2.slot3.option2.commonMistake: Reverse lunge is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day2.slot3.option2.safetyCue: Reverse lunge is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day2.slot3.option2.start: Reverse lunge needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot3.option2: Missing assets/exercises/threeweek/reverse-lunge-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day2.slot3.option2.move: Reverse lunge needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot3.option2: Missing assets/exercises/threeweek/reverse-lunge-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot3.option2.artworkStatus: Reverse lunge: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot3.option2.visualReviewStatus: Reverse lunge: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot3.option2.coachReviewStatus: Reverse lunge: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot3.option3: Missing assets/exercises/threeweek/bulgarian-split-squat-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot3.option3: Missing assets/exercises/threeweek/bulgarian-split-squat-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot3.option3.artworkStatus: Bulgarian split squat: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot3.option3.visualReviewStatus: Bulgarian split squat: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot3.option3.coachReviewStatus: Bulgarian split squat: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot4.option1: Missing assets/exercises/threeweek/leg-extension-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot4.option1: Missing assets/exercises/threeweek/leg-extension-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot4.option1.artworkStatus: Leg extension: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot4.option1.visualReviewStatus: Leg extension: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot4.option1.coachReviewStatus: Leg extension: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day2.slot4.option2.whyItMatters: Single-leg leg extension is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day2.slot4.option2.commonMistake: Single-leg leg extension is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day2.slot4.option2.safetyCue: Single-leg leg extension is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day2.slot4.option2.start: Single-leg leg extension needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot4.option2: Missing assets/exercises/threeweek/single-leg-leg-extension-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day2.slot4.option2.move: Single-leg leg extension needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot4.option2: Missing assets/exercises/threeweek/single-leg-leg-extension-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot4.option2.artworkStatus: Single-leg leg extension: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot4.option2.visualReviewStatus: Single-leg leg extension: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot4.option2.coachReviewStatus: Single-leg leg extension: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot4.option3: Missing assets/exercises/threeweek/bodyweight-squat-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot4.option3: Missing assets/exercises/threeweek/bodyweight-squat-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot4.option3.artworkStatus: Bodyweight squat: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot4.option3.visualReviewStatus: Bodyweight squat: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot4.option3.coachReviewStatus: Bodyweight squat: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot5.option1: Missing assets/exercises/threeweek/lying-leg-curl-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot5.option1: Missing assets/exercises/threeweek/lying-leg-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot5.option1.artworkStatus: Lying leg curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot5.option1.visualReviewStatus: Lying leg curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot5.option1.coachReviewStatus: Lying leg curl: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day2.slot5.option2.whyItMatters: Hamstring walkout is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day2.slot5.option2.formCue: Hamstring walkout is missing formCue.
+ERROR [AUTHORED_CONTENT] week1.day2.slot5.option2.commonMistake: Hamstring walkout is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day2.slot5.option2.safetyCue: Hamstring walkout is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day2.slot5.option2.start: Hamstring walkout needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot5.option2: Missing assets/exercises/threeweek/hamstring-walkout-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day2.slot5.option2.move: Hamstring walkout needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot5.option2: Missing assets/exercises/threeweek/hamstring-walkout-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot5.option2.artworkStatus: Hamstring walkout: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot5.option2.visualReviewStatus: Hamstring walkout: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot5.option2.coachReviewStatus: Hamstring walkout: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day2.slot5.option3.whyItMatters: Single-leg lying leg curl is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day2.slot5.option3.formCue: Single-leg lying leg curl is missing formCue.
+ERROR [AUTHORED_CONTENT] week1.day2.slot5.option3.commonMistake: Single-leg lying leg curl is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day2.slot5.option3.safetyCue: Single-leg lying leg curl is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day2.slot5.option3.start: Single-leg lying leg curl needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot5.option3: Missing assets/exercises/threeweek/single-leg-lying-leg-curl-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day2.slot5.option3.move: Single-leg lying leg curl needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot5.option3: Missing assets/exercises/threeweek/single-leg-lying-leg-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot5.option3.artworkStatus: Single-leg lying leg curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot5.option3.visualReviewStatus: Single-leg lying leg curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot5.option3.coachReviewStatus: Single-leg lying leg curl: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot6.option1: Missing assets/exercises/threeweek/standing-calf-raise-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot6.option1: Missing assets/exercises/threeweek/standing-calf-raise-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot6.option1.artworkStatus: Standing calf raise: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot6.option1.visualReviewStatus: Standing calf raise: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot6.option1.coachReviewStatus: Standing calf raise: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.slot6.option2: Missing assets/exercises/threeweek/seated-calf-raise-start.webp
+ERROR [MISSING_IMAGE] week1.day2.slot6.option2: Missing assets/exercises/threeweek/seated-calf-raise-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot6.option2.artworkStatus: Seated calf raise: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot6.option2.visualReviewStatus: Seated calf raise: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot6.option2.coachReviewStatus: Seated calf raise: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day2.slot6.option3.whyItMatters: Single-leg calf raise is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day2.slot6.option3.commonMistake: Single-leg calf raise is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day2.slot6.option3.safetyCue: Single-leg calf raise is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day2.slot6.option3.start: Single-leg calf raise needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot6.option3: Missing assets/exercises/threeweek/single-leg-calf-raise-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day2.slot6.option3.move: Single-leg calf raise needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day2.slot6.option3: Missing assets/exercises/threeweek/single-leg-calf-raise-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.slot6.option3.artworkStatus: Single-leg calf raise: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot6.option3.visualReviewStatus: Single-leg calf raise: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.slot6.option3.coachReviewStatus: Single-leg calf raise: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.tendon1: Missing assets/exercises/threeweek/supported-calf-raise-hold-start.webp
+ERROR [MISSING_IMAGE] week1.day2.tendon1: Missing assets/exercises/threeweek/supported-calf-raise-hold-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.tendon1.artworkStatus: Supported calf-raise hold: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.tendon1.visualReviewStatus: Supported calf-raise hold: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.tendon1.coachReviewStatus: Supported calf-raise hold: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.recovery1: Missing assets/exercises/threeweek/easy-cooldown-walk-start.webp
+ERROR [MISSING_IMAGE] week1.day2.recovery1: Missing assets/exercises/threeweek/easy-cooldown-walk-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.recovery1.artworkStatus: Easy cooldown walk: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.recovery1.visualReviewStatus: Easy cooldown walk: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.recovery1.coachReviewStatus: Easy cooldown walk: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.optional1: Missing assets/exercises/threeweek/hip-abductor-machine-start.webp
+ERROR [MISSING_IMAGE] week1.day2.optional1: Missing assets/exercises/threeweek/hip-abductor-machine-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.optional1.artworkStatus: Hip-abductor machine: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.optional1.visualReviewStatus: Hip-abductor machine: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.optional1.coachReviewStatus: Hip-abductor machine: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day2.optional2: Missing assets/exercises/threeweek/glute-bridge-start.webp
+ERROR [MISSING_IMAGE] week1.day2.optional2: Missing assets/exercises/threeweek/glute-bridge-movement.webp
+ERROR [REVIEW_PENDING] week1.day2.optional2.artworkStatus: Glute bridge: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.optional2.visualReviewStatus: Glute bridge: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day2.optional2.coachReviewStatus: Glute bridge: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day3.slot1.option2.whyItMatters: Underhand lat pulldown is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day3.slot1.option2.commonMistake: Underhand lat pulldown is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day3.slot1.option2.safetyCue: Underhand lat pulldown is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day3.slot1.option2.start: Underhand lat pulldown needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot1.option2: Missing assets/exercises/threeweek/underhand-lat-pulldown-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day3.slot1.option2.move: Underhand lat pulldown needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot1.option2: Missing assets/exercises/threeweek/underhand-lat-pulldown-movement.webp
+ERROR [REVIEW_PENDING] week1.day3.slot1.option2.artworkStatus: Underhand lat pulldown: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot1.option2.visualReviewStatus: Underhand lat pulldown: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot1.option2.coachReviewStatus: Underhand lat pulldown: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day3.slot2.option2: Missing assets/exercises/threeweek/barbell-row-start.webp
+ERROR [MISSING_IMAGE] week1.day3.slot2.option2: Missing assets/exercises/threeweek/barbell-row-movement.webp
+ERROR [REVIEW_PENDING] week1.day3.slot2.option2.artworkStatus: Barbell row: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot2.option2.visualReviewStatus: Barbell row: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot2.option2.coachReviewStatus: Barbell row: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day3.slot2.option3.whyItMatters: Chest-supported dumbbell row is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day3.slot2.option3.commonMistake: Chest-supported dumbbell row is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day3.slot2.option3.safetyCue: Chest-supported dumbbell row is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day3.slot2.option3.start: Chest-supported dumbbell row needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot2.option3: Missing assets/exercises/threeweek/chest-supported-dumbbell-row-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day3.slot2.option3.move: Chest-supported dumbbell row needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot2.option3: Missing assets/exercises/threeweek/chest-supported-dumbbell-row-movement.webp
+ERROR [REVIEW_PENDING] week1.day3.slot2.option3.artworkStatus: Chest-supported dumbbell row: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot2.option3.visualReviewStatus: Chest-supported dumbbell row: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot2.option3.coachReviewStatus: Chest-supported dumbbell row: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day3.slot3.option2.whyItMatters: One-arm dumbbell row is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day3.slot3.option2.formCue: One-arm dumbbell row is missing formCue.
+ERROR [AUTHORED_CONTENT] week1.day3.slot3.option2.commonMistake: One-arm dumbbell row is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day3.slot3.option2.safetyCue: One-arm dumbbell row is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day3.slot3.option2.start: One-arm dumbbell row needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot3.option2: Missing assets/exercises/threeweek/one-arm-dumbbell-row-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day3.slot3.option2.move: One-arm dumbbell row needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot3.option2: Missing assets/exercises/threeweek/one-arm-dumbbell-row-movement.webp
+ERROR [REVIEW_PENDING] week1.day3.slot3.option2.artworkStatus: One-arm dumbbell row: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot3.option2.visualReviewStatus: One-arm dumbbell row: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot3.option2.coachReviewStatus: One-arm dumbbell row: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day3.slot5.option3.whyItMatters: Barbell curl is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day3.slot5.option3.commonMistake: Barbell curl is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day3.slot5.option3.safetyCue: Barbell curl is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day3.slot5.option3.start: Barbell curl needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot5.option3: Missing assets/exercises/threeweek/barbell-curl-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day3.slot5.option3.move: Barbell curl needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot5.option3: Missing assets/exercises/threeweek/barbell-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day3.slot5.option3.artworkStatus: Barbell curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot5.option3.visualReviewStatus: Barbell curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot5.option3.coachReviewStatus: Barbell curl: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day3.slot6.option1.whyItMatters: Cable reverse curl is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day3.slot6.option1.commonMistake: Cable reverse curl is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day3.slot6.option1.safetyCue: Cable reverse curl is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day3.slot6.option1.start: Cable reverse curl needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot6.option1: Missing assets/exercises/threeweek/cable-reverse-curl-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day3.slot6.option1.move: Cable reverse curl needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day3.slot6.option1: Missing assets/exercises/threeweek/cable-reverse-curl-movement.webp
+ERROR [REVIEW_PENDING] week1.day3.slot6.option1.artworkStatus: Cable reverse curl: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot6.option1.visualReviewStatus: Cable reverse curl: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.slot6.option1.coachReviewStatus: Cable reverse curl: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day3.warmup1: Missing assets/exercises/threeweek/thoracic-rotations-start.webp
+ERROR [MISSING_IMAGE] week1.day3.warmup1: Missing assets/exercises/threeweek/thoracic-rotations-movement.webp
+ERROR [REVIEW_PENDING] week1.day3.warmup1.artworkStatus: Thoracic rotations: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.warmup1.visualReviewStatus: Thoracic rotations: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day3.warmup1.coachReviewStatus: Thoracic rotations: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day4.slot3.option2: Missing assets/exercises/threeweek/cable-lateral-raise-start.webp
+ERROR [MISSING_IMAGE] week1.day4.slot3.option2: Missing assets/exercises/threeweek/cable-lateral-raise-movement.webp
+ERROR [REVIEW_PENDING] week1.day4.slot3.option2.artworkStatus: Cable lateral raise: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day4.slot3.option2.visualReviewStatus: Cable lateral raise: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day4.slot3.option2.coachReviewStatus: Cable lateral raise: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day4.slot3.option3.whyItMatters: Single-arm cable lateral raise is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day4.slot3.option3.commonMistake: Single-arm cable lateral raise is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day4.slot3.option3.safetyCue: Single-arm cable lateral raise is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day4.slot3.option3.start: Single-arm cable lateral raise needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day4.slot3.option3: Missing assets/exercises/threeweek/single-arm-cable-lateral-raise-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day4.slot3.option3.move: Single-arm cable lateral raise needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day4.slot3.option3: Missing assets/exercises/threeweek/single-arm-cable-lateral-raise-movement.webp
+ERROR [REVIEW_PENDING] week1.day4.slot3.option3.artworkStatus: Single-arm cable lateral raise: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day4.slot3.option3.visualReviewStatus: Single-arm cable lateral raise: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day4.slot3.option3.coachReviewStatus: Single-arm cable lateral raise: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day4.warmup1: Missing assets/exercises/threeweek/wall-slides-start.webp
+ERROR [MISSING_IMAGE] week1.day4.warmup1: Missing assets/exercises/threeweek/wall-slides-movement.webp
+ERROR [REVIEW_PENDING] week1.day4.warmup1.artworkStatus: Wall slides: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day4.warmup1.visualReviewStatus: Wall slides: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day4.warmup1.coachReviewStatus: Wall slides: coachReviewStatus is not approved.
+ERROR [AUTHORED_CONTENT] week1.day5.slot1.option2.whyItMatters: Cable pull-through is missing whyItMatters.
+ERROR [AUTHORED_CONTENT] week1.day5.slot1.option2.commonMistake: Cable pull-through is missing commonMistake.
+ERROR [AUTHORED_CONTENT] week1.day5.slot1.option2.safetyCue: Cable pull-through is missing safetyCue.
+ERROR [PHASE_INSTRUCTION] week1.day5.slot1.option2.start: Cable pull-through needs authored start guidance.
+ERROR [MISSING_IMAGE] week1.day5.slot1.option2: Missing assets/exercises/threeweek/cable-pull-through-start.webp
+ERROR [PHASE_INSTRUCTION] week1.day5.slot1.option2.move: Cable pull-through needs authored move guidance.
+ERROR [MISSING_IMAGE] week1.day5.slot1.option2: Missing assets/exercises/threeweek/cable-pull-through-movement.webp
+ERROR [REVIEW_PENDING] week1.day5.slot1.option2.artworkStatus: Cable pull-through: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot1.option2.visualReviewStatus: Cable pull-through: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot1.option2.coachReviewStatus: Cable pull-through: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day5.slot5.option1: Missing assets/exercises/threeweek/hanging-knee-raise-start.webp
+ERROR [MISSING_IMAGE] week1.day5.slot5.option1: Missing assets/exercises/threeweek/hanging-knee-raise-movement.webp
+ERROR [REVIEW_PENDING] week1.day5.slot5.option1.artworkStatus: Hanging knee raise: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot5.option1.visualReviewStatus: Hanging knee raise: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot5.option1.coachReviewStatus: Hanging knee raise: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day5.slot5.option2: Missing assets/exercises/threeweek/reverse-crunch-start.webp
+ERROR [MISSING_IMAGE] week1.day5.slot5.option2: Missing assets/exercises/threeweek/reverse-crunch-movement.webp
+ERROR [REVIEW_PENDING] week1.day5.slot5.option2.artworkStatus: Reverse crunch: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot5.option2.visualReviewStatus: Reverse crunch: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot5.option2.coachReviewStatus: Reverse crunch: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day5.slot5.option3: Missing assets/exercises/threeweek/cable-crunch-start.webp
+ERROR [MISSING_IMAGE] week1.day5.slot5.option3: Missing assets/exercises/threeweek/cable-crunch-movement.webp
+ERROR [REVIEW_PENDING] week1.day5.slot5.option3.artworkStatus: Cable crunch: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot5.option3.visualReviewStatus: Cable crunch: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot5.option3.coachReviewStatus: Cable crunch: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day5.slot6.option1: Missing assets/exercises/threeweek/pallof-press-start.webp
+ERROR [MISSING_IMAGE] week1.day5.slot6.option1: Missing assets/exercises/threeweek/pallof-press-movement.webp
+ERROR [REVIEW_PENDING] week1.day5.slot6.option1.artworkStatus: Pallof press: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot6.option1.visualReviewStatus: Pallof press: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot6.option1.coachReviewStatus: Pallof press: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day5.slot6.option2: Missing assets/exercises/threeweek/side-plank-start.webp
+ERROR [MISSING_IMAGE] week1.day5.slot6.option2: Missing assets/exercises/threeweek/side-plank-movement.webp
+ERROR [REVIEW_PENDING] week1.day5.slot6.option2.artworkStatus: Side plank: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot6.option2.visualReviewStatus: Side plank: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot6.option2.coachReviewStatus: Side plank: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day5.slot6.option3: Missing assets/exercises/threeweek/dead-bug-start.webp
+ERROR [MISSING_IMAGE] week1.day5.slot6.option3: Missing assets/exercises/threeweek/dead-bug-movement.webp
+ERROR [REVIEW_PENDING] week1.day5.slot6.option3.artworkStatus: Dead bug: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot6.option3.visualReviewStatus: Dead bug: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.slot6.option3.coachReviewStatus: Dead bug: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day5.warmup1: Missing assets/exercises/threeweek/hip-hinge-drill-start.webp
+ERROR [MISSING_IMAGE] week1.day5.warmup1: Missing assets/exercises/threeweek/hip-hinge-drill-movement.webp
+ERROR [REVIEW_PENDING] week1.day5.warmup1.artworkStatus: Hip hinge drill: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.warmup1.visualReviewStatus: Hip hinge drill: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.warmup1.coachReviewStatus: Hip hinge drill: coachReviewStatus is not approved.
+ERROR [MISSING_IMAGE] week1.day5.tendon1: Missing assets/exercises/threeweek/shallow-wall-sit-hold-start.webp
+ERROR [MISSING_IMAGE] week1.day5.tendon1: Missing assets/exercises/threeweek/shallow-wall-sit-hold-movement.webp
+ERROR [REVIEW_PENDING] week1.day5.tendon1.artworkStatus: Shallow wall-sit hold: artworkStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.tendon1.visualReviewStatus: Shallow wall-sit hold: visualReviewStatus is not approved.
+ERROR [REVIEW_PENDING] week1.day5.tendon1.coachReviewStatus: Shallow wall-sit hold: coachReviewStatus is not approved.
+WARNING [TEMPLATE_REGISTRY] data/tiered-library.js: The template registry does not expose threeweek-ppl; runtime currently special-cases it.
+WARNING [VISUAL_REVIEW_REQUIRED] release gate: This script cannot prove pose mechanics, perceptual difference, safe margins, or mobile usability. Require recorded visual review and browser tests.

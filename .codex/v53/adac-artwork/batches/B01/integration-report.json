@@ -1,0 +1,14 @@
+{
+  "batch": "B01",
+  "status": "integrated-review",
+  "movementCount": 25,
+  "phaseFiles": 50,
+  "namespace": "assets/exercises/periodized/",
+  "registry": "data/periodized-artwork.js",
+  "runtime": "periodized-abc",
+  "artworkStatus": "review",
+  "visualReviewStatus": "pending",
+  "semanticReviewStatus": "pending",
+  "fallbackPolicy": "No unrelated image fallback; staged paths are explicit.",
+  "notes": "Cards resolve the movement frame and details resolve Start and Movement. Existing V4/V5/V5.1 assets were not modified."
+}

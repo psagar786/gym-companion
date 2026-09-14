@@ -1,0 +1,12 @@
+{
+  "batch": "B05",
+  "status": "integrated-review",
+  "movementCount": 25,
+  "phaseFiles": 50,
+  "namespace": "assets/exercises/periodized/",
+  "mapping": "batch-manifest.json row-major cells",
+  "technical": { "missing": 0, "dimensions": "512x512 crops", "byteDuplicates": 0 },
+  "semanticReview": "pending-human-review",
+  "coachApproval": "not-claimed",
+  "notes": ["Draft masters are 1254x1254", "Margin warnings remain for manual inspection"]
+}

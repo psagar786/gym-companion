@@ -1,0 +1,931 @@
+{
+  "project": "Fitness 7 V5.4.1 Wednesday artwork-only production",
+  "branch": "codex/v541-v2-art-integration",
+  "day": "Wednesday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "currentCheckpoint": "V541-WED-ARTWORK-COMPLETE",
+  "totalListedRecords": 25,
+  "physicalRecords": 24,
+  "tuesdayLibrarySetsReviewed": 36,
+  "mondayReuseCandidates": 0,
+  "tuesdayReuseCandidates": 0,
+  "newGenerationSetsBeforeReuseReview": 24,
+  "newGenerationFilesBeforeReuseReview": 48,
+  "completedSets": 24,
+  "completedFiles": 48,
+  "failedMovementIds": [],
+  "completedMovementIds": [
+    "biweekly-seated-hip-adductor-machine",
+    "biweekly-seated-hip-abductor-machine",
+    "biweekly-dumbbell-romanian-deadlift-rdl",
+    "biweekly-45-incline-leg-press-mid-stance",
+    "biweekly-lying-leg-curl-machine",
+    "biweekly-dumbbell-walking-lunges",
+    "periodized-wide-stance-sumo-goblet-squat",
+    "periodized-cable-hip-adduction",
+    "periodized-side-lying-adduction",
+    "periodized-side-plank-abduction",
+    "periodized-barbell-rdl",
+    "periodized-cable-pull-through",
+    "periodized-goblet-squat-to-box",
+    "periodized-bodyweight-box-squat",
+    "periodized-dumbbell-lying-leg-curl",
+    "periodized-deficit-bulgarian-split-squat",
+    "periodized-step-ups-on-bench",
+    "periodized-reverse-lunges",
+    "biweekly-stick-overhead-deep-squat-prys",
+    "biweekly-stick-good-mornings",
+    "biweekly-stick-lateral-leg-swings",
+    "biweekly-stick-quad-stretch",
+    "biweekly-butterfly-groin-stretch",
+    "biweekly-hamstring-stretch"
+  ],
+  "lastCompletedCommit": "f366b7a",
+  "knownIssues": [
+    "Reuse is not approved by name alone.",
+    "Technical and AI semantic review are not qualified gym-coach approval."
+  ],
+  "nextAtomicAction": "Begin Thursday Tuesday-reuse audit",
+  "queueFrozen": true,
+  "tuesdayReuseAudit": {
+    "tuesdayCanonicalRecordsInspected": 36,
+    "tuesdayRuntimeMappingsInspected": 52,
+    "exactNameOrIdCandidates": 0,
+    "approvedCandidates": 0,
+    "rejectedCandidates": 0,
+    "decision": "No exact Tuesday reuse candidate approved; mechanics, equipment, grip, stance, path and range were checked."
+  },
+  "newGenerationSets": 24,
+  "newGenerationFiles": 48,
+  "outputHashes": {
+    "biweekly-seated-hip-adductor-machine": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "97aaf255894a399eba939c396ab6b0da488a16a413d7c6d10e18122a3f8a0efa"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "552e5e518ec612b06ba11df08c5c7031f0e03b0054eeeae2e81f6b164d84e98c"
+      }
+    },
+    "biweekly-45-incline-leg-press-mid-stance": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "609797c589992b7c7d363e5fb24f988aab711d0b28f03fc1971b5ad336c41de6"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "574d27f5f0d76794073464f2f3e9a06f41542d99210a7bc131fc73de31d112d8"
+      }
+    },
+    "biweekly-lying-leg-curl-machine": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "a351b71b965a5fd170f08c6f29c1d89955ed90389fa39ecee97f625ae1fd7d19"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "7029731722161c59295560ac297ef67095757bdc9c6e52fa5b5871c9982036a5"
+      }
+    },
+    "biweekly-dumbbell-walking-lunges": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "2dcc304694c4bc78a59837737ef2c1f1b73c483b48182a6180171bd9b4424a07"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "66b93e2ec5c71542f6fadecde7cae536e82e11a8271bb8b769aa2f24bc6a5e72"
+      }
+    },
+    "periodized-wide-stance-sumo-goblet-squat": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "dc1f33674ff3dd3cfd9e291c4e4ee6a123611ad55c323e046554eec5e3afb331"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "02226e96cf8634543a5e6de33b9f21ea3b9038be37e97b4cebef6369e1b3a67b"
+      }
+    },
+    "periodized-cable-hip-adduction": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "e745b13142521783d48bca7f09ef545363d684f7172887e2715a06652f21e03a"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "82aca58035c1d29285005dbfba28333d7187e115fe30b6c74766eb3484cebe9f"
+      }
+    },
+    "periodized-side-lying-adduction": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "d242fe687ed76f0e0bc1ca6c15457fa19a966ee77233942095e2887306ac4958"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "0a963d8dabf7e54ac6189ff2b5941d1332da0f56c744d8c9728efd5f9771d6d4"
+      }
+    },
+    "periodized-side-plank-abduction": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "48360dda742343e8710696d14f09b6a7d8be2496ecd159b10f49bf2a841e4521"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "026b0990771b30479ea216a6c28be8b74ea49262451b28e5b3aa7615e1a3ed3e"
+      }
+    },
+    "periodized-barbell-rdl": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "615976de397bbcb444e20e8e43dda885512053efdd3bf4821c556970881352f8"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "86f98df9556bd7e5e26c299b14992f70ef9c24d974caf6108c4b4c1a3f46354e"
+      }
+    },
+    "periodized-cable-pull-through": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "be38a7ca5fa428b1dec33caf1f2506b1b96313bc0698dfaf04c6bb85cc3ad010"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "18de24839d31e695609f82d1d9f4cca8b30adf5ba2cfaa48c80532afee4d1cf4"
+      }
+    },
+    "periodized-goblet-squat-to-box": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "d452c09fd8b43bcc79f1c0cfa0edab525ac6159d435cf991b2a4ec2138a6da2c"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "a2b31fdef193327e784cb4e273b6f6145f1976602d2d4ec0e322ce0eebd0c1cd"
+      }
+    },
+    "periodized-bodyweight-box-squat": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "e253fc55ebbc0d35852f25969b657e0a931c103900ee3fc37ade9074a7368351"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "5477ae17bc20081162959e5cd13ab4aeeffc1bfc479d14acf12c0d9b57573904"
+      }
+    },
+    "periodized-dumbbell-lying-leg-curl": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "aca4af00c87050ee52a81bc7799486f22bc044d176e2870840067a75b3ec79de"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "335029b3466237ceb9226b455dbcdb1043dc9b598b04a2525fc8337c0b6808aa"
+      }
+    },
+    "periodized-deficit-bulgarian-split-squat": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "a2a5fe0bcc801b56c28595fc439d23c5fc148d8dbd90746ae8d51d4d0fb74521"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "bf6e39390441fed30d075000efb3b27187343559dda6b4eeca4c623fb471960d"
+      }
+    },
+    "periodized-step-ups-on-bench": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "a0d1d9a1a7320aff2db90d48f2eea06e7e90b7fb2cae15e9e388828ca9e6feb1"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "d90c65b61b746f8543c350f12094f70e3e83a3b581f5f32e01be8410a81c5bab"
+      }
+    },
+    "periodized-reverse-lunges": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "3b9513a19167690b06a6e4f4e72aae6179c4b0a7fb13b1abdf8bf6cd8ae4d420"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "8e7063ea9ec144d712f7f9182e688ec45696cf07a2c6dfefa999661be9fabb45"
+      }
+    },
+    "biweekly-stick-overhead-deep-squat-prys": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "897695a34c50fc3c9e727dc8ed58fbd63be5dfcad1700531baab556bf753ff29"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "573757541b3ebf472ebfbe65846f4a3315e598710c6c4cedb0d102d21acf9cca"
+      }
+    },
+    "biweekly-stick-good-mornings": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "5d4ba451e98cd37cf8475f5490b0b848512ec60c77c6163bcd91bb1d8aa93009"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "3e356d9753ed45119e5fa6ba877ff18ef45a04c1dea7e8e5dcad372c22936586"
+      }
+    },
+    "biweekly-stick-lateral-leg-swings": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "80705f0c93458d2912df76a85450f43b0de16054b2cc624644874088fc665257"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "fd212b318aea9d935182d5b25e64aba84462f8bfa17c0df7276addaeb3fd37e8"
+      }
+    },
+    "biweekly-stick-quad-stretch": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "588e484bf25ac499f1bacf406aa2cbad05ac353951a75193fb099ef738424d09"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "c84c1ee46f6c97ce5ed4a11b0c53b3400f1a2ef516f75c51645ac51307305e71"
+      }
+    },
+    "biweekly-butterfly-groin-stretch": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "26a6fe45e7100c89aa190eaa8f22dc87c36eb6312ca83864c650fb56a031f7f3"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "5661443dfc86084f5dad8c2f8710d08ed0504d81794935a899ab1b33febbcab7"
+      }
+    },
+    "biweekly-hamstring-stretch": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "7739e3d60e084885bd1ac703009970b1d7035c9ab3ba546f811aa3e7935522fd"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "419559c087350a32df6992affd0a1fe4c7c849a807b003ec3321b8e73adda950"
+      }
+    }
+  },
+  "validationResults": {
+    "biweekly-seated-hip-abductor-machine": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-start.png",
+        "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "c89d682521a730e0ba87a38bbf679dd85f82f2a8016302539c794e9938b0ac8f"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "2e5904f166f911d79d9c1492836100c2455ce2b2f6576af6ab7a92c9b3969b9c"
+        }
+      }
+    },
+    "biweekly-dumbbell-romanian-deadlift-rdl": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-start.png",
+        "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "cf5689f7492d86f2b5b4ca648eb55e7aa993cd5b7c3c8cd3f4f48830d5a2664d"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "59adb4c9791f445a07043de5ad497291a99418ac051d19530854a6a327012875"
+        }
+      }
+    },
+    "biweekly-seated-hip-adductor-machine": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-start.png",
+        "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "97aaf255894a399eba939c396ab6b0da488a16a413d7c6d10e18122a3f8a0efa"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "552e5e518ec612b06ba11df08c5c7031f0e03b0054eeeae2e81f6b164d84e98c"
+        }
+      }
+    },
+    "biweekly-45-incline-leg-press-mid-stance": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-start.png",
+        "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "609797c589992b7c7d363e5fb24f988aab711d0b28f03fc1971b5ad336c41de6"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "574d27f5f0d76794073464f2f3e9a06f41542d99210a7bc131fc73de31d112d8"
+        }
+      }
+    },
+    "biweekly-lying-leg-curl-machine": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-start.png",
+        "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a351b71b965a5fd170f08c6f29c1d89955ed90389fa39ecee97f625ae1fd7d19"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "7029731722161c59295560ac297ef67095757bdc9c6e52fa5b5871c9982036a5"
+        }
+      }
+    },
+    "biweekly-dumbbell-walking-lunges": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-start.png",
+        "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "2dcc304694c4bc78a59837737ef2c1f1b73c483b48182a6180171bd9b4424a07"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "66b93e2ec5c71542f6fadecde7cae536e82e11a8271bb8b769aa2f24bc6a5e72"
+        }
+      }
+    },
+    "periodized-wide-stance-sumo-goblet-squat": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "dc1f33674ff3dd3cfd9e291c4e4ee6a123611ad55c323e046554eec5e3afb331"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "02226e96cf8634543a5e6de33b9f21ea3b9038be37e97b4cebef6369e1b3a67b"
+        }
+      }
+    },
+    "periodized-cable-hip-adduction": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "e745b13142521783d48bca7f09ef545363d684f7172887e2715a06652f21e03a"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "82aca58035c1d29285005dbfba28333d7187e115fe30b6c74766eb3484cebe9f"
+        }
+      }
+    },
+    "periodized-side-lying-adduction": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d242fe687ed76f0e0bc1ca6c15457fa19a966ee77233942095e2887306ac4958"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "0a963d8dabf7e54ac6189ff2b5941d1332da0f56c744d8c9728efd5f9771d6d4"
+        }
+      }
+    },
+    "periodized-side-plank-abduction": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "48360dda742343e8710696d14f09b6a7d8be2496ecd159b10f49bf2a841e4521"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "026b0990771b30479ea216a6c28be8b74ea49262451b28e5b3aa7615e1a3ed3e"
+        }
+      }
+    },
+    "periodized-barbell-rdl": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "615976de397bbcb444e20e8e43dda885512053efdd3bf4821c556970881352f8"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "86f98df9556bd7e5e26c299b14992f70ef9c24d974caf6108c4b4c1a3f46354e"
+        }
+      }
+    },
+    "periodized-cable-pull-through": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "be38a7ca5fa428b1dec33caf1f2506b1b96313bc0698dfaf04c6bb85cc3ad010"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "18de24839d31e695609f82d1d9f4cca8b30adf5ba2cfaa48c80532afee4d1cf4"
+        }
+      }
+    },
+    "periodized-goblet-squat-to-box": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d452c09fd8b43bcc79f1c0cfa0edab525ac6159d435cf991b2a4ec2138a6da2c"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a2b31fdef193327e784cb4e273b6f6145f1976602d2d4ec0e322ce0eebd0c1cd"
+        }
+      }
+    },
+    "periodized-bodyweight-box-squat": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "e253fc55ebbc0d35852f25969b657e0a931c103900ee3fc37ade9074a7368351"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "5477ae17bc20081162959e5cd13ab4aeeffc1bfc479d14acf12c0d9b57573904"
+        }
+      }
+    },
+    "periodized-dumbbell-lying-leg-curl": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "aca4af00c87050ee52a81bc7799486f22bc044d176e2870840067a75b3ec79de"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "335029b3466237ceb9226b455dbcdb1043dc9b598b04a2525fc8337c0b6808aa"
+        }
+      }
+    },
+    "periodized-deficit-bulgarian-split-squat": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a2a5fe0bcc801b56c28595fc439d23c5fc148d8dbd90746ae8d51d4d0fb74521"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "bf6e39390441fed30d075000efb3b27187343559dda6b4eeca4c623fb471960d"
+        }
+      }
+    },
+    "periodized-step-ups-on-bench": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a0d1d9a1a7320aff2db90d48f2eea06e7e90b7fb2cae15e9e388828ca9e6feb1"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d90c65b61b746f8543c350f12094f70e3e83a3b581f5f32e01be8410a81c5bab"
+        }
+      }
+    },
+    "periodized-reverse-lunges": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.png",
+        "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "3b9513a19167690b06a6e4f4e72aae6179c4b0a7fb13b1abdf8bf6cd8ae4d420"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "8e7063ea9ec144d712f7f9182e688ec45696cf07a2c6dfefa999661be9fabb45"
+        }
+      }
+    },
+    "biweekly-stick-overhead-deep-squat-prys": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-start.png",
+        "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "897695a34c50fc3c9e727dc8ed58fbd63be5dfcad1700531baab556bf753ff29"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "573757541b3ebf472ebfbe65846f4a3315e598710c6c4cedb0d102d21acf9cca"
+        }
+      }
+    },
+    "biweekly-stick-good-mornings": {
+      "status": "technical-and-semantic-pass",
+      "files": 2,
+      "paths": [
+        "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png",
+        "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png"
+      ],
+      "hashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "5d4ba451e98cd37cf8475f5490b0b848512ec60c77c6163bcd91bb1d8aa93009"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "3e356d9753ed45119e5fa6ba877ff18ef45a04c1dea7e8e5dcad372c22936586"
+        }
+      }
+    },
+    "biweekly-stick-lateral-leg-swings": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "biweekly-stick-quad-stretch": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "biweekly-butterfly-groin-stretch": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "biweekly-hamstring-stretch": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    }
+  },
+  "validationLog": [
+    {
+      "checkpoint": "V541-WED-biweekly-seated-hip-abductor-machine-PAIR-COMPLETE",
+      "movementId": "biweekly-seated-hip-abductor-machine",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-dumbbell-romanian-deadlift-rdl-PAIR-COMPLETE",
+      "movementId": "biweekly-dumbbell-romanian-deadlift-rdl",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-45-incline-leg-press-mid-stance-PAIR-COMPLETE",
+      "movementId": "biweekly-45-incline-leg-press-mid-stance",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-lying-leg-curl-machine-PAIR-COMPLETE",
+      "movementId": "biweekly-lying-leg-curl-machine",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-dumbbell-walking-lunges-PAIR-COMPLETE",
+      "movementId": "biweekly-dumbbell-walking-lunges",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-wide-stance-sumo-goblet-squat-PAIR-COMPLETE",
+      "movementId": "periodized-wide-stance-sumo-goblet-squat",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-cable-hip-adduction-PAIR-COMPLETE",
+      "movementId": "periodized-cable-hip-adduction",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-side-lying-adduction-PAIR-COMPLETE",
+      "movementId": "periodized-side-lying-adduction",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-side-plank-abduction-PAIR-COMPLETE",
+      "movementId": "periodized-side-plank-abduction",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-barbell-rdl-PAIR-COMPLETE",
+      "movementId": "periodized-barbell-rdl",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-cable-pull-through-PAIR-COMPLETE",
+      "movementId": "periodized-cable-pull-through",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-goblet-squat-to-box-PAIR-COMPLETE",
+      "movementId": "periodized-goblet-squat-to-box",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-bodyweight-box-squat-PAIR-COMPLETE",
+      "movementId": "periodized-bodyweight-box-squat",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-dumbbell-lying-leg-curl-PAIR-COMPLETE",
+      "movementId": "periodized-dumbbell-lying-leg-curl",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-deficit-bulgarian-split-squat-PAIR-COMPLETE",
+      "movementId": "periodized-deficit-bulgarian-split-squat",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-step-ups-on-bench-PAIR-COMPLETE",
+      "movementId": "periodized-step-ups-on-bench",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending",
+      "repair": "start-regenerated-after-initial-phase-rejection"
+    },
+    {
+      "checkpoint": "V541-WED-periodized-reverse-lunges-PAIR-COMPLETE",
+      "movementId": "periodized-reverse-lunges",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-stick-overhead-deep-squat-prys-PAIR-COMPLETE",
+      "movementId": "biweekly-stick-overhead-deep-squat-prys",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-stick-good-mornings-PAIR-COMPLETE",
+      "movementId": "biweekly-stick-good-mornings",
+      "files": 2,
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-stick-lateral-leg-swings-PAIR-COMPLETE",
+      "movementId": "biweekly-stick-lateral-leg-swings",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-stick-quad-stretch-PAIR-COMPLETE",
+      "movementId": "biweekly-stick-quad-stretch",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-WED-biweekly-butterfly-groin-stretch-PAIR-COMPLETE",
+      "movementId": "biweekly-butterfly-groin-stretch",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-WED-ARTWORK-COMPLETE",
+      "movementId": "biweekly-hamstring-stretch",
+      "status": "technical-and-semantic-pass"
+    }
+  ],
+  "currentMovementId": null,
+  "currentPhase": null,
+  "remainingSets": 0,
+  "remainingFiles": 0
+}

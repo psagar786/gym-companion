@@ -1,0 +1,32 @@
+{
+  "plan": "periodized-abc",
+  "day": "Monday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "totalCanonicalSets": 61,
+  "completedSets": 61,
+  "completedFiles": 122,
+  "remainingSets": 0,
+  "remainingFiles": 0,
+  "currentCheckpoint": "ADAC-ART-MONDAY-COMPLETE",
+  "currentBatch": null,
+  "currentMovementId": null,
+  "currentPhase": null,
+  "failedMovementIds": [],
+  "knownIssues": [
+    "Image generation rate limit reached while starting Incline Machine Fly; no output file was created. Resume the same nextAtomicAction after reset.",
+    "Incline Deficit Push-Ups manifest equipment is inherited as Barbell / rack; generated pair uses low push-up handles on an elevated step and requires metadata review.",
+    "Semantic and gym-coach review remain pending for all generated pairs."
+  ],
+  "excludedReviewOnlyIds": [
+    "periodized-ab-wheel-rollout",
+    "periodized-band-pull-apart",
+    "periodized-captain-s-chair-leg-raise",
+    "periodized-reverse-pec-deck-fly"
+  ],
+  "lastCompletedCommit": "1be5299",
+  "nextAtomicAction": "Review Monday pairs semantically before integration"
+}

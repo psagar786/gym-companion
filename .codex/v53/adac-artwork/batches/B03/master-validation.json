@@ -1,0 +1,8 @@
+{
+  "batch": "B03",
+  "start": {"file": "start-master.png", "width": 1254, "height": 1254, "technicalStatus": "PASS"},
+  "movement": {"file": "movement-master.png", "width": 1254, "height": 1254, "technicalStatus": "PASS"},
+  "grid": "5x5 row-major",
+  "mapping": "batch-manifest.json",
+  "notes": "Both boards preserve the locked mapping. B03 includes mobility and recovery scenes plus core and posterior-chain movements."
+}

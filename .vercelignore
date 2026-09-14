@@ -1,0 +1,15 @@
+# Keep the member deployment limited to the active runtime and its assets.
+.codex
+batches
+output
+outputs
+assets/exercises/*
+!assets/exercises/periodized-v3/
+!assets/exercises/periodized-v3/**
+
+# Local backups and review material never belong in a public deployment.
+fitness7-backups
+*.psd
+*.zip
+*.tar
+*.bundle

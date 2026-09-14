@@ -1,0 +1,1704 @@
+{
+  "schemaVersion": "fitness7-tuesday-v3-generation-v1",
+  "generatedAt": "2026-09-13T13:58:31.891Z",
+  "plan": "periodized-abc",
+  "day": "Tuesday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "assetModel": "male-only Start + Movement pair",
+  "promptVersion": "fitness7-scientific-v3-male-tuesday",
+  "totalSets": 36,
+  "totalFiles": 72,
+  "movements": [
+    {
+      "canonicalMovementId": "biweekly-stick-seated-russian-twists",
+      "name": "Stick Seated Russian Twists",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        17
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit on a mat with knees bent, feet lightly planted, torso tall, and both hands holding a light stick across the chest.",
+      "movementPose": "Rotate the ribcage and stick toward one hip while keeping the pelvis steady; return through center without swinging.",
+      "gripStance": "Stick across chest; feet grounded for the base version; rotate from the trunk, not the arms.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-seated-russian-twists"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-start.png",
+          "hash": "7703d1e4c088badcec65a9f7b775f2850f1ec2545a68a0fb86593116f1d16017",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-movement.png",
+          "hash": "4cbd33bf1428746c8ef85a6bde3bf8d0eb6f358478c57763c199de8497cc8b6f",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:00:59.268Z"
+    },
+    {
+      "canonicalMovementId": "periodized-cable-russian-twist",
+      "name": "Cable Russian Twist",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        17
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit facing away from a low cable with knees bent, feet supported, torso slightly reclined, and both hands holding the handle at the chest.",
+      "movementPose": "Rotate the ribcage and handle toward one side while the pelvis stays quiet; return through center and alternate.",
+      "gripStance": "Low cable at chest height; rotate the trunk, not just the shoulders.",
+      "mappedRuntimeIds": [
+        "periodized-cable-russian-twist"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-start.png",
+          "hash": "93b83191a74ce5016fc1c271c0bf27f76e48b5a6487d8c137ea61039a2f4ddaa",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-movement.png",
+          "hash": "42a1d2908832a87403e2a5b21f9af73d9849f290962fa20890ff9a9c55a9f6f1",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:03:49.696Z"
+    },
+    {
+      "canonicalMovementId": "periodized-floor-bodyweight-twist",
+      "name": "Floor Bodyweight Twist",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        17
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit on a mat with knees bent and feet planted, torso tall and hands together at the chest.",
+      "movementPose": "Rotate the ribcage toward one hip without collapsing the spine; return to center and alternate sides.",
+      "gripStance": "Bodyweight only; keep the feet grounded and range comfortable.",
+      "mappedRuntimeIds": [
+        "periodized-floor-bodyweight-twist"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-start.png",
+          "hash": "eb223db5d2a23e6c3e247a59bdf45581575e1fd936e0ee87e20a76dabe6f1a7a",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-movement.png",
+          "hash": "bc9492ae9eba427ce98fa0ee675fb52c5b1be20ba53f270464076b7f7b1427f5",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:07:01.247Z"
+    },
+    {
+      "canonicalMovementId": "periodized-medicine-ball-twists",
+      "name": "Medicine Ball Twists",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        17
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit with knees bent and feet grounded, holding one medicine ball at the chest with the torso slightly reclined.",
+      "movementPose": "Move the ball beside one hip by rotating the trunk while keeping the spine long; return to center and alternate.",
+      "gripStance": "Medicine ball stays close to the torso; no throwing or lumbar rounding.",
+      "mappedRuntimeIds": [
+        "periodized-medicine-ball-twists"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-start.png",
+          "hash": "ced46b498c2e0e94c66906b8956af9453c72392d5a0ed143000241e4a68ee435",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-movement.png",
+          "hash": "3b04a56e26d7d9ef7facc761085228b0fbd4ceb95840c7477c31780192cb8dee",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:09:12.683Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-lying-pelvic-tilt-leg-raise",
+      "name": "Lying Pelvic-Tilt Leg Raise",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        18
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie supine on a mat, legs straight together, hands beside the hips, and lower back gently connected to the floor.",
+      "movementPose": "Tilt the pelvis posteriorly and raise the straight legs to a comfortable height without arching the lower back; lower with control.",
+      "gripStance": "Legs together and straight; no momentum or lumbar arch.",
+      "mappedRuntimeIds": [
+        "biweekly-lying-pelvic-tilt-leg-raise"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-start.png",
+          "hash": "e24446acff2869bcdb7baaa2d172d9d148ece30b11a6997d9893f2d44e95f394",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-movement.png",
+          "hash": "43993aced97a758f182884a7c5ec6f8463990efcd965b3119984599e58eaf1f1",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:11:05.244Z"
+    },
+    {
+      "canonicalMovementId": "periodized-bench-reverse-crunch",
+      "name": "Bench Reverse Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        18
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie on a flat bench with hands gripping the sides, hips near the edge, knees bent and shins parallel to the floor.",
+      "movementPose": "Curl the pelvis toward the ribs to lift the hips slightly from the bench; lower the pelvis slowly without swinging the legs.",
+      "gripStance": "Hands stabilize the bench; movement is a pelvic curl, not a leg swing.",
+      "mappedRuntimeIds": [
+        "periodized-bench-reverse-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-start.png",
+          "hash": "f9f54e32f83c6cddd071a0543a38e3176ed82e79676770422972cf859805be04",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-movement.png",
+          "hash": "01c5052cafcefac7adb6c814ebacb56c1ace7600cffc4b8d06164aecb3d7e6b1",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:12:54.580Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-cable-pallof-press-with-iso-hold",
+      "name": "Cable Pallof Press with Iso-Hold",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        19
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand side-on to a cable at sternum height, feet shoulder-width, handle at the chest, ribs stacked over pelvis.",
+      "movementPose": "Press the handle straight forward and hold while resisting trunk rotation; return the handle to the chest slowly.",
+      "gripStance": "Cable handle at sternum height; square hips and shoulders; press directly away from the stack.",
+      "mappedRuntimeIds": [
+        "biweekly-cable-pallof-press-with-iso-hold"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-start.png",
+          "hash": "43f623333041ba2df62b31ff6138c3390c35599965eb0f63c153e6d1e10f2500",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-movement.png",
+          "hash": "940ba8176c95fa6dd7ab5c36652c46c6494a4488eb149dfdc5daafb6e156b064",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:15:15.958Z"
+    },
+    {
+      "canonicalMovementId": "periodized-side-plank-hold",
+      "name": "Side Plank Hold",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        19
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Set the forearm under the shoulder with legs extended and body in one straight line, or use the lower knee for support.",
+      "movementPose": "Lift the hips and hold a rigid side plank while breathing normally; lower with control after the hold.",
+      "gripStance": "Elbow under shoulder; hips high; do not rotate or shrug.",
+      "mappedRuntimeIds": [
+        "periodized-side-plank-hold"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-start.png",
+          "hash": "c34be4e91bac2254057f457fcaff5f3b80c29aa38549139b4dcb83aa1e8e53e3",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-movement.png",
+          "hash": "545e8eccfab13470af153043be35b744e9585f42cde326a3197e60c71707c108",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:16:23.066Z"
+    },
+    {
+      "canonicalMovementId": "periodized-db-suitcase-carry",
+      "name": "DB Suitcase Carry",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        19
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall holding one dumbbell at the side, feet hip-width, shoulders level and ribs stacked.",
+      "movementPose": "Walk slowly while resisting side-bending and keeping the dumbbell close to the thigh; stop and lower it under control.",
+      "gripStance": "One dumbbell only; short even steps; no leaning toward or away from the load.",
+      "mappedRuntimeIds": [
+        "periodized-db-suitcase-carry"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-start.png",
+          "hash": "fb9cf658496210f39c20e5f1da46f18f9e2037d5d7b913aaeaddc8fe9bcfe4d4",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-movement.png",
+          "hash": "ec2d6954d9980a14e7c3d59674d49d41f35ecf2f6515a2ebb5c9bac1d80e24c8",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:17:33.387Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-stick-standing-lateral-side-bends",
+      "name": "Stick Standing Lateral Side Bends",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        20
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall with a light stick across the upper back, feet hip-width, and ribs stacked over the pelvis.",
+      "movementPose": "Bend the trunk sideways without rotating or shifting the hips; return to upright under control.",
+      "gripStance": "Stick across traps for the base movement; keep both feet planted.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-standing-lateral-side-bends"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-start.png",
+          "hash": "0c1bf51d160eca90a640059be034f2104d35db9fe836f7a4559f4d483d4bd326",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-movement.png",
+          "hash": "68736bb0afb825af1b1aab2705414faf31366e79c345b5eeb78fd9d0a9c0f234",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:18:54.911Z"
+    },
+    {
+      "canonicalMovementId": "periodized-side-plank-hip-dips",
+      "name": "Side Plank Hip Dips",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        20
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Set the lower elbow under the shoulder in a side plank with feet stacked or the lower knee down.",
+      "movementPose": "Lower the hip toward the floor a short distance, then drive it back to the straight-line plank position.",
+      "gripStance": "Forearm vertical; shoulders and hips remain stacked.",
+      "mappedRuntimeIds": [
+        "periodized-side-plank-hip-dips"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-start.png",
+          "hash": "09abfc690f3a017b047a2b572847f49da2d40e39a3cf3206e07ba761e5838f59",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-movement.png",
+          "hash": "c4d4f5eb6ff8a169ab5f58e8fc20260b5dda3c96aebbc8fc468bc7e686546775",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:19:54.319Z"
+    },
+    {
+      "canonicalMovementId": "periodized-cable-side-crunch",
+      "name": "Cable Side Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        20
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand side-on to a high cable with the handle near the temple, feet stable and torso long.",
+      "movementPose": "Shorten the side of the trunk to bring the ribs toward the hip against the cable; return slowly without rotating.",
+      "gripStance": "Cable remains above and to the side; hips stay square.",
+      "mappedRuntimeIds": [
+        "periodized-cable-side-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-start.png",
+          "hash": "822f764e92aae996207232ee12c37c989945c1014aa9f1ace7aa587d1468448c",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-movement.png",
+          "hash": "14c36ebf0d29fffce1e98004d8f6d0663dc7fd4e26b13088c364e38183a4243d",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:20:55.962Z"
+    },
+    {
+      "canonicalMovementId": "periodized-incline-bench-plank-vacuum",
+      "name": "Incline Bench Plank Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        21
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Place forearms on an incline bench, step back into a straight-body plank and keep the pelvis neutral.",
+      "movementPose": "Exhale and gently draw the lower abdomen inward while maintaining the plank line; release without dropping the hips.",
+      "gripStance": "Forearms supported on the bench; brace without holding the breath.",
+      "mappedRuntimeIds": [
+        "periodized-incline-bench-plank-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-start.png",
+          "hash": "d39430190327396eaa300e8ed70d28b1c5f5d5a3932763b6cc087d3d7e22d261",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-movement.png",
+          "hash": "6ae72cbebe93cc1a5a82b8ce33fe3763011694a1f2d0edbe0c44acdc9afa58d1",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:22:16.052Z"
+    },
+    {
+      "canonicalMovementId": "periodized-cat-cow-vacuum",
+      "name": "Cat-Cow Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        21
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Start on hands and knees with wrists under shoulders, knees under hips, and spine neutral.",
+      "movementPose": "Exhale into a gentle abdominal draw-in as the spine moves through a small comfortable flexion; return to neutral without forcing the arc.",
+      "gripStance": "Small pain-free spinal range; abdomen stays active while breathing.",
+      "mappedRuntimeIds": [
+        "periodized-cat-cow-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-start.png",
+          "hash": "316598307aefe421da013e1308182e5ed9108461c762a4725703ba7663ab16f3",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-movement.png",
+          "hash": "cd422381b38de79fd3834346ef51aa5eba1097d399e8371aa8a71e8b7c6dfe8c",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:23:10.923Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-kneeling-cable-rope-crunch",
+      "name": "Kneeling Cable Rope Crunch",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "A",
+        "C"
+      ],
+      "sourceRows": [
+        22
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Kneel facing a high cable with the rope beside the ears, hips under the torso, and spine long.",
+      "movementPose": "Curl the ribs toward the pelvis by flexing the spine; pause the abdominal contraction, then re-extend slowly.",
+      "gripStance": "Rope beside ears; hips stay over knees; movement comes from the trunk.",
+      "mappedRuntimeIds": [
+        "biweekly-kneeling-cable-rope-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-start.png",
+          "hash": "440b2850e2aec02966604290a553d8e61a76cbac2bacf70bacc84aafcb4a0ab5",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-movement.png",
+          "hash": "6e2d298f4223c9ad9f122b5ed9ce2861cfba99cf4bed639f71f8706394651ff2",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:24:10.345Z"
+    },
+    {
+      "canonicalMovementId": "periodized-stability-ball-crunch",
+      "name": "Stability Ball Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        22
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit on a stability ball and walk the feet forward until the mid-back is supported, knees bent and hands lightly behind the head.",
+      "movementPose": "Curl the ribs toward the pelvis while the ball supports the back; lower until the spine lengthens over the ball.",
+      "gripStance": "Stability ball fully visible; hands guide the head but do not pull the neck.",
+      "mappedRuntimeIds": [
+        "periodized-stability-ball-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-start.png",
+          "hash": "f52852eb36db56759b5b3d492b757c82de01a01ff7a1d26c8f4d38ef0bdfbf19",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-movement.png",
+          "hash": "0c780554d9aab8167aeb0014253ecf5ded1b9480e5b555e8ffd17ea774a5966c",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:26:28.968Z"
+    },
+    {
+      "canonicalMovementId": "periodized-floor-crunch",
+      "name": "Floor Crunch",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        22
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie supine with knees bent, feet planted and fingertips behind the head without interlocking or pulling.",
+      "movementPose": "Lift the shoulder blades by curling the ribs toward the pelvis; lower until the upper back returns to the mat.",
+      "gripStance": "Feet stay grounded; small trunk curl; neck remains relaxed.",
+      "mappedRuntimeIds": [
+        "periodized-floor-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-start.png",
+          "hash": "a85a6c790d7270b2f047f7bc1ec7e1c03fca78fdd0bf34d43f287e9fcfb258ca",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-movement.png",
+          "hash": "69c0bf878995c575c614cd7b3abf7759578dc68e90460a123b8ca4de0486241e",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:27:32.708Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-stick-standing-torso-twists",
+      "name": "Stick Standing Torso Twists",
+      "roles": [
+        "warmup"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        15
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand with feet hip-width and a light stick across the chest, elbows relaxed and pelvis facing forward.",
+      "movementPose": "Rotate the ribcage a small distance to one side while the hips stay quiet; return through center and alternate.",
+      "gripStance": "Stick across chest; controlled thoracic rotation; no forced range.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-standing-torso-twists"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.png",
+          "hash": "cf2f4c57bcf9c66714e9a2199effb2faa892531857c5359da67899fecae15dc8",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.png",
+          "hash": "60f6f5978deae972474b899532d1b36dd2742824273eca84f0e29ce5b9f7958d",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:28:35.069Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-stick-high-knee-marches",
+      "name": "Stick High Knee Marches",
+      "roles": [
+        "warmup"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        15
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall holding a light stick across the shoulders or overhead, feet hip-width and posture upright.",
+      "movementPose": "March one knee toward hip height while the opposite foot stays stable, lower it quietly and alternate sides.",
+      "gripStance": "Stick remains stable; pelvis level; no hopping or leaning.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-high-knee-marches"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-start.png",
+          "hash": "3576f4ef56d3687f68db062ae39f152a9be6e561787464f6e83e92555ba8d4b6",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-movement.png",
+          "hash": "ba03f58db54846c252e3be5e31b79caa55a64727c563a2a989e1d17fdf62ef16",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:29:51.095Z"
+    },
+    {
+      "canonicalMovementId": "periodized-elliptical-intervals",
+      "name": "Elliptical Intervals",
+      "roles": [
+        "cardio"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        23
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand on the elliptical with feet centered on the pedals, hands lightly on the moving handles and torso upright.",
+      "movementPose": "Drive the pedals and handles in a controlled interval effort while keeping the knees tracking forward; ease down smoothly.",
+      "gripStance": "Elliptical machine; light hands; upright posture and conversational recovery between efforts.",
+      "mappedRuntimeIds": [
+        "biweekly-intervals"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-start.png",
+          "hash": "57602ee6ebffd95ba643a43c383f77ef73d892160644e5563366a22a60a6c56d",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-movement.png",
+          "hash": "54c3957ec336f5efccc8eac6403f07ee852b06de07ffdf569a6f3f305753ac45",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:31:10.504Z"
+    },
+    {
+      "canonicalMovementId": "periodized-bike-sprint-intervals",
+      "name": "Stationary Bike Sprint Intervals",
+      "roles": [
+        "cardio"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        23
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit on a stationary bike with the saddle set so the knee remains softly bent at the bottom and hands relaxed on the bars.",
+      "movementPose": "Accelerate the pedals for the work interval while keeping the torso stable, then reduce resistance and cadence for recovery.",
+      "gripStance": "Stationary bike; seated posture; never sprint out of the saddle for this record.",
+      "mappedRuntimeIds": [
+        "biweekly-intervals"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.png",
+          "hash": "fd8653533562dcac1e873c52a3117dbd289a1e289429749b49e6897fc89c14be",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.png",
+          "hash": "9c314b7b2831881590cfc13fb1186d860f77a954657bc47294756db53f9c3caa",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:32:07.925Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-cobra-pose",
+      "name": "Cobra Pose",
+      "roles": [
+        "recovery"
+      ],
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "sourceRows": [
+        24
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie prone with hands beside the lower ribs, legs extended and tops of the feet on the mat.",
+      "movementPose": "Press lightly through the hands to lift the chest into a comfortable spinal extension while the pelvis stays heavy; lower slowly.",
+      "gripStance": "Elbows remain soft and close; stop before lumbar pinching.",
+      "mappedRuntimeIds": [
+        "biweekly-cobra-pose"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-start.png",
+          "hash": "4add943946682b018d24395106877f50eeb323b0922c70157afc6b35b8ab90c7",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-movement.png",
+          "hash": "dd7b8465093b80563e7b0ff09d850fbb73e4eaa46e03dbe8f27994f547e5d584",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:33:18.355Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-standing-cable-woodchopper-high-to-low",
+      "name": "Standing Cable Woodchopper (High-to-Low)",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        82
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand side-on to a high cable with both hands near the outside shoulder, feet staggered, and knees softly bent.",
+      "movementPose": "Pull the handle diagonally down toward the opposite hip while rotating the trunk and pivoting the rear foot slightly; return along the same path.",
+      "gripStance": "High pulley to opposite hip; rotate as one unit without yanking with the arms.",
+      "mappedRuntimeIds": [
+        "biweekly-standing-cable-woodchopper-high-to-low"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-start.png",
+          "hash": "45d6935c9bb3937c3a883d1b8d749ceb13fbad32bffac603bbe393dd4ea3d9f2",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-movement.png",
+          "hash": "eb5982e9facbc3d9ad04f4c5aa800c4ccebcfc6ea0b53e0e299a43fc1fcd285c",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:34:31.425Z"
+    },
+    {
+      "canonicalMovementId": "periodized-dumbbell-woodchopper",
+      "name": "Dumbbell Woodchopper",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        82
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand with feet staggered holding one dumbbell near the outside shoulder, knees soft and trunk braced.",
+      "movementPose": "Rotate and guide the dumbbell diagonally down toward the opposite hip, then return along the same controlled arc.",
+      "gripStance": "Dumbbell travels diagonally; pivot the feet slightly instead of wrenching the knees.",
+      "mappedRuntimeIds": [
+        "periodized-dumbbell-woodchopper"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-start.png",
+          "hash": "a9466e74faf2d3cf4039cebc4624c300c1e2102ea1c600cd7fcfd05a394c6e80",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-movement.png",
+          "hash": "f2670478c17bac2364aacbb5f25dd76a62d79de38e6b1d830abc3700dd07df14",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:35:56.362Z"
+    },
+    {
+      "canonicalMovementId": "periodized-hanging-knee-raise",
+      "name": "Hanging Knee Raise",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        83
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Review before use · source equipment excluded; approved substitute shown",
+      "startPose": "Hang from a fixed pull-up bar with shoulders active, arms straight, knees bent about 90 degrees, and pelvis neutral.",
+      "movementPose": "Curl the pelvis and draw both knees toward the chest without swinging; lower until the legs hang quietly.",
+      "gripStance": "Shoulder-width overhand grip; bent knees; no kipping or behind-the-body swing.",
+      "mappedRuntimeIds": [
+        "periodized-hanging-knee-raise"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
+          "hash": "9b8c644f2c9f2cbefe683d52b395d3ba85612c3aba8bf68400bc117f7d4d0a64",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png",
+          "hash": "23fd6029561559bccebbcee2c9eb50409d1c6fc866e052ef563aebd294519810",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:37:20.709Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise",
+      "name": "Half-Kneeling Cable Pallof Press with Overhead Raise",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        84
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Kneel with the inside knee down beside a cable at sternum height, handle at the chest, glute lightly engaged, and ribs stacked.",
+      "movementPose": "Press the handle forward, then raise the straight arms overhead while resisting rotation; lower and return to the chest.",
+      "gripStance": "Half-kneeling stance; cable pulls sideways; overhead path stays in front of the face.",
+      "mappedRuntimeIds": [
+        "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-start.png",
+          "hash": "def1a6b13005dd5c3186d54f558476aa904135179cca0ea95122dd6021b18194",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-movement.png",
+          "hash": "63d69ebbe01987394b92a8e77d6308291df85ec537f2d5199a9da10030ef59e6",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:38:22.886Z"
+    },
+    {
+      "canonicalMovementId": "periodized-standard-pallof-press",
+      "name": "Standard Pallof Press",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        84
+      ],
+      "equipment": "Cable station",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand side-on to a cable at sternum height with feet shoulder-width and handle held at the chest.",
+      "movementPose": "Press the handle straight forward, pause while resisting rotation, and return it to the chest without shifting the hips.",
+      "gripStance": "Cable at sternum height; square shoulders and hips; no trunk twist.",
+      "mappedRuntimeIds": [
+        "periodized-standard-pallof-press"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-start.png",
+          "hash": "ee7ee42779a41b9cfb976c5fd26c92838fbe5e8489f3a0ac76fcb19b197a6113",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-movement.png",
+          "hash": "fb50b58cb579f3a43e4b52f0e7bf839a7b13c6a30911d86af1f16c5d758dad44",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:39:28.040Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-side-plank-hip-dips-with-rotation",
+      "name": "Side Plank Hip Dips with Rotation",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        85
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Set the lower elbow under the shoulder in a side plank with feet stacked or staggered and the top arm reaching upward.",
+      "movementPose": "Lower the hip a few centimetres, lift back to a straight line, then rotate the top arm under the ribs without collapsing the shoulder.",
+      "gripStance": "Forearm vertical; hips stay lifted; rotation comes from the trunk.",
+      "mappedRuntimeIds": [
+        "biweekly-side-plank-hip-dips-with-rotation"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-start.png",
+          "hash": "2b50aeacb135970c3e49d20d6914d8dd3bf831ba26ba17b116e93b189142ba89",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-movement.png",
+          "hash": "7b160860ca6ceaaa75628b2d44dee34083db353ccc089ebcbb396760a15c1778",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:40:41.280Z"
+    },
+    {
+      "canonicalMovementId": "periodized-db-side-bend",
+      "name": "DB Side Bend",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        85
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall holding one dumbbell in one hand with feet hip-width and the free hand on the ribs.",
+      "movementPose": "Bend slightly toward the unloaded side while keeping the chest facing forward, then pull the ribs back to vertical.",
+      "gripStance": "One dumbbell; hips stay still; small pain-free lateral range.",
+      "mappedRuntimeIds": [
+        "periodized-db-side-bend"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.png",
+          "hash": "feac8f2fa18995fa675d5e004a033ee231913e7024d9eb4cf6e263582243fd1c",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.png",
+          "hash": "9c6546469e0a94b999e970cbbd0df8efdcc0adcab98d0b63a63a506f3558a4a1",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:41:51.173Z"
+    },
+    {
+      "canonicalMovementId": "periodized-standing-stomach-vacuum",
+      "name": "Standing Stomach Vacuum",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall with feet hip-width and hands resting lightly on the thighs.",
+      "movementPose": "Exhale and draw the lower abdomen inward while keeping the ribs and pelvis stacked; release while breathing normally.",
+      "gripStance": "Upright stance; gentle abdominal draw-in; no breath-holding.",
+      "mappedRuntimeIds": [
+        "biweekly-standing-seated-transverse-abdominis-stomach-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.png",
+          "hash": "2fecc2c6f347f7faa76eddb2826cd6667297ac2c40d63abf054c1300511c98bd",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.png",
+          "hash": "f13f9268ffa09a80a9f16a72ef7d714be44a67e9ad21bbaeab0200ada26ef782",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:42:54.447Z"
+    },
+    {
+      "canonicalMovementId": "periodized-seated-stomach-vacuum",
+      "name": "Seated Stomach Vacuum",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Sit tall with feet grounded, hands on thighs and spine neutral.",
+      "movementPose": "Exhale and draw the lower abdomen inward without rounding the back; release gradually while breathing normally.",
+      "gripStance": "Seated neutral spine; gentle effort; stop if light-headed.",
+      "mappedRuntimeIds": [
+        "biweekly-standing-seated-transverse-abdominis-stomach-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-start.png",
+          "hash": "443885fa0bbc9ce4d8ac33719454142dfd5f3f64ce30ef2a1cf1c8806816dd33",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-movement.png",
+          "hash": "895f77a84eecb20e5d04c818d43d5dbc065814d10185a05e166ab741fc1c6fc3",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:44:48.984Z"
+    },
+    {
+      "canonicalMovementId": "periodized-quadruped-vacuum",
+      "name": "Quadruped Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Start on hands and knees with a neutral spine, hands under shoulders and knees under hips.",
+      "movementPose": "Exhale and gently draw the abdomen upward and inward while keeping the spine still; release gradually.",
+      "gripStance": "Maintain neutral spine and normal breathing; no rib flare or pelvic tuck.",
+      "mappedRuntimeIds": [
+        "periodized-quadruped-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-start.png",
+          "hash": "f56f26d28af36b9a5df97b48081a52d5a64036f3aefa6f1c8ca29eeb2dc0c0e0",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-movement.png",
+          "hash": "2869117176b328df32ebd12fd7a27a27b029af2962ba8a961eef5c5a80d2f57c",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:45:57.054Z"
+    },
+    {
+      "canonicalMovementId": "periodized-plank-vacuum",
+      "name": "Plank Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Set a forearm plank with elbows under shoulders, legs straight and body in one line.",
+      "movementPose": "Exhale and draw the lower abdomen inward while maintaining the plank; release without sagging the hips.",
+      "gripStance": "Brace without breath-holding; keep the pelvis neutral.",
+      "mappedRuntimeIds": [
+        "periodized-plank-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-start.png",
+          "hash": "c5baafddfc1641c13dadee65057d377fa88209bc6d2f9190721df54aeefa57ed",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-movement.png",
+          "hash": "4fffd9e943424ec504c32e3c0784e8b3fddaec57c79a035f794a5e0981b49afe",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:47:04.139Z"
+    },
+    {
+      "canonicalMovementId": "periodized-lying-vacuum",
+      "name": "Lying Vacuum",
+      "roles": [
+        "alternative"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        86
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Lie supine with knees bent, feet on the mat, arms relaxed and lower back neutral.",
+      "movementPose": "Exhale gently, draw the lower abdomen inward without lifting the ribs or pelvis, and hold the brace before releasing slowly.",
+      "gripStance": "Quiet breathing and mild abdominal draw-in; no breath-holding or forced hollowing.",
+      "mappedRuntimeIds": [
+        "periodized-lying-vacuum"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-start.png",
+          "hash": "c56673c22418de9a7f55d810fcf6759ff8dda94954af0b5ae1c3a6e5cca69de7",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-movement.png",
+          "hash": "a44091d7cd0e9aef4b1898b8bfada92b98d436678d87aa82e1a3b73e25389cec",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:48:21.977Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-decline-bench-weighted-crunch",
+      "name": "Decline Bench Weighted Crunch",
+      "roles": [
+        "core"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        87
+      ],
+      "equipment": "Bodyweight / floor",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Secure the ankles on a decline bench, hold a light plate at the chest, and lie back with the pelvis neutral.",
+      "movementPose": "Curl the ribs toward the pelvis while keeping the plate against the chest; pause, then lower the spine to the bench slowly.",
+      "gripStance": "Decline bench and plate on chest; do not pull the head or throw the torso forward.",
+      "mappedRuntimeIds": [
+        "biweekly-decline-bench-weighted-crunch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-start.png",
+          "hash": "57538f82ca1d4b1761e59ed690303523fdd83acc0eabca8beaa6b4de214ff99e",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-movement.png",
+          "hash": "cb01f01cddf403a3cfa70c3b8cb0664247323bb731f8162849ce12f5b860c794",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:49:28.211Z"
+    },
+    {
+      "canonicalMovementId": "biweekly-stick-overhead-side-stretch",
+      "name": "Stick Overhead Side Stretch",
+      "roles": [
+        "recovery"
+      ],
+      "weekKeys": [
+        "B"
+      ],
+      "sourceRows": [
+        89
+      ],
+      "equipment": "Light stick or empty-hand range",
+      "equipmentStatus": "Confirmed / review source sheet",
+      "startPose": "Stand tall holding a light stick overhead with hands wider than shoulders and feet grounded.",
+      "movementPose": "Reach upward and lean gently to one side without rotating the chest; return upright before switching sides.",
+      "gripStance": "Stick overhead; side bend only in a comfortable range; ribs stay controlled.",
+      "mappedRuntimeIds": [
+        "biweekly-stick-overhead-side-stretch"
+      ],
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-movement.png"
+      },
+      "generationStatus": "technical-pass",
+      "athlete": "adult male; fixed identity across Start and Movement",
+      "promptVersion": "fitness7-scientific-v3-male-tuesday",
+      "technicalReviewStatus": "technical-pass",
+      "semanticReviewStatus": "ai-review-pending",
+      "humanCoachReviewStatus": "pending",
+      "output": {
+        "start": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-start.png",
+          "hash": "da11ec28320c17996ef2427c391d81a947497fee961f17a10b8d20b2d336a170",
+          "width": 512,
+          "height": 512
+        },
+        "movement": {
+          "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-movement.png",
+          "hash": "98737dcf69fe5b0bcad00f03ff1b430f61e63a4ff324d941147d5b00f9c94ff9",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "generatedAt": "2026-09-13T14:50:27.117Z"
+    }
+  ]
+}

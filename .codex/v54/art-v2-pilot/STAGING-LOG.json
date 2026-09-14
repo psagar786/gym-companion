@@ -1,0 +1,252 @@
+{
+  "namespace": ".codex/v54/art-v2-pilot/staging",
+  "appIntegration": "not integrated by request",
+  "pairs": [
+    {
+      "movementId": "periodized-flat-dumbbell-bench-press",
+      "start": "periodized-flat-dumbbell-bench-press-v2-start.png",
+      "movement": "periodized-flat-dumbbell-bench-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-barbell-bench-press",
+      "start": "periodized-incline-barbell-bench-press-v2-start.png",
+      "movement": "periodized-incline-barbell-bench-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-hex-press",
+      "start": "periodized-incline-hex-press-v2-start.png",
+      "movement": "periodized-incline-hex-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-low-to-high-cable-fly",
+      "start": "periodized-low-to-high-cable-fly-v2-start.png",
+      "movement": "periodized-low-to-high-cable-fly-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-standing-cable-chest-press",
+      "start": "periodized-standing-cable-chest-press-v2-start.png",
+      "movement": "periodized-standing-cable-chest-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-standing-barbell-overhead-press",
+      "start": "periodized-standing-barbell-overhead-press-v2-start.png",
+      "movement": "periodized-standing-barbell-overhead-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-seated-dumbbell-shoulder-press",
+      "start": "periodized-seated-dumbbell-shoulder-press-v2-start.png",
+      "movement": "periodized-seated-dumbbell-shoulder-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-wide-grip-lat-pulldown",
+      "start": "periodized-wide-grip-lat-pulldown-v2-start.png",
+      "movement": "periodized-wide-grip-lat-pulldown-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-close-neutral-v-bar-pulldown",
+      "start": "periodized-close-neutral-v-bar-pulldown-v2-start.png",
+      "movement": "periodized-close-neutral-v-bar-pulldown-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-chest-supported-incline-dumbbell-row",
+      "start": "periodized-chest-supported-incline-dumbbell-row-v2-start.png",
+      "movement": "periodized-chest-supported-incline-dumbbell-row-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-seated-neutral-cable-row",
+      "start": "periodized-seated-neutral-cable-row-v2-start.png",
+      "movement": "periodized-seated-neutral-cable-row-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-t-bar-row",
+      "start": "periodized-t-bar-row-v2-start.png",
+      "movement": "periodized-t-bar-row-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-straight-arm-cable-pulldown",
+      "start": "periodized-straight-arm-cable-pulldown-v2-start.png",
+      "movement": "periodized-straight-arm-cable-pulldown-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-cable-face-pull-external-rotation",
+      "start": "periodized-cable-face-pull-external-rotation-v2-start.png",
+      "movement": "periodized-cable-face-pull-external-rotation-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-prone-dumbbell-reverse-fly",
+      "start": "periodized-incline-prone-dumbbell-reverse-fly-v2-start.png",
+      "movement": "periodized-incline-prone-dumbbell-reverse-fly-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-barbell-back-squat",
+      "start": "periodized-barbell-back-squat-v2-start.png",
+      "movement": "periodized-barbell-back-squat-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-45-degree-leg-press",
+      "start": "periodized-45-degree-leg-press-v2-start.png",
+      "movement": "periodized-45-degree-leg-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-dumbbell-romanian-deadlift",
+      "start": "periodized-dumbbell-romanian-deadlift-v2-start.png",
+      "movement": "periodized-dumbbell-romanian-deadlift-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-conventional-barbell-deadlift",
+      "start": "periodized-conventional-barbell-deadlift-v2-start.png",
+      "movement": "periodized-conventional-barbell-deadlift-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-seated-hip-adductor-machine",
+      "start": "periodized-seated-hip-adductor-machine-v2-start.png",
+      "movement": "periodized-seated-hip-adductor-machine-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-seated-hip-abductor-machine",
+      "start": "periodized-seated-hip-abductor-machine-v2-start.png",
+      "movement": "periodized-seated-hip-abductor-machine-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-dumbbell-glute-bridge",
+      "start": "periodized-dumbbell-glute-bridge-v2-start.png",
+      "movement": "periodized-dumbbell-glute-bridge-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-prone-lying-leg-curl",
+      "start": "periodized-prone-lying-leg-curl-v2-start.png",
+      "movement": "periodized-prone-lying-leg-curl-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-dumbbell-walking-lunges",
+      "start": "periodized-dumbbell-walking-lunges-v2-start.png",
+      "movement": "periodized-dumbbell-walking-lunges-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-hanging-knee-raise",
+      "start": "periodized-hanging-knee-raise-v2-start.png",
+      "movement": "periodized-hanging-knee-raise-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-cable-pallof-press",
+      "start": "periodized-cable-pallof-press-v2-start.png",
+      "movement": "periodized-cable-pallof-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-cable-woodchopper",
+      "start": "periodized-cable-woodchopper-v2-start.png",
+      "movement": "periodized-cable-woodchopper-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-bench-reverse-crunch",
+      "start": "periodized-incline-bench-reverse-crunch-v2-start.png",
+      "movement": "periodized-incline-bench-reverse-crunch-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-rkc-hardstyle-plank",
+      "start": "periodized-rkc-hardstyle-plank-v2-start.png",
+      "movement": "periodized-rkc-hardstyle-plank-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-transverse-abdominis-stomach-vacuum",
+      "start": "periodized-transverse-abdominis-stomach-vacuum-v2-start.png",
+      "movement": "periodized-transverse-abdominis-stomach-vacuum-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-rotator-cuff-external-rotation-isometric",
+      "start": "periodized-rotator-cuff-external-rotation-isometric-v2-start.png",
+      "movement": "periodized-rotator-cuff-external-rotation-isometric-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-side-plank-ql-isometric-hold",
+      "start": "periodized-side-plank-ql-isometric-hold-v2-start.png",
+      "movement": "periodized-side-plank-ql-isometric-hold-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-poliquin-vmo-step-up-hold",
+      "start": "periodized-poliquin-vmo-step-up-hold-v2-start.png",
+      "movement": "periodized-poliquin-vmo-step-up-hold-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-reverse-grip-dumbbell-wrist-forearm-isometric",
+      "start": "periodized-reverse-grip-dumbbell-wrist-forearm-isometric-v2-start.png",
+      "movement": "periodized-reverse-grip-dumbbell-wrist-forearm-isometric-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-45-degree-back-extension-hold",
+      "start": "periodized-45-degree-back-extension-hold-v2-start.png",
+      "movement": "periodized-45-degree-back-extension-hold-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-stick-shoulder-dislocates",
+      "start": "periodized-stick-shoulder-dislocates-v2-start.png",
+      "movement": "periodized-stick-shoulder-dislocates-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-stick-around-the-world",
+      "start": "periodized-stick-around-the-world-v2-start.png",
+      "movement": "periodized-stick-around-the-world-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-stick-overhead-thoracic-extensions",
+      "start": "periodized-stick-overhead-thoracic-extensions-v2-start.png",
+      "movement": "periodized-stick-overhead-thoracic-extensions-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-stick-standing-trunk-rotation",
+      "start": "periodized-stick-standing-trunk-rotation-v2-start.png",
+      "movement": "periodized-stick-standing-trunk-rotation-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-incline-dumbbell-bench-press",
+      "start": "periodized-incline-dumbbell-bench-press-v2-start.png",
+      "movement": "periodized-incline-dumbbell-bench-press-v2-movement.png",
+      "status": "generated-pending-review"
+    },
+    {
+      "movementId": "periodized-high-to-low-cable-fly",
+      "start": "periodized-high-to-low-cable-fly-v2-start.png",
+      "movement": "periodized-high-to-low-cable-fly-v2-movement.png",
+      "status": "generated-pending-review"
+    }
+  ]
+}

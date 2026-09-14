@@ -1,0 +1,134 @@
+{
+  "day": "Thursday",
+  "tuesdayAudit": {
+    "movementRecords": 36,
+    "runtimeMapRecords": 52,
+    "generatedSets": 36,
+    "reusedSets": 4,
+    "deferredSets": 1,
+    "rule": "No reuse is approved by name alone; every candidate requires mechanics review."
+  },
+  "candidates": [],
+  "mondayReuse": [
+    {
+      "runtimeId": "biweekly-stick-behind-the-back-chest-opener",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "candidate-awaiting-final-mechanics-check"
+    },
+    {
+      "runtimeId": "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "candidate-awaiting-final-mechanics-check"
+    },
+    {
+      "runtimeId": "periodized-t-bar-row",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "candidate-awaiting-final-mechanics-check"
+    },
+    {
+      "runtimeId": "periodized-chest-supported-machine-row",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "candidate-awaiting-final-mechanics-check"
+    },
+    {
+      "runtimeId": "periodized-low-incline-cable-fly",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "candidate-awaiting-final-mechanics-check"
+    },
+    {
+      "runtimeId": "periodized-parallel-bar-dips",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "candidate-awaiting-final-mechanics-check"
+    }
+  ],
+  "approved": [
+    {
+      "runtimeId": "biweekly-stick-behind-the-back-chest-opener",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-t-bar-row",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-chest-supported-machine-row",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-low-incline-cable-fly",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-monday-v3"
+    },
+    {
+      "runtimeId": "periodized-parallel-bar-dips",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-monday-v3"
+    }
+  ],
+  "rejected": [],
+  "rule": "Approval requires exact equipment, grip, stance, joint path, range, and intent match.",
+  "tuesdayAuditDecision": {
+    "tuesdayCanonicalRecordsInspected": 36,
+    "tuesdayRuntimeMappingsInspected": 52,
+    "exactNameOrIdCandidates": 0,
+    "approvedCandidates": 0,
+    "rejectedCandidates": 0,
+    "decision": "No exact Tuesday reuse candidate approved; mechanics, equipment, grip, stance, path and range were checked."
+  }
+}

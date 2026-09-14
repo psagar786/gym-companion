@@ -1,23 +1,103 @@
-# Gym Companion
+# Gym Companion V3 — Member & Coach Apps
 
-A visual, device-first workout companion created for Fitness 7 members when the original gym app is unavailable. It shows the day’s routine, clear exercise illustrations, equipment-compatible variations, and local completion tracking.
+Fitness 7’s account-enabled workout companion. V3 uses two simple Vercel apps backed by one secure Supabase database. V1 and V2 stay unchanged.
 
-## Use it
+## Product documentation
 
-Open `index.html`, choose today’s card, select one option per exercise, and tick the slots you complete. Choices and progress are saved only in that browser using local storage.
+- [`PRD.md`](PRD.md) — management-ready product requirements and pilot business case.
+- [`V5-V7-PRODUCT-SCOPE.md`](V5-V7-PRODUCT-SCOPE.md) — phased production, anywhere-training, and progress-intelligence scope.
+- [`PRODUCT-REVIEW-AND-ARCHITECTURE.md`](PRODUCT-REVIEW-AND-ARCHITECTURE.md) — GPM review, prioritized gaps, functional and technical flows, and the delivery-agent model.
 
-## Fast routine updates
+## Live V3 apps
 
-Edit [data/routine.js](data/routine.js). It is the single source of truth for the six-day schedule, sets, cues, exercise variations, and image names. Exercise images live in `assets/exercises/` and must be 512×512 PNGs.
+- Member app: <https://gym-companion-member-v3.vercel.app>
+- Coach/admin app: <https://gym-companion-coach-v3.vercel.app>
 
-## Deployment
+Both production projects track `feature/member-accounts-v3`. Members are never sent to the coach interface, and the member deployment does not expose the privileged admin API.
 
-This is a static site with no build command. Import the GitHub repository into Vercel with the project root set to this folder. Production deploys from `main`; pull requests receive preview URLs.
+## V5 Optimized PPL member app
 
-**Live site:** https://gym-companion-blush.vercel.app
+V5 is a separate member deployment built from `feature/member-accounts-v5`; V4 remains unchanged. V5 defaults to a verified-equipment six-day PPL plan with six core movements and up to two relevant extras per day. The Fitness 7 split remains selectable in **My training plan**.
 
-## Privacy and safety
+Before publishing V5 to real members, apply [`supabase/migrations/20260812_v5_ppl_sessions.sql`](supabase/migrations/20260812_v5_ppl_sessions.sql). It keeps V4 workout sessions as read-only legacy history and enables separately saved V5 sessions for the same member/date. Then deploy a new Vercel project named `gym-companion-member-v5` with the V4 member environment values plus `APP_MODE=member` and `DEMO_MODE=true` for the public demo.
 
-No accounts, analytics, or server-side storage are included. This app is a workout reference, not medical advice. Stop for sharp pain, dizziness, chest symptoms, or unusual breathlessness.
+Run `node scripts/validate-v5-routine.mjs` before each V5 release. It rejects excluded equipment and requires all active setup/move/return assets to be valid 512×512 PNGs.
 
-See [PRD.md](PRD.md) for product direction and [AGENTS.md](AGENTS.md) for the contributor/agent guide.
+## What V3 adds
+
+- Invite-only member accounts and self-service password changes.
+- Private cloud workout sessions and personalised Monday–Saturday plans.
+- Owner/admin panel for members, membership dates/status, approved exercise content, and individual plans.
+- Fitness 7 imagery from the existing curated asset set only.
+
+## Set up Supabase
+
+1. Create a Supabase project and configure the Authentication **Site URL** and allowed redirect URL to the V3 Vercel URL.
+2. Run [`supabase/migrations/20260801_v3_schema.sql`](supabase/migrations/20260801_v3_schema.sql) in the Supabase SQL editor.
+3. Invite the first owner through Supabase Auth, then promote them manually:
+
+   ```sql
+   update public.profiles set role = 'owner' where id = '<AUTH_USER_UUID>';
+   ```
+
+4. Seed the approved exercise records once:
+
+   ```sh
+   SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node scripts/seed-library.mjs
+   ```
+
+## Deploy V3 as two apps
+
+Create two new Vercel projects from branch `feature/member-accounts-v3`: `gym-companion-member-v3` and `gym-companion-coach-v3`. Both projects use this repository root and these shared values:
+
+- `SUPABASE_URL`
+- `SUPABASE_ANON_KEY`
+- `MEMBER_APP_URL`
+- `ADMIN_APP_URL`
+
+Set `APP_MODE=member` in the member project. Set `APP_MODE=admin` and `SUPABASE_SERVICE_ROLE_KEY` in the coach project only. The shared bootstrap loads only the correct interface for that deployment. `/api/admin` returns 404 from the member deployment, even for signed-in users.
+
+### Temporary public demo
+
+Set `DEMO_MODE=true` in **both V3 Vercel projects** to enable the separate, browser-only demos:
+
+- Member app: `sagar.paperwala003.member` / `1234`
+- Coach app: `sagar.paperwala003.admin` / `1234`
+
+These are not Supabase users. Demo edits, workout checks, and history stay in that browser only, and each app accepts only its own demo username. Real users continue to sign in through Supabase using their email and password. “Remember me” uses local browser storage; without it, a session is kept only for the current browser session.
+
+The member app contains workouts, profile, password change, and history. The coach app contains a task-based dashboard, member management, membership dates/status, password reset, personal plan builder, and exercise library.
+
+The browser fetches only the public URL/key from `/api/config`. Invitations, role changes, and password-reset emails run through the coach deployment’s `/api/admin`, which verifies the caller’s staff role before using the service key.
+
+## Personal V3 upgrade
+
+Personal V3 gives members a self-guided choice of **PPL twice weekly** or the Fitness 7 split, plus Beginner, Intermediate, and Expert training levels. The app’s default is Intermediate PPL twice weekly, with 6/7/8 main movements respectively and a maximum of two recurring optional extras per day. Daily habit tracking is intentionally binary and includes the personalized protein, water, supplements, snack, dinner, sleep, and weekend-portion defaults.
+
+Apply the following in order before deploying this feature to real accounts:
+
+1. Run [`supabase/migrations/20260810_personal_v3.sql`](supabase/migrations/20260810_personal_v3.sql) in Supabase.
+2. Run `SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node scripts/seed-tiered-library.mjs`.
+3. Run `SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node scripts/apply-personal-ppl-defaults.mjs` once to replace active members’ future plans. Historical session snapshots remain unchanged.
+4. Run `node scripts/validate-personal-library.mjs` before release to validate library coverage and square 512px exercise assets.
+
+## Free cloud operation
+
+This MVP can run on the Vercel Hobby and Supabase Free plans while usage stays within their limits. Use one Supabase project for authentication and data, plus the two Vercel projects above for the separate member and coach interfaces. No payment data is stored. Monitor usage in both dashboards and upgrade before using the service commercially or exceeding free-plan limits.
+
+## Security model
+
+Supabase row-level security permits members to read and write only their own sessions, profiles, membership data, and plans. Staff can manage gym content and plans. Owner-only role changes are enforced server-side. Admins never see or set member passwords; they send a secure reset email instead.
+
+## Local development
+
+Opening `index.html` directly launches an offline two-app preview. It lets reviewers switch between member and coach experiences, add sample members, edit memberships, build weekday plans, and tick workouts; preview changes remain in that browser only.
+
+Use `vercel dev` with the environment values above to test real authentication and database behavior. Set `APP_MODE` to preview the hosted member or coach interface. V2’s device-only local history is deliberately not imported.
+
+## Validation checklist
+
+- Invite a member, set a password, sign in, change password, and sign out.
+- Confirm another member cannot read that member’s plan or workout sessions.
+- Save a custom Monday plan as an admin and confirm only its assigned member sees it.
+- Archive an exercise and confirm it remains in existing session snapshots but cannot be assigned as a new active exercise.

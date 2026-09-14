@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "v54-periodized-missing-queue-v1",
+  "sourceOfTruth": "data/periodized-artwork.js plus current A-B-A-C runtime",
+  "baseline": {
+    "runtimeSelectableIdentities": 288,
+    "existingCompletePairs": 125,
+    "initialMissingSets": 163,
+    "initialMissingFiles": 326,
+    "spreadsheetPromptRows": 43
+  },
+  "mappingStatus": {
+    "existingExact": 13,
+    "aliasOfExisting": 12,
+    "combinedRowSplitRequired": 7,
+    "excludedEquipment": 4,
+    "ambiguousNeedsReview": 7,
+    "missingGenerateApproved": 1,
+    "notUsedByCurrentRuntime": 0
+  },
+  "generation": {
+    "generatedSets": 1,
+    "generatedFiles": 2,
+    "remainingSets": 162,
+    "remainingFiles": 324,
+    "formula": "remainingSets = 163 - generatedSets; remainingFiles = remainingSets * 2",
+    "status": "one-pair-complete-next-mapping-required"
+  },
+  "rules": [
+    "Generate only missing-generate records after canonical identity, equipment, grip, and mechanics are confirmed.",
+    "Never regenerate existing exact or alias-of-existing identities in this run.",
+    "Split mechanically different combined rows before generation.",
+    "Keep excluded-equipment rows review-only and out of the active selectable queue.",
+    "Do not activate a pair until both Start and Movement pass technical and semantic checks."
+  ]
+}

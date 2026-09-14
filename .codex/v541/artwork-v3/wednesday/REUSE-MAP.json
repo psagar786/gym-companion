@@ -1,0 +1,24 @@
+{
+  "day": "Wednesday",
+  "tuesdayAudit": {
+    "movementRecords": 36,
+    "runtimeMapRecords": 52,
+    "generatedSets": 36,
+    "reusedSets": 4,
+    "deferredSets": 1,
+    "rule": "No reuse is approved by name alone; every candidate requires mechanics review."
+  },
+  "candidates": [],
+  "mondayReuse": [],
+  "approved": [],
+  "rejected": [],
+  "rule": "Approval requires exact equipment, grip, stance, joint path, range, and intent match.",
+  "tuesdayAuditDecision": {
+    "tuesdayCanonicalRecordsInspected": 36,
+    "tuesdayRuntimeMappingsInspected": 52,
+    "exactNameOrIdCandidates": 0,
+    "approvedCandidates": 0,
+    "rejectedCandidates": 0,
+    "decision": "No exact Tuesday reuse candidate approved; mechanics, equipment, grip, stance, path and range were checked."
+  }
+}

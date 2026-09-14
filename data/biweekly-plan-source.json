@@ -1,0 +1,1332 @@
+[
+  [
+    "Week & Day",
+    "Slot # & Phase",
+    "Exercise Name & Base Category Tag",
+    "Level Gate / Eligibility",
+    "Level 1: Beginner Prescription",
+    "Level 2: Intermediate Prescription",
+    "Level 3: Advanced Prescription",
+    "Tri-Equipment Swaps"
+  ],
+  [
+    "Week A - Day 1",
+    "Pre-Workout",
+    "Stick Shoulder Dislocates",
+    "All Levels",
+    "2x10",
+    "2x12",
+    "3x12",
+    "-"
+  ],
+  [
+    "Week A - Day 1",
+    "Pre-Workout",
+    "Stick Around-the-Worlds",
+    "All Levels",
+    "2x8/side",
+    "2x10/side",
+    "3x10/side",
+    "-"
+  ],
+  [
+    "Week A - Day 1",
+    "Pre-Workout",
+    "Stick Overhead Thoracic Spine Extensions",
+    "All Levels",
+    "2x10",
+    "2x12",
+    "3x12",
+    "-"
+  ],
+  [
+    "Week A - Day 1",
+    "Slot 1",
+    "Incline Dumbbell Bench Press (30°) [BASE: Chest Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 8-10 Reps | Rest: 90s | Focus: Controlled 2s lowering, elbows at 45°",
+    "4 Sets x 10-12 Reps | Rest: 75s | Focus: 1s squeeze at top, progressive load",
+    "4-5 Sets x 12-14 Reps | Rest: 60s | Focus: 3-0-1-0 tempo + 2s paused stretch at deep chest",
+    "Incline Smith Machine Press | Incline Barbell Bench | Deficit Push-Ups"
+  ],
+  [
+    "Week A - Day 1",
+    "Slot 2",
+    "Wide-Grip Lat Pulldown",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Focus: Pull to clavicle, lead with elbows",
+    "4 Sets x 12 Reps | Rest: 75s | Focus: Full dead-hang stretch at top",
+    "4 Sets x 14-15 Reps | Rest: 60s | Focus: 2s peak scapular depression + rest-pause",
+    "Neutral-Grip Mag Pulldown | Assisted Pull-Ups | Band-Resisted Pulldown"
+  ],
+  [
+    "Week A - Day 1",
+    "Slot 3",
+    "Chest-Supported Incline Dumbbell Row",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Focus: Chest against 30° bench, squeeze shoulder blades",
+    "4 Sets x 12 Reps | Rest: 75s | Focus: 1s peak squeeze, slow descent",
+    "4 Sets x 14 Reps | Rest: 60s | Focus: 2s retraction hold + 3-second negative descent",
+    "Seated Cable Row (Sternum) | Chest-Supported Machine Row | T-Bar Row"
+  ],
+  [
+    "Week A - Day 1",
+    "Slot 4",
+    "Flat Dumbbell Bench Press [BASE: Chest Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Focus: Full pectoral stretch at bottom",
+    "4 Sets x 12 Reps | Rest: 75s | Focus: Smooth press arc, no elbow flare",
+    "4 Sets x 14 Reps | Rest: 60s | Focus: 3-second eccentric + 5 lengthened partials",
+    "Flat Barbell Bench | Machine Chest Press | Parallel Bar Dips"
+  ],
+  [
+    "Week A - Day 1",
+    "Slot 5",
+    "Straight-Arm Cable Pulldown",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps | Rest: 60s | Focus: Slight torso lean, pull with lats",
+    "4 Sets x 14-15 Reps | Rest: 45s | Focus: Rope attachment with thoracic flexion",
+    "Dumbbell Pullover on Bench | Resistance Band Pulldown | Cable Pushdown"
+  ],
+  [
+    "Week A - Day 1",
+    "Slot 6",
+    "Incline Dumbbell Hex Press",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps | Rest: 60s | Focus: Squeeze dumbbells together inward",
+    "4 Sets x 14-16 Reps | Rest: 45s | Focus: Constant inward tension + 1s top squeeze",
+    "Low Incline Cable Fly | Standing Plate Press | Close-Grip Incline DB Press"
+  ],
+  [
+    "Week A - Day 1",
+    "Slot 7",
+    "Cable Face Pull with External Rotation",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "4 Sets x 15-20 Reps | Rest: 45s | Focus: Pull rope to ears + thumbs back hold",
+    "Reverse Pec Deck Fly | Incline Prone DB Y-Raise | Band Pull-Apart"
+  ],
+  [
+    "Week A - Day 1",
+    "Slot 8",
+    "Hanging Straight-Leg Raise",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 12-15 Reps | Rest: 45s | Focus: Strict posterior pelvic tilt",
+    "Captain's Chair Leg Raise | Ab Wheel Rollout | Floor Leg Raise"
+  ],
+  [
+    "Week A - Day 1",
+    "Post-Workout",
+    "Stick Behind-the-Back Chest Opener, Stick Overhead Lat Stretch, Doorway Pec Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 1",
+    "Cardio",
+    "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 2",
+    "Pre-Workout",
+    "Stick Standing Torso Twists, Stick Overhead Side Bends, Stick High Knee Marches",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 2",
+    "Cardio Phase 1",
+    "Incline Walk",
+    "All Levels",
+    "15m (Incline 8%, 3.5km/h)",
+    "20m (Incline 10%, 4.0km/h)",
+    "25m (Incline 12%, 4.2km/h)",
+    "-"
+  ],
+  [
+    "Week A - Day 2",
+    "Slot 1",
+    "Stick Seated Russian Twists",
+    "All Levels (Beg+)",
+    "3 Sets x 20 Reps total | Rest: 60s | Feet on floor, slow rotation",
+    "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches",
+    "4 Sets x 30 Reps total | Rest: 30s | Feet elevated + 5kg plate / Stick with 2s pause",
+    "Cable Russian Twist | Floor Bodyweight Twist | Medicine Ball Twists"
+  ],
+  [
+    "Week A - Day 2",
+    "Slot 2",
+    "Lying Pelvic-Tilt Leg Raise",
+    "All Levels (Beg+)",
+    "3 Sets x 10-12 Reps | Rest: 60s | Lower back pressed flat into floor",
+    "4 Sets x 12-14 Reps | Rest: 45s | Hands under glutes, pause 1s at bottom",
+    "4 Sets x 15-18 Reps | Rest: 45s | On decline bench + 3-second negative lowering",
+    "Captain's Chair Knee Raise | Bench Reverse Crunch | Hanging Leg Raise"
+  ],
+  [
+    "Week A - Day 2",
+    "Slot 3",
+    "Cable Pallof Press with Iso-Hold",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps/side (Hold 2s) | Rest: 60s | Solid athletic stance",
+    "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance",
+    "4 Sets x 14 Reps/side (Hold 4s + overhead raise) | Rest: 45s",
+    "Banded Pallof Press | Side Plank Hold | DB Suitcase Carry"
+  ],
+  [
+    "Week A - Day 2",
+    "Slot 4",
+    "Stick Standing Lateral Side Bends",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend",
+    "4 Sets x 20 Reps/side | Rest: 30s | Stick locked overhead or Cable Side Crunch",
+    "Light DB Side Bend | Side Plank Hip Dips | Cable Side Crunch"
+  ],
+  [
+    "Week A - Day 2",
+    "Slot 5",
+    "Transverse Abdominis Stomach Vacuum",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "Quadruped Vacuum on All Fours | 4 Sets x 15s Hold | Rest: 30s",
+    "Standing & Seated Vacuum | 4 Sets x 20-25s Hold | Rest: 20s",
+    "Lying Supine Vacuum | Incline Bench Plank Vacuum | Cat-Cow Vacuum"
+  ],
+  [
+    "Week A - Day 2",
+    "Slot 6",
+    "Kneeling Cable Rope Crunch",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "4 Sets x 15-18 Reps | Rest: 45s | Round spine, 2s peak flex",
+    "Decline Bench Weighted Crunch | Stability Ball Crunch | Floor Crunch"
+  ],
+  [
+    "Week A - Day 2",
+    "Cardio Phase 2",
+    "Intervals",
+    "All Levels",
+    "10m Elliptical",
+    "15m Incline Intervals",
+    "15m HIIT Bike Sprints (30s ON / 30s OFF)",
+    "-"
+  ],
+  [
+    "Week A - Day 2",
+    "Post-Workout",
+    "Stick Standing Overhead Side Stretch, Stick Spinal Twist, Cobra Pose",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 3",
+    "Pre-Workout",
+    "Stick Overhead Deep Squat Prys, Stick Good Mornings, Stick Lateral Leg Swings",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 3",
+    "Slot 1",
+    "Seated Hip Adductor Machine",
+    "All Levels (Beg+)",
+    "3 Sets x 12 Reps | Rest: 60s | Controlled inward squeeze, full stretch",
+    "4 Sets x 14 Reps | Rest: 60s | 1s squeeze at peak contraction",
+    "4-5 Sets x 16-20 Reps | Rest: 45s | 2s isometric squeeze + 5 rest-pause reps",
+    "Wide-Stance Sumo Goblet Squat | Cable Hip Adduction | Side-Lying Adduction"
+  ],
+  [
+    "Week A - Day 3",
+    "Slot 2",
+    "Seated Hip Abductor Machine",
+    "All Levels (Beg+)",
+    "3 Sets x 15 Reps | Rest: 60s | Upright posture, smooth outward drive",
+    "4 Sets x 18 Reps | Rest: 60s | Forward torso lean for upper glute contour",
+    "4-5 Sets x 20-25 Reps | Rest: 45s | Lean-forward posture + 10 partial pulses",
+    "Cable Standing Hip Abduction | Banded Monster Walks | Side Plank Abduction"
+  ],
+  [
+    "Week A - Day 3",
+    "Slot 3",
+    "Dumbbell Romanian Deadlift (RDL) [BASE: Deadlift]",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Hips pushed back, flat spine, soft knee bend",
+    "4 Sets x 12 Reps | Rest: 75s | 3-second slow eccentric lowering",
+    "4 Sets x 14 Reps | Rest: 60s | DB RDL with 3-0-1-0 tempo + 1s stretch at bottom",
+    "Barbell RDL | Trap Bar RDL | Cable Pull-Through"
+  ],
+  [
+    "Week A - Day 3",
+    "Slot 4",
+    "45° Incline Leg Press (Mid-Stance) [BASE: Leg Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Feet mid-platform, shoulder width, knees track toes",
+    "4 Sets x 12 Reps | Rest: 75s | Deep descent without lower back lifting",
+    "4 Sets x 14 Reps | Rest: 60s | 3-second negative descent + constant tension",
+    "Hack Squat | Goblet Squat to Box | Bodyweight Box Squat"
+  ],
+  [
+    "Week A - Day 3",
+    "Slot 5",
+    "Seated Leg Curl Machine",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps | Rest: 60s | Seated position, full leg curl",
+    "4 Sets x 14-16 Reps | Rest: 45s | 1.5-rep style at stretched position",
+    "Lying Leg Curl | Swiss Ball Leg Curl | Dumbbell Lying Leg Curl"
+  ],
+  [
+    "Week A - Day 3",
+    "Slot 6",
+    "Dumbbell Walking Lunges",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 10 Steps/leg | Rest: 60s | Upright torso, 90° knee bend",
+    "4 Sets x 12-14 Steps/leg | Rest: 60s | Slight forward torso lean for glute emphasis",
+    "Deficit Bulgarian Split Squat | Step-Ups on Bench | Reverse Lunges"
+  ],
+  [
+    "Week A - Day 3",
+    "Slot 7",
+    "Deficit Bulgarian Split Squats",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 10 Reps/leg | Rest: 60s | Front foot on 2-inch plate, deep hip drop",
+    "Single-Leg Press | Single-Leg Step-Ups | Bodyweight Split Squats"
+  ],
+  [
+    "Week A - Day 3",
+    "Slot 8",
+    "Standing Machine Calf Raise",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "4 Sets x 15-20 Reps | Rest: 45s | 2s stretch at bottom, 1s peak toe flex",
+    "Seated Calf Raise | Dumbbell Single-Leg Calf Raise | Leg Press Calf Raise"
+  ],
+  [
+    "Week A - Day 3",
+    "Post-Workout",
+    "Stick Quad Stretch, Butterfly Groin Stretch, Hamstring Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 3",
+    "Cardio",
+    "NO CARDIO (Safeguard Knee & CNS Recovery)",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 4",
+    "Pre-Workout",
+    "Stick Behind-the-Back Chest Opener, Stick Dislocates, Stick Lat Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 4",
+    "Slot 1",
+    "Seated Dumbbell Overhead Shoulder Press [BASE: Shoulder Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 8-10 Reps | Rest: 90s | Neutral to 45° elbow tuck, press overhead",
+    "4 Sets x 10-12 Reps | Rest: 75s | Full range to ear level, smooth arc",
+    "4-5 Sets x 12-14 Reps | Rest: 60s | 3-0-1-0 tempo with 1s pause at bottom",
+    "Standing Barbell Overhead Press | Machine Shoulder Press | Arnold Press"
+  ],
+  [
+    "Week A - Day 4",
+    "Slot 2",
+    "Close-Grip V-Bar Lat Pulldown",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Pull handle to upper chest, slight lean",
+    "4 Sets x 12 Reps | Rest: 75s | Full overhead stretch, drive elbows down",
+    "4 Sets x 14 Reps | Rest: 60s | Single-Arm Cable Pulldown with full stretch",
+    "Underhand Lat Pulldown | Single-Arm Cable Pulldown | Chin-Ups"
+  ],
+  [
+    "Week A - Day 4",
+    "Slot 3",
+    "Seated Wide-Grip Cable Row",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Wide overhand grip, pull to mid-chest",
+    "4 Sets x 12 Reps | Rest: 75s | 1s scapular retraction squeeze",
+    "4 Sets x 14 Reps | Rest: 60s | Incline Bench DB Row with 2s squeeze",
+    "T-Bar Row | Chest-Supported Machine Row | Incline DB Prone Row"
+  ],
+  [
+    "Week A - Day 4",
+    "Slot 4",
+    "Pec Deck Machine / Low Incline Cable Fly [BASE: Chest Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 12 Reps | Rest: 60s | Deep stretch, squeeze chest together",
+    "4 Sets x 12-14 Reps | Rest: 60s | Constant cable tension across midline",
+    "4 Sets x 15 Reps | Rest: 45s | Cable Crossover with 5 lengthened partials",
+    "Standing Cable Crossover | Dumbbell Incline Fly | Parallel Bar Dips"
+  ],
+  [
+    "Week A - Day 4",
+    "Slot 5",
+    "Incline Dumbbell Curl + Rope Tricep Pressdown",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps each | Rest: 60s | Incline DB Curl & Rope Pressdown",
+    "4 Sets x 14 Reps each | Rest: 45s | Bayesian Cable Curl & Overhead Cable Extension",
+    "Ez-Bar Curl & Skullcrushers | Cable Hammer Curl & Dips | Concentration Curls"
+  ],
+  [
+    "Week A - Day 4",
+    "Slot 6",
+    "Cuffed Cable Rear-Delt Fly",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps | Rest: 60s | Cuffs on wrists, sweep wide",
+    "4 Sets x 15 Reps | Rest: 45s | Low-to-high sweep with 1s hold",
+    "Reverse Pec Deck Fly | Incline Prone DB Reverse Fly | Band Face Pull"
+  ],
+  [
+    "Week A - Day 4",
+    "Slot 7",
+    "Dumbbell Pullover on Flat Bench",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 12-14 Reps | Rest: 45s | Deep thoracic stretch at bottom",
+    "Straight-Arm Cable Pushdown | Incline Cable Pullover | Decline DB Pullover"
+  ],
+  [
+    "Week A - Day 4",
+    "Slot 8",
+    "Side Plank Hold with Rotation",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 35-45s/side | Rest: 30s | Thread arm through, strict alignment",
+    "Cable Pallof Press | Hanging Oblique Knee Raise | Suitcase Carry"
+  ],
+  [
+    "Week A - Day 4",
+    "Post-Workout",
+    "Stick Doorway Chest Stretch, Stick Lat Stretch, Cross-Body Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 4",
+    "Cardio",
+    "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 5",
+    "Pre-Workout",
+    "Stick Trunk Rotations, Stick Around-the-Worlds, Stick Good Mornings",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 5",
+    "Cardio Phase 1",
+    "Incline Walk",
+    "All Levels",
+    "15m (8%, 3.5km/h)",
+    "20m (10%, 4.0km/h)",
+    "25m (12%, 4.2km/h)",
+    "-"
+  ],
+  [
+    "Week A - Day 5",
+    "Slot 1",
+    "Stick Standing Trunk Rotations",
+    "All Levels (Beg+)",
+    "3 Sets x 20 Reps total | Rest: 60s | Stick behind neck across traps, controlled twist",
+    "4 Sets x 25 Reps total | Rest: 45s | 1s isometric squeeze at end range",
+    "4 Sets x 30 Reps total | Rest: 30s | Fast concentric, 2s hard contraction",
+    "Cable Woodchopper (Low-to-High) | Banded Rotations | Russian Twists"
+  ],
+  [
+    "Week A - Day 5",
+    "Slot 2",
+    "Floor Reverse Crunch with Pelvic Tilt",
+    "All Levels (Beg+)",
+    "3 Sets x 12 Reps | Rest: 60s | Curl pelvis toward ribs, tap heels lightly",
+    "4 Sets x 14 Reps | Rest: 45s | On Incline Bench for added resistance",
+    "4 Sets x 16 Reps | Rest: 45s | Incline Bench + 2s hold at top tuck",
+    "Hanging Leg Raise | Captain's Chair Leg Tuck | Lying Leg Lift"
+  ],
+  [
+    "Week A - Day 5",
+    "Slot 3",
+    "Stick Overhead Lateral Side Bends",
+    "All Levels (Beg+)",
+    "3 Sets x 15 Reps/side | Rest: 60s | Stick locked overhead, bend sideways",
+    "4 Sets x 20 Reps/side | Rest: 45s | Deeper range of motion, feel stretch",
+    "4 Sets x 25 Reps/side | Rest: 30s | Wide stance + continuous dynamic tension",
+    "Cable Side Crunch | Side Plank Hip Dips | Light DB Side Bend"
+  ],
+  [
+    "Week A - Day 5",
+    "Slot 4",
+    "Standard Forearm Plank to RKC Hardstyle Plank",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "Standard Forearm Plank | 3 Sets x 45s Hold | Rest: 45s",
+    "RKC Hardstyle Plank | 4 Sets x 30s Max Tension | Rest: 30s",
+    "Ab Wheel Rollout | Extended Plank | Swiss Ball Plank"
+  ],
+  [
+    "Week A - Day 5",
+    "Slot 5",
+    "Transverse Abdominis Stomach Vacuums",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "Standing Stomach Vacuum | 4 Sets x 15-20s Hold | Rest: 30s",
+    "Seated & Hanging Vacuum Hold | 4 Sets x 25s Hold | Rest: 20s",
+    "Quadruped Vacuum | Lying Vacuum | Plank Vacuum"
+  ],
+  [
+    "Week A - Day 5",
+    "Slot 6",
+    "Hanging Straight-Leg Raise / Knee Tuck",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "4 Sets x 12-15 Reps | Rest: 45s | Strict hanging form, curl pelvis at top",
+    "Hanging Windshield Wipers | Dragon Flag Negatives | Decline Leg Raise"
+  ],
+  [
+    "Week A - Day 5",
+    "Cardio Phase 2",
+    "Intervals",
+    "All Levels",
+    "10m Cross-Trainer",
+    "15m Incline Intervals",
+    "15m HIIT Row/Cycle Intervals",
+    "-"
+  ],
+  [
+    "Week A - Day 5",
+    "Post-Workout",
+    "Stick Lat & Oblique Reach, Cat-Cow Mobility, Child's Pose",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 6",
+    "Pre-Workout",
+    "Stick Deep Squat Prys, Stick Good Mornings, Stick Torso Twists",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 6",
+    "Slot 1",
+    "Barbell Hip Thrust / Glute Bridge",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Barbell on hips with pad, drive through heels",
+    "4 Sets x 12 Reps | Rest: 75s | 2s peak glute contraction at top",
+    "4-5 Sets x 14 Reps | Rest: 60s | Kas Glute Bridge with 3s squeeze",
+    "Dumbbell Glute Bridge | Single-Leg Hip Thrust | Machine Hip Thrust"
+  ],
+  [
+    "Week A - Day 6",
+    "Slot 2",
+    "Seated Hip Adductor Machine",
+    "All Levels (Beg+)",
+    "3 Sets x 12 Reps | Rest: 60s | Full controlled range, smooth cadence",
+    "4 Sets x 15 Reps | Rest: 60s | 1s hold at peak contraction",
+    "4-5 Sets x 18-20 Reps | Rest: 45s | 2s hold + 5-rep drop set on final set",
+    "Wide-Stance Leg Press | Cable Hip Adduction | Sumo Goblet Squat"
+  ],
+  [
+    "Week A - Day 6",
+    "Slot 3",
+    "Seated Cable Row to Mid-Torso",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Neutral close-grip, pull to lower ribs",
+    "4 Sets x 12 Reps | Rest: 75s | Drive elbows back, squeeze lats",
+    "4 Sets x 14 Reps | Rest: 60s | Chest-Supported T-Bar Row with 2s squeeze",
+    "Single-Arm DB Row | Meadows Row | Chest-Supported T-Bar Row"
+  ],
+  [
+    "Week A - Day 6",
+    "Slot 4",
+    "Seated Hip Abductor Machine",
+    "All Levels (Beg+)",
+    "3 Sets x 15 Reps | Rest: 60s | Controlled abduction, feel outer glute",
+    "4 Sets x 18 Reps | Rest: 60s | Lean forward 30° for glute medius bias",
+    "4-5 Sets x 20-25 Reps | Rest: 45s | Lean forward + 10 partial pulses",
+    "Cable Standing Abduction | Lateral Band Walks | Side Plank Clamshells"
+  ],
+  [
+    "Week A - Day 6",
+    "Slot 5",
+    "Dumbbell Stiff-Leg Romanian Deadlift [BASE: Deadlift]",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps | Rest: 60s | Dumbbell RDL with slow eccentric",
+    "4 Sets x 14 Reps | Rest: 45s | Single-Leg DB RDL / Nordic Curl Negatives",
+    "Seated Leg Curl | Single-Leg DB RDL | Nordic Curl Negatives"
+  ],
+  [
+    "Week A - Day 6",
+    "Slot 6",
+    "Dumbbell Shrugs with 2s Pause",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps | Rest: 60s | Strict vertical shrug, 2s pause at top",
+    "4 Sets x 15 Reps | Rest: 45s | Incline Prone Shrugs on 45° bench",
+    "Cable Upright Row (Wide) | Barbell Shrug | Hex Bar Shrug"
+  ],
+  [
+    "Week A - Day 6",
+    "Slot 7",
+    "Bodyweight Air Squats to Walking Lunges",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 20 Air Squats + 10 Lunges/leg | Rest: 60s | Superset burnout",
+    "Bulgarian Split Squat 1.5 Reps | Step-Ups | Jump Squats"
+  ],
+  [
+    "Week A - Day 6",
+    "Slot 8",
+    "Dead Bug to Dragon Flag Negatives",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 6-8 Dragon Flag Negatives | Rest: 45s | 4-second straight-body descent",
+    "Hanging Knee Tuck | Ab Wheel Rollout | Hollow Body Hold"
+  ],
+  [
+    "Week A - Day 6",
+    "Post-Workout",
+    "Stick Hamstring Stretch, Pigeon Pose, Figure-Four Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 6",
+    "Cardio",
+    "NO CARDIO (Safeguard Knee & CNS Recovery)",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week A - Day 7",
+    "Active Rest",
+    "30-min brisk walk, full-body stick mobility, hydration, and nutritional adherence.",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 1",
+    "Pre-Workout",
+    "Stick Shoulder Dislocates, Stick Around-the-Worlds, Stick Overhead Thoracic Extensions",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 1",
+    "Slot 1",
+    "Incline Barbell Bench Press (30°) [BASE: Chest Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 8-10 Reps | Rest: 90s | Focus: Touch upper chest lightly, drive straight up",
+    "4 Sets x 10-12 Reps | Rest: 75s | Focus: Progressive barbell load, arch upper back",
+    "4-5 Sets x 12-14 Reps | Rest: 60s | Focus: 30° Incline Smith Press with 3-0-1-0 tempo + 2s paused stretch",
+    "Incline Dumbbell Press | Incline Machine Press | Incline Deficit Push-Ups"
+  ],
+  [
+    "Week B - Day 1",
+    "Slot 2",
+    "Neutral-Grip Mag-Grip Lat Pulldown",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Focus: Neutral grip, pull to mid-chest",
+    "4 Sets x 12 Reps | Rest: 75s | Focus: 1s peak lat contraction, slow return",
+    "4 Sets x 14-15 Reps | Rest: 60s | Focus: Single-Arm Iliac Cable Pulldown with lateral trunk flexion",
+    "Wide-Grip Lat Pulldown | Assisted Neutral Chin-Up | Band Pulldown"
+  ],
+  [
+    "Week B - Day 1",
+    "Slot 3",
+    "Seated Cable Row to Sternum (Neutral Grip)",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Focus: Drive elbows back, upright posture",
+    "4 Sets x 12 Reps | Rest: 75s | Focus: 1s squeeze shoulder blades together",
+    "4 Sets x 14 Reps | Rest: 60s | Focus: Chest-Supported T-Bar Row with 2s retraction pause",
+    "Chest-Supported DB Row | Machine Row | Meadows Row"
+  ],
+  [
+    "Week B - Day 1",
+    "Slot 4",
+    "Seated Machine Chest Press [BASE: Chest Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 10-12 Reps | Rest: 90s | Focus: Smooth guided path, deep pectoral stretch",
+    "4 Sets x 12 Reps | Rest: 75s | Focus: Constant machine tension, explosive push",
+    "4 Sets x 14-16 Reps | Rest: 60s | Focus: Machine Press with 5-rep drop set on final set",
+    "Flat Barbell Bench | Flat Dumbbell Bench | Weighted Push-Ups"
+  ],
+  [
+    "Week B - Day 1",
+    "Slot 5",
+    "Single-Arm Iliac Cable Lat Pulldown",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps/arm | Rest: 60s | Focus: Drive elbow directly to hip bone",
+    "4 Sets x 14-15 Reps/arm | Rest: 45s | Focus: 2s peak squeeze at hip + deep stretch overhead",
+    "Straight-Arm Cable Pulldown | DB Pullover | Kneeling Cable Lat Pull"
+  ],
+  [
+    "Week B - Day 1",
+    "Slot 6",
+    "Standing Low-to-High Cable Crossover",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12-14 Reps | Rest: 60s | Focus: Scoop cables upward to eye level",
+    "4 Sets x 15-18 Reps | Rest: 45s | Focus: Cross hands at top + 2s squeeze + lengthened partials",
+    "Incline DB Hex Press | Incline Machine Fly | Plate Press"
+  ],
+  [
+    "Week B - Day 1",
+    "Slot 7",
+    "Reverse Pec Deck Machine Fly",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "4 Sets x 15-20 Reps | Rest: 45s | Focus: Palms facing down, rear delt isolation",
+    "Cable Face Pull | Incline Prone DB Y-Raise | Band Pull-Apart"
+  ],
+  [
+    "Week B - Day 1",
+    "Slot 8",
+    "Hanging Straight-Leg Toes-to-Bar",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 10-12 Reps | Rest: 45s | Focus: Controlled toes-to-bar, no swinging",
+    "Captain's Chair Leg Raise | Ab Wheel Rollout | Incline Reverse Crunch"
+  ],
+  [
+    "Week B - Day 1",
+    "Post-Workout",
+    "Stick Behind-the-Back Opener, Overhead Lat Lengthener, Doorway Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 1",
+    "Cardio",
+    "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 2",
+    "Pre-Workout",
+    "Stick Standing Torso Twists, Stick Overhead Side Bends, Stick High Knee Marches",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 2",
+    "Cardio Phase 1",
+    "Incline Walk",
+    "All Levels",
+    "15m (8%, 3.5km/h)",
+    "20m (10%, 4.0km/h)",
+    "25m (12%, 4.2km/h)",
+    "-"
+  ],
+  [
+    "Week B - Day 2",
+    "Slot 1",
+    "Standing Cable Woodchopper (High-to-Low)",
+    "All Levels (Beg+)",
+    "3 Sets x 12 Reps/side | Rest: 60s | Pivot back foot, rotate across torso",
+    "4 Sets x 14 Reps/side | Rest: 45s | Explosive chop, 2s controlled return",
+    "4 Sets x 16 Reps/side | Rest: 30s | Heavy stack + 1s peak oblique lock",
+    "Stick Russian Twists | Banded Woodchopper | Dumbbell Woodchopper"
+  ],
+  [
+    "Week B - Day 2",
+    "Slot 2",
+    "Captain's Chair Knee/Leg Raise",
+    "All Levels (Beg+)",
+    "3 Sets x 10-12 Reps | Rest: 60s | Back against pad, curl pelvis up",
+    "4 Sets x 12-14 Reps | Rest: 45s | Straight legs to parallel, pause at top",
+    "4 Sets x 15-18 Reps | Rest: 45s | Straight legs + 2s isometric hold at top",
+    "Lying Floor Leg Raise | Incline Reverse Crunch | Hanging Leg Raise"
+  ],
+  [
+    "Week B - Day 2",
+    "Slot 3",
+    "Half-Kneeling Cable Pallof Press with Overhead Raise",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps/side | Rest: 60s | Press cable forward, hold 2s",
+    "4 Sets x 12 Reps/side | Rest: 45s | Press forward, raise overhead, lower, return",
+    "4 Sets x 14 Reps/side | Rest: 45s | Half-kneeling + 3s overhead lock",
+    "Standard Pallof Press | Side Plank Hold | Banded Pallof Press"
+  ],
+  [
+    "Week B - Day 2",
+    "Slot 4",
+    "Side Plank Hip Dips with Rotation",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps/side | Rest: 45s | Dip hip to floor, drive high",
+    "4 Sets x 15 Reps/side | Rest: 30s | Elevated feet on bench + reach arm under",
+    "Stick Side Bends | Cable Side Crunch | DB Side Bend"
+  ],
+  [
+    "Week B - Day 2",
+    "Slot 5",
+    "Standing & Seated Transverse Abdominis Stomach Vacuum",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "Standing Stomach Vacuum | 4 Sets x 15-20s Hold | Rest: 30s",
+    "Seated & Hanging Vacuum Hold | 4 Sets x 25s Hold | Rest: 20s | Full lung expulsion",
+    "Quadruped Vacuum | Plank Vacuum | Lying Vacuum"
+  ],
+  [
+    "Week B - Day 2",
+    "Slot 6",
+    "Decline Bench Weighted Crunch",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "4 Sets x 15-18 Reps | Rest: 45s | Holding 5-10kg plate on chest, 2s peak flex",
+    "Kneeling Cable Rope Crunch | Stability Ball Crunch | Floor Crunch"
+  ],
+  [
+    "Week B - Day 2",
+    "Cardio Phase 2",
+    "Intervals",
+    "All Levels",
+    "10m Stationary Cycle",
+    "15m Incline Intervals",
+    "15m HIIT Bike Sprints (30s max / 30s recovery)",
+    "-"
+  ],
+  [
+    "Week B - Day 2",
+    "Post-Workout",
+    "Stick Overhead Side Stretch, Stick Spinal Twist, Cobra Pose",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 3",
+    "Pre-Workout",
+    "Stick Overhead Deep Squats, Stick Good Mornings, Stick Hip Swings",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 3",
+    "Slot 1",
+    "Seated Hip Adductor Machine",
+    "All Levels (Beg+)",
+    "3 Sets x 12 Reps | Rest: 60s | Smooth cadence, full stretch at outer range",
+    "4 Sets x 14 Reps | Rest: 60s | 1s pause at full contraction",
+    "4-5 Sets x 18-20 Reps | Rest: 45s | 2s isometric squeeze + 5 rest-pause pulses",
+    "Wide-Stance Sumo Leg Press | Cable Hip Adduction | Sumo Goblet Squat"
+  ],
+  [
+    "Week B - Day 3",
+    "Slot 2",
+    "Seated Hip Abductor Machine",
+    "All Levels (Beg+)",
+    "3 Sets x 15 Reps | Rest: 60s | Upright posture, controlled drive outward",
+    "4 Sets x 18 Reps | Rest: 60s | Forward torso lean for upper glute contour",
+    "4-5 Sets x 20-25 Reps | Rest: 45s | Forward lean + 10 partial pulses post-failure",
+    "Cable Standing Abduction | Banded Monster Walks | Side Plank Abduction"
+  ],
+  [
+    "Week B - Day 3",
+    "Slot 3",
+    "Trap Bar Deadlift / Deficit Barbell RDL [BASE: Deadlift]",
+    "All Levels (Beg+)",
+    "3 Sets x 8-10 Reps | Rest: 90s | Neutral spine, drive through mid-foot, hips back",
+    "4 Sets x 10-12 Reps | Rest: 75s | Barbell RDL with 3-second slow eccentric",
+    "4 Sets x 12-14 Reps | Rest: 60s | Deficit Barbell RDL (standing on 2-inch plate, deep hinge)",
+    "Dumbbell RDL | Conventional Deadlift | Cable Pull-Through"
+  ],
+  [
+    "Week B - Day 3",
+    "Slot 4",
+    "Hack Squat Machine / Wide-Stance Sumo Leg Press [BASE: Leg Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Wide stance, knees tracking toes, 90° knee bend",
+    "4 Sets x 12 Reps | Rest: 75s | Hack Squat with deep knee flexion",
+    "4 Sets x 14 Reps | Rest: 60s | Hack Squat with 3-0-1-0 tempo + 2s paused bottom stretch",
+    "45° Incline Leg Press | Goblet Squat | Bodyweight Box Squat"
+  ],
+  [
+    "Week B - Day 3",
+    "Slot 5",
+    "Lying Leg Curl Machine",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps | Rest: 60s | Hips pressed into bench, curl to glutes",
+    "4 Sets x 14-16 Reps | Rest: 45s | 1.5-rep style at stretched position",
+    "Seated Leg Curl | Dumbbell Lying Leg Curl | Swiss Ball Curl"
+  ],
+  [
+    "Week B - Day 3",
+    "Slot 6",
+    "Reverse Lunges with Dumbbells",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 10 Steps/leg | Rest: 60s | Step back smoothly, 90° knee drop",
+    "4 Sets x 12-14 Steps/leg | Rest: 60s | Front foot elevated on plate + forward torso lean",
+    "Walking Lunges | Bulgarian Split Squats | Step-Ups"
+  ],
+  [
+    "Week B - Day 3",
+    "Slot 7",
+    "Sissy Squat / Leg Extension Dropset",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 12 Reps + 5-Rep Dropset | Rest: 60s | Peak quad isolation",
+    "Single-Leg Extension | Deficit Split Squat | Bodyweight Sissy Squat"
+  ],
+  [
+    "Week B - Day 3",
+    "Slot 8",
+    "Seated Calf Raise Machine",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "4 Sets x 15-20 Reps | Rest: 45s | 2s deep stretch at bottom, 1s peak flex",
+    "Standing Calf Raise | Single-Leg Calf Raise | Leg Press Calf Raise"
+  ],
+  [
+    "Week B - Day 3",
+    "Post-Workout",
+    "Stick Quad Stretch, Butterfly Groin Stretch, Hamstring Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 3",
+    "Cardio",
+    "NO CARDIO (Safeguard Knee & CNS Recovery)",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 4",
+    "Pre-Workout",
+    "Stick Behind-the-Back Opener, Stick Dislocates, Stick Lat Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 4",
+    "Slot 1",
+    "Standing Barbell Overhead Press / Machine Shoulder Press [BASE: Shoulder Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 8-10 Reps | Rest: 90s | Machine Shoulder Press, smooth overhead path",
+    "4 Sets x 10-12 Reps | Rest: 75s | Standing Barbell Overhead Press, braced glutes & core",
+    "4-5 Sets x 12-14 Reps | Rest: 60s | Standing OHP with 3-0-1-0 tempo + 1s lock overhead",
+    "Seated DB Shoulder Press | Arnold Press | Landmine Press"
+  ],
+  [
+    "Week B - Day 4",
+    "Slot 2",
+    "Neutral-Grip Lat Pulldown (Close-Grip V-Bar)",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Pull to upper chest, slight torso lean",
+    "4 Sets x 12 Reps | Rest: 75s | Drive elbows to ribs, full overhead stretch",
+    "4 Sets x 14 Reps | Rest: 60s | Single-Arm Cable Pulldown with lateral bend",
+    "Wide-Grip Lat Pulldown | Assisted Pull-Up | Band Pulldown"
+  ],
+  [
+    "Week B - Day 4",
+    "Slot 3",
+    "Chest-Supported T-Bar Row / Incline Bench Row",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Chest on pad, pull handles to lower ribs",
+    "4 Sets x 12 Reps | Rest: 75s | 1s scapular squeeze, slow return",
+    "4 Sets x 14 Reps | Rest: 60s | T-Bar Row with 2s retraction pause + slow 3s eccentric",
+    "Seated Cable Row | Single-Arm DB Row | Meadows Row"
+  ],
+  [
+    "Week B - Day 4",
+    "Slot 4",
+    "Incline Smith Machine Press 45° [BASE: Chest Press]",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Lower bar to collarbone, press smoothly",
+    "4 Sets x 12 Reps | Rest: 75s | 1s pause at bottom stretch, explosive press",
+    "4 Sets x 14 Reps | Rest: 60s | 3-0-1-0 tempo + 5 lengthened partials post-failure",
+    "Incline DB Press | Low-to-High Cable Fly | Weighted Dips"
+  ],
+  [
+    "Week B - Day 4",
+    "Slot 5",
+    "Bayesian Cable Curl + Overhead Dual-Cable Tricep Extension",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps each | Rest: 60s | Bayesian Curl & Overhead Cable Extension",
+    "4 Sets x 14 Reps each | Rest: 45s | Constant cable tension + 1s peak stretch",
+    "Incline DB Curl & Rope Pressdown | Ez-Bar Preacher Curl & Skullcrushers"
+  ],
+  [
+    "Week B - Day 4",
+    "Slot 6",
+    "Incline Prone Dumbbell Reverse Fly",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps | Rest: 60s | Chest on 30° bench, sweep arms wide",
+    "4 Sets x 15 Reps | Rest: 45s | Thumbs down, 1s peak squeeze at top",
+    "Cuffed Cable Rear Fly | Reverse Pec Deck | Band Face Pull"
+  ],
+  [
+    "Week B - Day 4",
+    "Slot 7",
+    "Incline Cable Pullover with Stretched Bias",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 12-14 Reps | Rest: 45s | Bench facing away from cable, deep lat stretch",
+    "DB Pullover | Straight-Arm Cable Pushdown | Decline DB Pullover"
+  ],
+  [
+    "Week B - Day 4",
+    "Slot 8",
+    "Hanging Oblique Knee Raise",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 12-14 Reps/side | Rest: 30s | Hang from bar, drive knees toward armpits",
+    "Side Plank Hold | Cable Pallof Press | Captain's Chair Oblique Raise"
+  ],
+  [
+    "Week B - Day 4",
+    "Post-Workout",
+    "Stick Doorway Chest Stretch, Stick Lat Stretch, Cross-Body Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 4",
+    "Cardio",
+    "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 5",
+    "Pre-Workout",
+    "Stick Trunk Rotations, Stick Around-the-Worlds, Stick Good Mornings",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 5",
+    "Cardio Phase 1",
+    "Incline Walk",
+    "All Levels",
+    "15m (8%, 3.5km/h)",
+    "20m (10%, 4.0km/h)",
+    "25m (12%, 4.2km/h)",
+    "-"
+  ],
+  [
+    "Week B - Day 5",
+    "Slot 1",
+    "Standing Cable Woodchopper (Low-to-High)",
+    "All Levels (Beg+)",
+    "3 Sets x 12 Reps/side | Rest: 60s | Diagonal upward rotation across torso",
+    "4 Sets x 14 Reps/side | Rest: 45s | 1s isometric squeeze at peak diagonal",
+    "4 Sets x 16 Reps/side | Rest: 30s | Explosive concentric, 2s negative descent",
+    "Stick Russian Twists | Banded Rotations | Landmine Rotations"
+  ],
+  [
+    "Week B - Day 5",
+    "Slot 2",
+    "Incline Bench Reverse Crunch with Pelvic Curl",
+    "All Levels (Beg+)",
+    "3 Sets x 12 Reps | Rest: 60s | Head at top of bench, curl hips upward",
+    "4 Sets x 14 Reps | Rest: 45s | Steep incline, 1s pause at top",
+    "4 Sets x 16 Reps | Rest: 45s | Steep incline + 3-second negative lowering",
+    "Floor Reverse Crunch | Hanging Leg Raise | Captain's Chair Leg Tuck"
+  ],
+  [
+    "Week B - Day 5",
+    "Slot 3",
+    "Cable Side Crunch on Mat / Stick Lateral Side Bends",
+    "All Levels (Beg+)",
+    "3 Sets x 15 Reps/side | Rest: 60s | Stick locked overhead, strict side bends",
+    "4 Sets x 18 Reps/side | Rest: 45s | Cable Side Crunch on mat with high pulley",
+    "4 Sets x 20-25 Reps/side | Rest: 30s | Cable Side Crunch + 1s peak oblique squeeze",
+    "Side Plank Hip Dips | Light DB Side Bend | Stick Side Bends"
+  ],
+  [
+    "Week B - Day 5",
+    "Slot 4",
+    "Ab Wheel Rollout from Knees",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 10-12 Reps | Rest: 45s | Roll out to comfortable range, pull with abs",
+    "4 Sets x 14-16 Reps | Rest: 30s | Full extension nose-to-floor + 1s pause",
+    "Forearm Plank | RKC Hardstyle Plank | Swiss Ball Rollout"
+  ],
+  [
+    "Week B - Day 5",
+    "Slot 5",
+    "Transverse Abdominis Stomach Vacuums",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "Standing Stomach Vacuum | 4 Sets x 15-20s Hold | Rest: 30s",
+    "Seated & Hanging Vacuum Hold | 4 Sets x 25s Hold | Rest: 20s",
+    "Quadruped Vacuum | Plank Vacuum | Lying Vacuum"
+  ],
+  [
+    "Week B - Day 5",
+    "Slot 6",
+    "Hanging Windshield Wipers / Bicycle Kicks",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "4 Sets x 10-12 Reps/side | Rest: 45s | Hanging from bar, rotate legs side-to-side",
+    "Hanging Leg Raise | Dragon Flag Negatives | Decline Bench Russian Twists"
+  ],
+  [
+    "Week B - Day 5",
+    "Cardio Phase 2",
+    "Intervals",
+    "All Levels",
+    "10m Cross-Trainer",
+    "15m Incline Intervals",
+    "15m Calorie Depletion Row/Cycle Intervals",
+    "-"
+  ],
+  [
+    "Week B - Day 5",
+    "Post-Workout",
+    "Stick Lat & Oblique Reach, Cat-Cow Mobility, Child's Pose",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 6",
+    "Pre-Workout",
+    "Stick Deep Squat Prys, Stick Good Mornings, Stick Torso Twists",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 6",
+    "Slot 1",
+    "Kas Glute Bridge / Barbell Hip Thrust",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps | Rest: 90s | Barbell on hips with pad, drive through heels",
+    "4 Sets x 12 Reps | Rest: 75s | Kas Glute Bridge, 2s squeeze at top",
+    "4-5 Sets x 14-16 Reps | Rest: 60s | Kas Glute Bridge with 3s isometric squeeze + 5-rep drop set",
+    "Dumbbell Glute Bridge | Single-Leg Hip Thrust | Machine Hip Thrust"
+  ],
+  [
+    "Week B - Day 6",
+    "Slot 2",
+    "Seated Hip Adductor Machine",
+    "All Levels (Beg+)",
+    "3 Sets x 12 Reps | Rest: 60s | Full range of motion, smooth tempo",
+    "4 Sets x 15 Reps | Rest: 60s | 1s hold at peak contraction",
+    "4-5 Sets x 18-20 Reps | Rest: 45s | 2s hold + 5-rep drop set on final set",
+    "Wide-Stance Leg Press | Cable Hip Adduction | Sumo Goblet Squat"
+  ],
+  [
+    "Week B - Day 6",
+    "Slot 3",
+    "Single-Arm Dumbbell Row / Meadows Row",
+    "All Levels (Beg+)",
+    "3 Sets x 10 Reps/arm | Rest: 90s | Hand on bench, pull DB to hip pocket",
+    "4 Sets x 12 Reps/arm | Rest: 75s | Meadows Row with landmine, elbow driven high",
+    "4 Sets x 14 Reps/arm | Rest: 60s | Meadows Row with 2s squeeze + slow 3s eccentric",
+    "Seated Cable Row | Chest-Supported T-Bar Row | Machine Row"
+  ],
+  [
+    "Week B - Day 6",
+    "Slot 4",
+    "Seated Hip Abductor Machine",
+    "All Levels (Beg+)",
+    "3 Sets x 15 Reps | Rest: 60s | Controlled outward drive, feel outer glute",
+    "4 Sets x 18 Reps | Rest: 60s | Lean forward 30° for glute medius bias",
+    "4-5 Sets x 20-25 Reps | Rest: 45s | Lean forward + 10 partial pulses post-failure",
+    "Cable Standing Abduction | Lateral Band Walks | Side Plank Clamshells"
+  ],
+  [
+    "Week B - Day 6",
+    "Slot 5",
+    "Conventional / Romanian Barbell Deadlift [BASE: Deadlift]",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 10-12 Reps | Rest: 60s | Barbell RDL with slow eccentric",
+    "4 Sets x 12-14 Reps | Rest: 45s | Conventional Deadlift (touch-and-go) or Deficit RDL",
+    "Dumbbell RDL | Trap Bar Deadlift | Nordic Hamstring Curls"
+  ],
+  [
+    "Week B - Day 6",
+    "Slot 6",
+    "Cable Upright Row (Wide-Grip) / Barbell Shrugs",
+    "Intermediate & Advanced Only",
+    "[Locked / Skipped for Beginner]",
+    "3 Sets x 12 Reps | Rest: 60s | Wide-grip cable pull to clavicle, lead with elbows",
+    "4 Sets x 15 Reps | Rest: 45s | Incline Prone Shrugs / Kelso Shrugs on 45° bench",
+    "Dumbbell Shrugs | Hex Bar Shrug | Face Pulls"
+  ],
+  [
+    "Week B - Day 6",
+    "Slot 7",
+    "Bulgarian Split Squats with 1.5 Rep Style",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 8-10 Reps/leg | Rest: 60s | Full rep + half rep at bottom = 1 rep",
+    "Walking Lunges | Step-Ups | Jump Squats"
+  ],
+  [
+    "Week B - Day 6",
+    "Slot 8",
+    "Dragon Flag Negatives on Flat Bench",
+    "Advanced Only (Bonus)",
+    "[Locked / Skipped for Beginner]",
+    "[Locked / Skipped for Intermediate]",
+    "3 Sets x 6-8 Reps | Rest: 45s | 4-second straight-body lowering",
+    "Hanging Knee Tuck | Ab Wheel Rollout | Hollow Body Hold"
+  ],
+  [
+    "Week B - Day 6",
+    "Post-Workout",
+    "Stick Hamstring Stretch, Pigeon Pose, Figure-Four Stretch",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 6",
+    "Cardio",
+    "NO CARDIO (Safeguard Knee & CNS Recovery)",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  [
+    "Week B - Day 7",
+    "Active Rest",
+    "30-min brisk walk, full-body stick mobility, hydration, and nutritional adherence.",
+    "All Levels",
+    "-",
+    "-",
+    "-",
+    "-"
+  ]
+]

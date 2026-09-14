@@ -1,0 +1,3300 @@
+{
+  "version": "v541-active-assets-v1",
+  "generatedAt": "2026-09-14T13:04:11.769Z",
+  "source": "periodized-v3 registries and explicit day mappings",
+  "entries": [
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 343056,
+      "sha256": "11537051f9f13c13cb430f6c5a1fb62526c86881f3dd1e886ab07b24a788af92"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 338277,
+      "sha256": "770c1b7a2ad8f0a7f3e1601f4d4c5f569d4bcbe9eddba1f13be1c0dcf5bcf699"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-45-incline-leg-press-mid-stance"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 351124,
+      "sha256": "574d27f5f0d76794073464f2f3e9a06f41542d99210a7bc131fc73de31d112d8"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-45-incline-leg-press-mid-stance"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 373824,
+      "sha256": "609797c589992b7c7d363e5fb24f988aab711d0b28f03fc1971b5ad336c41de6"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-butterfly-groin-stretch"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 317348,
+      "sha256": "5661443dfc86084f5dad8c2f8710d08ed0504d81794935a899ab1b33febbcab7"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-butterfly-groin-stretch"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 322702,
+      "sha256": "26a6fe45e7100c89aa190eaa8f22dc87c36eb6312ca83864c650fb56a031f7f3"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-cable-face-pull-with-external-rotation"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 328864,
+      "sha256": "fdb972ac866e9b75bb48e8bcdd75ed70acc056ceaaec188ccc3e88d4194df51b"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-cable-face-pull-with-external-rotation"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 339290,
+      "sha256": "8e4d04d09ed235060dda1516a8903ef001c650b4f1e91bf86807e65914f74f4d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-cable-pallof-press-with-iso-hold"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 340497,
+      "sha256": "940ba8176c95fa6dd7ab5c36652c46c6494a4488eb149dfdc5daafb6e156b064"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-cable-pallof-press-with-iso-hold"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 348761,
+      "sha256": "43f623333041ba2df62b31ff6138c3390c35599965eb0f63c153e6d1e10f2500"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-chest-supported-incline-dumbbell-row-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-chest-supported-incline-dumbbell-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 349256,
+      "sha256": "a26e3351ff8ca03a47ac46db6d329c9394654bf572d996a2c95eeffd90e59d26"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-chest-supported-incline-dumbbell-row-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-chest-supported-incline-dumbbell-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 353438,
+      "sha256": "b5bc2b68aa3c10e3b61d9b734bb6c359ff20c5fb7b28a9d8fa08ae1ab7fdba74"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-close-grip-v-bar-lat-pulldown"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 320379,
+      "sha256": "32200251ec2db48e1e59062f3006a935028f28010fcf80bf0f01deb695a2e0fa"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-close-grip-v-bar-lat-pulldown"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 339859,
+      "sha256": "1f6e812809932112b03d3874c4adc591c57be3d33f808a136090e1f0936c93e6"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-cobra-pose"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 350012,
+      "sha256": "dd7b8465093b80563e7b0ff09d850fbb73e4eaa46e03dbe8f27994f547e5d584"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-cobra-pose"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 344493,
+      "sha256": "4add943946682b018d24395106877f50eeb323b0922c70157afc6b35b8ab90c7"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-decline-bench-weighted-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 377678,
+      "sha256": "cb01f01cddf403a3cfa70c3b8cb0664247323bb731f8162849ce12f5b860c794"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-decline-bench-weighted-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 388016,
+      "sha256": "57538f82ca1d4b1761e59ed690303523fdd83acc0eabca8beaa6b4de214ff99e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-doorway-pec-stretch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-doorway-pec-stretch"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 293459,
+      "sha256": "e7827502dee568d41f5b2d0c3913a9564e81a4655dc2c7522a859f61e3977a30"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-doorway-pec-stretch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-doorway-pec-stretch"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 299824,
+      "sha256": "5699c3e336fc6fd7b08769f66d47b2559bb685f29555680942b1ce91361be0b8"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-doorway-stretch"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 275835,
+      "sha256": "07e2a544bb8f6c03334b7dbbe2ed5dd4baf23d395dbff11a3b0dbe47543aa47f"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-doorway-stretch"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 287865,
+      "sha256": "fa0467bc55211d5823e280d171fef86df63ffd696e738727c859d3b088533819"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-dumbbell-romanian-deadlift-rdl"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 322203,
+      "sha256": "59adb4c9791f445a07043de5ad497291a99418ac051d19530854a6a327012875"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-dumbbell-romanian-deadlift-rdl"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 333186,
+      "sha256": "cf5689f7492d86f2b5b4ca648eb55e7aa993cd5b7c3c8cd3f4f48830d5a2664d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-dumbbell-walking-lunges"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 293595,
+      "sha256": "66b93e2ec5c71542f6fadecde7cae536e82e11a8271bb8b769aa2f24bc6a5e72"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-dumbbell-walking-lunges"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 298860,
+      "sha256": "2dcc304694c4bc78a59837737ef2c1f1b73c483b48182a6180171bd9b4424a07"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-flat-dumbbell-bench-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 344429,
+      "sha256": "6260b3f0e173ba927894852600a7632538771d4b1465bc84a53586d4e0f50d58"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-flat-dumbbell-bench-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 348830,
+      "sha256": "20ec4a09fb4dca5b233777c3f72d98d8535383580df97998dbbdf4fd9d0047f9"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 348773,
+      "sha256": "63d69ebbe01987394b92a8e77d6308291df85ec537f2d5199a9da10030ef59e6"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 356365,
+      "sha256": "def1a6b13005dd5c3186d54f558476aa904135179cca0ea95122dd6021b18194"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-hamstring-stretch"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 318469,
+      "sha256": "419559c087350a32df6992affd0a1fe4c7c849a807b003ec3321b8e73adda950"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-hamstring-stretch"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 323268,
+      "sha256": "7739e3d60e084885bd1ac703009970b1d7035c9ab3ba546f811aa3e7935522fd"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-raise-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-hanging-straight-leg-raise"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 315024,
+      "sha256": "dd24ff7846c431fc397ce6edc565522d484cc607ceaf2eb7eaa6a4a1aab19036"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-raise-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-hanging-straight-leg-raise"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 320808,
+      "sha256": "eb2a85f294856939aeb78b7b456747ca1f392ea19f803326f8083a63529c3366"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-hanging-straight-leg-toes-to-bar"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 276264,
+      "sha256": "a3c0bc299bf670eda71439e1c18b01a930625f54e603ff6e60674384899c6110"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-hanging-straight-leg-toes-to-bar"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 294374,
+      "sha256": "9d6c56b9f368272564aeb51f4a04604e52cf164d441330bfd33bf405e95d50e5"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-incline-barbell-bench-press-30"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 351855,
+      "sha256": "378211fb7c859d7306352e05267758975794ec461fd1d542af2df9e28151a201"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-incline-barbell-bench-press-30"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 360889,
+      "sha256": "c23c4144c91ad002bc5104626bd4b981556b0bcbc36a1f01d7e3ed45a4047dfe"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-bench-press-30-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-incline-dumbbell-bench-press-30"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 336460,
+      "sha256": "a4ddcee7e4611a2ad8a33d581dc11cf9161cd810f60189fdacdd1aebc1458148"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-bench-press-30-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-incline-dumbbell-bench-press-30"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 340444,
+      "sha256": "4535c1fe0f995c6a4504a7974390f6da7ecc14da3d1b9b95077982247d1d14ab"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-incline-dumbbell-curl"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 338200,
+      "sha256": "2a9dbf2c801199ac79592247cc91442dcccb05de808711ab0d060609f42ff47c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-incline-dumbbell-curl"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 352994,
+      "sha256": "0b50d116f20dcea3cf28d2b9e28eef2cca0085fc6698936333ca7e71383040c7"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-incline-dumbbell-hex-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 337822,
+      "sha256": "7f030a3db1f0a3bd5e4d20f033c31a16400f4db72e1e2a45daf1809ffbc773d0"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-incline-dumbbell-hex-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 344077,
+      "sha256": "87c9714274620daa9dcea7b317e37240252f01dbc04604bcfca727137d71e905"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-kneeling-cable-rope-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 354944,
+      "sha256": "6e2d298f4223c9ad9f122b5ed9ce2861cfba99cf4bed639f71f8706394651ff2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-kneeling-cable-rope-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 361154,
+      "sha256": "440b2850e2aec02966604290a553d8e61a76cbac2bacf70bacc84aafcb4a0ab5"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-lying-leg-curl-machine"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 340948,
+      "sha256": "7029731722161c59295560ac297ef67095757bdc9c6e52fa5b5871c9982036a5"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-lying-leg-curl-machine"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 342754,
+      "sha256": "a351b71b965a5fd170f08c6f29c1d89955ed90389fa39ecee97f625ae1fd7d19"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-lying-pelvic-tilt-leg-raise"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 277547,
+      "sha256": "43993aced97a758f182884a7c5ec6f8463990efcd965b3119984599e58eaf1f1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-lying-pelvic-tilt-leg-raise"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 232887,
+      "sha256": "e24446acff2869bcdb7baaa2d172d9d148ece30b11a6997d9893f2d44e95f394"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-neutral-grip-mag-grip-lat-pulldown-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-neutral-grip-mag-grip-lat-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 313549,
+      "sha256": "b20ebfd2c79dfafcee8cd11cef0a40d1c686336e26886d1327d627470b743ba9"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-neutral-grip-mag-grip-lat-pulldown-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-neutral-grip-mag-grip-lat-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 319991,
+      "sha256": "ac845b6218e41039456a25db2993d37ecaab3e28b40c8b2a585f5e32d9b2a743"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-overhead-lat-lengthener-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-overhead-lat-lengthener"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 283315,
+      "sha256": "4b712ebaec948b42ca81a16697c883fbea95ce1ac0633cf6842fb022eb7e6147"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-overhead-lat-lengthener-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-overhead-lat-lengthener"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 287284,
+      "sha256": "e5c18d62fe2f815d94ff5cbf04505299ee98c054f307d301bcec003088848add"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-seated-cable-row-to-sternum-neutral-grip"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 334104,
+      "sha256": "23c88c304548ae7f57192f84f5c91853717bb364426461c6dc1f2c008ecd6028"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-seated-cable-row-to-sternum-neutral-grip"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 343505,
+      "sha256": "c85671795e38b7856effcdb79bbf31424930f775b407fd26dc7570a5240e56ed"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-seated-dumbbell-overhead-shoulder-press"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 339362,
+      "sha256": "4a4a4552210013085852122cb169f133e4e11f835d4b6b2d3384d34a1dec402c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-seated-dumbbell-overhead-shoulder-press"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 346566,
+      "sha256": "6b5b9e4a8ef0c2d47c9262c9ef7946f61013a08b836d59be67748e6125426297"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-seated-hip-abductor-machine"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 354937,
+      "sha256": "2e5904f166f911d79d9c1492836100c2455ce2b2f6576af6ab7a92c9b3969b9c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-seated-hip-abductor-machine"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 366475,
+      "sha256": "c89d682521a730e0ba87a38bbf679dd85f82f2a8016302539c794e9938b0ac8f"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-seated-hip-adductor-machine"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 356015,
+      "sha256": "552e5e518ec612b06ba11df08c5c7031f0e03b0054eeeae2e81f6b164d84e98c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-seated-hip-adductor-machine"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 368029,
+      "sha256": "97aaf255894a399eba939c396ab6b0da488a16a413d7c6d10e18122a3f8a0efa"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-seated-wide-grip-cable-row"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 354292,
+      "sha256": "1d3be733ca3e8cc1fa29657f0fc31aee4121c8d6eb0d6cdc0be4e83bba6a0345"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-seated-wide-grip-cable-row"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 361194,
+      "sha256": "63376ab61f2232db9b5f7e07345e92240fd17414048521a77c559060d2134799"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-side-plank-hip-dips-with-rotation"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 365629,
+      "sha256": "7b160860ca6ceaaa75628b2d44dee34083db353ccc089ebcbb396760a15c1778"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-side-plank-hip-dips-with-rotation"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 385776,
+      "sha256": "2b50aeacb135970c3e49d20d6914d8dd3bf831ba26ba17b116e93b189142ba89"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-single-arm-iliac-cable-lat-pulldown-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-single-arm-iliac-cable-lat-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 317010,
+      "sha256": "8382974ab5b9c0f1cf8b2a9728e85134426e014ec415a8a54613a6733106573c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-single-arm-iliac-cable-lat-pulldown-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-single-arm-iliac-cable-lat-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 320048,
+      "sha256": "5cff127aac8aa3db15af6d0d68873266b87773ff1c78b0d3be5775675bf37c9e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-standing-cable-woodchopper-high-to-low"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 348262,
+      "sha256": "eb5982e9facbc3d9ad04f4c5aa800c4ccebcfc6ea0b53e0e299a43fc1fcd285c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-standing-cable-woodchopper-high-to-low"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 347363,
+      "sha256": "45d6935c9bb3937c3a883d1b8d749ceb13fbad32bffac603bbe393dd4ea3d9f2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-standing-low-to-high-cable-crossover"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 337239,
+      "sha256": "7cf96549babcf3bfe974b6dacb123ec9114bd781e4aed1cee81275528b4a1d52"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-standing-low-to-high-cable-crossover"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 341380,
+      "sha256": "33b1ed1f332a230eb91f9219adbb9e7153d352a565b44491ae026d911f257ab2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-around-the-worlds"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 318274,
+      "sha256": "4c6888076846a6c9999106ddb55695dde1a9d78e0a44fd34783461ef00d04031"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-around-the-worlds"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 318100,
+      "sha256": "82debde7b5a9b37d3dc7e03d1a6ba5c9824f2b4b7a29f7d07d85f03b56f7bd86"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-behind-the-back-chest-opener"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 301826,
+      "sha256": "bc741b112b4048d34b67d876567da99430a2466ba598d5f5c80933417a941e39"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-behind-the-back-chest-opener"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 317647,
+      "sha256": "4ab9306b8e8559fc347d3b88a4add07ce2507d69404a1c8ed74723c1c56251a8"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-behind-the-back-opener"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 308862,
+      "sha256": "af84105e3433cc6ebe99c8820303a6781e7c15c0446eebb39a40f7c2041352e4"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-behind-the-back-opener"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 328047,
+      "sha256": "c93d58febcdd62bf9533ed98b735b321587547b5e5fe215e66c2dba44bf1ce5c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-good-mornings"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 320172,
+      "sha256": "3e356d9753ed45119e5fa6ba877ff18ef45a04c1dea7e8e5dcad372c22936586"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-good-mornings"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 328220,
+      "sha256": "5d4ba451e98cd37cf8475f5490b0b848512ec60c77c6163bcd91bb1d8aa93009"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-high-knee-marches"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 353770,
+      "sha256": "ba03f58db54846c252e3be5e31b79caa55a64727c563a2a989e1d17fdf62ef16"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-high-knee-marches"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 354691,
+      "sha256": "3576f4ef56d3687f68db062ae39f152a9be6e561787464f6e83e92555ba8d4b6"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-lateral-leg-swings"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 326055,
+      "sha256": "fd212b318aea9d935182d5b25e64aba84462f8bfa17c0df7276addaeb3fd37e8"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-lateral-leg-swings"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 338261,
+      "sha256": "80705f0c93458d2912df76a85450f43b0de16054b2cc624644874088fc665257"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-overhead-deep-squat-prys"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 313590,
+      "sha256": "573757541b3ebf472ebfbe65846f4a3315e598710c6c4cedb0d102d21acf9cca"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-overhead-deep-squat-prys"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 318838,
+      "sha256": "897695a34c50fc3c9e727dc8ed58fbd63be5dfcad1700531baab556bf753ff29"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-overhead-lat-stretch"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 297397,
+      "sha256": "bd29a0a02e4ad650bb98202c19236f51ed99f9dbcc304a5c3afe21f5bfbc1c18"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-overhead-lat-stretch"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 306026,
+      "sha256": "ba3998c938ffeb5806fd62bbfa6c693c0cdea0b8755e6e79ef43b5bc7d407982"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-overhead-side-stretch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 326343,
+      "sha256": "98737dcf69fe5b0bcad00f03ff1b430f61e63a4ff324d941147d5b00f9c94ff9"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-overhead-side-stretch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 342793,
+      "sha256": "da11ec28320c17996ef2427c391d81a947497fee961f17a10b8d20b2d336a170"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-overhead-thoracic-extensions"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 320978,
+      "sha256": "e4aa827119ed1dbdd19c6752c27d0ead3b189fbad254d2d740bbbfc2d7a744fa"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-overhead-thoracic-extensions"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 324833,
+      "sha256": "c59a6455c340b165a87e1a8f3b387616485808bb9ae07251a3ae601f8adee451"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-overhead-thoracic-spine-extensions"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 315288,
+      "sha256": "50f734e66005412c6881d69cea9103e7750baf0cf6fea9ddf8ab75e4d39a8eec"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-overhead-thoracic-spine-extensions"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 328085,
+      "sha256": "59764e6ec88a5cda534d0551a444d2296cfa635bdc5526205364b8617b9437d2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-quad-stretch"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 307659,
+      "sha256": "c84c1ee46f6c97ce5ed4a11b0c53b3400f1a2ef516f75c51645ac51307305e71"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-quad-stretch"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 315767,
+      "sha256": "588e484bf25ac499f1bacf406aa2cbad05ac353951a75193fb099ef738424d09"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-seated-russian-twists"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 331114,
+      "sha256": "4cbd33bf1428746c8ef85a6bde3bf8d0eb6f358478c57763c199de8497cc8b6f"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-seated-russian-twists"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 339730,
+      "sha256": "7703d1e4c088badcec65a9f7b775f2850f1ec2545a68a0fb86593116f1d16017"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-shoulder-dislocates"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 316725,
+      "sha256": "198da693e243bad7179a94e78fd3a0cbbfe23ae540690085506ed2a7d1f10612"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-shoulder-dislocates"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 325853,
+      "sha256": "a54d6aeb75c28b78ea3d30a21fa795586423c426dad05e2e2d7490f8a18c68b6"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-standing-lateral-side-bends"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 348931,
+      "sha256": "68736bb0afb825af1b1aab2705414faf31366e79c345b5eeb78fd9d0a9c0f234"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-standing-lateral-side-bends"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 355412,
+      "sha256": "0c1bf51d160eca90a640059be034f2104d35db9fe836f7a4559f4d483d4bd326"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-stick-standing-torso-twists"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 353252,
+      "sha256": "60f6f5978deae972474b899532d1b36dd2742824273eca84f0e29ce5b9f7958d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-stick-standing-torso-twists"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 355254,
+      "sha256": "cf2f4c57bcf9c66714e9a2199effb2faa892531857c5359da67899fecae15dc8"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-straight-arm-cable-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 318163,
+      "sha256": "9b0ed8d79e018961aac079c31b27ed849055a1dc9323e23f6424a6b8144f8c0e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-straight-arm-cable-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 324039,
+      "sha256": "527ee9326d75cec3cc59e3473f109930965305322c4f50323c44c480e9aae388"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-wide-grip-lat-pulldown-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "biweekly-wide-grip-lat-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 324215,
+      "sha256": "194296e936c91f67e1b8f6b549a903c90ff3286264375d052c279da7b5729f4b"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/biweekly-wide-grip-lat-pulldown-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "biweekly-wide-grip-lat-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 338853,
+      "sha256": "b2fb13d94a03c7ad085aabb7a4246f2c866a0d433c3420c5f82bb187e574b48b"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-ab-wheel-rollout"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 334422,
+      "sha256": "5a921269b469533a51adb0b5c66c3246a6b763a61c04dd37ab6f4c3b21407d81"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-ab-wheel-rollout"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 341515,
+      "sha256": "a10a7a96af86dbfa3aa40f19d492c1a10cd431141eea22a48b002b5a725f55e5"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-arnold-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-arnold-press"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 345021,
+      "sha256": "8a35ba5926c919c1858b9d907368ed18c7888f8a91b7afd7243c1691b75a2010"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-arnold-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-arnold-press"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 349340,
+      "sha256": "91ab2c3363cf57abb01decd9baee240e7c12a48b12320770905349e32e8fde42"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-assisted-neutral-chin-up"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 296991,
+      "sha256": "e256041ffcbce1670d69fb231ff6d8a51e95bc5b32e3d21fb981496564ae01d8"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-assisted-neutral-chin-up"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 308554,
+      "sha256": "e173804a5e597e0ccdf928b878c320f4b95cc72f08875b78802a92164b637ce2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-assisted-pull-ups"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 303403,
+      "sha256": "4d8d1d0948d55540c7220e5418371631851907b8c11fc8b7e47c9fde5e3a33f7"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-assisted-pull-ups"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 311955,
+      "sha256": "d1cca547adeff189cf97f75ece395795f08b84ac4d61e0815faab6d8d62fb393"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-band-pull-apart"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 268134,
+      "sha256": "24fc5768c73a1b9a6470d3ea3595a1a407c602219ddbb9586499f3bb7c357937"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-band-pull-apart"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 273607,
+      "sha256": "af0ca8fbede425c1a05c7e9249f83b136e3e490e935ee080d555160e75db7148"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-barbell-rdl"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 341713,
+      "sha256": "86f98df9556bd7e5e26c299b14992f70ef9c24d974caf6108c4b4c1a3f46354e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-barbell-rdl"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 351391,
+      "sha256": "615976de397bbcb444e20e8e43dda885512053efdd3bf4821c556970881352f8"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-bench-reverse-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 346677,
+      "sha256": "01c5052cafcefac7adb6c814ebacb56c1ace7600cffc4b8d06164aecb3d7e6b1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-bench-reverse-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 360090,
+      "sha256": "f9f54e32f83c6cddd071a0543a38e3176ed82e79676770422972cf859805be04"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-bike-sprint-intervals"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 389857,
+      "sha256": "9c314b7b2831881590cfc13fb1186d860f77a954657bc47294756db53f9c3caa"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-bike-sprint-intervals"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 388695,
+      "sha256": "fd8653533562dcac1e873c52a3117dbd289a1e289429749b49e6897fc89c14be"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-bodyweight-box-squat"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 323855,
+      "sha256": "5477ae17bc20081162959e5cd13ab4aeeffc1bfc479d14acf12c0d9b57573904"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-bodyweight-box-squat"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 339219,
+      "sha256": "e253fc55ebbc0d35852f25969b657e0a931c103900ee3fc37ade9074a7368351"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-fly-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-cable-fly"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 337619,
+      "sha256": "9bb76a0811c1c41e4ab23d9289ac333ace7573448b32f6aca4a8f68cf991cdeb"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-fly-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-cable-fly"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 353516,
+      "sha256": "b7391066e78a6d092d99e93f7fa0747fb28e70ae374f3f1e8c10e1b8904cd7ac"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-cable-hip-adduction"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 325477,
+      "sha256": "82aca58035c1d29285005dbfba28333d7187e115fe30b6c74766eb3484cebe9f"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-cable-hip-adduction"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 340188,
+      "sha256": "e745b13142521783d48bca7f09ef545363d684f7172887e2715a06652f21e03a"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-cable-pull-through"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 338277,
+      "sha256": "18de24839d31e695609f82d1d9f4cca8b30adf5ba2cfaa48c80532afee4d1cf4"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-cable-pull-through"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 360032,
+      "sha256": "be38a7ca5fa428b1dec33caf1f2506b1b96313bc0698dfaf04c6bb85cc3ad010"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-cable-pushdown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 291048,
+      "sha256": "92255c51e9c76522828cf86e70d9b45bb688281fc8973d4c9283a7b20be57a3b"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-cable-pushdown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 296138,
+      "sha256": "21bd0bd7483a6cebeb0376d006551047cbd31b3a1dc1c058aa72f396792e44fd"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-cable-russian-twist"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 333177,
+      "sha256": "42a1d2908832a87403e2a5b21f9af73d9849f290962fa20890ff9a9c55a9f6f1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-cable-russian-twist"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 335138,
+      "sha256": "93b83191a74ce5016fc1c271c0bf27f76e48b5a6487d8c137ea61039a2f4ddaa"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-cable-side-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 365446,
+      "sha256": "14c36ebf0d29fffce1e98004d8f6d0663dc7fd4e26b13088c364e38183a4243d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-cable-side-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 366937,
+      "sha256": "822f764e92aae996207232ee12c37c989945c1014aa9f1ace7aa587d1468448c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-captain-s-chair-leg-raise"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 288547,
+      "sha256": "6a7521d5a4e58776864ca573d54bfe2bb2ed7e6b7c6059b9923d81b14cc2b9e4"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-captain-s-chair-leg-raise"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 296918,
+      "sha256": "6b2cd40984c6449aab9d0b43a9a2e3f0fa786aa78346f1768c84227f04fb0143"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-cat-cow-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 342858,
+      "sha256": "cd422381b38de79fd3834346ef51aa5eba1097d399e8371aa8a71e8b7c6dfe8c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-cat-cow-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 349549,
+      "sha256": "316598307aefe421da013e1308182e5ed9108461c762a4725703ba7663ab16f3"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-chest-supported-db-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 319208,
+      "sha256": "72ef90632f074df1df082df3be8149e588ac77f15fee6361cdb28cfb307e2878"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-chest-supported-db-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 333521,
+      "sha256": "1af203b7223383dfc1537c03ae69eca401fd358d74e8dea8025a603ecf0b92ff"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-chest-supported-machine-row"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 332884,
+      "sha256": "b17780d103480d356e08f7dc045e19cce9bb73b0243992affa1a00566a09262d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-chest-supported-machine-row"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 343082,
+      "sha256": "ea48195e37a58a5477765a0f9cdfcefb7a2ca35749833440c4048a71b56cdef1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-chin-ups-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-chin-ups"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 306068,
+      "sha256": "d3e114a6912fa926d159f8bc2d7bad5e4baa10d2663f50af4d39165dec18cd7c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-chin-ups-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-chin-ups"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 318187,
+      "sha256": "df3cbd500dcd173a4efc6e453d1caeb9af601c136514a6576b2e2c6a7baaf85d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-close-grip-incline-db-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 317793,
+      "sha256": "507d126c567a5a3ed51b2870304214b9462f6969794bf9d932b5a3d713b7f897"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-close-grip-incline-db-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 324863,
+      "sha256": "ba1248b4d7274ec46e232df9704167895f8396b31f0b3fe0f9e0d3ef08a4c84e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-db-pullover-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-db-pullover"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 293966,
+      "sha256": "409c046d70453a1059f9ea4cf017a7cf6a895cb88da8cf2309fdd902dc06bd7f"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-db-pullover-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-db-pullover"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 314582,
+      "sha256": "c63dff97f684eb25d25d2f5e867519a9c1b2b9308ed5cc95ebfb62315c992983"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-db-side-bend"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 361142,
+      "sha256": "9c6546469e0a94b999e970cbbd0df8efdcc0adcab98d0b63a63a506f3558a4a1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-db-side-bend"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 369294,
+      "sha256": "feac8f2fa18995fa675d5e004a033ee231913e7024d9eb4cf6e263582243fd1c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-db-suitcase-carry"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 350882,
+      "sha256": "ec2d6954d9980a14e7c3d59674d49d41f35ecf2f6515a2ebb5c9bac1d80e24c8"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-db-suitcase-carry"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 350998,
+      "sha256": "fb9cf658496210f39c20e5f1da46f18f9e2037d5d7b913aaeaddc8fe9bcfe4d4"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-deficit-bulgarian-split-squat"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 355501,
+      "sha256": "bf6e39390441fed30d075000efb3b27187343559dda6b4eeca4c623fb471960d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-deficit-bulgarian-split-squat"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 355745,
+      "sha256": "a2a5fe0bcc801b56c28595fc439d23c5fc148d8dbd90746ae8d51d4d0fb74521"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-deficit-push-ups"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 298253,
+      "sha256": "36537b9959c752e9c12f1164c3e1721a621fc806338e565ca861fc57314b9a39"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-deficit-push-ups"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 329701,
+      "sha256": "5837f81b433048e9cd1a79760fe919709d0f93cf99df33fd59665bb52cd611c1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-dumbbell-incline-fly"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 340921,
+      "sha256": "aa0a44668bbd5c2cddc62ceba183884289907c3c51716cfb2223e408ba3cb90d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-dumbbell-incline-fly"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 359458,
+      "sha256": "741de6935dcf646f2ce94440671dac8560e68502828d456f55ace9ab1ba6eb19"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-dumbbell-lying-leg-curl"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 365174,
+      "sha256": "335029b3466237ceb9226b455dbcdb1043dc9b598b04a2525fc8337c0b6808aa"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-dumbbell-lying-leg-curl"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 366945,
+      "sha256": "aca4af00c87050ee52a81bc7799486f22bc044d176e2870840067a75b3ec79de"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-dumbbell-pullover-on-bench"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 302152,
+      "sha256": "4c9262f3a924a9edd33baf6dbd5aecd68c971ae64db42c5b4ac910a3574932db"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-dumbbell-pullover-on-bench"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 324627,
+      "sha256": "e322dd218cb341e8c57e7ffa27aaf25f576b0853dc88e729838d1759ee8289f1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-dumbbell-woodchopper"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 367786,
+      "sha256": "f2670478c17bac2364aacbb5f25dd76a62d79de38e6b1d830abc3700dd07df14"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-dumbbell-woodchopper"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 379300,
+      "sha256": "a9466e74faf2d3cf4039cebc4624c300c1e2102ea1c600cd7fcfd05a394c6e80"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-elliptical-intervals"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 388779,
+      "sha256": "54c3957ec336f5efccc8eac6403f07ee852b06de07ffdf569a6f3f305753ac45"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-elliptical-intervals"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 380311,
+      "sha256": "57602ee6ebffd95ba643a43c383f77ef73d892160644e5563366a22a60a6c56d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-flat-barbell-bench"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 311951,
+      "sha256": "704cdfc5d0acfe902d33e0557cce54b1e25f43c722279059ac8fdc1b2bcf3b47"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-flat-barbell-bench"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 325260,
+      "sha256": "447aabcea38886b29a49c36f672e566f0237c6ab13b82f0e2edf4148ef231bb2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-flat-dumbbell-bench"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 297443,
+      "sha256": "96ae3b28473f0678a4baa6a6fa9462bc50a85f4aa3633ec65419f9b83aa1c9ac"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-flat-dumbbell-bench"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 317161,
+      "sha256": "cedacc318147c00bf1049268c070f1b119b4307501143b6fbc5e7306bbb1176a"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-floor-bodyweight-twist"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 333668,
+      "sha256": "bc9492ae9eba427ce98fa0ee675fb52c5b1be20ba53f270464076b7f7b1427f5"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-floor-bodyweight-twist"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 342367,
+      "sha256": "eb223db5d2a23e6c3e247a59bdf45581575e1fd936e0ee87e20a76dabe6f1a7a"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-floor-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 360929,
+      "sha256": "69c0bf878995c575c614cd7b3abf7759578dc68e90460a123b8ca4de0486241e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-floor-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 360765,
+      "sha256": "a85a6c790d7270b2f047f7bc1ec7e1c03fca78fdd0bf34d43f287e9fcfb258ca"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-floor-leg-raise"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 306162,
+      "sha256": "8fc9c6c3cfaa07e10c5c76294abe450f994482e2672c7575bffaa3feb7e910b9"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-floor-leg-raise"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 310370,
+      "sha256": "e16e94ea41a31e371016dd712e26e77cbada76612d01ad7316507f183f6c85e4"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-goblet-squat-to-box"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 338552,
+      "sha256": "a2b31fdef193327e784cb4e273b6f6145f1976602d2d4ec0e322ce0eebd0c1cd"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-goblet-squat-to-box"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 352682,
+      "sha256": "d452c09fd8b43bcc79f1c0cfa0edab525ac6159d435cf991b2a4ec2138a6da2c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-hanging-knee-raise"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 327806,
+      "sha256": "23fd6029561559bccebbcee2c9eb50409d1c6fc866e052ef563aebd294519810"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-hanging-knee-raise"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 335253,
+      "sha256": "9b8c644f2c9f2cbefe683d52b395d3ba85612c3aba8bf68400bc117f7d4d0a64"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-barbell-bench"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 330721,
+      "sha256": "a6ff4436cbb5a92991247491534a8dcafda8651c90f1d375c7ec8fb7c3541d04"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-barbell-bench"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 345074,
+      "sha256": "ac4c45b0c22a3d8aa01e168d0e62a8957dad333cf3df85c222b400b7a678933b"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-bench-plank-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 363444,
+      "sha256": "6ae72cbebe93cc1a5a82b8ce33fe3763011694a1f2d0edbe0c44acdc9afa58d1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-bench-plank-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 369176,
+      "sha256": "d39430190327396eaa300e8ed70d28b1c5f5d5a3932763b6cc087d3d7e22d261"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-db-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 335226,
+      "sha256": "943c8ecf07cd3632d906907b306732189dbeec385151b97dcc322260d0753da6"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-db-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 348101,
+      "sha256": "fc815a50cfd38971b4fbfc26e409066c664d5922d955006df5bf43c698f45ea8"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-db-prone-row"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 351275,
+      "sha256": "7a6c6da611b96b39ba850db74e0d662c8a674b61e12fc02952ed80302fcf03ff"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-db-prone-row"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 361000,
+      "sha256": "8d1a4421e387191aea4d13e48d48822d0ad79c3b1efbef2423592aea1562221e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-deficit-push-ups"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 342107,
+      "sha256": "c1d9aa0a88fba22d0de1c7a38c1045aed5158436ed718751b0bd7130e42ee81e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-deficit-push-ups"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 363718,
+      "sha256": "32775ba9e9086ca57b7ad5bc1201663f73f2216bdaeae47c84bea104dd9d5b15"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-dumbbell-reverse-fly"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 342376,
+      "sha256": "c91e4f63ecc2a72614d8fb4f684475706f9e9a6f3dfca472d9dd675ea4282f23"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-dumbbell-reverse-fly"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 349953,
+      "sha256": "04943e6d7514d3151acdb25b0b5f2e4258d068a25ffc81cb8b2aa7a245b64669"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-machine-fly"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 315518,
+      "sha256": "3f2f63803ce2a921a1ce66977cf45fb5b5afdcc0f3a142e9191ebb3cbb40f64a"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-machine-fly"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 329895,
+      "sha256": "e089caa63642918d806f7fdd5af4ea537c56b86755d09da1d47ecf1386a3e9a2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-machine-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 375818,
+      "sha256": "420603454e92ef256d29881d94b5b6c0d22ce1ca2d05e531f09af80ceada2cfe"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-machine-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 391563,
+      "sha256": "106217a757fe392bfa03e2e8ab65b228002b60194072fd9a907808d4cf1957e2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-prone-db-y-raise"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 364016,
+      "sha256": "84ff501360c7e7f0f9df0ea678a62303de5524a10671c535f6e877e0af364253"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-prone-db-y-raise"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 377090,
+      "sha256": "204827f5e8330102de56ad0ae21f8bc4a2268cde7ac757677e934353d403ce26"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-reverse-crunch"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 375707,
+      "sha256": "2eed0e397a1e50505b765b3e6baf0559de2be6de6a0f8cb074e71cfa0af02259"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-reverse-crunch"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 390002,
+      "sha256": "f8642c5a281dea57be99a054ea073984d86acf49f880caa5f5427d5e611c07b7"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-incline-smith-machine-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 322842,
+      "sha256": "4c979ea6ab7ed82b6e1fe605dd847cce36a368418978527427a31e4b2a084e46"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-incline-smith-machine-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 336121,
+      "sha256": "665b40a298a1bf19ed81adeefed81ef31c518c2dfb5a3ac320ca9a2453ccb52e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-kneeling-cable-lat-pull"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 333047,
+      "sha256": "c988764786ae4494aa7d30e6097883076aaf3585cabd856e4739dde50dbc56a6"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-kneeling-cable-lat-pull"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 353625,
+      "sha256": "5ca87deb32b3edb604d95b58e358d1155506952d5966b1edb27459a8189b5222"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-low-incline-cable-fly"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 327085,
+      "sha256": "e9b52b92c69056c2a4fb03f8bd959ce755164cab86f778a1884738557930ee07"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-low-incline-cable-fly"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 335274,
+      "sha256": "959fa69f8913eca997d232c5d8b95af92c74f5ac93c8a2c36f61dba2c909a832"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-lying-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 357776,
+      "sha256": "a44091d7cd0e9aef4b1898b8bfada92b98d436678d87aa82e1a3b73e25389cec"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-lying-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 366379,
+      "sha256": "c56673c22418de9a7f55d810fcf6759ff8dda94954af0b5ae1c3a6e5cca69de7"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-machine-row-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-machine-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 373295,
+      "sha256": "e9c2a77e5ed68c35a4718cc0fcc689bdd4980378a62bc5e480beb85f63e49d0d"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-machine-row-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-machine-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 388187,
+      "sha256": "754245c4bc23d4b82c354bb48af2b1bc369bb39633628506593f52d7fe58928e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-machine-shoulder-press"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 354485,
+      "sha256": "15db43c64d5b9277a481906b3773f8bcad7ecbe465bc483e44d95c16c0576c14"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-machine-shoulder-press"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 372629,
+      "sha256": "aaf5ff045ec5292c8ac4b38581dd8989279e7be146a4a76e49483d7c8b86f5e4"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-meadows-row-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-meadows-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 302226,
+      "sha256": "4dfb182f970fb50279d3328b39a2aa8dc02a0ea01406451675f9eef49ae88d01"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-meadows-row-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-meadows-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 310391,
+      "sha256": "658574dc11ca510935ac528bf839db881d55cdb2ece2845fc828889be3c7afd3"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-medicine-ball-twists"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 314739,
+      "sha256": "3b04a56e26d7d9ef7facc761085228b0fbd4ceb95840c7477c31780192cb8dee"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-medicine-ball-twists"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 322139,
+      "sha256": "ced46b498c2e0e94c66906b8956af9453c72392d5a0ed143000241e4a68ee435"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-neutral-grip-mag-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 293951,
+      "sha256": "f8f57225c0d7d27bd832b27e40a38565bdc8534618e816442010b2a98b74593a"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-neutral-grip-mag-pulldown"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 302693,
+      "sha256": "ff4cd8d9c73c5a405a99ac5ea5f3504be618eeff42267390fce91a015f2a2230"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-parallel-bar-dips"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 339114,
+      "sha256": "016d75cd02b29c1e02317a4b7e3afadc33a92cb2ebb23565cdcbfda46520067b"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-parallel-bar-dips"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 357958,
+      "sha256": "c3c5826caf5705c91e84972a2926f9b5ab275e200e2acf3d6a586ffff2a9113e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-plank-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 368310,
+      "sha256": "4fffd9e943424ec504c32e3c0784e8b3fddaec57c79a035f794a5e0981b49afe"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-plank-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 373735,
+      "sha256": "c5baafddfc1641c13dadee65057d377fa88209bc6d2f9190721df54aeefa57ed"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-plate-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-plate-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 328600,
+      "sha256": "86fb0aedc076e71702edccd8bbe43adff703ee3fe8a35d7c7f44c4266b019283"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-plate-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-plate-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 343007,
+      "sha256": "ff15f879cd1432f4ca4b89eec7e0d5759d6ede7f2917db9e6b77e70745046217"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-quadruped-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 351460,
+      "sha256": "2869117176b328df32ebd12fd7a27a27b029af2962ba8a961eef5c5a80d2f57c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-quadruped-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 361087,
+      "sha256": "f56f26d28af36b9a5df97b48081a52d5a64036f3aefa6f1c8ca29eeb2dc0c0e0"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-reverse-lunges"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 336519,
+      "sha256": "8e7063ea9ec144d712f7f9182e688ec45696cf07a2c6dfefa999661be9fabb45"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-reverse-lunges"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 343402,
+      "sha256": "3b9513a19167690b06a6e4f4e72aae6179c4b0a7fb13b1abdf8bf6cd8ae4d420"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-reverse-pec-deck-fly"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 359973,
+      "sha256": "4550378eac9eed23de7ff34a04c00b7f2bd6f5faf797d3e2af8332ad06224dd4"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-reverse-pec-deck-fly"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 371943,
+      "sha256": "c61088bd0b907182819a9a64af120793097cde3946edc214fac95f0189001574"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-seated-cable-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 319278,
+      "sha256": "b5d26d272bd4e0236599a69e7d2df15b482fb5d816f84d5028b5c3828d86dfa1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-seated-cable-row"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 337562,
+      "sha256": "ad43fef92d58a288dbfddc1a3cbd5a0f389ea578619106146775f3501d36fc63"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-seated-stomach-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 390260,
+      "sha256": "895f77a84eecb20e5d04c818d43d5dbc065814d10185a05e166ab741fc1c6fc3"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-seated-stomach-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 388498,
+      "sha256": "443885fa0bbc9ce4d8ac33719454142dfd5f3f64ce30ef2a1cf1c8806816dd33"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-side-lying-adduction"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 282534,
+      "sha256": "0a963d8dabf7e54ac6189ff2b5941d1332da0f56c744d8c9728efd5f9771d6d4"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-side-lying-adduction"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 285314,
+      "sha256": "d242fe687ed76f0e0bc1ca6c15457fa19a966ee77233942095e2887306ac4958"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-side-plank-abduction"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 280532,
+      "sha256": "026b0990771b30479ea216a6c28be8b74ea49262451b28e5b3aa7615e1a3ed3e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-side-plank-abduction"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 284080,
+      "sha256": "48360dda742343e8710696d14f09b6a7d8be2496ecd159b10f49bf2a841e4521"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-side-plank-hip-dips"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 376967,
+      "sha256": "c4d4f5eb6ff8a169ab5f58e8fc20260b5dda3c96aebbc8fc468bc7e686546775"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-side-plank-hip-dips"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 377632,
+      "sha256": "09abfc690f3a017b047a2b572847f49da2d40e39a3cf3206e07ba761e5838f59"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-side-plank-hold"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 340524,
+      "sha256": "545e8eccfab13470af153043be35b744e9585f42cde326a3197e60c71707c108"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-side-plank-hold"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 342651,
+      "sha256": "c34be4e91bac2254057f457fcaff5f3b80c29aa38549139b4dcb83aa1e8e53e3"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-single-arm-cable-pulldown"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 320048,
+      "sha256": "df0aef1d3921276eb42f18ffe69b75048a78044262fe98b4c69578a44190ccba"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-single-arm-cable-pulldown"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 336034,
+      "sha256": "74efea7242d200e02f76e9bb9038be996abe44163765d751c1803e96b06246e2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-stability-ball-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 366735,
+      "sha256": "0c780554d9aab8167aeb0014253ecf5ded1b9480e5b555e8ffd17ea774a5966c"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-stability-ball-crunch"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 372716,
+      "sha256": "f52852eb36db56759b5b3d492b757c82de01a01ff7a1d26c8f4d38ef0bdfbf19"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-standard-pallof-press"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 349936,
+      "sha256": "fb50b58cb579f3a43e4b52f0e7bf839a7b13c6a30911d86af1f16c5d758dad44"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-standard-pallof-press"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 351043,
+      "sha256": "ee7ee42779a41b9cfb976c5fd26c92838fbe5e8489f3a0ac76fcb19b197a6113"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-standing-barbell-overhead-press"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 329519,
+      "sha256": "91ec757b534e46759ed8656108589ed422c73c8487f05a241017d6c19532f537"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-standing-barbell-overhead-press"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 337085,
+      "sha256": "ebfd4841f0009de50e2007cab6495d6acbaf1f978aee97de77935a9331c4c614"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-standing-cable-crossover"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 322856,
+      "sha256": "5c8aa88b160fb35669e3c257b7d5abe3fe32d26a98f3189e9fd85813dd1bc789"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-standing-cable-crossover"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 329480,
+      "sha256": "fa02f70d5ae21f42b1312afdc9a19f6b64b1057169cf7dcf3492b1901c679c8a"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-standing-plate-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 331004,
+      "sha256": "b6c68891594af81d0012cdd2bf2c2370a9304def613f16105ef4298d0e2e0edd"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-standing-plate-press"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 356512,
+      "sha256": "4db9299722aced7355a1a7680c4d0ef3a72e5b1779929af94a87163eda1ab6f6"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-standing-stomach-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 336286,
+      "sha256": "f13f9268ffa09a80a9f16a72ef7d714be44a67e9ad21bbaeab0200ada26ef782"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-standing-stomach-vacuum"
+      ],
+      "days": [
+        "Tuesday"
+      ],
+      "bytes": 347501,
+      "sha256": "2fecc2c6f347f7faa76eddb2826cd6667297ac2c40d63abf054c1300511c98bd"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-step-ups-on-bench"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 322069,
+      "sha256": "d90c65b61b746f8543c350f12094f70e3e83a3b581f5f32e01be8410a81c5bab"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-step-ups-on-bench"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 342048,
+      "sha256": "a0d1d9a1a7320aff2db90d48f2eea06e7e90b7fb2cae15e9e388828ca9e6feb1"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-t-bar-row"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 308374,
+      "sha256": "68d1077ad5a57c8870dfb2bc27bc4cde29d9b1d104068899134e0ce929b1458b"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-t-bar-row"
+      ],
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "bytes": 323269,
+      "sha256": "e6c67b5e3bbaef9db631a66eb8986af7511c906af5e3c77860d22e5bc8d6410e"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-underhand-lat-pulldown"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 327001,
+      "sha256": "3a15fdcfb232972631a760f150f0c38f9fb08849756aeacc074520ac718039ea"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-underhand-lat-pulldown"
+      ],
+      "days": [
+        "Thursday"
+      ],
+      "bytes": 335858,
+      "sha256": "0307ba73b25db254915dc997523ce67bf4deee4cf1c846fb1e3a1b51ded45b56"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-weighted-push-ups"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 339183,
+      "sha256": "8016677cbfeeed85bcf530d12dcaa2511c4a27522defceb3e266efed33eb6698"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-weighted-push-ups"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 372168,
+      "sha256": "dcd12c3f51e7db8ee1fe3bee28c9aa0b08d23868a6f5929962d48389f9d08f24"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-wide-stance-sumo-goblet-squat"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 286255,
+      "sha256": "02226e96cf8634543a5e6de33b9f21ea3b9038be37e97b4cebef6369e1b3a67b"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "periodized-wide-stance-sumo-goblet-squat"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 288851,
+      "sha256": "dc1f33674ff3dd3cfd9e291c4e4ee6a123611ad55c323e046554eec5e3afb331"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-movement.png",
+      "phase": "movement",
+      "movementIds": [
+        "tendon-wrist-extensor-isometric"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 321017,
+      "sha256": "47b22eb4de0c019b0a844879f592b8b4af861c45c66ac4b478232b8f670fbbf2"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-start.png",
+      "phase": "start",
+      "movementIds": [
+        "tendon-wrist-extensor-isometric"
+      ],
+      "days": [
+        "Monday"
+      ],
+      "bytes": 327468,
+      "sha256": "4d93d91474caa690c84f4e8edc14f964538b9345ff38846792d01f7465c86fe3"
+    }
+  ],
+  "stats": {
+    "files": 272,
+    "pairs": 136,
+    "bytes": 91382384,
+    "pendingDays": [
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ]
+  },
+  "exclusions": [
+    "contact sheets",
+    "master boards",
+    "crop workspaces",
+    "review-only and unreferenced historical namespaces",
+    "local backups"
+  ]
+}

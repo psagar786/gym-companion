@@ -1,0 +1,22 @@
+{
+  "sourcePromptManifest": ".codex/v54/art-v2-pilot/PROMPT-MANIFEST.json",
+  "sourceRows": 43,
+  "pilotSets": 43,
+  "pilotFiles": 86,
+  "regenerationPolicy": "Regenerate every source row into the new V2 namespace, even when legacy artwork exists; never overwrite the baseline namespace.",
+  "combinedRows": {
+    "Cable Chest Fly: Low-to-High / Flat": "Low-to-High Cable Fly",
+    "T-Bar Row / Meadows Row": "T-Bar Row",
+    "Straight-Arm Pulldown / DB Pullover": "Straight-Arm Cable Pulldown",
+    "Hanging Knee/Leg Raise": "Hanging Knee Raise",
+    "RKC / Hardstyle Plank": "RKC Hardstyle Plank",
+    "Side Plank / QL Hold": "Side Plank QL Isometric Hold",
+    "Standing / Seated Stick Rotation": "Standing Stick Trunk Rotation"
+  },
+  "excludedSourceSubstitutions": {
+    "Seated Machine Chest Press": "Standing Cable Chest Press",
+    "Pec Deck Fly": "High-to-Low Cable Fly",
+    "Trap-Bar Deadlift": "Conventional Barbell Deadlift",
+    "Barbell Hip Thrust": "Dumbbell Glute Bridge"
+  }
+}

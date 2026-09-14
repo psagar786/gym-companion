@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness 7 Gym Companion - PRD Executive Blueprint</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 900px; height: 1200px; overflow: hidden; }
+    body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .micro-grid {
+      background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+  </style>
+</head>
+<body>
+  <div class="relative h-[1200px] w-[900px] overflow-hidden bg-[#17191c] text-[#f7f3eb] micro-grid">
+    <div class="absolute -right-32 -top-36 h-[520px] w-[520px] rounded-full border-[72px] border-[#f45112] opacity-90"></div>
+    <div class="absolute right-16 top-20 h-28 w-28 rounded-full border-[18px] border-[#f7f3eb] opacity-20"></div>
+    <div class="absolute -bottom-36 -left-32 h-[440px] w-[440px] rounded-full border-[56px] border-[#f45112] opacity-20"></div>
+
+    <div class="relative z-10 flex h-full flex-col px-16 pb-12 pt-14">
+      <header class="flex items-start justify-between border-b border-white/15 pb-7">
+        <div>
+          <div class="text-[35px] font-black tracking-[-0.05em]">Fitness<span class="text-[#f45112]">7</span></div>
+          <div class="mt-1 text-[10px] font-semibold uppercase tracking-[0.28em] text-white/55">Gym Companion</div>
+        </div>
+        <div class="rounded-full border border-[#f45112]/60 bg-[#f45112]/10 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-[#ff7a3d]">Management review</div>
+      </header>
+
+      <main class="flex-1">
+        <section class="pt-16">
+          <div class="text-[12px] font-bold uppercase tracking-[0.3em] text-[#ff7a3d]">Product requirements document</div>
+          <h1 class="mt-5 max-w-[700px] text-[70px] font-black leading-[0.96] tracking-[-0.055em]">A visual coach<br>for every member.</h1>
+          <p class="mt-8 max-w-[620px] text-[20px] leading-8 text-white/68">From a workout-reference MVP to a dependable, personalized platform for 1,000 Fitness 7 members.</p>
+        </section>
+
+        <section class="mt-14 grid grid-cols-3 gap-4">
+          <div class="border-l-2 border-[#f45112] bg-white/[0.045] px-5 py-5">
+            <div class="text-[42px] font-black tracking-[-0.05em]">1,000</div>
+            <div class="mt-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-white/50">Active members</div>
+          </div>
+          <div class="border-l-2 border-[#f45112] bg-white/[0.045] px-5 py-5">
+            <div class="text-[42px] font-black tracking-[-0.05em]">2</div>
+            <div class="mt-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-white/50">Gym locations</div>
+          </div>
+          <div class="border-l-2 border-[#f45112] bg-white/[0.045] px-5 py-5">
+            <div class="text-[42px] font-black tracking-[-0.05em]">₹60K</div>
+            <div class="mt-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-white/50">Annual cost avoided</div>
+          </div>
+        </section>
+
+        <section class="mt-12 grid grid-cols-[1.2fr_.8fr] gap-8">
+          <div>
+            <div class="mb-5 text-[11px] font-bold uppercase tracking-[0.24em] text-white/45">Product evolution</div>
+            <div class="space-y-3">
+              <div class="flex items-center gap-4 rounded-xl bg-white/[0.055] px-5 py-4">
+                <div class="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-[12px] font-black">V1</div>
+                <div><div class="text-[14px] font-bold">Visual Routine MVP</div><div class="mt-1 text-[11px] text-white/45">Daily workouts, alternatives, illustrations</div></div>
+              </div>
+              <div class="flex items-center gap-4 rounded-xl bg-white/[0.055] px-5 py-4">
+                <div class="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-[12px] font-black">V2</div>
+                <div><div class="text-[14px] font-bold">Guided Workout</div><div class="mt-1 text-[11px] text-white/45">Warm-up, recovery, history, extras</div></div>
+              </div>
+              <div class="flex items-center gap-4 rounded-xl bg-white/[0.055] px-5 py-4">
+                <div class="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-[12px] font-black">V3</div>
+                <div><div class="text-[14px] font-bold">Accounts Foundation</div><div class="mt-1 text-[11px] text-white/45">Members, coaches, roles, Supabase</div></div>
+              </div>
+              <div class="flex items-center gap-4 rounded-xl border border-[#f45112]/60 bg-[#f45112]/10 px-5 py-4">
+                <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#f45112] text-[12px] font-black text-white">V4</div>
+                <div><div class="text-[14px] font-bold">Rich Visual Experience</div><div class="mt-1 text-[11px] text-white/55">Three-phase guidance, rings, mobile polish</div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl bg-[#f7f3eb] p-7 text-[#17191c]">
+            <div class="text-[10px] font-black uppercase tracking-[0.22em] text-[#f45112]">Next decision</div>
+            <div class="mt-4 text-[31px] font-black leading-[1.05] tracking-[-0.045em]">Pilot before scale.</div>
+            <p class="mt-5 text-[13px] leading-5 text-[#56514c]">Begin with 50 members. Validate trust, usability, reliability, and trainer operations before staged expansion.</p>
+            <div class="mt-7 space-y-3 text-[12px] font-bold">
+              <div class="flex items-center gap-3"><span class="h-2.5 w-2.5 rounded-full bg-[#f45112]"></span>Gate A - Trust</div>
+              <div class="flex items-center gap-3"><span class="h-2.5 w-2.5 rounded-full bg-[#f45112]"></span>Gate B - Operability</div>
+              <div class="flex items-center gap-3"><span class="h-2.5 w-2.5 rounded-full bg-[#f45112]"></span>Gate C - Pilot evidence</div>
+              <div class="flex items-center gap-3"><span class="h-2.5 w-2.5 rounded-full bg-[#f45112]"></span>Gate D - Scale</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="flex items-end justify-between border-t border-white/15 pt-6">
+        <div><div class="text-[11px] font-bold">Sagar Paperwala</div><div class="mt-1 text-[10px] text-white/45">Product Manager - Fitness 7</div></div>
+        <div class="text-right"><div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/45">Executive blueprint</div><div class="mt-1 text-[10px] text-white/35">11 August 2026</div></div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

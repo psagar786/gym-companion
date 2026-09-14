@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "planVersion": "threeweek-ppl-v1",
+  "namespace": "assets/exercises/threeweek/",
+  "phaseModel": ["start", "move"],
+  "source": "data/v53-threeweek.js",
+  "movementIdentityCount": 86,
+  "scheduledCoreSlots": 108,
+  "status": "stage-1-content-foundation",
+  "reviewPolicy": "Artwork is pending until exact movement pairs pass technical, visual, and gym-coach review.",
+  "pathPattern": "assets/exercises/threeweek/{stableMovementId}-{start|movement}.webp",
+  "nextBatch": "Core movement pairs, 10–15 identities per batch",
+  "activationGate": "Do not activate incomplete, unapproved, or unrelated artwork."
+}
