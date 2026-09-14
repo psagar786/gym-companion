@@ -73,3 +73,12 @@
 - Semantic AI review: pass (male athlete, chest-supported reverse fly mechanics, arms-down-to-wide-T phases distinct).
 - Human gym-coach review: pending; not represented as complete.
 - Next action: Generate Start for `periodized-machine-shoulder-press`.
+
+## Pair checkpoint — Machine Shoulder Press
+
+- Start: `assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-start.png`
+- Movement: `assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-movement.png`
+- Technical validation: pass (512×512 PNG, distinct hashes, full athlete and machine visible).
+- Semantic AI review: pass (male athlete, machine press mechanics, handles-at-shoulders-to-overhead phases distinct).
+- Human gym-coach review: pending; not represented as complete.
+- Next action: Generate Start for `periodized-arnold-press`.

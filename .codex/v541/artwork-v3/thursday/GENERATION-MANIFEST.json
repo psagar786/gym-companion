@@ -345,7 +345,10 @@
       "mondayDecision": "not-a-reuse-candidate",
       "existingSource": "none",
       "status": "generate",
-      "imageSet": null,
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-movement.png"
+      },
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-movement.png"
@@ -356,9 +359,27 @@
         "start": "Fitness 7 illustration: Machine Shoulder Press starting position",
         "movement": "Fitness 7 illustration: Machine Shoulder Press working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
-      "humanCoachReviewStatus": "pending"
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "aaf5ff045ec5292c8ac4b38581dd8989279e7be146a4a76e49483d7c8b86f5e4"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "15db43c64d5b9277a481906b3773f8bcad7ecbe465bc483e44d95c16c0576c14"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending",
+        "notes": "Male athlete in shoulder press machine; handles-at-shoulders Start and overhead Movement positions clearly differ."
+      }
     },
     {
       "order": 8,

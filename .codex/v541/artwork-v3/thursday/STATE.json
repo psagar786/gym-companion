@@ -7,7 +7,7 @@
     "B",
     "C"
   ],
-  "currentCheckpoint": "V541-THU-periodized-incline-dumbbell-reverse-fly-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-THU-periodized-machine-shoulder-press-PAIR-COMPLETE",
   "totalListedRecords": 30,
   "physicalRecords": 30,
   "tuesdayLibrarySetsReviewed": 36,
@@ -15,8 +15,8 @@
   "tuesdayReuseCandidates": 0,
   "newGenerationSetsBeforeReuseReview": 24,
   "newGenerationFilesBeforeReuseReview": 48,
-  "completedSets": 6,
-  "completedFiles": 12,
+  "completedSets": 7,
+  "completedFiles": 14,
   "failedMovementIds": [],
   "completedMovementIds": [
     "biweekly-seated-dumbbell-overhead-shoulder-press",
@@ -24,14 +24,15 @@
     "biweekly-seated-wide-grip-cable-row",
     "periodized-cable-fly",
     "biweekly-incline-dumbbell-curl",
-    "periodized-incline-dumbbell-reverse-fly"
+    "periodized-incline-dumbbell-reverse-fly",
+    "periodized-machine-shoulder-press"
   ],
-  "lastCompletedCommit": "adb44d4",
+  "lastCompletedCommit": "",
   "knownIssues": [
     "Reuse is not approved by name alone.",
     "Technical and AI semantic review are not qualified gym-coach approval."
   ],
-  "nextAtomicAction": "Generate Start for periodized-machine-shoulder-press",
+  "nextAtomicAction": "Generate Start for periodized-arnold-press",
   "queueFrozen": true,
   "tuesdayReuseAudit": {
     "tuesdayCanonicalRecordsInspected": 36,
@@ -43,8 +44,8 @@
   },
   "newGenerationSets": 24,
   "newGenerationFiles": 48,
-  "remainingSets": 18,
-  "remainingFiles": 36,
+  "remainingSets": 17,
+  "remainingFiles": 34,
   "currentMovementId": null,
   "currentPhase": null,
   "outputHashes": {
@@ -119,6 +120,18 @@
         "height": 512,
         "sha256": "c91e4f63ecc2a72614d8fb4f684475706f9e9a6f3dfca472d9dd675ea4282f23"
       }
+    },
+    "periodized-machine-shoulder-press": {
+      "start": {
+        "width": 512,
+        "height": 512,
+        "sha256": "aaf5ff045ec5292c8ac4b38581dd8989279e7be146a4a76e49483d7c8b86f5e4"
+      },
+      "movement": {
+        "width": 512,
+        "height": 512,
+        "sha256": "15db43c64d5b9277a481906b3773f8bcad7ecbe465bc483e44d95c16c0576c14"
+      }
     }
   },
   "validationResults": {
@@ -148,6 +161,11 @@
       "humanCoach": "pending"
     },
     "periodized-incline-dumbbell-reverse-fly": {
+      "technical": "pass",
+      "semantic": "ai-review-pass",
+      "humanCoach": "pending"
+    },
+    "periodized-machine-shoulder-press": {
       "technical": "pass",
       "semantic": "ai-review-pass",
       "humanCoach": "pending"
@@ -182,6 +200,11 @@
     {
       "checkpoint": "V541-THU-periodized-incline-dumbbell-reverse-fly-PAIR-COMPLETE",
       "movementId": "periodized-incline-dumbbell-reverse-fly",
+      "status": "technical-and-semantic-pass"
+    },
+    {
+      "checkpoint": "V541-THU-periodized-machine-shoulder-press-PAIR-COMPLETE",
+      "movementId": "periodized-machine-shoulder-press",
       "status": "technical-and-semantic-pass"
     }
   ]
