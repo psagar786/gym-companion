@@ -11,3 +11,9 @@ Audit frozen. New generation queue: 17 pairs / 34 files. Existing reuses require
 - periodized-stick-overhead-lateral-side-bend: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
 
 - periodized-standard-forearm-plank: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-rkc-hardstyle-plank: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-extended-plank: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-hanging-windshield-wipers: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.

@@ -12,10 +12,10 @@
   "reuseSets": 22,
   "newGenerationSets": 17,
   "newGenerationFiles": 34,
-  "completedSets": 5,
-  "completedFiles": 10,
-  "remainingSets": 12,
-  "remainingFiles": 24,
+  "completedSets": 8,
+  "completedFiles": 16,
+  "remainingSets": 9,
+  "remainingFiles": 18,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
@@ -25,9 +25,12 @@
     "periodized-standing-cable-woodchopper-low-to-high",
     "periodized-floor-reverse-crunch-with-pelvic-tilt",
     "periodized-stick-overhead-lateral-side-bend",
-    "periodized-standard-forearm-plank"
+    "periodized-standard-forearm-plank",
+    "periodized-rkc-hardstyle-plank",
+    "periodized-extended-plank",
+    "periodized-hanging-windshield-wipers"
   ],
-  "currentCheckpoint": "V541-FRI-periodized-standard-forearm-plank-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-FRI-periodized-hanging-windshield-wipers-PAIR-COMPLETE",
   "lastCompletedCommit": "",
-  "nextAtomicAction": "Generate Start for next Friday movement (12 pairs remaining)"
+  "nextAtomicAction": "Generate Start for next Friday movement (9 pairs remaining)"
 }

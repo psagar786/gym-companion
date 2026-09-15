@@ -240,7 +240,7 @@
       "role": "coreSlots,alternative",
       "equipment": "exercise mat, bodyweight",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-movement.png"
@@ -251,10 +251,26 @@
         "start": "Fitness 7 illustration: RKC Hardstyle Plank starting position",
         "movement": "Fitness 7 illustration: RKC Hardstyle Plank working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "04f2a0c5a4961bf06093921d92d0c53215d559dbde0fecb4d937ff6839bce9b5"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "9ff4ab668b325586b9b6eace5c77ea5a08dd274c5ebb5ed431bab4ce884ee82b"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 7,
@@ -269,7 +285,7 @@
       "role": "alternative",
       "equipment": "exercise mat, bodyweight",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-extended-plank-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-extended-plank-v3-movement.png"
@@ -280,10 +296,26 @@
         "start": "Fitness 7 illustration: Extended Plank starting position",
         "movement": "Fitness 7 illustration: Extended Plank working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d518549f2b89474bfc518487570fdc305326254da11127b2c0756c462dacd2b3"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "1fc7a4f1d66014b7a781cd719213f1ec60d96bb25c61675a0e83f0c97c88a8ff"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 8,
@@ -298,7 +330,7 @@
       "role": "alternative",
       "equipment": "fixed pull-up bar",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-hanging-windshield-wipers-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-hanging-windshield-wipers-v3-movement.png"
@@ -309,10 +341,26 @@
         "start": "Fitness 7 illustration: Hanging Windshield Wipers starting position",
         "movement": "Fitness 7 illustration: Hanging Windshield Wipers working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "bd7b1b7d9ab92f16577258c0ba4d543c16add7ddb67da8b64673f0752ae29916"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "ede6734dca42207e3ef3e5aa572c6751ba7aa513fe9be010fba2350aa2b8b66d"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 9,
