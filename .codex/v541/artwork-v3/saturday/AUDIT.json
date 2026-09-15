@@ -1,0 +1,1310 @@
+{
+  "day": "Saturday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "roles": {
+    "warmup": 3,
+    "core": 12,
+    "alternatives": 22,
+    "optional": 8,
+    "cardio": 1,
+    "recovery": 3,
+    "tendon": 1
+  },
+  "findings": [
+    "No Cardio is a text-only safeguard and is excluded from artwork.",
+    "Two combined optional rows require atomic split records before runtime integration.",
+    "Glute Bridge inherited barbell metadata from an excluded hip-thrust row; it is corrected to bodyweight floor bridge.",
+    "Conventional Deadlift inherited bodyweight metadata; it is corrected to a barbell floor setup.",
+    "Cable Standing Abduction and Ab Wheel Rollout are review-only excluded-equipment records.",
+    "Machine Hip Thrust remains artwork-generation eligible but requires equipment confirmation before member activation."
+  ],
+  "counts": {
+    "rawPhysicalRuntimeRecords": 52,
+    "canonicalSets": 46,
+    "reuseSets": 15,
+    "generateSets": 31,
+    "activeGenerateSets": 29,
+    "reviewOnlySets": 2,
+    "newImages": 62
+  },
+  "occurrences": [
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "runtimeId": "biweekly-a-6-stick-deep-squat-prys-warmup-1-biweekly-stick-deep-squat-prys",
+      "name": "Stick Deep Squat Prys",
+      "canonicalMovementId": "periodized-stick-deep-squat-pry",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "runtimeId": "biweekly-a-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings",
+      "name": "Stick Good Mornings",
+      "canonicalMovementId": "periodized-stick-good-mornings",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "runtimeId": "biweekly-a-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists",
+      "name": "Stick Torso Twists",
+      "canonicalMovementId": "periodized-stick-torso-twists",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust",
+      "name": "Glute Bridge",
+      "canonicalMovementId": "periodized-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Glute Bridge",
+      "name": "Glute Bridge",
+      "canonicalMovementId": "periodized-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Dumbbell Glute Bridge",
+      "name": "Dumbbell Glute Bridge",
+      "canonicalMovementId": "periodized-dumbbell-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Single-Leg Hip Thrust",
+      "name": "Single-Leg Hip Thrust",
+      "canonicalMovementId": "periodized-single-leg-hip-thrust",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Machine Hip Thrust",
+      "name": "Machine Hip Thrust",
+      "canonicalMovementId": "periodized-machine-hip-thrust",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine",
+      "name": "Seated Hip Adductor Machine",
+      "canonicalMovementId": "periodized-seated-hip-adductor-machine",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Wide-Stance Leg Press",
+      "name": "Wide-Stance Leg Press",
+      "canonicalMovementId": "periodized-wide-stance-leg-press",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Cable Hip Adduction",
+      "name": "Cable Hip Adduction",
+      "canonicalMovementId": "periodized-cable-hip-adduction",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Sumo Goblet Squat",
+      "name": "Sumo Goblet Squat",
+      "canonicalMovementId": "periodized-sumo-goblet-squat",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso",
+      "name": "Seated Cable Row to Mid-Torso",
+      "canonicalMovementId": "periodized-seated-cable-row",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Single-Arm DB Row",
+      "name": "Single-Arm DB Row",
+      "canonicalMovementId": "periodized-single-arm-dumbbell-row",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Meadows Row",
+      "name": "Meadows Row",
+      "canonicalMovementId": "periodized-meadows-row",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Chest-Supported T-Bar Row",
+      "name": "Chest-Supported T-Bar Row",
+      "canonicalMovementId": "periodized-chest-supported-t-bar-row",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine",
+      "name": "Seated Hip Abductor Machine",
+      "canonicalMovementId": "periodized-seated-hip-abductor-machine",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Cable Standing Abduction",
+      "name": "Cable Standing Abduction",
+      "canonicalMovementId": "periodized-cable-standing-hip-abduction-review",
+      "treatment": "review-only"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Side Plank Clamshells",
+      "name": "Side Plank Clamshells",
+      "canonicalMovementId": "periodized-side-plank-clamshell",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift",
+      "name": "Dumbbell Stiff-Leg Romanian Deadlift",
+      "canonicalMovementId": "periodized-dumbbell-stiff-leg-romanian-deadlift",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift::Single-Leg DB RDL",
+      "name": "Single-Leg DB RDL",
+      "canonicalMovementId": "periodized-single-leg-dumbbell-rdl",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift::Nordic Curl Negatives",
+      "name": "Nordic Curl Negatives",
+      "canonicalMovementId": "periodized-nordic-curl-negatives",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause",
+      "name": "Dumbbell Shrugs with 2s Pause",
+      "canonicalMovementId": "periodized-dumbbell-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Cable Upright Row (Wide)",
+      "name": "Cable Upright Row (Wide)",
+      "canonicalMovementId": "periodized-cable-upright-row-wide-grip",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Barbell Shrug",
+      "name": "Barbell Shrug",
+      "canonicalMovementId": "periodized-barbell-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Hex Bar Shrug",
+      "name": "Hex Bar Shrug",
+      "canonicalMovementId": "periodized-hex-bar-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "optionalSlots",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "status": "combined-row-split-required",
+      "canonicalMovementId": null,
+      "splitInto": [
+        "periodized-bodyweight-air-squat",
+        "periodized-bodyweight-walking-lunge"
+      ]
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Bulgarian Split Squat 1.5 Reps",
+      "name": "Bulgarian Split Squat 1.5 Reps",
+      "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-rep",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Step-Ups",
+      "name": "Step-Ups",
+      "canonicalMovementId": "periodized-step-ups",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Jump Squats",
+      "name": "Jump Squats",
+      "canonicalMovementId": "periodized-jump-squat",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "optionalSlots",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives",
+      "name": "Dead Bug to Dragon Flag Negatives",
+      "status": "combined-row-split-required",
+      "canonicalMovementId": null,
+      "splitInto": [
+        "periodized-dead-bug",
+        "periodized-dragon-flag-negatives"
+      ]
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Hanging Knee Tuck",
+      "name": "Hanging Knee Tuck",
+      "canonicalMovementId": "periodized-hanging-knee-tuck",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Ab Wheel Rollout",
+      "name": "Ab Wheel Rollout",
+      "canonicalMovementId": "periodized-ab-wheel-rollout-review",
+      "treatment": "review-only"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Hollow Body Hold",
+      "name": "Hollow Body Hold",
+      "canonicalMovementId": "periodized-hollow-body-hold",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "cardio",
+      "runtimeId": "biweekly-a-6-no-cardio-safeguard-knee-cns-recovery-cardio-1-biweekly-no-cardio-safeguard-knee-cns-recovery",
+      "name": "NO CARDIO (Safeguard Knee & CNS Recovery)",
+      "status": "non-exercise-text-only",
+      "canonicalMovementId": null
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "runtimeId": "biweekly-a-6-stick-hamstring-stretch-recovery-1-biweekly-stick-hamstring-stretch",
+      "name": "Stick Hamstring Stretch",
+      "canonicalMovementId": "periodized-stick-hamstring-stretch",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "runtimeId": "biweekly-a-6-pigeon-pose-recovery-2-biweekly-pigeon-pose",
+      "name": "Pigeon Pose",
+      "canonicalMovementId": "periodized-pigeon-pose",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "runtimeId": "biweekly-a-6-figure-four-stretch-recovery-3-biweekly-figure-four-stretch",
+      "name": "Figure-Four Stretch",
+      "canonicalMovementId": "periodized-supine-figure-four-stretch",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "warmup",
+      "runtimeId": "biweekly-b-6-stick-deep-squat-prys-warmup-1-biweekly-stick-deep-squat-prys",
+      "name": "Stick Deep Squat Prys",
+      "canonicalMovementId": "periodized-stick-deep-squat-pry",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "warmup",
+      "runtimeId": "biweekly-b-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings",
+      "name": "Stick Good Mornings",
+      "canonicalMovementId": "periodized-stick-good-mornings",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "warmup",
+      "runtimeId": "biweekly-b-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists",
+      "name": "Stick Torso Twists",
+      "canonicalMovementId": "periodized-stick-torso-twists",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge",
+      "name": "Kas Glute Bridge",
+      "canonicalMovementId": "periodized-kas-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge::Dumbbell Glute Bridge",
+      "name": "Dumbbell Glute Bridge",
+      "canonicalMovementId": "periodized-dumbbell-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge::Single-Leg Hip Thrust",
+      "name": "Single-Leg Hip Thrust",
+      "canonicalMovementId": "periodized-single-leg-hip-thrust",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge::Machine Hip Thrust",
+      "name": "Machine Hip Thrust",
+      "canonicalMovementId": "periodized-machine-hip-thrust",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine",
+      "name": "Seated Hip Adductor Machine",
+      "canonicalMovementId": "periodized-seated-hip-adductor-machine",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Wide-Stance Leg Press",
+      "name": "Wide-Stance Leg Press",
+      "canonicalMovementId": "periodized-wide-stance-leg-press",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Cable Hip Adduction",
+      "name": "Cable Hip Adduction",
+      "canonicalMovementId": "periodized-cable-hip-adduction",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Sumo Goblet Squat",
+      "name": "Sumo Goblet Squat",
+      "canonicalMovementId": "periodized-sumo-goblet-squat",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row",
+      "name": "Single-Arm Dumbbell Row",
+      "canonicalMovementId": "periodized-single-arm-dumbbell-row",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Meadows Row",
+      "name": "Meadows Row",
+      "canonicalMovementId": "periodized-meadows-row",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Seated Cable Row",
+      "name": "Seated Cable Row",
+      "canonicalMovementId": "periodized-seated-cable-row",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Chest-Supported T-Bar Row",
+      "name": "Chest-Supported T-Bar Row",
+      "canonicalMovementId": "periodized-chest-supported-t-bar-row",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Machine Row",
+      "name": "Machine Row",
+      "canonicalMovementId": "periodized-machine-row",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-b-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine",
+      "name": "Seated Hip Abductor Machine",
+      "canonicalMovementId": "periodized-seated-hip-abductor-machine",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Cable Standing Abduction",
+      "name": "Cable Standing Abduction",
+      "canonicalMovementId": "periodized-cable-standing-hip-abduction-review",
+      "treatment": "review-only"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Side Plank Clamshells",
+      "name": "Side Plank Clamshells",
+      "canonicalMovementId": "periodized-side-plank-clamshell",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-b-6-conventional-slot-5-biweekly-conventional",
+      "name": "Conventional Deadlift",
+      "canonicalMovementId": "periodized-conventional-barbell-deadlift",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-conventional-slot-5-biweekly-conventional::Romanian Barbell Deadlift",
+      "name": "Romanian Barbell Deadlift",
+      "canonicalMovementId": "periodized-romanian-barbell-deadlift",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-conventional-slot-5-biweekly-conventional::Dumbbell RDL",
+      "name": "Dumbbell RDL",
+      "canonicalMovementId": "periodized-dumbbell-rdl",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-conventional-slot-5-biweekly-conventional::Nordic Hamstring Curls",
+      "name": "Nordic Hamstring Curls",
+      "canonicalMovementId": "periodized-nordic-hamstring-curl",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip",
+      "name": "Cable Upright Row (Wide-Grip)",
+      "canonicalMovementId": "periodized-cable-upright-row-wide-grip",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip::Barbell Shrugs",
+      "name": "Barbell Shrugs",
+      "canonicalMovementId": "periodized-barbell-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip::Dumbbell Shrugs",
+      "name": "Dumbbell Shrugs",
+      "canonicalMovementId": "periodized-dumbbell-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip::Hex Bar Shrug",
+      "name": "Hex Bar Shrug",
+      "canonicalMovementId": "periodized-hex-bar-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip::Face Pulls",
+      "name": "Face Pulls",
+      "canonicalMovementId": "periodized-standard-cable-face-pull",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "optionalSlots",
+      "runtimeId": "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style",
+      "name": "Bulgarian Split Squats with 1.5 Rep Style",
+      "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-rep",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style::Walking Lunges",
+      "name": "Walking Lunges",
+      "canonicalMovementId": "periodized-bodyweight-walking-lunge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style::Step-Ups",
+      "name": "Step-Ups",
+      "canonicalMovementId": "periodized-step-ups",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style::Jump Squats",
+      "name": "Jump Squats",
+      "canonicalMovementId": "periodized-jump-squat",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "optionalSlots",
+      "runtimeId": "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench",
+      "name": "Dragon Flag Negatives on Flat Bench",
+      "canonicalMovementId": "periodized-dragon-flag-negatives",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench::Hanging Knee Tuck",
+      "name": "Hanging Knee Tuck",
+      "canonicalMovementId": "periodized-hanging-knee-tuck",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench::Ab Wheel Rollout",
+      "name": "Ab Wheel Rollout",
+      "canonicalMovementId": "periodized-ab-wheel-rollout-review",
+      "treatment": "review-only"
+    },
+    {
+      "weekKey": "B",
+      "role": "alternative",
+      "runtimeId": "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench::Hollow Body Hold",
+      "name": "Hollow Body Hold",
+      "canonicalMovementId": "periodized-hollow-body-hold",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "cardio",
+      "runtimeId": "biweekly-b-6-no-cardio-safeguard-knee-cns-recovery-cardio-1-biweekly-no-cardio-safeguard-knee-cns-recovery",
+      "name": "NO CARDIO (Safeguard Knee & CNS Recovery)",
+      "status": "non-exercise-text-only",
+      "canonicalMovementId": null
+    },
+    {
+      "weekKey": "B",
+      "role": "recovery",
+      "runtimeId": "biweekly-b-6-stick-hamstring-stretch-recovery-1-biweekly-stick-hamstring-stretch",
+      "name": "Stick Hamstring Stretch",
+      "canonicalMovementId": "periodized-stick-hamstring-stretch",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "recovery",
+      "runtimeId": "biweekly-b-6-pigeon-pose-recovery-2-biweekly-pigeon-pose",
+      "name": "Pigeon Pose",
+      "canonicalMovementId": "periodized-pigeon-pose",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "B",
+      "role": "recovery",
+      "runtimeId": "biweekly-b-6-figure-four-stretch-recovery-3-biweekly-figure-four-stretch",
+      "name": "Figure-Four Stretch",
+      "canonicalMovementId": "periodized-supine-figure-four-stretch",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "runtimeId": "biweekly-a-6-stick-deep-squat-prys-warmup-1-biweekly-stick-deep-squat-prys",
+      "name": "Stick Deep Squat Prys",
+      "canonicalMovementId": "periodized-stick-deep-squat-pry",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "runtimeId": "biweekly-a-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings",
+      "name": "Stick Good Mornings",
+      "canonicalMovementId": "periodized-stick-good-mornings",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "warmup",
+      "runtimeId": "biweekly-a-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists",
+      "name": "Stick Torso Twists",
+      "canonicalMovementId": "periodized-stick-torso-twists",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust",
+      "name": "Glute Bridge",
+      "canonicalMovementId": "periodized-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Glute Bridge",
+      "name": "Glute Bridge",
+      "canonicalMovementId": "periodized-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Dumbbell Glute Bridge",
+      "name": "Dumbbell Glute Bridge",
+      "canonicalMovementId": "periodized-dumbbell-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Single-Leg Hip Thrust",
+      "name": "Single-Leg Hip Thrust",
+      "canonicalMovementId": "periodized-single-leg-hip-thrust",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Machine Hip Thrust",
+      "name": "Machine Hip Thrust",
+      "canonicalMovementId": "periodized-machine-hip-thrust",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine",
+      "name": "Seated Hip Adductor Machine",
+      "canonicalMovementId": "periodized-seated-hip-adductor-machine",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Wide-Stance Leg Press",
+      "name": "Wide-Stance Leg Press",
+      "canonicalMovementId": "periodized-wide-stance-leg-press",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Cable Hip Adduction",
+      "name": "Cable Hip Adduction",
+      "canonicalMovementId": "periodized-cable-hip-adduction",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Sumo Goblet Squat",
+      "name": "Sumo Goblet Squat",
+      "canonicalMovementId": "periodized-sumo-goblet-squat",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso",
+      "name": "Seated Cable Row to Mid-Torso",
+      "canonicalMovementId": "periodized-seated-cable-row",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Single-Arm DB Row",
+      "name": "Single-Arm DB Row",
+      "canonicalMovementId": "periodized-single-arm-dumbbell-row",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Meadows Row",
+      "name": "Meadows Row",
+      "canonicalMovementId": "periodized-meadows-row",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Chest-Supported T-Bar Row",
+      "name": "Chest-Supported T-Bar Row",
+      "canonicalMovementId": "periodized-chest-supported-t-bar-row",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine",
+      "name": "Seated Hip Abductor Machine",
+      "canonicalMovementId": "periodized-seated-hip-abductor-machine",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Cable Standing Abduction",
+      "name": "Cable Standing Abduction",
+      "canonicalMovementId": "periodized-cable-standing-hip-abduction-review",
+      "treatment": "review-only"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Side Plank Clamshells",
+      "name": "Side Plank Clamshells",
+      "canonicalMovementId": "periodized-side-plank-clamshell",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift",
+      "name": "Dumbbell Stiff-Leg Romanian Deadlift",
+      "canonicalMovementId": "periodized-dumbbell-stiff-leg-romanian-deadlift",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift::Single-Leg DB RDL",
+      "name": "Single-Leg DB RDL",
+      "canonicalMovementId": "periodized-single-leg-dumbbell-rdl",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift::Nordic Curl Negatives",
+      "name": "Nordic Curl Negatives",
+      "canonicalMovementId": "periodized-nordic-curl-negatives",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause",
+      "name": "Dumbbell Shrugs with 2s Pause",
+      "canonicalMovementId": "periodized-dumbbell-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Cable Upright Row (Wide)",
+      "name": "Cable Upright Row (Wide)",
+      "canonicalMovementId": "periodized-cable-upright-row-wide-grip",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Barbell Shrug",
+      "name": "Barbell Shrug",
+      "canonicalMovementId": "periodized-barbell-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Hex Bar Shrug",
+      "name": "Hex Bar Shrug",
+      "canonicalMovementId": "periodized-hex-bar-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "optionalSlots",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "status": "combined-row-split-required",
+      "canonicalMovementId": null,
+      "splitInto": [
+        "periodized-bodyweight-air-squat",
+        "periodized-bodyweight-walking-lunge"
+      ]
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Bulgarian Split Squat 1.5 Reps",
+      "name": "Bulgarian Split Squat 1.5 Reps",
+      "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-rep",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Step-Ups",
+      "name": "Step-Ups",
+      "canonicalMovementId": "periodized-step-ups",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Jump Squats",
+      "name": "Jump Squats",
+      "canonicalMovementId": "periodized-jump-squat",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "optionalSlots",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives",
+      "name": "Dead Bug to Dragon Flag Negatives",
+      "status": "combined-row-split-required",
+      "canonicalMovementId": null,
+      "splitInto": [
+        "periodized-dead-bug",
+        "periodized-dragon-flag-negatives"
+      ]
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Hanging Knee Tuck",
+      "name": "Hanging Knee Tuck",
+      "canonicalMovementId": "periodized-hanging-knee-tuck",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Ab Wheel Rollout",
+      "name": "Ab Wheel Rollout",
+      "canonicalMovementId": "periodized-ab-wheel-rollout-review",
+      "treatment": "review-only"
+    },
+    {
+      "weekKey": "A",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Hollow Body Hold",
+      "name": "Hollow Body Hold",
+      "canonicalMovementId": "periodized-hollow-body-hold",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "cardio",
+      "runtimeId": "biweekly-a-6-no-cardio-safeguard-knee-cns-recovery-cardio-1-biweekly-no-cardio-safeguard-knee-cns-recovery",
+      "name": "NO CARDIO (Safeguard Knee & CNS Recovery)",
+      "status": "non-exercise-text-only",
+      "canonicalMovementId": null
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "runtimeId": "biweekly-a-6-stick-hamstring-stretch-recovery-1-biweekly-stick-hamstring-stretch",
+      "name": "Stick Hamstring Stretch",
+      "canonicalMovementId": "periodized-stick-hamstring-stretch",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "runtimeId": "biweekly-a-6-pigeon-pose-recovery-2-biweekly-pigeon-pose",
+      "name": "Pigeon Pose",
+      "canonicalMovementId": "periodized-pigeon-pose",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "A",
+      "role": "recovery",
+      "runtimeId": "biweekly-a-6-figure-four-stretch-recovery-3-biweekly-figure-four-stretch",
+      "name": "Figure-Four Stretch",
+      "canonicalMovementId": "periodized-supine-figure-four-stretch",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "warmup",
+      "runtimeId": "biweekly-a-6-stick-deep-squat-prys-warmup-1-biweekly-stick-deep-squat-prys",
+      "name": "Stick Deep Squat Prys",
+      "canonicalMovementId": "periodized-stick-deep-squat-pry",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "warmup",
+      "runtimeId": "biweekly-a-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings",
+      "name": "Stick Good Mornings",
+      "canonicalMovementId": "periodized-stick-good-mornings",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "warmup",
+      "runtimeId": "biweekly-a-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists",
+      "name": "Stick Torso Twists",
+      "canonicalMovementId": "periodized-stick-torso-twists",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust",
+      "name": "Glute Bridge",
+      "canonicalMovementId": "periodized-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Glute Bridge",
+      "name": "Glute Bridge",
+      "canonicalMovementId": "periodized-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Dumbbell Glute Bridge",
+      "name": "Dumbbell Glute Bridge",
+      "canonicalMovementId": "periodized-dumbbell-glute-bridge",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Single-Leg Hip Thrust",
+      "name": "Single-Leg Hip Thrust",
+      "canonicalMovementId": "periodized-single-leg-hip-thrust",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Machine Hip Thrust",
+      "name": "Machine Hip Thrust",
+      "canonicalMovementId": "periodized-machine-hip-thrust",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine",
+      "name": "Seated Hip Adductor Machine",
+      "canonicalMovementId": "periodized-seated-hip-adductor-machine",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Wide-Stance Leg Press",
+      "name": "Wide-Stance Leg Press",
+      "canonicalMovementId": "periodized-wide-stance-leg-press",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Cable Hip Adduction",
+      "name": "Cable Hip Adduction",
+      "canonicalMovementId": "periodized-cable-hip-adduction",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Sumo Goblet Squat",
+      "name": "Sumo Goblet Squat",
+      "canonicalMovementId": "periodized-sumo-goblet-squat",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso",
+      "name": "Seated Cable Row to Mid-Torso",
+      "canonicalMovementId": "periodized-seated-cable-row",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Single-Arm DB Row",
+      "name": "Single-Arm DB Row",
+      "canonicalMovementId": "periodized-single-arm-dumbbell-row",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Meadows Row",
+      "name": "Meadows Row",
+      "canonicalMovementId": "periodized-meadows-row",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Chest-Supported T-Bar Row",
+      "name": "Chest-Supported T-Bar Row",
+      "canonicalMovementId": "periodized-chest-supported-t-bar-row",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine",
+      "name": "Seated Hip Abductor Machine",
+      "canonicalMovementId": "periodized-seated-hip-abductor-machine",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Cable Standing Abduction",
+      "name": "Cable Standing Abduction",
+      "canonicalMovementId": "periodized-cable-standing-hip-abduction-review",
+      "treatment": "review-only"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Side Plank Clamshells",
+      "name": "Side Plank Clamshells",
+      "canonicalMovementId": "periodized-side-plank-clamshell",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift",
+      "name": "Dumbbell Stiff-Leg Romanian Deadlift",
+      "canonicalMovementId": "periodized-dumbbell-stiff-leg-romanian-deadlift",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift::Single-Leg DB RDL",
+      "name": "Single-Leg DB RDL",
+      "canonicalMovementId": "periodized-single-leg-dumbbell-rdl",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift::Nordic Curl Negatives",
+      "name": "Nordic Curl Negatives",
+      "canonicalMovementId": "periodized-nordic-curl-negatives",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "coreSlots",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause",
+      "name": "Dumbbell Shrugs with 2s Pause",
+      "canonicalMovementId": "periodized-dumbbell-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Cable Upright Row (Wide)",
+      "name": "Cable Upright Row (Wide)",
+      "canonicalMovementId": "periodized-cable-upright-row-wide-grip",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Barbell Shrug",
+      "name": "Barbell Shrug",
+      "canonicalMovementId": "periodized-barbell-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Hex Bar Shrug",
+      "name": "Hex Bar Shrug",
+      "canonicalMovementId": "periodized-hex-bar-shrug",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "optionalSlots",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "status": "combined-row-split-required",
+      "canonicalMovementId": null,
+      "splitInto": [
+        "periodized-bodyweight-air-squat",
+        "periodized-bodyweight-walking-lunge"
+      ]
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Bulgarian Split Squat 1.5 Reps",
+      "name": "Bulgarian Split Squat 1.5 Reps",
+      "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-rep",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Step-Ups",
+      "name": "Step-Ups",
+      "canonicalMovementId": "periodized-step-ups",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Jump Squats",
+      "name": "Jump Squats",
+      "canonicalMovementId": "periodized-jump-squat",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "optionalSlots",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives",
+      "name": "Dead Bug to Dragon Flag Negatives",
+      "status": "combined-row-split-required",
+      "canonicalMovementId": null,
+      "splitInto": [
+        "periodized-dead-bug",
+        "periodized-dragon-flag-negatives"
+      ]
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Hanging Knee Tuck",
+      "name": "Hanging Knee Tuck",
+      "canonicalMovementId": "periodized-hanging-knee-tuck",
+      "treatment": "reuse"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Ab Wheel Rollout",
+      "name": "Ab Wheel Rollout",
+      "canonicalMovementId": "periodized-ab-wheel-rollout-review",
+      "treatment": "review-only"
+    },
+    {
+      "weekKey": "C",
+      "role": "alternative",
+      "runtimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Hollow Body Hold",
+      "name": "Hollow Body Hold",
+      "canonicalMovementId": "periodized-hollow-body-hold",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "cardio",
+      "runtimeId": "biweekly-a-6-no-cardio-safeguard-knee-cns-recovery-cardio-1-biweekly-no-cardio-safeguard-knee-cns-recovery",
+      "name": "NO CARDIO (Safeguard Knee & CNS Recovery)",
+      "status": "non-exercise-text-only",
+      "canonicalMovementId": null
+    },
+    {
+      "weekKey": "C",
+      "role": "recovery",
+      "runtimeId": "biweekly-a-6-stick-hamstring-stretch-recovery-1-biweekly-stick-hamstring-stretch",
+      "name": "Stick Hamstring Stretch",
+      "canonicalMovementId": "periodized-stick-hamstring-stretch",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "recovery",
+      "runtimeId": "biweekly-a-6-pigeon-pose-recovery-2-biweekly-pigeon-pose",
+      "name": "Pigeon Pose",
+      "canonicalMovementId": "periodized-pigeon-pose",
+      "treatment": "generate"
+    },
+    {
+      "weekKey": "C",
+      "role": "recovery",
+      "runtimeId": "biweekly-a-6-figure-four-stretch-recovery-3-biweekly-figure-four-stretch",
+      "name": "Figure-Four Stretch",
+      "canonicalMovementId": "periodized-supine-figure-four-stretch",
+      "treatment": "generate"
+    }
+  ],
+  "splitRecords": [
+    {
+      "sourceRuntimeId": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges",
+      "sourceName": "Bodyweight Air Squats to Walking Lunges",
+      "splitInto": [
+        "periodized-bodyweight-air-squat",
+        "periodized-bodyweight-walking-lunge"
+      ]
+    },
+    {
+      "sourceRuntimeId": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives",
+      "sourceName": "Dead Bug to Dragon Flag Negatives",
+      "splitInto": [
+        "periodized-dead-bug",
+        "periodized-dragon-flag-negatives"
+      ]
+    }
+  ]
+}
