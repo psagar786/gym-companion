@@ -12,7 +12,7 @@ for (const file of ['data/biweekly-routine.js', 'data/periodized-abc.js', 'data/
 const runtime = context.window.GYM_COMPANION_PERIODIZED_ABC;
 const registry = context.window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK;
 const report = { days: {}, failures: [] };
-for (const [dayName, dayIndex] of [['Wednesday', 2], ['Thursday', 3]]) {
+for (const [dayName, dayIndex] of [['Wednesday', 2], ['Thursday', 3], ['Friday', 4]]) {
   const artwork = registry.days[dayName];
   const rows = new Map();
   for (const day of runtime.days.filter(item => item.dayIndex === dayIndex)) {

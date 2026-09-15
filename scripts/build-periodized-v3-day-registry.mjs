@@ -68,6 +68,37 @@ for (const key of Object.keys(dayNames)) {
     runtimeMap[canonicalMovementId] = { canonicalMovementId };
     runtimeMap[`periodized-${slug(name)}`] = { canonicalMovementId };
   }
+  // Friday has a few explicit cross-day aliases whose source titles differ
+  // from the canonical V3 record. Keep these mappings data-driven and exact;
+  // never fall back to fuzzy name matching for artwork.
+  if (key === 'friday') {
+    const externalReuses = [
+      ['periodized-stick-around-the-worlds', 'Stick Around-the-Worlds', 'biweekly-stick-around-the-worlds', 'assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-start.png', 'assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-movement.png', 'Monday V3'],
+      ['periodized-stick-good-mornings', 'Stick Good Mornings', 'biweekly-stick-good-mornings', 'assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png', 'assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png', 'Wednesday V3']
+    ];
+    for (const [runtimeId, name, canonicalMovementId, start, movement, source] of externalReuses) {
+      movements[canonicalMovementId] = { stableMovementId: canonicalMovementId, name, roles: ['reuse'], weekKeys: ['A','B','C'], equipmentStatus: `approved reuse from ${source}`, artworkStatus: 'complete', visualReviewStatus: 'pending', semanticReviewStatus: 'pending', coachReviewStatus: 'pending', assetVersion: 'periodized-abc-art-v3', altStart: `Fitness 7 illustration: ${name} starting position`, altMovement: `Fitness 7 illustration: ${name} working position`, imageSet: { start, movement }, source };
+      runtimeMap[runtimeId] = { canonicalMovementId };
+      runtimeMap[canonicalMovementId] = { canonicalMovementId };
+      runtimeMap[`periodized-${slug(name)}`] = { canonicalMovementId };
+    }
+    const aliases = {
+      'periodized-stick-standing-trunk-rotations': 'periodized-stick-standing-trunk-rotation',
+      'periodized-stick-trunk-rotations': 'periodized-stick-standing-trunk-rotation',
+      'periodized-cable-woodchopper-low-to-high': 'periodized-standing-cable-woodchopper-low-to-high',
+      'periodized-floor-reverse-crunch': 'periodized-floor-reverse-crunch-with-pelvic-tilt',
+      'periodized-stick-overhead-lateral-side-bends': 'periodized-stick-overhead-lateral-side-bend',
+      'periodized-forearm-plank': 'periodized-standard-forearm-plank',
+      'periodized-standard-forearm-plank-to-rkc-hardstyle-plank': 'periodized-standard-forearm-plank',
+      'periodized-incline-bench-reverse-crunch-with-pelvic-curl': 'periodized-incline-bench-reverse-crunch',
+      'periodized-hanging-straight-leg-raise': 'periodized-hanging-leg-raise',
+      'periodized-stick-good-mornings': 'biweekly-stick-good-mornings',
+      'periodized-stick-around-the-worlds': 'biweekly-stick-around-the-worlds',
+      'periodized-transverse-abdominis-stomach-vacuums': 'periodized-standing-stomach-vacuum',
+      'periodized-intervals': 'periodized-incline-walk'
+    };
+    for (const [aliasId, canonicalMovementId] of Object.entries(aliases)) runtimeMap[aliasId] = { canonicalMovementId };
+  }
   const byName = new Map(Object.values(movements).map(record => [slug(record.name), record.stableMovementId]));
   const dayIndex = { wednesday: 2, thursday: 3, friday: 4, saturday: 5 }[key];
   for (const sourceDay of periodizedRuntime.days.filter(entry => entry.dayIndex === dayIndex)) {
@@ -108,6 +139,8 @@ for (const key of Object.keys(dayNames)) {
   for (const sourceDay of periodizedRuntime.days.filter(entry => entry.dayIndex === dayIndex)) {
     for (const role of ['coreSlots', 'warmup', 'cardio', 'recovery', 'optionalSlots']) {
       for (const item of sourceDay[role] || []) {
+        const explicitNameMapping = runtimeMap[`periodized-${slug(item.name)}`];
+        if (explicitNameMapping && !runtimeMap[item.id]) runtimeMap[item.id] = explicitNameMapping;
         if (!runtimeMap[item.id]) addPending(item.id, item.name, role);
         for (const alternative of item.alternatives || []) {
           const alternativeId = `periodized-${slug(alternative)}`;

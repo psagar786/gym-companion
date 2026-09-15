@@ -223,12 +223,19 @@ function resolveExerciseById(id) { return state.library.map(normalizeExercise).f
 function periodizedResolvedItem(item,tier) {
   if (!item) return item;
   const name=String(item.name||'').toLowerCase();
-  if (name==='transverse abdominis stomach vacuum') {
-    const target=tier==='expert'
-      ? { id:'periodized-standing-stomach-vacuum', stableMovementId:'periodized-standing-stomach-vacuum', name:'Standing Stomach Vacuum' }
-      : tier==='intermediate'
-        ? { id:'periodized-quadruped-vacuum', stableMovementId:'periodized-quadruped-vacuum', name:'Quadruped Vacuum' }
-        : { id:'periodized-lying-vacuum', stableMovementId:'periodized-lying-vacuum', name:'Lying Stomach Vacuum' };
+  if (name==='transverse abdominis stomach vacuum' || name==='transverse abdominis stomach vacuums') {
+    const plural = name.endsWith('vacuums');
+    const target=plural
+      ? (tier==='expert'
+        ? { id:'periodized-seated-stomach-vacuum', stableMovementId:'periodized-seated-stomach-vacuum', name:'Seated Stomach Vacuum' }
+        : tier==='intermediate'
+          ? { id:'periodized-standing-stomach-vacuum', stableMovementId:'periodized-standing-stomach-vacuum', name:'Standing Stomach Vacuum' }
+          : { id:'periodized-lying-vacuum', stableMovementId:'periodized-lying-vacuum', name:'Lying Stomach Vacuum' })
+      : (tier==='expert'
+        ? { id:'periodized-standing-stomach-vacuum', stableMovementId:'periodized-standing-stomach-vacuum', name:'Standing Stomach Vacuum' }
+        : tier==='intermediate'
+          ? { id:'periodized-quadruped-vacuum', stableMovementId:'periodized-quadruped-vacuum', name:'Quadruped Vacuum' }
+          : { id:'periodized-lying-vacuum', stableMovementId:'periodized-lying-vacuum', name:'Lying Stomach Vacuum' });
     return {...item,...target};
   }
   if (name==='intervals') {
