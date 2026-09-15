@@ -1,7 +1,7 @@
 window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
   "version": "periodized-v3-day-artwork-v1",
   "plan": "periodized-abc",
-  "generatedAt": "2026-09-15T03:56:16.938Z",
+  "generatedAt": "2026-09-15T03:58:31.354Z",
   "days": {
     "Wednesday": {
       "movements": {
@@ -4640,6 +4640,15 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         },
         "periodized-intervals": {
           "canonicalMovementId": "periodized-incline-walk"
+        },
+        "periodized-incline-treadmill-intervals": {
+          "canonicalMovementId": "periodized-incline-walk"
+        },
+        "v53-tendon-wrist-extensor-isometric": {
+          "canonicalMovementId": "tendon-wrist-extensor-isometric"
+        },
+        "periodized-wrist-extensor-isometric": {
+          "canonicalMovementId": "tendon-wrist-extensor-isometric"
         },
         "biweekly-a-5-floor-reverse-crunch-with-pelvic-tilt-slot-2-biweekly-floor-reverse-crunch-with-pelvic-tilt": {
           "canonicalMovementId": "periodized-floor-reverse-crunch-with-pelvic-tilt"

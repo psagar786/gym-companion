@@ -95,7 +95,10 @@ for (const key of Object.keys(dayNames)) {
       'periodized-stick-good-mornings': 'biweekly-stick-good-mornings',
       'periodized-stick-around-the-worlds': 'biweekly-stick-around-the-worlds',
       'periodized-transverse-abdominis-stomach-vacuums': 'periodized-standing-stomach-vacuum',
-      'periodized-intervals': 'periodized-incline-walk'
+      'periodized-intervals': 'periodized-incline-walk',
+      'periodized-incline-treadmill-intervals': 'periodized-incline-walk',
+      'v53-tendon-wrist-extensor-isometric': 'tendon-wrist-extensor-isometric',
+      'periodized-wrist-extensor-isometric': 'tendon-wrist-extensor-isometric'
     };
     for (const [aliasId, canonicalMovementId] of Object.entries(aliases)) runtimeMap[aliasId] = { canonicalMovementId };
   }
