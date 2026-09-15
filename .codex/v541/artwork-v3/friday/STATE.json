@@ -12,10 +12,10 @@
   "reuseSets": 22,
   "newGenerationSets": 17,
   "newGenerationFiles": 34,
-  "completedSets": 8,
-  "completedFiles": 16,
-  "remainingSets": 9,
-  "remainingFiles": 18,
+  "completedSets": 10,
+  "completedFiles": 20,
+  "remainingSets": 7,
+  "remainingFiles": 14,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
@@ -28,9 +28,11 @@
     "periodized-standard-forearm-plank",
     "periodized-rkc-hardstyle-plank",
     "periodized-extended-plank",
-    "periodized-hanging-windshield-wipers"
+    "periodized-hanging-windshield-wipers",
+    "periodized-dragon-flag-negatives",
+    "periodized-decline-leg-raise"
   ],
-  "currentCheckpoint": "V541-FRI-periodized-hanging-windshield-wipers-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-FRI-periodized-decline-leg-raise-PAIR-COMPLETE",
   "lastCompletedCommit": "",
-  "nextAtomicAction": "Generate Start for next Friday movement (9 pairs remaining)"
+  "nextAtomicAction": "Generate Start for next Friday movement (7 pairs remaining)"
 }

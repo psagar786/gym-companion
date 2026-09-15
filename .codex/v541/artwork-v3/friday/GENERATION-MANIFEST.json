@@ -375,7 +375,7 @@
       "role": "alternative",
       "equipment": "flat bench with hands gripping behind head",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-movement.png"
@@ -386,10 +386,26 @@
         "start": "Fitness 7 illustration: Dragon Flag Negatives starting position",
         "movement": "Fitness 7 illustration: Dragon Flag Negatives working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "46a7372afd95d0d096c2cbd0cc1de2b64132ec84d7f2d7252cc2dca2aaef7505"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "bcaffdb742f76b6e97ebb1fc48f047d8ee31a7b563c9530a8e2b79ba94befdc7"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 10,
@@ -404,7 +420,7 @@
       "role": "alternative",
       "equipment": "decline bench, hands holding bench supports",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-decline-leg-raise-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-decline-leg-raise-v3-movement.png"
@@ -415,10 +431,26 @@
         "start": "Fitness 7 illustration: Decline Bench Leg Raise starting position",
         "movement": "Fitness 7 illustration: Decline Bench Leg Raise working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "0ad1a5bec123304ab3c292c3284ef5370e46912f2ad87ff8ef383da0882b51c8"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "79e51a88e7da59f3d36c057f81c5b6858d2f232d327765d312d86709799c58b0"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 11,

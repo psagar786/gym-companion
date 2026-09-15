@@ -17,3 +17,7 @@ Audit frozen. New generation queue: 17 pairs / 34 files. Existing reuses require
 - periodized-extended-plank: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
 
 - periodized-hanging-windshield-wipers: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-dragon-flag-negatives: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-decline-leg-raise: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
