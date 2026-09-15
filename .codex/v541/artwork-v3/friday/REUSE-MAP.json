@@ -1,0 +1,226 @@
+{
+  "day": "Friday",
+  "approved": [
+    {
+      "runtimeId": "periodized-stick-around-the-worlds",
+      "name": "Stick Around-the-Worlds",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-hanging-leg-raise",
+      "name": "Hanging Leg Raise",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-raise-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-lying-leg-lift",
+      "name": "Lying Leg Lift",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-incline-bench-reverse-crunch",
+      "name": "Incline Bench Reverse Crunch with Pelvic Curl",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-russian-twists",
+      "name": "Russian Twists",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-knee-tuck",
+      "name": "Knee Tuck",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-stick-russian-twists",
+      "name": "Stick Russian Twists",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-stick-lateral-side-bends",
+      "name": "Stick Lateral Side Bends",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-stick-side-bends",
+      "name": "Stick Side Bends",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-cable-side-crunch",
+      "name": "Cable Side Crunch",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-side-plank-hip-dips",
+      "name": "Side Plank Hip Dips",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-light-db-side-bend",
+      "name": "Light DB Side Bend",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-quadruped-vacuum",
+      "name": "Quadruped Vacuum",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-lying-vacuum",
+      "name": "Lying Vacuum",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-plank-vacuum",
+      "name": "Plank Vacuum",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-standing-stomach-vacuum",
+      "name": "Standing Stomach Vacuum",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-seated-stomach-vacuum",
+      "name": "Seated Stomach Vacuum",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-elliptical-intervals",
+      "name": "Elliptical Intervals",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-bike-sprint-intervals",
+      "name": "Stationary Bike Sprint Intervals",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.png",
+        "source": "Tuesday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-incline-walk",
+      "name": "Incline Walk",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "periodized-stick-lat-oblique-reach",
+      "name": "Stick Lat & Oblique Reach",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-movement.png",
+        "source": "Thursday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    },
+    {
+      "runtimeId": "tendon-wrist-extensor-isometric",
+      "name": "Wrist Extensor Isometric",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-movement.png",
+        "source": "Monday V3"
+      },
+      "status": "reuse-approved-after-mechanics-review"
+    }
+  ],
+  "rule": "Reuse only when equipment, grip, stance, joint path, range and intent match exactly."
+}

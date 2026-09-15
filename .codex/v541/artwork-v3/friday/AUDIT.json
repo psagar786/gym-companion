@@ -1,0 +1,20 @@
+{
+  "day": "Friday",
+  "weekKeys": [
+    "A",
+    "B",
+    "C"
+  ],
+  "rawRuntimeLabels": 43,
+  "finalCanonicalSets": 39,
+  "reuseSets": 22,
+  "newGenerationSets": 17,
+  "newGenerationFiles": 34,
+  "textOnlyRecords": 0,
+  "notes": [
+    "Week C repeats Week A mechanics.",
+    "Expert vacuum resolves to Seated Stomach Vacuum.",
+    "Intervals resolve by tier to Elliptical, Incline Treadmill, or Stationary Bike.",
+    "All older periodized files are review-only and are not final Friday V3 assets."
+  ]
+}
