@@ -12,10 +12,10 @@
   "reuseSets": 22,
   "newGenerationSets": 17,
   "newGenerationFiles": 34,
-  "completedSets": 10,
-  "completedFiles": 20,
-  "remainingSets": 7,
-  "remainingFiles": 14,
+  "completedSets": 12,
+  "completedFiles": 24,
+  "remainingSets": 5,
+  "remainingFiles": 10,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
@@ -30,9 +30,11 @@
     "periodized-extended-plank",
     "periodized-hanging-windshield-wipers",
     "periodized-dragon-flag-negatives",
-    "periodized-decline-leg-raise"
+    "periodized-decline-leg-raise",
+    "periodized-cat-cow-mobility",
+    "periodized-childs-pose"
   ],
-  "currentCheckpoint": "V541-FRI-periodized-decline-leg-raise-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-FRI-periodized-childs-pose-PAIR-COMPLETE",
   "lastCompletedCommit": "",
-  "nextAtomicAction": "Generate Start for next Friday movement (7 pairs remaining)"
+  "nextAtomicAction": "Generate Start for next Friday movement (5 pairs remaining)"
 }

@@ -465,7 +465,7 @@
       "role": "recovery",
       "equipment": "exercise mat, bodyweight",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-cat-cow-mobility-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cat-cow-mobility-v3-movement.png"
@@ -476,10 +476,26 @@
         "start": "Fitness 7 illustration: Cat-Cow Mobility starting position",
         "movement": "Fitness 7 illustration: Cat-Cow Mobility working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "fbae56214d0777e27193a96b53d335cc2a9ab34a617e534d3b4152915b2d6ca1"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "71fabad1f836e35188abc7f5d8c3d7b3048e416f28a99533b8f398553a2f45de"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 12,
@@ -494,7 +510,7 @@
       "role": "recovery",
       "equipment": "exercise mat, bodyweight",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-childs-pose-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-childs-pose-v3-movement.png"
@@ -505,10 +521,26 @@
         "start": "Fitness 7 illustration: Child’s Pose starting position",
         "movement": "Fitness 7 illustration: Child’s Pose working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "fa0f19f2b083702f52e136ec9030b227f2c347d79f2082bb1fbb35db8e0f8fd9"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a0eaba2776e7f4ef04b022384fa83879bcf9d72b48322c3a86b0cb3e2fcc9f10"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 13,
