@@ -12,10 +12,10 @@
   "reuseSets": 22,
   "newGenerationSets": 17,
   "newGenerationFiles": 34,
-  "completedSets": 12,
-  "completedFiles": 24,
-  "remainingSets": 5,
-  "remainingFiles": 10,
+  "completedSets": 17,
+  "completedFiles": 34,
+  "remainingSets": 0,
+  "remainingFiles": 0,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
@@ -32,9 +32,14 @@
     "periodized-dragon-flag-negatives",
     "periodized-decline-leg-raise",
     "periodized-cat-cow-mobility",
-    "periodized-childs-pose"
+    "periodized-childs-pose",
+    "periodized-landmine-rotations",
+    "periodized-cable-side-crunch-on-mat",
+    "periodized-dead-bug",
+    "periodized-bicycle-kicks",
+    "periodized-decline-bench-russian-twists"
   ],
-  "currentCheckpoint": "V541-FRI-periodized-childs-pose-PAIR-COMPLETE",
+  "currentCheckpoint": "V541-FRI-periodized-decline-bench-russian-twists-PAIR-COMPLETE",
   "lastCompletedCommit": "",
-  "nextAtomicAction": "Generate Start for next Friday movement (5 pairs remaining)"
+  "nextAtomicAction": "Run Friday runtime integration and local validation"
 }

@@ -25,3 +25,13 @@ Audit frozen. New generation queue: 17 pairs / 34 files. Existing reuses require
 - periodized-cat-cow-mobility: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
 
 - periodized-childs-pose: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-landmine-rotations: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-cable-side-crunch-on-mat: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-dead-bug: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-bicycle-kicks: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.
+
+- periodized-decline-bench-russian-twists: technical dimensions/hash check passed; AI semantic review recorded; human gym-coach review pending.

@@ -555,7 +555,7 @@
       "role": "alternative",
       "equipment": "barbell anchored in a landmine sleeve",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-landmine-rotations-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-landmine-rotations-v3-movement.png"
@@ -566,10 +566,26 @@
         "start": "Fitness 7 illustration: Landmine Rotations starting position",
         "movement": "Fitness 7 illustration: Landmine Rotations working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "e1f013e52b9189c08a0c6dc6b45515d4a344271077c7f9bdfc29d782773175b4"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "11c7ea4ba08817e4366bf9ac17035c4304070f37a7356b66e3e4ccea7a9fb3a9"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 14,
@@ -584,7 +600,7 @@
       "role": "alternative",
       "equipment": "high cable with rope attachment and exercise mat",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-cable-side-crunch-on-mat-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-cable-side-crunch-on-mat-v3-movement.png"
@@ -595,10 +611,26 @@
         "start": "Fitness 7 illustration: Kneeling Cable Side Crunch on Mat starting position",
         "movement": "Fitness 7 illustration: Kneeling Cable Side Crunch on Mat working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "27da53a1a90d3dc445e9f6306feb5212bf0de17c4d30c2ffcd4623f148086001"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "9c7c8f7b04365f85f9240ce7d983a2bdf17e75716f96181e3c017ede0e5d0cbd"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 15,
@@ -613,7 +645,7 @@
       "role": "coreSlots,alternative",
       "equipment": "exercise mat, bodyweight",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-dead-bug-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-dead-bug-v3-movement.png"
@@ -624,10 +656,26 @@
         "start": "Fitness 7 illustration: Dead Bug starting position",
         "movement": "Fitness 7 illustration: Dead Bug working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "b00534621ab77c2547f4380443c436192d2037d34e3ef875b4b8d940b7115601"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "0f4c2f23874c7097ef2d37539b5d39a69ba148a8e3b83880370a4fe819331344"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 16,
@@ -642,7 +690,7 @@
       "role": "alternative",
       "equipment": "exercise mat, bodyweight",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-bicycle-kicks-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-bicycle-kicks-v3-movement.png"
@@ -653,10 +701,26 @@
         "start": "Fitness 7 illustration: Bicycle Kicks starting position",
         "movement": "Fitness 7 illustration: Bicycle Kicks working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "6f3ac98b677d6dd7d5c5fc14eefacc36bf12dde8c67b4894461f0d860b26eeec"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "ef4164572bc1d694a06af8269026f070caae8d6b5b97d5ac438b6f913c38fd70"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     },
     {
       "order": 17,
@@ -671,7 +735,7 @@
       "role": "alternative",
       "equipment": "decline bench, bodyweight",
       "equipmentStatus": "review-before-generation",
-      "status": "generate",
+      "status": "generated",
       "outputPaths": {
         "start": "assets/exercises/periodized-v3/periodized-decline-bench-russian-twists-v3-start.png",
         "movement": "assets/exercises/periodized-v3/periodized-decline-bench-russian-twists-v3-movement.png"
@@ -682,10 +746,26 @@
         "start": "Fitness 7 illustration: Decline Bench Russian Twists starting position",
         "movement": "Fitness 7 illustration: Decline Bench Russian Twists working position"
       },
-      "technicalReviewStatus": "pending",
-      "semanticReviewStatus": "pending",
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
       "humanCoachReviewStatus": "pending",
-      "generationStatus": "not-started"
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "00b4a35936bb9e05781d6f9f24ab8e457719e8d46ac02425aeac9ee83cfcb0dc"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "261233b4723c60c63298eb422ae2b3be21f0a272a678900b3867fe4fb4de62d4"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
     }
   ]
 }
