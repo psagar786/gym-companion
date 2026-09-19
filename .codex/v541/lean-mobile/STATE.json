@@ -35,6 +35,6 @@
     "Existing artwork semantic review remains separate from this UI pass.",
     "Visual semantic review of existing artwork remains separate from this UI pass."
   ],
-  "lastCommit": "631bbb563b4c451a21d6d2d5e779d10e8e7490f2",
-  "nextAtomicAction": "Commit the compact ABAC pass and leave the local review URL ready"
+  "lastCommit": "1300dcc323b3ed8dfd718d25bdc3da6b6fe9e635",
+  "nextAtomicAction": "Collect user review feedback from the compact ABAC local preview"
 }
