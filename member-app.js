@@ -152,7 +152,10 @@ function biweeklyRegistryRecord(item) {
     const dayName = ['Wednesday','Thursday','Friday','Saturday'][dayIndex-2];
     const dayArtwork = dayName ? periodizedV3DayArtwork.days?.[dayName] : null;
     if (dayArtwork) {
-      const mapping = dayArtwork.runtimeMap?.[runtimeId] || dayArtwork.runtimeMap?.[item?.stableMovementId] || dayArtwork.runtimeMap?.[`periodized-${slug}`];
+      // Runtime records often carry a stable source id while the generated
+      // artwork manifest keys the concrete occurrence id. Resolve the
+      // occurrence first, then the stable id/name aliases.
+      const mapping = dayArtwork.runtimeMap?.[item?.id] || dayArtwork.runtimeMap?.[runtimeId] || dayArtwork.runtimeMap?.[item?.stableMovementId] || dayArtwork.runtimeMap?.[`periodized-${slug}`];
       const record = mapping?.canonicalMovementId ? dayArtwork.movements?.[mapping.canonicalMovementId] : dayArtwork.movements?.[runtimeId];
       if (record) return record;
     }
