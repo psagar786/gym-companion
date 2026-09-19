@@ -1,0 +1,40 @@
+{
+  "project": "Fitness 7 V5.4.1 Compact ABAC Workout Experience",
+  "branch": "codex/v541-release",
+  "currentCheckpoint": "V541-COMPACT-03-LOCAL-VERIFIED",
+  "currentStage": "local-verified",
+  "completedUnits": [
+    "ABAC-only active template selector",
+    "Compact Home day cards",
+    "Required warm-up and recovery two-card viewports",
+    "Collapsed tendon, guided alternatives and optional add-ons",
+    "Compact exercise card Done control and artwork column",
+    "Compact Consistency Outlook"
+  ],
+  "failedUnits": [],
+  "changedFiles": [
+    "index.html",
+    "member-app.js",
+    "styles.css",
+    ".codex/v541/lean-mobile/STATE.json",
+    ".codex/v541/lean-mobile/WORK-LEDGER.md",
+    ".codex/v541/lean-mobile/IMAGE-AUDIT.json",
+    ".codex/v541/lean-mobile/VALIDATION.md"
+  ],
+  "validationResults": {
+    "syntax": "pass: node --check member-app.js",
+    "localUrl": "http://localhost:4175/?v=5.4.1-compact-abac",
+    "home": "pass: ABAC-only summary, compact day/date cards, no Ready label, no duplicate My Training Plan card",
+    "planSelector": "pass: one Periodized A–B–A–C option; Intermediate remains selected",
+    "workout": "pass: required warm-up/recovery visible, first two cards in scroll view, tendon and add-ons collapsed",
+    "optionalAddOns": "pass: native details expands on tap without changing workout state",
+    "artworkPaths": "pass: existing V3/V4 paths resolve in rendered cards",
+    "responsive": "pass: Home 320/375/390/393/414/430 and workout 320/390/430 have no horizontal overflow"
+  },
+  "knownIssues": [
+    "Existing artwork semantic review remains separate from this UI pass.",
+    "Visual semantic review of existing artwork remains separate from this UI pass."
+  ],
+  "lastCommit": "631bbb563b4c451a21d6d2d5e779d10e8e7490f2",
+  "nextAtomicAction": "Commit the compact ABAC pass and leave the local review URL ready"
+}

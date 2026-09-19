@@ -1,0 +1,21 @@
+{
+  "scope": "Existing V3/V4 artwork only",
+  "generationPerformed": false,
+  "runtimePathPolicy": "Exact movement mappings remain unchanged",
+  "smokeChecks": [
+    {
+      "screen": "Monday workout",
+      "result": "pass",
+      "evidence": "Rendered movement paths under assets/exercises/periodized-v3/"
+    },
+    {
+      "screen": "Monday recovery",
+      "result": "pass",
+      "evidence": "Rendered exact existing movement paths"
+    }
+  ],
+  "knownArtworkReview": [
+    "No image was regenerated or overwritten in this pass.",
+    "Existing semantic and coach-review statuses remain as previously recorded."
+  ]
+}
