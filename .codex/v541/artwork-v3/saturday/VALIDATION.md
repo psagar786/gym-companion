@@ -46,3 +46,23 @@ Next gate: generate B01 only after reviewing the frozen specifications.
 - V541-SAT-periodized-dumbbell-stiff-leg-romanian-deadlift-PAIR-COMPLETE: periodized-dumbbell-stiff-leg-romanian-deadlift passed 512x512 PNG, hash uniqueness and file existence checks.
 
 - V541-SAT-B01-COMPLETE: periodized-single-leg-dumbbell-rdl passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-nordic-curl-negatives-PAIR-COMPLETE: periodized-nordic-curl-negatives passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-nordic-hamstring-curl-PAIR-COMPLETE: periodized-nordic-hamstring-curl passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-conventional-barbell-deadlift-PAIR-COMPLETE: periodized-conventional-barbell-deadlift passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-dumbbell-shrug-PAIR-COMPLETE: periodized-dumbbell-shrug passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-barbell-shrug-PAIR-COMPLETE: periodized-barbell-shrug passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-hex-bar-shrug-PAIR-COMPLETE: periodized-hex-bar-shrug passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-cable-upright-row-wide-grip-PAIR-COMPLETE: periodized-cable-upright-row-wide-grip passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-standard-cable-face-pull-PAIR-COMPLETE: periodized-standard-cable-face-pull passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-stick-deep-squat-pry-PAIR-COMPLETE: periodized-stick-deep-squat-pry passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-B02-COMPLETE: periodized-stick-hamstring-stretch passed 512x512 PNG, hash uniqueness and file existence checks.

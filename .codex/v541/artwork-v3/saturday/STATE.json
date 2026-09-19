@@ -14,9 +14,9 @@
   "newGenerationFiles": 62,
   "activeNewSets": 29,
   "reviewOnlySets": 2,
-  "completedSets": 11,
-  "completedFiles": 22,
-  "currentBatch": "B01",
+  "completedSets": 21,
+  "completedFiles": 42,
+  "currentBatch": "B02",
   "currentMovementId": null,
   "currentPhase": null,
   "failedMovementIds": [],
@@ -31,9 +31,19 @@
     "periodized-single-arm-dumbbell-row",
     "periodized-chest-supported-t-bar-row",
     "periodized-dumbbell-stiff-leg-romanian-deadlift",
-    "periodized-single-leg-dumbbell-rdl"
+    "periodized-single-leg-dumbbell-rdl",
+    "periodized-nordic-curl-negatives",
+    "periodized-nordic-hamstring-curl",
+    "periodized-conventional-barbell-deadlift",
+    "periodized-dumbbell-shrug",
+    "periodized-barbell-shrug",
+    "periodized-hex-bar-shrug",
+    "periodized-cable-upright-row-wide-grip",
+    "periodized-standard-cable-face-pull",
+    "periodized-stick-deep-squat-pry",
+    "periodized-stick-hamstring-stretch"
   ],
-  "currentCheckpoint": "V541-SAT-B01-COMPLETE",
+  "currentCheckpoint": "V541-SAT-B02-COMPLETE",
   "lastCompletedCommit": "747b242",
-  "nextAtomicAction": "Generate Start for the next Saturday B01 movement"
+  "nextAtomicAction": "Generate Start for the next Saturday B02 movement"
 }
