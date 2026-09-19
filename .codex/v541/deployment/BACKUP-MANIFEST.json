@@ -1,22 +1,21 @@
 {
-  "createdAt": "2026-09-14",
-  "sourceCommit": "aa5039dc42a3042bd58aff6f6eb4700866eea6ea",
-  "sourceBranch": "codex/v541-v2-art-integration",
-  "releaseBranch": "codex/v541-release",
+  "createdAt": "2026-09-19",
+  "sourceCommit": "3530da11e3db330c59df6edcc1307162e553d498",
+  "sourceBranch": "codex/v541-release",
   "remote": "https://github.com/psagar786/gym-companion.git",
-  "backupPath": "/Users/exxxy/Documents/Daily AI Help/fitness7-backups/v5.4.1-pre-deploy-2026-09-14/",
-  "sourceFiles": 1704,
-  "backupSize": "643M",
+  "backupPath": "/Users/exxxy/Documents/Daily AI Help/fitness7-backups/v5.4.1-release-2026-09-19/",
+  "sourceFiles": 1859,
+  "backupSize": "411M",
   "hashManifest": "SHA256SUMS.txt",
   "restoreVerification": "PASS",
   "retainedPublicVersions": [
     "https://gym-companion-member-v5.vercel.app/",
     "https://gym-companion-member-v52.vercel.app/",
-    "fitness7-gym-companion-member"
+    "https://fitness7-gym-companion-member.vercel.app/"
   ],
   "notes": [
-    "Repository bundle and source tree are backed up.",
+    "Full source, local PNG masters, WebP deployment copies, manifests, reports, and configuration are backed up.",
     "No local source or historical asset was deleted.",
-    "Vercel project inventory is recorded separately after authenticated access."
+    "Vercel cleanup remains freeze-and-unsurface only; existing public deployments remain recoverable."
   ]
 }

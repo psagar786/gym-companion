@@ -16,20 +16,31 @@ const sources = [
   ...Object.entries(context.window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK.days || {})
 ];
 const entries = new Map();
+const addEntry = (assetPath, phase, movementId, day = 'runtime-override') => {
+  if (!assetPath || !fs.existsSync(path.join(root, assetPath))) return;
+  const key = `${assetPath}|${phase}`;
+  const previous = entries.get(key) || { path: assetPath, phase, movementIds: [], days: [], bytes: fs.statSync(path.join(root, assetPath)).size };
+  if (!previous.movementIds.includes(movementId)) previous.movementIds.push(movementId);
+  if (!previous.days.includes(day)) previous.days.push(day);
+  previous.sha256 = crypto.createHash('sha256').update(fs.readFileSync(path.join(root, assetPath))).digest('hex');
+  entries.set(key, previous);
+};
 for (const [day, source] of sources) {
   for (const record of Object.values(source?.movements || {})) {
     if (record.artworkStatus !== 'complete') continue;
     for (const phase of ['start', 'movement']) {
       const assetPath = record.imageSet?.[phase];
       if (!assetPath || !fs.existsSync(path.join(root, assetPath))) continue;
-      const key = `${assetPath}|${phase}`;
-      const previous = entries.get(key) || { path: assetPath, phase, movementIds: [], days: [], bytes: fs.statSync(path.join(root, assetPath)).size };
-      if (!previous.movementIds.includes(record.stableMovementId)) previous.movementIds.push(record.stableMovementId);
-      if (!previous.days.includes(day)) previous.days.push(day);
-      previous.sha256 = crypto.createHash('sha256').update(fs.readFileSync(path.join(root, assetPath))).digest('hex');
-      entries.set(key, previous);
+      addEntry(assetPath, phase, record.stableMovementId, day);
     }
   }
+}
+for (const [movementId, base] of [
+  ['periodized-lying-pelvic-tilt-leg-raise', 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4'],
+  ['periodized-hanging-knee-tuck', 'assets/exercises/periodized-v4/hanging-knee-tuck-v4']
+]) {
+  addEntry(`${base}-start.webp`, 'start', movementId);
+  addEntry(`${base}-movement.webp`, 'movement', movementId);
 }
 const output = {
   version: 'v541-active-assets-v1',

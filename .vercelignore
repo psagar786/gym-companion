@@ -6,6 +6,12 @@ outputs
 assets/exercises/*
 !assets/exercises/periodized-v3/
 !assets/exercises/periodized-v3/**
+# PNG masters stay in the local source/backup; the deployable active bundle
+# uses the optimized WebP copies referenced by the runtime registries.
+assets/exercises/periodized-v3/**/*.png
+!assets/exercises/periodized-v4/
+!assets/exercises/periodized-v4/**
+assets/exercises/periodized-v4/**/*.png
 
 # Local backups and review material never belong in a public deployment.
 fitness7-backups

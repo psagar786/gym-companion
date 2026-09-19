@@ -41,3 +41,6 @@ jobs:
 
       - name: Validate artwork references
         run: node scripts/validate-v51-artwork.mjs
+
+      - name: Validate active deployment bundle
+        run: node scripts/validate-v541-active-bundle.mjs

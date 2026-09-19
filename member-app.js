@@ -25,16 +25,16 @@ const periodizedV4Overrides = {
   'periodized-lying-pelvic-tilt-leg-raise': {
     stableMovementId: 'periodized-lying-pelvic-tilt-leg-raise-v4',
     imageSet: {
-      start: 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-start.png',
-      movement: 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-movement.png'
+      start: 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-start.webp',
+      movement: 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-movement.webp'
     },
     assetVersion: 'periodized-abc-art-v4'
   },
   'periodized-hanging-knee-tuck': {
     stableMovementId: 'periodized-hanging-knee-tuck-v4',
     imageSet: {
-      start: 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-start.png',
-      movement: 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.png'
+      start: 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-start.webp',
+      movement: 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.webp'
     },
     assetVersion: 'periodized-abc-art-v4'
   }
@@ -49,15 +49,15 @@ const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character =>
 function previewImage(item) {
   const imageSet=item?.imageSet||{};
   const exactFallbacks = {
-    'side-plank-clamshells': 'assets/exercises/periodized-v3/periodized-side-plank-clamshell-v3-movement.png',
-    'single-arm-db-row': 'assets/exercises/periodized-v3/periodized-single-arm-dumbbell-row-v3-movement.png',
-    'single-leg-db-rdl': 'assets/exercises/periodized-v3/periodized-single-leg-dumbbell-rdl-v3-movement.png',
-    'cable-upright-row-wide': 'assets/exercises/periodized-v3/periodized-cable-upright-row-wide-grip-v3-movement.png',
-    'incline-treadmill-intervals': 'assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.png',
-    'intervals': 'assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.png',
-    'lying-pelvic-tilt-leg-raise': 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-movement.png',
-    'hanging-knee-tuck': 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.png',
-    'knee-tuck': 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.png'
+    'side-plank-clamshells': 'assets/exercises/periodized-v3/periodized-side-plank-clamshell-v3-movement.webp',
+    'single-arm-db-row': 'assets/exercises/periodized-v3/periodized-single-arm-dumbbell-row-v3-movement.webp',
+    'single-leg-db-rdl': 'assets/exercises/periodized-v3/periodized-single-leg-dumbbell-rdl-v3-movement.webp',
+    'cable-upright-row-wide': 'assets/exercises/periodized-v3/periodized-cable-upright-row-wide-grip-v3-movement.webp',
+    'incline-treadmill-intervals': 'assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.webp',
+    'intervals': 'assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.webp',
+    'lying-pelvic-tilt-leg-raise': 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-movement.webp',
+    'hanging-knee-tuck': 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.webp',
+    'knee-tuck': 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.webp'
   };
   const nameSlug=slugify(item?.name||item?.title||'');
   return imageSet.movement||imageSet.move||imageSet.start||imageSet.setup||imageSet.return||item?.image_path||item?.image||exactFallbacks[nameSlug]||'';
