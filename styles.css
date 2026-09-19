@@ -76,6 +76,13 @@
 }
 @media(max-width:359px){:root{--exercise-thumb:80px}.card{padding:13px}.exercise h3{font-size:.96rem}.extra-option{grid-template-columns:72px minmax(0,1fr)}.extra-option .visual-button,.extra-option-visual{width:72px!important;height:72px!important}}
 @media(min-width:641px){.exercise{grid-template-columns:var(--exercise-thumb) minmax(0,1fr);max-width:100%}.exercise>.check{justify-self:end;grid-area:copy;align-self:start}.exercise-copy{padding-right:4px}.choices{grid-column:auto}}
+
+/* V5.4.1 correction pass: keep the image column generous without letting
+   text or controls flow beneath it on narrow member screens. */
+:root{--exercise-thumb:124px}
+.exercise,.extra-option,.guided-panel .exercise{grid-template-columns:var(--exercise-thumb) minmax(0,1fr)}
+.exercise>.visual-button,.extra-option .visual-button,.extra-option-visual,.guided-panel .exercise>.visual-button{width:var(--exercise-thumb)!important;height:var(--exercise-thumb)!important;min-width:44px;min-height:44px}
+@media(max-width:430px){:root{--exercise-thumb:112px}.exercise,.extra-option,.guided-panel .exercise{grid-template-columns:var(--exercise-thumb) minmax(0,1fr)}.exercise>.visual-button,.extra-option .visual-button,.extra-option-visual,.guided-panel .exercise>.visual-button{width:var(--exercise-thumb)!important;height:var(--exercise-thumb)!important}}
 :root {
   --pilot-charcoal: #191919;
 }

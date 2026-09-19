@@ -113,6 +113,15 @@ for (const key of Object.keys(dayNames)) {
     };
     for (const [aliasId, canonicalMovementId] of Object.entries(aliases)) runtimeMap[aliasId] = { canonicalMovementId };
   }
+  if (key === 'saturday') {
+    const aliases = {
+      'periodized-single-arm-db-row': 'periodized-single-arm-dumbbell-row',
+      'periodized-side-plank-clamshells': 'periodized-side-plank-clamshell',
+      'periodized-single-leg-db-rdl': 'periodized-single-leg-dumbbell-rdl',
+      'periodized-cable-upright-row-wide': 'periodized-cable-upright-row-wide-grip'
+    };
+    for (const [aliasId, canonicalMovementId] of Object.entries(aliases)) runtimeMap[aliasId] = { canonicalMovementId };
+  }
   const byName = new Map(Object.values(movements).map(record => [slug(record.name), record.stableMovementId]));
   const dayIndex = { wednesday: 2, thursday: 3, friday: 4, saturday: 5 }[key];
   for (const sourceDay of periodizedRuntime.days.filter(entry => entry.dayIndex === dayIndex)) {
@@ -145,7 +154,8 @@ for (const key of Object.keys(dayNames)) {
       assetVersion: 'periodized-abc-art-v3',
       altStart: `Fitness 7 illustration: ${name} starting position`,
       altMovement: `Fitness 7 illustration: ${name} working position`,
-      imageSet: {}
+      imageSet: {},
+      reviewOnly: /cable standing abduction/i.test(name)
     };
     runtimeMap[runtimeId] = { canonicalMovementId };
     return canonicalMovementId;

@@ -334,6 +334,7 @@
         };
       }
       movement.alternatives = (movement.alternatives || []).filter(name => !excluded.test(name));
+      movement.alternatives = [...new Set(movement.alternatives || [])].filter(name => name !== movement.name);
       return movement;
     });
     next.optionalSlots = (next.optionalSlots || []).map(item => normaliseMovement(item, weekKey, dayIndex, 'optional')).filter(item => !isExcluded(item));

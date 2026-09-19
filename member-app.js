@@ -21,6 +21,24 @@ const periodizedArtwork = window.GYM_COMPANION_PERIODIZED_ARTWORK || { movements
 const periodizedV3MondayArtwork = window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK || { movements:{} };
 const periodizedV3TuesdayArtwork = window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK || { movements:{}, runtimeMap:{} };
 const periodizedV3DayArtwork = window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK || { days:{} };
+const periodizedV4Overrides = {
+  'periodized-lying-pelvic-tilt-leg-raise': {
+    stableMovementId: 'periodized-lying-pelvic-tilt-leg-raise-v4',
+    imageSet: {
+      start: 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-start.png',
+      movement: 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-movement.png'
+    },
+    assetVersion: 'periodized-abc-art-v4'
+  },
+  'periodized-hanging-knee-tuck': {
+    stableMovementId: 'periodized-hanging-knee-tuck-v4',
+    imageSet: {
+      start: 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-start.png',
+      movement: 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.png'
+    },
+    assetVersion: 'periodized-abc-art-v4'
+  }
+};
 const periodizedV2Pilot = window.GYM_COMPANION_PERIODIZED_V2_PILOT || { movements:{}, targetSets:43, completedSets:0 };
 const app = document.querySelector('#app');
 const RELEASE_VERSION = '5.4.1';
@@ -30,7 +48,19 @@ let supabase = createSupabase(localStorage.getItem(preferenceKey) === 'remembere
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[character]));
 function previewImage(item) {
   const imageSet=item?.imageSet||{};
-  return imageSet.movement||imageSet.move||imageSet.start||imageSet.setup||imageSet.return||item?.image_path||item?.image||'';
+  const exactFallbacks = {
+    'side-plank-clamshells': 'assets/exercises/periodized-v3/periodized-side-plank-clamshell-v3-movement.png',
+    'single-arm-db-row': 'assets/exercises/periodized-v3/periodized-single-arm-dumbbell-row-v3-movement.png',
+    'single-leg-db-rdl': 'assets/exercises/periodized-v3/periodized-single-leg-dumbbell-rdl-v3-movement.png',
+    'cable-upright-row-wide': 'assets/exercises/periodized-v3/periodized-cable-upright-row-wide-grip-v3-movement.png',
+    'incline-treadmill-intervals': 'assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.png',
+    'intervals': 'assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.png',
+    'lying-pelvic-tilt-leg-raise': 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-movement.png',
+    'hanging-knee-tuck': 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.png',
+    'knee-tuck': 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.png'
+  };
+  const nameSlug=slugify(item?.name||item?.title||'');
+  return imageSet.movement||imageSet.move||imageSet.start||imageSet.setup||imageSet.return||item?.image_path||item?.image||exactFallbacks[nameSlug]||'';
 }
 function imageMarkup(item, className='visual') {
   const path=previewImage(item), name=item?.title||item?.name||'Exercise';
@@ -70,7 +100,7 @@ const dayOutcomes = [
 ];
 
 function notice() { return state.message ? `<p class="notice">${escapeHtml(state.message)}</p>` : ''; }
-function banner() { return state.demo ? '<aside class="preview-banner demo-banner"><b>Demo mode</b><span>Sample-only account — changes stay in this browser and are never sent to Fitness 7 or Supabase.</span></aside>' : ''; }
+function banner() { return ''; }
 function header() { const name = state.profile?.full_name || state.user?.email || 'Member'; return `<header class="topbar">${logo}<span class="version-badge">V${RELEASE_VERSION}</span><div class="topbar-actions"><button class="pill" data-screen="plan">My plan</button><button class="avatar" data-screen="profile" aria-label="Open profile">${escapeHtml(name.slice(0,1).toUpperCase())}</button></div></header>`; }
 function biweeklyReadiness() {
   const movements=biweeklyArtwork.movements||[];
@@ -124,12 +154,16 @@ function v2ArtworkRecord(item) {
   const runtimeId=item.__alternative ? `periodized-${nameSlug}` : (item.stableMovementId||`periodized-${nameSlug}`);
   return Object.values(periodizedV2Pilot.movements||{}).find(record => record.stableMovementId===runtimeId || (record.runtimeIds||[]).includes(runtimeId) || slugify(record.name)===nameSlug) || null;
 }
-function biweeklyRegistryRecord(item) {
+function rawBiweeklyRegistryRecord(item) {
   const name=item?.name||item?.title||'';
   const slug=slugify(name);
   const runtimeId=item?.__alternative ? `periodized-${slug}` : (item?.stableMovementId||`periodized-${slug}`);
   if (effectiveTemplateKey()==='periodized-abc') {
     const dayIndex=Number.isInteger(item?.dayIndex) ? item.dayIndex : state.dayIndex;
+    if (dayIndex===1 && ['incline-treadmill-intervals','intervals'].includes(slug)) {
+      const treadmillReuse = periodizedV3MondayArtwork.movements?.['biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9'];
+      if (treadmillReuse) return treadmillReuse;
+    }
     if (dayIndex===1) {
       const tuesdayMapping=periodizedV3TuesdayArtwork.runtimeMap?.[runtimeId];
       if (tuesdayMapping) {
@@ -152,6 +186,14 @@ function biweeklyRegistryRecord(item) {
     const dayName = ['Wednesday','Thursday','Friday','Saturday'][dayIndex-2];
     const dayArtwork = dayName ? periodizedV3DayArtwork.days?.[dayName] : null;
     if (dayArtwork) {
+      const exactDayAliases = dayName==='Saturday' ? {
+        'single-arm-db-row': 'periodized-single-arm-dumbbell-row',
+        'side-plank-clamshells': 'periodized-side-plank-clamshell',
+        'single-leg-db-rdl': 'periodized-single-leg-dumbbell-rdl',
+        'cable-upright-row-wide': 'periodized-cable-upright-row-wide-grip'
+      } : {};
+      const exactAlias = exactDayAliases[slug];
+      if (exactAlias && dayArtwork.movements?.[exactAlias]) return dayArtwork.movements[exactAlias];
       // Runtime records often carry a stable source id while the generated
       // artwork manifest keys the concrete occurrence id. Resolve the
       // occurrence first, then the stable id/name aliases.
@@ -170,9 +212,45 @@ function biweeklyRegistryRecord(item) {
   if (staged) return staged;
   return (biweeklyArtwork.movements||[]).find(record => record.stableMovementId===slug || record.name===name || (record.aliases||[]).includes(name));
 }
+function biweeklyRegistryRecord(item) {
+  const nameSlug=slugify(item?.name||item?.title||'');
+  const runtimeId=item?.__alternative ? `periodized-${nameSlug}` : (item?.stableMovementId||`periodized-${nameSlug}`);
+  const dayIndex=Number.isInteger(item?.dayIndex) ? item.dayIndex : state.dayIndex;
+  if (dayIndex===1 && ['incline-treadmill-intervals','intervals'].includes(nameSlug)) {
+    const treadmillReuse = periodizedV3MondayArtwork.movements?.['biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9'];
+    if (treadmillReuse) return treadmillReuse;
+  }
+  const aliases = {
+    'single-arm-db-row': 'periodized-single-arm-dumbbell-row',
+    'single-arm-dumbbell-row': 'periodized-single-arm-dumbbell-row',
+    'side-plank-clamshells': 'periodized-side-plank-clamshell',
+    'side-plank-clamshell': 'periodized-side-plank-clamshell',
+    'single-leg-db-rdl': 'periodized-single-leg-dumbbell-rdl',
+    'single-leg-dumbbell-rdl': 'periodized-single-leg-dumbbell-rdl',
+    'cable-upright-row-wide': 'periodized-cable-upright-row-wide-grip'
+  };
+  const canonical = aliases[nameSlug];
+  const exact = canonical && periodizedV3DayArtwork.days?.Saturday?.movements?.[canonical];
+  if (exact) return exact;
+  const overrideId = nameSlug==='lying-pelvic-tilt-leg-raise' ? 'periodized-lying-pelvic-tilt-leg-raise' : (nameSlug==='hanging-knee-tuck' || nameSlug==='knee-tuck' ? 'periodized-hanging-knee-tuck' : runtimeId);
+  const record=rawBiweeklyRegistryRecord(item);
+  const override=periodizedV4Overrides[overrideId];
+  return override ? {...(record||{}), ...override, artworkStatus:'complete', visualReviewStatus:'pending', semanticReviewStatus:'pending', coachReviewStatus:'pending', altStart:`Fitness 7 illustration: ${item?.name||'Exercise'} starting position`, altMovement:`Fitness 7 illustration: ${item?.name||'Exercise'} working position`} : record;
+}
 function biweeklyItem(item) {
   if(!item)return null;
-  const registry=biweeklyRegistryRecord(item);
+  let registry=biweeklyRegistryRecord(item);
+  if (effectiveTemplateKey()==='periodized-abc') {
+    const directAliases = {
+      'Single-Arm DB Row': 'periodized-single-arm-dumbbell-row',
+      'Side Plank Clamshells': 'periodized-side-plank-clamshell',
+      'Single-Leg DB RDL': 'periodized-single-leg-dumbbell-rdl',
+      'Cable Upright Row (Wide)': 'periodized-cable-upright-row-wide-grip'
+    };
+    const directName = Object.keys(directAliases).find(name => slugify(name)===slugify(item?.name||''));
+    const direct = directName && periodizedV3DayArtwork.days?.Saturday?.movements?.[directAliases[directName]];
+    if (direct) registry=direct;
+  }
   // A day-aware registry record is authoritative. In particular, an explicit
   // pending record must not fall through to a legacy image from the source
   // row, which could show another movement's artwork.
@@ -497,7 +575,7 @@ function renderV2PilotGallery() {
   const complete=movements.filter(item=>item.artworkStatus==='complete').length;
   app.innerHTML=`<main class="shell">${header()}${banner()}<button class="link-button" data-screen="home">‹ Home</button><section class="section-title artwork-heading"><div><p class="eyebrow">V5.4.1 · INTERNAL COMPARISON</p><h1>A–B–A–C V2 Artwork Library</h1><p>All 43 new Start and Movement pairs are available here. Exact runtime mappings are active in workouts; unmatched exercises keep their existing exact artwork.</p></div><span class="artwork-count">${complete} / ${periodizedV2Pilot.targetSets} sets</span></section><aside class="notice"><b>43-set visual pilot · 59 runtime identities mapped</b><br>This is not the complete 291-identity A–B–A–C artwork library. Semantic gym-coach review remains separate.</aside><section class="artwork-gallery">${movements.map((item,index)=>`<article class="card artwork-card"><div class="artwork-card-title"><span class="artwork-cover"><img src="${escapeHtml(item.imageSet.start)}" alt="${escapeHtml(item.altStart)}" loading="${index<2?'eager':'lazy'}"></span><span><b>${escapeHtml(item.name)}</b><small>${escapeHtml(item.equipment)}</small><small>${escapeHtml(item.directionCue)}</small></span></div><div class="artwork-phase-strip"><figure class="artwork-phase"><img src="${escapeHtml(item.imageSet.start)}" alt="${escapeHtml(item.altStart)}" loading="lazy"><figcaption>Start</figcaption></figure><figure class="artwork-phase"><img src="${escapeHtml(item.imageSet.movement)}" alt="${escapeHtml(item.altMovement)}" loading="lazy"><figcaption>Movement</figcaption></figure></div><dl class="pilot-copy"><div><dt>Start</dt><dd>${escapeHtml(item.startInstruction)}</dd></div><div><dt>Movement</dt><dd>${escapeHtml(item.movementInstruction)}</dd></div></dl><p class="muted">Technical: ${escapeHtml(item.artworkStatus)} · Visual review: ${escapeHtml(item.visualReviewStatus)} · Semantic review: ${escapeHtml(item.semanticReviewStatus)}</p></article>`).join('')}</section></main>`;
 }
-function guided(title, items, checks, key, options=[]) { if (!items?.length) return ''; return `<details class="guided-panel" open><summary><span><p class="eyebrow">RECOMMENDED · OPTIONAL</p><h2>${title}</h2><p class="muted">Start with Priority 1; add more if time allows.</p></span><span class="guided-toggle">View</span></summary><section class="card workout-list">${items.map((raw,index)=>{const item=prescribeExercise({...raw,name:raw.title||raw.name,scheme:raw.scheme||raw.duration,prescriptions:raw.prescriptions});const prescription=item.tierPrescription||tierPrescription(item);return `<article class="exercise guided-exercise"><button type="button" class="visual-button" data-detail-key="${escapeHtml(slugify(item.name||''))}" aria-label="View details for ${escapeHtml(item.name||'exercise')}">${imageMarkup(item,'visual')}</button><div class="exercise-copy"><span class="priority-badge">${index===0?'Priority 1 — Do this first':index===1?'Priority 2 — Recommended':'Optional — If time allows'}</span><h3>${escapeHtml(item.name)}</h3><p class="exercise-dose">${escapeHtml(prescription.displayDose)}</p><p class="exercise-rest">${escapeHtml(prescription.displayRest)}</p><button class="link-button detail-button" data-detail-key="${escapeHtml(slugify(item.name||''))}">View exercise details →</button></div><label class="check"><input type="checkbox" data-check="${key}" data-index="${index}" ${checks?.[index]?'checked':''}><span>Done</span></label></article>`;}).join('')}</section>${options.length?`<section class="guided-options"><div class="section-title compact"><div><p class="eyebrow">OPTIONAL ADD-ONS</p><h3>Need a different option?</h3><p class="muted">Choose a relevant movement if you have extra time.</p></div></div>${optionalCards(options, 'guided')}</section>`:''}</details>`; }
+function guided(title, items, checks, key, options=[]) { if (!items?.length) return ''; return `<details class="guided-panel"><summary><span><p class="eyebrow">RECOMMENDED · OPTIONAL</p><h2>${title}</h2><p class="muted">Start with Priority 1; add more if time allows.</p></span><span class="guided-toggle">View</span></summary><section class="card workout-list">${items.map((raw,index)=>{const item=prescribeExercise({...raw,name:raw.title||raw.name,scheme:raw.scheme||raw.duration,prescriptions:raw.prescriptions});const prescription=item.tierPrescription||tierPrescription(item);return `<article class="exercise guided-exercise"><button type="button" class="visual-button" data-detail-key="${escapeHtml(slugify(item.name||''))}" aria-label="View details for ${escapeHtml(item.name||'exercise')}">${imageMarkup(item,'visual')}</button><div class="exercise-copy"><span class="priority-badge">${index===0?'Priority 1 — Do this first':index===1?'Priority 2 — Recommended':'Optional — If time allows'}</span><h3>${escapeHtml(item.name)}</h3><p class="exercise-dose">${escapeHtml(prescription.displayDose)}</p><p class="exercise-rest">${escapeHtml(prescription.displayRest)}</p><button class="link-button detail-button" data-detail-key="${escapeHtml(slugify(item.name||''))}">View exercise details →</button></div><label class="check"><input type="checkbox" data-check="${key}" data-index="${index}" ${checks?.[index]?'checked':''}><span>Done</span></label></article>`;}).join('')}</section>${options.length?`<section class="guided-options"><div class="section-title compact"><div><p class="eyebrow">OPTIONAL ADD-ONS</p><h3>Need a different option?</h3><p class="muted">Choose a relevant movement if you have extra time.</p></div></div>${optionalCards(options, 'guided')}</section>`:''}</details>`; }
 function snapshot(plan, extras, guidedExtras={}) { return {source_version:activeSourceVersion(),rotation_week:plan.rotationWeek||null,week_key:plan.weekKey||null,focus:plan.focus,slots:planSlots(plan).map(slot=>({id:slot.id,exercise:slot.exercise,alternative:slot.alternative,third:slot.third})),warmup:plan.warmup||[],tendon:plan.tendon||[],recovery:plan.recovery||[],warmupExtras:guidedExtras.warmup||[],recoveryExtras:guidedExtras.recovery||[],extras:extras.map(item=>({id:item.exercise_id,exercise:item.exercise}))}; }
 async function addGuidedExtra(panel, exerciseId) {
   const date=iso(scheduledDate(state.dayIndex)), plan=displayPlan(state.dayIndex), existing=sessionForDate(date), dayExtras=state.extras.filter(item=>item.day_index===state.dayIndex);

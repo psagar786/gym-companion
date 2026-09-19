@@ -1,0 +1,38 @@
+{
+  "checkpoint": "V541-TWEAKS-LOCAL-REVIEW",
+  "branch": "codex/v541-release",
+  "replacementPairs": 2,
+  "replacementFiles": 4,
+  "replacementAssets": {
+    "lying-pelvic-tilt-leg-raise": {
+      "start": "assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-start.png",
+      "movement": "assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-movement.png",
+      "startSha256": "4591f0abfcdef35f973499386ab2723634e4277bb1d1e68a1a3841aafadae665",
+      "movementSha256": "2c9c3f72b5342e1f32b90d450d67c904a4a1f32646d7be3f7206a1322241255e"
+    },
+    "hanging-knee-tuck": {
+      "start": "assets/exercises/periodized-v4/hanging-knee-tuck-v4-start.png",
+      "movement": "assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.png",
+      "startSha256": "10267218b1c32d718aef78ed43915aa9efdd37efac455275201d9feac17c23b7",
+      "movementSha256": "6375808ce98e4a0354af6a0d5caa114a8f4e6b41eebacb3d330bbb65304c9ae1"
+    }
+  },
+  "explicitAliases": [
+    "Incline Treadmill Intervals -> approved Monday incline-walk pair",
+    "Single-Arm DB Row -> Saturday Single-Arm Dumbbell Row",
+    "Side-Plank Clamshells -> Saturday Side-Plank Clamshell",
+    "Single-Leg DB RDL -> Saturday Single-Leg Dumbbell RDL",
+    "Cable Upright Row (Wide) -> Saturday Cable Upright Row (Wide-Grip)"
+  ],
+  "duplicateFixes": [
+    "Removed same-name Lying Leg Curl alternative",
+    "Removed same-name Glute Bridge alternative"
+  ],
+  "reviewOnly": ["Cable Standing Abduction"],
+  "uiFixes": [
+    "Removed member-facing Demo mode banner",
+    "Closed warm-up and recovery details by default",
+    "Expanded exercise visual column to 112px mobile and 124px larger screens"
+  ],
+  "nextAtomicAction": "Local browser review at 320px, 390px and 430px"
+}
