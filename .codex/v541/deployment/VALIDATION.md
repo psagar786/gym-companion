@@ -74,3 +74,4 @@
 - Retained versions: V5, V5.2, and V5.4.1
 - Local backup restore: PASS
 - No service-role key configured in the member release.
+- Member environment names are limited to `MEMBER_APP_URL`, `DEMO_MODE`, and `APP_MODE` in Preview and Production; no service-role variable is present.
