@@ -24,3 +24,25 @@ Checkpoint: V541-SAT-02-SPECS-FROZEN
 - [ ] Human gym-coach approval pending
 
 Next gate: generate B01 only after reviewing the frozen specifications.
+
+- V541-SAT-periodized-glute-bridge-PAIR-COMPLETE: periodized-glute-bridge passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-dumbbell-glute-bridge-PAIR-COMPLETE: periodized-dumbbell-glute-bridge passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-single-leg-hip-thrust-PAIR-COMPLETE: periodized-single-leg-hip-thrust passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-machine-hip-thrust-PAIR-COMPLETE: periodized-machine-hip-thrust passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-kas-glute-bridge-PAIR-COMPLETE: periodized-kas-glute-bridge passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-wide-stance-leg-press-PAIR-COMPLETE: periodized-wide-stance-leg-press passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-side-plank-clamshell-PAIR-COMPLETE: periodized-side-plank-clamshell passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-single-arm-dumbbell-row-PAIR-COMPLETE: periodized-single-arm-dumbbell-row passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-chest-supported-t-bar-row-PAIR-COMPLETE: periodized-chest-supported-t-bar-row passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-periodized-dumbbell-stiff-leg-romanian-deadlift-PAIR-COMPLETE: periodized-dumbbell-stiff-leg-romanian-deadlift passed 512x512 PNG, hash uniqueness and file existence checks.
+
+- V541-SAT-B01-COMPLETE: periodized-single-leg-dumbbell-rdl passed 512x512 PNG, hash uniqueness and file existence checks.

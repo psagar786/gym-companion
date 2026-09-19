@@ -14,14 +14,26 @@
   "newGenerationFiles": 62,
   "activeNewSets": 29,
   "reviewOnlySets": 2,
-  "completedSets": 0,
-  "completedFiles": 0,
+  "completedSets": 11,
+  "completedFiles": 22,
   "currentBatch": "B01",
   "currentMovementId": null,
   "currentPhase": null,
   "failedMovementIds": [],
-  "completedMovementIds": [],
-  "currentCheckpoint": "V541-SAT-02-SPECS-FROZEN",
+  "completedMovementIds": [
+    "periodized-glute-bridge",
+    "periodized-dumbbell-glute-bridge",
+    "periodized-single-leg-hip-thrust",
+    "periodized-machine-hip-thrust",
+    "periodized-kas-glute-bridge",
+    "periodized-wide-stance-leg-press",
+    "periodized-side-plank-clamshell",
+    "periodized-single-arm-dumbbell-row",
+    "periodized-chest-supported-t-bar-row",
+    "periodized-dumbbell-stiff-leg-romanian-deadlift",
+    "periodized-single-leg-dumbbell-rdl"
+  ],
+  "currentCheckpoint": "V541-SAT-B01-COMPLETE",
   "lastCompletedCommit": "747b242",
-  "nextAtomicAction": "Generate Start for the first Saturday B01 movement after reviewing the frozen specification"
+  "nextAtomicAction": "Generate Start for the next Saturday B01 movement"
 }
