@@ -6,12 +6,21 @@
     "alias": "https://fitness7-gym-companion-member.vercel.app",
     "commit": "1eeda26337ec77bda2e9b89dd7b10511f5100b68"
   },
-  "releaseCommitSha": "",
-  "previewDeployment": null,
-  "productionDeployment": null,
+  "releaseCommitSha": "57a797ca739fdc8abe60eb529de17fe70dc1aea7",
+  "previewDeployment": {
+    "id": "dpl_GAYK8TmA91WuRiaqLT9kJRhgXKbX",
+    "url": "https://fitness7-gym-companion-member-6e4s3huz3-sagar-pm.vercel.app",
+    "commit": "78fb2d38aacfd28872bed33fbaa91ef8f3264a9f"
+  },
+  "productionDeployment": {
+    "id": "dpl_DFHPpQ9iezbEnZStRbKwqxgc5pNA",
+    "url": "https://fitness7-gym-companion-member-rguwz1xyj-sagar-pm.vercel.app",
+    "alias": "https://fitness7-gym-companion-member.vercel.app",
+    "commit": "57a797ca739fdc8abe60eb529de17fe70dc1aea7"
+  },
   "rollbackCommand": "vercel rollback <deployment-id>",
   "notes": [
-    "Refresh the previous deployment fields after authenticated Vercel inventory.",
+    "The existing v5.4.1 tag points to the previous production merge; v5.4.1-r1 identifies this release without rewriting the tag.",
     "Rollback restores deployment state only and must not alter member data."
   ]
 }

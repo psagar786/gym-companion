@@ -4,7 +4,8 @@
 
 - Repository: `psagar786/gym-companion`
 - Release branch: `codex/v541-release`
-- Source commit before release changes: `3530da11e3db330c59df6edcc1307162e553d498`
+- Release branch commit: `78fb2d38aacfd28872bed33fbaa91ef8f3264a9f`
+- Production merge commit: `57a797ca739fdc8abe60eb529de17fe70dc1aea7`
 - Current Vercel link metadata: `fitness7-gym-companion-member` / team ID recorded in `.vercel/project.json`
 
 ## Retained public versions
@@ -30,6 +31,10 @@ The following previously recorded projects remain online for comparison. After a
 ## Current access status
 
 - GitHub remote is correct.
-- Vercel CLI is not installed in this checkout.
-- Browser dashboard authentication and live Vercel usage are not yet verified in this session.
+- Vercel CLI 59.23.2 authenticated as `psagar786`.
+- Authorized team: `sagar-pm` (Hobby plan).
+- Permanent project: `fitness7-gym-companion-member`.
+- Preview deployment: `dpl_GAYK8TmA91WuRiaqLT9kJRhgXKbX`.
+- Production deployment: `dpl_DFHPpQ9iezbEnZStRbKwqxgc5pNA`.
+- Legacy `gitProviderOptions.createDeployments` is now `disabled` for all five recorded legacy projects.
 - No secret environment values are recorded here.

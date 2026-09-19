@@ -39,6 +39,38 @@
 
 ## Remaining release gates
 
-- GitHub push and remote `main` fetch require working network access.
-- Vercel team/project usage, environment variables, preview deployment, and production deployment require authenticated Vercel access.
-- Legacy Git-build freezing must be performed only after fresh project inventory.
+## V541-DEPLOY-03-PREVIEW-VERIFIED
+
+- Preview: `https://fitness7-gym-companion-member-6e4s3huz3-sagar-pm.vercel.app`
+- Deployment ID: `dpl_GAYK8TmA91WuRiaqLT9kJRhgXKbX`
+- Status: READY
+- `/api/config`: member/demo mode
+- Active WebP artwork: HTTP 200
+- V4 replacement artwork: HTTP 200
+- Legacy PNG master request: not deployed (HTTP 404)
+- GitHub CI and Vercel preview checks: PASS
+
+## V541-DEPLOY-04-PRODUCTION-VERIFIED
+
+- Production alias: `https://fitness7-gym-companion-member.vercel.app`
+- Deployment: `https://fitness7-gym-companion-member-rguwz1xyj-sagar-pm.vercel.app`
+- Deployment ID: `dpl_DFHPpQ9iezbEnZStRbKwqxgc5pNA`
+- Production merge commit: `57a797ca739fdc8abe60eb529de17fe70dc1aea7`
+- `/api/config`: member/demo mode
+- Active WebP artwork: HTTP 200
+- Release marker: `5.4.1`
+
+## V541-DEPLOY-05-VERSIONS-CONSOLIDATED
+
+- Vercel team: `sagar-pm` / Hobby plan
+- Active bundle: 8.66 MiB, below the 95 MiB release gate and documented 100 MB Hobby source limit.
+- Legacy automatic Git deployments: disabled for all five recorded legacy projects.
+- Existing legacy deployments remain online and were not deleted.
+- Existing `v5.4.1` tag was preserved; `v5.4.1-r1` identifies this artwork-bundle release without rewriting Git history.
+
+## Final release state
+
+- Pull request: `https://github.com/psagar786/gym-companion/pull/3`
+- Retained versions: V5, V5.2, and V5.4.1
+- Local backup restore: PASS
+- No service-role key configured in the member release.
