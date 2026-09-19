@@ -107,7 +107,7 @@ function biweeklyReadiness() {
   const approved=movements.filter(item=>item.artworkStatus==='complete'&&item.visualReviewStatus==='approved'&&item.coachReviewStatus==='approved');
   return { ready: movements.length>0&&approved.length===movements.length, approved:approved.length, total:movements.length };
 }
-function biweeklyPreviewMode() { return ['biweekly','periodized-abc'].includes(state.preferences.template_key)&&!biweeklyReadiness().ready; }
+function biweeklyPreviewMode() { return effectiveTemplateKey()==='periodized-abc'&&!biweeklyReadiness().ready; }
 // The active member experience is intentionally ABAC-only.  Historical
 // snapshots keep their original source_version, but the live selector and
 // renderer always resolve to the periodized A–B–A–C plan.
@@ -304,7 +304,7 @@ function biweeklyItem(item) {
 }
 function biweeklySourceItemById(id) { for (const day of biweekly.days || []) { const item=[...(day.warmup||[]),...(day.coreSlots||[]),...(day.optionalSlots||[]),...(day.cardio||[]),...(day.recovery||[])].find(candidate=>candidate.id===id); if(item) return item; } return null; }
 function periodizedSourceItemById(id) { for (const day of periodized.days || []) { const item=[...(day.warmup||[]),...(day.coreSlots||[]),...(day.optionalSlots||[]),...(day.cardio||[]),...(day.recovery||[])].find(candidate=>candidate.id===id); if(item) return item; } return null; }
-function resolveExerciseById(id) { return state.library.map(normalizeExercise).find(item=>item.id===id) || training.catalog.find(item=>item.id===id) || (state.preferences.template_key==='periodized-abc' ? biweeklyItem(periodizedSourceItemById(id)) : state.preferences.template_key==='biweekly' ? biweeklyItem(biweeklySourceItemById(id)) : null); }
+function resolveExerciseById(id) { return state.library.map(normalizeExercise).find(item=>item.id===id) || training.catalog.find(item=>item.id===id) || (effectiveTemplateKey()==='periodized-abc' ? biweeklyItem(periodizedSourceItemById(id)) : null); }
 function periodizedResolvedItem(item,tier) {
   if (!item) return item;
   const name=String(item.name||'').toLowerCase();
