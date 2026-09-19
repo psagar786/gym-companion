@@ -1,0 +1,771 @@
+{
+  "schemaVersion": "fitness7-friday-v3-artwork-v1",
+  "day": "Friday",
+  "generationQueue": [
+    {
+      "order": 1,
+      "canonicalMovementId": "periodized-stick-standing-trunk-rotation",
+      "displayName": "Stick Standing Trunk Rotation",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "warmup,core",
+      "equipment": "straight mobility stick across upper back, wide overhand grip",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-stick-standing-trunk-rotation-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-stick-standing-trunk-rotation-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Standing Trunk Rotation, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: straight mobility stick across upper back, wide overhand grip. Phase position: stick across upper back; feet shoulder-width; torso upright. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Standing Trunk Rotation, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: straight mobility stick across upper back, wide overhand grip. Phase position: rotate torso from neutral while hips and feet stay stable. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Stick Standing Trunk Rotation starting position",
+        "movement": "Fitness 7 illustration: Stick Standing Trunk Rotation working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "3d245ab4d45b2f9c2d90411ec37c2b805311616d8010a8ff873781b9a764b79b"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "f5669f2961e6deabc4d30e464ad647b61c1016cc16ee7b2a706484deca7a6804"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 2,
+      "canonicalMovementId": "periodized-standing-cable-woodchopper-low-to-high",
+      "displayName": "Standing Cable Woodchopper, Low-to-High",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "coreSlots,alternative",
+      "equipment": "low cable with D-handle",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-standing-cable-woodchopper-low-to-high-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-cable-woodchopper-low-to-high-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Standing Cable Woodchopper, Low-to-High, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: low cable with D-handle. Phase position: split stance, handle near outside hip. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Standing Cable Woodchopper, Low-to-High, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: low cable with D-handle. Phase position: sweep handle diagonally upward across the body without turning the hips. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Standing Cable Woodchopper, Low-to-High starting position",
+        "movement": "Fitness 7 illustration: Standing Cable Woodchopper, Low-to-High working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "8209b9c03ce40bddf629534b6376ffeff051ea7b6f3b70a63b9d4deb1decea5f"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "87b4254cfa926a63ef5d3e5eb91e14eee6f1ac6a088354ddc95b3609b4f82ebc"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 3,
+      "canonicalMovementId": "periodized-floor-reverse-crunch-with-pelvic-tilt",
+      "displayName": "Floor Reverse Crunch with Pelvic Tilt",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "coreSlots,alternative",
+      "equipment": "exercise mat, bodyweight",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-floor-reverse-crunch-with-pelvic-tilt-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-reverse-crunch-with-pelvic-tilt-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Floor Reverse Crunch with Pelvic Tilt, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: supine, knees bent, arms beside body. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Floor Reverse Crunch with Pelvic Tilt, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: curl pelvis upward using abdominal control; do not swing the legs. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Floor Reverse Crunch with Pelvic Tilt starting position",
+        "movement": "Fitness 7 illustration: Floor Reverse Crunch with Pelvic Tilt working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "f369410aef4b0c9ae4439f02beb0c037fc4c204eed4a7b203a2aba0b00d30221"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "af6b37aa853102e09509ca50daf50ad2577ab1f0876720078dafadfdd725865b"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 4,
+      "canonicalMovementId": "periodized-stick-overhead-lateral-side-bend",
+      "displayName": "Stick Overhead Lateral Side Bend",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "coreSlots",
+      "equipment": "straight mobility stick overhead",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-stick-overhead-lateral-side-bend-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-stick-overhead-lateral-side-bend-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Overhead Lateral Side Bend, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: straight mobility stick overhead. Phase position: feet planted, elbows extended, ribs stacked. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Stick Overhead Lateral Side Bend, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: straight mobility stick overhead. Phase position: lean trunk laterally through a comfortable range without rotating. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Stick Overhead Lateral Side Bend starting position",
+        "movement": "Fitness 7 illustration: Stick Overhead Lateral Side Bend working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "258451d6e2a50c6a748d6eb285a734c166c20fe6c02d77ad1fb9040f13fb8809"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "4c53490aa934b44999b17e8e8f2c18a75cbc50d28391df7349c3783908a92718"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 5,
+      "canonicalMovementId": "periodized-standard-forearm-plank",
+      "displayName": "Standard Forearm Plank",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "coreSlots,alternative",
+      "equipment": "exercise mat, bodyweight",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-standard-forearm-plank-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-standard-forearm-plank-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Standard Forearm Plank, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: elbows under shoulders, straight body line. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Standard Forearm Plank, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: hold neutral alignment with ribs down and glutes lightly braced. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Standard Forearm Plank starting position",
+        "movement": "Fitness 7 illustration: Standard Forearm Plank working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "3d11a98137ffe4cf384e0184e9696311b1735a8a61d198134aa5f9501137aa57"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "16b65c75c70fe2bd22a418478efcce3780241664e4b7868e76eb33f060518596"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 6,
+      "canonicalMovementId": "periodized-rkc-hardstyle-plank",
+      "displayName": "RKC Hardstyle Plank",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "coreSlots,alternative",
+      "equipment": "exercise mat, bodyweight",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for RKC Hardstyle Plank, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: forearms down, toes tucked, shoulders over elbows. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for RKC Hardstyle Plank, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: actively squeeze glutes and pull elbows toward toes without moving them. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: RKC Hardstyle Plank starting position",
+        "movement": "Fitness 7 illustration: RKC Hardstyle Plank working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "04f2a0c5a4961bf06093921d92d0c53215d559dbde0fecb4d937ff6839bce9b5"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "9ff4ab668b325586b9b6eace5c77ea5a08dd274c5ebb5ed431bab4ce884ee82b"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 7,
+      "canonicalMovementId": "periodized-extended-plank",
+      "displayName": "Extended Plank",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "exercise mat, bodyweight",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-extended-plank-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-extended-plank-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Extended Plank, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: hands forward of shoulders, legs extended. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Extended Plank, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: maintain a long body line while resisting lower-back extension. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Extended Plank starting position",
+        "movement": "Fitness 7 illustration: Extended Plank working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "d518549f2b89474bfc518487570fdc305326254da11127b2c0756c462dacd2b3"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "1fc7a4f1d66014b7a781cd719213f1ec60d96bb25c61675a0e83f0c97c88a8ff"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 8,
+      "canonicalMovementId": "periodized-hanging-windshield-wipers",
+      "displayName": "Hanging Windshield Wipers",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "fixed pull-up bar",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-hanging-windshield-wipers-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-hanging-windshield-wipers-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Hanging Windshield Wipers, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: fixed pull-up bar. Phase position: arms straight, legs together hanging. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Hanging Windshield Wipers, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: fixed pull-up bar. Phase position: rotate straight legs side to side under control; avoid swinging. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Hanging Windshield Wipers starting position",
+        "movement": "Fitness 7 illustration: Hanging Windshield Wipers working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "bd7b1b7d9ab92f16577258c0ba4d543c16add7ddb67da8b64673f0752ae29916"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "ede6734dca42207e3ef3e5aa572c6751ba7aa513fe9be010fba2350aa2b8b66d"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 9,
+      "canonicalMovementId": "periodized-dragon-flag-negatives",
+      "displayName": "Dragon Flag Negatives",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "flat bench with hands gripping behind head",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dragon Flag Negatives, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: flat bench with hands gripping behind head. Phase position: shoulders supported, body straight, legs together. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dragon Flag Negatives, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: flat bench with hands gripping behind head. Phase position: lower the rigid body slowly toward the bench while keeping hips extended. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Dragon Flag Negatives starting position",
+        "movement": "Fitness 7 illustration: Dragon Flag Negatives working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "46a7372afd95d0d096c2cbd0cc1de2b64132ec84d7f2d7252cc2dca2aaef7505"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "bcaffdb742f76b6e97ebb1fc48f047d8ee31a7b563c9530a8e2b79ba94befdc7"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 10,
+      "canonicalMovementId": "periodized-decline-leg-raise",
+      "displayName": "Decline Bench Leg Raise",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "decline bench, hands holding bench supports",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-decline-leg-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-decline-leg-raise-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Decline Bench Leg Raise, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: decline bench, hands holding bench supports. Phase position: supine on decline bench, legs straight. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Decline Bench Leg Raise, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: decline bench, hands holding bench supports. Phase position: raise legs by posteriorly tilting the pelvis, then control the descent. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Decline Bench Leg Raise starting position",
+        "movement": "Fitness 7 illustration: Decline Bench Leg Raise working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "0ad1a5bec123304ab3c292c3284ef5370e46912f2ad87ff8ef383da0882b51c8"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "79e51a88e7da59f3d36c057f81c5b6858d2f232d327765d312d86709799c58b0"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 11,
+      "canonicalMovementId": "periodized-cat-cow-mobility",
+      "displayName": "Cat-Cow Mobility",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "recovery",
+      "equipment": "exercise mat, bodyweight",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cat-cow-mobility-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cat-cow-mobility-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Cat-Cow Mobility, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: quadruped hands under shoulders, knees under hips. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Cat-Cow Mobility, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: alternate gentle spinal flexion and extension within a pain-free range. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Cat-Cow Mobility starting position",
+        "movement": "Fitness 7 illustration: Cat-Cow Mobility working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "fbae56214d0777e27193a96b53d335cc2a9ab34a617e534d3b4152915b2d6ca1"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "71fabad1f836e35188abc7f5d8c3d7b3048e416f28a99533b8f398553a2f45de"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 12,
+      "canonicalMovementId": "periodized-childs-pose",
+      "displayName": "Child’s Pose",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "recovery",
+      "equipment": "exercise mat, bodyweight",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-childs-pose-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-childs-pose-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Child’s Pose, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: hips toward heels, arms reaching forward. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Child’s Pose, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: breathe into a comfortable back and hip stretch without forcing range. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Child’s Pose starting position",
+        "movement": "Fitness 7 illustration: Child’s Pose working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "fa0f19f2b083702f52e136ec9030b227f2c347d79f2082bb1fbb35db8e0f8fd9"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "a0eaba2776e7f4ef04b022384fa83879bcf9d72b48322c3a86b0cb3e2fcc9f10"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 13,
+      "canonicalMovementId": "periodized-landmine-rotations",
+      "displayName": "Landmine Rotations",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "barbell anchored in a landmine sleeve",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-landmine-rotations-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-landmine-rotations-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Landmine Rotations, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: barbell anchored in a landmine sleeve. Phase position: both hands on bar end, feet shoulder-width. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Landmine Rotations, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: barbell anchored in a landmine sleeve. Phase position: guide the bar in an arc from one hip toward the opposite shoulder. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Landmine Rotations starting position",
+        "movement": "Fitness 7 illustration: Landmine Rotations working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "e1f013e52b9189c08a0c6dc6b45515d4a344271077c7f9bdfc29d782773175b4"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "11c7ea4ba08817e4366bf9ac17035c4304070f37a7356b66e3e4ccea7a9fb3a9"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 14,
+      "canonicalMovementId": "periodized-cable-side-crunch-on-mat",
+      "displayName": "Kneeling Cable Side Crunch on Mat",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "high cable with rope attachment and exercise mat",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-side-crunch-on-mat-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-side-crunch-on-mat-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Kneeling Cable Side Crunch on Mat, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: high cable with rope attachment and exercise mat. Phase position: kneel side-on, rope beside head, hips stacked. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Kneeling Cable Side Crunch on Mat, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: high cable with rope attachment and exercise mat. Phase position: shorten the side of the trunk toward the cable while hips remain still. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Kneeling Cable Side Crunch on Mat starting position",
+        "movement": "Fitness 7 illustration: Kneeling Cable Side Crunch on Mat working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "27da53a1a90d3dc445e9f6306feb5212bf0de17c4d30c2ffcd4623f148086001"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "9c7c8f7b04365f85f9240ce7d983a2bdf17e75716f96181e3c017ede0e5d0cbd"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 15,
+      "canonicalMovementId": "periodized-dead-bug",
+      "displayName": "Dead Bug",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "coreSlots,alternative",
+      "equipment": "exercise mat, bodyweight",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-dead-bug-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-dead-bug-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dead Bug, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: supine, hips and knees at 90 degrees, arms vertical. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Dead Bug, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: extend opposite arm and leg while keeping ribs and lower back controlled. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Dead Bug starting position",
+        "movement": "Fitness 7 illustration: Dead Bug working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "b00534621ab77c2547f4380443c436192d2037d34e3ef875b4b8d940b7115601"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "0f4c2f23874c7097ef2d37539b5d39a69ba148a8e3b83880370a4fe819331344"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 16,
+      "canonicalMovementId": "periodized-bicycle-kicks",
+      "displayName": "Bicycle Kicks",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "exercise mat, bodyweight",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-bicycle-kicks-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-bicycle-kicks-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Bicycle Kicks, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: supine, hands lightly behind head, knees bent. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Bicycle Kicks, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: exercise mat, bodyweight. Phase position: alternate opposite elbow toward knee without pulling the neck. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Bicycle Kicks starting position",
+        "movement": "Fitness 7 illustration: Bicycle Kicks working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "6f3ac98b677d6dd7d5c5fc14eefacc36bf12dde8c67b4894461f0d860b26eeec"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "ef4164572bc1d694a06af8269026f070caae8d6b5b97d5ac438b6f913c38fd70"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    {
+      "order": 17,
+      "canonicalMovementId": "periodized-decline-bench-russian-twists",
+      "displayName": "Decline Bench Russian Twists",
+      "day": "Friday",
+      "weekKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "role": "alternative",
+      "equipment": "decline bench, bodyweight",
+      "equipmentStatus": "review-before-generation",
+      "status": "generated",
+      "outputPaths": {
+        "start": "assets/exercises/periodized-v3/periodized-decline-bench-russian-twists-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-decline-bench-russian-twists-v3-movement.png"
+      },
+      "startPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Decline Bench Russian Twists, showing only the Start phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: decline bench, bodyweight. Phase position: seated on decline bench, hands together, feet anchored. Movement mechanics: stable setup before the repetition begins. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "movementPrompt": "Use case: scientific educational fitness guidance. Brand system: Fitness 7. Create one square instructional illustration for Decline Bench Russian Twists, showing only the Movement phase. One adult male athlete in black training clothes. Minimal charcoal gym environment, off-white athlete and equipment, restrained orange primary-muscle emphasis, muted-blue secondary-muscle emphasis, grey-green stabilizers. Equipment: decline bench, bodyweight. Phase position: rotate ribcage side to side while keeping the pelvis controlled. Movement mechanics: clear working position with controlled direction. Full athlete and equipment visible with at least 10% clear margin. Square 1:1, exactly 512x512 PNG after proportional contain-resize. No text, labels, logos, watermarks, white background, split view, collage, unrelated equipment, distorted anatomy, or cropped hands, feet, cables, bars, benches, weights, or machines.",
+      "altText": {
+        "start": "Fitness 7 illustration: Decline Bench Russian Twists starting position",
+        "movement": "Fitness 7 illustration: Decline Bench Russian Twists working position"
+      },
+      "technicalReviewStatus": "pass",
+      "semanticReviewStatus": "ai-review-pass",
+      "humanCoachReviewStatus": "pending",
+      "generationStatus": "complete",
+      "outputHashes": {
+        "start": {
+          "width": 512,
+          "height": 512,
+          "sha256": "00b4a35936bb9e05781d6f9f24ab8e457719e8d46ac02425aeac9ee83cfcb0dc"
+        },
+        "movement": {
+          "width": 512,
+          "height": 512,
+          "sha256": "261233b4723c60c63298eb422ae2b3be21f0a272a678900b3867fe4fb4de62d4"
+        }
+      },
+      "pairReview": {
+        "status": "technical-and-semantic-pass",
+        "humanCoachReviewStatus": "pending"
+      }
+    }
+  ]
+}

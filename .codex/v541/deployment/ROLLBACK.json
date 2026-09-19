@@ -1,18 +1,17 @@
 {
-  "status": "prepared-before-production",
-  "previousSourceCommit": "aa5039dc42a3042bd58aff6f6eb4700866eea6ea",
-  "previousProductionDeployment": null,
-  "previewDeployment": {
-    "id": "dpl_6SHFjtLuyqGs7K3Y5K8gAHvFJ2hu",
-    "url": "https://fitness7-gym-companion-member-72mkdl6ab-sagar-pm.vercel.app",
-    "commit": "9710adf"
+  "status": "prepared-before-release-promotion",
+  "previousProductionDeployment": {
+    "id": "dpl_AZ1YNnSXozGJZHk5xjZ2A7gmEapy",
+    "url": "https://fitness7-gym-companion-member-c9nzjub8b-sagar-pm.vercel.app",
+    "alias": "https://fitness7-gym-companion-member.vercel.app",
+    "commit": "1eeda26337ec77bda2e9b89dd7b10511f5100b68"
   },
-  "previousProductionUrl": null,
-  "releasePreviewUrl": null,
-  "releaseProductionUrl": null,
+  "releaseCommitSha": "",
+  "previewDeployment": null,
+  "productionDeployment": null,
   "rollbackCommand": "vercel rollback <deployment-id>",
   "notes": [
-    "Populate Vercel deployment fields only after authenticated project inventory.",
-    "Rollback must restore deployment state without altering member data."
+    "Refresh the previous deployment fields after authenticated Vercel inventory.",
+    "Rollback restores deployment state only and must not alter member data."
   ]
 }

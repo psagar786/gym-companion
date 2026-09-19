@@ -3,9 +3,13 @@
 batches
 output
 outputs
-assets/exercises/*
-!assets/exercises/periodized-v3/
-!assets/exercises/periodized-v3/**
+# Historical artwork directories stay local; only the active V3/V4 WebP copies
+# are shipped. PNG masters remain available in the source and release backup.
+assets/exercises/biweekly/
+assets/exercises/periodized/
+assets/exercises/periodized-v2/
+assets/exercises/periodized-v3/**/*.png
+assets/exercises/periodized-v4/**/*.png
 
 # Local backups and review material never belong in a public deployment.
 fitness7-backups

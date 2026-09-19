@@ -4,26 +4,41 @@
   "repository": "psagar786/gym-companion",
   "sourceBranch": "codex/v541-v2-art-integration",
   "releaseBranch": "codex/v541-release",
-  "currentCheckpoint": "V541-DEPLOY-04-PREVIEW-VERIFIED",
-  "completedUnits": ["BACKUP", "ACTIVE-ASSET-MANIFEST", "SOURCE-READY", "LOCAL-VERIFIED", "SOURCE-PUSHED", "VERCEL-LINKED", "PREVIEW-CREATED", "PREVIEW-VERIFIED"],
+  "currentCheckpoint": "V541-DEPLOY-02-ACTIVE-BUNDLE-READY",
+  "completedUnits": ["BACKUP", "ACTIVE-ASSET-MANIFEST", "ACTIVE-BUNDLE-VALIDATED", "LOCAL-VERIFIED"],
   "failedUnits": [],
-  "changedFiles": [".codex/v541/deployment/STATE.json", ".codex/v541/deployment/BACKUP-MANIFEST.json", ".codex/v541/deployment/PROJECT-INVENTORY.md", ".codex/v541/deployment/VALIDATION.md", ".codex/v541/deployment/ROLLBACK.json", ".codex/v541/deployment/ACTIVE-ASSET-MANIFEST.json", "data/periodized-v3-day-artwork.js", "scripts/build-periodized-v3-day-registry.mjs", "scripts/build-v541-active-asset-manifest.mjs", "scripts/validate-v541-day-artwork.mjs", "index.html", "member-app.js", ".vercelignore"],
+  "changedFiles": [
+    ".codex/v541/deployment/ACTIVE-ASSET-MANIFEST.json",
+    ".github/workflows/member-ci.yml",
+    ".vercelignore",
+    "data/periodized-v3-monday-artwork.js",
+    "data/periodized-v3-tuesday-artwork.js",
+    "data/periodized-v3-day-artwork.js",
+    "member-app.js",
+    "scripts/validate-v541-active-bundle.mjs",
+    "assets/exercises/periodized-v3/*.webp",
+    "assets/exercises/periodized-v4/*.webp",
+    "scripts/build-v541-active-asset-manifest.mjs"
+  ],
   "validationResults": {
-    "backupHashCheck": "pass",
-    "backupFiles": 1704,
-    "backupPath": "/Users/exxxy/Documents/Daily AI Help/fitness7-backups/v5.4.1-pre-deploy-2026-09-14/",
-    "activeAssetManifest": {"files": 272, "pairs": 136, "bytes": 91382384, "bundlePolicy": "periodized-v3 only; review and historical assets excluded"},
-    "localSmoke": {"server": "http://localhost:4178", "home": "pass", "monday": "pass", "tuesday": "pass", "wednesday": "pass", "thursday": "pass", "pendingFriday": "pass", "pendingSaturday": "not-run"},
-    "validators": {"syntax": "pass", "dayArtwork": "pass", "periodized": "pass-with-equipment-review-warnings", "memberRelease": "pass", "tuesdayRuntime": "pass"},
-    "githubPush": {"branch": "codex/v541-release", "commit": "415d094", "remote": "psagar786/gym-companion", "status": "pass"},
-    "vercelLink": {"team": "sagar-pm", "project": "fitness7-gym-companion-member", "status": "pass"},
-    "preview": {"url": "https://fitness7-gym-companion-member-72mkdl6ab-sagar-pm.vercel.app", "deploymentId": "dpl_6SHFjtLuyqGs7K3Y5K8gAHvFJ2hu", "readyState": "READY", "apiConfig": "member/demo", "browserSmoke": "pass"}
+    "sourceCommitBeforeReleaseChanges": "3530da11e3db330c59df6edcc1307162e553d498",
+    "backupPath": "/Users/exxxy/Documents/Daily AI Help/fitness7-backups/v5.4.1-release-2026-09-19/",
+    "backupRestore": "PASS",
+    "activeAssets": {"files": 390, "pairs": 195, "bytes": 9084964, "MiB": 8.66, "format": "WebP deployment copies; PNG masters retained locally"},
+    "syntax": "PASS",
+    "memberRelease": "PASS",
+    "periodizedAbac": "PASS_WITH_EXISTING_EQUIPMENT_REVIEW_WARNINGS",
+    "dayArtwork": "PASS",
+    "tuesdayRuntime": "PASS",
+    "activeBundle": "PASS",
+    "localConfig": "PASS",
+    "localArtworkRequest": "PASS"
   },
   "knownIssues": [
-    "Thursday artwork is incomplete: 15 of 24 new pairs are committed; 9 pairs remain pending.",
-    "Vercel CLI is not installed in this workspace; project inventory and linking remain pending.",
-    "Current app contains historical artwork namespaces that must not be deleted before active-asset mapping."
+    "Remote GitHub fetch/push and Vercel inspection require network and authentication access.",
+    "The historical three-week validator reports its existing non-blocking audit findings; the active member build uses ABAC.",
+    "Friday and Saturday runtime coverage remains explicit and must be checked in preview before production promotion."
   ],
-  "lastCommit": "d66f5be",
-  "nextAtomicAction": "Open a pull request from codex/v541-release to main"
+  "lastCommit": "3530da11e3db330c59df6edcc1307162e553d498",
+  "nextAtomicAction": "Commit the active WebP bundle and deployment validation changes, then push codex/v541-release"
 }

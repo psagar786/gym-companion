@@ -1,0 +1,264 @@
+{
+  "day": "Saturday",
+  "rules": "Reuse is allowed only when equipment, grip, stance, setup, joint path, working position and range match exactly.",
+  "approved": [
+    {
+      "canonicalMovementId": "periodized-seated-hip-adductor-machine",
+      "displayName": "Seated Hip Adductor Machine",
+      "sourceDay": "Wednesday",
+      "sourceCanonicalMovementId": "biweekly-seated-hip-adductor-machine",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine",
+        "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-cable-hip-adduction",
+      "displayName": "Cable Hip Adduction",
+      "sourceDay": "Wednesday",
+      "sourceCanonicalMovementId": "periodized-cable-hip-adduction",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Cable Hip Adduction",
+        "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Cable Hip Adduction"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-sumo-goblet-squat",
+      "displayName": "Sumo Goblet Squat",
+      "sourceDay": "Wednesday",
+      "sourceCanonicalMovementId": "periodized-wide-stance-sumo-goblet-squat",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Sumo Goblet Squat",
+        "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Sumo Goblet Squat"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-seated-cable-row",
+      "displayName": "Seated Cable Row to Mid-Torso / Seated Cable Row",
+      "sourceDay": "Monday",
+      "sourceCanonicalMovementId": "periodized-seated-cable-row",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso",
+        "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Seated Cable Row"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-meadows-row",
+      "displayName": "Meadows Row",
+      "sourceDay": "Monday",
+      "sourceCanonicalMovementId": "periodized-meadows-row",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Meadows Row",
+        "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Meadows Row"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-meadows-row-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-meadows-row-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-machine-row",
+      "displayName": "Machine Row",
+      "sourceDay": "Monday",
+      "sourceCanonicalMovementId": "periodized-machine-row",
+      "mappedRuntimeIds": [
+        "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Machine Row"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-machine-row-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-machine-row-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-seated-hip-abductor-machine",
+      "displayName": "Seated Hip Abductor Machine",
+      "sourceDay": "Wednesday",
+      "sourceCanonicalMovementId": "biweekly-seated-hip-abductor-machine",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine",
+        "biweekly-b-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-dumbbell-rdl",
+      "displayName": "Dumbbell RDL",
+      "sourceDay": "Wednesday",
+      "sourceCanonicalMovementId": "biweekly-dumbbell-romanian-deadlift-rdl",
+      "mappedRuntimeIds": [
+        "biweekly-b-6-conventional-slot-5-biweekly-conventional::Dumbbell RDL"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-romanian-barbell-deadlift",
+      "displayName": "Romanian Barbell Deadlift",
+      "sourceDay": "Wednesday",
+      "sourceCanonicalMovementId": "periodized-barbell-rdl",
+      "mappedRuntimeIds": [
+        "biweekly-b-6-conventional-slot-5-biweekly-conventional::Romanian Barbell Deadlift"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-stick-good-mornings",
+      "displayName": "Stick Good Mornings",
+      "sourceDay": "Wednesday",
+      "sourceCanonicalMovementId": "biweekly-stick-good-mornings",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings",
+        "biweekly-b-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-stick-torso-twists",
+      "displayName": "Stick Torso Twists",
+      "sourceDay": "Tuesday",
+      "sourceCanonicalMovementId": "biweekly-stick-standing-torso-twists",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists",
+        "biweekly-b-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-step-ups",
+      "displayName": "Step-Ups",
+      "sourceDay": "Wednesday",
+      "sourceCanonicalMovementId": "periodized-step-ups-on-bench",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Step-Ups",
+        "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style::Step-Ups"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-dead-bug",
+      "displayName": "Dead Bug",
+      "sourceDay": "Friday",
+      "sourceCanonicalMovementId": "periodized-dead-bug",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::split"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-dead-bug-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-dead-bug-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-dragon-flag-negatives",
+      "displayName": "Dragon Flag Negatives on Flat Bench",
+      "sourceDay": "Friday",
+      "sourceCanonicalMovementId": "periodized-dragon-flag-negatives",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::split",
+        "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-movement.png"
+      },
+      "decision": "reuse"
+    },
+    {
+      "canonicalMovementId": "periodized-hanging-knee-tuck",
+      "displayName": "Hanging Knee Tuck",
+      "sourceDay": "Tuesday",
+      "sourceCanonicalMovementId": "periodized-hanging-knee-raise",
+      "mappedRuntimeIds": [
+        "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Hanging Knee Tuck",
+        "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench::Hanging Knee Tuck"
+      ],
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
+        "movement": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png"
+      },
+      "decision": "reuse"
+    }
+  ],
+  "rejectedSimilarities": [
+    {
+      "saturday": "Chest-Supported T-Bar Row",
+      "candidate": "T-Bar Row",
+      "reason": "Saturday requires a chest pad; existing T-Bar image is unsupported landmine/T-bar rowing."
+    },
+    {
+      "saturday": "Bodyweight Walking Lunge",
+      "candidate": "Dumbbell Walking Lunges",
+      "reason": "External load and arm position differ."
+    },
+    {
+      "saturday": "Stick Hamstring Stretch",
+      "candidate": "Hamstring Stretch",
+      "reason": "Stick-assisted standing hinge differs from floor stretch."
+    },
+    {
+      "saturday": "Standard Cable Face Pull",
+      "candidate": "Cable Face Pull with External Rotation",
+      "reason": "Shoulder rotation finish and hand path differ."
+    },
+    {
+      "saturday": "Supported Stick Deep Squat Pry",
+      "candidate": "Stick Overhead Deep Squat Prys",
+      "reason": "Stick position and support mechanics differ."
+    },
+    {
+      "saturday": "Dumbbell Stiff-Leg Romanian Deadlift",
+      "candidate": "Dumbbell RDL",
+      "reason": "Knee angle and hinge range are intentionally distinct."
+    },
+    {
+      "saturday": "Nordic Hamstring Curl",
+      "candidate": "Nordic Curl Negatives",
+      "reason": "Full return versus eccentric-only direction."
+    }
+  ]
+}

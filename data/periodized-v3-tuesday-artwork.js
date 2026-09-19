@@ -41,8 +41,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Stick across chest; feet grounded for the base version; rotate from the trunk, not the arms.",
       "gripCue": "Stick across chest; feet grounded for the base version; rotate from the trunk, not the arms.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-seated-russian-twists-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-stick-seated-russian-twists"
@@ -76,8 +76,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Low cable at chest height; rotate the trunk, not just the shoulders.",
       "gripCue": "Low cable at chest height; rotate the trunk, not just the shoulders.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-russian-twist-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-cable-russian-twist"
@@ -111,8 +111,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Bodyweight only; keep the feet grounded and range comfortable.",
       "gripCue": "Bodyweight only; keep the feet grounded and range comfortable.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-bodyweight-twist-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-floor-bodyweight-twist"
@@ -146,8 +146,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Medicine ball stays close to the torso; no throwing or lumbar rounding.",
       "gripCue": "Medicine ball stays close to the torso; no throwing or lumbar rounding.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-medicine-ball-twists-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-medicine-ball-twists"
@@ -181,8 +181,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Legs together and straight; no momentum or lumbar arch.",
       "gripCue": "Legs together and straight; no momentum or lumbar arch.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-lying-pelvic-tilt-leg-raise-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-lying-pelvic-tilt-leg-raise"
@@ -216,8 +216,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Hands stabilize the bench; movement is a pelvic curl, not a leg swing.",
       "gripCue": "Hands stabilize the bench; movement is a pelvic curl, not a leg swing.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-bench-reverse-crunch-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-bench-reverse-crunch"
@@ -251,8 +251,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Cable handle at sternum height; square hips and shoulders; press directly away from the stack.",
       "gripCue": "Cable handle at sternum height; square hips and shoulders; press directly away from the stack.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-cable-pallof-press-with-iso-hold-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-cable-pallof-press-with-iso-hold"
@@ -287,8 +287,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Elbow under shoulder; hips high; do not rotate or shrug.",
       "gripCue": "Elbow under shoulder; hips high; do not rotate or shrug.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-side-plank-hold-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-side-plank-hold"
@@ -322,8 +322,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "One dumbbell only; short even steps; no leaning toward or away from the load.",
       "gripCue": "One dumbbell only; short even steps; no leaning toward or away from the load.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-db-suitcase-carry-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-db-suitcase-carry"
@@ -357,8 +357,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Stick across traps for the base movement; keep both feet planted.",
       "gripCue": "Stick across traps for the base movement; keep both feet planted.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-lateral-side-bends-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-stick-standing-lateral-side-bends"
@@ -392,8 +392,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Forearm vertical; shoulders and hips remain stacked.",
       "gripCue": "Forearm vertical; shoulders and hips remain stacked.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-side-plank-hip-dips-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-side-plank-hip-dips"
@@ -428,8 +428,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Cable remains above and to the side; hips stay square.",
       "gripCue": "Cable remains above and to the side; hips stay square.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-side-crunch-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-cable-side-crunch"
@@ -463,8 +463,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Forearms supported on the bench; brace without holding the breath.",
       "gripCue": "Forearms supported on the bench; brace without holding the breath.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-bench-plank-vacuum-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-incline-bench-plank-vacuum"
@@ -498,8 +498,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Small pain-free spinal range; abdomen stays active while breathing.",
       "gripCue": "Small pain-free spinal range; abdomen stays active while breathing.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-cat-cow-vacuum-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-cat-cow-vacuum"
@@ -533,8 +533,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Rope beside ears; hips stay over knees; movement comes from the trunk.",
       "gripCue": "Rope beside ears; hips stay over knees; movement comes from the trunk.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-kneeling-cable-rope-crunch-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-kneeling-cable-rope-crunch"
@@ -569,8 +569,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Stability ball fully visible; hands guide the head but do not pull the neck.",
       "gripCue": "Stability ball fully visible; hands guide the head but do not pull the neck.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-stability-ball-crunch-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-stability-ball-crunch"
@@ -605,8 +605,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Feet stay grounded; small trunk curl; neck remains relaxed.",
       "gripCue": "Feet stay grounded; small trunk curl; neck remains relaxed.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-crunch-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-floor-crunch"
@@ -641,8 +641,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Stick across chest; controlled thoracic rotation; no forced range.",
       "gripCue": "Stick across chest; controlled thoracic rotation; no forced range.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-stick-standing-torso-twists"
@@ -677,8 +677,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Stick remains stable; pelvis level; no hopping or leaning.",
       "gripCue": "Stick remains stable; pelvis level; no hopping or leaning.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-high-knee-marches-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-stick-high-knee-marches"
@@ -713,8 +713,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Elliptical machine; light hands; upright posture and conversational recovery between efforts.",
       "gripCue": "Elliptical machine; light hands; upright posture and conversational recovery between efforts.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-elliptical-intervals-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-intervals"
@@ -749,8 +749,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Stationary bike; seated posture; never sprint out of the saddle for this record.",
       "gripCue": "Stationary bike; seated posture; never sprint out of the saddle for this record.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-intervals"
@@ -785,8 +785,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Elbows remain soft and close; stop before lumbar pinching.",
       "gripCue": "Elbows remain soft and close; stop before lumbar pinching.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-cobra-pose-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-cobra-pose"
@@ -819,8 +819,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "High pulley to opposite hip; rotate as one unit without yanking with the arms.",
       "gripCue": "High pulley to opposite hip; rotate as one unit without yanking with the arms.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-standing-cable-woodchopper-high-to-low-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-standing-cable-woodchopper-high-to-low"
@@ -853,8 +853,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Dumbbell travels diagonally; pivot the feet slightly instead of wrenching the knees.",
       "gripCue": "Dumbbell travels diagonally; pivot the feet slightly instead of wrenching the knees.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-dumbbell-woodchopper-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-dumbbell-woodchopper"
@@ -887,8 +887,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Shoulder-width overhand grip; bent knees; no kipping or behind-the-body swing.",
       "gripCue": "Shoulder-width overhand grip; bent knees; no kipping or behind-the-body swing.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-hanging-knee-raise"
@@ -921,8 +921,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Half-kneeling stance; cable pulls sideways; overhead path stays in front of the face.",
       "gripCue": "Half-kneeling stance; cable pulls sideways; overhead path stays in front of the face.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-half-kneeling-cable-pallof-press-with-overhead-raise-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-half-kneeling-cable-pallof-press-with-overhead-raise"
@@ -955,8 +955,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Cable at sternum height; square shoulders and hips; no trunk twist.",
       "gripCue": "Cable at sternum height; square shoulders and hips; no trunk twist.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-standard-pallof-press-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-standard-pallof-press"
@@ -989,8 +989,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Forearm vertical; hips stay lifted; rotation comes from the trunk.",
       "gripCue": "Forearm vertical; hips stay lifted; rotation comes from the trunk.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-side-plank-hip-dips-with-rotation-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-side-plank-hip-dips-with-rotation"
@@ -1023,8 +1023,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "One dumbbell; hips stay still; small pain-free lateral range.",
       "gripCue": "One dumbbell; hips stay still; small pain-free lateral range.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-db-side-bend"
@@ -1057,8 +1057,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Upright stance; gentle abdominal draw-in; no breath-holding.",
       "gripCue": "Upright stance; gentle abdominal draw-in; no breath-holding.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-standing-seated-transverse-abdominis-stomach-vacuum"
@@ -1091,8 +1091,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Seated neutral spine; gentle effort; stop if light-headed.",
       "gripCue": "Seated neutral spine; gentle effort; stop if light-headed.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-seated-stomach-vacuum-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-standing-seated-transverse-abdominis-stomach-vacuum"
@@ -1125,8 +1125,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Maintain neutral spine and normal breathing; no rib flare or pelvic tuck.",
       "gripCue": "Maintain neutral spine and normal breathing; no rib flare or pelvic tuck.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-quadruped-vacuum-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-quadruped-vacuum"
@@ -1159,8 +1159,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Brace without breath-holding; keep the pelvis neutral.",
       "gripCue": "Brace without breath-holding; keep the pelvis neutral.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-plank-vacuum-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-plank-vacuum"
@@ -1193,8 +1193,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Quiet breathing and mild abdominal draw-in; no breath-holding or forced hollowing.",
       "gripCue": "Quiet breathing and mild abdominal draw-in; no breath-holding or forced hollowing.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-lying-vacuum-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "periodized-lying-vacuum"
@@ -1227,8 +1227,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Decline bench and plate on chest; do not pull the head or throw the torso forward.",
       "gripCue": "Decline bench and plate on chest; do not pull the head or throw the torso forward.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-decline-bench-weighted-crunch-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-decline-bench-weighted-crunch"
@@ -1261,8 +1261,8 @@ window.GYM_COMPANION_PERIODIZED_V3_TUESDAY_ARTWORK = {
       "directionCue": "Stick overhead; side bend only in a comfortable range; ribs stay controlled.",
       "gripCue": "Stick overhead; side bend only in a comfortable range; ribs stay controlled.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-side-stretch-v3-movement.webp"
       },
       "mappedRuntimeIds": [
         "biweekly-stick-overhead-side-stretch"

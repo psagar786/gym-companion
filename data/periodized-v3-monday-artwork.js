@@ -34,8 +34,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-chest-supported-incline-dumbbell-row-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-chest-supported-incline-dumbbell-row-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-chest-supported-incline-dumbbell-row-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-chest-supported-incline-dumbbell-row-v3-movement.webp"
       }
     },
     "biweekly-flat-dumbbell-bench-press": {
@@ -62,8 +62,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-flat-dumbbell-bench-press-v3-movement.webp"
       }
     },
     "biweekly-hanging-straight-leg-raise": {
@@ -92,8 +92,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Use a shoulder-width overhand grip on the fixed pull-up bar; legs stay together and straight, toes pointed slightly forward, with no kipping.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-raise-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-raise-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-raise-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-raise-v3-movement.webp"
       }
     },
     "biweekly-incline-barbell-bench-press-30": {
@@ -120,8 +120,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-incline-barbell-bench-press-30-v3-movement.webp"
       }
     },
     "periodized-incline-db-press": {
@@ -151,8 +151,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-movement.webp"
       }
     },
     "biweekly-incline-dumbbell-bench-press-30": {
@@ -179,8 +179,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-bench-press-30-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-bench-press-30-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-bench-press-30-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-bench-press-30-v3-movement.webp"
       }
     },
     "biweekly-incline-dumbbell-hex-press": {
@@ -209,8 +209,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-hex-press-v3-movement.webp"
       }
     },
     "biweekly-neutral-grip-mag-grip-lat-pulldown": {
@@ -237,8 +237,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Pull toward the target line by driving the elbows or hands along the specified path. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Use the handle's parallel neutral grips at shoulder width; secure both thighs under the pad, feet flat, and keep ribs stacked over the pelvis.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-neutral-grip-mag-grip-lat-pulldown-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-neutral-grip-mag-grip-lat-pulldown-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-neutral-grip-mag-grip-lat-pulldown-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-neutral-grip-mag-grip-lat-pulldown-v3-movement.webp"
       }
     },
     "biweekly-seated-cable-row-to-sternum-neutral-grip": {
@@ -265,8 +265,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-seated-cable-row-to-sternum-neutral-grip-v3-movement.webp"
       }
     },
     "biweekly-single-arm-iliac-cable-lat-pulldown": {
@@ -293,8 +293,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Use one neutral D-handle grip with the working arm overhead; half-kneeling stance keeps hips square and the free hand lightly braced on the thigh.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-single-arm-iliac-cable-lat-pulldown-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-single-arm-iliac-cable-lat-pulldown-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-single-arm-iliac-cable-lat-pulldown-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-single-arm-iliac-cable-lat-pulldown-v3-movement.webp"
       }
     },
     "biweekly-standing-low-to-high-cable-crossover": {
@@ -321,8 +321,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-standing-low-to-high-cable-crossover-v3-movement.webp"
       }
     },
     "biweekly-straight-arm-cable-pulldown": {
@@ -351,8 +351,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-straight-arm-cable-pulldown-v3-movement.webp"
       }
     },
     "biweekly-wide-grip-lat-pulldown": {
@@ -382,8 +382,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-wide-grip-lat-pulldown-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-wide-grip-lat-pulldown-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-wide-grip-lat-pulldown-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-wide-grip-lat-pulldown-v3-movement.webp"
       }
     },
     "biweekly-stick-around-the-worlds": {
@@ -413,8 +413,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-movement.webp"
       }
     },
     "biweekly-stick-behind-the-back-chest-opener": {
@@ -443,8 +443,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-chest-opener-v3-movement.webp"
       }
     },
     "biweekly-stick-behind-the-back-opener": {
@@ -473,8 +473,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-behind-the-back-opener-v3-movement.webp"
       }
     },
     "biweekly-stick-overhead-thoracic-extensions": {
@@ -501,8 +501,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-extensions-v3-movement.webp"
       }
     },
     "biweekly-stick-overhead-thoracic-spine-extensions": {
@@ -529,8 +529,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-thoracic-spine-extensions-v3-movement.webp"
       }
     },
     "biweekly-stick-shoulder-dislocates": {
@@ -558,8 +558,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-shoulder-dislocates-v3-movement.webp"
       }
     },
     "tendon-wrist-extensor-isometric": {
@@ -584,8 +584,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Brace or apply steady resistance without changing the joint position. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-movement.webp"
       }
     },
     "biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9": {
@@ -615,8 +615,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move at the specified steady or interval pace while maintaining posture. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.webp"
       }
     },
     "biweekly-doorway-pec-stretch": {
@@ -643,8 +643,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-doorway-pec-stretch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-doorway-pec-stretch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-doorway-pec-stretch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-doorway-pec-stretch-v3-movement.webp"
       }
     },
     "biweekly-doorway-stretch": {
@@ -671,8 +671,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-doorway-stretch-v3-movement.webp"
       }
     },
     "biweekly-overhead-lat-lengthener": {
@@ -699,8 +699,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-overhead-lat-lengthener-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-overhead-lat-lengthener-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-overhead-lat-lengthener-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-overhead-lat-lengthener-v3-movement.webp"
       }
     },
     "biweekly-stick-overhead-lat-stretch": {
@@ -727,8 +727,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-lat-stretch-v3-movement.webp"
       }
     },
     "biweekly-cable-face-pull-with-external-rotation": {
@@ -755,8 +755,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-cable-face-pull-with-external-rotation-v3-movement.webp"
       }
     },
     "biweekly-hanging-straight-leg-toes-to-bar": {
@@ -783,8 +783,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-hanging-straight-leg-toes-to-bar-v3-movement.webp"
       }
     },
     "periodized-ab-wheel-rollout": {
@@ -814,8 +814,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-v3-movement.webp"
       }
     },
     "periodized-assisted-neutral-chin-up": {
@@ -842,8 +842,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-assisted-neutral-chin-up-v3-movement.webp"
       }
     },
     "periodized-assisted-pull-ups": {
@@ -870,8 +870,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Pull toward the target line by driving the elbows or hands along the specified path. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-assisted-pull-ups-v3-movement.webp"
       }
     },
     "periodized-band-pull-apart": {
@@ -898,8 +898,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-band-pull-apart-v3-movement.webp"
       }
     },
     "periodized-cable-pushdown": {
@@ -926,8 +926,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Press or extend away from the start while keeping the trunk stacked. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-cable-pushdown-v3-movement.webp"
       }
     },
     "periodized-captain-s-chair-leg-raise": {
@@ -955,8 +955,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-captain-s-chair-leg-raise-v3-movement.webp"
       }
     },
     "periodized-chest-supported-db-row": {
@@ -983,8 +983,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-chest-supported-db-row-v3-movement.webp"
       }
     },
     "periodized-chest-supported-machine-row": {
@@ -1012,8 +1012,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Pull toward the target line by driving the elbows or hands along the specified path. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-chest-supported-machine-row-v3-movement.webp"
       }
     },
     "periodized-close-grip-incline-db-press": {
@@ -1040,8 +1040,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Press or extend away from the start while keeping the trunk stacked. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-close-grip-incline-db-press-v3-movement.webp"
       }
     },
     "periodized-db-pullover": {
@@ -1069,8 +1069,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Pull toward the target line by driving the elbows or hands along the specified path. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-db-pullover-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-db-pullover-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-db-pullover-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-db-pullover-v3-movement.webp"
       }
     },
     "periodized-deficit-push-ups": {
@@ -1097,8 +1097,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Press or extend away from the start while keeping the trunk stacked. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-deficit-push-ups-v3-movement.webp"
       }
     },
     "periodized-dumbbell-pullover-on-bench": {
@@ -1125,8 +1125,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Pull toward the target line by driving the elbows or hands along the specified path. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-dumbbell-pullover-on-bench-v3-movement.webp"
       }
     },
     "periodized-flat-barbell-bench": {
@@ -1154,8 +1154,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-flat-barbell-bench-v3-movement.webp"
       }
     },
     "periodized-flat-dumbbell-bench": {
@@ -1182,8 +1182,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-flat-dumbbell-bench-v3-movement.webp"
       }
     },
     "periodized-floor-leg-raise": {
@@ -1210,8 +1210,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-floor-leg-raise-v3-movement.webp"
       }
     },
     "periodized-incline-barbell-bench": {
@@ -1238,8 +1238,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-barbell-bench-v3-movement.webp"
       }
     },
     "periodized-incline-deficit-push-ups": {
@@ -1266,8 +1266,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Press or extend away from the start while keeping the trunk stacked. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-deficit-push-ups-v3-movement.webp"
       }
     },
     "periodized-incline-machine-fly": {
@@ -1294,8 +1294,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-machine-fly-v3-movement.webp"
       }
     },
     "periodized-incline-machine-press": {
@@ -1322,8 +1322,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Press or extend away from the start while keeping the trunk stacked. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-machine-press-v3-movement.webp"
       }
     },
     "periodized-incline-prone-db-y-raise": {
@@ -1350,8 +1350,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-prone-db-y-raise-v3-movement.webp"
       }
     },
     "periodized-incline-reverse-crunch": {
@@ -1379,8 +1379,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-movement.webp"
       }
     },
     "periodized-incline-smith-machine-press": {
@@ -1407,8 +1407,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-incline-smith-machine-press-v3-movement.webp"
       }
     },
     "periodized-kneeling-cable-lat-pull": {
@@ -1435,8 +1435,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-kneeling-cable-lat-pull-v3-movement.webp"
       }
     },
     "periodized-low-incline-cable-fly": {
@@ -1464,8 +1464,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-low-incline-cable-fly-v3-movement.webp"
       }
     },
     "periodized-machine-row": {
@@ -1493,8 +1493,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Pull toward the target line by driving the elbows or hands along the specified path. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-machine-row-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-machine-row-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-machine-row-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-machine-row-v3-movement.webp"
       }
     },
     "periodized-meadows-row": {
@@ -1524,8 +1524,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Pull toward the target line by driving the elbows or hands along the specified path. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-meadows-row-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-meadows-row-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-meadows-row-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-meadows-row-v3-movement.webp"
       }
     },
     "periodized-neutral-grip-mag-pulldown": {
@@ -1552,8 +1552,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Pull toward the target line by driving the elbows or hands along the specified path. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-neutral-grip-mag-pulldown-v3-movement.webp"
       }
     },
     "periodized-parallel-bar-dips": {
@@ -1581,8 +1581,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-parallel-bar-dips-v3-movement.webp"
       }
     },
     "periodized-plate-press": {
@@ -1609,8 +1609,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Press or extend away from the start while keeping the trunk stacked. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-plate-press-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-plate-press-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-plate-press-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-plate-press-v3-movement.webp"
       }
     },
     "periodized-reverse-pec-deck-fly": {
@@ -1637,8 +1637,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Move through the named range slowly and return without bouncing. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-reverse-pec-deck-fly-v3-movement.webp"
       }
     },
     "periodized-seated-cable-row": {
@@ -1667,8 +1667,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-movement.webp"
       }
     },
     "periodized-standing-plate-press": {
@@ -1695,8 +1695,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Press or extend away from the start while keeping the trunk stacked. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-plate-press-v3-movement.webp"
       }
     },
     "periodized-t-bar-row": {
@@ -1724,8 +1724,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Follow the Start and Movement positions shown; return under control. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-t-bar-row-v3-movement.webp"
       }
     },
     "periodized-weighted-push-ups": {
@@ -1752,8 +1752,8 @@ window.GYM_COMPANION_PERIODIZED_V3_MONDAY_ARTWORK = {
       "directionCue": "Press or extend away from the start while keeping the trunk stacked. Pain-free, controlled range specific to the movement; no forced end range.",
       "gripCue": "Show the exact grip or hand position named by the exercise; mark unknown grip for review. Show the exact foot or knee stance required by the movement; mark unknown stance for review.",
       "imageSet": {
-        "start": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-start.png",
-        "movement": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-movement.png"
+        "start": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-weighted-push-ups-v3-movement.webp"
       }
     }
   }
