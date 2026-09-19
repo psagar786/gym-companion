@@ -190,6 +190,7 @@ function biweeklyItem(item) {
     equipment:item.equipment||registry?.equipment,
     equipmentStatus:item.equipmentStatus||registry?.equipmentStatus,
     artworkStatus:registry?.artworkStatus||'pending',
+    reviewOnly:Boolean(registry?.reviewOnly),
     description:item.description||item.cardDescription||registry?.description||registry?.cardDescription,
     cardDescription:item.cardDescription||item.description||registry?.cardDescription||registry?.description,
     scheme:item.prescriptions?.[state.preferences.tier]||item.scheme||item.duration||'',
@@ -262,9 +263,10 @@ function periodizedPlan(dayIndex, date=scheduledDate(dayIndex)) {
   const day=periodizedDay(dayIndex,date); if(!day)return null;
   const tier=state.preferences.tier||periodized.defaultTier||'intermediate';
   const sourceSlots=day.coreSlots||[];
-  const slots=sourceSlots.map((rawItem,position)=>{const item=periodizedResolvedItem(rawItem,tier);return {id:item.id,position,exercise:biweeklyItem({...item,dayIndex}),alternative:item.alternatives?.[0]?biweeklyItem({...item,dayIndex,id:`${item.id}-alt-1`,name:item.alternatives[0],__alternative:true,imageSet:{}}):null,third:item.alternatives?.[1]?biweeklyItem({...item,dayIndex,id:`${item.id}-alt-2`,name:item.alternatives[1],__alternative:true,imageSet:{}}):null};});
-  const guided=items=>(items||[]).map(rawItem=>{const item=periodizedResolvedItem(rawItem,tier);const normalized=biweeklyItem({...item,dayIndex});return normalized?({...normalized,title:item.name,duration:item.prescriptions?.[tier]||normalized.scheme||'',image:previewImage(normalized),alt:normalized.alt_text||`Fitness 7 illustration: ${item.name}`,recommended:true}):null;}).filter(Boolean);
-  const optional=(day.optionalSlots||[]).filter(item=>item.levelEligibility?.[tier]!==false).map(item=>biweeklyItem({...item,dayIndex})).filter(Boolean);
+  const resolveSelectable=(rawItem, extra={})=>{const normalized=biweeklyItem({...rawItem,dayIndex,...extra});return normalized?.reviewOnly?null:normalized;};
+  const slots=sourceSlots.map((rawItem,position)=>{const item=periodizedResolvedItem(rawItem,tier);return {id:item.id,position,exercise:resolveSelectable(item),alternative:item.alternatives?.[0]?resolveSelectable(item,{id:`${item.id}-alt-1`,name:item.alternatives[0],__alternative:true,imageSet:{}}):null,third:item.alternatives?.[1]?resolveSelectable(item,{id:`${item.id}-alt-2`,name:item.alternatives[1],__alternative:true,imageSet:{}}):null};}).filter(slot=>slot.exercise);
+  const guided=items=>(items||[]).map(rawItem=>{const item=periodizedResolvedItem(rawItem,tier);const normalized=resolveSelectable(item);return normalized?({...normalized,title:item.name,duration:item.prescriptions?.[tier]||normalized.scheme||'',image:previewImage(normalized),alt:normalized.alt_text||`Fitness 7 illustration: ${item.name}`,recommended:true}):null;}).filter(Boolean);
+  const optional=(day.optionalSlots||[]).filter(item=>item.levelEligibility?.[tier]!==false).map(item=>resolveSelectable(item)).filter(Boolean);
   const tendonSource=v53Content.tendon?.[dayIndex] ? [v53Content.tendon[dayIndex]] : [];
   const tendon=tendonSource.map(item=>biweeklyItem(item)).filter(Boolean);
   return {id:`periodized-${day.weekKey}-${day.dayIndex}`,day_index:dayIndex,weekKey:day.weekKey,focus:day.focus,targetGroups:day.targetGroups,warmup:guided(day.warmup),tendon,recovery:guided([...(day.cardio||[]),...(day.recovery||[])]),member_plan_slots:slots,extras:optional,rotationWeek:periodized.cadence.indexOf(day.weekKey)+1,defaultChoice:0};

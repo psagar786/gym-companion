@@ -1,7 +1,7 @@
 window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
   "version": "periodized-v3-day-artwork-v1",
   "plan": "periodized-abc",
-  "generatedAt": "2026-09-15T03:58:31.354Z",
+  "generatedAt": "2026-09-19T13:25:53.520Z",
   "days": {
     "Wednesday": {
       "movements": {
@@ -29,7 +29,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-seated-hip-abductor-machine": {
           "stableMovementId": "biweekly-seated-hip-abductor-machine",
@@ -55,7 +56,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-dumbbell-romanian-deadlift-rdl": {
           "stableMovementId": "biweekly-dumbbell-romanian-deadlift-rdl",
@@ -81,7 +83,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-45-incline-leg-press-mid-stance": {
           "stableMovementId": "biweekly-45-incline-leg-press-mid-stance",
@@ -107,7 +110,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-45-incline-leg-press-mid-stance-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-lying-leg-curl-machine": {
           "stableMovementId": "biweekly-lying-leg-curl-machine",
@@ -133,7 +137,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-lying-leg-curl-machine-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-dumbbell-walking-lunges": {
           "stableMovementId": "biweekly-dumbbell-walking-lunges",
@@ -159,7 +164,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-wide-stance-sumo-goblet-squat": {
           "stableMovementId": "periodized-wide-stance-sumo-goblet-squat",
@@ -185,7 +191,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-cable-hip-adduction": {
           "stableMovementId": "periodized-cable-hip-adduction",
@@ -211,7 +218,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-side-lying-adduction": {
           "stableMovementId": "periodized-side-lying-adduction",
@@ -237,7 +245,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-side-lying-adduction-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-side-plank-abduction": {
           "stableMovementId": "periodized-side-plank-abduction",
@@ -263,7 +272,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-side-plank-abduction-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-barbell-rdl": {
           "stableMovementId": "periodized-barbell-rdl",
@@ -289,7 +299,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-cable-pull-through": {
           "stableMovementId": "periodized-cable-pull-through",
@@ -315,7 +326,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-cable-pull-through-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-goblet-squat-to-box": {
           "stableMovementId": "periodized-goblet-squat-to-box",
@@ -341,7 +353,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-goblet-squat-to-box-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-bodyweight-box-squat": {
           "stableMovementId": "periodized-bodyweight-box-squat",
@@ -367,7 +380,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-bodyweight-box-squat-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-dumbbell-lying-leg-curl": {
           "stableMovementId": "periodized-dumbbell-lying-leg-curl",
@@ -393,7 +407,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-dumbbell-lying-leg-curl-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-deficit-bulgarian-split-squat": {
           "stableMovementId": "periodized-deficit-bulgarian-split-squat",
@@ -419,7 +434,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-step-ups-on-bench": {
           "stableMovementId": "periodized-step-ups-on-bench",
@@ -445,7 +461,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-reverse-lunges": {
           "stableMovementId": "periodized-reverse-lunges",
@@ -471,7 +488,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-stick-overhead-deep-squat-prys": {
           "stableMovementId": "biweekly-stick-overhead-deep-squat-prys",
@@ -497,7 +515,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-stick-overhead-deep-squat-prys-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-stick-good-mornings": {
           "stableMovementId": "biweekly-stick-good-mornings",
@@ -523,7 +542,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-stick-lateral-leg-swings": {
           "stableMovementId": "biweekly-stick-lateral-leg-swings",
@@ -549,7 +569,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-stick-lateral-leg-swings-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-stick-quad-stretch": {
           "stableMovementId": "biweekly-stick-quad-stretch",
@@ -575,7 +596,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-stick-quad-stretch-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-butterfly-groin-stretch": {
           "stableMovementId": "biweekly-butterfly-groin-stretch",
@@ -601,7 +623,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-butterfly-groin-stretch-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-hamstring-stretch": {
           "stableMovementId": "biweekly-hamstring-stretch",
@@ -627,7 +650,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-hamstring-stretch-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-lying-leg-curl": {
           "stableMovementId": "periodized-lying-leg-curl",
@@ -1682,7 +1706,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-seated-dumbbell-overhead-shoulder-press-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-close-grip-v-bar-lat-pulldown": {
           "stableMovementId": "biweekly-close-grip-v-bar-lat-pulldown",
@@ -1708,7 +1733,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-close-grip-v-bar-lat-pulldown-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-seated-wide-grip-cable-row": {
           "stableMovementId": "biweekly-seated-wide-grip-cable-row",
@@ -1734,7 +1760,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-seated-wide-grip-cable-row-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-cable-fly": {
           "stableMovementId": "periodized-cable-fly",
@@ -1760,7 +1787,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-cable-fly-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-cable-fly-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-incline-dumbbell-curl": {
           "stableMovementId": "biweekly-incline-dumbbell-curl",
@@ -1786,7 +1814,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-incline-dumbbell-reverse-fly": {
           "stableMovementId": "periodized-incline-dumbbell-reverse-fly",
@@ -1812,7 +1841,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-incline-dumbbell-reverse-fly-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-machine-shoulder-press": {
           "stableMovementId": "periodized-machine-shoulder-press",
@@ -1838,7 +1868,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-machine-shoulder-press-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-arnold-press": {
           "stableMovementId": "periodized-arnold-press",
@@ -1864,7 +1895,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-arnold-press-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-arnold-press-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-standing-barbell-overhead-press": {
           "stableMovementId": "periodized-standing-barbell-overhead-press",
@@ -1890,7 +1922,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-standing-barbell-overhead-press-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-underhand-lat-pulldown": {
           "stableMovementId": "periodized-underhand-lat-pulldown",
@@ -1916,7 +1949,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-underhand-lat-pulldown-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-chin-ups": {
           "stableMovementId": "periodized-chin-ups",
@@ -1942,7 +1976,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-chin-ups-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-chin-ups-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-single-arm-cable-pulldown": {
           "stableMovementId": "periodized-single-arm-cable-pulldown",
@@ -1968,7 +2003,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-single-arm-cable-pulldown-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-incline-db-prone-row": {
           "stableMovementId": "periodized-incline-db-prone-row",
@@ -1994,7 +2030,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-incline-db-prone-row-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-standing-cable-crossover": {
           "stableMovementId": "periodized-standing-cable-crossover",
@@ -2020,7 +2057,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-standing-cable-crossover-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-dumbbell-incline-fly": {
           "stableMovementId": "periodized-dumbbell-incline-fly",
@@ -2046,7 +2084,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-dumbbell-incline-fly-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-rope-tricep-pressdown": {
           "stableMovementId": "periodized-rope-tricep-pressdown",
@@ -2072,7 +2111,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-rope-tricep-pressdown-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-rope-tricep-pressdown-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-ez-bar-curl-skullcrushers": {
           "stableMovementId": "periodized-ez-bar-curl-skullcrushers",
@@ -2098,7 +2138,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-ez-bar-curl-skullcrushers-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-ez-bar-curl-skullcrushers-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-cable-hammer-curl-dips": {
           "stableMovementId": "periodized-cable-hammer-curl-dips",
@@ -2124,7 +2165,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-cable-hammer-curl-dips-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-cable-hammer-curl-dips-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-concentration-curls": {
           "stableMovementId": "periodized-concentration-curls",
@@ -2150,7 +2192,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-concentration-curls-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-concentration-curls-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-incline-prone-db-reverse-fly": {
           "stableMovementId": "periodized-incline-prone-db-reverse-fly",
@@ -2176,7 +2219,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-incline-prone-db-reverse-fly-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-incline-prone-db-reverse-fly-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-stick-dislocates": {
           "stableMovementId": "biweekly-stick-dislocates",
@@ -2202,7 +2246,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-stick-dislocates-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-stick-dislocates-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-stick-lat-stretch": {
           "stableMovementId": "biweekly-stick-lat-stretch",
@@ -2228,7 +2273,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-stick-doorway-chest-stretch": {
           "stableMovementId": "biweekly-stick-doorway-chest-stretch",
@@ -2254,7 +2300,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-stick-doorway-chest-stretch-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-stick-doorway-chest-stretch-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-cross-body-stretch": {
           "stableMovementId": "biweekly-cross-body-stretch",
@@ -2280,7 +2327,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/biweekly-cross-body-stretch-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-cross-body-stretch-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "biweekly-stick-behind-the-back-chest-opener": {
           "stableMovementId": "biweekly-stick-behind-the-back-chest-opener",
@@ -3450,7 +3498,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-stick-standing-trunk-rotation-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-stick-standing-trunk-rotation-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-standing-cable-woodchopper-low-to-high": {
           "stableMovementId": "periodized-standing-cable-woodchopper-low-to-high",
@@ -3476,7 +3525,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-standing-cable-woodchopper-low-to-high-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-standing-cable-woodchopper-low-to-high-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-floor-reverse-crunch-with-pelvic-tilt": {
           "stableMovementId": "periodized-floor-reverse-crunch-with-pelvic-tilt",
@@ -3502,7 +3552,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-floor-reverse-crunch-with-pelvic-tilt-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-floor-reverse-crunch-with-pelvic-tilt-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-stick-overhead-lateral-side-bend": {
           "stableMovementId": "periodized-stick-overhead-lateral-side-bend",
@@ -3528,7 +3579,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-stick-overhead-lateral-side-bend-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-stick-overhead-lateral-side-bend-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-standard-forearm-plank": {
           "stableMovementId": "periodized-standard-forearm-plank",
@@ -3554,7 +3606,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-standard-forearm-plank-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-standard-forearm-plank-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-rkc-hardstyle-plank": {
           "stableMovementId": "periodized-rkc-hardstyle-plank",
@@ -3580,7 +3633,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-extended-plank": {
           "stableMovementId": "periodized-extended-plank",
@@ -3606,7 +3660,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-extended-plank-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-extended-plank-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-hanging-windshield-wipers": {
           "stableMovementId": "periodized-hanging-windshield-wipers",
@@ -3632,7 +3687,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-hanging-windshield-wipers-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-hanging-windshield-wipers-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-dragon-flag-negatives": {
           "stableMovementId": "periodized-dragon-flag-negatives",
@@ -3658,7 +3714,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-decline-leg-raise": {
           "stableMovementId": "periodized-decline-leg-raise",
@@ -3684,7 +3741,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-decline-leg-raise-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-decline-leg-raise-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-cat-cow-mobility": {
           "stableMovementId": "periodized-cat-cow-mobility",
@@ -3710,7 +3768,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-cat-cow-mobility-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-cat-cow-mobility-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-childs-pose": {
           "stableMovementId": "periodized-childs-pose",
@@ -3736,7 +3795,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-childs-pose-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-childs-pose-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-landmine-rotations": {
           "stableMovementId": "periodized-landmine-rotations",
@@ -3762,7 +3822,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-landmine-rotations-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-landmine-rotations-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-cable-side-crunch-on-mat": {
           "stableMovementId": "periodized-cable-side-crunch-on-mat",
@@ -3788,7 +3849,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-cable-side-crunch-on-mat-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-cable-side-crunch-on-mat-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-dead-bug": {
           "stableMovementId": "periodized-dead-bug",
@@ -3814,7 +3876,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-dead-bug-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-dead-bug-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-bicycle-kicks": {
           "stableMovementId": "periodized-bicycle-kicks",
@@ -3840,7 +3903,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-bicycle-kicks-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-bicycle-kicks-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-decline-bench-russian-twists": {
           "stableMovementId": "periodized-decline-bench-russian-twists",
@@ -3866,11 +3930,12 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "start": "assets/exercises/periodized-v3/periodized-decline-bench-russian-twists-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-decline-bench-russian-twists-v3-movement.png"
           },
-          "sourceRows": []
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-stick-around-the-worlds": {
           "stableMovementId": "periodized-stick-around-the-worlds",
-          "name": "Stick Around The Worlds",
+          "name": "Stick Around-the-Worlds",
           "roles": [
             "reuse"
           ],
@@ -3885,8 +3950,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "semanticReviewStatus": "pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Stick Around The Worlds starting position",
-          "altMovement": "Fitness 7 illustration: Stick Around The Worlds working position",
+          "altStart": "Fitness 7 illustration: Stick Around-the-Worlds starting position",
+          "altMovement": "Fitness 7 illustration: Stick Around-the-Worlds working position",
           "imageSet": {
             "start": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-stick-around-the-worlds-v3-movement.png"
@@ -3945,7 +4010,7 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         },
         "periodized-incline-bench-reverse-crunch": {
           "stableMovementId": "periodized-incline-bench-reverse-crunch",
-          "name": "Incline Bench Reverse Crunch",
+          "name": "Incline Bench Reverse Crunch with Pelvic Curl",
           "roles": [
             "reuse"
           ],
@@ -3960,8 +4025,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "semanticReviewStatus": "pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Incline Bench Reverse Crunch starting position",
-          "altMovement": "Fitness 7 illustration: Incline Bench Reverse Crunch working position",
+          "altStart": "Fitness 7 illustration: Incline Bench Reverse Crunch with Pelvic Curl starting position",
+          "altMovement": "Fitness 7 illustration: Incline Bench Reverse Crunch with Pelvic Curl working position",
           "imageSet": {
             "start": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-incline-reverse-crunch-v3-movement.png"
@@ -4145,7 +4210,7 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         },
         "periodized-light-db-side-bend": {
           "stableMovementId": "periodized-light-db-side-bend",
-          "name": "Light Db Side Bend",
+          "name": "Light DB Side Bend",
           "roles": [
             "reuse"
           ],
@@ -4160,8 +4225,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "semanticReviewStatus": "pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Light Db Side Bend starting position",
-          "altMovement": "Fitness 7 illustration: Light Db Side Bend working position",
+          "altStart": "Fitness 7 illustration: Light DB Side Bend starting position",
+          "altMovement": "Fitness 7 illustration: Light DB Side Bend working position",
           "imageSet": {
             "start": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-db-side-bend-v3-movement.png"
@@ -4320,7 +4385,7 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         },
         "periodized-bike-sprint-intervals": {
           "stableMovementId": "periodized-bike-sprint-intervals",
-          "name": "Bike Sprint Intervals",
+          "name": "Stationary Bike Sprint Intervals",
           "roles": [
             "reuse"
           ],
@@ -4335,8 +4400,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "semanticReviewStatus": "pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Bike Sprint Intervals starting position",
-          "altMovement": "Fitness 7 illustration: Bike Sprint Intervals working position",
+          "altStart": "Fitness 7 illustration: Stationary Bike Sprint Intervals starting position",
+          "altMovement": "Fitness 7 illustration: Stationary Bike Sprint Intervals working position",
           "imageSet": {
             "start": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-start.png",
             "movement": "assets/exercises/periodized-v3/periodized-bike-sprint-intervals-v3-movement.png"
@@ -4370,7 +4435,7 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         },
         "periodized-stick-lat-oblique-reach": {
           "stableMovementId": "periodized-stick-lat-oblique-reach",
-          "name": "Stick Lat Oblique Reach",
+          "name": "Stick Lat & Oblique Reach",
           "roles": [
             "reuse"
           ],
@@ -4385,8 +4450,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "semanticReviewStatus": "pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Stick Lat Oblique Reach starting position",
-          "altMovement": "Fitness 7 illustration: Stick Lat Oblique Reach working position",
+          "altStart": "Fitness 7 illustration: Stick Lat & Oblique Reach starting position",
+          "altMovement": "Fitness 7 illustration: Stick Lat & Oblique Reach working position",
           "imageSet": {
             "start": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-start.png",
             "movement": "assets/exercises/periodized-v3/biweekly-stick-lat-stretch-v3-movement.png"
@@ -4395,7 +4460,7 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         },
         "tendon-wrist-extensor-isometric": {
           "stableMovementId": "tendon-wrist-extensor-isometric",
-          "name": "Tendon Wrist Extensor Isometric",
+          "name": "Wrist Extensor Isometric",
           "roles": [
             "reuse"
           ],
@@ -4410,8 +4475,8 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "semanticReviewStatus": "pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Tendon Wrist Extensor Isometric starting position",
-          "altMovement": "Fitness 7 illustration: Tendon Wrist Extensor Isometric working position",
+          "altStart": "Fitness 7 illustration: Wrist Extensor Isometric starting position",
+          "altMovement": "Fitness 7 illustration: Wrist Extensor Isometric working position",
           "imageSet": {
             "start": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-start.png",
             "movement": "assets/exercises/periodized-v3/tendon-wrist-extensor-isometric-v3-movement.png"
@@ -4542,6 +4607,9 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         "periodized-incline-bench-reverse-crunch": {
           "canonicalMovementId": "periodized-incline-bench-reverse-crunch"
         },
+        "periodized-incline-bench-reverse-crunch-with-pelvic-curl": {
+          "canonicalMovementId": "periodized-incline-bench-reverse-crunch"
+        },
         "periodized-russian-twists": {
           "canonicalMovementId": "periodized-russian-twists"
         },
@@ -4587,6 +4655,9 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         "periodized-bike-sprint-intervals": {
           "canonicalMovementId": "periodized-bike-sprint-intervals"
         },
+        "periodized-stationary-bike-sprint-intervals": {
+          "canonicalMovementId": "periodized-bike-sprint-intervals"
+        },
         "periodized-incline-walk": {
           "canonicalMovementId": "periodized-incline-walk"
         },
@@ -4596,7 +4667,7 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         "tendon-wrist-extensor-isometric": {
           "canonicalMovementId": "tendon-wrist-extensor-isometric"
         },
-        "periodized-tendon-wrist-extensor-isometric": {
+        "periodized-wrist-extensor-isometric": {
           "canonicalMovementId": "tendon-wrist-extensor-isometric"
         },
         "biweekly-stick-around-the-worlds": {
@@ -4629,9 +4700,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         "periodized-standard-forearm-plank-to-rkc-hardstyle-plank": {
           "canonicalMovementId": "periodized-standard-forearm-plank"
         },
-        "periodized-incline-bench-reverse-crunch-with-pelvic-curl": {
-          "canonicalMovementId": "periodized-incline-bench-reverse-crunch"
-        },
         "periodized-hanging-straight-leg-raise": {
           "canonicalMovementId": "periodized-hanging-leg-raise"
         },
@@ -4645,9 +4713,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "canonicalMovementId": "periodized-incline-walk"
         },
         "v53-tendon-wrist-extensor-isometric": {
-          "canonicalMovementId": "tendon-wrist-extensor-isometric"
-        },
-        "periodized-wrist-extensor-isometric": {
           "canonicalMovementId": "tendon-wrist-extensor-isometric"
         },
         "biweekly-a-5-floor-reverse-crunch-with-pelvic-tilt-slot-2-biweekly-floor-reverse-crunch-with-pelvic-tilt": {
@@ -4691,6 +4756,12 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         },
         "biweekly-standing-cable-woodchopper-low-to-high": {
           "canonicalMovementId": "periodized-standing-cable-woodchopper-low-to-high"
+        },
+        "biweekly-b-5-incline-bench-reverse-crunch-with-pelvic-curl-slot-2-biweekly-incline-bench-reverse-crunch-with-pelvic-curl": {
+          "canonicalMovementId": "periodized-incline-bench-reverse-crunch"
+        },
+        "biweekly-incline-bench-reverse-crunch-with-pelvic-curl": {
+          "canonicalMovementId": "periodized-incline-bench-reverse-crunch"
         },
         "biweekly-b-5-ab-wheel-rollout-from-knees-slot-4-biweekly-ab-wheel-rollout-from-knees": {
           "canonicalMovementId": "periodized-dead-bug"
@@ -4740,9 +4811,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         "biweekly-a-5-intervals-cardio-2-biweekly-intervals": {
           "canonicalMovementId": "periodized-incline-walk"
         },
-        "biweekly-b-5-incline-bench-reverse-crunch-with-pelvic-curl-slot-2-biweekly-incline-bench-reverse-crunch-with-pelvic-curl": {
-          "canonicalMovementId": "periodized-incline-bench-reverse-crunch"
-        },
         "biweekly-b-5-cable-side-crunch-on-mat-slot-3-biweekly-cable-side-crunch-on-mat": {
           "canonicalMovementId": "periodized-cable-side-crunch-on-mat"
         },
@@ -4760,26 +4828,407 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
     },
     "Saturday": {
       "movements": {
-        "periodized-glute-bridge": {
-          "stableMovementId": "periodized-glute-bridge",
-          "name": "Glute Bridge",
+        "periodized-seated-hip-adductor-machine": {
+          "stableMovementId": "periodized-seated-hip-adductor-machine",
+          "name": "Seated Hip Adductor Machine",
           "roles": [
-            "coreSlots"
+            "reuse"
           ],
           "weekKeys": [
             "A",
             "B",
             "C"
           ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
           "visualReviewStatus": "pending",
           "semanticReviewStatus": "pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Glute Bridge starting position",
-          "altMovement": "Fitness 7 illustration: Glute Bridge working position",
-          "imageSet": {}
+          "altStart": "Fitness 7 illustration: Seated Hip Adductor Machine starting position",
+          "altMovement": "Fitness 7 illustration: Seated Hip Adductor Machine working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-adductor-machine-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-cable-hip-adduction": {
+          "stableMovementId": "periodized-cable-hip-adduction",
+          "name": "Cable Hip Adduction",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Cable Hip Adduction starting position",
+          "altMovement": "Fitness 7 illustration: Cable Hip Adduction working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-cable-hip-adduction-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-sumo-goblet-squat": {
+          "stableMovementId": "periodized-sumo-goblet-squat",
+          "name": "Sumo Goblet Squat",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Sumo Goblet Squat starting position",
+          "altMovement": "Fitness 7 illustration: Sumo Goblet Squat working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-wide-stance-sumo-goblet-squat-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-seated-cable-row": {
+          "stableMovementId": "periodized-seated-cable-row",
+          "name": "Seated Cable Row to Mid-Torso / Seated Cable Row",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Seated Cable Row to Mid-Torso / Seated Cable Row starting position",
+          "altMovement": "Fitness 7 illustration: Seated Cable Row to Mid-Torso / Seated Cable Row working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-seated-cable-row-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-meadows-row": {
+          "stableMovementId": "periodized-meadows-row",
+          "name": "Meadows Row",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Meadows Row starting position",
+          "altMovement": "Fitness 7 illustration: Meadows Row working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-meadows-row-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-meadows-row-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-machine-row": {
+          "stableMovementId": "periodized-machine-row",
+          "name": "Machine Row",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Machine Row starting position",
+          "altMovement": "Fitness 7 illustration: Machine Row working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-machine-row-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-machine-row-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-seated-hip-abductor-machine": {
+          "stableMovementId": "periodized-seated-hip-abductor-machine",
+          "name": "Seated Hip Abductor Machine",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Seated Hip Abductor Machine starting position",
+          "altMovement": "Fitness 7 illustration: Seated Hip Abductor Machine working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/biweekly-seated-hip-abductor-machine-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-dumbbell-rdl": {
+          "stableMovementId": "periodized-dumbbell-rdl",
+          "name": "Dumbbell RDL",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Dumbbell RDL starting position",
+          "altMovement": "Fitness 7 illustration: Dumbbell RDL working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-romanian-deadlift-rdl-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-romanian-barbell-deadlift": {
+          "stableMovementId": "periodized-romanian-barbell-deadlift",
+          "name": "Romanian Barbell Deadlift",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Romanian Barbell Deadlift starting position",
+          "altMovement": "Fitness 7 illustration: Romanian Barbell Deadlift working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-barbell-rdl-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-stick-good-mornings": {
+          "stableMovementId": "periodized-stick-good-mornings",
+          "name": "Stick Good Mornings",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Stick Good Mornings starting position",
+          "altMovement": "Fitness 7 illustration: Stick Good Mornings working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/biweekly-stick-good-mornings-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-stick-torso-twists": {
+          "stableMovementId": "periodized-stick-torso-twists",
+          "name": "Stick Torso Twists",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Stick Torso Twists starting position",
+          "altMovement": "Fitness 7 illustration: Stick Torso Twists working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/biweekly-stick-standing-torso-twists-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-step-ups": {
+          "stableMovementId": "periodized-step-ups",
+          "name": "Step-Ups",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Step-Ups starting position",
+          "altMovement": "Fitness 7 illustration: Step-Ups working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-step-ups-on-bench-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-dead-bug": {
+          "stableMovementId": "periodized-dead-bug",
+          "name": "Dead Bug",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Dead Bug starting position",
+          "altMovement": "Fitness 7 illustration: Dead Bug working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-dead-bug-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-dead-bug-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-dragon-flag-negatives": {
+          "stableMovementId": "periodized-dragon-flag-negatives",
+          "name": "Dragon Flag Negatives on Flat Bench",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Dragon Flag Negatives on Flat Bench starting position",
+          "altMovement": "Fitness 7 illustration: Dragon Flag Negatives on Flat Bench working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-dragon-flag-negatives-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-hanging-knee-tuck": {
+          "stableMovementId": "periodized-hanging-knee-tuck",
+          "name": "Hanging Knee Tuck",
+          "roles": [
+            "reuse"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipmentStatus": "approved reuse from Monday V3",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "pending",
+          "semanticReviewStatus": "pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Hanging Knee Tuck starting position",
+          "altMovement": "Fitness 7 illustration: Hanging Knee Tuck working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-hanging-knee-raise-v3-movement.png"
+          },
+          "source": "Monday V3"
+        },
+        "periodized-glute-bridge": {
+          "stableMovementId": "periodized-glute-bridge",
+          "name": "Bodyweight Glute Bridge",
+          "roles": [
+            "core"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Bodyweight on exercise mat",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Bodyweight Glute Bridge starting position",
+          "altMovement": "Fitness 7 illustration: Bodyweight Glute Bridge working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-glute-bridge-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-glute-bridge-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-dumbbell-glute-bridge": {
           "stableMovementId": "periodized-dumbbell-glute-bridge",
@@ -4792,15 +5241,21 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "B",
             "C"
           ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
+          "equipment": "One dumbbell held across the pelvis with a pad",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
           "altStart": "Fitness 7 illustration: Dumbbell Glute Bridge starting position",
           "altMovement": "Fitness 7 illustration: Dumbbell Glute Bridge working position",
-          "imageSet": {}
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-dumbbell-glute-bridge-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-dumbbell-glute-bridge-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-single-leg-hip-thrust": {
           "stableMovementId": "periodized-single-leg-hip-thrust",
@@ -4813,15 +5268,21 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "B",
             "C"
           ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
+          "equipment": "Flat bench and bodyweight",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
           "altStart": "Fitness 7 illustration: Single-Leg Hip Thrust starting position",
           "altMovement": "Fitness 7 illustration: Single-Leg Hip Thrust working position",
-          "imageSet": {}
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-single-leg-hip-thrust-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-single-leg-hip-thrust-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-machine-hip-thrust": {
           "stableMovementId": "periodized-machine-hip-thrust",
@@ -4834,36 +5295,48 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "B",
             "C"
           ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
+          "equipment": "Hip-thrust machine with padded belt",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
           "altStart": "Fitness 7 illustration: Machine Hip Thrust starting position",
           "altMovement": "Fitness 7 illustration: Machine Hip Thrust working position",
-          "imageSet": {}
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-machine-hip-thrust-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-machine-hip-thrust-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
         },
-        "periodized-seated-hip-adductor-machine": {
-          "stableMovementId": "periodized-seated-hip-adductor-machine",
-          "name": "Seated Hip Adductor Machine",
+        "periodized-kas-glute-bridge": {
+          "stableMovementId": "periodized-kas-glute-bridge",
+          "name": "Kas Glute Bridge",
           "roles": [
-            "coreSlots"
+            "core"
           ],
           "weekKeys": [
             "A",
             "B",
             "C"
           ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
+          "equipment": "Flat bench and padded dumbbell across pelvis",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Seated Hip Adductor Machine starting position",
-          "altMovement": "Fitness 7 illustration: Seated Hip Adductor Machine working position",
-          "imageSet": {}
+          "altStart": "Fitness 7 illustration: Kas Glute Bridge starting position",
+          "altMovement": "Fitness 7 illustration: Kas Glute Bridge working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-kas-glute-bridge-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-kas-glute-bridge-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
         },
         "periodized-wide-stance-leg-press": {
           "stableMovementId": "periodized-wide-stance-leg-press",
@@ -4876,19 +5349,25 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "B",
             "C"
           ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
+          "equipment": "45-degree leg-press machine",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
           "altStart": "Fitness 7 illustration: Wide-Stance Leg Press starting position",
           "altMovement": "Fitness 7 illustration: Wide-Stance Leg Press working position",
-          "imageSet": {}
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-wide-stance-leg-press-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-wide-stance-leg-press-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
         },
-        "periodized-cable-hip-adduction": {
-          "stableMovementId": "periodized-cable-hip-adduction",
-          "name": "Cable Hip Adduction",
+        "periodized-side-plank-clamshell": {
+          "stableMovementId": "periodized-side-plank-clamshell",
+          "name": "Side-Plank Clamshell",
           "roles": [
             "alternative"
           ],
@@ -4897,19 +5376,52 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "B",
             "C"
           ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
+          "equipment": "Exercise mat; no band",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Cable Hip Adduction starting position",
-          "altMovement": "Fitness 7 illustration: Cable Hip Adduction working position",
-          "imageSet": {}
+          "altStart": "Fitness 7 illustration: Side-Plank Clamshell starting position",
+          "altMovement": "Fitness 7 illustration: Side-Plank Clamshell working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-side-plank-clamshell-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-side-plank-clamshell-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
         },
-        "periodized-sumo-goblet-squat": {
-          "stableMovementId": "periodized-sumo-goblet-squat",
-          "name": "Sumo Goblet Squat",
+        "periodized-single-arm-dumbbell-row": {
+          "stableMovementId": "periodized-single-arm-dumbbell-row",
+          "name": "Single-Arm Dumbbell Row",
+          "roles": [
+            "core"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Dumbbell and flat bench",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Single-Arm Dumbbell Row starting position",
+          "altMovement": "Fitness 7 illustration: Single-Arm Dumbbell Row working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-single-arm-dumbbell-row-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-single-arm-dumbbell-row-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-chest-supported-t-bar-row": {
+          "stableMovementId": "periodized-chest-supported-t-bar-row",
+          "name": "Chest-Supported T-Bar Row",
           "roles": [
             "alternative"
           ],
@@ -4918,36 +5430,615 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
             "B",
             "C"
           ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
+          "equipment": "Chest-supported T-bar row machine",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Sumo Goblet Squat starting position",
-          "altMovement": "Fitness 7 illustration: Sumo Goblet Squat working position",
-          "imageSet": {}
+          "altStart": "Fitness 7 illustration: Chest-Supported T-Bar Row starting position",
+          "altMovement": "Fitness 7 illustration: Chest-Supported T-Bar Row working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-chest-supported-t-bar-row-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-chest-supported-t-bar-row-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
         },
-        "periodized-seated-cable-row-to-mid-torso": {
-          "stableMovementId": "periodized-seated-cable-row-to-mid-torso",
-          "name": "Seated Cable Row to Mid-Torso",
+        "periodized-dumbbell-stiff-leg-romanian-deadlift": {
+          "stableMovementId": "periodized-dumbbell-stiff-leg-romanian-deadlift",
+          "name": "Dumbbell Stiff-Leg Romanian Deadlift",
           "roles": [
-            "coreSlots"
+            "core"
           ],
           "weekKeys": [
             "A",
             "B",
             "C"
           ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
+          "equipment": "Pair of dumbbells",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
           "coachReviewStatus": "pending",
           "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Seated Cable Row to Mid-Torso starting position",
-          "altMovement": "Fitness 7 illustration: Seated Cable Row to Mid-Torso working position",
-          "imageSet": {}
+          "altStart": "Fitness 7 illustration: Dumbbell Stiff-Leg Romanian Deadlift starting position",
+          "altMovement": "Fitness 7 illustration: Dumbbell Stiff-Leg Romanian Deadlift working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-dumbbell-stiff-leg-romanian-deadlift-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-dumbbell-stiff-leg-romanian-deadlift-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-single-leg-dumbbell-rdl": {
+          "stableMovementId": "periodized-single-leg-dumbbell-rdl",
+          "name": "Single-Leg Dumbbell RDL",
+          "roles": [
+            "alternative"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "One dumbbell",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Single-Leg Dumbbell RDL starting position",
+          "altMovement": "Fitness 7 illustration: Single-Leg Dumbbell RDL working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-single-leg-dumbbell-rdl-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-single-leg-dumbbell-rdl-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-nordic-curl-negatives": {
+          "stableMovementId": "periodized-nordic-curl-negatives",
+          "name": "Nordic Curl Negatives",
+          "roles": [
+            "alternative"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Kneeling pad and ankle anchor",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Nordic Curl Negatives starting position",
+          "altMovement": "Fitness 7 illustration: Nordic Curl Negatives working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-nordic-curl-negatives-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-nordic-curl-negatives-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-nordic-hamstring-curl": {
+          "stableMovementId": "periodized-nordic-hamstring-curl",
+          "name": "Nordic Hamstring Curl",
+          "roles": [
+            "alternative"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Kneeling pad and ankle anchor",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Nordic Hamstring Curl starting position",
+          "altMovement": "Fitness 7 illustration: Nordic Hamstring Curl working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-nordic-hamstring-curl-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-nordic-hamstring-curl-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-conventional-barbell-deadlift": {
+          "stableMovementId": "periodized-conventional-barbell-deadlift",
+          "name": "Conventional Barbell Deadlift",
+          "roles": [
+            "core"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Barbell with plates on the floor",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Conventional Barbell Deadlift starting position",
+          "altMovement": "Fitness 7 illustration: Conventional Barbell Deadlift working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-conventional-barbell-deadlift-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-conventional-barbell-deadlift-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-dumbbell-shrug": {
+          "stableMovementId": "periodized-dumbbell-shrug",
+          "name": "Dumbbell Shrug",
+          "roles": [
+            "core"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Pair of dumbbells",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Dumbbell Shrug starting position",
+          "altMovement": "Fitness 7 illustration: Dumbbell Shrug working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-dumbbell-shrug-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-dumbbell-shrug-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-barbell-shrug": {
+          "stableMovementId": "periodized-barbell-shrug",
+          "name": "Barbell Shrug",
+          "roles": [
+            "alternative"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Barbell with manageable load",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Barbell Shrug starting position",
+          "altMovement": "Fitness 7 illustration: Barbell Shrug working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-barbell-shrug-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-barbell-shrug-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-hex-bar-shrug": {
+          "stableMovementId": "periodized-hex-bar-shrug",
+          "name": "Hex-Bar Shrug",
+          "roles": [
+            "alternative"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Loaded hex bar",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Hex-Bar Shrug starting position",
+          "altMovement": "Fitness 7 illustration: Hex-Bar Shrug working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-hex-bar-shrug-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-hex-bar-shrug-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-cable-upright-row-wide-grip": {
+          "stableMovementId": "periodized-cable-upright-row-wide-grip",
+          "name": "Wide-Grip Cable Upright Row",
+          "roles": [
+            "core"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Low cable station with straight bar",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Wide-Grip Cable Upright Row starting position",
+          "altMovement": "Fitness 7 illustration: Wide-Grip Cable Upright Row working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-cable-upright-row-wide-grip-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-cable-upright-row-wide-grip-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-standard-cable-face-pull": {
+          "stableMovementId": "periodized-standard-cable-face-pull",
+          "name": "Standard Cable Face Pull",
+          "roles": [
+            "alternative"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Cable station with rope at upper-chest height",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Standard Cable Face Pull starting position",
+          "altMovement": "Fitness 7 illustration: Standard Cable Face Pull working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-standard-cable-face-pull-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-standard-cable-face-pull-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-stick-deep-squat-pry": {
+          "stableMovementId": "periodized-stick-deep-squat-pry",
+          "name": "Supported Stick Deep Squat Pry",
+          "roles": [
+            "warmup"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Light mobility stick used as a balance aid",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Supported Stick Deep Squat Pry starting position",
+          "altMovement": "Fitness 7 illustration: Supported Stick Deep Squat Pry working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-stick-deep-squat-pry-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-stick-deep-squat-pry-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-stick-hamstring-stretch": {
+          "stableMovementId": "periodized-stick-hamstring-stretch",
+          "name": "Stick Hamstring Stretch",
+          "roles": [
+            "recovery"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Light mobility stick used for balance",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Stick Hamstring Stretch starting position",
+          "altMovement": "Fitness 7 illustration: Stick Hamstring Stretch working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-stick-hamstring-stretch-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-stick-hamstring-stretch-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-pigeon-pose": {
+          "stableMovementId": "periodized-pigeon-pose",
+          "name": "Pigeon Pose",
+          "roles": [
+            "recovery"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Exercise mat",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Pigeon Pose starting position",
+          "altMovement": "Fitness 7 illustration: Pigeon Pose working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-pigeon-pose-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-pigeon-pose-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-supine-figure-four-stretch": {
+          "stableMovementId": "periodized-supine-figure-four-stretch",
+          "name": "Supine Figure-Four Stretch",
+          "roles": [
+            "recovery"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Exercise mat",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Supine Figure-Four Stretch starting position",
+          "altMovement": "Fitness 7 illustration: Supine Figure-Four Stretch working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-supine-figure-four-stretch-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-supine-figure-four-stretch-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-bodyweight-air-squat": {
+          "stableMovementId": "periodized-bodyweight-air-squat",
+          "name": "Bodyweight Air Squat",
+          "roles": [
+            "optional"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Bodyweight on open floor",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Bodyweight Air Squat starting position",
+          "altMovement": "Fitness 7 illustration: Bodyweight Air Squat working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-bodyweight-air-squat-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-bodyweight-air-squat-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-bodyweight-walking-lunge": {
+          "stableMovementId": "periodized-bodyweight-walking-lunge",
+          "name": "Bodyweight Walking Lunge",
+          "roles": [
+            "optional"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Bodyweight on open floor",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Bodyweight Walking Lunge starting position",
+          "altMovement": "Fitness 7 illustration: Bodyweight Walking Lunge working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-bodyweight-walking-lunge-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-bodyweight-walking-lunge-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-bulgarian-split-squat-1-5-rep": {
+          "stableMovementId": "periodized-bulgarian-split-squat-1-5-rep",
+          "name": "Bulgarian Split Squat with 1.5-Rep Technique",
+          "roles": [
+            "optional"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Flat bench and optional dumbbells",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Bulgarian Split Squat with 1.5-Rep Technique starting position",
+          "altMovement": "Fitness 7 illustration: Bulgarian Split Squat with 1.5-Rep Technique working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-bulgarian-split-squat-1-5-rep-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-bulgarian-split-squat-1-5-rep-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-jump-squat": {
+          "stableMovementId": "periodized-jump-squat",
+          "name": "Jump Squat",
+          "roles": [
+            "optional"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Bodyweight on clear floor",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Jump Squat starting position",
+          "altMovement": "Fitness 7 illustration: Jump Squat working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-jump-squat-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-jump-squat-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-hollow-body-hold": {
+          "stableMovementId": "periodized-hollow-body-hold",
+          "name": "Hollow Body Hold",
+          "roles": [
+            "optional"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Exercise mat",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Hollow Body Hold starting position",
+          "altMovement": "Fitness 7 illustration: Hollow Body Hold working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-hollow-body-hold-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-hollow-body-hold-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-shallow-wall-sit-isometric-hold": {
+          "stableMovementId": "periodized-shallow-wall-sit-isometric-hold",
+          "name": "Shallow Wall-Sit Isometric Hold",
+          "roles": [
+            "tendon"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Wall",
+          "equipmentStatus": "specification frozen",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Shallow Wall-Sit Isometric Hold starting position",
+          "altMovement": "Fitness 7 illustration: Shallow Wall-Sit Isometric Hold working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-shallow-wall-sit-isometric-hold-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-shallow-wall-sit-isometric-hold-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": false
+        },
+        "periodized-cable-standing-hip-abduction-review": {
+          "stableMovementId": "periodized-cable-standing-hip-abduction-review",
+          "name": "Cable Standing Hip Abduction",
+          "roles": [
+            "alternative"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Cable station with ankle cuff",
+          "equipmentStatus": "review-only excluded equipment",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Cable Standing Hip Abduction starting position",
+          "altMovement": "Fitness 7 illustration: Cable Standing Hip Abduction working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-cable-standing-hip-abduction-review-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-cable-standing-hip-abduction-review-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": true
+        },
+        "periodized-ab-wheel-rollout-review": {
+          "stableMovementId": "periodized-ab-wheel-rollout-review",
+          "name": "Ab Wheel Rollout",
+          "roles": [
+            "alternative"
+          ],
+          "weekKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equipment": "Ab wheel and exercise mat",
+          "equipmentStatus": "review-only excluded equipment",
+          "artworkStatus": "complete",
+          "visualReviewStatus": "technical-pass",
+          "semanticReviewStatus": "ai-review-pending",
+          "coachReviewStatus": "pending",
+          "assetVersion": "periodized-abc-art-v3",
+          "altStart": "Fitness 7 illustration: Ab Wheel Rollout starting position",
+          "altMovement": "Fitness 7 illustration: Ab Wheel Rollout working position",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-review-v3-start.png",
+            "movement": "assets/exercises/periodized-v3/periodized-ab-wheel-rollout-review-v3-movement.png"
+          },
+          "sourceRows": [],
+          "reviewOnly": true
         },
         "periodized-single-arm-db-row": {
           "stableMovementId": "periodized-single-arm-db-row",
@@ -4968,69 +6059,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "assetVersion": "periodized-abc-art-v3",
           "altStart": "Fitness 7 illustration: Single-Arm DB Row starting position",
           "altMovement": "Fitness 7 illustration: Single-Arm DB Row working position",
-          "imageSet": {}
-        },
-        "periodized-meadows-row": {
-          "stableMovementId": "periodized-meadows-row",
-          "name": "Meadows Row",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Meadows Row starting position",
-          "altMovement": "Fitness 7 illustration: Meadows Row working position",
-          "imageSet": {}
-        },
-        "periodized-chest-supported-t-bar-row": {
-          "stableMovementId": "periodized-chest-supported-t-bar-row",
-          "name": "Chest-Supported T-Bar Row",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Chest-Supported T-Bar Row starting position",
-          "altMovement": "Fitness 7 illustration: Chest-Supported T-Bar Row working position",
-          "imageSet": {}
-        },
-        "periodized-seated-hip-abductor-machine": {
-          "stableMovementId": "periodized-seated-hip-abductor-machine",
-          "name": "Seated Hip Abductor Machine",
-          "roles": [
-            "coreSlots"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Seated Hip Abductor Machine starting position",
-          "altMovement": "Fitness 7 illustration: Seated Hip Abductor Machine working position",
           "imageSet": {}
         },
         "periodized-cable-standing-abduction": {
@@ -5075,27 +6103,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "altMovement": "Fitness 7 illustration: Side Plank Clamshells working position",
           "imageSet": {}
         },
-        "periodized-dumbbell-stiff-leg-romanian-deadlift": {
-          "stableMovementId": "periodized-dumbbell-stiff-leg-romanian-deadlift",
-          "name": "Dumbbell Stiff-Leg Romanian Deadlift",
-          "roles": [
-            "coreSlots"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Dumbbell Stiff-Leg Romanian Deadlift starting position",
-          "altMovement": "Fitness 7 illustration: Dumbbell Stiff-Leg Romanian Deadlift working position",
-          "imageSet": {}
-        },
         "periodized-single-leg-db-rdl": {
           "stableMovementId": "periodized-single-leg-db-rdl",
           "name": "Single-Leg DB RDL",
@@ -5115,48 +6122,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "assetVersion": "periodized-abc-art-v3",
           "altStart": "Fitness 7 illustration: Single-Leg DB RDL starting position",
           "altMovement": "Fitness 7 illustration: Single-Leg DB RDL working position",
-          "imageSet": {}
-        },
-        "periodized-nordic-curl-negatives": {
-          "stableMovementId": "periodized-nordic-curl-negatives",
-          "name": "Nordic Curl Negatives",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Nordic Curl Negatives starting position",
-          "altMovement": "Fitness 7 illustration: Nordic Curl Negatives working position",
-          "imageSet": {}
-        },
-        "periodized-dumbbell-shrugs-with-2s-pause": {
-          "stableMovementId": "periodized-dumbbell-shrugs-with-2s-pause",
-          "name": "Dumbbell Shrugs with 2s Pause",
-          "roles": [
-            "coreSlots"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Dumbbell Shrugs with 2s Pause starting position",
-          "altMovement": "Fitness 7 illustration: Dumbbell Shrugs with 2s Pause working position",
           "imageSet": {}
         },
         "periodized-cable-upright-row-wide": {
@@ -5180,111 +6145,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "altMovement": "Fitness 7 illustration: Cable Upright Row (Wide) working position",
           "imageSet": {}
         },
-        "periodized-barbell-shrug": {
-          "stableMovementId": "periodized-barbell-shrug",
-          "name": "Barbell Shrug",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Barbell Shrug starting position",
-          "altMovement": "Fitness 7 illustration: Barbell Shrug working position",
-          "imageSet": {}
-        },
-        "periodized-hex-bar-shrug": {
-          "stableMovementId": "periodized-hex-bar-shrug",
-          "name": "Hex Bar Shrug",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Hex Bar Shrug starting position",
-          "altMovement": "Fitness 7 illustration: Hex Bar Shrug working position",
-          "imageSet": {}
-        },
-        "periodized-stick-deep-squat-prys": {
-          "stableMovementId": "periodized-stick-deep-squat-prys",
-          "name": "Stick Deep Squat Prys",
-          "roles": [
-            "warmup"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Stick Deep Squat Prys starting position",
-          "altMovement": "Fitness 7 illustration: Stick Deep Squat Prys working position",
-          "imageSet": {}
-        },
-        "periodized-stick-good-mornings": {
-          "stableMovementId": "periodized-stick-good-mornings",
-          "name": "Stick Good Mornings",
-          "roles": [
-            "warmup"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Stick Good Mornings starting position",
-          "altMovement": "Fitness 7 illustration: Stick Good Mornings working position",
-          "imageSet": {}
-        },
-        "periodized-stick-torso-twists": {
-          "stableMovementId": "periodized-stick-torso-twists",
-          "name": "Stick Torso Twists",
-          "roles": [
-            "warmup"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Stick Torso Twists starting position",
-          "altMovement": "Fitness 7 illustration: Stick Torso Twists working position",
-          "imageSet": {}
-        },
         "periodized-no-cardio-safeguard-knee-cns-recovery": {
           "stableMovementId": "periodized-no-cardio-safeguard-knee-cns-recovery",
           "name": "NO CARDIO (Safeguard Knee & CNS Recovery)",
@@ -5304,69 +6164,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "assetVersion": "periodized-abc-art-v3",
           "altStart": "Fitness 7 illustration: NO CARDIO (Safeguard Knee & CNS Recovery) starting position",
           "altMovement": "Fitness 7 illustration: NO CARDIO (Safeguard Knee & CNS Recovery) working position",
-          "imageSet": {}
-        },
-        "periodized-stick-hamstring-stretch": {
-          "stableMovementId": "periodized-stick-hamstring-stretch",
-          "name": "Stick Hamstring Stretch",
-          "roles": [
-            "recovery"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Stick Hamstring Stretch starting position",
-          "altMovement": "Fitness 7 illustration: Stick Hamstring Stretch working position",
-          "imageSet": {}
-        },
-        "periodized-pigeon-pose": {
-          "stableMovementId": "periodized-pigeon-pose",
-          "name": "Pigeon Pose",
-          "roles": [
-            "recovery"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Pigeon Pose starting position",
-          "altMovement": "Fitness 7 illustration: Pigeon Pose working position",
-          "imageSet": {}
-        },
-        "periodized-figure-four-stretch": {
-          "stableMovementId": "periodized-figure-four-stretch",
-          "name": "Figure-Four Stretch",
-          "roles": [
-            "recovery"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Figure-Four Stretch starting position",
-          "altMovement": "Fitness 7 illustration: Figure-Four Stretch working position",
           "imageSet": {}
         },
         "periodized-bodyweight-air-squats-to-walking-lunges": {
@@ -5411,27 +6208,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "altMovement": "Fitness 7 illustration: Bulgarian Split Squat 1.5 Reps working position",
           "imageSet": {}
         },
-        "periodized-step-ups": {
-          "stableMovementId": "periodized-step-ups",
-          "name": "Step-Ups",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Step-Ups starting position",
-          "altMovement": "Fitness 7 illustration: Step-Ups working position",
-          "imageSet": {}
-        },
         "periodized-jump-squats": {
           "stableMovementId": "periodized-jump-squats",
           "name": "Jump Squats",
@@ -5474,216 +6250,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "altMovement": "Fitness 7 illustration: Dead Bug to Dragon Flag Negatives working position",
           "imageSet": {}
         },
-        "periodized-hanging-knee-tuck": {
-          "stableMovementId": "periodized-hanging-knee-tuck",
-          "name": "Hanging Knee Tuck",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Hanging Knee Tuck starting position",
-          "altMovement": "Fitness 7 illustration: Hanging Knee Tuck working position",
-          "imageSet": {}
-        },
-        "periodized-ab-wheel-rollout": {
-          "stableMovementId": "periodized-ab-wheel-rollout",
-          "name": "Ab Wheel Rollout",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Ab Wheel Rollout starting position",
-          "altMovement": "Fitness 7 illustration: Ab Wheel Rollout working position",
-          "imageSet": {}
-        },
-        "periodized-hollow-body-hold": {
-          "stableMovementId": "periodized-hollow-body-hold",
-          "name": "Hollow Body Hold",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Hollow Body Hold starting position",
-          "altMovement": "Fitness 7 illustration: Hollow Body Hold working position",
-          "imageSet": {}
-        },
-        "periodized-kas-glute-bridge": {
-          "stableMovementId": "periodized-kas-glute-bridge",
-          "name": "Kas Glute Bridge",
-          "roles": [
-            "coreSlots"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Kas Glute Bridge starting position",
-          "altMovement": "Fitness 7 illustration: Kas Glute Bridge working position",
-          "imageSet": {}
-        },
-        "periodized-single-arm-dumbbell-row": {
-          "stableMovementId": "periodized-single-arm-dumbbell-row",
-          "name": "Single-Arm Dumbbell Row",
-          "roles": [
-            "coreSlots"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Single-Arm Dumbbell Row starting position",
-          "altMovement": "Fitness 7 illustration: Single-Arm Dumbbell Row working position",
-          "imageSet": {}
-        },
-        "periodized-seated-cable-row": {
-          "stableMovementId": "periodized-seated-cable-row",
-          "name": "Seated Cable Row",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Seated Cable Row starting position",
-          "altMovement": "Fitness 7 illustration: Seated Cable Row working position",
-          "imageSet": {}
-        },
-        "periodized-machine-row": {
-          "stableMovementId": "periodized-machine-row",
-          "name": "Machine Row",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Machine Row starting position",
-          "altMovement": "Fitness 7 illustration: Machine Row working position",
-          "imageSet": {}
-        },
-        "periodized-conventional-deadlift": {
-          "stableMovementId": "periodized-conventional-deadlift",
-          "name": "Conventional Deadlift",
-          "roles": [
-            "coreSlots"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Conventional Deadlift starting position",
-          "altMovement": "Fitness 7 illustration: Conventional Deadlift working position",
-          "imageSet": {}
-        },
-        "periodized-romanian-barbell-deadlift": {
-          "stableMovementId": "periodized-romanian-barbell-deadlift",
-          "name": "Romanian Barbell Deadlift",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Romanian Barbell Deadlift starting position",
-          "altMovement": "Fitness 7 illustration: Romanian Barbell Deadlift working position",
-          "imageSet": {}
-        },
-        "periodized-dumbbell-rdl": {
-          "stableMovementId": "periodized-dumbbell-rdl",
-          "name": "Dumbbell RDL",
-          "roles": [
-            "alternative"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Dumbbell RDL starting position",
-          "altMovement": "Fitness 7 illustration: Dumbbell RDL working position",
-          "imageSet": {}
-        },
         "periodized-nordic-hamstring-curls": {
           "stableMovementId": "periodized-nordic-hamstring-curls",
           "name": "Nordic Hamstring Curls",
@@ -5703,27 +6269,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "assetVersion": "periodized-abc-art-v3",
           "altStart": "Fitness 7 illustration: Nordic Hamstring Curls starting position",
           "altMovement": "Fitness 7 illustration: Nordic Hamstring Curls working position",
-          "imageSet": {}
-        },
-        "periodized-cable-upright-row-wide-grip": {
-          "stableMovementId": "periodized-cable-upright-row-wide-grip",
-          "name": "Cable Upright Row (Wide-Grip)",
-          "roles": [
-            "coreSlots"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Cable Upright Row (Wide-Grip) starting position",
-          "altMovement": "Fitness 7 illustration: Cable Upright Row (Wide-Grip) working position",
           "imageSet": {}
         },
         "periodized-barbell-shrugs": {
@@ -5789,27 +6334,6 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "altMovement": "Fitness 7 illustration: Face Pulls working position",
           "imageSet": {}
         },
-        "periodized-bulgarian-split-squats-with-1-5-rep-style": {
-          "stableMovementId": "periodized-bulgarian-split-squats-with-1-5-rep-style",
-          "name": "Bulgarian Split Squats with 1.5 Rep Style",
-          "roles": [
-            "optionalSlots"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Bulgarian Split Squats with 1.5 Rep Style starting position",
-          "altMovement": "Fitness 7 illustration: Bulgarian Split Squats with 1.5 Rep Style working position",
-          "imageSet": {}
-        },
         "periodized-walking-lunges": {
           "stableMovementId": "periodized-walking-lunges",
           "name": "Walking Lunges",
@@ -5830,71 +6354,431 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
           "altStart": "Fitness 7 illustration: Walking Lunges starting position",
           "altMovement": "Fitness 7 illustration: Walking Lunges working position",
           "imageSet": {}
-        },
-        "periodized-dragon-flag-negatives-on-flat-bench": {
-          "stableMovementId": "periodized-dragon-flag-negatives-on-flat-bench",
-          "name": "Dragon Flag Negatives on Flat Bench",
-          "roles": [
-            "optionalSlots"
-          ],
-          "weekKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "equipmentStatus": "pending artwork specification",
-          "artworkStatus": "pending",
-          "visualReviewStatus": "pending",
-          "semanticReviewStatus": "pending",
-          "coachReviewStatus": "pending",
-          "assetVersion": "periodized-abc-art-v3",
-          "altStart": "Fitness 7 illustration: Dragon Flag Negatives on Flat Bench starting position",
-          "altMovement": "Fitness 7 illustration: Dragon Flag Negatives on Flat Bench working position",
-          "imageSet": {}
         }
       },
       "runtimeMap": {
-        "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust": {
-          "canonicalMovementId": "periodized-glute-bridge"
-        },
-        "periodized-glute-bridge": {
-          "canonicalMovementId": "periodized-glute-bridge"
-        },
-        "periodized-dumbbell-glute-bridge": {
-          "canonicalMovementId": "periodized-dumbbell-glute-bridge"
-        },
-        "periodized-single-leg-hip-thrust": {
-          "canonicalMovementId": "periodized-single-leg-hip-thrust"
-        },
-        "periodized-machine-hip-thrust": {
-          "canonicalMovementId": "periodized-machine-hip-thrust"
+        "periodized-seated-hip-adductor-machine": {
+          "canonicalMovementId": "periodized-seated-hip-adductor-machine"
         },
         "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine": {
           "canonicalMovementId": "periodized-seated-hip-adductor-machine"
         },
-        "periodized-wide-stance-leg-press": {
-          "canonicalMovementId": "periodized-wide-stance-leg-press"
+        "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine": {
+          "canonicalMovementId": "periodized-seated-hip-adductor-machine"
         },
         "periodized-cable-hip-adduction": {
+          "canonicalMovementId": "periodized-cable-hip-adduction"
+        },
+        "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Cable Hip Adduction": {
+          "canonicalMovementId": "periodized-cable-hip-adduction"
+        },
+        "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Cable Hip Adduction": {
           "canonicalMovementId": "periodized-cable-hip-adduction"
         },
         "periodized-sumo-goblet-squat": {
           "canonicalMovementId": "periodized-sumo-goblet-squat"
         },
-        "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso": {
-          "canonicalMovementId": "periodized-seated-cable-row-to-mid-torso"
+        "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Sumo Goblet Squat": {
+          "canonicalMovementId": "periodized-sumo-goblet-squat"
         },
-        "periodized-single-arm-db-row": {
-          "canonicalMovementId": "periodized-single-arm-db-row"
+        "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Sumo Goblet Squat": {
+          "canonicalMovementId": "periodized-sumo-goblet-squat"
+        },
+        "periodized-seated-cable-row": {
+          "canonicalMovementId": "periodized-seated-cable-row"
+        },
+        "periodized-seated-cable-row-to-mid-torso-seated-cable-row": {
+          "canonicalMovementId": "periodized-seated-cable-row"
+        },
+        "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso": {
+          "canonicalMovementId": "periodized-seated-cable-row"
+        },
+        "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Seated Cable Row": {
+          "canonicalMovementId": "periodized-seated-cable-row"
         },
         "periodized-meadows-row": {
           "canonicalMovementId": "periodized-meadows-row"
         },
-        "periodized-chest-supported-t-bar-row": {
-          "canonicalMovementId": "periodized-chest-supported-t-bar-row"
+        "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Meadows Row": {
+          "canonicalMovementId": "periodized-meadows-row"
+        },
+        "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Meadows Row": {
+          "canonicalMovementId": "periodized-meadows-row"
+        },
+        "periodized-machine-row": {
+          "canonicalMovementId": "periodized-machine-row"
+        },
+        "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Machine Row": {
+          "canonicalMovementId": "periodized-machine-row"
+        },
+        "periodized-seated-hip-abductor-machine": {
+          "canonicalMovementId": "periodized-seated-hip-abductor-machine"
         },
         "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine": {
           "canonicalMovementId": "periodized-seated-hip-abductor-machine"
+        },
+        "biweekly-b-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine": {
+          "canonicalMovementId": "periodized-seated-hip-abductor-machine"
+        },
+        "periodized-dumbbell-rdl": {
+          "canonicalMovementId": "periodized-dumbbell-rdl"
+        },
+        "biweekly-b-6-conventional-slot-5-biweekly-conventional::Dumbbell RDL": {
+          "canonicalMovementId": "periodized-dumbbell-rdl"
+        },
+        "periodized-romanian-barbell-deadlift": {
+          "canonicalMovementId": "periodized-romanian-barbell-deadlift"
+        },
+        "biweekly-b-6-conventional-slot-5-biweekly-conventional::Romanian Barbell Deadlift": {
+          "canonicalMovementId": "periodized-romanian-barbell-deadlift"
+        },
+        "periodized-stick-good-mornings": {
+          "canonicalMovementId": "periodized-stick-good-mornings"
+        },
+        "biweekly-a-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings": {
+          "canonicalMovementId": "periodized-stick-good-mornings"
+        },
+        "biweekly-b-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings": {
+          "canonicalMovementId": "periodized-stick-good-mornings"
+        },
+        "periodized-stick-torso-twists": {
+          "canonicalMovementId": "periodized-stick-torso-twists"
+        },
+        "biweekly-a-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists": {
+          "canonicalMovementId": "periodized-stick-torso-twists"
+        },
+        "biweekly-b-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists": {
+          "canonicalMovementId": "periodized-stick-torso-twists"
+        },
+        "periodized-step-ups": {
+          "canonicalMovementId": "periodized-step-ups"
+        },
+        "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Step-Ups": {
+          "canonicalMovementId": "periodized-step-ups"
+        },
+        "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style::Step-Ups": {
+          "canonicalMovementId": "periodized-step-ups"
+        },
+        "periodized-dead-bug": {
+          "canonicalMovementId": "periodized-dead-bug"
+        },
+        "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::split": {
+          "canonicalMovementId": "periodized-dragon-flag-negatives"
+        },
+        "periodized-dragon-flag-negatives": {
+          "canonicalMovementId": "periodized-dragon-flag-negatives"
+        },
+        "periodized-dragon-flag-negatives-on-flat-bench": {
+          "canonicalMovementId": "periodized-dragon-flag-negatives"
+        },
+        "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench": {
+          "canonicalMovementId": "periodized-dragon-flag-negatives"
+        },
+        "periodized-hanging-knee-tuck": {
+          "canonicalMovementId": "periodized-hanging-knee-tuck"
+        },
+        "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Hanging Knee Tuck": {
+          "canonicalMovementId": "periodized-hanging-knee-tuck"
+        },
+        "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench::Hanging Knee Tuck": {
+          "canonicalMovementId": "periodized-hanging-knee-tuck"
+        },
+        "periodized-glute-bridge": {
+          "canonicalMovementId": "periodized-glute-bridge"
+        },
+        "periodized-bodyweight-glute-bridge": {
+          "canonicalMovementId": "periodized-glute-bridge"
+        },
+        "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust": {
+          "canonicalMovementId": "periodized-glute-bridge"
+        },
+        "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Glute Bridge": {
+          "canonicalMovementId": "periodized-glute-bridge"
+        },
+        "periodized-dumbbell-glute-bridge": {
+          "canonicalMovementId": "periodized-dumbbell-glute-bridge"
+        },
+        "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Dumbbell Glute Bridge": {
+          "canonicalMovementId": "periodized-dumbbell-glute-bridge"
+        },
+        "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge::Dumbbell Glute Bridge": {
+          "canonicalMovementId": "periodized-dumbbell-glute-bridge"
+        },
+        "periodized-single-leg-hip-thrust": {
+          "canonicalMovementId": "periodized-single-leg-hip-thrust"
+        },
+        "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Single-Leg Hip Thrust": {
+          "canonicalMovementId": "periodized-single-leg-hip-thrust"
+        },
+        "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge::Single-Leg Hip Thrust": {
+          "canonicalMovementId": "periodized-single-leg-hip-thrust"
+        },
+        "periodized-machine-hip-thrust": {
+          "canonicalMovementId": "periodized-machine-hip-thrust"
+        },
+        "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust::Machine Hip Thrust": {
+          "canonicalMovementId": "periodized-machine-hip-thrust"
+        },
+        "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge::Machine Hip Thrust": {
+          "canonicalMovementId": "periodized-machine-hip-thrust"
+        },
+        "periodized-kas-glute-bridge": {
+          "canonicalMovementId": "periodized-kas-glute-bridge"
+        },
+        "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge": {
+          "canonicalMovementId": "periodized-kas-glute-bridge"
+        },
+        "periodized-wide-stance-leg-press": {
+          "canonicalMovementId": "periodized-wide-stance-leg-press"
+        },
+        "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Wide-Stance Leg Press": {
+          "canonicalMovementId": "periodized-wide-stance-leg-press"
+        },
+        "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine::Wide-Stance Leg Press": {
+          "canonicalMovementId": "periodized-wide-stance-leg-press"
+        },
+        "periodized-side-plank-clamshell": {
+          "canonicalMovementId": "periodized-side-plank-clamshell"
+        },
+        "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Side Plank Clamshells": {
+          "canonicalMovementId": "periodized-side-plank-clamshell"
+        },
+        "biweekly-b-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Side Plank Clamshells": {
+          "canonicalMovementId": "periodized-side-plank-clamshell"
+        },
+        "periodized-single-arm-dumbbell-row": {
+          "canonicalMovementId": "periodized-single-arm-dumbbell-row"
+        },
+        "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Single-Arm DB Row": {
+          "canonicalMovementId": "periodized-single-arm-dumbbell-row"
+        },
+        "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row": {
+          "canonicalMovementId": "periodized-single-arm-dumbbell-row"
+        },
+        "periodized-chest-supported-t-bar-row": {
+          "canonicalMovementId": "periodized-chest-supported-t-bar-row"
+        },
+        "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso::Chest-Supported T-Bar Row": {
+          "canonicalMovementId": "periodized-chest-supported-t-bar-row"
+        },
+        "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row::Chest-Supported T-Bar Row": {
+          "canonicalMovementId": "periodized-chest-supported-t-bar-row"
+        },
+        "periodized-dumbbell-stiff-leg-romanian-deadlift": {
+          "canonicalMovementId": "periodized-dumbbell-stiff-leg-romanian-deadlift"
+        },
+        "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift": {
+          "canonicalMovementId": "periodized-dumbbell-stiff-leg-romanian-deadlift"
+        },
+        "periodized-single-leg-dumbbell-rdl": {
+          "canonicalMovementId": "periodized-single-leg-dumbbell-rdl"
+        },
+        "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift::Single-Leg DB RDL": {
+          "canonicalMovementId": "periodized-single-leg-dumbbell-rdl"
+        },
+        "periodized-nordic-curl-negatives": {
+          "canonicalMovementId": "periodized-nordic-curl-negatives"
+        },
+        "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift::Nordic Curl Negatives": {
+          "canonicalMovementId": "periodized-nordic-curl-negatives"
+        },
+        "periodized-nordic-hamstring-curl": {
+          "canonicalMovementId": "periodized-nordic-hamstring-curl"
+        },
+        "biweekly-b-6-conventional-slot-5-biweekly-conventional::Nordic Hamstring Curls": {
+          "canonicalMovementId": "periodized-nordic-hamstring-curl"
+        },
+        "periodized-conventional-barbell-deadlift": {
+          "canonicalMovementId": "periodized-conventional-barbell-deadlift"
+        },
+        "biweekly-b-6-conventional-slot-5-biweekly-conventional": {
+          "canonicalMovementId": "periodized-conventional-barbell-deadlift"
+        },
+        "periodized-dumbbell-shrug": {
+          "canonicalMovementId": "periodized-dumbbell-shrug"
+        },
+        "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause": {
+          "canonicalMovementId": "periodized-dumbbell-shrug"
+        },
+        "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip::Dumbbell Shrugs": {
+          "canonicalMovementId": "periodized-dumbbell-shrug"
+        },
+        "periodized-barbell-shrug": {
+          "canonicalMovementId": "periodized-barbell-shrug"
+        },
+        "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Barbell Shrug": {
+          "canonicalMovementId": "periodized-barbell-shrug"
+        },
+        "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip::Barbell Shrugs": {
+          "canonicalMovementId": "periodized-barbell-shrug"
+        },
+        "periodized-hex-bar-shrug": {
+          "canonicalMovementId": "periodized-hex-bar-shrug"
+        },
+        "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Hex Bar Shrug": {
+          "canonicalMovementId": "periodized-hex-bar-shrug"
+        },
+        "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip::Hex Bar Shrug": {
+          "canonicalMovementId": "periodized-hex-bar-shrug"
+        },
+        "periodized-cable-upright-row-wide-grip": {
+          "canonicalMovementId": "periodized-cable-upright-row-wide-grip"
+        },
+        "periodized-wide-grip-cable-upright-row": {
+          "canonicalMovementId": "periodized-cable-upright-row-wide-grip"
+        },
+        "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause::Cable Upright Row (Wide)": {
+          "canonicalMovementId": "periodized-cable-upright-row-wide-grip"
+        },
+        "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip": {
+          "canonicalMovementId": "periodized-cable-upright-row-wide-grip"
+        },
+        "periodized-standard-cable-face-pull": {
+          "canonicalMovementId": "periodized-standard-cable-face-pull"
+        },
+        "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip::Face Pulls": {
+          "canonicalMovementId": "periodized-standard-cable-face-pull"
+        },
+        "periodized-stick-deep-squat-pry": {
+          "canonicalMovementId": "periodized-stick-deep-squat-pry"
+        },
+        "periodized-supported-stick-deep-squat-pry": {
+          "canonicalMovementId": "periodized-stick-deep-squat-pry"
+        },
+        "biweekly-a-6-stick-deep-squat-prys-warmup-1-biweekly-stick-deep-squat-prys": {
+          "canonicalMovementId": "periodized-stick-deep-squat-pry"
+        },
+        "biweekly-b-6-stick-deep-squat-prys-warmup-1-biweekly-stick-deep-squat-prys": {
+          "canonicalMovementId": "periodized-stick-deep-squat-pry"
+        },
+        "periodized-stick-hamstring-stretch": {
+          "canonicalMovementId": "periodized-stick-hamstring-stretch"
+        },
+        "biweekly-a-6-stick-hamstring-stretch-recovery-1-biweekly-stick-hamstring-stretch": {
+          "canonicalMovementId": "periodized-stick-hamstring-stretch"
+        },
+        "biweekly-b-6-stick-hamstring-stretch-recovery-1-biweekly-stick-hamstring-stretch": {
+          "canonicalMovementId": "periodized-stick-hamstring-stretch"
+        },
+        "periodized-pigeon-pose": {
+          "canonicalMovementId": "periodized-pigeon-pose"
+        },
+        "biweekly-a-6-pigeon-pose-recovery-2-biweekly-pigeon-pose": {
+          "canonicalMovementId": "periodized-pigeon-pose"
+        },
+        "biweekly-b-6-pigeon-pose-recovery-2-biweekly-pigeon-pose": {
+          "canonicalMovementId": "periodized-pigeon-pose"
+        },
+        "periodized-supine-figure-four-stretch": {
+          "canonicalMovementId": "periodized-supine-figure-four-stretch"
+        },
+        "biweekly-a-6-figure-four-stretch-recovery-3-biweekly-figure-four-stretch": {
+          "canonicalMovementId": "periodized-supine-figure-four-stretch"
+        },
+        "biweekly-b-6-figure-four-stretch-recovery-3-biweekly-figure-four-stretch": {
+          "canonicalMovementId": "periodized-supine-figure-four-stretch"
+        },
+        "periodized-bodyweight-air-squat": {
+          "canonicalMovementId": "periodized-bodyweight-air-squat"
+        },
+        "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::split": {
+          "canonicalMovementId": "periodized-bodyweight-walking-lunge"
+        },
+        "periodized-bodyweight-walking-lunge": {
+          "canonicalMovementId": "periodized-bodyweight-walking-lunge"
+        },
+        "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style::Walking Lunges": {
+          "canonicalMovementId": "periodized-bodyweight-walking-lunge"
+        },
+        "periodized-bulgarian-split-squat-1-5-rep": {
+          "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-rep"
+        },
+        "periodized-bulgarian-split-squat-with-1-5-rep-technique": {
+          "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-rep"
+        },
+        "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Bulgarian Split Squat 1.5 Reps": {
+          "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-rep"
+        },
+        "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style": {
+          "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-rep"
+        },
+        "periodized-jump-squat": {
+          "canonicalMovementId": "periodized-jump-squat"
+        },
+        "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges::Jump Squats": {
+          "canonicalMovementId": "periodized-jump-squat"
+        },
+        "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style::Jump Squats": {
+          "canonicalMovementId": "periodized-jump-squat"
+        },
+        "periodized-hollow-body-hold": {
+          "canonicalMovementId": "periodized-hollow-body-hold"
+        },
+        "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Hollow Body Hold": {
+          "canonicalMovementId": "periodized-hollow-body-hold"
+        },
+        "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench::Hollow Body Hold": {
+          "canonicalMovementId": "periodized-hollow-body-hold"
+        },
+        "periodized-shallow-wall-sit-isometric-hold": {
+          "canonicalMovementId": "periodized-shallow-wall-sit-isometric-hold"
+        },
+        "periodized-cable-standing-hip-abduction-review": {
+          "canonicalMovementId": "periodized-cable-standing-hip-abduction-review"
+        },
+        "periodized-cable-standing-hip-abduction": {
+          "canonicalMovementId": "periodized-cable-standing-hip-abduction-review"
+        },
+        "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Cable Standing Abduction": {
+          "canonicalMovementId": "periodized-cable-standing-hip-abduction-review"
+        },
+        "biweekly-b-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine::Cable Standing Abduction": {
+          "canonicalMovementId": "periodized-cable-standing-hip-abduction-review"
+        },
+        "periodized-ab-wheel-rollout-review": {
+          "canonicalMovementId": "periodized-ab-wheel-rollout-review"
+        },
+        "periodized-ab-wheel-rollout": {
+          "canonicalMovementId": "periodized-ab-wheel-rollout-review"
+        },
+        "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives::Ab Wheel Rollout": {
+          "canonicalMovementId": "periodized-ab-wheel-rollout-review"
+        },
+        "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench::Ab Wheel Rollout": {
+          "canonicalMovementId": "periodized-ab-wheel-rollout-review"
+        },
+        "biweekly-seated-hip-adductor-machine": {
+          "canonicalMovementId": "periodized-seated-hip-adductor-machine"
+        },
+        "biweekly-seated-hip-abductor-machine": {
+          "canonicalMovementId": "periodized-seated-hip-abductor-machine"
+        },
+        "biweekly-dumbbell-stiff-leg-romanian-deadlift": {
+          "canonicalMovementId": "periodized-dumbbell-stiff-leg-romanian-deadlift"
+        },
+        "biweekly-stick-good-mornings": {
+          "canonicalMovementId": "periodized-stick-good-mornings"
+        },
+        "biweekly-stick-torso-twists": {
+          "canonicalMovementId": "periodized-stick-torso-twists"
+        },
+        "biweekly-stick-hamstring-stretch": {
+          "canonicalMovementId": "periodized-stick-hamstring-stretch"
+        },
+        "biweekly-pigeon-pose": {
+          "canonicalMovementId": "periodized-pigeon-pose"
+        },
+        "biweekly-kas-glute-bridge": {
+          "canonicalMovementId": "periodized-kas-glute-bridge"
+        },
+        "biweekly-single-arm-dumbbell-row": {
+          "canonicalMovementId": "periodized-single-arm-dumbbell-row"
+        },
+        "biweekly-dragon-flag-negatives-on-flat-bench": {
+          "canonicalMovementId": "periodized-dragon-flag-negatives"
+        },
+        "periodized-single-arm-db-row": {
+          "canonicalMovementId": "periodized-single-arm-db-row"
         },
         "periodized-cable-standing-abduction": {
           "canonicalMovementId": "periodized-cable-standing-abduction"
@@ -5902,47 +6786,14 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         "periodized-side-plank-clamshells": {
           "canonicalMovementId": "periodized-side-plank-clamshells"
         },
-        "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift": {
-          "canonicalMovementId": "periodized-dumbbell-stiff-leg-romanian-deadlift"
-        },
         "periodized-single-leg-db-rdl": {
           "canonicalMovementId": "periodized-single-leg-db-rdl"
-        },
-        "periodized-nordic-curl-negatives": {
-          "canonicalMovementId": "periodized-nordic-curl-negatives"
-        },
-        "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause": {
-          "canonicalMovementId": "periodized-dumbbell-shrugs-with-2s-pause"
         },
         "periodized-cable-upright-row-wide": {
           "canonicalMovementId": "periodized-cable-upright-row-wide"
         },
-        "periodized-barbell-shrug": {
-          "canonicalMovementId": "periodized-barbell-shrug"
-        },
-        "periodized-hex-bar-shrug": {
-          "canonicalMovementId": "periodized-hex-bar-shrug"
-        },
-        "biweekly-a-6-stick-deep-squat-prys-warmup-1-biweekly-stick-deep-squat-prys": {
-          "canonicalMovementId": "periodized-stick-deep-squat-prys"
-        },
-        "biweekly-a-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings": {
-          "canonicalMovementId": "periodized-stick-good-mornings"
-        },
-        "biweekly-a-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists": {
-          "canonicalMovementId": "periodized-stick-torso-twists"
-        },
         "biweekly-a-6-no-cardio-safeguard-knee-cns-recovery-cardio-1-biweekly-no-cardio-safeguard-knee-cns-recovery": {
           "canonicalMovementId": "periodized-no-cardio-safeguard-knee-cns-recovery"
-        },
-        "biweekly-a-6-stick-hamstring-stretch-recovery-1-biweekly-stick-hamstring-stretch": {
-          "canonicalMovementId": "periodized-stick-hamstring-stretch"
-        },
-        "biweekly-a-6-pigeon-pose-recovery-2-biweekly-pigeon-pose": {
-          "canonicalMovementId": "periodized-pigeon-pose"
-        },
-        "biweekly-a-6-figure-four-stretch-recovery-3-biweekly-figure-four-stretch": {
-          "canonicalMovementId": "periodized-figure-four-stretch"
         },
         "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges": {
           "canonicalMovementId": "periodized-bodyweight-air-squats-to-walking-lunges"
@@ -5950,56 +6801,14 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         "periodized-bulgarian-split-squat-1-5-reps": {
           "canonicalMovementId": "periodized-bulgarian-split-squat-1-5-reps"
         },
-        "periodized-step-ups": {
-          "canonicalMovementId": "periodized-step-ups"
-        },
         "periodized-jump-squats": {
           "canonicalMovementId": "periodized-jump-squats"
         },
         "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives": {
           "canonicalMovementId": "periodized-dead-bug-to-dragon-flag-negatives"
         },
-        "periodized-hanging-knee-tuck": {
-          "canonicalMovementId": "periodized-hanging-knee-tuck"
-        },
-        "periodized-ab-wheel-rollout": {
-          "canonicalMovementId": "periodized-ab-wheel-rollout"
-        },
-        "periodized-hollow-body-hold": {
-          "canonicalMovementId": "periodized-hollow-body-hold"
-        },
-        "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge": {
-          "canonicalMovementId": "periodized-kas-glute-bridge"
-        },
-        "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine": {
-          "canonicalMovementId": "periodized-seated-hip-adductor-machine"
-        },
-        "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row": {
-          "canonicalMovementId": "periodized-single-arm-dumbbell-row"
-        },
-        "periodized-seated-cable-row": {
-          "canonicalMovementId": "periodized-seated-cable-row"
-        },
-        "periodized-machine-row": {
-          "canonicalMovementId": "periodized-machine-row"
-        },
-        "biweekly-b-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine": {
-          "canonicalMovementId": "periodized-seated-hip-abductor-machine"
-        },
-        "biweekly-b-6-conventional-slot-5-biweekly-conventional": {
-          "canonicalMovementId": "periodized-conventional-deadlift"
-        },
-        "periodized-romanian-barbell-deadlift": {
-          "canonicalMovementId": "periodized-romanian-barbell-deadlift"
-        },
-        "periodized-dumbbell-rdl": {
-          "canonicalMovementId": "periodized-dumbbell-rdl"
-        },
         "periodized-nordic-hamstring-curls": {
           "canonicalMovementId": "periodized-nordic-hamstring-curls"
-        },
-        "biweekly-b-6-cable-upright-row-wide-grip-slot-6-biweekly-cable-upright-row-wide-grip": {
-          "canonicalMovementId": "periodized-cable-upright-row-wide-grip"
         },
         "periodized-barbell-shrugs": {
           "canonicalMovementId": "periodized-barbell-shrugs"
@@ -6010,90 +6819,29 @@ window.GYM_COMPANION_PERIODIZED_V3_DAY_ARTWORK = {
         "periodized-face-pulls": {
           "canonicalMovementId": "periodized-face-pulls"
         },
-        "biweekly-b-6-stick-deep-squat-prys-warmup-1-biweekly-stick-deep-squat-prys": {
-          "canonicalMovementId": "periodized-stick-deep-squat-prys"
-        },
-        "biweekly-b-6-stick-good-mornings-warmup-2-biweekly-stick-good-mornings": {
-          "canonicalMovementId": "periodized-stick-good-mornings"
-        },
-        "biweekly-b-6-stick-torso-twists-warmup-3-biweekly-stick-torso-twists": {
-          "canonicalMovementId": "periodized-stick-torso-twists"
-        },
         "biweekly-b-6-no-cardio-safeguard-knee-cns-recovery-cardio-1-biweekly-no-cardio-safeguard-knee-cns-recovery": {
           "canonicalMovementId": "periodized-no-cardio-safeguard-knee-cns-recovery"
         },
-        "biweekly-b-6-stick-hamstring-stretch-recovery-1-biweekly-stick-hamstring-stretch": {
-          "canonicalMovementId": "periodized-stick-hamstring-stretch"
-        },
-        "biweekly-b-6-pigeon-pose-recovery-2-biweekly-pigeon-pose": {
-          "canonicalMovementId": "periodized-pigeon-pose"
-        },
-        "biweekly-b-6-figure-four-stretch-recovery-3-biweekly-figure-four-stretch": {
-          "canonicalMovementId": "periodized-figure-four-stretch"
-        },
-        "biweekly-b-6-bulgarian-split-squats-with-1-5-rep-style-slot-7-biweekly-bulgarian-split-squats-with-1-5-rep-style": {
-          "canonicalMovementId": "periodized-bulgarian-split-squats-with-1-5-rep-style"
-        },
         "periodized-walking-lunges": {
           "canonicalMovementId": "periodized-walking-lunges"
-        },
-        "biweekly-b-6-dragon-flag-negatives-on-flat-bench-slot-8-biweekly-dragon-flag-negatives-on-flat-bench": {
-          "canonicalMovementId": "periodized-dragon-flag-negatives-on-flat-bench"
         }
       },
       "pending": [
-        "periodized-glute-bridge",
-        "periodized-dumbbell-glute-bridge",
-        "periodized-single-leg-hip-thrust",
-        "periodized-machine-hip-thrust",
-        "periodized-seated-hip-adductor-machine",
-        "periodized-wide-stance-leg-press",
-        "periodized-cable-hip-adduction",
-        "periodized-sumo-goblet-squat",
-        "periodized-seated-cable-row-to-mid-torso",
         "periodized-single-arm-db-row",
-        "periodized-meadows-row",
-        "periodized-chest-supported-t-bar-row",
-        "periodized-seated-hip-abductor-machine",
         "periodized-cable-standing-abduction",
         "periodized-side-plank-clamshells",
-        "periodized-dumbbell-stiff-leg-romanian-deadlift",
         "periodized-single-leg-db-rdl",
-        "periodized-nordic-curl-negatives",
-        "periodized-dumbbell-shrugs-with-2s-pause",
         "periodized-cable-upright-row-wide",
-        "periodized-barbell-shrug",
-        "periodized-hex-bar-shrug",
-        "periodized-stick-deep-squat-prys",
-        "periodized-stick-good-mornings",
-        "periodized-stick-torso-twists",
         "periodized-no-cardio-safeguard-knee-cns-recovery",
-        "periodized-stick-hamstring-stretch",
-        "periodized-pigeon-pose",
-        "periodized-figure-four-stretch",
         "periodized-bodyweight-air-squats-to-walking-lunges",
         "periodized-bulgarian-split-squat-1-5-reps",
-        "periodized-step-ups",
         "periodized-jump-squats",
         "periodized-dead-bug-to-dragon-flag-negatives",
-        "periodized-hanging-knee-tuck",
-        "periodized-ab-wheel-rollout",
-        "periodized-hollow-body-hold",
-        "periodized-kas-glute-bridge",
-        "periodized-single-arm-dumbbell-row",
-        "periodized-seated-cable-row",
-        "periodized-machine-row",
-        "periodized-conventional-deadlift",
-        "periodized-romanian-barbell-deadlift",
-        "periodized-dumbbell-rdl",
         "periodized-nordic-hamstring-curls",
-        "periodized-cable-upright-row-wide-grip",
         "periodized-barbell-shrugs",
         "periodized-dumbbell-shrugs",
         "periodized-face-pulls",
-        "periodized-bulgarian-split-squats-with-1-5-rep-style",
-        "periodized-walking-lunges",
-        "periodized-dragon-flag-negatives-on-flat-bench"
+        "periodized-walking-lunges"
       ]
     }
   }

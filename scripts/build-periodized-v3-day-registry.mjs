@@ -21,7 +21,11 @@ for (const key of Object.keys(dayNames)) {
   const reuse = fs.existsSync(reuseFile) ? readJson(`.codex/v541/artwork-v3/${key}/REUSE-MAP.json`) : { approved: [] };
   const movements = {};
   const runtimeMap = {};
-  for (const entry of manifest.generationQueue || []) {
+  // Saturday's frozen manifest uses `canonicalMovements`; earlier day
+  // manifests use `generationQueue`. Support both shapes so the same
+  // day-aware registry remains the runtime source of truth.
+  const generationEntries = manifest.generationQueue || manifest.canonicalMovements || [];
+  for (const entry of generationEntries) {
     const start = entry.outputPaths?.start || entry.imageSet?.start || '';
     const movement = entry.outputPaths?.movement || entry.imageSet?.movement || '';
     const complete = Boolean(start && movement && fs.existsSync(path.join(root, start)) && fs.existsSync(path.join(root, movement)));
@@ -40,14 +44,18 @@ for (const key of Object.keys(dayNames)) {
       altStart: entry.altText?.start || `Fitness 7 illustration: ${entry.displayName} starting position`,
       altMovement: entry.altText?.movement || `Fitness 7 illustration: ${entry.displayName} working position`,
       imageSet: { start, movement },
-      sourceRows: entry.sourceRows || []
+      sourceRows: entry.sourceRows || [],
+      reviewOnly: Boolean(entry.reviewOnly)
     };
     runtimeMap[entry.canonicalMovementId] = { canonicalMovementId: entry.canonicalMovementId };
     runtimeMap[`periodized-${slug(entry.displayName)}`] = { canonicalMovementId: entry.canonicalMovementId };
+    for (const mappedRuntimeId of entry.mappedRuntimeIds || []) {
+      runtimeMap[mappedRuntimeId] = { canonicalMovementId: entry.canonicalMovementId };
+    }
   }
   for (const item of reuse.approved || []) {
-    const canonicalMovementId = item.runtimeId;
-    const name = item.runtimeId.replace(/^periodized-/, '').replace(/^biweekly-/, '').replace(/-/g, ' ')
+    const canonicalMovementId = item.canonicalMovementId || item.runtimeId;
+    const name = item.displayName || item.name || canonicalMovementId.replace(/^periodized-/, '').replace(/^biweekly-/, '').replace(/-/g, ' ')
       .replace(/\b\w/g, char => char.toUpperCase());
     movements[canonicalMovementId] = {
       stableMovementId: canonicalMovementId,
@@ -67,6 +75,9 @@ for (const key of Object.keys(dayNames)) {
     };
     runtimeMap[canonicalMovementId] = { canonicalMovementId };
     runtimeMap[`periodized-${slug(name)}`] = { canonicalMovementId };
+    for (const mappedRuntimeId of item.mappedRuntimeIds || []) {
+      runtimeMap[mappedRuntimeId] = { canonicalMovementId };
+    }
   }
   // Friday has a few explicit cross-day aliases whose source titles differ
   // from the canonical V3 record. Keep these mappings data-driven and exact;
