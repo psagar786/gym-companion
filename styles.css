@@ -144,8 +144,8 @@
 .outlook-timeline,.outlook-note{margin:0 13px 13px}
 .day-card{min-height:0;padding:10px 12px;gap:4px;text-align:left}
 .day-card-heading{display:flex;align-items:center;gap:7px;min-width:0;max-width:100%;flex-wrap:wrap}
-.day-card-heading b{color:#ff8a62}.day-card>span:not(.day-card-heading){color:#ffb294;font-weight:700}
-.day-card-heading time{display:inline-flex;align-items:center;padding:3px 7px;border:1px solid #5b3428;border-radius:999px;background:#2b211e;color:#ffc0a7;font-size:.76rem;line-height:1.2}
+.day-card-heading b{color:#ff8a62}.day-card>span:not(.day-card-heading){color:var(--ink);font-weight:700}
+.day-card-heading time{display:inline-flex;align-items:center;padding:3px 7px;border:1px solid #5b3428;border-radius:999px;background:#2b211e;color:var(--ink);font-size:.76rem;line-height:1.2}
 .day-card-heading .today-badge{margin-left:0;flex:0 0 auto}
 .day-card .status{display:none}
 .plan-compact-card{display:none}
