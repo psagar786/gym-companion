@@ -75,3 +75,16 @@
 - Local backup restore: PASS
 - No service-role key configured in the member release.
 - Member environment names are limited to `MEMBER_APP_URL`, `DEMO_MODE`, and `APP_MODE` in Preview and Production; no service-role variable is present.
+
+## V541-DEPLOY-06-ASSET-BUNDLE-REDUCED
+
+- Release commit: `8df039b06960fe187988de1d8a17f046ccc0a4ec`
+- Active image manifest: 390 WebP files / 195 pairs / 8.66 MiB.
+- Estimated tracked upload after `.vercelignore`: 494 files / 14.43 MiB.
+- Preview: `https://fitness7-gym-companion-member-ayi9gxru3-sagar-pm.vercel.app`
+- Preview status: READY.
+- Production deployment: `APkckYcC4sM7GY4Vy1H7nDGtkodt`.
+- Production alias: `https://fitness7-gym-companion-member.vercel.app`.
+- Production status: READY and serving commit `8df039b`.
+- Vercel dashboard usage at audit time: Deployment Storage `8.7 GB / 10 GB`.
+- Old deployment records were not deleted in this step; deletion remains a separate destructive cleanup action.

@@ -5,7 +5,7 @@
   "sourceBranch": "codex/v541-v2-art-integration",
   "releaseBranch": "codex/v541-release",
   "currentCheckpoint": "V541-DEPLOY-05-VERSIONS-CONSOLIDATED",
-  "completedUnits": ["BACKUP", "ACTIVE-ASSET-MANIFEST", "ACTIVE-BUNDLE-VALIDATED", "LOCAL-VERIFIED", "SOURCE-PUSHED", "PR-MERGED", "PREVIEW-VERIFIED", "PRODUCTION-VERIFIED", "LEGACY-GIT-FROZEN"],
+  "completedUnits": ["BACKUP", "ACTIVE-ASSET-MANIFEST", "ACTIVE-BUNDLE-VALIDATED", "LOCAL-VERIFIED", "SOURCE-PUSHED", "PR-MERGED", "PREVIEW-VERIFIED", "PRODUCTION-VERIFIED", "LEGACY-GIT-FROZEN", "BUNDLE-SHRUNK", "PRODUCTION-REPUBLISHED"],
   "failedUnits": [],
   "changedFiles": [
     ".codex/v541/deployment/ACTIVE-ASSET-MANIFEST.json",
@@ -24,7 +24,7 @@
     "sourceCommitBeforeReleaseChanges": "3530da11e3db330c59df6edcc1307162e553d498",
     "backupPath": "/Users/exxxy/Documents/Daily AI Help/fitness7-backups/v5.4.1-release-2026-09-19/",
     "backupRestore": "PASS",
-    "activeAssets": {"files": 390, "pairs": 195, "bytes": 9084964, "MiB": 8.66, "format": "WebP deployment copies; PNG masters retained locally", "sourceUploadGate": "PASS"},
+    "activeAssets": {"files": 390, "pairs": 195, "bytes": 9084964, "MiB": 8.66, "format": "WebP deployment copies; PNG masters retained locally", "sourceUploadGate": "PASS", "estimatedTrackedUploadFiles": 494, "estimatedTrackedUploadMiB": 14.43},
     "syntax": "PASS",
     "memberRelease": "PASS",
     "periodizedAbac": "PASS_WITH_EXISTING_EQUIPMENT_REVIEW_WARNINGS",
@@ -34,7 +34,7 @@
     "localConfig": "PASS",
     "localArtworkRequest": "PASS",
     "github": {"releaseCommit": "78fb2d38aacfd28872bed33fbaa91ef8f3264a9f", "pullRequest": "https://github.com/psagar786/gym-companion/pull/3", "mergeCommit": "57a797ca739fdc8abe60eb529de17fe70dc1aea7", "tag": "v5.4.1-r1"},
-    "vercel": {"team": "sagar-pm", "plan": "hobby", "preview": {"id": "dpl_GAYK8TmA91WuRiaqLT9kJRhgXKbX", "url": "https://fitness7-gym-companion-member-6e4s3huz3-sagar-pm.vercel.app", "status": "READY"}, "production": {"id": "dpl_DFHPpQ9iezbEnZStRbKwqxgc5pNA", "url": "https://fitness7-gym-companion-member-rguwz1xyj-sagar-pm.vercel.app", "alias": "https://fitness7-gym-companion-member.vercel.app", "status": "READY", "commit": "57a797ca739fdc8abe60eb529de17fe70dc1aea7"}, "usageRead": "Billing usage endpoint returned unavailable cost data; source bundle gate passed."},
+    "vercel": {"team": "sagar-pm", "plan": "hobby", "preview": {"id": "Bbde3vRbjcAqjAxvnHSq3nCGy71e", "url": "https://fitness7-gym-companion-member-ayi9gxru3-sagar-pm.vercel.app", "status": "READY", "commit": "8df039b06960fe187988de1d8a17f046ccc0a4ec"}, "production": {"id": "APkckYcC4sM7GY4Vy1H7nDGtkodt", "url": "https://fitness7-gym-companion-member-a82a8mvux-sagar-pm.vercel.app", "alias": "https://fitness7-gym-companion-member.vercel.app", "status": "READY", "commit": "8df039b06960fe187988de1d8a17f046ccc0a4ec"}, "usageRead": "Dashboard shows Deployment Storage 8.7 GB / 10 GB; cleanup is still pending for old deployment records."},
     "legacyGitBuilds": "DISABLED",
     "memberEnvironmentNames": {"production": ["MEMBER_APP_URL", "DEMO_MODE", "APP_MODE"], "preview": ["MEMBER_APP_URL", "DEMO_MODE", "APP_MODE"], "serviceRoleKeyPresent": false}
   },
@@ -42,6 +42,6 @@
     "The historical three-week validator reports its existing non-blocking audit findings; the active member build uses ABAC.",
     "Existing v5.4.1 tag points to the earlier production merge; v5.4.1-r1 identifies this artwork-bundle release without rewriting history."
   ],
-  "lastCommit": "fada3fa420265f871007bc452a7fb5ec1d826dc1",
-  "nextAtomicAction": "Await member review; future changes branch from main and use a new pull request"
+  "lastCommit": "8df039b06960fe187988de1d8a17f046ccc0a4ec",
+  "nextAtomicAction": "Confirm the exact old Fitness 7 and Lumen deployment records to delete, then run destructive cleanup"
 }
