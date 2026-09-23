@@ -11,6 +11,18 @@ assets/exercises/periodized-v2/
 assets/exercises/periodized-v3/**/*.png
 assets/exercises/periodized-v4/**/*.png
 
+# Legacy single-frame/three-frame artwork is retained locally for rollback and
+# historical versions, but is not referenced by the active ABAC resolver.
+assets/exercises/*.png
+assets/exercises/*.json
+!assets/exercises/isometric-tendon-prep.png
+
+# The V5.4.1 member release uses the explicit V3/V4 WebP manifest. The V2
+# pilot remains available in the local checkout for comparison, but is not
+# part of the latest case-study deployment.
+assets/exercises/biweekly-artwork-manifest.json
+assets/exercises/biweekly-artwork-production-queue.json
+
 # Local backups and review material never belong in a public deployment.
 fitness7-backups
 *.psd
