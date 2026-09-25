@@ -98,4 +98,4 @@
 - Lumen deployment list verified: only latest production `5s74oSD3xpbjWjwuXPwsp29xXjAD` remains.
 - Deleted Lumen records: `BDcjW5pQsfx9N2PYH3REWkPVcmkG`, `6YFiGKVJYnSJUvuLsRi5Zo93WgFp`, `9gnCgiePZG6LNf3LftSjFwnkrmeX`, `EhNjtk3XWbTEizYZetWAU6sy4v2W`, `9KCwtsG15wZm53fPxBsTj6tQVFNt`, `DehYpyFaMdkSMGP5Pv93C8Gw59ZA`, `6UHScqzsBLH9guEmfNvmMq7R2a1N`.
 - Production smoke check: `https://fitness7-gym-companion-member.vercel.app/` reloads successfully and shows the member sign-in screen.
-- Usage page did not expose a refreshed numeric storage value during this check. Vercel notes deployment retention cleanup can lag; recheck after the platform refreshes the metric.
+- Vercel dashboard refreshed after cleanup: Deployment Storage `995.25 MB / 10 GB` (9.952% used; approximately 9.0 GB remaining). Functions Storage is `110.41 kB / 10 GB`; Blob Data Storage and Images Storage are `0 B`.

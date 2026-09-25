@@ -43,5 +43,5 @@
     "Existing v5.4.1 tag points to the earlier production merge; v5.4.1-r1 identifies this artwork-bundle release without rewriting history."
   ],
   "lastCommit": "8df039b06960fe187988de1d8a17f046ccc0a4ec",
-  "nextAtomicAction": "Recheck Vercel deployment storage after retention cleanup refresh"
+  "nextAtomicAction": "No further storage cleanup required; keep the three retained member versions and monitor usage before the next release"
 }
