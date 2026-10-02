@@ -1,5 +1,18 @@
 # Problem 1 validation
 
+## Problem 4 — return navigation local review
+
+- Baseline 38ada25; implementation f3b1b87 on codex/v541-release. Local only.
+- 64 return checks at 320/390/430px pass: 36 main/image-link visits (including repeated open/close), 18 nested guided visits, three tendon, three optional, three My Plan and one resize visit.
+- Same-width page scroll restores exactly in the tested cases. Nested scroll, disclosure open states, checkbox state, variation selection and originating-button focus are preserved. Resizing 390→430 adjusts the page position to keep the origin exercise in view rather than restoring an obsolete pixel offset.
+- In-app Back and browser Back both pass while details are open. Navigating to My Plan from detail discards the old cache; subsequent browser Back does not resurrect it. Refresh returns the normal app, not stale cached DOM.
+- Navigation-only round trips leave demo-member storage byte-for-byte unchanged. No transient DOM/history context is persisted in workout records.
+- Regression: 1,867 detail records/72 cases, 302 active image hashes/paths, 840 classifications, member security and bundle validation pass. Browser checks for 44 guided and three optional details pass. Completion/variation and optional add/remove persist after refresh; historical snapshots unchanged.
+- All 18 six-day/width measurements have no horizontal overflow. No CSS or artwork changes.
+- Evidence: navigation/evidence/returned-to-exercise-430.png, visually reviewed. Test automation is Chromium-based; real-device iPhone/Safari review remains a later stage, not a claimed result.
+- Review: http://localhost:4175/?v=5.4.1-detail-return
+
+
 - Baseline: 498c565, codex/v541-release. Local-only; no GitHub push or Vercel deployment.
 - Exact classification: 840 authored movement-name occurrences (including alternatives); all reviewed. Five unique tendon records covered. Unknown movement returns needs-review and empty groups.
 - Presentation: 54 unique A/B/C day/tier combinations, plus repeated A records. Correct progression labels and six main slots.
