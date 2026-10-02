@@ -149,62 +149,14 @@ function v2ArtworkRecord(item) {
   return Object.values(periodizedV2Pilot.movements||{}).find(record => record.stableMovementId===runtimeId || (record.runtimeIds||[]).includes(runtimeId) || slugify(record.name)===nameSlug) || null;
 }
 function rawBiweeklyRegistryRecord(item) {
-  const name=item?.name||item?.title||'';
-  const slug=slugify(name);
-  const runtimeId=item?.__alternative ? `periodized-${slug}` : (item?.stableMovementId||`periodized-${slug}`);
-  if (effectiveTemplateKey()==='periodized-abc') {
-    const dayIndex=Number.isInteger(item?.dayIndex) ? item.dayIndex : state.dayIndex;
-    if (dayIndex===1 && ['incline-treadmill-intervals','intervals'].includes(slug)) {
-      const treadmillReuse = periodizedV3MondayArtwork.movements?.['biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9'];
-      if (treadmillReuse) return treadmillReuse;
-    }
-    if (dayIndex===1) {
-      const tuesdayMapping=periodizedV3TuesdayArtwork.runtimeMap?.[runtimeId];
-      if (tuesdayMapping) {
-        const tuesdayRecord=periodizedV3TuesdayArtwork.movements?.[tuesdayMapping.canonicalMovementId];
-        if (tuesdayRecord) return tuesdayRecord;
-        const reusedMonday=periodizedV3MondayArtwork.movements?.[tuesdayMapping.canonicalMovementId];
-        if (reusedMonday) return reusedMonday;
-      }
-    }
-    if (dayIndex===0) {
-      const mondayV3=periodizedV3MondayArtwork.movements?.[runtimeId]
-        || periodizedV3MondayArtwork.movements?.[item?.stableMovementId]
-        || Object.values(periodizedV3MondayArtwork.movements||{}).find(record => slugify(record.name)===slugify(name));
-      if (mondayV3) return mondayV3;
-      return { stableMovementId: runtimeId, name, artworkStatus: 'pending', imageSet: {} };
-    }
-    if (dayIndex===1 && !periodizedV3TuesdayArtwork.runtimeMap?.[runtimeId] && !periodizedV3TuesdayArtwork.runtimeMap?.[item?.stableMovementId] && !periodizedV3TuesdayArtwork.runtimeMap?.[`periodized-${slug}`]) {
-      return { stableMovementId: runtimeId, name, artworkStatus: 'pending', imageSet: {} };
-    }
-    const dayName = ['Wednesday','Thursday','Friday','Saturday'][dayIndex-2];
-    const dayArtwork = dayName ? periodizedV3DayArtwork.days?.[dayName] : null;
-    if (dayArtwork) {
-      const exactDayAliases = dayName==='Saturday' ? {
-        'single-arm-db-row': 'periodized-single-arm-dumbbell-row',
-        'side-plank-clamshells': 'periodized-side-plank-clamshell',
-        'single-leg-db-rdl': 'periodized-single-leg-dumbbell-rdl',
-        'cable-upright-row-wide': 'periodized-cable-upright-row-wide-grip'
-      } : {};
-      const exactAlias = exactDayAliases[slug];
-      if (exactAlias && dayArtwork.movements?.[exactAlias]) return dayArtwork.movements[exactAlias];
-      // Runtime records often carry a stable source id while the generated
-      // artwork manifest keys the concrete occurrence id. Resolve the
-      // occurrence first, then the stable id/name aliases.
-      const mapping = dayArtwork.runtimeMap?.[item?.id] || dayArtwork.runtimeMap?.[runtimeId] || dayArtwork.runtimeMap?.[item?.stableMovementId] || dayArtwork.runtimeMap?.[`periodized-${slug}`];
-      const record = mapping?.canonicalMovementId ? dayArtwork.movements?.[mapping.canonicalMovementId] : dayArtwork.movements?.[runtimeId];
-      if (record) return record;
-    }
-    // Periodized artwork is day-scoped. If a day registry record is absent,
-    // stop here with an explicit pending state instead of falling through to
-    // V2/legacy artwork that may depict a different movement.
-    if (dayIndex>=2 && dayIndex<=5) return { stableMovementId: runtimeId, name, artworkStatus: 'pending', imageSet: {} };
-  }
+  // Legacy-only lookup. Active ABAC artwork is resolved exclusively by the
+  // explicit shared registry; old snapshot records are never rewritten.
+  const name=item?.name||item?.title||'', slug=slugify(name);
   const v2=v2ArtworkRecord(item);
-  if (v2) return v2;
-  const staged=Object.values(periodizedArtwork.movements||{}).find(record => record.stableMovementId===slug || record.name===name || (record.aliases||[]).includes(name));
-  if (staged) return staged;
-  return (biweeklyArtwork.movements||[]).find(record => record.stableMovementId===slug || record.name===name || (record.aliases||[]).includes(name));
+  if(v2)return v2;
+  const staged=Object.values(periodizedArtwork.movements||{}).find(record=>record.stableMovementId===slug||record.name===name||(record.aliases||[]).includes(name));
+  if(staged)return staged;
+  return (biweeklyArtwork.movements||[]).find(record=>record.stableMovementId===slug||record.name===name||(record.aliases||[]).includes(name));
 }
 function biweeklyRegistryRecord(item) {
   if(effectiveTemplateKey()==='periodized-abc') return window.GYM_COMPANION_ABAC_ARTWORK.resolve(item,Number.isInteger(item?.dayIndex)?item.dayIndex:state.dayIndex);
