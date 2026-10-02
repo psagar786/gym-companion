@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import {artworkRuntime} from './abac-artwork-runtime.mjs';
 const c=artworkRuntime(),source=fs.readFileSync('member-app.js','utf8');
 for(const name of ['activeArtworkDisplay','detailLinkKey','detailItem','detailRecord']) {
- const start=source.indexOf('function '+name+'('),end=name==='detailLinkKey'?source.indexOf('\nwindow.fitness7ImageError',start):source.indexOf('\nfunction ',start+1);
+ const start=source.indexOf('function '+name+'('),end=source.indexOf('\nfunction ',start+1);
  vm.runInContext(source.slice(start,end),c);
 }
 c.state.screen='workout';let cases=0,records=0;

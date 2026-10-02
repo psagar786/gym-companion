@@ -1,6 +1,7 @@
 # Problem 1 work ledger
 
 - F7-04-BASELINE: Clean 38ada25 checkout. Detail replaces the originating DOM; Back rebuilds Workout, losing page/nested scroll and disclosure state. Freeze local navigation-only scope, including My Plan origin and browser Back while detail is open.
+- F7-04-RETURN-REPAIRED: Transient detached origin DOM restores original page/nested scroll, disclosures and initiating control focus. Dedicated same-URL history entry supports browser Back while detail is open. Leaving to another screen drops the context; refresh never resurrects stale DOM. All 64 return checks pass at 320/390/430px, including main/image links, guided/tendon/optional, My Plan, repeated visits, resize and browser Back. Navigation does not write member data.
 
 - F7-03-BASELINE: Frozen at 2f8aac5. Confirmed slug-first detail lookup, generic fallback, inherited alternative metadata and independent saved-card/detail lookup. Scope is detail identity; return-scroll remains next stage. No generation or deployment.
 - F7-03-IDENTITY-REPAIRED: Ephemeral occurrence keys bind card actions to the rendered selected record and exact display artwork. Alternatives use their own registry metadata or explicit under-review instructions, never parent equipment/setup. Unit checks pass for 1,867 records across 72 cases, duplicate-name/dose isolation, unknown-key rejection and unchanged input snapshots. Existing artwork/classification regressions pass.
