@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "cases": 72,
+  "variationChecks": 1236,
+  "representativeDetailChecks": 6,
+  "decodedActiveFiles": 302,
+  "pageErrors": [],
+  "imageRequestErrors": [],
+  "widths": [320,390,430],
+  "dayWidthChecks": 18,
+  "horizontalOverflow": false,
+  "completionAndVariationPersistence": true,
+  "optionalAddRemoveRefresh": true,
+  "savedSnapshotImmutable": true,
+  "staleArtworkDisplayRepaired": true
+}

@@ -52,6 +52,12 @@ function previewImage(item) {
   return set.movement||set.move||set.start||set.setup||set.return||item?.image_path||item?.image||'';
 }
 function imageMarkup(item, className='visual') {
+  // Refresh artwork for the active view only. Saved workout snapshots remain
+  // immutable and history continues to render its original record.
+  if(state.screen==='workout' && effectiveTemplateKey()==='periodized-abc') {
+    const record=window.GYM_COMPANION_ABAC_ARTWORK?.resolve({...item,name:item?.name||item?.title,__alternative:/-alt-[12]$/.test(item?.id||'')},state.dayIndex);
+    if(record)item={...item,imageSet:record.imageSet,artworkStatus:record.artworkStatus};
+  }
   const path=previewImage(item), name=item?.title||item?.name||'Exercise';
   const alt=item?.alt_text||item?.alt||`Fitness 7 illustration: ${name}`;
   const status=item?.artworkStatus==='pending' ? 'Coming soon' : 'Artwork pending';
