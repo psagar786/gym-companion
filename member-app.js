@@ -47,20 +47,9 @@ const createSupabase = remember => config.supabaseUrl && config.supabaseAnonKey 
 let supabase = createSupabase(localStorage.getItem(preferenceKey) === 'remembered');
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[character]));
 function previewImage(item) {
-  const imageSet=item?.imageSet||{};
-  const exactFallbacks = {
-    'side-plank-clamshells': 'assets/exercises/periodized-v3/periodized-side-plank-clamshell-v3-movement.webp',
-    'single-arm-db-row': 'assets/exercises/periodized-v3/periodized-single-arm-dumbbell-row-v3-movement.webp',
-    'single-leg-db-rdl': 'assets/exercises/periodized-v3/periodized-single-leg-dumbbell-rdl-v3-movement.webp',
-    'cable-upright-row-wide': 'assets/exercises/periodized-v3/periodized-cable-upright-row-wide-grip-v3-movement.webp',
-    'incline-treadmill-intervals': 'assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.webp',
-    'intervals': 'assets/exercises/periodized-v3/biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9-v3-movement.webp',
-    'lying-pelvic-tilt-leg-raise': 'assets/exercises/periodized-v4/lying-pelvic-tilt-leg-raise-v4-movement.webp',
-    'hanging-knee-tuck': 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.webp',
-    'knee-tuck': 'assets/exercises/periodized-v4/hanging-knee-tuck-v4-movement.webp'
-  };
-  const nameSlug=slugify(item?.name||item?.title||'');
-  return imageSet.movement||imageSet.move||imageSet.start||imageSet.setup||imageSet.return||item?.image_path||item?.image||exactFallbacks[nameSlug]||'';
+  const set=item?.imageSet||{};
+  if(effectiveTemplateKey()==='periodized-abc') return set.movement||set.move||'';
+  return set.movement||set.move||set.start||set.setup||set.return||item?.image_path||item?.image||'';
 }
 function imageMarkup(item, className='visual') {
   const path=previewImage(item), name=item?.title||item?.name||'Exercise';
@@ -218,44 +207,12 @@ function rawBiweeklyRegistryRecord(item) {
   return (biweeklyArtwork.movements||[]).find(record => record.stableMovementId===slug || record.name===name || (record.aliases||[]).includes(name));
 }
 function biweeklyRegistryRecord(item) {
-  const nameSlug=slugify(item?.name||item?.title||'');
-  const runtimeId=item?.__alternative ? `periodized-${nameSlug}` : (item?.stableMovementId||`periodized-${nameSlug}`);
-  const dayIndex=Number.isInteger(item?.dayIndex) ? item.dayIndex : state.dayIndex;
-  if (dayIndex===1 && ['incline-treadmill-intervals','intervals'].includes(nameSlug)) {
-    const treadmillReuse = periodizedV3MondayArtwork.movements?.['biweekly-15-min-liss-incline-walk-speed-3-8-km-h-incline-9'];
-    if (treadmillReuse) return treadmillReuse;
-  }
-  const aliases = {
-    'single-arm-db-row': 'periodized-single-arm-dumbbell-row',
-    'single-arm-dumbbell-row': 'periodized-single-arm-dumbbell-row',
-    'side-plank-clamshells': 'periodized-side-plank-clamshell',
-    'side-plank-clamshell': 'periodized-side-plank-clamshell',
-    'single-leg-db-rdl': 'periodized-single-leg-dumbbell-rdl',
-    'single-leg-dumbbell-rdl': 'periodized-single-leg-dumbbell-rdl',
-    'cable-upright-row-wide': 'periodized-cable-upright-row-wide-grip'
-  };
-  const canonical = aliases[nameSlug];
-  const exact = canonical && periodizedV3DayArtwork.days?.Saturday?.movements?.[canonical];
-  if (exact) return exact;
-  const overrideId = nameSlug==='lying-pelvic-tilt-leg-raise' ? 'periodized-lying-pelvic-tilt-leg-raise' : (nameSlug==='hanging-knee-tuck' || nameSlug==='knee-tuck' ? 'periodized-hanging-knee-tuck' : runtimeId);
-  const record=rawBiweeklyRegistryRecord(item);
-  const override=periodizedV4Overrides[overrideId];
-  return override ? {...(record||{}), ...override, artworkStatus:'complete', visualReviewStatus:'pending', semanticReviewStatus:'pending', coachReviewStatus:'pending', altStart:`Fitness 7 illustration: ${item?.name||'Exercise'} starting position`, altMovement:`Fitness 7 illustration: ${item?.name||'Exercise'} working position`} : record;
+  if(effectiveTemplateKey()==='periodized-abc') return window.GYM_COMPANION_ABAC_ARTWORK.resolve(item,Number.isInteger(item?.dayIndex)?item.dayIndex:state.dayIndex);
+  return rawBiweeklyRegistryRecord(item);
 }
 function biweeklyItem(item) {
   if(!item)return null;
   let registry=biweeklyRegistryRecord(item);
-  if (effectiveTemplateKey()==='periodized-abc') {
-    const directAliases = {
-      'Single-Arm DB Row': 'periodized-single-arm-dumbbell-row',
-      'Side Plank Clamshells': 'periodized-side-plank-clamshell',
-      'Single-Leg DB RDL': 'periodized-single-leg-dumbbell-rdl',
-      'Cable Upright Row (Wide)': 'periodized-cable-upright-row-wide-grip'
-    };
-    const directName = Object.keys(directAliases).find(name => slugify(name)===slugify(item?.name||''));
-    const direct = directName && periodizedV3DayArtwork.days?.Saturday?.movements?.[directAliases[directName]];
-    if (direct) registry=direct;
-  }
   // A day-aware registry record is authoritative. In particular, an explicit
   // pending record must not fall through to a legacy image from the source
   // row, which could show another movement's artwork.
@@ -277,6 +234,8 @@ function biweeklyItem(item) {
     equipmentStatus:item.equipmentStatus||registry?.equipmentStatus,
     artworkStatus:registry?.artworkStatus||'pending',
     reviewOnly:Boolean(registry?.reviewOnly),
+    mappingStatus:registry?.mappingStatus,
+    canonicalMovementId:registry?.canonicalMovementId||registry?.stableMovementId,
     description:item.description||item.cardDescription||registry?.description||registry?.cardDescription,
     cardDescription:item.cardDescription||item.description||registry?.cardDescription||registry?.description,
     scheme:item.prescriptions?.[state.preferences.tier]||item.scheme||item.duration||'',
@@ -538,7 +497,8 @@ function detailRecord(item) {
   const suppliedSet=item.imageSet||{};
   const phaseBriefs=item.phaseBriefs||{};
   const explicitStart=item.imageSet?.start, explicitMove=item.imageSet?.movement;
-  const twoFrame=Boolean(explicitStart||explicitMove);
+  const activeAbac=effectiveTemplateKey()==='periodized-abc';
+  const twoFrame=activeAbac||Boolean(explicitStart||explicitMove);
   const phases=twoFrame ? [
     ['start', 'Start', item.startInstruction||phaseBriefs.start?.instruction||phaseBriefs.setup?.instruction||`Set up ${equipment} with a stable base and your joints stacked.`],
     ['movement', 'Movement', item.movementInstruction||phaseBriefs.movement?.instruction||phaseBriefs.move?.instruction||cue]
@@ -548,8 +508,8 @@ function detailRecord(item) {
     ['return', 'Return', item.returnInstruction||phaseBriefs.return?.instruction||'Return slowly to the start and keep tension under control.']
   ];
   const imageSet=twoFrame ? {
-    start:suppliedSet.start||explicitStart||suppliedSet.setup||phaseAsset(baseImage,'setup'),
-    movement:suppliedSet.movement||explicitMove||suppliedSet.move||phaseAsset(baseImage,'move')
+    start:suppliedSet.start||explicitStart||suppliedSet.setup||(activeAbac?'':phaseAsset(baseImage,'setup')),
+    movement:suppliedSet.movement||explicitMove||suppliedSet.move||(activeAbac?'':phaseAsset(baseImage,'move'))
   } : {setup:suppliedSet.setup||phaseAsset(baseImage,'setup'),move:suppliedSet.move||phaseAsset(baseImage,'move'),return:suppliedSet.return||phaseAsset(baseImage,'return')};
   return {...item,name,image_path:baseImage,alt_text:item.alt_text||item.alt||`Fitness 7 illustration: ${name}`,target_muscles:target,scheme:item.scheme||item.duration||'',why:item.why||`Build control and prepare the ${target.toLowerCase()}.`,safetyCue:item.safetyCue||'Stop for sharp pain, dizziness, or unusual breathlessness.',imageSet,detailSteps:phases.map(([phase,label,instruction],index)=>({...supplied[index],phase,label,image:imageSet[phase],alt:supplied[index]?.alt||`Fitness 7 ${name} ${label.toLowerCase()} position`,instruction,directionCue:supplied[index]?.directionCue||phaseBriefs[phase]?.directionCue||'',gripCue:supplied[index]?.gripCue||phaseBriefs[phase]?.gripCue||''}))};
 }

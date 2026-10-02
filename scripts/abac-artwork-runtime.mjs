@@ -23,7 +23,7 @@ export function inventory(c) {
   const add=(item,role,slot,eligible=true)=> {
    if(!item)return;
    const name=item.name||item.title, key=day.dayName+'|'+name;
-   const row=rows.get(key)||{day:day.dayName,name,runtimeIds:[],stableIds:[],roles:[],cases:[],eligible:false,equipment:item.equipment||null,imageSet:item.imageSet||{},artworkStatus:item.artworkStatus,canonicalId:item.stableMovementId,reviewOnly:!!item.reviewOnly,classificationStatus:item.classificationStatus};
+   const row=rows.get(key)||{day:day.dayName,name,runtimeIds:[],stableIds:[],roles:[],cases:[],eligible:false,equipment:item.equipment||null,imageSet:item.imageSet||{},artworkStatus:item.artworkStatus,canonicalId:item.canonicalMovementId||item.stableMovementId,mappingStatus:item.mappingStatus,reviewOnly:!!item.reviewOnly,classificationStatus:item.classificationStatus,nonExercise:/NO CARDIO|^hydration$|^nutritional adherence\.?$/i.test(name)};
    for(const [field,value] of [['runtimeIds',item.id],['stableIds',item.stableMovementId],['roles',role]])if(value&&!row[field].includes(value))row[field].push(value);
    row.cases.push([day.weekKey,tier,role,slot,eligible]);row.eligible ||= eligible;
    row.filePairPresent=!!row.imageSet.start&&!!row.imageSet.movement&&[row.imageSet.start,row.imageSet.movement].every(p=>fs.existsSync(p));
@@ -41,4 +41,3 @@ export function inventory(c) {
  }
  return {cases,rows:[...rows.values()],stats:{cases:cases.length,dayNames:rows.size,eligibleDayNames:[...rows.values()].filter(r=>r.eligible).length,resolvedDayNames:[...rows.values()].filter(r=>r.eligible&&r.filePairPresent&&r.artworkStatus==='complete').length}};
 }
-
