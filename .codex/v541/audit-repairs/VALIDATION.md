@@ -15,6 +15,19 @@
 
 # Problem 2 validation
 
+## Problem 3 local review
+
+- Source checkpoint: 3923bf8. Selected detail identity only; local, no generation or deployment.
+- Unit checks: 1,867 records across 72 day/phase/level cases; exact clicked identity, same-name dose isolation, unknown detail rejection, own alternative equipment and immutable input records pass.
+- Browser: 72 workout cases, 1,236 variations and 103 opened main/alternative/Option 2 details pass title, dose and Start/Movement paths. Expert guided/optional checks pass for 44 guided and 3 optional details.
+- All 302 active images decode. No image request failures or page errors. Six workouts at 320/390/430px have no horizontal overflow; no CSS edits.
+- Stale saved artwork and optional add/remove refresh regression passes without rewriting snapshot bytes. Classification, original asset hashes, member security, programming and order regressions pass.
+- Evidence: details/evidence/Home and all six day screenshots, plus Wednesday RDL detail. RDL detail visually inspected at 390px.
+- Bound detail keys are in-memory and are not written to workout data. Pending alternatives retain explicit under-review instructions instead of their parent's setup. Remaining instruction labels are recorded separately in details/INSTRUCTION-REVIEW-QUEUE.json; this is not an image count or a claim that all educational content is complete.
+- Return-scroll is deliberately unchanged and remains Problem 4.
+- Review URL: http://localhost:4175/?v=5.4.1-detail-identity
+
+
 - Checkpoint: F7-02-LOCAL-REVIEW. Local only; no generation, asset deletion, GitHub push or Vercel deployment.
 - Actual selectable runtime: 72 day/tier cases including repeated A. Every case retains six main slots. Twelve previously unresolved day/name links now resolve through exact mappings.
 - Browser: all 72 cases and 1,236 available main/alternative/Option 2 selections pass title and Movement-path checks. Six representative details pass separate Start/Movement checks. All 302 active files decode as 512×512; zero image request failures and zero page errors.
