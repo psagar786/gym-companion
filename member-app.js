@@ -99,6 +99,8 @@ const dayOutcomes = [
   {name:'Legs B + Core', week:'Establish stable posterior-chain and trunk-bracing patterns.', month:'Improve hamstring, glute, calf, and core work capacity.', quarter:'Progress hinge and core-control performance while improving lower-body balance.', half:'Posterior-chain strength, trunk control, and lower-body proportion may become more apparent.'}
 ];
 
+const abacDayOutcomes = [{"name":"Chest + back","week":"Practise controlled pressing, rowing and pulldown technique.","month":"Build repeatable chest and back training with steady recovery.","quarter":"Track rep or load improvements in the scheduled presses and pulls.","half":"Review chest and back strength trends alongside recovery and nutrition."},{"name":"Core","week":"Practise controlled rotation, abdominal draw-in and trunk stability.","month":"Build consistency across the scheduled core movements.","quarter":"Track controlled repetitions and holds without losing position.","half":"Review core control and exercise tolerance over time."},{"name":"Legs + glutes","week":"Practise controlled hinges, leg presses and single-leg work.","month":"Build repeatable lower-body training and balance.","quarter":"Track rep or load improvements in the scheduled leg movements.","half":"Review lower-body strength and recovery trends."},{"name":"Upper body","week":"Practise the scheduled shoulder presses, chest work, rows and curls.","month":"Build balanced upper-body training with controlled joint paths.","quarter":"Track rep or load improvements across the scheduled upper-body movements.","half":"Review upper-body strength and exercise tolerance over time."},{"name":"Core","week":"Practise pelvic control, rotation and stable plank positions.","month":"Build repeatable core work without rushing the movement.","quarter":"Track controlled repetitions and hold duration in the scheduled core work.","half":"Review core control and exercise tolerance over time."},{"name":"Glutes + hamstrings + back","week":"Practise hip extension, hinge technique and controlled pulling.","month":"Build consistent posterior-chain and back training.","quarter":"Track rep or load improvements in the scheduled bridges, hinges and rows.","half":"Review posterior-chain strength alongside recovery."}];
+
 function notice() { return state.message ? `<p class="notice">${escapeHtml(state.message)}</p>` : ''; }
 function banner() { return ''; }
 function header() { const name = state.profile?.full_name || state.user?.email || 'Member'; return `<header class="topbar">${logo}<span class="version-badge">V${RELEASE_VERSION}</span><div class="topbar-actions"><button class="pill" data-screen="plan">My plan</button><button class="avatar" data-screen="profile" aria-label="Open profile">${escapeHtml(name.slice(0,1).toUpperCase())}</button></div></header>`; }
@@ -300,6 +302,10 @@ function biweeklyItem(item) {
   // In review preview, retain the actual alternative record even while its art
   // is being produced. It never borrows the primary movement's image set.
   if(item.__alternative && exercise.artworkStatus!=='complete' && !biweeklyPreviewMode()) return null;
+  if(effectiveTemplateKey()==='periodized-abc') {
+    Object.assign(exercise, window.GYM_COMPANION_ABAC_CLASSIFICATION.register(exercise));
+    exercise.target_muscles=exercise.primaryTargets.join(' + ');
+  }
   return normalizeExercise(exercise);
 }
 function biweeklySourceItemById(id) { for (const day of biweekly.days || []) { const item=[...(day.warmup||[]),...(day.coreSlots||[]),...(day.optionalSlots||[]),...(day.cardio||[]),...(day.recovery||[])].find(candidate=>candidate.id===id); if(item) return item; } return null; }
@@ -358,13 +364,13 @@ function periodizedPlan(dayIndex, date=scheduledDate(dayIndex)) {
 const slugify = value => String(value ?? '').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
 function targetGroupsForDay(index) {
   const key=effectiveTemplateKey();
-  if(key==='periodized-abc') return periodizedDay(index,scheduledDate(index))?.targetGroups || dayGroups[index] || [];
+  if(key==='periodized-abc') return [...new Set(planSlots(periodizedPlan(index)).flatMap(slot=>slot.exercise.targetGroups||[]).filter(group=>!['mobility','cardio','status'].includes(group)))];
   if(key==='threeweek-ppl') return v53Plan.days?.[1]?.[index]?.targetGroups || dayGroups[index] || [];
   return key==='biweekly' ? (biweeklyDay(index,scheduledDate(index))?.targetGroups || dayGroups[index] || []) : (currentTemplate()?.days?.[index]?.targetGroups || dayGroups[index] || []);
 }
 function libraryBySlug(value) { const slug=slugify(value); return normalizeExercise(state.library.find(item => item.slug === value || item.slug === slug) || training.catalog.find(item => item.slug === value || item.slug === slug)); }
 function planSlots(plan) { return [...(plan?.member_plan_slots || [])].sort((a,b) => a.position-b.position); }
-const memberDayFocusLabels = ['Back + biceps','Chest + shoulders + triceps','Quads + glutes','Back + biceps','Chest + shoulders + triceps','Hamstrings + glutes + core'];
+const memberDayFocusLabels = ['Chest + back','Core','Legs + glutes','Upper body','Core','Glutes + hamstrings + back'];
 function memberDayPresentation(dayIndex, plan=displayPlan(dayIndex)) {
   const weekKey=String(plan?.weekKey||'').replace(/^Week\s*/,'');
   const progressionLabel={A:'Progression 1 of 3',B:'Progression 2 of 3',C:'Progression 3 of 3'}[weekKey]||'';
@@ -372,7 +378,8 @@ function memberDayPresentation(dayIndex, plan=displayPlan(dayIndex)) {
 }
 function memberSnapshotPresentation(session) {
   const dayIndex=Number.isInteger(session?.day_index)?session.day_index:null;
-  if(dayIndex!==null && dayIndex>=0 && dayIndex<memberDayFocusLabels.length) {
+  const isAbac = [session?.source_version,session?.plan_snapshot?.source_version].includes('periodized-abc-v1');
+  if(isAbac && dayIndex!==null && dayIndex>=0 && dayIndex<memberDayFocusLabels.length) {
     const weekKey=String(session?.plan_snapshot?.week_key||'').replace(/^Week\s*/,'');
     return {focusLabel:memberDayFocusLabels[dayIndex],progressionLabel:{A:'Progression 1 of 3',B:'Progression 2 of 3',C:'Progression 3 of 3'}[weekKey]||''};
   }
@@ -469,6 +476,7 @@ function tierPrescription(item, tier=state.preferences.tier) {
 function prescribeExercise(item,tier=state.preferences.tier) { if(!item)return item; const prescription=tierPrescription(item,tier); return {...item,scheme:prescription.scheme,tierPrescription:prescription}; }
 function prescribePlan(plan,tier=state.preferences.tier) { if(!plan)return plan; return {...plan,member_plan_slots:planSlots(plan).map(slot=>({...slot,exercise:prescribeExercise(slot.exercise,tier),alternative:prescribeExercise(slot.alternative,tier),third:prescribeExercise(slot.third,tier)}))}; }
 function inferredGroups(item) {
+  if(effectiveTemplateKey()==='periodized-abc') return window.GYM_COMPANION_ABAC_CLASSIFICATION.resolve(item).targetGroups;
   if (Array.isArray(item?.targetGroups) && item.targetGroups.length) return item.targetGroups;
   const text=`${item?.target_muscles||''} ${item?.targets||''} ${item?.movement_pattern||''} ${item?.name||''}`.toLowerCase();
   const groups=new Set();
@@ -649,7 +657,7 @@ function renderWorkout() {
   const date=iso(scheduledDate(state.dayIndex)), saved=sessionForDate(date), dayExtras=state.extras.filter(item=>item.day_index===state.dayIndex), savedSnapshot=saved?.plan_snapshot, savedUsable=Boolean(savedSnapshot?.slots?.length>=planSlots(plan).length), snapBase=savedUsable?{...savedSnapshot,warmup:savedSnapshot.warmup?.length?savedSnapshot.warmup:plan.warmup,tendon:savedSnapshot.tendon?.length?savedSnapshot.tendon:plan.tendon,recovery:savedSnapshot.recovery?.length?savedSnapshot.recovery:plan.recovery}:snapshot(plan,dayExtras), snap={...snapBase,warmup:[...(snapBase.warmup||[]),...(snapBase.warmupExtras||[])],tendon:[...(snapBase.tendon||[])],recovery:[...(snapBase.recovery||[]),...(snapBase.recoveryExtras||[])],extras:dayExtras.map(item=>({id:item.exercise_id,exercise:item.exercise}))}, progress=saved?.progress||emptyProgress(), done=Object.values(progress.slots||{}).filter(Boolean).length;
   const renderExercise=(slot,index,extra=false)=>{ const hasChoice=Object.prototype.hasOwnProperty.call(progress.choices||{},index); const choice=extra?0:(hasChoice?Number(progress.choices[index]):(plan.defaultChoice||0)), raw=choice===2&&slot.third?slot.third:choice===1&&slot.alternative?slot.alternative:slot.exercise, exercise=prescribeExercise(raw), prescription=exercise?.tierPrescription||tierPrescription(exercise); return `<article class="card exercise"><button type="button" class="visual-button" data-detail-key="${escapeHtml(slugify(exercise?.slug||exercise?.name||''))}" aria-label="View details for ${escapeHtml(exercise?.name||'exercise')}">${imageMarkup(exercise,'visual')}</button><div class="exercise-copy"><label class="check card-done"><input type="checkbox" data-check="${extra?'extras':'slots'}" data-index="${index}" ${extra?progress.extras?.[index]?'checked':'':progress.slots?.[index]?'checked':''}><span>Done</span></label><h3>${escapeHtml(exercise?.name||'Exercise')}</h3><span class="level-badge">${escapeHtml(tierDefaults[state.preferences.tier]?.label||'Intermediate')}</span><p class="exercise-dose">${escapeHtml(prescription.displayDose)}</p><p class="exercise-rest">${escapeHtml(prescription.displayRest)}</p>${prescription.trainingMethod?`<span class="technique-badge">${escapeHtml(prescription.trainingMethod)}</span>`:''}<button class="link-button detail-button" data-detail-key="${escapeHtml(slugify(exercise?.slug||exercise?.name||''))}">View exercise details →</button>${!extra&&(slot.alternative||slot.third)?`<div class="choices"><button class="pill choice ${choice===0?'selected':''}" data-choice="${index}" data-choice-index="0" aria-pressed="${choice===0}">Main</button>${slot.alternative?`<button class="pill choice ${choice===1?'selected':''}" data-choice="${index}" data-choice-index="1" aria-pressed="${choice===1}">Alternative</button>`:''}${slot.third?`<button class="pill choice ${choice===2?'selected':''}" data-choice="${index}" data-choice-index="2" aria-pressed="${choice===2}">Option 2</button>`:''}</div>`:''}</div></article>`; };
   const activeDay=effectiveTemplateKey()==='periodized-abc' ? periodizedDay(state.dayIndex, scheduledDate(state.dayIndex)) : effectiveTemplateKey()==='biweekly' ? biweeklyDay(state.dayIndex, scheduledDate(state.dayIndex)) : (currentTemplate().days?.[state.dayIndex]||v5Routine[state.dayIndex]);
-  const outcome=dayOutcomes[state.dayIndex]||dayOutcomes[0];
+  const outcome=effectiveTemplateKey()==='periodized-abc' ? abacDayOutcomes[state.dayIndex] : (dayOutcomes[state.dayIndex]||dayOutcomes[0]);
   const outcomeMarkup=`<details class="outlook-card"><summary><span><p class="eyebrow">CONSISTENCY OUTLOOK</p><h2>What ${escapeHtml(outcome.name)} can build</h2></span><span class="guided-toggle">View</span></summary><div class="outlook-timeline"><div><b>1 week</b><p>${escapeHtml(outcome.week)}</p></div><div><b>1 month</b><p>${escapeHtml(outcome.month)}</p></div><div><b>3 months</b><p>${escapeHtml(outcome.quarter)}</p></div><div><b>6 months</b><p>${escapeHtml(outcome.half)}</p></div></div><p class="outlook-note">These are possible training milestones, not guaranteed body or weight outcomes. Nutrition, sleep, recovery, and adherence determine results.</p></details>`;
   const optional=`<details class="optional-addons-panel"><summary><span><p class="eyebrow">OPTIONAL ADD-ONS</p><b>Add up to two extra exercises</b></span><span class="guided-toggle">Expand</span></summary><section class="card optional-picker"><p class="muted">Only ${activeDay?.focus?.toLowerCase()||'day-compatible'} options are shown.</p>${optionalCards(optionalCandidates())}</section></details>`;
   const reviewCopy=state.dayIndex===0&&effectiveTemplateKey()==='periodized-abc'

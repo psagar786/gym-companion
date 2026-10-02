@@ -4,7 +4,7 @@ import vm from 'node:vm';
 
 const root = process.cwd();
 const context = { window: {} };
-for (const file of ['data/biweekly-routine.js', 'data/periodized-abc.js', 'data/periodized-v3-monday-artwork.js', 'data/periodized-v3-tuesday-artwork.js']) {
+for (const file of ['data/biweekly-routine.js', 'data/abac-classification.js', 'data/periodized-abc.js', 'data/periodized-v3-monday-artwork.js', 'data/periodized-v3-tuesday-artwork.js']) {
   vm.runInNewContext(fs.readFileSync(path.join(root, file), 'utf8'), context);
 }
 const plan = context.window.GYM_COMPANION_PERIODIZED_ABC;

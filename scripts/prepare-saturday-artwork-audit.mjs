@@ -8,7 +8,7 @@ fs.mkdirSync(outDir, { recursive: true });
 
 const runtimeContext = { window: {} };
 vm.createContext(runtimeContext);
-for (const file of ['data/biweekly-routine.js', 'data/periodized-abc.js']) {
+for (const file of ['data/biweekly-routine.js', 'data/abac-classification.js', 'data/periodized-abc.js']) {
   vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), runtimeContext, { filename: file });
 }
 const runtime = runtimeContext.window.GYM_COMPANION_PERIODIZED_ABC;

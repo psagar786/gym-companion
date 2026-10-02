@@ -7,6 +7,7 @@ const root = process.cwd();
 const context = { window: {} };
 for (const file of [
   'data/biweekly-routine.js',
+  'data/abac-classification.js',
   'data/periodized-abc.js',
   'data/periodized-v3-tuesday-artwork.js',
   'data/periodized-v3-monday-artwork.js'

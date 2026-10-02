@@ -3,6 +3,7 @@ import vm from 'node:vm';
 
 const context = { window: {} };
 vm.runInNewContext(await readFile(new URL('../data/biweekly-routine.js', import.meta.url), 'utf8'), context);
+vm.runInNewContext(await readFile(new URL('../data/abac-classification.js', import.meta.url), 'utf8'), context);
 vm.runInNewContext(await readFile(new URL('../data/periodized-abc.js', import.meta.url), 'utf8'), context);
 const plan = context.window.GYM_COMPANION_PERIODIZED_ABC;
 const errors = [];

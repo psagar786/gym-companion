@@ -8,7 +8,7 @@ const slug = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '
 const readJson = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const runtimeContext = { window: {} };
 vm.createContext(runtimeContext);
-for (const file of ['data/biweekly-routine.js', 'data/periodized-abc.js']) {
+for (const file of ['data/biweekly-routine.js', 'data/abac-classification.js', 'data/periodized-abc.js']) {
   vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), runtimeContext, { filename: file });
 }
 const periodizedRuntime = runtimeContext.window.GYM_COMPANION_PERIODIZED_ABC || { days: [] };
