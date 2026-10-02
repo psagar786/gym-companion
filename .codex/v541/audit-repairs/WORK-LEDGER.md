@@ -1,5 +1,8 @@
 # Problem 1 work ledger
 
+- F7-05-CONTENT-REPAIRED: 116 exact canonical source-backed content entries, original-pair reuse and approved V4 Knee Tuck content alias. 33/66 alternative instruction labels repaired; generic/inconsistent source prose held. Four tier/setup source conflicts logged without changing workload or art. Missing specific warnings remain honestly under review.
+- F7-05-PRESCRIPTIONS-REPAIRED: Work/rest/Focus separation, short seconds/minutes, ranges and side/leg/direction/step qualifiers. Expert→advanced and structured-source precedence preserved. Locked/No Cardio states no longer receive fabricated work; absent cardio dose is flagged. Canonical progression categories replace loose-word coaching. Approved HTTPS YouTube links only; Duration/Hold wording corrected. 34 dose/status fixtures, 10 video/metric tests and 1,867 runtime records pass.
+
 - F7-05-BASELINE: Clean 6fe29fe; freeze 66 alternative instruction gaps, rest-as-duration parser error, lost seconds/side qualifiers and generic coaching misclassification. Source-backed content/display only; no artwork, programming, layout or deployment changes.
 
 - F7-04-BASELINE: Clean 38ada25 checkout. Detail replaces the originating DOM; Back rebuilds Workout, losing page/nested scroll and disclosure state. Freeze local navigation-only scope, including My Plan origin and browser Back while detail is open.

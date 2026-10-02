@@ -3,7 +3,7 @@ import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import {artworkRuntime} from './abac-artwork-runtime.mjs';
 const c=artworkRuntime(),source=fs.readFileSync('member-app.js','utf8');
-for(const name of ['activeArtworkDisplay','detailLinkKey','detailItem','detailRecord']) {
+for(const name of ['activeArtworkDisplay','detailLinkKey','detailItem','approvedVideoUrl','detailRecord']) {
  const start=source.indexOf('function '+name+'('),end=source.indexOf('\nfunction ',start+1);
  vm.runInContext(source.slice(start,end),c);
 }
@@ -17,7 +17,7 @@ for(const day of c.periodized.days.filter(d=>d.dayIndex<6))for(const tier of ['b
   assert.equal(JSON.stringify(detail.prescriptions),JSON.stringify(item.prescriptions));
   assert.equal(detail.imageSet.movement,item.imageSet?.movement||'');assert.equal(detail.imageSet.start,item.imageSet?.start||'');
   assert.equal(JSON.stringify(item),before,'Input mutation');
-  if(item.__alternative){const own=c.window.GYM_COMPANION_ABAC_ARTWORK.resolve({...item,__alternative:true},day.dayIndex);assert.equal(selected.equipment,own.equipment,JSON.stringify({name:item.name,day:day.dayIndex,stateDay:c.state.dayIndex,selected,own}));}
+  if(item.__alternative){const own=c.window.GYM_COMPANION_ABAC_ARTWORK.resolve({...item,__alternative:true},day.dayIndex),content=c.window.GYM_COMPANION_ABAC_CONTENT.resolve(item,day.dayIndex);assert.equal(selected.equipment,content?.equipment||own.equipment,JSON.stringify({name:item.name,day:day.dayIndex,stateDay:c.state.dayIndex,selected,own}));}
   records++;
  }
  assert.equal(c.detailItem('unknown-exercise-slug'),null);cases++;

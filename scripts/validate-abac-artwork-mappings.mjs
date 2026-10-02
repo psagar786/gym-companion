@@ -39,8 +39,7 @@ assert.equal(api.resolve({name:'Intervals'},1).artworkStatus,'pending');
 assert.ok(api.resolve({name:'Lying Pelvic-Tilt Leg Raise',stableMovementId:'biweekly-lying-pelvic-tilt-leg-raise'},1).imageSet.start.includes('periodized-v4'));
 assert.ok(api.resolve({name:'Hanging Knee Tuck'},5).imageSet.start.includes('periodized-v4'));
 const app=fs.readFileSync('member-app.js','utf8');
-for(const name of ['phaseAsset','detailRecord']){const start=app.indexOf('function '+name+'(');vm.runInContext(app.slice(start,app.indexOf('\nfunction ',start+1)),c);}
+for(const name of ['phaseAsset','approvedVideoUrl','detailRecord']){const start=app.indexOf('function '+name+'(');vm.runInContext(app.slice(start,app.indexOf('\nfunction ',start+1)),c);}
 assert.ok(c.detailRecord({name:'Pending movement',artworkStatus:'pending',imageSet:{}}).detailSteps.every(s=>!s.image));
 assert.equal(c.previewImage({imageSet:{start:'unapproved-start.png'},image_path:'unrelated.png'}),'');
 console.log(JSON.stringify({status:'PASS',runtimeCases:72,repairedDayNames:12,uniqueActiveFiles:files.size,assetHashesUnchanged:true,exclusions:true,pendingDoesNotFallback:true}));
-

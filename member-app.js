@@ -65,13 +65,14 @@ function activeArtworkDisplay(item) {
   if(!item || effectiveTemplateKey()!=='periodized-abc')return item;
   const alternative=item.__alternative||/-alt-[12]$/.test(item.id||'');
   const record=window.GYM_COMPANION_ABAC_ARTWORK.resolve({...item,name:item.name||item.title,__alternative:alternative},state.dayIndex);
-  return {...item,imageSet:{...(record.imageSet||{})},artworkStatus:record.artworkStatus,mappingStatus:record.mappingStatus,...(alternative?{
+  const displayed={...item,imageSet:{...(record.imageSet||{})},artworkStatus:record.artworkStatus,mappingStatus:record.mappingStatus,...(alternative?{
     equipment:record.equipment,
     startInstruction:record.startInstruction||'Setup instructions under review for this exercise.',
     movementInstruction:record.movementInstruction||'Movement instructions under review for this exercise.',
     phaseBriefs:record.phaseBriefs,
     safetyCue:record.safetyCue||record.detailContent?.safetyCue||'Stop for sharp pain, dizziness, or unusual breathlessness.'
   }:{})};
+  return window.GYM_COMPANION_ABAC_CONTENT.enrich(displayed,state.dayIndex,state.preferences.tier);
 }
 function detailLinkKey(item) {
   if(effectiveTemplateKey()!=='periodized-abc')return slugify(item?.slug||item?.name||item?.title||'');
@@ -252,7 +253,7 @@ function biweeklyItem(item) {
     cue:item.__alternative?registry?.movementInstruction:item.cue,
     why:item.__alternative?registry?.detailContent?.why:(item.detailContent?.why||item.why),
     commonMistake:item.__alternative?registry?.detailContent?.commonMistake:(item.detailContent?.commonMistake||item.commonMistake),
-    safetyCue:item.__alternative?(registry?.safetyCue||registry?.detailContent?.safetyCue):(item.detailContent?.safetyCue||item.safetyCue),
+    safetyCue:item.__alternative?(registry?.safetyCue||registry?.detailContent?.safetyCue):(item.safetyCue||item.detailContent?.safetyCue),
     startInstruction:registry?.startInstruction||(item.__alternative?'Setup instructions under review for this exercise.':item.startInstruction),
     movementInstruction:registry?.movementInstruction||(item.__alternative?'Movement instructions under review for this exercise.':item.movementInstruction),
     directionCue:registry?.directionCue||item.directionCue,
@@ -393,24 +394,38 @@ function movementClass(item) {
 }
 function prescriptionTierKey(tier) { return tier==='expert' ? 'advanced' : tier; }
 function parsePrescriptionText(value) {
-  const text=String(value||'').replace(/×/g,'x').replace(/\s+/g,' ').trim();
-  if(!text) return null;
-  const restMatch=text.match(/rest\s*:?\s*(\d+(?:\s*[–-]\s*\d+)?)\s*(?:sec|s|seconds?)/i) || text.match(/(\d+(?:\s*[–-]\s*\d+)?)\s*(?:sec|s|seconds?)\s*rest/i);
-  const rest=restMatch?.[1] ? `${restMatch[1].replace(/\s*[–-]\s*/,'–')} sec` : null;
-  const setMatch=text.match(/(\d+(?:\s*[–-]\s*\d+)?)\s*(?:sets?|rounds?)\b/i) || text.match(/^(\d+(?:\s*[–-]\s*\d+)?)\s*x\s*/i);
-  const sets=setMatch?.[1]?.replace(/\s*[–-]\s*/,'–')||null;
-  const durationMatch=text.match(/(\d+(?:\s*[–-]\s*\d+)?)\s*(sec|seconds?|min|minutes?)\b/i);
-  const repsMatch=text.match(/(?:x\s*)?(\d+(?:\s*[–-]\s*\d+)?)\s*(?:reps?|repetitions?)\b/i) || (!durationMatch ? text.match(/x\s*(\d+(?:\s*[–-]\s*\d+)?)/i) : null);
-  const reps=repsMatch?.[1]?.replace(/\s*[–-]\s*/,'–')||null;
-  const duration=durationMatch ? `${durationMatch[1].replace(/\s*[–-]\s*/,'–')} ${durationMatch[2].toLowerCase().startsWith('min')?'min':'sec'}` : null;
-  const side=text.match(/(\d+(?:\s*[–-]\s*\d+)?)\s*(?:each\s+side|\/side|each\s+direction|\/direction|per\s+side)/i)?.[1];
-  const trainingMethod=/isometric|hold/i.test(text)?'Isometric hold':/superset/i.test(text)?'Superset':/circuit/i.test(text)?'Circuit':/drop\s*set/i.test(text)?'Drop set':/interval/i.test(text)?'Interval':null;
-  if(!sets && !reps && !duration && !side) return null;
-  return {sets:sets||null,reps:reps||side||null,duration:duration||null,rest,trainingMethod,sourceText:text};
+  const text=String(value||'').replace(/[×X]/g,'x').replace(/\s+/g,' ').trim();
+  if(!text)return null;
+  const normalize=value=>value?.replace(/\s*[–-]\s*/g,'–')||null;
+  const restPattern=/(?:rest\s*:?\s*(\d+(?:\s*[–-]\s*\d+)?)\s*(seconds?|secs?|s|minutes?|mins?|min|m)\b|(\d+(?:\s*[–-]\s*\d+)?)\s*(seconds?|secs?|s|minutes?|mins?|min|m)\s*rest\b)/ig;
+  const restMatch=[...text.matchAll(restPattern)][0];
+  const rest=restMatch?`${normalize(restMatch[1]||restMatch[3])} ${/^m/i.test(restMatch[2]||restMatch[4])?'min':'sec'}`:null;
+  // Work quantities must come from the authored dose, not rest, Focus/Tempo
+  // copy, or a parenthetical pause in an otherwise repetition-based exercise.
+  const dose=text.replace(restPattern,'').split(/\s*[|·]\s*/).filter(part=>!/^\s*(?:focus|tempo|cue|rir|rest|intensity)\s*:/i.test(part)).join(' | ').replace(/\([^)]*\)/g,'');
+  const setMatch=dose.match(/(\d+(?:\s*[–-]\s*\d+)?)\s*(?:sets?|rounds?)\b/i)||dose.match(/(?:^|\|)\s*(\d+(?:\s*[–-]\s*\d+)?)\s*x\s*\d/i);
+  const sets=normalize(setMatch?.[1]);
+  const qualifier='(?:\\/\\s*(?:side|leg|direction)|(?:each|per)\\s+(?:side|leg|direction)|total)';
+  const repsMatch=dose.match(new RegExp('(\\d+(?:\\s*[–-]\\s*\\d+)?)\\s*(?:slow\\s+|controlled\\s+)?(reps?|repetitions?|steps?|rotations?)\\b\\s*('+qualifier+')?','i'));
+  const durationMatch=!repsMatch?dose.match(new RegExp('(\\d+(?:\\s*[–-]\\s*\\d+)?)\\s*(seconds?|secs?|s|minutes?|mins?|min|m)\\b\\s*('+qualifier+')?','i')):null;
+  const sideMatch=!repsMatch&&!durationMatch?dose.match(new RegExp('(\\d+(?:\\s*[–-]\\s*\\d+)?)\\s*('+qualifier+')','i')):null;
+  const bareReps=!repsMatch&&!durationMatch&&!sideMatch?dose.match(/x\s*(\d+(?:\s*[–-]\s*\d+)?)/i):null;
+  const suffix=value=>value?.trim().replace(/^\/\s*/,'per ')||'';
+  const reps=repsMatch?`${normalize(repsMatch[1])}${repsMatch[3]?' '+suffix(repsMatch[3]):''}`:sideMatch?`${normalize(sideMatch[1])} ${suffix(sideMatch[2])}`:normalize(bareReps?.[1]);
+  const duration=durationMatch?`${normalize(durationMatch[1])} ${/^m/i.test(durationMatch[2])?'min':'sec'}${durationMatch[3]?' '+suffix(durationMatch[3]):''}`:null;
+  const repUnit=repsMatch&&/step/i.test(repsMatch[2])?'steps':repsMatch&&/rotation/i.test(repsMatch[2])?'rotations':'reps';
+  const trainingMethod=/superset/i.test(dose)?'Superset':/circuit/i.test(dose)?'Circuit':/drop\s*set/i.test(dose)?'Drop set':/tempo\s*set/i.test(dose)?'Tempo set':/interval/i.test(dose)?'Interval':/unilateral alternating set/i.test(dose)?'Unilateral alternating set':duration&&/isometric|hold/i.test(dose)?'Isometric hold':null;
+  if(!reps&&!duration)return null;
+  return {sets,reps,duration,repUnit,rest,trainingMethod,source:'authored',sourceText:text};
 }
 function authoredPrescription(item,tier) {
   const key=prescriptionTierKey(tier), source=item?.prescriptions?.[key] ?? item?.prescriptions?.[tier];
-  const candidate=typeof source==='string' ? source : source?.displayDose||source?.scheme||source?.dose||item?.scheme||item?.duration;
+  if(source&&typeof source==='object'&&(source.reps!=null||source.duration!=null))return {
+    sets:source.sets!=null?String(source.sets):null,reps:source.reps!=null?String(source.reps):null,duration:source.duration!=null?String(source.duration):null,
+    rest:source.restSeconds!=null?`${source.restSeconds} sec`:source.rest||null,trainingMethod:source.trainingMethod||null,repUnit:'reps',source:'structured'
+  };
+  const candidate=typeof source==='string'?source:source?.displayDose||source?.scheme||source?.dose||item?.scheme||item?.duration;
+  if(/locked|skipped|unavailable|not scheduled/i.test(String(candidate)))return {status:'unavailable',source:'authored',sourceText:String(candidate)};
   return parsePrescriptionText(candidate);
 }
 function rolePrescriptionDefault(item,tier) {
@@ -424,6 +439,11 @@ function rolePrescriptionDefault(item,tier) {
   return values[tier]||values.intermediate;
 }
 function progressionFor(item) {
+  if(effectiveTemplateKey()==='periodized-abc') {
+    if(item?.contentReviewStatus==='tier-execution-conflict')return 'The selected prescription and execution need confirmation before progressing this movement.';
+    const content=window.GYM_COMPANION_ABAC_CONTENT.resolve(item,state.dayIndex);
+    return window.GYM_COMPANION_ABAC_CONTENT.progression[content?.progressionType]||'Progression guidance is under review for this movement. Keep the prescribed workload until the execution is confirmed.';
+  }
   const kind=movementClass(item), text=`${item?.equipment||''} ${item?.name||''}`.toLowerCase();
   if(kind==='guided' && /cardio|walk|bike|treadmill/.test(text)) return 'Increase either duration by two minutes or incline/resistance by one small level; change one variable per week.';
   if(kind==='guided') return 'Progress by improving comfortable range, control, or smoothness. Do not add load to force range.';
@@ -434,10 +454,15 @@ function progressionFor(item) {
   return 'When every set reaches the top of the rep range for two sessions with clean form, add the smallest practical load.';
 }
 function tierPrescription(item, tier=state.preferences.tier) {
+  if(/^no cardio\b/i.test(String(item?.name||item?.title||'').trim()))return {sets:'',reps:null,duration:null,rest:'',displayDose:'No cardio scheduled',displayRest:'',scheme:'No cardio scheduled',progression:'No cardio is scheduled for this day.',source:'authored',status:'non-exercise'};
+  const cardio=window.GYM_COMPANION_ABAC_CLASSIFICATION.resolve(item).activityType==='cardio';
+  if(effectiveTemplateKey()==='periodized-abc'&&cardio&&!authoredPrescription(item,tier))return {sets:'',reps:null,duration:null,rest:'',displayDose:'Cardio prescription under review',displayRest:'',scheme:'Cardio prescription under review',progression:'Duration and intensity need confirmation before progressing.',source:'needs-review',status:'missing-cardio-prescription'};
   const parsed=authoredPrescription(item,tier)||rolePrescriptionDefault(item,tier), defaults=tierDefaults[tier]||tierDefaults.intermediate;
+  if(parsed.status==='unavailable')return {...parsed,sets:'',reps:null,duration:null,rest:'',level:defaults.label,displayDose:'Not scheduled for this level',displayRest:'',scheme:'Not scheduled for this level',progression:'This movement is not scheduled at the selected level.'};
   const isCardio=movementClass(item)==='guided'&&/cardio|walk|bike|treadmill/i.test(`${item?.name||''} ${item?.title||''} ${item?.equipment||''}`);
   const sets=isCardio&& !parsed.sets ? '' : (parsed.sets||'1'), reps=parsed.reps||null, duration=parsed.duration||null, rest=parsed.rest||'As needed';
-  const dose=duration ? (sets ? `${sets} ${sets==='1'?'set':'sets'} × ${duration}` : duration) : `${sets} ${sets==='1'?'set':'sets'} × ${reps||'as prescribed'}`;
+  const repDose=reps?reps.replace(/^(\d+(?:–\d+)?)(.*)$/,(match,count,suffix)=>`${count} ${parsed.repUnit||'reps'}${suffix}`):'as prescribed';
+  const dose=duration ? (sets ? `${sets} ${sets==='1'?'set':'sets'} × ${duration}` : duration) : `${sets} ${sets==='1'?'set':'sets'} × ${repDose}`;
   return { ...parsed, sets, reps, duration, rest, level:defaults.label, scheme:`${dose} · ${rest}`, displayDose:dose, displayRest:rest==='As needed'?'Rest as needed':`${rest} rest`, rir:defaults.rir, tempo:defaults.tempo, progression:progressionFor(item), intensity:tier==='expert'&&movementClass(item)==='isolation'?'Final isolation set may approach technical fatigue; no forced reps.':'' };
 }
 function prescribeExercise(item,tier=state.preferences.tier) { if(!item)return item; const prescription=tierPrescription(item,tier); return {...item,scheme:prescription.scheme,tierPrescription:prescription}; }
@@ -457,6 +482,10 @@ function inferredGroups(item) {
   return [...groups];
 }
 function coachingFor(item) {
+  if(effectiveTemplateKey()==='periodized-abc') {
+    const content=window.GYM_COMPANION_ABAC_CONTENT.resolve(item,state.dayIndex);
+    return {description:content?.movementInstruction||'Execution instructions under review for this exercise.',why:'',commonMistake:'',safetyCue:item.safetyCue||'Exercise-specific safety guidance is under review. Stop if you feel sharp pain.',progression:progressionFor(item)};
+  }
   const name=String(item?.name||item?.title||'Exercise'), lower=name.toLowerCase(), target=item?.target_muscles||item?.targets||'the working muscles';
   if(/shoulder circles/.test(lower)) return {description:'Stand tall and make smooth circles from the shoulders, gradually increasing the arc.',why:'Raises shoulder temperature and rehearses pain-free range before pressing or pulling.',commonMistake:'Shrugging the neck or moving only the hands.',safetyCue:'Use a smaller circle if the front of the shoulder pinches.',progression:'Increase the circle size before adding repetitions.'};
   if(/around.the.world/.test(lower)) return {description:'Hold the stick wide and trace a slow circle around the head while keeping ribs stacked.',why:'Prepares overhead shoulder control across the angles used in pressing and pulling.',commonMistake:'Arching the lower back to force the stick overhead.',safetyCue:'Widen the grip and stop before shoulder pain.',progression:'Use a slightly narrower grip only when the full arc is comfortable.'};
@@ -471,7 +500,7 @@ function coachingFor(item) {
   if(/calf/.test(lower)) return {description:'Use the full ankle range, pause at the top, and lower slowly into the stretch.',why:'Builds calf capacity for walking, squatting, and ankle control.',commonMistake:'Bouncing through the bottom or rolling the ankle outward.',safetyCue:'Use support and stop for sharp Achilles pain.',progression:'Add a pause and then small load increases once the range is steady.'};
   return {description:`Perform ${name.toLowerCase()} with a steady tempo and a controlled return.`,why:`Supports the ${target.toLowerCase()} demand of this training day.`,commonMistake:'Using momentum to move past the strongest part of the range.',safetyCue:'Stop for sharp pain, dizziness, or unusual breathlessness.',progression:'Add a controlled repetition before adding load.'};
 }
-function normalizeExercise(item) { if(!item)return item; const normalized={...item,targetGroups:inferredGroups(item)}; normalized.exerciseType ||= isStretchOrMobility(normalized)?'mobility':'strength'; normalized.isOptional ||= false; const copy=coachingFor(normalized); normalized.description ||= copy.description; normalized.cardDescription ||= copy.description; normalized.why ||= copy.why; normalized.commonMistake ||= copy.commonMistake; normalized.safetyCue ||= copy.safetyCue; normalized.progression ||= copy.progression; normalized.cue ||= copy.description; return normalized; }
+function normalizeExercise(item) { if(!item)return item; const displayed=effectiveTemplateKey()==='periodized-abc'?window.GYM_COMPANION_ABAC_CONTENT.enrich(item,state.dayIndex,state.preferences.tier):item; const normalized={...displayed,targetGroups:inferredGroups(item)}; normalized.exerciseType ||= isStretchOrMobility(normalized)?'mobility':'strength'; normalized.isOptional ||= false; const copy=coachingFor(normalized); normalized.description ||= copy.description; normalized.cardDescription ||= copy.description; normalized.why ||= copy.why; normalized.commonMistake ||= copy.commonMistake; normalized.safetyCue ||= copy.safetyCue; normalized.progression ||= copy.progression; normalized.cue ||= copy.description; return normalized; }
 function isStretchOrMobility(item) {
   const text=`${item?.exerciseType||''} ${item?.movement_pattern||''} ${item?.name||''} ${item?.title||''}`.toLowerCase();
   const groups=inferredGroups(item);
@@ -495,6 +524,11 @@ function routinePlan(dayIndex, source=routine, label='routine') { const day=sour
 function displayPlan(dayIndex) { const key=effectiveTemplateKey(); let plan; if (key==='periodized-abc') plan=periodizedPlan(dayIndex); else if (key==='threeweek-ppl') plan=threeWeekPlan(dayIndex); else if (key==='biweekly') plan=biweeklyPlan(dayIndex); else if (key==='fitness7') plan=routinePlan(dayIndex, routine, 'fitness7'); else if (key==='v5ppl') plan=routinePlan(dayIndex, v5Routine, 'v5'); else plan=state.plans.find(item=>item.day_index===dayIndex) || routinePlan(dayIndex, v5Routine, 'v5'); return prescribePlan(plan); }
 function detailItem(key) { if(state.detailTargets?.has(key))return state.detailTargets.get(key); if(effectiveTemplateKey()==='periodized-abc' && state.screen!=='artwork')return null; const plan=displayPlan(state.dayIndex), slots=planSlots(plan); const all=[...slots.flatMap(slot=>[slot.exercise,slot.alternative,slot.third].filter(Boolean)),...plan?.warmup||[],...plan?.tendon||[],...plan?.recovery||[],...state.extras.filter(item=>item.day_index===state.dayIndex).map(item=>item.exercise).filter(Boolean)], registry=(biweeklyArtwork.movements||[]).find(item=>item.stableMovementId===key||slugify(item.name)===key||(item.aliases||[]).some(alias=>slugify(alias)===key)); return all.find(item=>slugify(item.slug||item.name||item.title)===key) || (registry?biweeklyItem({id:`biweekly-review-${registry.stableMovementId}`,name:registry.name,imageSet:registry.imageSet,targetGroups:registry.targetGroups,equipment:registry.equipment,equipmentStatus:registry.equipmentStatus,detailContent:registry.detailContent,phaseBriefs:registry.phaseBriefs,role:(registry.roles||[])[0],image:registry.imageSet?.move}):null) || libraryBySlug(key) || {name:key,image_path:`assets/exercises/${key}.png`,alt_text:`Fitness 7 illustration: ${key}`}; }
 function phaseAsset(baseImage, phase) { return String(baseImage).replace(/\.png$/i, `-phase-${phase}.png`); }
+function approvedVideoUrl(item) {
+  if(!item.videoUrl||item.videoReviewStatus!=='approved')return null;
+  try {const url=new URL(item.videoUrl);return url.protocol==='https:'&&!url.username&&!url.password&&['youtube.com','www.youtube.com','youtu.be'].includes(url.hostname)&&(!url.port||url.port==='443')?url.href:null;}catch{return null;}
+}
+function doseMetricLabel(prescription) { return prescription.duration?(prescription.trainingMethod==='Isometric hold'?'Hold':'Duration'):'Reps'; }
 function detailRecord(item) {
   const name=item.name||item.title||'Exercise';
   const baseImage=item.image_path||item.image||`assets/exercises/${slugify(name)}.png`;
@@ -519,7 +553,7 @@ function detailRecord(item) {
     start:suppliedSet.start||explicitStart||suppliedSet.setup||(activeAbac?'':phaseAsset(baseImage,'setup')),
     movement:suppliedSet.movement||explicitMove||suppliedSet.move||(activeAbac?'':phaseAsset(baseImage,'move'))
   } : {setup:suppliedSet.setup||phaseAsset(baseImage,'setup'),move:suppliedSet.move||phaseAsset(baseImage,'move'),return:suppliedSet.return||phaseAsset(baseImage,'return')};
-  return {...item,name,image_path:baseImage,alt_text:item.alt_text||item.alt||`Fitness 7 illustration: ${name}`,target_muscles:target,scheme:item.scheme||item.duration||'',why:item.why||`Build control and prepare the ${target.toLowerCase()}.`,safetyCue:item.safetyCue||'Stop for sharp pain, dizziness, or unusual breathlessness.',imageSet,detailSteps:phases.map(([phase,label,instruction],index)=>({...supplied[index],phase,label,image:imageSet[phase],alt:supplied[index]?.alt||`Fitness 7 ${name} ${label.toLowerCase()} position`,instruction,directionCue:supplied[index]?.directionCue||phaseBriefs[phase]?.directionCue||'',gripCue:supplied[index]?.gripCue||phaseBriefs[phase]?.gripCue||''}))};
+  return {...item,name,videoUrl:approvedVideoUrl(item),image_path:baseImage,alt_text:item.alt_text||item.alt||`Fitness 7 illustration: ${name}`,target_muscles:target,scheme:item.scheme||item.duration||'',why:item.why||`Build control and prepare the ${target.toLowerCase()}.`,safetyCue:item.safetyCue||'Stop for sharp pain, dizziness, or unusual breathlessness.',imageSet,detailSteps:phases.map(([phase,label,instruction],index)=>({...supplied[index],phase,label,image:imageSet[phase],alt:supplied[index]?.alt||`Fitness 7 ${name} ${label.toLowerCase()} position`,instruction,directionCue:supplied[index]?.directionCue||phaseBriefs[phase]?.directionCue||'',gripCue:supplied[index]?.gripCue||phaseBriefs[phase]?.gripCue||''}))};
 }
 function optionalCandidates() {
   if(effectiveTemplateKey()==='periodized-abc') {
@@ -638,7 +672,7 @@ function renderWorkout() {
   const reviewPreview=biweeklyPreviewMode()&&qaMode?`<aside class="preview-banner artwork-preview-notice"><b>Bi-Weekly review preview</b><span>${escapeHtml(plan.weekKey)} · ${reviewCopy}</span></aside>`:'';
   app.innerHTML=`<main class="shell">${header()}${banner()}${notice()}${reviewPreview}<button class="link-button" data-screen="home">‹ All days</button><section class="detail-head"><div><p class="eyebrow">${scheduledDate(state.dayIndex).toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long'})}</p><h1>${escapeHtml(snap.focus)}</h1><p>${escapeHtml(tierDefaults[state.preferences.tier]?.label||'Intermediate')} · ${done}/${snap.slots.length} main exercises completed</p></div></section>${outcomeMarkup}${guided('Warm-up',snap.warmup,progress.warmup,'warmup',guidedCandidates('warmup',plan))}${snap.tendon?.length?guided('Tendon preparation',snap.tendon,progress.tendon,'tendon'):''}<section class="section-title"><div><p class="eyebrow">MAIN WORKOUT</p><h2>Your exercises</h2></div></section><section class="workout-list">${snap.slots.map((slot,index)=>renderExercise(slot,index)).join('')}</section>${guided('Post-workout recovery',snap.recovery,progress.recovery,'recovery',guidedCandidates('recovery',plan))}${optional}${snap.extras?.length?`<section class="section-title"><div><p class="eyebrow">SAVED OPTIONAL EXTRAS</p><p class="muted">Tap − to remove a recurring extra.</p></div></section><section class="workout-list">${snap.extras.map((slot,index)=>`${renderExercise(slot,index,true)}<button class="pill extra-remove" data-remove-extra="${index}">− Remove extra</button>`).join('')}</section>`:''}<section class="utility"><button class="button secondary" data-clear-session="${date}">Clear today’s checkmarks</button></section></main>`;
 }
-function renderDetail() { const item=detailRecord(prescribeExercise(state.detailItem||{})), prescription=item.tierPrescription||tierPrescription(item), review=item.equipmentStatus==='Review before use', steps=(item.detailSteps||[]).slice(0,2), phaseLabels=['Start','Movement']; app.innerHTML=`<main class="shell">${header()}${banner()}<button class="link-button" data-close-detail>‹ Back to workout</button><section class="detail-hero"><p class="eyebrow">EXERCISE GUIDE · ${escapeHtml(tierDefaults[state.preferences.tier]?.label||'Intermediate')}</p><h1>${escapeHtml(item.name)}</h1>${review?'<span class="equipment-review">Review before use</span>':''}</section><section class="dose-card"><span><b>${escapeHtml(prescription.sets||'—')}</b><small>Sets</small></span><span><b>${escapeHtml(prescription.duration||prescription.reps||'—')}</b><small>${prescription.duration?'Hold':'Reps'}</small></span><span><b>${escapeHtml(prescription.rest||'As needed')}</b><small>Rest</small></span></section><section class="detail-steps">${steps.map((step,index)=>`<article class="card detail-step"><div class="detail-phase-image">${imageMarkup({name:item.name,imageSet:{move:step.image},alt:step.alt,artworkStatus:item.artworkStatus},'visual detail-visual')}</div><div><span class="step-label">${index+1}</span><span class="phase-name">${phaseLabels[index]}</span><p>${escapeHtml(step.instruction)}</p></div></article>`).join('')}</section><section class="card detail-copy"><p><b>How to progress</b><br>${escapeHtml(prescription.progression)}</p><p class="safety-line"><b>Safety</b><br>${escapeHtml(item.safetyCue||'Stop for sharp pain, dizziness, or unusual breathlessness.')}</p>${item.videoUrl?`<a class="button secondary video-link" href="${escapeHtml(item.videoUrl)}" target="_blank" rel="noreferrer">Watch demonstration ↗</a>`:''}</section></main>`; }
+function renderDetail() { const item=detailRecord(prescribeExercise(state.detailItem||{})), prescription=item.tierPrescription||tierPrescription(item), review=item.equipmentStatus==='Review before use', steps=(item.detailSteps||[]).slice(0,2), phaseLabels=['Start','Movement']; app.innerHTML=`<main class="shell">${header()}${banner()}<button class="link-button" data-close-detail>‹ Back to workout</button><section class="detail-hero"><p class="eyebrow">EXERCISE GUIDE · ${escapeHtml(tierDefaults[state.preferences.tier]?.label||'Intermediate')}</p><h1>${escapeHtml(item.name)}</h1>${review?'<span class="equipment-review">Review before use</span>':''}</section><section class="dose-card"><span><b>${escapeHtml(prescription.sets||'—')}</b><small>Sets</small></span><span><b>${escapeHtml(prescription.duration||prescription.reps||'—')}</b><small>${doseMetricLabel(prescription)}</small></span><span><b>${escapeHtml(prescription.rest||'As needed')}</b><small>Rest</small></span></section><section class="detail-steps">${steps.map((step,index)=>`<article class="card detail-step"><div class="detail-phase-image">${imageMarkup({name:item.name,imageSet:{move:step.image},alt:step.alt,artworkStatus:item.artworkStatus},'visual detail-visual')}</div><div><span class="step-label">${index+1}</span><span class="phase-name">${phaseLabels[index]}</span><p>${escapeHtml(step.instruction)}</p></div></article>`).join('')}</section><section class="card detail-copy"><p><b>How to progress</b><br>${escapeHtml(prescription.progression)}</p><p class="safety-line"><b>Safety</b><br>${escapeHtml(item.safetyCue||'Stop for sharp pain, dizziness, or unusual breathlessness.')}</p>${item.videoUrl?`<a class="button secondary video-link" href="${escapeHtml(item.videoUrl)}" target="_blank" rel="noreferrer">Watch demonstration ↗</a>`:''}</section></main>`; }
 function tierPreviewMarkup(tier) { const level=tierDefaults[tier]||tierDefaults.intermediate, examples={beginner:['2–3 sets','10–15 reps','3 RIR','60–90 sec rest'],intermediate:['3 sets','6–15 reps','1–2 RIR','60–120 sec rest'],expert:['3–4 sets','5–15 reps','~1 RIR','60–150 sec rest']}[tier]||[]; return `<div class="tier-preview"><p class="eyebrow">${escapeHtml(level.label)} PRESCRIPTION</p><h3>${escapeHtml(level.summary)}</h3><div class="tier-metrics">${examples.map(value=>`<span>${escapeHtml(value)}</span>`).join('')}</div><p><b>Tempo:</b> ${escapeHtml(level.tempo)} · <b>Progression:</b> ${escapeHtml(level.progression)}</p><small>${escapeHtml(level.extras)}</small></div>`; }
 function futurePlanPreviewMarkup(templateKey,tier){
   const template=training.templates[templateKey]||training.templates.v5ppl;
