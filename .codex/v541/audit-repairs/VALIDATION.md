@@ -53,3 +53,10 @@
 - Evidence: artwork/evidence/home-390.png, day-0-390.png through day-5-390.png, wednesday-detail-390.png, pending-optional.png and repaired-rdl-detail.png. Wednesday and Thursday full screens visually inspected. Pending and detailed evidence retained for user review.
 - Remaining queue: eight missing approved pairs (16 prospective files), four canonical visual-review pairs, nine mechanics clarifications, five combined decisions, four tendon records. Categories are separate; 32 pending day/name entries must not be described as 32 new canonical sets.
 - Review: http://localhost:4175/?v=5.4.1-artwork-mapping-repair
+# Problem 5 local content review
+
+Implementation: `743d2c4`. Checkpoint: `F7-05-LOCAL-REVIEW`.
+
+72 runtime cases / 1,867 records; 34 dose/status fixtures; 10 video/metric checks; 18 mobile day/width browser checks; 64 return-navigation checks; 44 guided and 3 optional details: PASS. Asset hashes, source programming, historical snapshots, saved selections and completion are preserved. Member-security and bundle checks pass. No deployment.
+
+See `content/REPORT.md` and `content/VALIDATION.json` for the 33 remaining alternative labels, four execution conflicts, role-default quantities and missing authored cardio doses. Specific safety coverage remains partial, not coach-approved. Real iPhone optimization remains next separate stage after local review.
