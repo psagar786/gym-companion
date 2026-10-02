@@ -1,5 +1,7 @@
 # Problem 1 work ledger
 
+- F7-05-BASELINE: Clean 6fe29fe; freeze 66 alternative instruction gaps, rest-as-duration parser error, lost seconds/side qualifiers and generic coaching misclassification. Source-backed content/display only; no artwork, programming, layout or deployment changes.
+
 - F7-04-BASELINE: Clean 38ada25 checkout. Detail replaces the originating DOM; Back rebuilds Workout, losing page/nested scroll and disclosure state. Freeze local navigation-only scope, including My Plan origin and browser Back while detail is open.
 - F7-04-RETURN-REPAIRED: Transient detached origin DOM restores original page/nested scroll, disclosures and initiating control focus. Dedicated same-URL history entry supports browser Back while detail is open. Leaving to another screen drops the context; refresh never resurrects stale DOM. All 64 return checks pass at 320/390/430px, including main/image links, guided/tendon/optional, My Plan, repeated visits, resize and browser Back. Navigation does not write member data.
 - F7-04-LOCAL-REVIEW: Source committed f3b1b87. Earlier 1,867-record identity, artwork hash/path, classification, security, guided/optional identity, completion/variation refresh and snapshot/optional persistence regressions pass. Return screenshot visually reviewed. No CSS/assets/data modifications or deployment. Next is local user review followed by Problem 5 content-gap scope.
