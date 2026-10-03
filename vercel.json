@@ -1,4 +1,6 @@
 {
+  "buildCommand": "node scripts/build-member-public.mjs",
+  "outputDirectory": "public",
   "cleanUrls": true,
   "headers": [
     {"source":"/(.*)","headers":[

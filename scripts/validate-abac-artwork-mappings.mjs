@@ -8,7 +8,7 @@ const baseline=JSON.parse(fs.readFileSync('.codex/v541/audit-repairs/artwork/BAS
 assert.equal(result.cases.length,72);for(const entry of result.cases)assert.equal(entry.mainSlots,6);
 const old=new Map(baseline.rows.map(r=>[r.day+'|'+r.name,r]));
 const repaired=result.rows.filter(r=>r.eligible&&r.filePairPresent&&!old.get(r.day+'|'+r.name)?.filePairPresent);
-assert.equal(repaired.length,12);
+assert.equal(repaired.length,13);
 function dimensions(b) {
  assert.equal(b.toString('ascii',0,4),'RIFF');assert.equal(b.toString('ascii',8,12),'WEBP');
  const type=b.toString('ascii',12,16);
@@ -36,10 +36,25 @@ for(const name of api.combined){const r=api.resolve({name},0);assert.equal(r.map
 assert.equal(api.resolve({name:'Incline Smith Machine Press 45°',stableMovementId:'periodized-incline-smith-machine-press-45'},3).artworkStatus,'pending');
 assert.equal(api.resolve({name:'New unreviewed exercise'},0).artworkStatus,'pending');
 assert.equal(api.resolve({name:'Intervals'},1).artworkStatus,'pending');
+for(const name of ['Deficit Bulgarian Split Squat','Deficit Bulgarian Split Squats']) {
+ const record=api.resolve({name,__alternative:true},2);
+ assert.equal(record.artworkStatus,'complete',name);
+ assert.equal(record.canonicalMovementId,'periodized-deficit-bulgarian-split-squat');
+ assert.equal(record.semanticReviewStatus,'ai-reviewed-mechanics-pass');
+ assert.ok(record.equipment.includes('rear-foot support bench'));
+ assert.ok(record.imageSet.start.endsWith('periodized-deficit-bulgarian-split-squat-v3-start.webp'));
+ assert.ok(record.imageSet.movement.endsWith('periodized-deficit-bulgarian-split-squat-v3-movement.webp'));
+}
+for(const id of Object.keys(api.rejected)) {
+ const record=api.resolve({stableMovementId:id,name:'unapproved held artwork'},3);
+ assert.equal(record.artworkStatus,'pending',id);
+ assert.equal(Object.keys(record.imageSet).length,0);
+}
+assert.equal(api.resolve({name:'Bulgarian Split Squats',__alternative:true},2).artworkStatus,'pending','Standard split squat must not inherit deficit artwork');
 assert.ok(api.resolve({name:'Lying Pelvic-Tilt Leg Raise',stableMovementId:'biweekly-lying-pelvic-tilt-leg-raise'},1).imageSet.start.includes('periodized-v4'));
 assert.ok(api.resolve({name:'Hanging Knee Tuck'},5).imageSet.start.includes('periodized-v4'));
 const app=fs.readFileSync('member-app.js','utf8');
 for(const name of ['phaseAsset','approvedVideoUrl','detailRecord']){const start=app.indexOf('function '+name+'(');vm.runInContext(app.slice(start,app.indexOf('\nfunction ',start+1)),c);}
 assert.ok(c.detailRecord({name:'Pending movement',artworkStatus:'pending',imageSet:{}}).detailSteps.every(s=>!s.image));
 assert.equal(c.previewImage({imageSet:{start:'unapproved-start.png'},image_path:'unrelated.png'}),'');
-console.log(JSON.stringify({status:'PASS',runtimeCases:72,repairedDayNames:12,uniqueActiveFiles:files.size,assetHashesUnchanged:true,exclusions:true,pendingDoesNotFallback:true}));
+console.log(JSON.stringify({status:'PASS',runtimeCases:72,repairedDayNames:repaired.length,uniqueActiveFiles:files.size,assetHashesUnchanged:true,exclusions:true,pendingDoesNotFallback:true,reviewedExistingPairs:Object.keys(api.reviewedExisting).length,heldPairs:Object.keys(api.rejected).length}));

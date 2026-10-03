@@ -2015,6 +2015,30 @@
       "sha256": "409bb5ef703c0f25df8a2be79d76e22f9f8b50620375b5f42fc6582d6c593011"
     },
     {
+      "path": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.webp",
+      "phase": "movement",
+      "movementIds": [
+        "periodized-deficit-bulgarian-split-squat"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 32340,
+      "sha256": "28b139f08122ca55433196846bb8ac217885639606b1b7750ba5960a747a9203"
+    },
+    {
+      "path": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.webp",
+      "phase": "start",
+      "movementIds": [
+        "periodized-deficit-bulgarian-split-squat"
+      ],
+      "days": [
+        "Wednesday"
+      ],
+      "bytes": 30402,
+      "sha256": "1af8b213d6b966be9f94fbf48d9c0a939eb490ac183f80bc0a8317db5c6a5e83"
+    },
+    {
       "path": "assets/exercises/periodized-v3/periodized-dumbbell-glute-bridge-v3-movement.webp",
       "phase": "movement",
       "movementIds": [
@@ -3722,8 +3746,8 @@
     }
   ],
   "stats": {
-    "files": 302,
-    "bytes": 6980960,
+    "files": 304,
+    "bytes": 7043702,
     "resolvedRuntimeCases": 72
   },
   "exclusions": [

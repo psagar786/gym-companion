@@ -44,3 +44,9 @@ jobs:
 
       - name: Validate active deployment bundle
         run: node scripts/validate-v541-active-bundle.mjs
+
+      - name: Validate exact ABAC artwork mappings
+        run: node scripts/validate-abac-artwork-mappings.mjs
+
+      - name: Build member-only active artwork output
+        run: node scripts/build-member-public.mjs

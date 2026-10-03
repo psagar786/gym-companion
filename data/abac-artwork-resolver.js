@@ -8,8 +8,17 @@
  const rejected = {
   'periodized-chest-supported-t-bar-row':'Start is not chest-supported and uses a different machine from Movement.',
   'periodized-incline-db-press':'Illustration appears to use a nearly upright bench rather than the named incline chest-press angle.',
-  'periodized-wide-stance-leg-press':'Machine frame and seating arrangement change between phases; needs pair review.',
-  'periodized-deficit-bulgarian-split-squat':'Rear-foot support and deficit setup require closer confirmation before new cross-name reuse.'
+  'periodized-wide-stance-leg-press':'Machine frame and seating arrangement change between phases; needs pair review.'
+ };
+ // Re-reviewed from the existing two phase files. This does not imply coach
+ // approval or authorize sharing with a standard/non-deficit split squat.
+ const reviewedExisting = {
+  'periodized-deficit-bulgarian-split-squat':{
+   semanticReviewStatus:'ai-reviewed-mechanics-pass',
+   reviewDate:'2026-10-03',
+   equipment:'Dumbbells, low front-foot platform and rear-foot support bench',
+   evidence:'Same athlete, dumbbells, elevated front foot and rear-foot bench support; extended setup and lowered working position.'
+  }
  };
  const complete = record => record?.artworkStatus==='complete' && !!record.imageSet?.start && !!record.imageSet?.movement && !rejected[record.stableMovementId];
  const byId=Object.create(null), byName=Object.create(null);
@@ -74,10 +83,10 @@
   // Approved V4 replacements remain additive and do not overwrite V3.
   const replacement=['Lying Pelvic-Tilt Leg Raise','Hanging Knee Tuck','Knee Tuck'].includes(name)
    ? (name==='Lying Pelvic-Tilt Leg Raise'?'lying-pelvic-tilt-leg-raise':'hanging-knee-tuck') : null;
-  return {...record,canonicalMovementId:record.stableMovementId,mappedRuntimeIds:keys,mappingStatus:alias?'explicit-alias':'exact-runtime-mapping',technicalReviewStatus:'files-validated',semanticReviewStatus:record.semanticReviewStatus||'pending',imageSet:replacement?{
+  return {...record,...reviewedExisting[record.stableMovementId],canonicalMovementId:record.stableMovementId,mappedRuntimeIds:keys,mappingStatus:alias?'explicit-alias':'exact-runtime-mapping',technicalReviewStatus:'files-validated',semanticReviewStatus:reviewedExisting[record.stableMovementId]?.semanticReviewStatus||record.semanticReviewStatus||'pending',imageSet:replacement?{
    start:'assets/exercises/periodized-v4/'+replacement+'-v4-start.webp',
    movement:'assets/exercises/periodized-v4/'+replacement+'-v4-movement.webp'
   }:imageSet,...(replacement?{assetVersion:'periodized-abc-art-v4'}:{})};
  }
- window.GYM_COMPANION_ABAC_ARTWORK={resolve,sources,aliases,combined,byId,rejected};
+ window.GYM_COMPANION_ABAC_ARTWORK={resolve,sources,aliases,combined,byId,rejected,reviewedExisting};
 })();
