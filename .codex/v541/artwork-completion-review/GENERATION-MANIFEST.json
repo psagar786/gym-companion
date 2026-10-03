@@ -3,31 +3,156 @@
     "id": "biweekly-standing-machine-calf-raise",
     "name": "Standing Machine Calf Raise",
     "phases": {},
-    "status": "not-started"
+    "status": "held-for-repair",
+    "reason": "Three drafts failed clear heel-below-block Start position; not integrated"
   },
   {
     "id": "periodized-deficit-barbell-rdl",
     "name": "Deficit Barbell RDL",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-2cbe2e7e-7640-4158-a60c-ea5ab330de35.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-deficit-barbell-rdl-start.png",
+        "sourceSha256": "7fbb6e90f1110faeca2716dadb7d2cac583cf24eeeaa4da22837526b04581fe6",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-start.webp",
+        "sha256": "4ebf9587073e093f361dd6932bc3da5c4d86307911cb755485d2e42aa4c5d5ef",
+        "webpSha256": "633eacac12c784a17a069706b295a72891a8488bf8c97d39b6c4de414f428f20",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Tall neutral-spine setup on one stable low platform; both feet fully supported, symmetric standard barbell and overhand grip. Final margin added through non-cropping inset.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9c718dce-a9e9-4897-a098-ccd3cc2294a8.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-deficit-barbell-rdl-movement.png",
+        "sourceSha256": "4c0e079d5add1afd0f4bf98222b8fee9fa240c7b93dc62d71aa052899857cef5",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-movement.webp",
+        "sha256": "64713fa405db935c893b8cf7c0613fff8816df6ce2f5e7e4c432e98d12bdddf8",
+        "webpSha256": "9ea3ad27e92d4b8c582aaf193e1acdd7ee15b6655e4c1d6a8f873bb4235968ba",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Controlled hip hinge with soft knees, straight arms, neutral back, bar below knees close to legs, same platform and athlete. Working range deliberately comfortable rather than forced depth.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "biweekly-stick-overhead-deep-squats",
     "name": "Stick Overhead Deep Squats",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-5f8aeca3-669c-48e3-8b62-33761c6c2cc3.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-stick-overhead-deep-squats-start.png",
+        "sourceSha256": "6896f930604a8968c96cd834864bc0c48aa848136375d121aaf1230e876bec9d",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-start.webp",
+        "sha256": "85e60095219241b056ec0b69b2518ba5cbe1a77ca8acad2c0a90368b59632204",
+        "webpSha256": "88a4d89df81a590a9f2e28db854bfa8f05d35ef0426b6c3934af5a8367543fe2",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Upright stacked stance, heels grounded, wide grip with full stick above head, realistic male athlete and charcoal styling. Final safe margin added without cropping.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-a9e06a17-5770-4740-af73-a4b4aa06bec3.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-stick-overhead-deep-squats-movement.png",
+        "sourceSha256": "23b5c72af0f8b704473e1f9cf973d0d9eb6437cd25f5f76f2620507f3526ae25",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-movement.webp",
+        "sha256": "2f39c5cdbc104f92eaf1682a9399f086f88862647db0b1f6d4e557251be6c2b4",
+        "webpSha256": "21b24e9e018118d30119c6f750ec73a2274d06d7a4bdeba4018a464d73b7685a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Controlled near-parallel squat, heels grounded, knees follow toes, straight arms and stick overhead; consistent athlete, camera and kit, visibly different from Start.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "biweekly-sissy-squat",
     "name": "Sissy Squat",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-3ca1f5bf-b955-41c4-8797-cbf702ac4167.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-sissy-squat-start.png",
+        "sourceSha256": "bf908dbc593196bade8a6c07a4593f9ab68a42b7bb194d82480c57194c0cc66f",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-start.webp",
+        "sha256": "b720b50511fad9748620bae98301c6d3dd0d0b72677831115c95353ce6ce61c8",
+        "webpSha256": "24fb86a7ae753ba6c3ec4dd86c5aa5785d8e93ebb060fe7b427a63a7c62e7af3",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Side-view upright bodyweight setup, arms forward, feet visible and spine stacked; no invented equipment.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-3a8b6e27-41e0-45b9-9f8c-b923c07a0661.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-sissy-squat-movement.png",
+        "sourceSha256": "a0514af323328b4d2aed2b5d5237ddb521431a65a1f43a2a9a44ff7627e6d90d",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-movement.webp",
+        "sha256": "7b1109e930db6a2935ae88bf7090d9c5add2a5891b7620785af58b4b7121c538",
+        "webpSha256": "5fa8af50b82a73cc4908de1a97ad0e9c536baa3a126e0fcb9029719018edc2c6",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Shallow backward-leaning knee-dominant bodyweight movement, raised heels and arms for balance, nearly aligned torso/thighs rather than deep hip-hinge squat; charcoal restored. Coach review still pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "biweekly-seated-calf-raise-machine",
     "name": "Seated Calf Raise Machine",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-c201ec0a-418c-46cf-87e0-7f746c9a6588.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-seated-calf-raise-machine-start.png",
+        "sourceSha256": "d2d14239b8f7b38adbe07745df1ebb4dbf5f818918e862eef171461310804371",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-start.webp",
+        "sha256": "89c7ca38e025b4201512107c6f469db134baa13623d0681b75df5475e5eea25b",
+        "webpSha256": "bc7ccd01b1d3a80dfe937ffb2a8d68d45aa89fe89df4c4001fd10e7d9019fd9b",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Corrected bottom ankle position: forefeet on top of block, heels unsupported below forefeet, knees near90 and thigh pad above kneecaps, full machine visible.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-cba5b5e5-f428-436d-b353-393eb81555c2.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-seated-calf-raise-machine-movement.png",
+        "sourceSha256": "cf1e0deaaca8ac9fc07946a74635ee2702a2566b7e664ae01df004f428d63bd1",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-movement.webp",
+        "sha256": "1dc4f970a2b59bf98ff61d3e8b6dd06c6f90dae7233d68fb3ec60f0ed38f05dc",
+        "webpSha256": "5fbb635eb4452bc1599ab2bb2ac3d70569006fbeb8e07eb25ce3a49dfdce4d47",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Raised heels visibly above forefeet, same block contact and seated equipment, slight lever lift, same athlete camera and kit. Distinct ankle phase.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "biweekly-incline-smith-machine-press-45",

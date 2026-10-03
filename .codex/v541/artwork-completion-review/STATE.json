@@ -6,7 +6,7 @@
   "baselineWorkspace": "/Users/exxxy/Documents/Daily AI Help/gym-companion-v541-art-integration",
   "baselineSourceCommit": "b429bd53fb1022a430f8d2e710f33ac49082e30d",
   "deployedSourceCommit": "885a9872dc267a8030ac1b99fcef419c845571de",
-  "currentCheckpoint": "F7-REVIEW-01-QUEUE-FROZEN",
+  "currentCheckpoint": "F7-REVIEW-biweekly-seated-calf-raise-machine-PAIR-ACCEPTED",
   "completedUnits": [
     "BRANCH-ISOLATED",
     "SOURCE-CHECKPOINT-READ",
@@ -19,8 +19,8 @@
   "confirmedReplacementPairs": 3,
   "targetConfirmedPairs": 11,
   "targetConfirmedPhaseFiles": 22,
-  "generatedPairs": 0,
-  "generatedPhaseFiles": 0,
+  "generatedPairs": 4,
+  "generatedPhaseFiles": 8,
   "unresolvedMechanicsDayNames": 9,
   "combinedMovementDecisions": 5,
   "deferredTendonRecords": 4,
@@ -30,8 +30,19 @@
   "programmingDecision": "Confirmed: keep programming unchanged; complete artwork and provide recommendations separately",
   "currentMovementId": null,
   "currentPhase": null,
-  "completedMovementIds": [],
-  "failedUnits": [],
+  "completedMovementIds": [
+    "periodized-deficit-barbell-rdl",
+    "biweekly-stick-overhead-deep-squats",
+    "biweekly-sissy-squat",
+    "biweekly-seated-calf-raise-machine"
+  ],
+  "failedUnits": [
+    {
+      "id": "biweekly-standing-machine-calf-raise",
+      "phase": "start",
+      "reason": "Heel-free support setup and margin not clear in first draft; not integrated"
+    }
+  ],
   "changedFiles": [],
   "knownIssues": [
     "The 11 confirmed pairs do not cover all 30 pending day/name entries; remaining mechanics, combined movement and tendon decisions are separate.",
@@ -41,5 +52,5 @@
   ],
   "remoteMutationAllowed": false,
   "lastCompletedCommit": "b429bd53fb1022a430f8d2e710f33ac49082e30d",
-  "nextAtomicAction": "Generate Start for biweekly-standing-machine-calf-raise"
+  "nextAtomicAction": "Generate Start for biweekly-incline-smith-machine-press-45"
 }
