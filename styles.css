@@ -116,6 +116,14 @@
 .exercise>.visual-button,.guided-panel .exercise>.visual-button,.extra-option .visual-button,.extra-option-visual{grid-area:visual;width:var(--exercise-thumb)!important;height:var(--exercise-thumb)!important;min-width:var(--exercise-thumb);min-height:var(--exercise-thumb)}
 .exercise>.exercise-copy,.guided-panel .exercise>.exercise-copy{grid-area:copy;position:relative;min-width:0;padding-right:68px}
 .exercise-copy>.card-done{position:absolute;top:0;right:0;z-index:2}
+/* Member title alone reserves Done space. Lower copy/choices use the full
+   column; the generous artwork size and original data are unchanged. */
+.member-app .exercise>.exercise-copy,.member-app .guided-panel .exercise>.exercise-copy{padding-right:0}
+.member-app .exercise-copy>.card-done{position:static;float:right;margin:0 0 0 6px}
+.member-app .exercise-copy>h3{min-height:44px;padding-right:0}
+.member-app .exercise-copy>.priority-badge{padding-right:0}
+.member-app .exercise-copy>.choices{gap:6px}
+.member-app .exercise-copy>.detail-button{font-size:.875rem;line-height:1.35}
 .exercise>.check,.guided-panel .exercise>.check{grid-area:copy;position:absolute;top:12px;right:12px;margin:0;z-index:2}
 .exercise>.check input,.guided-panel .exercise>.check input{position:absolute;opacity:0;pointer-events:none}
 .card-done{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:7px 9px;border:1px solid #4b4b4b;border-radius:999px;background:#222;color:var(--muted);font-size:.72rem;font-weight:800;cursor:pointer}
@@ -127,6 +135,9 @@
 .guided-heading .muted,.guided-panel summary .muted{margin:3px 0 0;font-size:.83rem}
 .guided-scroll{display:grid;gap:10px;max-height:calc(2 * 174px + 10px);overflow-y:auto;padding:0 4px 2px 0;scrollbar-color:#5a5a5a transparent}
 .guided-scroll .guided-more{display:grid;gap:10px}
+.member-app .guided-scroll{scrollbar-width:thin;scrollbar-gutter:stable;-webkit-overflow-scrolling:touch}
+.member-app .guided-scroll::-webkit-scrollbar{width:5px}
+.member-app .guided-scroll::-webkit-scrollbar-thumb{background:#706b66;border-radius:4px}
 .guided-nudge{margin:0;color:#a7a39f;font-size:.74rem;text-align:center}
 .guided-options,.optional-addons-panel,.outlook-card{border:1px solid #383838;border-radius:14px;background:#202020}
 .guided-options summary,.optional-addons-panel summary,.outlook-card summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;padding:11px 13px;cursor:pointer;list-style:none}
@@ -152,11 +163,30 @@
 .choices{grid-column:1/-1;min-width:0}
 .extra-option{grid-template-columns:96px minmax(0,1fr)}
 .extra-option .visual-button,.extra-option-visual{width:96px!important;height:96px!important;min-width:96px;min-height:96px}
+/* Mobile safeguards are scoped to the member entry; coach styling is not
+   changed. No fixed heights, zoom lock, sticky overlays or artwork cropping. */
+.member-app{min-height:100svh;-webkit-text-size-adjust:100%;text-size-adjust:100%;padding-bottom:0}
+.member-app .shell{padding-top:calc(12px + env(safe-area-inset-top,0px));padding-right:calc(18px + env(safe-area-inset-right,0px));padding-bottom:calc(40px + env(safe-area-inset-bottom,0px));padding-left:calc(18px + env(safe-area-inset-left,0px))}
+.member-app .avatar,.member-app .icon-btn{min-width:44px;min-height:44px;flex-shrink:0}
+.member-app .button,.member-app .pill,.member-app .link-button,.member-app summary,.member-app .video-link{min-height:44px}
+.member-app .field input,.member-app .field select,.member-app .field textarea{font-size:1rem;min-height:44px}
+.member-app :is(button,a,select,input,textarea,summary,.guided-scroll):focus-visible,.member-app .card-done:has(input:focus-visible){outline:2px solid #ffe0cc;outline-offset:3px}
+.member-app .calendar-head{flex-wrap:wrap}
+.member-app .calendar-controls{flex-wrap:wrap}
+.member-app .video-link{display:inline-flex;align-items:center}
+.member-app .dose-card{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.member-app .dose-card span{grid-template-columns:minmax(0,1fr);padding:10px;align-content:start;min-width:0}
+.member-app .dose-card b{font-size:1rem;overflow-wrap:anywhere}
+.member-app .dose-card small{font-size:.875rem}
+.member-app .detail-step p,.member-app .detail-copy p{line-height:1.5;overflow-wrap:anywhere}
 @media(max-width:430px){
   :root{--exercise-thumb:128px}
   .shell{padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right))}
   .exercise,.guided-panel .exercise{gap:10px}
   .exercise>.exercise-copy,.guided-panel .exercise>.exercise-copy{padding-right:62px}
+  .member-app .shell{padding-left:calc(12px + env(safe-area-inset-left,0px));padding-right:calc(12px + env(safe-area-inset-right,0px))}
+  .member-app .exercise-copy>.choices .pill{padding:8px 7px;min-width:44px}
+  .member-app .calendar-head h2{font-size:1.125rem}
   .exercise>.check,.guided-panel .exercise>.check{top:10px;right:8px}
   .card-done{min-width:48px;padding-inline:8px}
   .guided-scroll{max-height:calc(2 * 154px + 10px)}
@@ -168,3 +198,17 @@
   .exercise>.exercise-copy,.guided-panel .exercise>.exercise-copy{padding-right:58px}
   .guided-scroll{max-height:calc(2 * 148px + 10px)}
 }
+/* Effective sub-320px viewports can occur with browser zoom/Display Zoom.
+   Reflow rather than shrinking type or disabling zoom. Normal phone cards
+   retain the approved left-image, two-column layout. */
+@media(max-width:319px){
+  .member-app .topbar{flex-wrap:wrap}
+  .member-app .day-grid,.member-app .dose-card{grid-template-columns:minmax(0,1fr)}
+  .member-app .exercise,.member-app .guided-panel .exercise,.member-app .extra-option{grid-template-columns:minmax(0,1fr);grid-template-areas:"visual" "copy"}
+  .member-app .guided-scroll{max-height:420px}
+  .member-app .calendar-cell{padding:2px 0}
+  .member-app .calendar-grid{gap:2px}
+  .member-app .rings{gap:1px}
+  .member-app .calendar-cell .ring{width:5px;height:5px}
+}
+@media print{.member-app .shell{padding:0}.member-app .exercise-copy>h3{padding-right:0;min-height:0}}

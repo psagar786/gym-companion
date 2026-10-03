@@ -27,3 +27,6 @@
 # F7-06-BASELINE
 
 2026-10-03: Began user-authorized mobile repair from clean `4f9b337` on `codex/v541-release`. Captured and inspected local Home, Saturday workout/main cards and detail at 393×852. Found full-column Done reservation inflating cards, narrow standalone profile/month targets, stacked guide metrics and unlabelled guided scroll. Saved `mobile/AUDIT.md`; source/content/artwork remain untouched. Problem 5's decisions remain deferred, not marked solved.
+# F7-06-MOBILE-REPAIRED
+
+Member-only CSS frees the lower text column while floating Done beside the title, retains 128px mobile artwork, gives standalone controls 44px targets, and renders guide metrics in three readable cells. Guided scroll regions have names, keyboard focus and visible focus styling; safe-area/zoom/form safeguards apply only to the member entry. 36 six-day/width cases pass overlap/overflow/target checks. Scope validator matches 1,690 protected source/data/asset files to baseline and confirms persistence/detail-return JS unchanged. Two test-harness errors (large-file subprocess buffer and absent coach.html) repaired; neither was an application defect. Further landscape/reflow/interaction evidence remains next.

@@ -2,7 +2,7 @@
   "sourceCommit": "498c565b9d4a85733d574c2b6f2e0ed29fa3850b",
   "implementationCommit": "9dc99ba",
   "branch": "codex/v541-release",
-  "currentCheckpoint": "F7-06-BASELINE",
+  "currentCheckpoint": "F7-06-MOBILE-REPAIRED",
   "completedUnits": [
     "F7-01-BASELINE",
     "F7-01-CLASSIFICATION",
@@ -23,7 +23,8 @@
     "F7-05-CONTENT-REPAIRED",
     "F7-05-PRESCRIPTIONS-REPAIRED",
     "F7-05-LOCAL-REVIEW",
-    "F7-06-BASELINE"
+    "F7-06-BASELINE",
+    "F7-06-MOBILE-REPAIRED"
   ],
   "changedFiles": [
     "data/abac-classification.js",
@@ -70,10 +71,19 @@
     "Exercise-specific safety coverage is not complete; no coach approval claimed. Dedicated real-iPhone/Safari optimization remains Problem 6."
   ],
   "reviewUrl": "http://localhost:4175/?v=5.4.1-content-correction",
-  "nextAtomicAction": "Repair mobile card spacing, touch targets, detail metrics and guided-scroll accessibility without changing workout data",
+  "nextAtomicAction": "Verify landscape and zoom reflow, expanded optional/tendon sections, guide return and final iPhone-size screenshots",
   "problem6": {
     "baselineCommit": "4f9b337",
-    "checkpoint": "F7-06-BASELINE",
+    "checkpoint": "F7-06-MOBILE-REPAIRED",
+    "sourceFiles": ["index.html", "styles.css", "member-app.js", "scripts/validate-abac-mobile-ui.mjs"],
+    "protectedFilesByteMatched": 1690,
+    "mobileWorkoutCases": 36,
+    "mobileWidths": [320, 375, 390, 393, 414, 430],
+    "horizontalOverflow": false,
+    "imageTextOrTitleDoneOverlap": false,
+    "standaloneTargetsBelow44": 0,
+    "calendarCellException": "Seven-column date cells remain narrower than 44px on small phones; standalone month/profile controls are 44px.",
+    "resolvedTestHarnessFailures": ["git show ENOBUFS for large protected files: replaced with streamed-compatible Git blob hash comparison", "ENOENT coach.html: inspect only actual entry files; admin-app.js unchanged"],
     "scope": "Local mobile presentation and accessibility; no artwork, workout programming, historical data or deployment changes",
     "referenceViewport": {"width": 393, "height": 852},
     "baselineFirstSaturdayCardHeight": 349.4375,
