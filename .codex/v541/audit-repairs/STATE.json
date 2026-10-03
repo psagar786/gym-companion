@@ -2,7 +2,7 @@
   "sourceCommit": "498c565b9d4a85733d574c2b6f2e0ed29fa3850b",
   "implementationCommit": "9dc99ba",
   "branch": "codex/v541-release",
-  "currentCheckpoint": "F7-06-MOBILE-REPAIRED",
+  "currentCheckpoint": "F7-06-LOCAL-REVIEW",
   "completedUnits": [
     "F7-01-BASELINE",
     "F7-01-CLASSIFICATION",
@@ -24,7 +24,8 @@
     "F7-05-PRESCRIPTIONS-REPAIRED",
     "F7-05-LOCAL-REVIEW",
     "F7-06-BASELINE",
-    "F7-06-MOBILE-REPAIRED"
+    "F7-06-MOBILE-REPAIRED",
+    "F7-06-LOCAL-REVIEW"
   ],
   "changedFiles": [
     "data/abac-classification.js",
@@ -70,11 +71,20 @@
     "Existing role-default doses remain in 333 tested occurrences; twelve Monday cardio occurrences lack an authored dose and are flagged.",
     "Exercise-specific safety coverage is not complete; no coach approval claimed. Dedicated real-iPhone/Safari optimization remains Problem 6."
   ],
-  "reviewUrl": "http://localhost:4175/?v=5.4.1-content-correction",
-  "nextAtomicAction": "Verify landscape and zoom reflow, expanded optional/tendon sections, guide return and final iPhone-size screenshots",
+  "reviewUrl": "http://localhost:4175/?v=5.4.1-mobile-optimization",
+  "nextAtomicAction": "Obtain user mobile-review feedback and arrange an explicitly authorized physical iPhone 16 Safari check before deployment",
   "problem6": {
     "baselineCommit": "4f9b337",
-    "checkpoint": "F7-06-MOBILE-REPAIRED",
+    "checkpoint": "F7-06-LOCAL-REVIEW",
+    "implementationCommit": "592f8ac",
+    "landscapeDesktopWorkoutCases": 12,
+    "narrowReflowCases": 6,
+    "narrowReflowActualWidth": 240,
+    "nativeOrButtonReturnChecks": 3,
+    "returnRestoredExactPositionAndUiState": true,
+    "expandedOptionalTendonWidths": [320, 393, 430],
+    "report": "mobile/REPORT.md",
+    "validation": "mobile/VALIDATION.json",
     "sourceFiles": ["index.html", "styles.css", "member-app.js", "scripts/validate-abac-mobile-ui.mjs"],
     "protectedFilesByteMatched": 1690,
     "mobileWorkoutCases": 36,
@@ -229,5 +239,5 @@
     "report": "content/REPORT.md",
     "reviewQueue": "content/VALIDATION.json"
   },
-  "lastCompletedCommit": "743d2c4"
+  "lastCompletedCommit": "592f8ac"
 }
