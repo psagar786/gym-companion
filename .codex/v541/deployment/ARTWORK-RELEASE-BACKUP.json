@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-03",
+  "directory": "/Users/exxxy/Documents/Daily AI Help/fitness7-backups/v5.4.1-artwork-review-2026-10-03-gZKvwK",
+  "restoreVerifiedFiles": 2344,
+  "allRestoredFileHashesMatch": true,
+  "sourceArchive": {"file": "source-and-artwork.tar.gz", "bytes": 436509934, "sha256": "623f78c485bfe59fe8d83597d68054a468c7a52b01fbfc1c86fadff964f76fd8"},
+  "historyBundle": {"file": "release-history.bundle", "bytes": 338356695, "sha256": "70bd5f34db1df9258176b15980019e3df8c99bbed0e3c6886cc647064475a6a2", "completeHistoryVerified": true, "releaseRef": "ce1198489e2674811106736b4151c7cbe3752a8d"},
+  "scope": "All source, original artwork, manifests, reports and configuration; generated public output omitted because it is reproducible. Archives are private local files and are not deployed."
+}

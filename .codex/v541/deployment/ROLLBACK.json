@@ -1,5 +1,16 @@
 {
-  "status": "prepared-before-release-promotion",
+  "status": "current-artwork-release-rollback-verified-before-preview",
+  "currentArtworkRelease": {
+    "previousProductionUrl": "https://fitness7-gym-companion-member-a82a8mvux-sagar-pm.vercel.app",
+    "previousDeploymentId": "dpl_APkckYcC4sM7GY4Vy1H7nDGtkodt",
+    "previousCommitSha": "8df039b06960fe187988de1d8a17f046ccc0a4ec",
+    "previewUrl": "",
+    "previewCommitSha": "",
+    "releaseCommitSha": "",
+    "rollbackCommand": "vercel rollback dpl_APkckYcC4sM7GY4Vy1H7nDGtkodt --scope sagar-pm",
+    "verifiedPreviousDeploymentReady": true,
+    "historicalRecordBelowIsNotTheCurrentRollbackTarget": true
+  },
   "previousProductionDeployment": {
     "id": "dpl_AZ1YNnSXozGJZHk5xjZ2A7gmEapy",
     "url": "https://fitness7-gym-companion-member-c9nzjub8b-sagar-pm.vercel.app",

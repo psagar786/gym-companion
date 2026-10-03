@@ -3,6 +3,7 @@
 batches
 output
 outputs
+public/
 # Historical artwork directories stay local; only the active V3/V4 WebP copies
 # are shipped. PNG masters remain available in the source and release backup.
 assets/exercises/biweekly/
