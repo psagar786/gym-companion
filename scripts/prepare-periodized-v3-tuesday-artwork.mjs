@@ -8,7 +8,7 @@ const outDir = path.join(root, '.codex/v541/artwork-v3/tuesday');
 fs.mkdirSync(outDir, { recursive: true });
 
 const context = { window: {} };
-for (const file of ['data/biweekly-routine.js', 'data/periodized-abc.js', 'data/v53-content.js']) {
+for (const file of ['data/biweekly-routine.js', 'data/abac-classification.js', 'data/periodized-abc.js', 'data/v53-content.js']) {
   vm.runInNewContext(fs.readFileSync(path.join(root, file), 'utf8'), context, { filename: file });
 }
 const plan = context.window.GYM_COMPANION_PERIODIZED_ABC;

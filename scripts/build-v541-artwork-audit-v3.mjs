@@ -8,6 +8,7 @@ const root = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const context = { window: {} };
 const sourceFiles = [
   'data/biweekly-routine.js',
+  'data/abac-classification.js',
   'data/periodized-abc.js',
   'data/periodized-artwork.js',
   'data/biweekly-artwork-registry.js',

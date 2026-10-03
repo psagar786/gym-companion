@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-03",
+  "sourceCommit": "961b4da",
+  "decisions": [
+    {
+      "canonicalMovementId": "periodized-chest-supported-t-bar-row",
+      "status": "replacement-required",
+      "reason": "Start is not chest-supported and uses a different machine from Movement.",
+      "reviewType": "AI-assisted visual/mechanics review; not qualified gym-coach approval",
+      "images": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v3/periodized-chest-supported-t-bar-row-v3-start.webp",
+          "sha256": "5b909c58f39ca704057e835bd4bf9413b7bdcc9e4ce5813d94120f5341bee6e3",
+          "bytes": 25320
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v3/periodized-chest-supported-t-bar-row-v3-movement.webp",
+          "sha256": "1272b3d3c9b97da093c2b0bc7375a8d9528c60c437bdcb9bb6670b3d2860ef8c",
+          "bytes": 32542
+        }
+      ]
+    },
+    {
+      "canonicalMovementId": "periodized-incline-db-press",
+      "status": "replacement-required",
+      "reason": "Illustration appears to use a nearly upright bench rather than the named incline chest-press angle.",
+      "reviewType": "AI-assisted visual/mechanics review; not qualified gym-coach approval",
+      "images": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-start.webp",
+          "sha256": "5e911cdd28f676729e749f7c842ccd516d2a2bd1851725c3154c855de6934f95",
+          "bytes": 25914
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v3/periodized-incline-db-press-v3-movement.webp",
+          "sha256": "bd72ab7e86863703e11af7f81029ba752791c22a781c7a07c3fbae8d14d05ec7",
+          "bytes": 22502
+        }
+      ]
+    },
+    {
+      "canonicalMovementId": "periodized-wide-stance-leg-press",
+      "status": "replacement-required",
+      "reason": "Machine frame and seating arrangement change between phases; needs pair review.",
+      "reviewType": "AI-assisted visual/mechanics review; not qualified gym-coach approval",
+      "images": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v3/periodized-wide-stance-leg-press-v3-start.webp",
+          "sha256": "2fb5ae90565246c03e5e36e42cffdeaac2d049484d1e8b37cef1d4bb87c4767a",
+          "bytes": 31468
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v3/periodized-wide-stance-leg-press-v3-movement.webp",
+          "sha256": "d56b1ebae8cc44db1e0b7a5a20297556059182335c2896a8135f606e52ebe0e8",
+          "bytes": 43054
+        }
+      ]
+    },
+    {
+      "canonicalMovementId": "periodized-deficit-bulgarian-split-squat",
+      "status": "restore-existing",
+      "reason": "Same athlete, dumbbells, elevated front foot and rear-foot bench support; extended setup and lowered working position.",
+      "reviewType": "AI-assisted visual/mechanics review; not qualified gym-coach approval",
+      "images": [
+        {
+          "phase": "start",
+          "path": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-start.webp",
+          "sha256": "1af8b213d6b966be9f94fbf48d9c0a939eb490ac183f80bc0a8317db5c6a5e83",
+          "bytes": 30402
+        },
+        {
+          "phase": "movement",
+          "path": "assets/exercises/periodized-v3/periodized-deficit-bulgarian-split-squat-v3-movement.webp",
+          "sha256": "28b139f08122ca55433196846bb8ac217885639606b1b7750ba5960a747a9203",
+          "bytes": 32340
+        }
+      ]
+    }
+  ],
+  "framingNote": "The restored deficit pair has a minor bench-edge framing limitation; the athlete, dumbbells, front-foot support and rear-foot contact are readable. It is not certified as a fresh 10-percent-margin generation pass."
+}

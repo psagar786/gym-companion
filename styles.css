@@ -19,7 +19,7 @@
 @media(max-width:430px){body{padding-bottom:env(safe-area-inset-bottom)}.shell{width:100%;padding:12px max(12px,env(safe-area-inset-left)) 34px max(12px,env(safe-area-inset-right))}.brand img{max-width:210px}.topbar{gap:7px;margin-bottom:13px}.topbar .brand img{width:108px}.topbar-actions{gap:5px}.topbar-actions .pill{min-height:42px;padding:8px 9px}.avatar{width:42px;height:42px}.day-grid{gap:8px}.day-card{min-height:108px;padding:11px}.detail-head{flex-direction:column;gap:8px}.detail-head h1{font-size:1.55rem}.exercise,.guided-panel .exercise{grid-template-columns:68px minmax(0,1fr);gap:10px;align-items:start}.exercise>.check{grid-column:2;justify-self:start;margin-top:2px}.visual,.guided-panel .visual{width:68px;height:68px}.exercise>.visual-button{width:68px;height:68px}.guided-panel .exercise>.visual-button{width:68px;height:68px}.exercise h3{font-size:.95rem}.exercise p{font-size:.82rem}.choices{gap:5px}.choice{min-height:38px;padding:7px 8px}.post-main-actions{align-items:flex-start;flex-direction:column}.extra-option{grid-template-columns:76px minmax(0,1fr);gap:9px;padding:9px}.extra-option .visual-button,.extra-option-visual{width:76px;height:76px}.extra-option-copy b{font-size:.9rem}.extra-option-copy small{font-size:.76rem}.extra-add{width:max-content}.calendar-panel{padding:11px;margin-top:18px}.calendar-weekdays,.calendar-grid{gap:3px}.calendar-cell{min-height:45px;border-radius:8px}.calendar-cell time{font-size:.75rem}.calendar-legend{gap:8px}.detail-step .detail-visual{max-width:100%;width:100%;height:auto}.ring-summary{gap:8px}.calendar-head .link-button{font-size:.78rem}}
 .visual-button{display:block;border:0;padding:0;background:transparent;color:inherit;text-align:left;border-radius:10px;min-width:44px;min-height:44px}.visual-button:focus-visible{outline:2px solid var(--orange);outline-offset:3px}.image-frame{position:relative;display:grid;place-items:center;overflow:hidden;background:#161616;color:#b9b4ad;border-radius:10px}.image-frame img{display:block;width:100%;height:100%;aspect-ratio:1 / 1;object-fit:contain;background:#161616}.image-frame .asset-placeholder-label{display:none;position:absolute;inset:auto 5px 6px;text-align:center;color:#d5c6bf;font-size:.68rem;font-weight:700;letter-spacing:.02em}.image-frame.no-image .asset-placeholder-label,.image-frame.asset-missing .asset-placeholder-label{display:block}.image-frame.no-image,.image-frame.asset-missing{background:linear-gradient(145deg,#202020,#121212)}.image-frame.no-image::before,.image-frame.asset-missing::before{content:'F7';display:grid;place-items:center;width:42px;height:42px;border:2px solid #555;border-radius:50%;color:#f45112;font-weight:900;letter-spacing:-.08em}.extra-option .visual-button{width:104px;height:104px}.extra-option .visual-button .extra-option-visual{width:100%;height:100%}.exercise>.visual-button{width:90px;height:90px}.guided-panel .exercise>.visual-button{width:112px;height:112px}
 .version-badge{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);border:1px solid rgba(240,90,40,.45);border-radius:999px;padding:5px 8px}
-.rotation-badge{display:inline-flex;margin:3px 0;padding:4px 7px;border-radius:999px;background:#3a2c26;color:#ffb294;font-size:.7rem;font-weight:800}
+.rotation-badge{display:inline-flex;margin:3px 0;padding:4px 7px;border-radius:999px;background:#3a2c26;color:#ffb294;font-size:.7rem;font-weight:800}.progression-nudge{display:block;margin-top:6px;color:var(--muted);font-size:.78rem;letter-spacing:.01em}
 
 /* V5.1 personalized training experience */
 .home-hero-v51{display:grid;grid-template-columns:minmax(0,1fr) 180px;align-items:center;gap:28px;max-width:780px;margin:22px auto 26px;padding:24px;text-align:left;border:1px solid #443a35;border-radius:24px;background:radial-gradient(circle at 88% 12%,rgba(244,81,18,.17),transparent 42%),linear-gradient(145deg,#292522,#202020);overflow:hidden}.home-hero-v51 h1{max-width:560px}.hero-copy>p:last-of-type{color:var(--muted)}.hero-rings{position:relative;width:168px;height:168px;justify-self:end}.hero-rings svg{width:100%;height:100%;transform:rotate(-90deg);overflow:visible}.hero-rings circle{fill:none;stroke-width:7}.ring-track{stroke:#383838}.hero-ring{stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:calc(100 - var(--progress));animation:ring-draw .9s cubic-bezier(.2,.8,.2,1) both}.hero-ring-main{stroke:#43c982}.hero-ring-warmup{stroke:#f28b82}.hero-ring-recovery{stroke:#72a8ff}.hero-rings>span{position:absolute;inset:0;display:grid;place-content:center;text-align:center}.hero-rings b{font-size:1.35rem}.hero-rings small{display:block}.hero-ring-legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px;color:var(--muted);font-size:.78rem}.hero-ring-legend span{display:inline-flex;align-items:center;gap:6px}@keyframes ring-draw{from{stroke-dashoffset:100}}
@@ -116,6 +116,14 @@
 .exercise>.visual-button,.guided-panel .exercise>.visual-button,.extra-option .visual-button,.extra-option-visual{grid-area:visual;width:var(--exercise-thumb)!important;height:var(--exercise-thumb)!important;min-width:var(--exercise-thumb);min-height:var(--exercise-thumb)}
 .exercise>.exercise-copy,.guided-panel .exercise>.exercise-copy{grid-area:copy;position:relative;min-width:0;padding-right:68px}
 .exercise-copy>.card-done{position:absolute;top:0;right:0;z-index:2}
+/* Member title alone reserves Done space. Lower copy/choices use the full
+   column; the generous artwork size and original data are unchanged. */
+.member-app .exercise>.exercise-copy,.member-app .guided-panel .exercise>.exercise-copy{padding-right:0}
+.member-app .exercise-copy>.card-done{position:static;float:right;margin:0 0 0 6px}
+.member-app .exercise-copy>h3{min-height:44px;padding-right:0}
+.member-app .exercise-copy>.priority-badge{padding-right:0}
+.member-app .exercise-copy>.choices{gap:6px}
+.member-app .exercise-copy>.detail-button{font-size:.875rem;line-height:1.35}
 .exercise>.check,.guided-panel .exercise>.check{grid-area:copy;position:absolute;top:12px;right:12px;margin:0;z-index:2}
 .exercise>.check input,.guided-panel .exercise>.check input{position:absolute;opacity:0;pointer-events:none}
 .card-done{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:7px 9px;border:1px solid #4b4b4b;border-radius:999px;background:#222;color:var(--muted);font-size:.72rem;font-weight:800;cursor:pointer}
@@ -127,6 +135,9 @@
 .guided-heading .muted,.guided-panel summary .muted{margin:3px 0 0;font-size:.83rem}
 .guided-scroll{display:grid;gap:10px;max-height:calc(2 * 174px + 10px);overflow-y:auto;padding:0 4px 2px 0;scrollbar-color:#5a5a5a transparent}
 .guided-scroll .guided-more{display:grid;gap:10px}
+.member-app .guided-scroll{scrollbar-width:thin;scrollbar-gutter:stable;-webkit-overflow-scrolling:touch}
+.member-app .guided-scroll::-webkit-scrollbar{width:5px}
+.member-app .guided-scroll::-webkit-scrollbar-thumb{background:#706b66;border-radius:4px}
 .guided-nudge{margin:0;color:#a7a39f;font-size:.74rem;text-align:center}
 .guided-options,.optional-addons-panel,.outlook-card{border:1px solid #383838;border-radius:14px;background:#202020}
 .guided-options summary,.optional-addons-panel summary,.outlook-card summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;padding:11px 13px;cursor:pointer;list-style:none}
@@ -144,18 +155,38 @@
 .outlook-timeline,.outlook-note{margin:0 13px 13px}
 .day-card{min-height:0;padding:10px 12px;gap:4px;text-align:left}
 .day-card-heading{display:flex;align-items:center;gap:7px;min-width:0;max-width:100%;flex-wrap:wrap}
-.day-card-heading time{color:var(--muted);font-size:.78rem}
+.day-card-heading b{color:#ff8a62}.day-card>span:not(.day-card-heading){color:var(--ink);font-weight:700}
+.day-card-heading time{display:inline-flex;align-items:center;padding:3px 7px;border:1px solid #5b3428;border-radius:999px;background:#2b211e;color:var(--ink);font-size:.76rem;line-height:1.2}
 .day-card-heading .today-badge{margin-left:0;flex:0 0 auto}
 .day-card .status{display:none}
 .plan-compact-card{display:none}
 .choices{grid-column:1/-1;min-width:0}
 .extra-option{grid-template-columns:96px minmax(0,1fr)}
 .extra-option .visual-button,.extra-option-visual{width:96px!important;height:96px!important;min-width:96px;min-height:96px}
+/* Mobile safeguards are scoped to the member entry; coach styling is not
+   changed. No fixed heights, zoom lock, sticky overlays or artwork cropping. */
+.member-app{min-height:100svh;-webkit-text-size-adjust:100%;text-size-adjust:100%;padding-bottom:0}
+.member-app .shell{padding-top:calc(12px + env(safe-area-inset-top,0px));padding-right:calc(18px + env(safe-area-inset-right,0px));padding-bottom:calc(40px + env(safe-area-inset-bottom,0px));padding-left:calc(18px + env(safe-area-inset-left,0px))}
+.member-app .avatar,.member-app .icon-btn{min-width:44px;min-height:44px;flex-shrink:0}
+.member-app .button,.member-app .pill,.member-app .link-button,.member-app summary,.member-app .video-link{min-height:44px}
+.member-app .field input,.member-app .field select,.member-app .field textarea{font-size:1rem;min-height:44px}
+.member-app :is(button,a,select,input,textarea,summary,.guided-scroll):focus-visible,.member-app .card-done:has(input:focus-visible){outline:2px solid #ffe0cc;outline-offset:3px}
+.member-app .calendar-head{flex-wrap:wrap}
+.member-app .calendar-controls{flex-wrap:wrap}
+.member-app .video-link{display:inline-flex;align-items:center}
+.member-app .dose-card{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.member-app .dose-card span{grid-template-columns:minmax(0,1fr);padding:10px;align-content:start;min-width:0}
+.member-app .dose-card b{font-size:1rem;overflow-wrap:anywhere}
+.member-app .dose-card small{font-size:.875rem}
+.member-app .detail-step p,.member-app .detail-copy p{line-height:1.5;overflow-wrap:anywhere}
 @media(max-width:430px){
   :root{--exercise-thumb:128px}
   .shell{padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right))}
   .exercise,.guided-panel .exercise{gap:10px}
   .exercise>.exercise-copy,.guided-panel .exercise>.exercise-copy{padding-right:62px}
+  .member-app .shell{padding-left:calc(12px + env(safe-area-inset-left,0px));padding-right:calc(12px + env(safe-area-inset-right,0px))}
+  .member-app .exercise-copy>.choices .pill{padding:8px 7px;min-width:44px}
+  .member-app .calendar-head h2{font-size:1.125rem}
   .exercise>.check,.guided-panel .exercise>.check{top:10px;right:8px}
   .card-done{min-width:48px;padding-inline:8px}
   .guided-scroll{max-height:calc(2 * 154px + 10px)}
@@ -167,3 +198,17 @@
   .exercise>.exercise-copy,.guided-panel .exercise>.exercise-copy{padding-right:58px}
   .guided-scroll{max-height:calc(2 * 148px + 10px)}
 }
+/* Effective sub-320px viewports can occur with browser zoom/Display Zoom.
+   Reflow rather than shrinking type or disabling zoom. Normal phone cards
+   retain the approved left-image, two-column layout. */
+@media(max-width:319px){
+  .member-app .topbar{flex-wrap:wrap}
+  .member-app .day-grid,.member-app .dose-card{grid-template-columns:minmax(0,1fr)}
+  .member-app .exercise,.member-app .guided-panel .exercise,.member-app .extra-option{grid-template-columns:minmax(0,1fr);grid-template-areas:"visual" "copy"}
+  .member-app .guided-scroll{max-height:420px}
+  .member-app .calendar-cell{padding:2px 0}
+  .member-app .calendar-grid{gap:2px}
+  .member-app .rings{gap:1px}
+  .member-app .calendar-cell .ring{width:5px;height:5px}
+}
+@media print{.member-app .shell{padding:0}.member-app .exercise-copy>h3{padding-right:0;min-height:0}}

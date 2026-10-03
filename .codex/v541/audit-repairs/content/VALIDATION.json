@@ -1,0 +1,3096 @@
+{
+  "status": "PASS",
+  "prescriptionFixtures": 34,
+  "videoAndMetricChecks": 10,
+  "cases": 72,
+  "records": 1867,
+  "authoredOrStructuredPrescriptionOccurrences": 1522,
+  "roleDefaultOccurrences": 333,
+  "missingCardioPrescriptionOccurrences": 12,
+  "excludedNonExerciseDayNames": 2,
+  "contentRegistryRecords": 116,
+  "sourceBackedDayNames": 150,
+  "reviewDayNames": 107,
+  "initialAlternativeLabels": 66,
+  "repairedAlternativeLabels": 33,
+  "remainingAlternativeLabels": [
+    "45° Incline Leg Press",
+    "Barbell RDL",
+    "Bodyweight Box Squat",
+    "Bulgarian Split Squats",
+    "Cable Hip Adduction",
+    "Cable Pull-Through",
+    "Chest-Supported Machine Row",
+    "Deficit Barbell RDL",
+    "Deficit Bulgarian Split Squat",
+    "Dumbbell Lying Leg Curl",
+    "Ez-Bar Curl & Skullcrushers",
+    "Goblet Squat to Box",
+    "Hanging Windshield Wipers",
+    "Incline Bench Row",
+    "Incline DB Curl & Rope Pressdown",
+    "Incline DB Press",
+    "Low Incline Cable Fly",
+    "Low-to-High Cable Fly",
+    "Lying Leg Lift",
+    "Machine Shoulder Press",
+    "Meadows Row",
+    "Overhead Dual-Cable Tricep Extension",
+    "Romanian Barbell Deadlift",
+    "Rope Tricep Pressdown",
+    "Side Plank Abduction",
+    "Single-Arm Cable Pulldown",
+    "Standing Cable Crossover",
+    "Step-Ups on Bench",
+    "Underhand Lat Pulldown",
+    "Walking Lunges",
+    "Wide-Stance Leg Press",
+    "Wide-Stance Sumo Goblet Squat",
+    "Wide-Stance Sumo Leg Press"
+  ],
+  "executionConflictDayNames": 4,
+  "reviewQueue": [
+    {
+      "day": "Monday",
+      "name": "Neutral-Grip Mag Pulldown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Assisted Pull-Ups",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Seated Cable Row (Sternum)",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Chest-Supported Machine Row",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Flat Barbell Bench",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Parallel Bar Dips",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Dumbbell Pullover on Bench",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Cable Pushdown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Low Incline Cable Fly",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Standing Plate Press",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Stick Overhead Lat Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Doorway Pec Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Wrist extensor isometric",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Light DB Side Bend",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Stick High Knee Marches",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Incline Walk",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Wrist flexor isometric",
+      "status": "needs-review",
+      "mappingStatus": "deferred-tendon-review",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Stick Seated Russian Twists",
+      "status": "tier-execution-conflict",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Cable Pallof Press with Iso-Hold",
+      "status": "tier-execution-conflict",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Incline Treadmill Intervals",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Wide-Stance Sumo Goblet Squat",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Cable Hip Adduction",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Side Plank Abduction",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Barbell RDL",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Cable Pull-Through",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Goblet Squat to Box",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Bodyweight Box Squat",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Dumbbell Lying Leg Curl",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Deficit Bulgarian Split Squat",
+      "status": "needs-review",
+      "mappingStatus": "existing-artwork-needs-review",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Step-Ups on Bench",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Overhead Deep Squat Prys",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Good Mornings",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Lateral Leg Swings",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Quad Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Butterfly Groin Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Hamstring Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Patellar tendon isometric",
+      "status": "needs-review",
+      "mappingStatus": "deferred-tendon-review",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Lying Leg Curl",
+      "status": "tier-execution-conflict",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Seated position, full leg curl"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Deficit Bulgarian Split Squats",
+      "status": "needs-review",
+      "mappingStatus": "existing-artwork-needs-review",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Standing Machine Calf Raise",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Machine Shoulder Press",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Underhand Lat Pulldown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Single-Arm Cable Pulldown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Chest-Supported Machine Row",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Low Incline Cable Fly",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Standing Cable Crossover",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Rope Tricep Pressdown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Ez-Bar Curl & Skullcrushers",
+      "status": "needs-review",
+      "mappingStatus": "combined-needs-content-decision",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Calf isometric",
+      "status": "needs-review",
+      "mappingStatus": "deferred-tendon-review",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Dumbbell Pullover on Flat Bench",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Side Plank Hold with Rotation",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Lying Leg Lift",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+      "status": "needs-review",
+      "mappingStatus": "combined-needs-content-decision",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Hanging Windshield Wipers",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Stick Good Mornings",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Incline Walk",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Wrist extensor isometric",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Floor Reverse Crunch with Pelvic Tilt",
+      "status": "tier-execution-conflict",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 45s | On Incline Bench for added resistance"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Incline Treadmill Intervals",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Wide-Stance Leg Press",
+      "status": "needs-review",
+      "mappingStatus": "existing-artwork-needs-review",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Cable Hip Adduction",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Meadows Row",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Stick Good Mornings",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Core brace isometric",
+      "status": "needs-review",
+      "mappingStatus": "deferred-tendon-review",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate"
+        },
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "beginner"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "status": "needs-review",
+      "mappingStatus": "combined-needs-content-decision",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Dead Bug to Dragon Flag Negatives",
+      "status": "needs-review",
+      "mappingStatus": "combined-needs-content-decision",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "expert"
+        },
+        {
+          "week": "C",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Incline Barbell Bench Press (30°)",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Incline Machine Press",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Assisted Neutral Chin-Up",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Seated Cable Row to Sternum (Neutral Grip)",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Machine Row",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "DB Pullover",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Standing Low-to-High Cable Crossover",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Incline Machine Fly",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Overhead Lat Lengthener",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Doorway Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Hanging Straight-Leg Toes-to-Bar",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Leg Raise",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Lying Floor Leg Raise",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "status": "needs-review",
+      "mappingStatus": "combined-needs-content-decision",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Wide-Stance Sumo Leg Press",
+      "status": "needs-review",
+      "mappingStatus": "existing-artwork-needs-review",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Romanian Deadlift",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Deficit Barbell RDL",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Leg Press",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "45° Incline Leg Press",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Reverse Lunges with Dumbbells",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Walking Lunges",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Bulgarian Split Squats",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Overhead Deep Squats",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Hip Swings",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Sissy Squat",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Seated Calf Raise Machine",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Assisted Pull-Up",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Chest-Supported T-Bar Row",
+      "status": "needs-review",
+      "mappingStatus": "existing-artwork-needs-review",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline Bench Row",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline Smith Machine Press 45°",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline DB Press",
+      "status": "needs-review",
+      "mappingStatus": "existing-artwork-needs-review",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Low-to-High Cable Fly",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Bayesian Cable Curl",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Overhead Dual-Cable Tricep Extension",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline DB Curl & Rope Pressdown",
+      "status": "needs-review",
+      "mappingStatus": "combined-needs-content-decision",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline Cable Pullover with Stretched Bias",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Hanging Oblique Knee Raise",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Cable Side Crunch on Mat",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Romanian Barbell Deadlift",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate"
+        },
+        {
+          "week": "B",
+          "tier": "expert"
+        }
+      ]
+    }
+  ]
+}

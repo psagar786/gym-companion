@@ -1,17 +1,37 @@
 {
-  "status": "prepared-before-release-promotion",
+  "status": "current-artwork-release-rollback-verified-before-preview",
+  "currentArtworkRelease": {
+    "previousProductionUrl": "https://fitness7-gym-companion-member-a82a8mvux-sagar-pm.vercel.app",
+    "previousDeploymentId": "dpl_APkckYcC4sM7GY4Vy1H7nDGtkodt",
+    "previousCommitSha": "8df039b06960fe187988de1d8a17f046ccc0a4ec",
+    "previewUrl": "",
+    "previewCommitSha": "",
+    "releaseCommitSha": "",
+    "rollbackCommand": "vercel rollback dpl_APkckYcC4sM7GY4Vy1H7nDGtkodt --scope sagar-pm",
+    "verifiedPreviousDeploymentReady": true,
+    "historicalRecordBelowIsNotTheCurrentRollbackTarget": true
+  },
   "previousProductionDeployment": {
     "id": "dpl_AZ1YNnSXozGJZHk5xjZ2A7gmEapy",
     "url": "https://fitness7-gym-companion-member-c9nzjub8b-sagar-pm.vercel.app",
     "alias": "https://fitness7-gym-companion-member.vercel.app",
     "commit": "1eeda26337ec77bda2e9b89dd7b10511f5100b68"
   },
-  "releaseCommitSha": "",
-  "previewDeployment": null,
-  "productionDeployment": null,
+  "releaseCommitSha": "57a797ca739fdc8abe60eb529de17fe70dc1aea7",
+  "previewDeployment": {
+    "id": "dpl_GAYK8TmA91WuRiaqLT9kJRhgXKbX",
+    "url": "https://fitness7-gym-companion-member-6e4s3huz3-sagar-pm.vercel.app",
+    "commit": "78fb2d38aacfd28872bed33fbaa91ef8f3264a9f"
+  },
+  "productionDeployment": {
+    "id": "dpl_DFHPpQ9iezbEnZStRbKwqxgc5pNA",
+    "url": "https://fitness7-gym-companion-member-rguwz1xyj-sagar-pm.vercel.app",
+    "alias": "https://fitness7-gym-companion-member.vercel.app",
+    "commit": "57a797ca739fdc8abe60eb529de17fe70dc1aea7"
+  },
   "rollbackCommand": "vercel rollback <deployment-id>",
   "notes": [
-    "Refresh the previous deployment fields after authenticated Vercel inventory.",
+    "The existing v5.4.1 tag points to the previous production merge; v5.4.1-r1 identifies this release without rewriting the tag.",
     "Rollback restores deployment state only and must not alter member data."
   ]
 }

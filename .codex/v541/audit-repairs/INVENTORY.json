@@ -1,0 +1,1992 @@
+Warning: truncated output (original token count: 15894)
+Total output lines: 2110
+
+{
+  "sourceCommit": "498c565b9d4a85733d574c2b6f2e0ed29fa3850b",
+  "days": [
+    {
+      "week": "A",
+      "day": "Monday",
+      "main": [
+        {
+          "id": "biweekly-a-1-incline-dumbbell-bench-press-30-slot-1-biweekly-incline-dumbbell-bench-press-30",
+          "name": "Incline Dumbbell Bench Press (30°)",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Incline Smith Machine Press",
+            "Incline Barbell Bench",
+            "Deficit Push-Ups"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-wide-grip-lat-pulldown-slot-2-biweekly-wide-grip-lat-pulldown",
+          "name": "Wide-Grip Lat Pulldown",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Neutral-Grip Mag Pulldown",
+            "Assisted Pull-Ups"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-chest-supported-incline-dumbbell-row-slot-3-biweekly-chest-supported-incline-dumbbell-row",
+          "name": "Chest-Supported Incline Dumbbell Row",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Seated Cable Row (Sternum)",
+            "Chest-Supported Machine Row",
+            "T-Bar Row"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-flat-dumbbell-bench-press-slot-4-biweekly-flat-dumbbell-bench-press",
+          "name": "Flat Dumbbell Bench Press",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Flat Barbell Bench",
+            "Parallel Bar Dips"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-straight-arm-cable-pulldown-slot-5-biweekly-straight-arm-cable-pulldown",
+          "name": "Straight-Arm Cable Pulldown",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Dumbbell Pullover on Bench",
+            "Cable Pushdown"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-incline-dumbbell-hex-press-slot-6-biweekly-incline-dumbbell-hex-press",
+          "name": "Incline Dumbbell Hex Press",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Low Incline Cable Fly",
+            "Standing Plate Press",
+            "Close-Grip Incline DB Press"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-1-cable-face-pull-with-external-rotation-slot-7-biweekly-cable-face-pull-with-external-rotation",
+          "name": "Cable Face Pull with External Rotation",
+          "groups": [
+            "shoulders"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-hanging-straight-leg-raise-slot-8-biweekly-hanging-straight-leg-raise",
+          "name": "Hanging Straight-Leg Raise",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "A",
+      "day": "Tuesday",
+      "main": [
+        {
+          "id": "biweekly-a-2-stick-seated-russian-twists-slot-1-biweekly-stick-seated-russian-twists",
+          "name": "Stick Seated Russian Twists",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Cable Russian Twist",
+            "Floor Bodyweight Twist",
+            "Medicine Ball Twists"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-lying-pelvic-tilt-leg-raise-slot-2-biweekly-lying-pelvic-tilt-leg-raise",
+          "name": "Lying Pelvic-Tilt Leg Raise",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Bench Reverse Crunch",
+            "Hanging Leg Raise"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-cable-pallof-press-with-iso-hold-slot-3-biweekly-cable-pallof-press-with-iso-hold",
+          "name": "Cable Pallof Press with Iso-Hold",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Side Plank Hold",
+            "DB Suitcase Carry"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-stick-standing-lateral-side-bends-slot-4-biweekly-stick-standing-lateral-side-bends",
+          "name": "Stick Standing Lateral Side Bends",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Light DB Side Bend",
+            "Side Plank Hip Dips",
+            "Cable Side Crunch"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-transverse-abdominis-stomach-vacuum-slot-5-biweekly-transverse-abdominis-stomach-vacuum",
+          "name": "Transverse Abdominis Stomach Vacuum",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Lying Supine Vacuum",
+            "Incline Bench Plank Vacuum",
+            "Cat-Cow Vacuum"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-kneeling-cable-rope-crunch-slot-6-biweekly-kneeling-cable-rope-crunch",
+          "name": "Kneeling Cable Rope Crunch",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Decline Bench Weighted Crunch",
+            "Stability Ball Crunch",
+            "Floor Crunch"
+          ]
+        }
+      ],
+      "optional": []
+    },
+    {
+      "week": "A",
+      "day": "Wednesday",
+      "main": [
+        {
+          "id": "biweekly-a-3-seated-hip-adductor-machine-slot-1-biweekly-seated-hip-adductor-machine",
+          "name": "Seated Hip Adductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Wide-Stance Sumo Goblet Squat",
+            "Cable Hip Adduction",
+            "Side-Lying Adduction"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-seated-hip-abductor-machine-slot-2-biweekly-seated-hip-abductor-machine",
+          "name": "Seated Hip Abductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Side Plank Abduction"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-dumbbell-romanian-deadlift-rdl-slot-3-biweekly-dumbbell-romanian-deadlift-rdl",
+          "name": "Dumbbell Romanian Deadlift (RDL)",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Barbell RDL",
+            "Cable Pull-Through"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-45-incline-leg-press-mid-stance-slot-4-biweekly-45-incline-leg-press-mid-stance",
+          "name": "45° Incline Leg Press (Mid-Stance)",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Goblet Squat to Box",
+            "Bodyweight Box Squat"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-seated-leg-curl-machine-slot-5-biweekly-seated-leg-curl-machine",
+          "name": "Lying Leg Curl",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Dumbbell Lying Leg Curl"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-dumbbell-walking-lunges-slot-6-biweekly-dumbbell-walking-lunges",
+          "name": "Dumbbell Walking Lunges",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Deficit Bulgarian Split Squat",
+            "Step-Ups on Bench",
+            "Reverse Lunges"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-3-deficit-bulgarian-split-squats-slot-7-biweekly-deficit-bulgarian-split-squats",
+          "name": "Deficit Bulgarian Split Squats",
+          "groups": [
+            "legs"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-standing-machine-calf-raise-slot-8-biweekly-standing-machine-calf-raise",
+          "name": "Standing Machine Calf Raise",
+          "groups": [
+            "legs"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "A",
+      "day": "Thursday",
+      "main": [
+        {
+          "id": "biweekly-a-4-seated-dumbbell-overhead-shoulder-press-slot-1-biweekly-seated-dumbbell-overhead-shoulder-press",
+          "name": "Seated Dumbbell Overhead Shoulder Press",
+          "groups": [
+            "shoulders"
+          ],
+          "alternatives": [
+            "Standing Barbell Overhead Press",
+            "Machine Shoulder Press",
+            "Arnold Press"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-close-grip-v-bar-lat-pulldown-slot-2-biweekly-close-grip-v-bar-lat-pulldown",
+          "name": "Close-Grip V-Bar Lat Pulldown",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Underhand Lat Pulldown",
+            "Single-Arm Cable Pulldown",
+            "Chin-Ups"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-seated-wide-grip-cable-row-slot-3-biweekly-seated-wide-grip-cable-row",
+          "name": "Seated Wide-Grip Cable Row",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "T-Bar Row",
+            "Chest-Supported Machine Row",
+            "Incline DB Prone Row"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-pec-deck-machine-slot-4-biweekly-pec-deck-machine",
+          "name": "Cable Fly",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Low Incline Cable Fly",
+            "Standing Cable Crossover",
+            "Dumbbell Incline Fly",
+            "Parallel Bar Dips"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-incline-dumbbell-curl-slot-5-biweekly-incline-dumbbell-curl",
+          "name": "Incline Dumbbell Curl",
+          "groups": [
+            "arms"
+          ],
+          "alternatives": [
+            "Rope Tricep Pressdown",
+            "Ez-Bar Curl & Skullcrushers",
+            "Cable Hammer Curl & Dips",
+            "Concentration Curls"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-cuffed-cable-rear-delt-fly-slot-6-biweekly-cuffed-cable-rear-delt-fly",
+          "name": "Incline Dumbbell Reverse Fly",
+          "groups": [
+            "shoulders"
+          ],
+          "alternatives": [
+            "Incline Prone DB Reverse Fly"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-4-dumbbell-pullover-on-flat-bench-slot-7-biweekly-dumbbell-pullover-on-flat-bench",
+          "name": "Dumbbell Pullover on Flat Bench",
+          "groups": [
+            "back"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-side-plank-hold-with-rotation-slot-8-biweekly-side-plank-hold-with-rotation",
+          "name": "Side Plank Hold with Rotation",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "A",
+      "day": "Friday",
+      "main": [
+        {
+          "id": "biweekly-a-5-stick-standing-trunk-rotations-slot-1-biweekly-stick-standing-trunk-rotations",
+          "name": "Stick Standing Trunk Rotations",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Cable Woodchopper (Low-to-High)",
+            "Russian Twists"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-floor-reverse-crunch-with-pelvic-tilt-slot-2-biweekly-floor-reverse-crunch-with-pelvic-tilt",
+          "name": "Floor Reverse Crunch with Pelvic Tilt",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Hanging Leg Raise",
+            "Lying Leg Lift"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-stick-overhead-lateral-side-bends-slot-3-biweekly-stick-overhead-lateral-side-bends",
+          "name": "Stick Overhead Lateral Side Bends",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Cable Side Crunch",
+            "Side Plank Hip Dips",
+            "Light DB Side Bend"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-standard-forearm-plank-to-rkc-hardstyle-plank-slot-4-biweekly-standard-forearm-plank-to-rkc-hardstyle-plank",
+          "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Extended Plank"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-transverse-abdominis-stomach-vacuums-slot-5-biweekly-transverse-abdominis-stomach-vacuums",
+          "name": "Transverse Abdominis Stomach Vacuums",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Quadruped Vacuum",
+            "Lying Vacuum",
+            "Plank Vacuum"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-hanging-straight-leg-raise-slot-6-biweekly-hanging-straight-leg-raise",
+          "name": "Hanging Straight-Leg Raise",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Knee Tuck",
+            "Hanging Windshield Wipers",
+            "Dragon Flag Negatives",
+            "Decline Leg Raise"
+          ]
+        }
+      ],
+      "optional": []
+    },
+    {
+      "week": "A",
+      "day": "Saturday",
+      "main": [
+        {
+          "id": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust",
+          "name": "Glute Bridge",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Dumbbell Glute Bridge",
+            "Single-Leg Hip Thrust",
+            "Machine Hip Thrust"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine",
+          "name": "Seated Hip Adductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Wide-Stance Leg Press",
+            "Cable Hip Adduction",
+            "Sumo Goblet Squat"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso",
+          "name": "Seated Cable Row to Mid-Torso",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Single-Arm DB Row",
+            "Meadows Row",
+            "Chest-Supported T-Bar Row"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine",
+          "name": "Seated Hip Abductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Cable Standing Abduction",
+            "Side Plank Clamshells"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift",
+          "name": "Dumbbell Stiff-Leg Romanian Deadlift",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Single-Leg DB RDL",
+            "Nordic Curl Negatives"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause",
+          "name": "Dumbbell Shrugs with 2s Pause",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Cable Upright Row (Wide)",
+            "Barbell Shrug",
+            "Hex Bar Shrug"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges",
+          "name": "Bodyweight Air Squats to Walking Lunges",
+          "groups": [
+            "legs"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives",
+          "name": "Dead Bug to Dragon Flag Negatives",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "A",
+      "day": "Sunday",
+      "main": [],
+      "optional": []
+    },
+    {
+      "week": "B",
+      "day": "Monday",
+      "main": [
+        {
+          "id": "biweekly-b-1-incline-barbell-bench-press-30-slot-1-biweekly-incline-barbell-bench-press-30",
+          "name": "Incline Barbell Bench Press (30°)",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Incline Dumbbell Press",
+            "Incline Machine Press",
+            "Incline Deficit Push-Ups"
+          ]
+        },
+        {
+          "id": "biweekly-b-1-neutral-grip-mag-grip-lat-pulldown-slot-2-biweekly-neutral-grip-mag-grip-lat-pulldown",
+          "name": "Neutral-Grip Mag-Grip Lat Pulldown",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Wide-Grip Lat Pulldown",
+            "Assisted Neutral Chin-Up"
+          ]
+        },
+        {
+          "id": "biweekly-b-1-seated-cable-row-to-sternum-neutral-grip-slot-3-biweekly-seated-cable-row-to-sternum-neutral-grip",
+          "name": "Seated Cable Row to Sternum (Neutral Grip)",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Chest-Supported DB Row",
+            "Machine Row",
+            "Meadows Row"
+          ]
+        },
+        {
+          "id": "biweekly-b-1-seated-machine-chest-press-slot-4-biweekly-seated-machine-chest-press",
+          "name": "Incline Dumbbell Press",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Flat Barbell Bench",
+            "Flat Dumbbell Bench",
+            "Weighted Push-Ups"
+          ]
+        },
+        {
+          "id": "biweekly-b-1-single-arm-iliac-cable-lat-pulldown-slot-5-biweekly-single-arm-iliac-cable-lat-pulldown",
+          "name": "Single-Arm Iliac Cable Lat Pulldown",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Straight-Arm Cable Pulldown",
+            "DB Pullover",
+            "Kneeling Cable Lat Pull"
+          ]
+        },
+        {
+          "id": "biweekly-b-1-standing-low-to-high-cable-crossover-slot-6-biweekly-standing-low-to-high-cable-crossover",
+          "name": "Standing Low-to-High Cable Crossover",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Incline DB Hex Press",
+            "Incline Machine Fly",
+            "Plate Press"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-b-1-hanging-straight-leg-toes-to-bar-slot-8-biweekly-hanging-straight-leg-toes-to-bar",
+          "name": "Hanging Straight-Leg Toes-to-Bar",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "B",
+      "day": "Tuesday",
+      "main": [
+        {
+          "id": "biweekly-b-2-standing-cable-woodchopper-high-to-low-slot-1-biweekly-standing-cable-woodchopper-high-to-low",
+          "name": "Standing Cable Woodchopper (High-to-Low)",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Stick Russian Twists",
+            "Dumbbell Woodchopper"
+          ]
+        },
+        {
+          "id": "biweekly-b-2-captain-s-chair-knee-slot-2-biweekly-captain-s-chair-knee",
+          "name": "Hanging Knee Raise",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Leg Raise",
+            "Lying Floor Leg Raise",
+            "Incline Reverse Crunch",
+            "Hanging Leg Raise"
+          ]
+        },
+        {
+          "id": "biweekly-b-2-half-kneeling-cable-pallof-press-with-overhead-raise-slot-3-biweekly-half-kneeling-cable-pallof-press-with-overhead-raise",
+          "name": "Half-Kneeling Cable Pallof Press with Overhead Raise",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Standard Pallof Press",
+            "Side Plank Hold"
+          ]
+        },
+        {
+          "id": "biweekly-b-2-side-plank-hip-dips-with-rotation-slot-4-biweekly-side-plank-hip-dips-with-rotation",
+          "name": "Side Plank Hip Dips with Rotation",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Stick Side Bends",
+            "Cable Side Crunch",
+            "DB Side Bend"
+          ]
+        },
+        {
+          "id": "biweekly-b-2-standing-seated-transverse-abdominis-stomach-vacuum-slot-5-biweekly-standing-seated-transverse-abdominis-stomach-vacuum",
+          "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Quadruped Vacuum",
+            "Plank Vacuum",
+            "Lying Vacuum"
+          ]
+        },
+        {
+          "id": "biweekly-b-2-decline-bench-weighted-crunch-slot-6-biweekly-decline-bench-weighted-crunch",
+          "name": "Decline Bench Weighted Crunch",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Kneeling Cable Rope Crunch",
+            "Stability Ball Crunch",
+            "Floor Crunch"
+          ]
+        }
+      ],
+      "optional": []
+    },
+    {
+      "week": "B",
+      "day": "Wednesday",
+      "main": [
+        {
+          "id": "biweekly-b-3-seated-hip-adductor-machine-slot-1-biweekly-seated-hip-adductor-machine",
+          "name": "Seated Hip Adductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Wide-Stance Sumo Leg Press",
+            "Cable Hip Adduction",
+            "Sumo Goblet Squat"
+          ]
+        },
+        {
+          "id": "biweekly-b-3-seated-hip-abductor-machine-slot-2-biweekly-seated-hip-abductor-machine",
+          "name": "Seated Hip Abductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Cable Standing Abduction",
+            "Side Plank Abduction"
+          ]
+        },
+        {
+          "id": "biweekly-b-3-trap-bar-deadlift-slot-3-biweekly-trap-bar-deadlift",
+          "name": "Romanian Deadlift",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Deficit Barbell RDL",
+            "Dumbbell RDL",
+            "Conventional Deadlift",
+            "Cable Pull-Through"
+          ]
+        },
+        {
+          "id": "biweekly-b-3-hack-squat-machine-slot-4-biweekly-hack-squat-machine",
+          "name": "Leg Press",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Wide-Stance Sumo Leg Press",
+            "45° Incline Leg Press",
+            "Goblet Squat",
+            "Bodyweight Box Squat"
+          ]
+        },
+        {
+          "id": "biweekly-b-3-lying-leg-curl-machine-slot-5-biweekly-lying-leg-curl-machine",
+          "name": "Lying Leg Curl Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Dumbbell Lying Leg Curl"
+          ]
+        },
+        {
+          "id": "biweekly-b-3-reverse-lunges-with-dumbbells-slot-6-biweekly-reverse-lunges-with-dumbbells",
+          "name": "Reverse Lunges with Dumbbells",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Walking Lunges",
+            "Bulgarian Split Squats",
+            "Step-Ups"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-b-3-sissy-squat-slot-7-biweekly-sissy-squat",
+          "name": "Sissy Squat",
+          "groups": [
+            "legs"
+          ]
+        },
+        {
+          "id": "biweekly-b-3-seated-calf-raise-machine-slot-8-biweekly-seated-calf-raise-machine",
+          "name": "Seated Calf Raise Machine",
+          "groups": [
+            "legs"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "B",
+      "day": "Thursday",
+      "main": [
+        {
+          "id": "biweekly-b-4-standing-barbell-overhead-press-slot-1-biweekly-standing-barbell-overhead-press",
+          "name": "Standing Barbell Overhead Press",
+          "groups": [
+            "shoulders"
+          ],
+          "alternatives": [
+            "Machine Shoulder Press",
+            "Seated DB Shoulder Press",
+            "Arnold Press",
+            "Landmine Press"
+          ]
+        },
+        {
+          "id": "biweekly-b-4-neutral-grip-lat-pulldown-close-grip-v-bar-slot-2-biweekly-neutral-grip-lat-pulldown-close-grip-v-bar",
+          "name": "Neutral-Grip Lat Pulldown (Close-Grip V-Bar)",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Wide-Grip Lat Pulldown",
+            "Assisted Pull-Up"
+          ]
+        },
+        {
+          "id": "biweekly-b-4-chest-supported-t-bar-row-slot-3-biweekly-chest-supported-t-bar-row",
+          "name": "Chest-Supported T-Bar Row",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Incline Bench Row",
+            "Seated Cable Row",
+            "Single-Arm DB Row",
+            "Meadows Row"
+          ]
+        },
+        {
+          "id": "biweekly-b-4-incline-smith-machine-press-45-slot-4-biweekly-incline-smith-machine-press-45",
+          "name": "Incline Smith Machine Press 45°",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Incline DB Press",
+            "Low-to-High Cable Fly",
+            "Weighted Dips"
+          ]
+        },
+        {
+          "id": "biweekly-b-4-bayesian-cable-curl-slot-5-biweekly-bayesian-cable-curl",
+          "name": "Bayesian Cable Curl",
+          "groups": [
+            "arms"
+          ],
+          "alternatives": [
+            "Overhead Dual-Cable Tricep Extension",
+            "Incline DB Curl & Rope Pressdown",
+            "Ez-Bar Preacher Curl & Skullcrushers"
+          ]
+        },
+        {
+          "id": "biweekly-b-4-incline-prone-dumbbell-reverse-fly-slot-6-biweekly-incline-prone-dumbbell-reverse-fly",
+          "name": "Incline Prone Dumbbell Reverse Fly",
+          "groups": [
+            "shoulders"
+          ],
+          "alternatives": []
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-b-4-incline-cable-pullover-with-stretched-bias-slot-7-biweekly-incline-cable-pullover-with-stretched-bias",
+          "name": "Incline Cable Pullover with Stretched Bias",
+          "groups": [
+            "back"
+          ]
+        },
+        {
+          "id": "biweekly-b-4-hanging-oblique-knee-raise-slot-8-biweekly-hanging-oblique-knee-raise",
+          "name": "Hanging Oblique Knee Raise",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "B",
+      "day": "Friday",
+      "main": [
+        {
+          "id": "biweekly-b-5-standing-cable-woodchopper-low-to-high-slot-1-biweekly-standing-cable-woodchopper-low-to-high",
+          "name": "Standing Cable Woodchopper (Low-to-High)",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Stick Russian Twists",
+            "Landmine Rotations"
+          ]
+        },
+        {
+          "id": "biweekly-b-5-incline-bench-reverse-crunch-with-pelvic-curl-slot-2-biweekly-incline-bench-reverse-crunch-with-pelvic-curl",
+          "name": "Incline Bench Reverse Crunch with Pelvic Curl",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Floor Reverse Crunch",
+            "Hanging Leg Raise"
+          ]
+        },
+        {
+          "id": "biweekly-b-5-cable-side-crunch-on-mat-slot-3-biweekly-cable-side-crunch-on-mat",
+          "name": "Cable Side Crunch on Mat",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Stick Lateral Side Bends",
+            "Side Plank Hip Dips",
+            "Light DB Side Bend",
+            "Stick Side Bends"
+          ]
+        },
+        {
+          "id": "biweekly-b-5-ab-wheel-rollout-from-knees-slot-4-biweekly-ab-wheel-rollout-from-knees",
+          "name": "Dead Bug",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Forearm Plank",
+            "RKC Hardstyle Plank"
+          ]
+        },
+        {
+          "id": "biweekly-b-5-transverse-abdominis-stomach-vacuums-slot-5-biweekly-transverse-abdominis-stomach-vacuums",
+          "name": "Transverse Abdominis Stomach Vacuums",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Quadruped Vacuum",
+            "Plank Vacuum",
+            "Lying Vacuum"
+          ]
+        },
+        {
+          "id": "biweekly-b-5-hanging-windshield-wipers-slot-6-biweekly-hanging-windshield-wipers",
+          "name": "Hanging Windshield Wipers",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Bicycle Kicks",
+            "Hanging Leg Raise",
+            "Dragon Flag Negatives",
+            "Decline Bench Russian Twists"
+          ]
+        }
+      ],
+      "optional": []
+    },
+    {
+      "week": "B",
+      "day": "Saturday",
+      "main": [
+        {
+          "id": "biweekly-b-6-kas-glute-bridge-slot-1-biweekly-kas-glute-bridge",
+          "name": "Kas Glute Bridge",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Dumbbell Glute Bridge",
+            "Single-Leg Hip Thrust",
+            "Machine Hip Thrust"
+          ]
+        },
+        {
+          "id": "biweekly-b-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine",
+          "name": "Seated Hip Adductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Wide-Stance Leg Press",
+            "Cable Hip Adduction",
+            "Sumo Goblet Squat"
+          ]
+        },
+        {
+          "id": "biweekly-b-6-single-arm-dumbbell-row-slot-3-biweekly-single-arm-dumbbell-row",
+          "name": "Single-Arm Dumbbell Row",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Meadows Row",
+            "Seated Cable Row",
+            "Chest-Supported T-Bar Row",
+            "Machine Row"
+          ]
+        },
+        {
+          "id": "biweekly-b-6-seated-hip-abduct…894 tokens truncated…-dumbbell-hex-press-slot-6-biweekly-incline-dumbbell-hex-press",
+          "name": "Incline Dumbbell Hex Press",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Low Incline Cable Fly",
+            "Standing Plate Press",
+            "Close-Grip Incline DB Press"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-1-cable-face-pull-with-external-rotation-slot-7-biweekly-cable-face-pull-with-external-rotation",
+          "name": "Cable Face Pull with External Rotation",
+          "groups": [
+            "shoulders"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-hanging-straight-leg-raise-slot-8-biweekly-hanging-straight-leg-raise",
+          "name": "Hanging Straight-Leg Raise",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "A",
+      "day": "Tuesday",
+      "main": [
+        {
+          "id": "biweekly-a-2-stick-seated-russian-twists-slot-1-biweekly-stick-seated-russian-twists",
+          "name": "Stick Seated Russian Twists",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Cable Russian Twist",
+            "Floor Bodyweight Twist",
+            "Medicine Ball Twists"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-lying-pelvic-tilt-leg-raise-slot-2-biweekly-lying-pelvic-tilt-leg-raise",
+          "name": "Lying Pelvic-Tilt Leg Raise",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Bench Reverse Crunch",
+            "Hanging Leg Raise"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-cable-pallof-press-with-iso-hold-slot-3-biweekly-cable-pallof-press-with-iso-hold",
+          "name": "Cable Pallof Press with Iso-Hold",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Side Plank Hold",
+            "DB Suitcase Carry"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-stick-standing-lateral-side-bends-slot-4-biweekly-stick-standing-lateral-side-bends",
+          "name": "Stick Standing Lateral Side Bends",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Light DB Side Bend",
+            "Side Plank Hip Dips",
+            "Cable Side Crunch"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-transverse-abdominis-stomach-vacuum-slot-5-biweekly-transverse-abdominis-stomach-vacuum",
+          "name": "Transverse Abdominis Stomach Vacuum",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Lying Supine Vacuum",
+            "Incline Bench Plank Vacuum",
+            "Cat-Cow Vacuum"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-kneeling-cable-rope-crunch-slot-6-biweekly-kneeling-cable-rope-crunch",
+          "name": "Kneeling Cable Rope Crunch",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Decline Bench Weighted Crunch",
+            "Stability Ball Crunch",
+            "Floor Crunch"
+          ]
+        }
+      ],
+      "optional": []
+    },
+    {
+      "week": "A",
+      "day": "Wednesday",
+      "main": [
+        {
+          "id": "biweekly-a-3-seated-hip-adductor-machine-slot-1-biweekly-seated-hip-adductor-machine",
+          "name": "Seated Hip Adductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Wide-Stance Sumo Goblet Squat",
+            "Cable Hip Adduction",
+            "Side-Lying Adduction"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-seated-hip-abductor-machine-slot-2-biweekly-seated-hip-abductor-machine",
+          "name": "Seated Hip Abductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Side Plank Abduction"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-dumbbell-romanian-deadlift-rdl-slot-3-biweekly-dumbbell-romanian-deadlift-rdl",
+          "name": "Dumbbell Romanian Deadlift (RDL)",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Barbell RDL",
+            "Cable Pull-Through"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-45-incline-leg-press-mid-stance-slot-4-biweekly-45-incline-leg-press-mid-stance",
+          "name": "45° Incline Leg Press (Mid-Stance)",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Goblet Squat to Box",
+            "Bodyweight Box Squat"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-seated-leg-curl-machine-slot-5-biweekly-seated-leg-curl-machine",
+          "name": "Lying Leg Curl",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Dumbbell Lying Leg Curl"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-dumbbell-walking-lunges-slot-6-biweekly-dumbbell-walking-lunges",
+          "name": "Dumbbell Walking Lunges",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Deficit Bulgarian Split Squat",
+            "Step-Ups on Bench",
+            "Reverse Lunges"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-3-deficit-bulgarian-split-squats-slot-7-biweekly-deficit-bulgarian-split-squats",
+          "name": "Deficit Bulgarian Split Squats",
+          "groups": [
+            "legs"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-standing-machine-calf-raise-slot-8-biweekly-standing-machine-calf-raise",
+          "name": "Standing Machine Calf Raise",
+          "groups": [
+            "legs"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "A",
+      "day": "Thursday",
+      "main": [
+        {
+          "id": "biweekly-a-4-seated-dumbbell-overhead-shoulder-press-slot-1-biweekly-seated-dumbbell-overhead-shoulder-press",
+          "name": "Seated Dumbbell Overhead Shoulder Press",
+          "groups": [
+            "shoulders"
+          ],
+          "alternatives": [
+            "Standing Barbell Overhead Press",
+            "Machine Shoulder Press",
+            "Arnold Press"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-close-grip-v-bar-lat-pulldown-slot-2-biweekly-close-grip-v-bar-lat-pulldown",
+          "name": "Close-Grip V-Bar Lat Pulldown",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Underhand Lat Pulldown",
+            "Single-Arm Cable Pulldown",
+            "Chin-Ups"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-seated-wide-grip-cable-row-slot-3-biweekly-seated-wide-grip-cable-row",
+          "name": "Seated Wide-Grip Cable Row",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "T-Bar Row",
+            "Chest-Supported Machine Row",
+            "Incline DB Prone Row"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-pec-deck-machine-slot-4-biweekly-pec-deck-machine",
+          "name": "Cable Fly",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Low Incline Cable Fly",
+            "Standing Cable Crossover",
+            "Dumbbell Incline Fly",
+            "Parallel Bar Dips"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-incline-dumbbell-curl-slot-5-biweekly-incline-dumbbell-curl",
+          "name": "Incline Dumbbell Curl",
+          "groups": [
+            "arms"
+          ],
+          "alternatives": [
+            "Rope Tricep Pressdown",
+            "Ez-Bar Curl & Skullcrushers",
+            "Cable Hammer Curl & Dips",
+            "Concentration Curls"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-cuffed-cable-rear-delt-fly-slot-6-biweekly-cuffed-cable-rear-delt-fly",
+          "name": "Incline Dumbbell Reverse Fly",
+          "groups": [
+            "shoulders"
+          ],
+          "alternatives": [
+            "Incline Prone DB Reverse Fly"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-4-dumbbell-pullover-on-flat-bench-slot-7-biweekly-dumbbell-pullover-on-flat-bench",
+          "name": "Dumbbell Pullover on Flat Bench",
+          "groups": [
+            "back"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-side-plank-hold-with-rotation-slot-8-biweekly-side-plank-hold-with-rotation",
+          "name": "Side Plank Hold with Rotation",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "A",
+      "day": "Friday",
+      "main": [
+        {
+          "id": "biweekly-a-5-stick-standing-trunk-rotations-slot-1-biweekly-stick-standing-trunk-rotations",
+          "name": "Stick Standing Trunk Rotations",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Cable Woodchopper (Low-to-High)",
+            "Russian Twists"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-floor-reverse-crunch-with-pelvic-tilt-slot-2-biweekly-floor-reverse-crunch-with-pelvic-tilt",
+          "name": "Floor Reverse Crunch with Pelvic Tilt",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Hanging Leg Raise",
+            "Lying Leg Lift"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-stick-overhead-lateral-side-bends-slot-3-biweekly-stick-overhead-lateral-side-bends",
+          "name": "Stick Overhead Lateral Side Bends",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Cable Side Crunch",
+            "Side Plank Hip Dips",
+            "Light DB Side Bend"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-standard-forearm-plank-to-rkc-hardstyle-plank-slot-4-biweekly-standard-forearm-plank-to-rkc-hardstyle-plank",
+          "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Extended Plank"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-transverse-abdominis-stomach-vacuums-slot-5-biweekly-transverse-abdominis-stomach-vacuums",
+          "name": "Transverse Abdominis Stomach Vacuums",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Quadruped Vacuum",
+            "Lying Vacuum",
+            "Plank Vacuum"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-hanging-straight-leg-raise-slot-6-biweekly-hanging-straight-leg-raise",
+          "name": "Hanging Straight-Leg Raise",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Knee Tuck",
+            "Hanging Windshield Wipers",
+            "Dragon Flag Negatives",
+            "Decline Leg Raise"
+          ]
+        }
+      ],
+      "optional": []
+    },
+    {
+      "week": "A",
+      "day": "Saturday",
+      "main": [
+        {
+          "id": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust",
+          "name": "Glute Bridge",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Dumbbell Glute Bridge",
+            "Single-Leg Hip Thrust",
+            "Machine Hip Thrust"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine",
+          "name": "Seated Hip Adductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Wide-Stance Leg Press",
+            "Cable Hip Adduction",
+            "Sumo Goblet Squat"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso",
+          "name": "Seated Cable Row to Mid-Torso",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Single-Arm DB Row",
+            "Meadows Row",
+            "Chest-Supported T-Bar Row"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine",
+          "name": "Seated Hip Abductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Cable Standing Abduction",
+            "Side Plank Clamshells"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift",
+          "name": "Dumbbell Stiff-Leg Romanian Deadlift",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Single-Leg DB RDL",
+            "Nordic Curl Negatives"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause",
+          "name": "Dumbbell Shrugs with 2s Pause",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Cable Upright Row (Wide)",
+            "Barbell Shrug",
+            "Hex Bar Shrug"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges",
+          "name": "Bodyweight Air Squats to Walking Lunges",
+          "groups": [
+            "legs"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives",
+          "name": "Dead Bug to Dragon Flag Negatives",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "A",
+      "day": "Sunday",
+      "main": [],
+      "optional": []
+    },
+    {
+      "week": "C",
+      "day": "Monday",
+      "main": [
+        {
+          "id": "biweekly-a-1-incline-dumbbell-bench-press-30-slot-1-biweekly-incline-dumbbell-bench-press-30",
+          "name": "Incline Dumbbell Bench Press (30°)",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Incline Smith Machine Press",
+            "Incline Barbell Bench",
+            "Deficit Push-Ups"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-wide-grip-lat-pulldown-slot-2-biweekly-wide-grip-lat-pulldown",
+          "name": "Wide-Grip Lat Pulldown",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Neutral-Grip Mag Pulldown",
+            "Assisted Pull-Ups"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-chest-supported-incline-dumbbell-row-slot-3-biweekly-chest-supported-incline-dumbbell-row",
+          "name": "Chest-Supported Incline Dumbbell Row",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Seated Cable Row (Sternum)",
+            "Chest-Supported Machine Row",
+            "T-Bar Row"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-flat-dumbbell-bench-press-slot-4-biweekly-flat-dumbbell-bench-press",
+          "name": "Flat Dumbbell Bench Press",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Flat Barbell Bench",
+            "Parallel Bar Dips"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-straight-arm-cable-pulldown-slot-5-biweekly-straight-arm-cable-pulldown",
+          "name": "Straight-Arm Cable Pulldown",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Dumbbell Pullover on Bench",
+            "Cable Pushdown"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-incline-dumbbell-hex-press-slot-6-biweekly-incline-dumbbell-hex-press",
+          "name": "Incline Dumbbell Hex Press",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Low Incline Cable Fly",
+            "Standing Plate Press",
+            "Close-Grip Incline DB Press"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-1-cable-face-pull-with-external-rotation-slot-7-biweekly-cable-face-pull-with-external-rotation",
+          "name": "Cable Face Pull with External Rotation",
+          "groups": [
+            "shoulders"
+          ]
+        },
+        {
+          "id": "biweekly-a-1-hanging-straight-leg-raise-slot-8-biweekly-hanging-straight-leg-raise",
+          "name": "Hanging Straight-Leg Raise",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "C",
+      "day": "Tuesday",
+      "main": [
+        {
+          "id": "biweekly-a-2-stick-seated-russian-twists-slot-1-biweekly-stick-seated-russian-twists",
+          "name": "Stick Seated Russian Twists",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Cable Russian Twist",
+            "Floor Bodyweight Twist",
+            "Medicine Ball Twists"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-lying-pelvic-tilt-leg-raise-slot-2-biweekly-lying-pelvic-tilt-leg-raise",
+          "name": "Lying Pelvic-Tilt Leg Raise",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Bench Reverse Crunch",
+            "Hanging Leg Raise"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-cable-pallof-press-with-iso-hold-slot-3-biweekly-cable-pallof-press-with-iso-hold",
+          "name": "Cable Pallof Press with Iso-Hold",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Side Plank Hold",
+            "DB Suitcase Carry"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-stick-standing-lateral-side-bends-slot-4-biweekly-stick-standing-lateral-side-bends",
+          "name": "Stick Standing Lateral Side Bends",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Light DB Side Bend",
+            "Side Plank Hip Dips",
+            "Cable Side Crunch"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-transverse-abdominis-stomach-vacuum-slot-5-biweekly-transverse-abdominis-stomach-vacuum",
+          "name": "Transverse Abdominis Stomach Vacuum",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Lying Supine Vacuum",
+            "Incline Bench Plank Vacuum",
+            "Cat-Cow Vacuum"
+          ]
+        },
+        {
+          "id": "biweekly-a-2-kneeling-cable-rope-crunch-slot-6-biweekly-kneeling-cable-rope-crunch",
+          "name": "Kneeling Cable Rope Crunch",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Decline Bench Weighted Crunch",
+            "Stability Ball Crunch",
+            "Floor Crunch"
+          ]
+        }
+      ],
+      "optional": []
+    },
+    {
+      "week": "C",
+      "day": "Wednesday",
+      "main": [
+        {
+          "id": "biweekly-a-3-seated-hip-adductor-machine-slot-1-biweekly-seated-hip-adductor-machine",
+          "name": "Seated Hip Adductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Wide-Stance Sumo Goblet Squat",
+            "Cable Hip Adduction",
+            "Side-Lying Adduction"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-seated-hip-abductor-machine-slot-2-biweekly-seated-hip-abductor-machine",
+          "name": "Seated Hip Abductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Side Plank Abduction"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-dumbbell-romanian-deadlift-rdl-slot-3-biweekly-dumbbell-romanian-deadlift-rdl",
+          "name": "Dumbbell Romanian Deadlift (RDL)",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Barbell RDL",
+            "Cable Pull-Through"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-45-incline-leg-press-mid-stance-slot-4-biweekly-45-incline-leg-press-mid-stance",
+          "name": "45° Incline Leg Press (Mid-Stance)",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Goblet Squat to Box",
+            "Bodyweight Box Squat"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-seated-leg-curl-machine-slot-5-biweekly-seated-leg-curl-machine",
+          "name": "Lying Leg Curl",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Dumbbell Lying Leg Curl"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-dumbbell-walking-lunges-slot-6-biweekly-dumbbell-walking-lunges",
+          "name": "Dumbbell Walking Lunges",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Deficit Bulgarian Split Squat",
+            "Step-Ups on Bench",
+            "Reverse Lunges"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-3-deficit-bulgarian-split-squats-slot-7-biweekly-deficit-bulgarian-split-squats",
+          "name": "Deficit Bulgarian Split Squats",
+          "groups": [
+            "legs"
+          ]
+        },
+        {
+          "id": "biweekly-a-3-standing-machine-calf-raise-slot-8-biweekly-standing-machine-calf-raise",
+          "name": "Standing Machine Calf Raise",
+          "groups": [
+            "legs"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "C",
+      "day": "Thursday",
+      "main": [
+        {
+          "id": "biweekly-a-4-seated-dumbbell-overhead-shoulder-press-slot-1-biweekly-seated-dumbbell-overhead-shoulder-press",
+          "name": "Seated Dumbbell Overhead Shoulder Press",
+          "groups": [
+            "shoulders"
+          ],
+          "alternatives": [
+            "Standing Barbell Overhead Press",
+            "Machine Shoulder Press",
+            "Arnold Press"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-close-grip-v-bar-lat-pulldown-slot-2-biweekly-close-grip-v-bar-lat-pulldown",
+          "name": "Close-Grip V-Bar Lat Pulldown",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Underhand Lat Pulldown",
+            "Single-Arm Cable Pulldown",
+            "Chin-Ups"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-seated-wide-grip-cable-row-slot-3-biweekly-seated-wide-grip-cable-row",
+          "name": "Seated Wide-Grip Cable Row",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "T-Bar Row",
+            "Chest-Supported Machine Row",
+            "Incline DB Prone Row"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-pec-deck-machine-slot-4-biweekly-pec-deck-machine",
+          "name": "Cable Fly",
+          "groups": [
+            "chest"
+          ],
+          "alternatives": [
+            "Low Incline Cable Fly",
+            "Standing Cable Crossover",
+            "Dumbbell Incline Fly",
+            "Parallel Bar Dips"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-incline-dumbbell-curl-slot-5-biweekly-incline-dumbbell-curl",
+          "name": "Incline Dumbbell Curl",
+          "groups": [
+            "arms"
+          ],
+          "alternatives": [
+            "Rope Tricep Pressdown",
+            "Ez-Bar Curl & Skullcrushers",
+            "Cable Hammer Curl & Dips",
+            "Concentration Curls"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-cuffed-cable-rear-delt-fly-slot-6-biweekly-cuffed-cable-rear-delt-fly",
+          "name": "Incline Dumbbell Reverse Fly",
+          "groups": [
+            "shoulders"
+          ],
+          "alternatives": [
+            "Incline Prone DB Reverse Fly"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-4-dumbbell-pullover-on-flat-bench-slot-7-biweekly-dumbbell-pullover-on-flat-bench",
+          "name": "Dumbbell Pullover on Flat Bench",
+          "groups": [
+            "back"
+          ]
+        },
+        {
+          "id": "biweekly-a-4-side-plank-hold-with-rotation-slot-8-biweekly-side-plank-hold-with-rotation",
+          "name": "Side Plank Hold with Rotation",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "C",
+      "day": "Friday",
+      "main": [
+        {
+          "id": "biweekly-a-5-stick-standing-trunk-rotations-slot-1-biweekly-stick-standing-trunk-rotations",
+          "name": "Stick Standing Trunk Rotations",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Cable Woodchopper (Low-to-High)",
+            "Russian Twists"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-floor-reverse-crunch-with-pelvic-tilt-slot-2-biweekly-floor-reverse-crunch-with-pelvic-tilt",
+          "name": "Floor Reverse Crunch with Pelvic Tilt",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Hanging Leg Raise",
+            "Lying Leg Lift"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-stick-overhead-lateral-side-bends-slot-3-biweekly-stick-overhead-lateral-side-bends",
+          "name": "Stick Overhead Lateral Side Bends",
+          "groups": [
+            "mobility"
+          ],
+          "alternatives": [
+            "Cable Side Crunch",
+            "Side Plank Hip Dips",
+            "Light DB Side Bend"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-standard-forearm-plank-to-rkc-hardstyle-plank-slot-4-biweekly-standard-forearm-plank-to-rkc-hardstyle-plank",
+          "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Extended Plank"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-transverse-abdominis-stomach-vacuums-slot-5-biweekly-transverse-abdominis-stomach-vacuums",
+          "name": "Transverse Abdominis Stomach Vacuums",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Quadruped Vacuum",
+            "Lying Vacuum",
+            "Plank Vacuum"
+          ]
+        },
+        {
+          "id": "biweekly-a-5-hanging-straight-leg-raise-slot-6-biweekly-hanging-straight-leg-raise",
+          "name": "Hanging Straight-Leg Raise",
+          "groups": [
+            "core"
+          ],
+          "alternatives": [
+            "Knee Tuck",
+            "Hanging Windshield Wipers",
+            "Dragon Flag Negatives",
+            "Decline Leg Raise"
+          ]
+        }
+      ],
+      "optional": []
+    },
+    {
+      "week": "C",
+      "day": "Saturday",
+      "main": [
+        {
+          "id": "biweekly-a-6-barbell-hip-thrust-slot-1-biweekly-barbell-hip-thrust",
+          "name": "Glute Bridge",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Dumbbell Glute Bridge",
+            "Single-Leg Hip Thrust",
+            "Machine Hip Thrust"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-seated-hip-adductor-machine-slot-2-biweekly-seated-hip-adductor-machine",
+          "name": "Seated Hip Adductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Wide-Stance Leg Press",
+            "Cable Hip Adduction",
+            "Sumo Goblet Squat"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-seated-cable-row-to-mid-torso-slot-3-biweekly-seated-cable-row-to-mid-torso",
+          "name": "Seated Cable Row to Mid-Torso",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Single-Arm DB Row",
+            "Meadows Row",
+            "Chest-Supported T-Bar Row"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-seated-hip-abductor-machine-slot-4-biweekly-seated-hip-abductor-machine",
+          "name": "Seated Hip Abductor Machine",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Cable Standing Abduction",
+            "Side Plank Clamshells"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-dumbbell-stiff-leg-romanian-deadlift-slot-5-biweekly-dumbbell-stiff-leg-romanian-deadlift",
+          "name": "Dumbbell Stiff-Leg Romanian Deadlift",
+          "groups": [
+            "legs"
+          ],
+          "alternatives": [
+            "Single-Leg DB RDL",
+            "Nordic Curl Negatives"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-dumbbell-shrugs-with-2s-pause-slot-6-biweekly-dumbbell-shrugs-with-2s-pause",
+          "name": "Dumbbell Shrugs with 2s Pause",
+          "groups": [
+            "back"
+          ],
+          "alternatives": [
+            "Cable Upright Row (Wide)",
+            "Barbell Shrug",
+            "Hex Bar Shrug"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "biweekly-a-6-bodyweight-air-squats-to-walking-lunges-slot-7-biweekly-bodyweight-air-squats-to-walking-lunges",
+          "name": "Bodyweight Air Squats to Walking Lunges",
+          "groups": [
+            "legs"
+          ]
+        },
+        {
+          "id": "biweekly-a-6-dead-bug-to-dragon-flag-negatives-slot-8-biweekly-dead-bug-to-dragon-flag-negatives",
+          "name": "Dead Bug to Dragon Flag Negatives",
+          "groups": [
+            "core"
+          ]
+        }
+      ]
+    },
+    {
+      "week": "C",
+      "day": "Sunday",
+      "main": [],
+      "optional": []
+    }
+  ],
+  "fileHashes": {
+    "data/abac-classification.js": "dbcee69205efe9174a53511054e0540ac102335d42b493d1b495c372261ff603",
+    "data/periodized-abc.js": "cf26743921cd1e8160790f9fc8968cffbd9d87572cf7cf3b042fdb6ae63c0f08",
+    "member-app.js": "fac944c8377394105f5c8b76e5c9207445c3f908440316bd4ef26f63fc94f777",
+    "index.html": "6f6b2be1ee0e1d2c673b9ced55a59046aea2a97379afb2e39007642e208ed7a9"
+  }
+}

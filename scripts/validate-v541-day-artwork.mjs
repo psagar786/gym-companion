@@ -6,7 +6,7 @@ const root = process.cwd();
 const slug = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 const context = { window: {} };
 vm.createContext(context);
-for (const file of ['data/biweekly-routine.js', 'data/periodized-abc.js', 'data/periodized-v3-day-artwork.js']) {
+for (const file of ['data/biweekly-routine.js', 'data/abac-classification.js', 'data/periodized-abc.js', 'data/periodized-v3-day-artwork.js']) {
   vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context, { filename: file });
 }
 const runtime = context.window.GYM_COMPANION_PERIODIZED_ABC;

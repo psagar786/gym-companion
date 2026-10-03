@@ -14,20 +14,6 @@
   const slug = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
   const excluded = /captain|band(?:ed|s)?|trap[- ]bar|hack squat|swiss ball|seated leg curl|cable (?:standing )?hip abduction|cuffed cable|pec[- ]deck|dip machine|machine chest press|barbell hip thrust|ab wheel/i;
-  const targetGroups = name => {
-    const text = String(name || '').toLowerCase();
-    const groups = new Set();
-    if (/chest|press|fly|pec|push-up/.test(text)) groups.add('chest');
-    if (/lat|pulldown|pull-up|row|pullover|rear.?delt|back extension|hyperextension/.test(text)) groups.add('back');
-    if (/curl|biceps|hammer|forearm|wrist|triceps|pressdown|extension/.test(text)) groups.add('arms');
-    if (/shoulder|scap|lateral raise|rotator|around-the-world|thoracic/.test(text)) groups.add('shoulders');
-    if (/squat|lunge|leg|rdl|deadlift|hinge|glute|hamstring|calf|tibialis|abductor|adductor|poliquin|monster/.test(text)) groups.add('legs');
-    if (/abs|core|plank|crunch|knee raise|pallof|vacuum|oblique|woodchop|trunk/.test(text)) groups.add('core');
-    if (/walk|bike|cardio|treadmill|interval/.test(text)) groups.add('cardio');
-    if (/stretch|mobility|rotation|warm|prep|activation|drill|stick|pose|rock|circle/.test(text)) groups.add('mobility');
-    if (!groups.size) groups.add('mobility');
-    return [...groups];
-  };
   const isExcluded = item => excluded.test(`${item?.name || ''} ${item?.equipment || ''}`);
   const dose = (beginner, intermediate, advanced) => ({ beginner, intermediate, advanced });
   const phase = (start, movement, direction = '', grip = '') => ({
@@ -309,9 +295,7 @@
     next.dayIndex = dayIndex;
     next.role = roleOverride || next.role;
     next.stableMovementId = replacedName ? `periodized-${slug(next.name)}` : (next.stableMovementId || `periodized-${slug(next.name)}`);
-    next.targetGroups = targetGroups(next.name);
-    next.primaryTargets = next.targetGroups.filter(group => group !== 'mobility' && group !== 'cardio').slice(0, 2);
-    next.secondaryTargets = next.targetGroups.filter(group => !next.primaryTargets.includes(group));
+    Object.assign(next, window.GYM_COMPANION_ABAC_CLASSIFICATION.register(next));
     next.equipmentStatus = isExcluded(item) ? 'Review before use · source equipment excluded; approved substitute shown' : (next.equipmentStatus || 'Review source sheet');
     next.sourceSheetRows = [...new Set([...(next.sourceSheetRows || []), next.sourceSheetRow].filter(Boolean))];
     next.sourceVersion = 'periodized-abc-v1';
@@ -323,7 +307,7 @@
     next.dayIndex = dayIndex;
     next.dayName = day.dayName || ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'][dayIndex];
     next.focus = foundation ? `${day.focus.split('·')[0].trim()} · Foundation strength & support` : day.focus;
-    next.targetGroups = [...new Set((next.coreSlots || []).flatMap(item => targetGroups(item.name)).filter(group => !['mobility','cardio'].includes(group)))];
+    next.targetGroups = [...new Set((next.coreSlots || []).flatMap(item => window.GYM_COMPANION_ABAC_CLASSIFICATION.resolve(item).targetGroups).filter(group => !['mobility','cardio','status'].includes(group)))];
     next.coreSlots = (next.coreSlots || []).map(item => {
       const movement = normaliseMovement(item, weekKey, dayIndex, 'core');
       if (foundation) {

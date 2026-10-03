@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const context = { window: {} };
-for (const file of ['data/biweekly-routine.js', 'data/periodized-abc.js', 'data/periodized-v2-pilot.js']) {
+for (const file of ['data/biweekly-routine.js', 'data/abac-classification.js', 'data/periodized-abc.js', 'data/periodized-v2-pilot.js']) {
   vm.runInNewContext(fs.readFileSync(path.join(root, file), 'utf8'), context);
 }
 const plan = context.window.GYM_COMPANION_PERIODIZED_ABC;
