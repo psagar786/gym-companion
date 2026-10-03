@@ -1,0 +1,68 @@
+[
+  {
+    "id": "biweekly-standing-machine-calf-raise",
+    "name": "Standing Machine Calf Raise",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "periodized-deficit-barbell-rdl",
+    "name": "Deficit Barbell RDL",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "biweekly-stick-overhead-deep-squats",
+    "name": "Stick Overhead Deep Squats",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "biweekly-sissy-squat",
+    "name": "Sissy Squat",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "biweekly-seated-calf-raise-machine",
+    "name": "Seated Calf Raise Machine",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "biweekly-incline-smith-machine-press-45",
+    "name": "Incline Smith Machine Press 45°",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "biweekly-bayesian-cable-curl",
+    "name": "Bayesian Cable Curl",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "periodized-overhead-dual-cable-tricep-extension",
+    "name": "Overhead Dual-Cable Tricep Extension",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "periodized-chest-supported-t-bar-row",
+    "name": "Chest-Supported T-Bar Row",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "periodized-incline-db-press",
+    "name": "Incline DB Press",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "periodized-wide-stance-leg-press",
+    "name": "Wide-Stance Leg Press",
+    "phases": {},
+    "status": "not-started"
+  }
+]
