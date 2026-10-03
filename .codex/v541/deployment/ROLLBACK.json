@@ -1,12 +1,17 @@
 {
-  "status": "current-artwork-release-rollback-verified-before-preview",
+  "status": "current-artwork-release-production-independently-verified-rollback-retained",
   "currentArtworkRelease": {
     "previousProductionUrl": "https://fitness7-gym-companion-member-a82a8mvux-sagar-pm.vercel.app",
     "previousDeploymentId": "dpl_APkckYcC4sM7GY4Vy1H7nDGtkodt",
     "previousCommitSha": "8df039b06960fe187988de1d8a17f046ccc0a4ec",
-    "previewUrl": "",
-    "previewCommitSha": "",
-    "releaseCommitSha": "",
+    "previewUrl": "https://fitness7-gym-companion-member-8q1l6heok-sagar-pm.vercel.app",
+    "previewDeploymentId": "dpl_ARA8dqNHqS42r4wk3xLvrYQe4TzJ",
+    "previewCommitSha": "0daacfa2ca12aba83b432fdad360f82741c4b594",
+    "releaseCommitSha": "0daacfa2ca12aba83b432fdad360f82741c4b594",
+    "productionUrl": "https://fitness7-gym-companion-member.vercel.app",
+    "productionDeploymentId": "dpl_9w3z6TzRFPiZE9r6kXa7psCUshFm",
+    "productionCommitSha": "885a9872dc267a8030ac1b99fcef419c845571de",
+    "independentProductionValidation": "PASS",
     "rollbackCommand": "vercel rollback dpl_APkckYcC4sM7GY4Vy1H7nDGtkodt --scope sagar-pm",
     "verifiedPreviousDeploymentReady": true,
     "historicalRecordBelowIsNotTheCurrentRollbackTarget": true
