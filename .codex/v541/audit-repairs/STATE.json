@@ -2,7 +2,7 @@
   "sourceCommit": "498c565b9d4a85733d574c2b6f2e0ed29fa3850b",
   "implementationCommit": "9dc99ba",
   "branch": "codex/v541-release",
-  "currentCheckpoint": "F7-06-LOCAL-REVIEW",
+  "currentCheckpoint": "F7-ART-GAPS-LISTED",
   "completedUnits": [
     "F7-01-BASELINE",
     "F7-01-CLASSIFICATION",
@@ -25,7 +25,8 @@
     "F7-05-LOCAL-REVIEW",
     "F7-06-BASELINE",
     "F7-06-MOBILE-REPAIRED",
-    "F7-06-LOCAL-REVIEW"
+    "F7-06-LOCAL-REVIEW",
+    "F7-ART-GAPS-LISTED"
   ],
   "changedFiles": [
     "data/abac-classification.js",
@@ -72,7 +73,26 @@
     "Exercise-specific safety coverage is not complete; no coach approval claimed. Dedicated real-iPhone/Safari optimization remains Problem 6."
   ],
   "reviewUrl": "http://localhost:4175/?v=5.4.1-mobile-optimization",
-  "nextAtomicAction": "Obtain user mobile-review feedback and arrange an explicitly authorized physical iPhone 16 Safari check before deployment",
+  "nextAtomicAction": "Review artwork/CURRENT-MISSING-ARTWORK.md with the user and approve the first exact artwork specification unit; do not generate yet",
+  "currentArtworkGapAudit": {
+    "sourceCommit": "8793b0a3b3007d84829bf83194f75116b4fbd9e3",
+    "runtimeCases": 72,
+    "evaluatedOccurrences": 1851,
+    "physicalOccurrences": 1827,
+    "pendingPhysicalDayNames": 32,
+    "confirmedMissingSets": 8,
+    "prospectivePhaseFiles": 16,
+    "existingHeldCanonicalPairs": 4,
+    "mechanicsClarifications": 9,
+    "combinedDecisions": 5,
+    "deferredTendonRecords": 4,
+    "nonExercisePendingDayNames": 2,
+    "uniqueActiveAssetPaths": 302,
+    "mappingValidator": "pass",
+    "generationAuthorized": false,
+    "report": "artwork/CURRENT-MISSING-ARTWORK.md",
+    "priorMobileNextAction": "Obtain user mobile-review feedback and arrange an explicitly authorized physical iPhone 16 Safari check before deployment"
+  },
   "problem6": {
     "baselineCommit": "4f9b337",
     "checkpoint": "F7-06-LOCAL-REVIEW",
