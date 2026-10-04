@@ -1,8 +1,10 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
+import {artworkRuntime,inventory} from './abac-artwork-runtime.mjs';
 const dir='.codex/v541/artwork-completion-review';
 const read=name=>JSON.parse(fs.readFileSync(`${dir}/${name}`,'utf8'));
 const specs=read('SPECS.json'),manifest=read('GENERATION-MANIFEST.json');
+const decisions=read('MECHANICS-DECISIONS.json');
 const safety={
  'biweekly-standing-machine-calf-raise':'Keep heels free of the block and use a comfortable ankle range; do not bounce into the stretch.',
  'periodized-deficit-barbell-rdl':'The platform does not require a deeper reach; stop before your back rounds.',
@@ -16,7 +18,12 @@ const safety={
  'periodized-incline-db-press':'Keep wrists above elbows and avoid forcing the dumbbells below a comfortable chest-level position.',
  'periodized-wide-stance-leg-press':'Keep the pelvis on the backrest and stop before the knees lock or the lower back lifts.',
  'biweekly-dumbbell-pullover-on-flat-bench':'Do not force the dumbbell below your comfortable shoulder range or arch the lower back to gain depth.',
- 'biweekly-45-incline-leg-press-mid-stance':'Set the safety stops and keep the pelvis supported; do not lock the knees or copy the illustrated plate load.'
+ 'biweekly-45-incline-leg-press-mid-stance':'Set the safety stops and keep the pelvis supported; do not lock the knees or copy the illustrated plate load.',
+ 'review-front-foot-elevated-dumbbell-reverse-lunge':'Use a stable low platform and keep the front heel supported; stop if balance or knee alignment is lost.',
+ 'review-dumbbell-bulgarian-split-squat':'Use a stable low rear-foot support; choose a load that lets you keep the front heel planted and knee aligned.',
+ 'review-stick-supported-sagittal-hip-swing':'Keep the swing controlled and comfortable; do not lean or force a high kick.',
+ 'review-incline-bench-dumbbell-row':'Keep your chest supported; do not lift the torso or jerk the weights to finish the pull.',
+ 'review-low-to-high-cable-fly':'Keep elbows gently bent and shoulders down; do not force the handles behind the torso or above the comfortable shoulder range.'
 };
 const records=manifest.filter(m=>m.status==='pair-reviewed').map(m=>{
  const s=specs.find(s=>s.id===m.id);assert.ok(s);
@@ -30,14 +37,48 @@ const records=manifest.filter(m=>m.status==='pair-reviewed').map(m=>{
 const code=`/* Local-only additive artwork review. Generated from accepted checkpoints. */
 (() => {
  const records=${JSON.stringify(records,null,2)};
+ const decisions=${JSON.stringify(decisions.records,null,2)};
  const api=window.GYM_COMPANION_ABAC_ARTWORK;
  const original=api.resolve;
  const names=new Map(records.flatMap(r=>r.names.map(n=>[n,r])));
+ const recordFor=(id,name,dayIndex)=>id?(records.find(r=>r.id===id)||api.byId[id]):original({name,__alternative:true},dayIndex);
  api.resolve=function(item,dayIndex){
   const prior=original(item,dayIndex),name=item?.name||item?.title;
-  if(prior.reviewOnly||['excluded-equipment','non-exercise','combined-needs-content-decision','tier-resolution-required'].includes(prior.mappingStatus))return prior;
+  if(prior.reviewOnly||['excluded-equipment','non-exercise'].includes(prior.mappingStatus))return prior;
+  const day=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][dayIndex];
+  const decision=decisions.find(d=>d.name===name&&d.days.includes(day));
+  const tier=item?.__reviewTier;
+  let targetId,targetName;
+  if(decision){
+   if(name==='Walking Lunges')targetId=decision.targetId;
+   else if(name==='Leg Press'&&tier){
+    const key=tier==='expert'?'advanced':tier;
+    const dose=String(item.prescriptions?.[key]||item.prescriptions?.[tier]||item.scheme||'');
+    targetId=/wide stance/i.test(dose)?decision.wideTargetId:decision.targetId;
+   }
+   else if(name==='Reverse Lunges with Dumbbells'&&tier){
+    const key=tier==='expert'?'advanced':tier;
+    const dose=String(item.prescriptions?.[key]||item.prescriptions?.[tier]||item.scheme||'');
+    targetId=/front foot elevated/i.test(dose)?decision.expertTargetId:decision.targetId;
+   }
+   else if(name==='Standard Forearm Plank to RKC Hardstyle Plank'){
+    targetName=tier==='expert'?decision.expertTargetName:tier==='intermediate'?decision.intermediateTargetName:null;
+   }
+   else if(name==='Standing & Seated Transverse Abdominis Stomach Vacuum'){
+    targetName=tier==='intermediate'?decision.intermediateTargetName:null;
+   }
+  }
+  if(targetId||targetName){
+   const record=recordFor(targetId,targetName,dayIndex);
+   if(record?.artworkStatus==='complete'&&record.imageSet?.start&&record.imageSet?.movement&&!record.reviewOnly)
+    return {...record,canonicalMovementId:record.canonicalMovementId||record.stableMovementId,name,
+     mappedRuntimeIds:[item.id,item.stableMovementId].filter(Boolean),mappingStatus:'explicit-local-review-decision',
+     localReviewMapping:true,decisionBasis:decision.basis,__reviewTier:tier};
+   return prior;
+  }
+  if(['combined-needs-content-decision','tier-resolution-required'].includes(prior.mappingStatus))return prior;
   const record=names.get(name);if(!record)return prior;
-  return {...record,name,mappedRuntimeIds:[item.id,item.stableMovementId].filter(Boolean)};
+  return {...record,name,mappedRuntimeIds:[item.id,item.stableMovementId].filter(Boolean),localReviewMapping:true,__reviewTier:tier};
  };
  const content=window.GYM_COMPANION_ABAC_CONTENT;
  for(const r of records)content.records[r.canonicalMovementId]={
@@ -48,15 +89,21 @@ const code=`/* Local-only additive artwork review. Generated from accepted check
  };
  const originalEnrich=content.enrich;
  content.enrich=function(item,dayIndex,tier){
-  const out=originalEnrich(item,dayIndex,tier),art=api.resolve(item,dayIndex);
+  // Tier is supplied by the existing normalizer, never inferred from a name.
+  const prepared={...item,__reviewTier:tier};
+  const out=originalEnrich(prepared,dayIndex,tier),art=api.resolve(prepared,dayIndex);
   // The existing card renderer reads alt_text, whereas phases use their own labels.
-  return art.assetVersion==='local-artwork-review-v5'?{...out,alt_text:art.altMovement}:out;
+  return art.localReviewMapping?{...out,imageSet:{...art.imageSet},artworkStatus:art.artworkStatus,
+   canonicalMovementId:art.canonicalMovementId||art.stableMovementId,stableMovementId:art.stableMovementId,
+   assetVersion:art.assetVersion,mappingStatus:art.mappingStatus,decisionBasis:art.decisionBasis,
+   alt_text:art.altMovement||art.alt_text||((item.name||item.title)+': working position')}:out;
  };
- window.GYM_COMPANION_LOCAL_ARTWORK_REVIEW={records,localOnly:true};
+ window.GYM_COMPANION_LOCAL_ARTWORK_REVIEW={records,decisions,localOnly:true};
 })();
 `;
 fs.writeFileSync('data/abac-artwork-review.js',code);
-const gallery={records,queue:manifest.map(m=>({id:m.id,name:m.name,status:m.status,reason:m.reason||null})),
- unresolved:read('RUNTIME-INVENTORY.json').rows.filter(r=>r.eligible&&!r.nonExercise&&!r.filePairPresent&&!records.some(s=>s.names.includes(r.name))).map(r=>({day:r.day,name:r.name,status:r.mappingStatus||'pending'}))};
+const runtime=inventory(artworkRuntime({review:true}));
+const gallery={records,decisions,queue:manifest.map(m=>({id:m.id,name:m.name,status:m.status,reason:m.reason||null})),
+ unresolved:runtime.rows.filter(r=>r.eligible&&!r.nonExercise&&!r.filePairPresent).map(r=>({day:r.day,name:r.name,status:r.mappingStatus||'pending',pendingCases:r.pendingCases}))};
 fs.writeFileSync('data/artwork-review-gallery.json',JSON.stringify(gallery,null,2)+'\n');
 console.log(JSON.stringify({acceptedPairs:records.length,phaseFiles:records.length*2,heldPairs:manifest.filter(m=>m.status==='held-for-repair').length}));

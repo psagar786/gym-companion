@@ -6,7 +6,7 @@
   "baselineWorkspace": "/Users/exxxy/Documents/Daily AI Help/gym-companion-v541-art-integration",
   "baselineSourceCommit": "b429bd53fb1022a430f8d2e710f33ac49082e30d",
   "deployedSourceCommit": "885a9872dc267a8030ac1b99fcef419c845571de",
-  "currentCheckpoint": "F7-REVIEW-review-low-to-high-cable-fly-PAIR-ACCEPTED",
+  "currentCheckpoint": "F7-REVIEW-LOCAL-BUILD-18-PAIRS",
   "completedUnits": [
     "BRANCH-ISOLATED",
     "SOURCE-CHECKPOINT-READ",
@@ -20,7 +20,12 @@
     "REPRESENTATIVE-BROWSER-PERSISTENCE-AND-RETURN",
     "SIX-WIDTH-LOCAL-REGRESSION",
     "TRAINING-AND-UI-AUDIT-SAVED",
-    "REMAINING-QUEUE-AND-RUNBOOK-SAVED"
+    "REMAINING-QUEUE-AND-RUNBOOK-SAVED",
+    "REMAINING-MECHANICS-DECISIONS-RECORDED",
+    "18-PAIRS-GENERATED-AND-REVIEWED",
+    "TIER-AWARE-REUSE-INTEGRATED",
+    "1867-CARD-DETAIL-CHECKS",
+    "340-LOCAL-IMAGE-REQUESTS-VERIFIED"
   ],
   "confirmedNewPairs": 14,
   "confirmedReplacementPairs": 4,
@@ -28,9 +33,9 @@
   "targetConfirmedPhaseFiles": 36,
   "generatedPairs": 18,
   "generatedPhaseFiles": 36,
-  "unresolvedMechanicsDayNames": 7,
-  "remainingPendingDayNames": 16,
-  "combinedMovementDecisions": 5,
+  "unresolvedMechanicsDayNames": 0,
+  "remainingPendingDayNames": 8,
+  "combinedMovementDecisions": 4,
   "deferredTendonRecords": 4,
   "plannedLocalPort": 4176,
   "previewStarted": true,
@@ -83,9 +88,9 @@
   ],
   "validationResults": {
     "runtimeCases": 72,
-    "newPairs": 13,
-    "phasePngFiles": 26,
-    "displayWebpFiles": 26,
+    "newPairs": 18,
+    "phasePngFiles": 36,
+    "displayWebpFiles": 36,
     "programmingUnchanged": true,
     "protectedSourceFiles": 1692,
     "protectedActiveArtworkHashes": 304,
@@ -102,17 +107,23 @@
     "minimumDoneHeight": 44,
     "qualifiedCoachReview": "pending",
     "physicalIphoneSafari": "not-tested",
-    "legacyMobileHashGuard": "stale-failure-recorded"
+    "legacyMobileHashGuard": "stale-failure-recorded",
+    "occurrenceChecks": 1867,
+    "cardDetailChecks": 1867,
+    "servedActiveImages": 340,
+    "currentBrowserVerification": "blocked-by-browser-url-security-policy",
+    "currentResponsiveVerification": "not-repeated; prior six-width evidence retained",
+    "workoutDoseOrderAndClassificationUnchanged": true
   },
   "knownIssues": [
-    "Remaining mechanics decisions are now recorded: Walking Lunges confirmed dumbbell-loaded; other local assumptions in MECHANICS-DECISIONS.json. Five additional phase pairs locked for generation. Four combined records and four preparation deferrals still require separate treatment.",
-    "Local server restarted on port 4176; current browser verification blocked by URL security-policy rejection. Do not claim current visual checks passed.",
-    "Four validator-recognized title/setup-versus-tier conflicts plus additional source conflicts are documented in AUDIT-REPORT.md.",
-    "333 occurrence doses still use existing role defaults; 12 Monday cardio occurrences lack an authored quantity.",
-    "93 day/name content entries still require review. Main cards remain tall at narrow widths; recommendations only, no member CSS redesign.",
-    "AI semantic review is not coach approval; physical iPhone/Safari testing has not occurred."
+    "Eight selectable physical day/name entries remain: four compound records and four preparation deferrals. No remaining simple-mechanics artwork hold.",
+    "Tuesday compound vacuum is resolved only for Intermediate; Expert seated-and-hanging instruction is not treated as a single seated exercise.",
+    "Existing reused Standard/RKC plank pairs have camera/framing and subtle isometric phase limitations; no regeneration or coach approval claimed.",
+    "Local browser reload was blocked by URL security policy. Current server, API, asset bytes and runtime checks pass; current visual/mobile QA remains unverified.",
+    "Existing content audit still reports 333 role-default dose occurrences, 12 missing Monday cardio doses, 87 content-review day/name entries and four recognized execution conflicts. These are not silently repaired by artwork.",
+    "Local assumptions for support angle, split-squat loading and hip-swing plane require user review; no confirmed equipment inventory claim."
   ],
   "remoteMutationAllowed": false,
-  "lastCompletedCommit": "5977692fe5f1d8a2e529500a4d0fc5dc236df9b7",
-  "nextAtomicAction": "Run exact review override integration and all-day validation"
+  "lastCompletedCommit": "8177258a6ddf6fe6c2e52b795632582dea9f62fc",
+  "nextAtomicAction": "Design a two-component artwork presentation for the three authored paired records without changing their dose or completion identity; keep Expert seated/hanging vacuum pending"
 }

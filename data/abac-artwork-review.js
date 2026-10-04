@@ -421,16 +421,299 @@
     "technicalReviewStatus": "files-validated",
     "semanticReviewStatus": "ai-reviewed",
     "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-front-foot-elevated-dumbbell-reverse-lunge",
+    "name": "Front-Foot-Elevated Dumbbell Reverse Lunge",
+    "names": [],
+    "day": "Wednesday",
+    "equipment": "Two dumbbells and one stable low 5-cm platform beneath the front foot; open floor behind",
+    "grip": "Neutral dumbbell grips at sides, feet hip-width laterally; front foot fully on platform, rear foot steps back to floor",
+    "camera": "Side three-quarter, platform and both feet fully visible",
+    "start": "Tall stance with left foot fully supported on low platform and right foot on floor beside it; dumbbells at sides, pelvis level.",
+    "movement": "Keep left foot on same platform, step right foot backward onto ball of foot and lower rear knee toward floor; front knee bends near 90 degrees, modest forward torso inclination from hips with neutral spine, both dumbbells hang beside body.",
+    "muscles": "Front-leg quadriceps and gluteus maximus orange; hamstrings muted blue; hip and trunk stabilizers grey-green",
+    "avoid": "No rear foot on bench, walking forward, elevated rear foot, barbell, deep deficit, knee collapse, dumbbells touching platform or cropped feet.",
+    "sourceEvidence": "Week B Wednesday source Slot 6 Expert explicitly requires front foot elevated on plate and forward torso lean. Intermediate is ordinary reverse lunge. Separate tier artwork, unchanged dose.",
+    "canonicalMovementId": "review-front-foot-elevated-dumbbell-reverse-lunge",
+    "stableMovementId": "review-front-foot-elevated-dumbbell-reverse-lunge",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-movement.webp"
+    },
+    "startInstruction": "Tall stance with left foot fully supported on low platform and right foot on floor beside it; dumbbells at sides, pelvis level.",
+    "movementInstruction": "Keep left foot on same platform, step right foot backward onto ball of foot and lower rear knee toward floor; front knee bends near 90 degrees, modest forward torso inclination from hips with neutral spine, both dumbbells hang beside body.",
+    "safetyCue": "Use a stable low platform and keep the front heel supported; stop if balance or knee alignment is lost.",
+    "altStart": "Front-Foot-Elevated Dumbbell Reverse Lunge: stable starting position",
+    "altMovement": "Front-Foot-Elevated Dumbbell Reverse Lunge: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-dumbbell-bulgarian-split-squat",
+    "name": "Dumbbell Bulgarian Split Squat",
+    "names": [
+      "Bulgarian Split Squats"
+    ],
+    "day": "Wednesday",
+    "equipment": "Two dumbbells and a stable low rear-foot support bench approximately mid-shin high; front foot on floor",
+    "grip": "Dumbbells held in neutral grips at sides; hip-width lateral split stance; left front foot planted on floor, right shoelaces rest on bench",
+    "camera": "Side three-quarter showing both feet, whole bench and dumbbells",
+    "start": "Standing in split stance with rear shoelaces on bench and front knee softly extended; torso tall, pelvis level and front heel grounded.",
+    "movement": "Lower hips by bending front knee and hip until front thigh approaches parallel within comfortable range; rear knee lowers toward floor, rear shoelaces remain on same bench, front heel stays planted, torso slightly inclined with neutral spine.",
+    "muscles": "Quadriceps and gluteus maximus orange; hamstrings muted blue; hip and trunk stabilizers grey-green",
+    "avoid": "No front-foot platform or deficit, bodyweight-only substitution, jump, walking lunge, elevated front heel, 1.5-rep collage, high rear support or knee collapse.",
+    "sourceEvidence": "User authorized judgement for remaining Wednesday variants and confirmed loaded versus bodyweight are different. Local review default: conventional dumbbell version for available Intermediate/Expert alternative. NASM Bulgarian Split Squat technique permits dumbbells at sides and rear foot on bench. Not confirmed gym inventory or coach approval.",
+    "canonicalMovementId": "review-dumbbell-bulgarian-split-squat",
+    "stableMovementId": "review-dumbbell-bulgarian-split-squat",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-movement.webp"
+    },
+    "startInstruction": "Standing in split stance with rear shoelaces on bench and front knee softly extended; torso tall, pelvis level and front heel grounded.",
+    "movementInstruction": "Lower hips by bending front knee and hip until front thigh approaches parallel within comfortable range; rear knee lowers toward floor, rear shoelaces remain on same bench, front heel stays planted, torso slightly inclined with neutral spine.",
+    "safetyCue": "Use a stable low rear-foot support; choose a load that lets you keep the front heel planted and knee aligned.",
+    "altStart": "Dumbbell Bulgarian Split Squat: stable starting position",
+    "altMovement": "Dumbbell Bulgarian Split Squat: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-stick-supported-sagittal-hip-swing",
+    "name": "Stick-Supported Forward/Back Hip Swing",
+    "names": [
+      "Stick Hip Swings"
+    ],
+    "day": "Wednesday",
+    "equipment": "One straight off-white mobility stick approximately 1.3 metres long, tip firmly on floor for light balance support",
+    "grip": "Right hand lightly on vertical stick beside right hip; right leg supports body, left knee softly extended; torso and pelvis upright",
+    "camera": "Clear side three-quarter showing stick tip, both feet and swinging-leg hip",
+    "start": "Right foot planted, left foot hovering slightly behind body with a small comfortable hip-extension angle; stick vertical beside right foot, trunk upright.",
+    "movement": "Same balance support and right foot; left leg swings forward from hip to a moderate 35-degree angle, knee softly extended, pelvis level and torso still upright. Demonstrate a controlled mobility position, not a high kick.",
+    "muscles": "Hip flexors subtle orange; gluteal and hamstring muscles muted blue; hip/trunk stabilizers grey-green",
+    "avoid": "No lateral swing, stick across shoulders, unsupported balance, bent-knee high march, forced high kick, lumbar arch, multiple poses or movement arrows.",
+    "sourceEvidence": "User authorized judgement for unspecified plane. Explicit local assumption: sagittal forward/back swing with stick support. NASM planes reference distinguishes flexion/extension from side-to-side abduction. Not evidence that source originally specified this plane.",
+    "canonicalMovementId": "review-stick-supported-sagittal-hip-swing",
+    "stableMovementId": "review-stick-supported-sagittal-hip-swing",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-movement.webp"
+    },
+    "startInstruction": "Right foot planted, left foot hovering slightly behind body with a small comfortable hip-extension angle; stick vertical beside right foot, trunk upright.",
+    "movementInstruction": "Same balance support and right foot; left leg swings forward from hip to a moderate 35-degree angle, knee softly extended, pelvis level and torso still upright. Demonstrate a controlled mobility position, not a high kick.",
+    "safetyCue": "Keep the swing controlled and comfortable; do not lean or force a high kick.",
+    "altStart": "Stick-Supported Forward/Back Hip Swing: stable starting position",
+    "altMovement": "Stick-Supported Forward/Back Hip Swing: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-incline-bench-dumbbell-row",
+    "name": "Incline Bench Dumbbell Row",
+    "names": [
+      "Incline Bench Row"
+    ],
+    "day": "Thursday",
+    "equipment": "Adjustable bench with backrest at 30 degrees and two dumbbells; no cable, bar or lever machine",
+    "grip": "Neutral palms facing each other, chest supported prone on inclined backrest, feet planted wide on floor, head aligned with spine",
+    "camera": "Side three-quarter showing bench angle, supported chest, both dumbbells and feet",
+    "start": "Prone with chest continuously on 30-degree bench, arms hang toward floor below shoulders, dumbbells suspended clear of floor, legs extended comfortably with both feet stable.",
+    "movement": "Pull both dumbbells toward lower ribs, elbows move back alongside torso; chest remains on same bench, scapulae retract gently, neck stays neutral and feet unchanged.",
+    "muscles": "Latissimus, middle trapezius and rhomboids orange; posterior deltoids and biceps muted blue; trunk stabilizers grey-green",
+    "avoid": "No T-bar pivot, cable, upright seated row, unsupported torso, chest lifting off bench, elbow flare or cropped dumbbells/bench.",
+    "sourceEvidence": "Name-specific conventional chest-supported dumbbell interpretation is a recorded local assumption, not inherited primary T-bar equipment. User requested remaining artwork and judgement for unresolved execution; no prescription changed.",
+    "canonicalMovementId": "review-incline-bench-dumbbell-row",
+    "stableMovementId": "review-incline-bench-dumbbell-row",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-movement.webp"
+    },
+    "startInstruction": "Prone with chest continuously on 30-degree bench, arms hang toward floor below shoulders, dumbbells suspended clear of floor, legs extended comfortably with both feet stable.",
+    "movementInstruction": "Pull both dumbbells toward lower ribs, elbows move back alongside torso; chest remains on same bench, scapulae retract gently, neck stays neutral and feet unchanged.",
+    "safetyCue": "Keep your chest supported; do not lift the torso or jerk the weights to finish the pull.",
+    "altStart": "Incline Bench Dumbbell Row: stable starting position",
+    "altMovement": "Incline Bench Dumbbell Row: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-low-to-high-cable-fly",
+    "name": "Low-to-High Cable Fly",
+    "names": [
+      "Low-to-High Cable Fly"
+    ],
+    "day": "Thursday",
+    "equipment": "Two full adjustable cable columns, each pulley fixed near ankle height, two D-handles and continuous taut cables",
+    "grip": "Neutral-to-supinated handles, staggered stable stance midway in front of columns, elbows softly bent at nearly constant angle",
+    "camera": "Front three-quarter showing both complete cable columns, low pulleys, entire cables, hands and feet",
+    "start": "Stand upright slightly forward of both columns, handles down and out beside hips, elbows softly bent; low cables run diagonally up from ankle pulleys to handles without passing through body.",
+    "movement": "Sweep both hands upward and inward to meet near upper chest below chin, elbows retain slight bend; same stance and cable stations, cables run clearly from low pulleys to elevated hands.",
+    "muscles": "Upper pectoralis major orange; anterior deltoids muted blue; rotator cuff and trunk stabilizers grey-green",
+    "avoid": "No high pulley, horizontal fly, press with large elbow bend, cables across neck, shrugged shoulders, deep shoulder extension, cropped towers or hands above forehead.",
+    "sourceEvidence": "Exact movement title specifies low-to-high fly. Lock low pulley and upward diagonal; do not inherit flat or mid-height cable fly. Existing V2 candidate framing requires replacement review.",
+    "canonicalMovementId": "review-low-to-high-cable-fly",
+    "stableMovementId": "review-low-to-high-cable-fly",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-movement.webp"
+    },
+    "startInstruction": "Stand upright slightly forward of both columns, handles down and out beside hips, elbows softly bent; low cables run diagonally up from ankle pulleys to handles without passing through body.",
+    "movementInstruction": "Sweep both hands upward and inward to meet near upper chest below chin, elbows retain slight bend; same stance and cable stations, cables run clearly from low pulleys to elevated hands.",
+    "safetyCue": "Keep elbows gently bent and shoulders down; do not force the handles behind the torso or above the comfortable shoulder range.",
+    "altStart": "Low-to-High Cable Fly: stable starting position",
+    "altMovement": "Low-to-High Cable Fly: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  }
+];
+ const decisions=[
+  {
+    "name": "Walking Lunges",
+    "days": [
+      "Wednesday",
+      "Saturday"
+    ],
+    "targetId": "biweekly-dumbbell-walking-lunges",
+    "status": "exact-reuse",
+    "basis": "User-confirmed load; existing pair visually inspected: male, two dumbbells at sides, standing setup and lowered forward-lunge position. Do not change the explicitly Bodyweight Walking Lunge component."
+  },
+  {
+    "name": "Leg Press",
+    "days": [
+      "Wednesday"
+    ],
+    "targetId": "biweekly-45-incline-leg-press-mid-stance",
+    "wideTargetId": "periodized-wide-stance-leg-press",
+    "status": "review-assumption",
+    "basis": "Name-only Hack Squat substitution left conflicting cues. Use a supported 45-degree sled; preserve an explicitly authored wide-stance dose with the wide pair. Other tiers use shoulder-width mid-platform pair. No source prescription or stored snapshot is rewritten."
+  },
+  {
+    "name": "Reverse Lunges with Dumbbells",
+    "days": [
+      "Wednesday"
+    ],
+    "targetId": "periodized-reverse-lunges",
+    "expertTargetId": "review-front-foot-elevated-dumbbell-reverse-lunge",
+    "status": "source-tier-split",
+    "basis": "Authored Intermediate is ordinary step-back; Expert explicitly elevates front foot on a plate. Existing ordinary dumbbell pair inspected; Expert requires a separate pair."
+  },
+  {
+    "name": "Bulgarian Split Squats",
+    "days": [
+      "Wednesday"
+    ],
+    "targetId": "review-dumbbell-bulgarian-split-squat",
+    "status": "review-assumption",
+    "basis": "Use conventional rear-foot-elevated dumbbell split squat for the available Intermediate/Expert alternative. Front foot stays on floor. Bodyweight, deficit and 1.5-rep records remain separate. No load magnitude is prescribed."
+  },
+  {
+    "name": "Stick Hip Swings",
+    "days": [
+      "Wednesday"
+    ],
+    "targetId": "review-stick-supported-sagittal-hip-swing",
+    "status": "review-assumption",
+    "basis": "Choose controlled forward/back hip flexion/extension with one vertical stick for balance, not lateral abduction or forceful ballistic range."
+  },
+  {
+    "name": "Incline Bench Row",
+    "days": [
+      "Thursday"
+    ],
+    "targetId": "review-incline-bench-dumbbell-row",
+    "status": "review-assumption",
+    "basis": "Conventional bilateral neutral-grip dumbbell row, chest supported on 30-degree bench; not a T-bar lever. Camera, grip and angle locked for local review only."
+  },
+  {
+    "name": "Low-to-High Cable Fly",
+    "days": [
+      "Thursday"
+    ],
+    "targetId": "review-low-to-high-cable-fly",
+    "status": "name-backed-specification",
+    "basis": "Two low pulleys, upward diagonal toward upper chest, soft constant elbow bend. Existing candidate has ambiguous framing; generate separate full-equipment pair."
+  },
+  {
+    "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+    "days": [
+      "Friday"
+    ],
+    "intermediateTargetName": "Standard Forearm Plank",
+    "expertTargetName": "RKC Hardstyle Plank",
+    "status": "source-tier-split",
+    "basis": "Authored Intermediate names Standard Forearm Plank; Expert names RKC. Beginner remains locked. Resolve only when the selected tier is explicit; no combined name is globally aliased."
+  },
+  {
+    "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+    "days": [
+      "Tuesday"
+    ],
+    "intermediateTargetName": "Standing Stomach Vacuum",
+    "status": "partial-source-tier-split",
+    "basis": "Intermediate explicitly says Standing; Expert says Seated & Hanging, so Expert remains pending rather than silently borrowing seated artwork."
   }
 ];
  const api=window.GYM_COMPANION_ABAC_ARTWORK;
  const original=api.resolve;
  const names=new Map(records.flatMap(r=>r.names.map(n=>[n,r])));
+ const recordFor=(id,name,dayIndex)=>id?(records.find(r=>r.id===id)||api.byId[id]):original({name,__alternative:true},dayIndex);
  api.resolve=function(item,dayIndex){
   const prior=original(item,dayIndex),name=item?.name||item?.title;
-  if(prior.reviewOnly||['excluded-equipment','non-exercise','combined-needs-content-decision','tier-resolution-required'].includes(prior.mappingStatus))return prior;
+  if(prior.reviewOnly||['excluded-equipment','non-exercise'].includes(prior.mappingStatus))return prior;
+  const day=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][dayIndex];
+  const decision=decisions.find(d=>d.name===name&&d.days.includes(day));
+  const tier=item?.__reviewTier;
+  let targetId,targetName;
+  if(decision){
+   if(name==='Walking Lunges')targetId=decision.targetId;
+   else if(name==='Leg Press'&&tier){
+    const key=tier==='expert'?'advanced':tier;
+    const dose=String(item.prescriptions?.[key]||item.prescriptions?.[tier]||item.scheme||'');
+    targetId=/wide stance/i.test(dose)?decision.wideTargetId:decision.targetId;
+   }
+   else if(name==='Reverse Lunges with Dumbbells'&&tier){
+    const key=tier==='expert'?'advanced':tier;
+    const dose=String(item.prescriptions?.[key]||item.prescriptions?.[tier]||item.scheme||'');
+    targetId=/front foot elevated/i.test(dose)?decision.expertTargetId:decision.targetId;
+   }
+   else if(name==='Standard Forearm Plank to RKC Hardstyle Plank'){
+    targetName=tier==='expert'?decision.expertTargetName:tier==='intermediate'?decision.intermediateTargetName:null;
+   }
+   else if(name==='Standing & Seated Transverse Abdominis Stomach Vacuum'){
+    targetName=tier==='intermediate'?decision.intermediateTargetName:null;
+   }
+  }
+  if(targetId||targetName){
+   const record=recordFor(targetId,targetName,dayIndex);
+   if(record?.artworkStatus==='complete'&&record.imageSet?.start&&record.imageSet?.movement&&!record.reviewOnly)
+    return {...record,canonicalMovementId:record.canonicalMovementId||record.stableMovementId,name,
+     mappedRuntimeIds:[item.id,item.stableMovementId].filter(Boolean),mappingStatus:'explicit-local-review-decision',
+     localReviewMapping:true,decisionBasis:decision.basis,__reviewTier:tier};
+   return prior;
+  }
+  if(['combined-needs-content-decision','tier-resolution-required'].includes(prior.mappingStatus))return prior;
   const record=names.get(name);if(!record)return prior;
-  return {...record,name,mappedRuntimeIds:[item.id,item.stableMovementId].filter(Boolean)};
+  return {...record,name,mappedRuntimeIds:[item.id,item.stableMovementId].filter(Boolean),localReviewMapping:true,__reviewTier:tier};
  };
  const content=window.GYM_COMPANION_ABAC_CONTENT;
  for(const r of records)content.records[r.canonicalMovementId]={
@@ -441,9 +724,14 @@
  };
  const originalEnrich=content.enrich;
  content.enrich=function(item,dayIndex,tier){
-  const out=originalEnrich(item,dayIndex,tier),art=api.resolve(item,dayIndex);
+  // Tier is supplied by the existing normalizer, never inferred from a name.
+  const prepared={...item,__reviewTier:tier};
+  const out=originalEnrich(prepared,dayIndex,tier),art=api.resolve(prepared,dayIndex);
   // The existing card renderer reads alt_text, whereas phases use their own labels.
-  return art.assetVersion==='local-artwork-review-v5'?{...out,alt_text:art.altMovement}:out;
+  return art.localReviewMapping?{...out,imageSet:{...art.imageSet},artworkStatus:art.artworkStatus,
+   canonicalMovementId:art.canonicalMovementId||art.stableMovementId,stableMovementId:art.stableMovementId,
+   assetVersion:art.assetVersion,mappingStatus:art.mappingStatus,decisionBasis:art.decisionBasis,
+   alt_text:art.altMovement||art.alt_text||((item.name||item.title)+': working position')}:out;
  };
- window.GYM_COMPANION_LOCAL_ARTWORK_REVIEW={records,localOnly:true};
+ window.GYM_COMPANION_LOCAL_ARTWORK_REVIEW={records,decisions,localOnly:true};
 })();

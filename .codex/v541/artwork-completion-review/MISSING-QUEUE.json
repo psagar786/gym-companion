@@ -1,27 +1,495 @@
 {
-  "countUnit": "Eligible physical day/name entries, not canonical generation pairs",
-  "pendingDayNames": 16,
-  "mechanicsHolds": 7,
-  "combinedDecisions": 5,
+  "countUnit": "Selectable physical day/name entries; tier-ineligible records excluded, not a canonical generation count",
+  "pendingDayNames": 8,
+  "mechanicsHolds": 0,
+  "combinedDecisions": 4,
   "deferredPreparation": 4,
   "generationCountFrozen": false,
   "records": [
-    {"day":"Tuesday","name":"Wrist flexor isometric","category":"deferred-preparation","decisionNeeded":"User tendon research and exact resistance/joint setup"},
-    {"day":"Tuesday","name":"Standing & Seated Transverse Abdominis Stomach Vacuum","category":"combined-decision","decisionNeeded":"Explicit tier/atomic mapping; existing constituents may avoid generation"},
-    {"day":"Wednesday","name":"Patellar tendon isometric","category":"deferred-preparation","decisionNeeded":"User research and approved exact setup; not automatic rehabilitation"},
-    {"day":"Wednesday","name":"Leg Press","category":"mechanics-hold","decisionNeeded":"Resolve renamed Hack Squat tier instructions; explicitly confirm machine/stance. Do not use the separately completed 45-degree alias automatically"},
-    {"day":"Wednesday","name":"Reverse Lunges with Dumbbells","category":"mechanics-hold","decisionNeeded":"Separate ordinary floor step-back from Expert front-foot-elevated variation and map tier identities"},
-    {"day":"Wednesday","name":"Walking Lunges","category":"mechanics-hold","decisionNeeded":"Confirm bodyweight versus dumbbell load and replace inherited reverse-lunge mechanics"},
-    {"day":"Wednesday","name":"Bulgarian Split Squats","category":"mechanics-hold","decisionNeeded":"User confirmed bodyweight/loaded versions distinct; assign exact load/setup by runtime tier. No deficit/1.5-rep borrowing"},
-    {"day":"Wednesday","name":"Stick Hip Swings","category":"mechanics-hold","decisionNeeded":"Confirm forward/back versus side-to-side plane and stick support placement"},
-    {"day":"Thursday","name":"Ez-Bar Curl & Skullcrushers","category":"combined-decision","decisionNeeded":"Approve atomic or paired method identities without changing original prescription"},
-    {"day":"Thursday","name":"Calf isometric","category":"deferred-preparation","decisionNeeded":"User research and exact isometric setup"},
-    {"day":"Thursday","name":"Incline Bench Row","category":"mechanics-hold","decisionNeeded":"Confirm resistance, grip and support angle independent of primary T-Bar metadata"},
-    {"day":"Thursday","name":"Low-to-High Cable Fly","category":"mechanics-hold","decisionNeeded":"Lock low cable height and upward diagonal path; existing V2 full-apparatus framing requires replacement review"},
-    {"day":"Thursday","name":"Incline DB Curl & Rope Pressdown","category":"combined-decision","decisionNeeded":"Approve separate constituent identities and method without invented partner/dose"},
-    {"day":"Friday","name":"Standard Forearm Plank to RKC Hardstyle Plank","category":"combined-decision","decisionNeeded":"Approve explicit tier identity mapping; existing atomic art may suffice"},
-    {"day":"Saturday","name":"Core brace isometric","category":"deferred-preparation","decisionNeeded":"Clarify activity category and exact bracing/resistance; retain earlier deferral"},
-    {"day":"Saturday","name":"Bodyweight Air Squats to Walking Lunges","category":"combined-decision","decisionNeeded":"Approve separate physical identities; exact existing bodyweight art may suffice"}
+    {
+      "day": "Tuesday",
+      "name": "Wrist flexor isometric",
+      "status": "deferred-tendon-review",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        }
+      ],
+      "category": "deferred-preparation"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Patellar tendon isometric",
+      "status": "deferred-tendon-review",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        }
+      ],
+      "category": "deferred-preparation"
+    },
+    {
+      "day": "Thursday",
+      "name": "Ez-Bar Curl & Skullcrushers",
+      "status": "combined-needs-content-decision",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        }
+      ],
+      "category": "combined-decision"
+    },
+    {
+      "day": "Thursday",
+      "name": "Calf isometric",
+      "status": "deferred-tendon-review",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        }
+      ],
+      "category": "deferred-preparation"
+    },
+    {
+      "day": "Saturday",
+      "name": "Core brace isometric",
+      "status": "deferred-tendon-review",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        }
+      ],
+      "category": "deferred-preparation"
+    },
+    {
+      "day": "Saturday",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "status": "combined-needs-content-decision",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "optional",
+          "slot": 0,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "optional",
+          "slot": 0,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "optional",
+          "slot": 0,
+          "status": "combined-needs-content-decision"
+        }
+      ],
+      "category": "combined-decision"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "status": "combined-needs-content-decision",
+      "pendingCases": [
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "main",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        }
+      ],
+      "category": "combined-decision"
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline DB Curl & Rope Pressdown",
+      "status": "combined-needs-content-decision",
+      "pendingCases": [
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        }
+      ],
+      "category": "combined-decision"
+    }
   ],
-  "nextAtomicAction":"Audit Wednesday Leg Press title and all tier cues against source, then propose an explicit identity correction without activating it"
+  "nextAtomicAction": "Design a two-component artwork presentation for the three authored paired records without changing their dose or completion identity; keep Expert seated/hanging vacuum pending"
 }

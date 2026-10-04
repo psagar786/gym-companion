@@ -18,3 +18,10 @@ One next atomic action: **Audit Wednesday Leg Press title and all tier cues agai
 - Standard/RKC plank and Tuesday Intermediate standing vacuum are source-backed tier decisions, not global aliases. Other combined records and earlier preparation deferrals remain pending.
 - Local server restarted at port 4176. Browser verification attempted and rejected by browser URL security policy; no workaround attempted. Current visual verification is not claimed.
 - Next: Generate Start for review-front-foot-elevated-dumbbell-reverse-lunge.
+# Remaining generation and local integration — 2026-10-04
+
+- Source specification commit `2aeafe3`; Wednesday accepted-pair checkpoint `3c4d74e`; Thursday accepted-pair checkpoint `8177258`.
+- Finished all five newly locked pairs. Integrated via the additive local review boundary, with explicit tier metadata rather than global combined-name aliases. Preserved baseline member renderer, source programming, historical files and production.
+- Improved audit occurrence accounting: no first-tier masking, tier-ineligible records retained separately. Remaining selectable queue is eight entries, not eight new image pairs.
+- Passed 72 cases, 1,867 card/detail checks and 340 local image byte checks. Browser verification is blocked and honestly left unverified; server remains on port 4176.
+- Next unit: two-component presentation for authored paired records. Do not generate one constituent and represent it as an entire pair. Do not guess seated/hanging vacuum or reactivate preparation work.

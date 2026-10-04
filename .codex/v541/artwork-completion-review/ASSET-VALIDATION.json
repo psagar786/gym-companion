@@ -1,11 +1,13 @@
 {
   "status": "PASS",
   "runtimeCases": 72,
-  "acceptedPairs": 13,
-  "displayFiles": 26,
-  "baselineResolvedDayNames": 215,
-  "reviewResolvedDayNames": 229,
-  "pendingDayNames": 16,
+  "occurrenceChecks": 1867,
+  "cardDetailChecks": 1867,
+  "acceptedPairs": 18,
+  "displayFiles": 36,
+  "baselineResolvedDayNames": 213,
+  "reviewResolvedDayNames": 235,
+  "pendingDayNames": 8,
   "unchangedProgramming": true,
   "protectedArtworkFiles": 304,
   "protectedSourceFiles": 1692,
@@ -14,82 +16,478 @@
     {
       "day": "Tuesday",
       "name": "Wrist flexor isometric",
-      "status": "deferred-tendon-review"
+      "status": "deferred-tendon-review",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        }
+      ]
     },
     {
       "day": "Wednesday",
       "name": "Patellar tendon isometric",
-      "status": "deferred-tendon-review"
+      "status": "deferred-tendon-review",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        }
+      ]
     },
     {
       "day": "Thursday",
       "name": "Ez-Bar Curl & Skullcrushers",
-      "status": "combined-needs-content-decision"
+      "status": "combined-needs-content-decision",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        }
+      ]
     },
     {
       "day": "Thursday",
       "name": "Calf isometric",
-      "status": "deferred-tendon-review"
-    },
-    {
-      "day": "Friday",
-      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
-      "status": "combined-needs-content-decision"
+      "status": "deferred-tendon-review",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        }
+      ]
     },
     {
       "day": "Saturday",
       "name": "Core brace isometric",
-      "status": "deferred-tendon-review"
+      "status": "deferred-tendon-review",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "tendon",
+          "slot": 0,
+          "status": "deferred-tendon-review"
+        }
+      ]
     },
     {
       "day": "Saturday",
       "name": "Bodyweight Air Squats to Walking Lunges",
-      "status": "combined-needs-content-decision"
+      "status": "combined-needs-content-decision",
+      "pendingCases": [
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "optional",
+          "slot": 0,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "role": "optional",
+          "slot": 0,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "role": "optional",
+          "slot": 0,
+          "status": "combined-needs-content-decision"
+        }
+      ]
     },
     {
       "day": "Tuesday",
       "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
-      "status": "combined-needs-content-decision"
-    },
-    {
-      "day": "Wednesday",
-      "name": "Leg Press",
-      "status": "missing-pair"
-    },
-    {
-      "day": "Wednesday",
-      "name": "Reverse Lunges with Dumbbells",
-      "status": "missing-pair"
-    },
-    {
-      "day": "Wednesday",
-      "name": "Walking Lunges",
-      "status": "missing-pair"
-    },
-    {
-      "day": "Wednesday",
-      "name": "Bulgarian Split Squats",
-      "status": "missing-pair"
-    },
-    {
-      "day": "Wednesday",
-      "name": "Stick Hip Swings",
-      "status": "missing-pair"
-    },
-    {
-      "day": "Thursday",
-      "name": "Incline Bench Row",
-      "status": "missing-pair"
-    },
-    {
-      "day": "Thursday",
-      "name": "Low-to-High Cable Fly",
-      "status": "missing-pair"
+      "status": "combined-needs-content-decision",
+      "pendingCases": [
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "main",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        }
+      ]
     },
     {
       "day": "Thursday",
       "name": "Incline DB Curl & Rope Pressdown",
-      "status": "combined-needs-content-decision"
+      "status": "combined-needs-content-decision",
+      "pendingCases": [
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "role": "option2",
+          "slot": 4,
+          "status": "combined-needs-content-decision"
+        }
+      ]
     }
   ]
 }

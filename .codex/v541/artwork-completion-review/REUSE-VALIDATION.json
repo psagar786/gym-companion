@@ -1,0 +1,132 @@
+{
+  "records": [
+    {
+      "day": "Wednesday",
+      "name": "Walking Lunges",
+      "tier": "all applicable",
+      "canonicalMovementId": "biweekly-dumbbell-walking-lunges",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "User-confirmed load; existing pair visually inspected: male, two dumbbells at sides, standing setup and lowered forward-lunge position. Do not change the explicitly Bodyweight Walking Lunge component.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "c9a6209e41c2219a436199148d8a932f5cd76785d7814fa84dc783cb8cad4b5a",
+        "movement": "847ebd21315a5c8dba5f553609a1e966491fa32ce75937069d46ed2b6a758ab7"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Reverse Lunges with Dumbbells",
+      "tier": "intermediate",
+      "canonicalMovementId": "periodized-reverse-lunges",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Authored Intermediate is ordinary step-back; Expert explicitly elevates front foot on a plate. Existing ordinary dumbbell pair inspected; Expert requires a separate pair.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "eb71381cc591e85e4f47213997a0365612b887836d27f7ce2f6b79130bdb59cd",
+        "movement": "08a3084193b40f977f1384502dee2a080967b800067eed5267a65f1f60ec734a"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Leg Press",
+      "tier": "intermediate",
+      "canonicalMovementId": "biweekly-45-incline-leg-press-mid-stance",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Name-only Hack Squat substitution left conflicting cues. Use a supported 45-degree sled; preserve an explicitly authored wide-stance dose with the wide pair. Other tiers use shoulder-width mid-platform pair. No source prescription or stored snapshot is rewritten.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "9518ac2ddade4d2aa50ce93ba05699fb77704df764b450a6d57f300917391289",
+        "movement": "3b087be5cbb9f2505d2666ddcb87ba6f7c673581db56e2cbce3859154ac43858"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Leg Press",
+      "tier": "beginner",
+      "canonicalMovementId": "periodized-wide-stance-leg-press",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Name-only Hack Squat substitution left conflicting cues. Use a supported 45-degree sled; preserve an explicitly authored wide-stance dose with the wide pair. Other tiers use shoulder-width mid-platform pair. No source prescription or stored snapshot is rewritten.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "b0fbd91cfd18fc480700e973678c2be3d4f17753113b2a0fc02e7c1b1302d6e9",
+        "movement": "721e5136bc2303f917b57bd8a7bedeb88386ddc330e78a0166e80a41ec1b443a"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Friday",
+      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+      "tier": "intermediate",
+      "canonicalMovementId": "periodized-standard-forearm-plank",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Authored Intermediate names Standard Forearm Plank; Expert names RKC. Beginner remains locked. Resolve only when the selected tier is explicit; no combined name is globally aliased.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-standard-forearm-plank-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-standard-forearm-plank-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "ed98cddebd6dd6ae40661a17a2c7b948e7fc3d40048d4885ba3b531ce156b5ec",
+        "movement": "65a7063a1b4386c5cc4f3f34eac45a0db9684ecb993a7862c91f2231dd4aad3c"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Friday",
+      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+      "tier": "expert",
+      "canonicalMovementId": "periodized-rkc-hardstyle-plank",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Authored Intermediate names Standard Forearm Plank; Expert names RKC. Beginner remains locked. Resolve only when the selected tier is explicit; no combined name is globally aliased.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "99af3650e242a2e24284569a95b12bd6ee682d57050930f0d0dac8a04b748f95",
+        "movement": "366350ebbc28c14700cc31c1c402b91f269aa0138ba63deab5501ebc49b51353"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "tier": "intermediate",
+      "canonicalMovementId": "periodized-standing-stomach-vacuum",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Intermediate explicitly says Standing; Expert says Seated & Hanging, so Expert remains pending rather than silently borrowing seated artwork.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "9bd5920459e5d2535dd46ce8543fe66767adecebe2f0e151e6ac6380705dde22",
+        "movement": "948bf205e709d2bdf5148ebd1138b060ff3046286c4d69e891b566d8dc31e73b"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    }
+  ],
+  "noCopiedAssets": true,
+  "baselineHashesUnchanged": true
+}

@@ -41,3 +41,29 @@ Do not prescribe a new programme or diet in this branch. Nominal whole-week set 
 ## Stop / handoff
 
 Commit verified work, preserve pending states and leave exactly one executable next action. Human review is separate from AI-assisted review. The current next unit is the Wednesday Leg Press title/tier conflict decision—not another blind image batch.
+# Resume addendum — 18-pair local build
+
+Read `STATE.json` first. Current server is the isolated review workspace on port 4176, not the baseline at 4175. The approved generation queue is now complete at 18 pairs; never re-run `init` or regenerate any recorded hash-matching phase.
+
+Before a new unit, confirm branch `codex/v541-artwork-completion-review`, inspect Git status, and read only the next unit. `MECHANICS-DECISIONS.json` separates authored tier evidence from user-delegated assumptions. Generic Walking Lunges is dumbbell-loaded; explicit Bodyweight Walking Lunge remains separate. Leg Press is not a lunge or hack squat, and distinct standard/wide foot placements keep distinct pairs.
+
+Local rebuild and checks:
+
+```text
+node scripts/build-artwork-review.mjs
+node scripts/review-artwork-checkpoint.mjs validate
+node scripts/validate-artwork-review.mjs
+node scripts/validate-artwork-review-http.mjs
+```
+
+Start only if port 4176 is not already served by this workspace:
+
+```text
+PORT=4176 node scripts/local-v53-server.mjs
+```
+
+The HTTP check requires permission to reach the local socket in a sandbox; do not substitute a remote deployment. Browser reload was blocked by URL policy during the last run. Do not bypass that policy, claim new phone screenshots passed, or relabel old evidence as current. Ask the user to open/reload the local review URL when needed.
+
+Next action is a **design decision**, not more blind generation: present both atomic components of the three paired records (Thursday EZ-bar curl/skullcrushers, Thursday incline curl/rope pressdown, Saturday bodyweight air squat/walking lunge) without changing their dose or single completion identity. Reuse exact constituents where available, inspect them, and keep a compound pending until its renderer can represent both. Tuesday Expert seated-and-hanging vacuum remains ambiguous. Four preparation records remain deferred pending the earlier research decision.
+
+Save each bounded unit and its failures before advancing. Generate a new count from occurrence-level `POST-INTEGRATION-INVENTORY.json`; never assume eight pending names means eight generation pairs. No production, GitHub or Vercel changes are authorized here.
