@@ -486,20 +486,113 @@
   {
     "id": "review-front-foot-elevated-dumbbell-reverse-lunge",
     "name": "Front-Foot-Elevated Dumbbell Reverse Lunge",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-d19c3911-64b1-45ae-a242-034db9b213a4.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-front-foot-elevated-dumbbell-reverse-lunge-start.png",
+        "sourceSha256": "ee5769b1d28c208cf74489d0424f13c142ed899c667f58aa33ae3cae15231b40",
+        "pngPath": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-start.webp",
+        "sha256": "51af7fda9b903521b9bb94c9d4220f195b0ea9c4d2af44a9b7437132f5f6497b",
+        "webpSha256": "d8054b543e99d8b3e8fad14ded71ef14c6ed5ad842a4d2f3f9ab712d49202d04",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male athlete, two dumbbells, one foot on stable low platform and other on adjacent floor; full subject visible. Clean charcoal background after individual clutter repair. Final contain inset supplies safe margin.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-50506a9d-5537-4b0d-b4f1-706f3e827793.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-front-foot-elevated-dumbbell-reverse-lunge-movement.png",
+        "sourceSha256": "73e39098e5201d93f92df104afe513372e014664aa174001664d4e26e1bc26a0",
+        "pngPath": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-movement.webp",
+        "sha256": "65da1251ec7109258c71ff6be20b6958eba7894256a9025086ae2806a889ace7",
+        "webpSha256": "f943d4a28106f7e4175f0d0a0279cd8a1bdf160640271c60cfd8a3d35561aada",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, kit and dumbbells; front foot remains on low platform, rear step-back toe on floor, knee lowered and front knee flexed. Clearly distinct working phase, neutral trunk and full equipment visibility; final inset preserves safe margin.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "review-dumbbell-bulgarian-split-squat",
     "name": "Dumbbell Bulgarian Split Squat",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-61c59169-c448-407d-8634-810cb40e9157.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-dumbbell-bulgarian-split-squat-start.png",
+        "sourceSha256": "4049d5b56c629630ab3c306f13a6cba57538c09ccb6ba8b6f85ae0b0e58211ed",
+        "pngPath": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-start.webp",
+        "sha256": "ba93045d58b15b0d465e6e5e97919c3799f1abe107fb7b58b4dbcf015c5c3a17",
+        "webpSha256": "384d5b66ed88d3db87236f2b4eb2e04a94478b63a45dbd85a30da994c7d3e4f2",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male loaded rear-foot-supported split stance; front foot flat on floor without deficit, rear shoelaces on low bench, two dumbbells, full body and bench visible. Final proportional inset provides 10 percent margin.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-64c58296-bcfb-4779-b546-477d6d190093.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-dumbbell-bulgarian-split-squat-movement.png",
+        "sourceSha256": "53d3c6d0fdc4713872e2808ca2b12560dc1c7b15bed89cc8ead86fb0086cd11b",
+        "pngPath": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-movement.webp",
+        "sha256": "9f13b950514109a292aa20edba013480ca6cc37018245d8c992d13221ac0adeb",
+        "webpSha256": "abcc408a62085391db82617b3788b04a0d4c574a0edc8269c8fd55a64f7f2be1",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, bench and dumbbells; rear foot on bench, front foot grounded, hips lowered with bent front knee and neutral torso. Clear phase difference, full equipment visibility; not deficit or 1.5-rep variation.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "review-stick-supported-sagittal-hip-swing",
     "name": "Stick-Supported Forward/Back Hip Swing",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-b635b9c6-baa5-4e30-88df-49e04b99caae.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-stick-supported-sagittal-hip-swing-start.png",
+        "sourceSha256": "84d606199538d95b435a640c103191dcbcf1f20fb29b0333f55a524fd47b5a9a",
+        "pngPath": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-start.webp",
+        "sha256": "cf9511ea4bac1d5ef71a278fb4679c355265b4ffd841cfd2afd4de21a8d5569e",
+        "webpSha256": "c99c89f96004af8cb68c4a7540ad7fe83003f149ab4ca389c55e49b6437f600a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male athlete, vertical grounded stick and one planted support leg; free leg behind in comfortable hip extension, upright trunk and full stick/body visibility. Controlled sagittal setup, not lateral or high-knee march.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-7752b671-2b28-4172-bbd4-99e472b68d7f.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-stick-supported-sagittal-hip-swing-movement.png",
+        "sourceSha256": "df28268e65cf53b9008a895932988d3f2d07246dbb6cffaf5e570c78c7a27e2f",
+        "pngPath": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-movement.webp",
+        "sha256": "5f82990358e7b4e90cab8a0ff039577812f5d5406db57884392d306e66a3e0ee",
+        "webpSha256": "a38b8070a2894e86381a767df9c6fddde217161ff6f1601ed88a6e3550f7ba34",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same man, vertical stick and support leg; free leg now forward with softly extended knee, upright torso. Clear sagittal phase difference and full visibility; moderate range, no high kick or forced lumbar arch.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "review-incline-bench-dumbbell-row",
