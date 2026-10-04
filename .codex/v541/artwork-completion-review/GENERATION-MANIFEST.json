@@ -597,13 +597,75 @@
   {
     "id": "review-incline-bench-dumbbell-row",
     "name": "Incline Bench Dumbbell Row",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-81fd301f-dc89-44ab-a72b-a86eeb0dba99.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-incline-bench-dumbbell-row-start.png",
+        "sourceSha256": "dfc2f285eb2805368134478a8d471475a8265bb4124693f437c25e9145c8c8b4",
+        "pngPath": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-start.webp",
+        "sha256": "7e55d1e2da80175718579c05502a182afe912dca7e3d20fd83e9b706cea94a8d",
+        "webpSha256": "3329ac527fc956d3c734a63bd5c5e417683c1994c0ac274aa4f37dcc60d9a559",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male prone supported chest on low incline bench, both neutral-grip dumbbells hang clear of floor; grounded feet and complete bench. Correct bilateral dumbbell apparatus, not T-bar; final inset preserves all edges.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-b91ca69b-405a-4056-a6d8-72445430729c.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-incline-bench-dumbbell-row-movement.png",
+        "sourceSha256": "98814e92eb26dd5af807f7c0e32a111d536cdde31c88f6c122ad8c8afb3f40cb",
+        "pngPath": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-movement.webp",
+        "sha256": "18befea9c74a433abc2858ca161ff7f13575c7411e18c23691de8a41f71bcb55",
+        "webpSha256": "22d42cd0d03d6e39b709b9559b80a2ac29d796fde80646e9af4242d0e8087a7e",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same man, low incline bench and feet; elbows bent beside torso, dumbbells lifted toward lower ribs with chest supported. Distinct arm and weight position; apparatus and framing remain consistent.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "review-low-to-high-cable-fly",
     "name": "Low-to-High Cable Fly",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-4f16d423-0c58-462d-bad8-de86aa019357.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-low-to-high-cable-fly-start.png",
+        "sourceSha256": "5eb79065e21858bc2cda3f43c5ce4fc4660187e88d5070e9aaffa68c15cd0a47",
+        "pngPath": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-start.webp",
+        "sha256": "1f034791fdce2d2cacd32cf05852f25ac0090585d5e4a7d6fb04ce47d37c5ec3",
+        "webpSha256": "43ad47ccf3b8eb8a74c8ab376dea044dfba68b8702c0ba421ae1d636c04a842a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male in staggered stance, two D-handles beside hips, both low pulley attachments and continuous cable paths visible. Entire towers and athlete fit source; proportional inset adds full margin without cropping.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-c7372fa4-59a7-4c79-950c-b889bd099c80.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-low-to-high-cable-fly-movement.png",
+        "sourceSha256": "e0c13dbbf61fd179e638014740dd6484246fe1caaa14d50d850b749e8472e3b1",
+        "pngPath": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-movement.webp",
+        "sha256": "366c107e0352b88e87157a3e937ace05b61a7b545e8a75850f3521d68a64b793",
+        "webpSha256": "832638fcaeb9d6a1d6b723b02ba584aa2bbfc3aca95a2172f8b6319073771e5b",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male and low cable stations; long-arm inward-upward fly position below chin, gently bent elbows, distinct from hip-level Start. Full continuous cable paths and equipment visible. Repaired excessive elbow bend and excessive hand height before accepting.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   }
 ]

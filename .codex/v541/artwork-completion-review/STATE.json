@@ -6,7 +6,7 @@
   "baselineWorkspace": "/Users/exxxy/Documents/Daily AI Help/gym-companion-v541-art-integration",
   "baselineSourceCommit": "b429bd53fb1022a430f8d2e710f33ac49082e30d",
   "deployedSourceCommit": "885a9872dc267a8030ac1b99fcef419c845571de",
-  "currentCheckpoint": "F7-REVIEW-review-stick-supported-sagittal-hip-swing-PAIR-ACCEPTED",
+  "currentCheckpoint": "F7-REVIEW-review-low-to-high-cable-fly-PAIR-ACCEPTED",
   "completedUnits": [
     "BRANCH-ISOLATED",
     "SOURCE-CHECKPOINT-READ",
@@ -26,8 +26,8 @@
   "confirmedReplacementPairs": 4,
   "targetConfirmedPairs": 18,
   "targetConfirmedPhaseFiles": 36,
-  "generatedPairs": 16,
-  "generatedPhaseFiles": 32,
+  "generatedPairs": 18,
+  "generatedPhaseFiles": 36,
   "unresolvedMechanicsDayNames": 7,
   "remainingPendingDayNames": 16,
   "combinedMovementDecisions": 5,
@@ -56,7 +56,9 @@
     "biweekly-45-incline-leg-press-mid-stance",
     "review-front-foot-elevated-dumbbell-reverse-lunge",
     "review-dumbbell-bulgarian-split-squat",
-    "review-stick-supported-sagittal-hip-swing"
+    "review-stick-supported-sagittal-hip-swing",
+    "review-incline-bench-dumbbell-row",
+    "review-low-to-high-cable-fly"
   ],
   "failedUnits": [
     {
@@ -112,5 +114,5 @@
   ],
   "remoteMutationAllowed": false,
   "lastCompletedCommit": "5977692fe5f1d8a2e529500a4d0fc5dc236df9b7",
-  "nextAtomicAction": "Generate Start for review-incline-bench-dumbbell-row"
+  "nextAtomicAction": "Run exact review override integration and all-day validation"
 }
