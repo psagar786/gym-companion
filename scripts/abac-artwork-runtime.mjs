@@ -1,10 +1,11 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
-export function artworkRuntime({baseline=false}={}) {
+export function artworkRuntime({baseline=false,review=false}={}) {
  const c={window:{},state:{dayIndex:0,preferences:{tier:'intermediate'}},location:{search:''},URLSearchParams, effectiveTemplateKey:()=> 'periodized-abc',slugify:v=>String(v||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'')};
  vm.createContext(c);
  for(const file of ['routine','v5-routine','biweekly-routine','biweekly-artwork-registry','tiered-library','v5-exercise-guides','v53-content','v53-threeweek','abac-classification','periodized-abc','periodized-artwork','periodized-v3-monday-artwork','periodized-v3-tuesday-artwork','periodized-v3-day-artwork','periodized-v2-pilot',...(!baseline&&fs.existsSync('data/abac-artwork-resolver.js')?['abac-artwork-resolver']:[]),...(!baseline&&fs.existsSync('data/abac-exercise-content.js')?['abac-exercise-content']:[])]) vm.runInContext(fs.readFileSync('data/'+file+'.js','utf8'),c,{filename:file});
  for(const [key,global] of Object.entries({biweekly:'BIWEEKLY_ROUTINE',biweeklyArtwork:'BIWEEKLY_REGISTRY',training:'TRAINING',v53Content:'V53_CONTENT',v53Plan:'V53_THREEWEEK',periodized:'PERIODIZED_ABC',periodizedArtwork:'PERIODIZED_ARTWORK',periodizedV3MondayArtwork:'PERIODIZED_V3_MONDAY_ARTWORK',periodizedV3TuesdayArtwork:'PERIODIZED_V3_TUESDAY_ARTWORK',periodizedV3DayArtwork:'PERIODIZED_V3_DAY_ARTWORK',periodizedV2Pilot:'PERIODIZED_V2_PILOT'})) c[key]=c.window['GYM_COMPANION_'+global]||{};
+ if(review)vm.runInContext(fs.readFileSync('data/abac-artwork-review.js','utf8'),c,{filename:'local-review'});
  const app=baseline ? fs.readFileSync('.codex/v541/audit-repairs/artwork/BASELINE-MEMBER-APP.txt','utf8') : fs.readFileSync('member-app.js','utf8');
  if(app.includes('const periodizedV4Overrides')) vm.runInContext(app.slice(app.indexOf('const periodizedV4Overrides'),app.indexOf('const periodizedV2Pilot')),c);
  for(const name of ['previewImage','biweeklyReadiness','biweeklyPreviewMode','v2ArtworkRecord','rawBiweeklyRegistryRecord','biweeklyRegistryRecord','biweeklyItem','periodizedResolvedItem','inferredGroups','movementClass','progressionFor','coachingFor','normalizeExercise','isStretchOrMobility','periodizedPlan']) {

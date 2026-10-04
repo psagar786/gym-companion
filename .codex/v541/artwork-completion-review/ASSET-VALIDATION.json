@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "runtimeCases": 72,
+  "acceptedPairs": 13,
+  "displayFiles": 26,
+  "baselineResolvedDayNames": 215,
+  "reviewResolvedDayNames": 229,
+  "pendingDayNames": 16,
+  "unchangedProgramming": true,
+  "protectedArtworkFiles": 304,
+  "protectedSourceFiles": 1692,
+  "sourceBaseline": "b429bd53fb1022a430f8d2e710f33ac49082e30d",
+  "pending": [
+    {
+      "day": "Tuesday",
+      "name": "Wrist flexor isometric",
+      "status": "deferred-tendon-review"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Patellar tendon isometric",
+      "status": "deferred-tendon-review"
+    },
+    {
+      "day": "Thursday",
+      "name": "Ez-Bar Curl & Skullcrushers",
+      "status": "combined-needs-content-decision"
+    },
+    {
+      "day": "Thursday",
+      "name": "Calf isometric",
+      "status": "deferred-tendon-review"
+    },
+    {
+      "day": "Friday",
+      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+      "status": "combined-needs-content-decision"
+    },
+    {
+      "day": "Saturday",
+      "name": "Core brace isometric",
+      "status": "deferred-tendon-review"
+    },
+    {
+      "day": "Saturday",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "status": "combined-needs-content-decision"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "status": "combined-needs-content-decision"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Leg Press",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Reverse Lunges with Dumbbells",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Walking Lunges",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Bulgarian Split Squats",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Hip Swings",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline Bench Row",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Thursday",
+      "name": "Low-to-High Cable Fly",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline DB Curl & Rope Pressdown",
+      "status": "combined-needs-content-decision"
+    }
+  ]
+}

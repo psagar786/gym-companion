@@ -1,0 +1,587 @@
+{
+  "records": [
+    {
+      "id": "biweekly-standing-machine-calf-raise",
+      "name": "Standing Machine Calf Raise",
+      "names": [
+        "Standing Machine Calf Raise"
+      ],
+      "day": "Wednesday",
+      "equipment": "Plate-loaded standing calf-raise machine with padded shoulder yoke, stable handle grips and raised forefoot block",
+      "grip": "Hands gently hold machine handles; balls of both feet on block, heels free; feet hip-width, knees softly extended",
+      "camera": "Side three-quarter full machine view",
+      "start": "Standing upright beneath padded shoulder yoke. Heels lowered slightly below forefoot block in a comfortable calf stretch, knees nearly straight and trunk stacked.",
+      "movement": "Same yoke and machine; both heels raised high above forefoot block, ankles plantarflexed, body and shoulder yoke elevated visibly while knees remain nearly straight.",
+      "muscles": "Gastrocnemius and soleus orange; tibialis posterior muted blue; trunk stabilizers grey-green",
+      "avoid": "No squat, bent-knee seated pose, heels on the block, floating machine pads or deep forced ankle range.",
+      "canonicalMovementId": "biweekly-standing-machine-calf-raise",
+      "stableMovementId": "biweekly-standing-machine-calf-raise",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-movement.webp"
+      },
+      "startInstruction": "Standing upright beneath padded shoulder yoke. Heels lowered slightly below forefoot block in a comfortable calf stretch, knees nearly straight and trunk stacked.",
+      "movementInstruction": "Same yoke and machine; both heels raised high above forefoot block, ankles plantarflexed, body and shoulder yoke elevated visibly while knees remain nearly straight.",
+      "safetyCue": "Keep heels free of the block and use a comfortable ankle range; do not bounce into the stretch.",
+      "altStart": "Standing Machine Calf Raise: stable starting position",
+      "altMovement": "Standing Machine Calf Raise: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "periodized-deficit-barbell-rdl",
+      "name": "Deficit Barbell RDL",
+      "names": [
+        "Deficit Barbell RDL"
+      ],
+      "day": "Wednesday",
+      "equipment": "Standard barbell with two balanced weight plates, one stable low 5-cm-wide platform beneath both feet",
+      "grip": "Double overhand shoulder-width grip, feet hip-width fully supported on the same broad low platform, knees softly bent",
+      "camera": "Side three-quarter view showing bar path and platform",
+      "start": "Tall stance on low platform, bar hanging against upper thighs, shoulders over hips and spine neutral.",
+      "movement": "Hip hinge with hips back and neutral spine; torso angled forward about 45–60 degrees. Bar travels close to shins and slightly below ordinary shin height, knees retain small bend; stop before any lumbar rounding.",
+      "muscles": "Hamstrings and gluteus maximus orange; spinal erectors muted blue; trunk and grip stabilizers grey-green",
+      "avoid": "No conventional floor deadlift, deep squat, locked knees, rounded back, excessive depth or feet on separate unstable plates.",
+      "canonicalMovementId": "periodized-deficit-barbell-rdl",
+      "stableMovementId": "periodized-deficit-barbell-rdl",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-movement.webp"
+      },
+      "startInstruction": "Tall stance on low platform, bar hanging against upper thighs, shoulders over hips and spine neutral.",
+      "movementInstruction": "Hip hinge with hips back and neutral spine; torso angled forward about 45–60 degrees. Bar travels close to shins and slightly below ordinary shin height, knees retain small bend; stop before any lumbar rounding.",
+      "safetyCue": "The platform does not require a deeper reach; stop before your back rounds.",
+      "altStart": "Deficit Barbell RDL: stable starting position",
+      "altMovement": "Deficit Barbell RDL: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "biweekly-stick-overhead-deep-squats",
+      "name": "Stick Overhead Deep Squats",
+      "names": [
+        "Stick Overhead Deep Squats"
+      ],
+      "day": "Wednesday",
+      "equipment": "One straight lightweight off-white mobility stick about 1.5 metres long, no weights",
+      "grip": "Wide overhand grip near stick ends, elbows straight overhead; feet shoulder-width, toes gently turned out",
+      "camera": "Front three-quarter view with full stick and feet",
+      "start": "Upright stance, stick overhead above mid-foot, ribs stacked over pelvis and feet flat.",
+      "movement": "Controlled comfortable deep squat, hips below knee level only while heels stay grounded and spine remains neutral; stick stays overhead above mid-foot, knees follow toes.",
+      "muscles": "Quadriceps and glutes subtle orange; upper back and shoulders muted blue; trunk grey-green",
+      "avoid": "No stick resting across shoulders, heels lifted, knees collapsing inward, forced shoulder range, weighted bar or unsupported extreme arch.",
+      "canonicalMovementId": "biweekly-stick-overhead-deep-squats",
+      "stableMovementId": "biweekly-stick-overhead-deep-squats",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-movement.webp"
+      },
+      "startInstruction": "Upright stance, stick overhead above mid-foot, ribs stacked over pelvis and feet flat.",
+      "movementInstruction": "Controlled comfortable deep squat, hips below knee level only while heels stay grounded and spine remains neutral; stick stays overhead above mid-foot, knees follow toes.",
+      "safetyCue": "Keep heels grounded and use only a depth and overhead grip that remain comfortable.",
+      "altStart": "Stick Overhead Deep Squats: stable starting position",
+      "altMovement": "Stick Overhead Deep Squats: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "biweekly-sissy-squat",
+      "name": "Sissy Squat",
+      "names": [
+        "Sissy Squat"
+      ],
+      "day": "Wednesday",
+      "equipment": "Bodyweight on stable floor; no machine or external weight",
+      "grip": "Arms extended forward for counterbalance, feet hip-width, toes facing forward",
+      "camera": "Clear side view of knee flexion and heels",
+      "start": "Standing tall with softly unlocked knees and arms held forward at shoulder level.",
+      "movement": "Controlled bodyweight sissy squat: knees travel forward, heels rise, thighs and torso form a nearly straight backward-leaning line; moderate knee bend, hips not folded into a normal squat, no extreme depth.",
+      "muscles": "Quadriceps orange; gluteal and calf muscles muted blue; trunk grey-green",
+      "avoid": "No kneeling pose, normal hip-hinge squat, exaggerated lumbar arch, deep painful knee angle or invented resistance.",
+      "canonicalMovementId": "biweekly-sissy-squat",
+      "stableMovementId": "biweekly-sissy-squat",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-movement.webp"
+      },
+      "startInstruction": "Standing tall with softly unlocked knees and arms held forward at shoulder level.",
+      "movementInstruction": "Controlled bodyweight sissy squat: knees travel forward, heels rise, thighs and torso form a nearly straight backward-leaning line; moderate knee bend, hips not folded into a normal squat, no extreme depth.",
+      "safetyCue": "Use a shallow controlled range; stop if the knees become painful or balance is lost.",
+      "altStart": "Sissy Squat: stable starting position",
+      "altMovement": "Sissy Squat: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "biweekly-seated-calf-raise-machine",
+      "name": "Seated Calf Raise Machine",
+      "names": [
+        "Seated Calf Raise Machine"
+      ],
+      "day": "Wednesday",
+      "equipment": "Plate-loaded seated calf-raise machine, padded thigh lever just above knees and raised forefoot block",
+      "grip": "Hands hold machine handles; seated upright, knees near 90 degrees, balls of both feet on block and heels free",
+      "camera": "Side three-quarter full equipment view",
+      "start": "Seated with thigh pads contacting thighs, heels lowered comfortably beneath block, both feet stable.",
+      "movement": "Same machine and thigh-pad placement, heels lift high and ankle extension elevates lever and weight; knees remain bent near 90 degrees, torso upright.",
+      "muscles": "Soleus orange; gastrocnemius muted blue; trunk stabilizers grey-green",
+      "avoid": "No standing calf raise, thigh pads on kneecaps, whole feet on block, bouncing or changed machine geometry.",
+      "canonicalMovementId": "biweekly-seated-calf-raise-machine",
+      "stableMovementId": "biweekly-seated-calf-raise-machine",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-movement.webp"
+      },
+      "startInstruction": "Seated with thigh pads contacting thighs, heels lowered comfortably beneath block, both feet stable.",
+      "movementInstruction": "Same machine and thigh-pad placement, heels lift high and ankle extension elevates lever and weight; knees remain bent near 90 degrees, torso upright.",
+      "safetyCue": "Place the pad above the knees, not on the kneecaps; avoid bouncing at the bottom.",
+      "altStart": "Seated Calf Raise Machine: stable starting position",
+      "altMovement": "Seated Calf Raise Machine: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "biweekly-incline-smith-machine-press-45",
+      "name": "Incline Smith Machine Press 45°",
+      "names": [
+        "Incline Smith Machine Press 45°"
+      ],
+      "day": "Thursday",
+      "equipment": "Smith machine with two parallel vertical rails and attached balanced barbell; adjustable bench backrest exactly 45 degrees from floor",
+      "grip": "Overhand grip just outside shoulder-width, feet planted, shoulders retracted against bench, forearms vertical",
+      "camera": "Side three-quarter view with both complete rails and bench angle visible",
+      "start": "Reclined on 45-degree bench, bar just above upper chest, elbows below wrists and about 45–60 degrees from torso, wrists straight.",
+      "movement": "Bar pressed upward along the same Smith rails until arms are almost straight above upper chest; scapulae remain supported, feet and bench unchanged.",
+      "muscles": "Upper pectoralis major orange; anterior deltoids and triceps muted blue; rotator cuff grey-green",
+      "avoid": "No near-upright shoulder press, free barbell, missing rail attachments, bar behind neck, floating feet or equipment cut off.",
+      "canonicalMovementId": "biweekly-incline-smith-machine-press-45",
+      "stableMovementId": "biweekly-incline-smith-machine-press-45",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-movement.webp"
+      },
+      "startInstruction": "Reclined on 45-degree bench, bar just above upper chest, elbows below wrists and about 45–60 degrees from torso, wrists straight.",
+      "movementInstruction": "Bar pressed upward along the same Smith rails until arms are almost straight above upper chest; scapulae remain supported, feet and bench unchanged.",
+      "safetyCue": "Set the safety stops before loading and keep the bar path over the upper chest, not the neck.",
+      "altStart": "Incline Smith Machine Press 45°: stable starting position",
+      "altMovement": "Incline Smith Machine Press 45°: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "biweekly-bayesian-cable-curl",
+      "name": "Bayesian Cable Curl",
+      "names": [
+        "Bayesian Cable Curl"
+      ],
+      "day": "Thursday",
+      "equipment": "One low cable pulley station with single D-handle and taut cable from behind the athlete",
+      "grip": "One supinated grip; split stance facing away from pulley, working upper arm slightly behind torso, other hand relaxed",
+      "camera": "Side three-quarter showing low pulley behind and entire cable path",
+      "start": "Working arm extended down and slightly behind hip; palm forward/up, elbow softly unlocked, shoulder stable, cable taut behind hand.",
+      "movement": "Elbow bends to curl D-handle toward shoulder while upper arm remains slightly behind torso and trunk stays upright; cable still reaches low pulley behind.",
+      "muscles": "Biceps brachii orange; brachialis and brachioradialis muted blue; shoulder/trunk stabilizers grey-green",
+      "avoid": "No high pulley, preacher support, both arms working, elbow drifting far forward, torso swing or cable passing through body.",
+      "canonicalMovementId": "biweekly-bayesian-cable-curl",
+      "stableMovementId": "biweekly-bayesian-cable-curl",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-movement.webp"
+      },
+      "startInstruction": "Working arm extended down and slightly behind hip; palm forward/up, elbow softly unlocked, shoulder stable, cable taut behind hand.",
+      "movementInstruction": "Elbow bends to curl D-handle toward shoulder while upper arm remains slightly behind torso and trunk stays upright; cable still reaches low pulley behind.",
+      "safetyCue": "Do not force the shoulder farther behind you to increase the stretch.",
+      "altStart": "Bayesian Cable Curl: stable starting position",
+      "altMovement": "Bayesian Cable Curl: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "periodized-overhead-dual-cable-tricep-extension",
+      "name": "Overhead Dual-Cable Tricep Extension",
+      "names": [
+        "Overhead Dual-Cable Tricep Extension"
+      ],
+      "day": "Thursday",
+      "equipment": "Dual adjustable cable columns behind the athlete, two independent handles and two taut cables routed outside the shoulders",
+      "grip": "One handle in each hand, neutral grip, split stance facing away from columns; upper arms overhead, elbows near shoulder-width",
+      "camera": "Side-front three-quarter view showing both cable columns and cable connections",
+      "start": "Both elbows bent approximately 90–110 degrees, hands behind crown of head, upper arms overhead, ribs stacked, cables taut from behind.",
+      "movement": "Extend both elbows to bring hands upward-forward above head, keeping upper arms stable and elbows softly unlocked; same cable columns and split stance.",
+      "muscles": "Triceps especially long head orange; deltoids muted blue; trunk/rotator cuff grey-green",
+      "avoid": "No single rope cable, pressdown, handles fused together, cables crossing neck, flared elbows or exaggerated lumbar arch.",
+      "canonicalMovementId": "periodized-overhead-dual-cable-tricep-extension",
+      "stableMovementId": "periodized-overhead-dual-cable-tricep-extension",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-movement.webp"
+      },
+      "startInstruction": "Both elbows bent approximately 90–110 degrees, hands behind crown of head, upper arms overhead, ribs stacked, cables taut from behind.",
+      "movementInstruction": "Extend both elbows to bring hands upward-forward above head, keeping upper arms stable and elbows softly unlocked; same cable columns and split stance.",
+      "safetyCue": "Keep ribs controlled; shorten the overhead range if the shoulders pinch.",
+      "altStart": "Overhead Dual-Cable Tricep Extension: stable starting position",
+      "altMovement": "Overhead Dual-Cable Tricep Extension: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "periodized-chest-supported-t-bar-row",
+      "name": "Chest-Supported T-Bar Row",
+      "names": [
+        "Chest-Supported T-Bar Row"
+      ],
+      "day": "Thursday",
+      "equipment": "Standing plate-loaded chest-supported T-bar row machine with inclined chest pad, foot platform, pivoting lever, near-end weight plates and parallel neutral handles",
+      "grip": "Neutral parallel handles, feet on machine platform, chest continuously supported on inclined pad, knees softly bent",
+      "camera": "Side three-quarter full lever and chest-pad view",
+      "start": "Chest against inclined support, arms extended down-forward toward handles, spine neutral, lever lowered but not resting on floor.",
+      "movement": "Pull identical handles toward lower ribs, elbows travel back beside torso; chest stays on same pad and athlete remains standing on platform. Lever and plates rise through hinge path.",
+      "muscles": "Latissimus and middle trapezius orange; rhomboids, rear deltoids and biceps muted blue; trunk grey-green",
+      "avoid": "No seated machine row, free bent-over T-bar row, chest lifting from pad, different lever or seated posture between phases.",
+      "canonicalMovementId": "periodized-chest-supported-t-bar-row",
+      "stableMovementId": "periodized-chest-supported-t-bar-row",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-movement.webp"
+      },
+      "startInstruction": "Chest against inclined support, arms extended down-forward toward handles, spine neutral, lever lowered but not resting on floor.",
+      "movementInstruction": "Pull identical handles toward lower ribs, elbows travel back beside torso; chest stays on same pad and athlete remains standing on platform. Lever and plates rise through hinge path.",
+      "safetyCue": "Keep your chest on the pad and do not lift the torso to finish the pull.",
+      "altStart": "Chest-Supported T-Bar Row: stable starting position",
+      "altMovement": "Chest-Supported T-Bar Row: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "periodized-incline-db-press",
+      "name": "Incline DB Press",
+      "names": [
+        "Incline DB Press"
+      ],
+      "day": "Thursday",
+      "equipment": "Two balanced dumbbells and adjustable bench with backrest at the authored 30-degree incline",
+      "grip": "Palms forward, grip slightly outside shoulder-width, feet planted, shoulders supported/retracted",
+      "camera": "Side three-quarter with low 30-degree bench angle unmistakable",
+      "start": "Reclined on 30-degree bench, dumbbells beside upper chest, elbows bent near 90 degrees and 45–60 degrees from torso; forearms vertical.",
+      "movement": "Press both dumbbells upward and slightly inward above upper chest, elbows almost straight; preserve low incline, back/feet contact and equipment positions.",
+      "muscles": "Upper pectoralis major orange; anterior deltoids and triceps muted blue; rotator cuff grey-green",
+      "avoid": "No upright bench, 45-degree inherited Smith setup, seated shoulder press, floating feet, dumbbells touching or shoulder hyperextension.",
+      "sourceEvidence": "CANONICAL-MOVEMENTS.json periodized-incline-db-press explicitly says bench 30 degrees; do not inherit primary Smith 45 degrees.",
+      "canonicalMovementId": "periodized-incline-db-press",
+      "stableMovementId": "periodized-incline-db-press",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-movement.webp"
+      },
+      "startInstruction": "Reclined on 30-degree bench, dumbbells beside upper chest, elbows bent near 90 degrees and 45–60 degrees from torso; forearms vertical.",
+      "movementInstruction": "Press both dumbbells upward and slightly inward above upper chest, elbows almost straight; preserve low incline, back/feet contact and equipment positions.",
+      "safetyCue": "Keep wrists above elbows and avoid forcing the dumbbells below a comfortable chest-level position.",
+      "altStart": "Incline DB Press: stable starting position",
+      "altMovement": "Incline DB Press: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "periodized-wide-stance-leg-press",
+      "name": "Wide-Stance Leg Press",
+      "names": [
+        "Wide-Stance Leg Press",
+        "Wide-Stance Sumo Leg Press"
+      ],
+      "day": "Saturday",
+      "equipment": "One 45-degree plate-loaded sled leg-press machine with reclined seat/backrest, broad footplate, two side rails, balanced plates and side handles",
+      "grip": "Hands hold side handles, back and pelvis remain on pads; feet wide on same footplate, toes gently turned out, heels fully planted",
+      "camera": "Side-front three-quarter view showing foot placement, backrest and whole sled frame",
+      "start": "Knees bent near 90 degrees with footplate close enough to show stable loaded setup; lower back stays against pad, knees follow toes.",
+      "movement": "Press identical sled up same rails to nearly extended knees without locking; wide foot placement, planted heels and backrest support unchanged, sled visibly farther from seat.",
+      "muscles": "Quadriceps, gluteus maximus and adductors orange; hamstrings muted blue; trunk grey-green",
+      "avoid": "No horizontal seated stack machine, single-leg stance, feet lifting, knees collapsing inward, extreme depth, locked knees or different machine between phases.",
+      "canonicalMovementId": "periodized-wide-stance-leg-press",
+      "stableMovementId": "periodized-wide-stance-leg-press",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-movement.webp"
+      },
+      "startInstruction": "Knees bent near 90 degrees with footplate close enough to show stable loaded setup; lower back stays against pad, knees follow toes.",
+      "movementInstruction": "Press identical sled up same rails to nearly extended knees without locking; wide foot placement, planted heels and backrest support unchanged, sled visibly farther from seat.",
+      "safetyCue": "Keep the pelvis on the backrest and stop before the knees lock or the lower back lifts.",
+      "altStart": "Wide-Stance Leg Press: stable starting position",
+      "altMovement": "Wide-Stance Leg Press: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "biweekly-dumbbell-pullover-on-flat-bench",
+      "name": "Dumbbell Pullover on Flat Bench",
+      "names": [
+        "Dumbbell Pullover on Flat Bench"
+      ],
+      "day": "Thursday",
+      "equipment": "One balanced dumbbell held in both hands and one horizontal flat bench supporting upper back crosswise, feet planted on floor",
+      "grip": "Both palms support inside of upper dumbbell head; elbows softly bent at constant angle; feet shoulder-width and knees bent, upper back supported across bench",
+      "camera": "Side three-quarter view showing cross-bench torso support, both feet, whole dumbbell and bench",
+      "start": "Upper back lies across flat bench, head supported near pad edge, hips level with torso without excessive arch; dumbbell above chest and elbows softly bent.",
+      "movement": "Arc same dumbbell behind head through comfortable shoulder flexion, elbows retain slight bend; ribcage controlled, hips and feet stable, upper back on same crosswise support. Stop near upper arms beside ears, never force below comfortable shoulder range.",
+      "muscles": "Latissimus and pectoralis major restrained orange; serratus anterior and long-head triceps muted blue; trunk stabilizers grey-green",
+      "avoid": "No longitudinal full-body bench support, cable, bent-elbow skullcrusher, forced deep shoulder stretch, dropped hips, exaggerated lumbar arch or different apparatus between phases.",
+      "sourceEvidence": "data/periodized-abc.js authored optionalDetails: Lie across the bench with one dumbbell over the chest and elbows softly bent; arc behind the head while ribs stay down. Existing Monday V3 pair is lengthwise supported, not this authored cross-bench setup.",
+      "canonicalMovementId": "biweekly-dumbbell-pullover-on-flat-bench",
+      "stableMovementId": "biweekly-dumbbell-pullover-on-flat-bench",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-movement.webp"
+      },
+      "startInstruction": "Upper back lies across flat bench, head supported near pad edge, hips level with torso without excessive arch; dumbbell above chest and elbows softly bent.",
+      "movementInstruction": "Arc same dumbbell behind head through comfortable shoulder flexion, elbows retain slight bend; ribcage controlled, hips and feet stable, upper back on same crosswise support. Stop near upper arms beside ears, never force below comfortable shoulder range.",
+      "safetyCue": "Do not force the dumbbell below your comfortable shoulder range or arch the lower back to gain depth.",
+      "altStart": "Dumbbell Pullover on Flat Bench: stable starting position",
+      "altMovement": "Dumbbell Pullover on Flat Bench: active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "id": "biweekly-45-incline-leg-press-mid-stance",
+      "name": "45° Incline Leg Press (Mid-Stance)",
+      "names": [
+        "45° Incline Leg Press (Mid-Stance)",
+        "45° Incline Leg Press"
+      ],
+      "day": "Wednesday",
+      "equipment": "One 45-degree plate-loaded sled leg-press machine with full parallel rails, broad footplate, reclined padded seat/backrest, balanced plates and side safety handles",
+      "grip": "Hands on side handles; back and pelvis supported, both feet shoulder-width at middle of footplate, toes gently outward and heels planted",
+      "camera": "Front-side three-quarter showing complete machine, footplate, both feet and knee path",
+      "start": "Supported reclined seated setup, feet shoulder-width at mid-platform; sled held with knees softly extended, not locked, shoulders and pelvis on pads.",
+      "movement": "Lower the identical sled along the same 45-degree rails with both knees bent near 90 degrees, following toe direction; keep heels planted, pelvis/back on pads and hands on same side handles.",
+      "muscles": "Quadriceps restrained orange; gluteus maximus muted blue; trunk stabilizers grey-green",
+      "avoid": "No wide sumo stance, horizontal weight-stack machine, hack squat, walking lunge, single-leg stance, raised heels, pelvis rolling off pad, locked knees, extreme depth or cropped plates/footplate/rails.",
+      "sourceEvidence": "CANONICAL-MOVEMENTS.json biweekly-45-incline-leg-press-mid-stance explicitly specifies 45-degree leg press, shoulder-width feet and 90-degree controlled descent; source rows 29/94; alias 45° Incline Leg Press. NASM leg-press reference supports supported back, side handles, controlled knee flexion and avoiding lockout. Do not map generic Leg Press renamed from Hack Squat because its tier instructions conflict. Existing V3 exact pair has cropped upper equipment so a distinct replacement is needed.",
+      "canonicalMovementId": "biweekly-45-incline-leg-press-mid-stance",
+      "stableMovementId": "biweekly-45-incline-leg-press-mid-stance",
+      "artworkStatus": "complete",
+      "assetVersion": "local-artwork-review-v5",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-movement.webp"
+      },
+      "startInstruction": "Supported reclined seated setup, feet shoulder-width at mid-platform; sled held with knees softly extended, not locked, shoulders and pelvis on pads.",
+      "movementInstruction": "Lower the identical sled along the same 45-degree rails with both knees bent near 90 degrees, following toe direction; keep heels planted, pelvis/back on pads and hands on same side handles.",
+      "safetyCue": "Set the safety stops and keep the pelvis supported; do not lock the knees or copy the illustrated plate load.",
+      "altStart": "45° Incline Leg Press (Mid-Stance): stable starting position",
+      "altMovement": "45° Incline Leg Press (Mid-Stance): active working position",
+      "mappingStatus": "explicit-local-review-identity",
+      "technicalReviewStatus": "files-validated",
+      "semanticReviewStatus": "ai-reviewed",
+      "humanCoachReviewStatus": "pending"
+    }
+  ],
+  "queue": [
+    {
+      "id": "biweekly-standing-machine-calf-raise",
+      "name": "Standing Machine Calf Raise",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "periodized-deficit-barbell-rdl",
+      "name": "Deficit Barbell RDL",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "biweekly-stick-overhead-deep-squats",
+      "name": "Stick Overhead Deep Squats",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "biweekly-sissy-squat",
+      "name": "Sissy Squat",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "biweekly-seated-calf-raise-machine",
+      "name": "Seated Calf Raise Machine",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "biweekly-incline-smith-machine-press-45",
+      "name": "Incline Smith Machine Press 45°",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "biweekly-bayesian-cable-curl",
+      "name": "Bayesian Cable Curl",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "periodized-overhead-dual-cable-tricep-extension",
+      "name": "Overhead Dual-Cable Tricep Extension",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "periodized-chest-supported-t-bar-row",
+      "name": "Chest-Supported T-Bar Row",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "periodized-incline-db-press",
+      "name": "Incline DB Press",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "periodized-wide-stance-leg-press",
+      "name": "Wide-Stance Leg Press",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "biweekly-dumbbell-pullover-on-flat-bench",
+      "name": "Dumbbell Pullover on Flat Bench",
+      "status": "pair-reviewed",
+      "reason": null
+    },
+    {
+      "id": "biweekly-45-incline-leg-press-mid-stance",
+      "name": "45° Incline Leg Press (Mid-Stance)",
+      "status": "pair-reviewed",
+      "reason": null
+    }
+  ],
+  "unresolved": [
+    {
+      "day": "Tuesday",
+      "name": "Wrist flexor isometric",
+      "status": "deferred-tendon-review"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Patellar tendon isometric",
+      "status": "deferred-tendon-review"
+    },
+    {
+      "day": "Thursday",
+      "name": "Ez-Bar Curl & Skullcrushers",
+      "status": "combined-needs-content-decision"
+    },
+    {
+      "day": "Thursday",
+      "name": "Calf isometric",
+      "status": "deferred-tendon-review"
+    },
+    {
+      "day": "Friday",
+      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+      "status": "combined-needs-content-decision"
+    },
+    {
+      "day": "Saturday",
+      "name": "Core brace isometric",
+      "status": "deferred-tendon-review"
+    },
+    {
+      "day": "Saturday",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "status": "combined-needs-content-decision"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "status": "combined-needs-content-decision"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Leg Press",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Reverse Lunges with Dumbbells",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Walking Lunges",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Bulgarian Split Squats",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Hip Swings",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline Bench Row",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Thursday",
+      "name": "Low-to-High Cable Fly",
+      "status": "missing-pair"
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline DB Curl & Rope Pressdown",
+      "status": "combined-needs-content-decision"
+    }
+  ]
+}

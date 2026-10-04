@@ -2,9 +2,40 @@
   {
     "id": "biweekly-standing-machine-calf-raise",
     "name": "Standing Machine Calf Raise",
-    "phases": {},
-    "status": "held-for-repair",
-    "reason": "Three drafts failed clear heel-below-block Start position; not integrated"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-2578cd01-94db-4d45-8d15-3bab470f1ad1.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-standing-machine-calf-raise-start.png",
+        "sourceSha256": "a487e89d7634f23ebcbd7fef4efe61d50ce812bb9794e6983e759c787bf027f7",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-start.webp",
+        "sha256": "4739b985e5c698d9b93d59abca1d4a29088e44e47a0461fd4f75d3d5f59587e0",
+        "webpSha256": "58c7ab95f952b3b07c1138fbf541c0b09b4a1677bef4e09fec198fc38c65edcc",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Forefeet supported on block with heels visibly free and lower; knees nearly straight, shoulders under yoke, all apparatus visible. Comfortable ankle range must be verified in person; do not copy an exaggerated stretch.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-c761e7bd-5dae-4c94-9bd1-40b2ec9bdbb9.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-standing-machine-calf-raise-movement.png",
+        "sourceSha256": "a5470f42af9606665589fad8d1c863c93ae9896e510b81a22df8656873dec99d",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-movement.webp",
+        "sha256": "5e23493eb0f3c86425ee1d1143ed582b8be56034a618b7d1e72fbf0b693402d7",
+        "webpSha256": "bcc21e2da60e96445c6cbb6a67bcacfa8eece634fe5a4b9e5c280b1a83d015d6",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same bare-foot male, yoke and machine; heels rise above the fixed forefoot block while knees stay nearly straight. Visible ankle and shoulder-yoke displacement; full frame.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed",
+    "repairHistory": "Early heel-support drafts rejected; later reviewed pair accepted. See REPAIR-QUEUE.md."
   },
   {
     "id": "periodized-deficit-barbell-rdl",
@@ -157,37 +188,299 @@
   {
     "id": "biweekly-incline-smith-machine-press-45",
     "name": "Incline Smith Machine Press 45°",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9975427b-fc30-4953-ad13-42fafa6820a9.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-incline-smith-machine-press-45-start.png",
+        "sourceSha256": "670ffdbd639f9a05e2d31bee48c85c47e11fa441f2683ac9df6b1b7177a6b993",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-start.webp",
+        "sha256": "6ab4b4feafb945eb0e00d849fc378581ab591dff2b29274d79aabfeaf80d0141",
+        "webpSha256": "d3385f801b204b48ba59419127703c20af18a150d603aff9725d923f2f166ee9",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Corrected lower bar below chin near upper chest, bent elbows/wrists stacked, complete Smith rails/carriages/frame and planted feet. Bench-angle precision remains human review pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-d363188b-b84d-42aa-bcab-69261374bc8d.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-incline-smith-machine-press-45-movement.png",
+        "sourceSha256": "01974b7e18762ba8e7eacc99ad29b217c96bd770d9b3f6456796d29810559738",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-movement.webp",
+        "sha256": "a2fec32c1c8aac4233c44fe9e8d6ec30ef146c5b4a181139a47202a7a61f5005",
+        "webpSha256": "afe0055d1a84707810f5a3beac9cd9fbf40056ba0c25504b240dd86ddf919901",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same supported athlete/bench/full Smith frame, bar and carriages raised together with near-straight elbows, planted feet and clear phase contrast.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed",
+    "repairHistory": "Early frame/pose/kit drafts rejected; later reviewed pair accepted. See REPAIR-QUEUE.md."
   },
   {
     "id": "biweekly-bayesian-cable-curl",
     "name": "Bayesian Cable Curl",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-89b74e88-6984-431b-bc77-1cfb74c4ecb5.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-bayesian-cable-curl-start.png",
+        "sourceSha256": "cd16fff7a344fc13d1957c0dd2fff8bb1017ad865a93788338e74dfc01864f01",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-start.webp",
+        "sha256": "06e06650b401422134c57ebc4f6890b3f363b3ea6b318096d586debf8ded6bc0",
+        "webpSha256": "fa3cc52a51d4c4e0430eef85bba937993fcaf894677de515270acc65f448753c",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Single low pulley behind athlete, supinated one-hand grip and upper arm slightly behind torso; entire tower/frame/cable visible after framing repair.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9615cc15-ab60-4c50-a659-230d2c11d4a0.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-bayesian-cable-curl-movement.png",
+        "sourceSha256": "e698ee6185a79cefd0a2a5a36fcbee0e80c6819b7443f7ff66c0770503a48aba",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-movement.webp",
+        "sha256": "99e0c9ef0c4d7f97f8a37aa717f068b2cf672ccc6895de77d684803d978f9c4f",
+        "webpSha256": "1f25ac547b82fa5852e5d11be378b7a5d390bc5d4917b295aae83cac3d7bf799",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Elbow flexion with supinated handle and upper arm retained at posterior torso; taut low cable, same stance/athlete/tower and no torso swing.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "periodized-overhead-dual-cable-tricep-extension",
     "name": "Overhead Dual-Cable Tricep Extension",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-97c1d688-b7b0-42be-b28c-04182e4b8250.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-overhead-dual-cable-tricep-extension-start.png",
+        "sourceSha256": "597e0ee1643cb1fa068edf195b3096cb6058642c7d801a00d66017abc2815928",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-start.webp",
+        "sha256": "7564774b42e9fdfa88b48fcfa0430e67b49e7119113237eaa9ab2c097aaa3863",
+        "webpSha256": "8bac4e678282df9f38ac3e60568bc9baf6edc8e0aabfc9e17b85c93d3498d382",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Two independent handles/cables and overhead flexed elbows, split stance and stacked ribs. Rear-three-quarter camera is a documented draft deviation from specified side-front; retained for clear cable/triceps review, human review pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-cf2ba505-77d2-4e66-8039-79e6c11471fb.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-overhead-dual-cable-tricep-extension-movement.png",
+        "sourceSha256": "7082501c6a5e800f224ea5c8d86233caded3e19fe2e485a3fa32bf7a41ac3adc",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-movement.webp",
+        "sha256": "279a00f3bab9436aaa18a0a7447653e58d09834747685c43adaba31e51e81be1",
+        "webpSha256": "0ae132b32cfe03949f594510700dcc9ff0a20e39dbcbdf9e3816a5949ac8b506",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Elbows extended overhead, independent handles/cables preserved, identical stance/kit/equipment/camera, visibly distinct from flexed-elbow setup; full equipment preserved by final inset.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "periodized-chest-supported-t-bar-row",
     "name": "Chest-Supported T-Bar Row",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-29467c3c-0b4e-425c-9017-0015be69c78c.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-chest-supported-t-bar-row-start.png",
+        "sourceSha256": "5a334140b6b4414e1da3611628c5a74164287b9ec03a74354ceeb195a5f88ac2",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-start.webp",
+        "sha256": "761968fa643ea1e197de2bc709cf61eeccb082e0184813ea8067675771add563",
+        "webpSha256": "3d9bb537c1633b9f1cd98050e2807ad62e09e7b1092e48246f6107a92779f6da",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Chest remains on inclined pad; arms extended; palms face inward on separate parallel handles; full standing apparatus and feet visible. Machine linkage requires human equipment review.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-cb81e938-0ad9-4fb6-89db-30569fe5c766.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-chest-supported-t-bar-row-movement.png",
+        "sourceSha256": "95eb587dbd39547bb5de174e5ba3dc4596eb709e2d0d7dfb31057b98b966d6ef",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-movement.webp",
+        "sha256": "a8b5a0b48468972e4d91b3157e7a1d72cb05a2de547b865f55a8cc3fa13ee27a",
+        "webpSha256": "64f693918f00bde910453567221f57108f3adad32cd029361569f3f77f98f711",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same athlete, pad, neutral handles and standing machine; elbows bend backward toward ribs, weighted lever lifts clearly, chest and feet remain supported; full apparatus visible.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed",
+    "repairHistory": "Early pronated-handle/white-background drafts rejected; later neutral-handle pair accepted. See REPAIR-QUEUE.md."
   },
   {
     "id": "periodized-incline-db-press",
     "name": "Incline DB Press",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-eb71ffe3-2657-4d02-9ea5-e698bc9d82bf.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-incline-db-press-start.png",
+        "sourceSha256": "7bcfe2d5f50ca1b528f899d8faa793db97db8dcae4efac98d829af517c7150bb",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-start.webp",
+        "sha256": "ffb03d0ab5ff6cadd71cd912ca4cbd7bcfc011271ca2591d3f5455b24b9da8d2",
+        "webpSha256": "e3ad9af40054de9555739fa88042791eaa17f05916de1214009850211d2763c9",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Low incline bench, planted feet, paired dumbbells at upper-chest height and vertical forearms; charcoal background corrected and full bench/body visible. Apparatus angle requires human confirmation from image.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-16de1289-cbaf-439e-9bf7-b3df9b95df9f.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-incline-db-press-movement.png",
+        "sourceSha256": "f69648e7f0a67a0f96443b715727868722b0a156067c5a5b0a5b99268897a1ca",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-movement.webp",
+        "sha256": "284a714327c06a39d626cf0be2edad1a38c744188892b431ac12efac6877afbe",
+        "webpSha256": "4e47a97094967751cba52aa91278f91e55f38167183b088d7f1c24005b03776d",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Paired dumbbells pressed above upper chest with near-straight elbows, feet supported and same low incline apparatus/athlete; clear phase difference, angle human review pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   },
   {
     "id": "periodized-wide-stance-leg-press",
     "name": "Wide-Stance Leg Press",
-    "phases": {},
-    "status": "not-started"
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-8406666d-e4c5-4145-bc33-13ffca40640d.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-wide-stance-leg-press-start.png",
+        "sourceSha256": "feac0310c1d273a9aafa79b08f1d23a9d8885813f96b13bac30ab6faa17dad45",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-start.webp",
+        "sha256": "7615725d52c808ecfb87c756831c0485e07e47dd6d27c06b59e3ca07e86a1d09",
+        "webpSha256": "b0fbd91cfd18fc480700e973678c2be3d4f17753113b2a0fc02e7c1b1302d6e9",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Full 45-degree sled frame, loading pins and backrest, bilateral wide feet with knees bent near90 and heels planted; athlete remains supported. Framing repaired without cropping.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9dc1cf28-2c2d-4ae9-96a2-bf152961a1c4.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-wide-stance-leg-press-movement.png",
+        "sourceSha256": "e41975e44a8a4fd0e5b6fa6bda9d4b2394fec14d3fc256794cc46356b9341c95",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-movement.webp",
+        "sha256": "5f9077a3aaf89ce5a7c14830c351159a6f3bf7a8cf94453d2397a871155cd384",
+        "webpSha256": "721e5136bc2303f917b57bd8a7bedeb88386ddc330e78a0166e80a41ec1b443a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same sled machine and wide planted feet, sled displaced up rails with near-straight knees and supported pelvis, all equipment visible and clear phase difference.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "biweekly-dumbbell-pullover-on-flat-bench",
+    "name": "Dumbbell Pullover on Flat Bench",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-02d8ba41-435b-4d64-9e1f-0e131451313c.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-dumbbell-pullover-on-flat-bench-start.png",
+        "sourceSha256": "852b75e2a7f9e4ba7a8f3f3b1d538eb2ef88c94d88e6e76a5733ec89c298326e",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-start.webp",
+        "sha256": "8342ee1e2588e5bdfe9627a07e62a657419bdd04f738d1ad744399429544ba6e",
+        "webpSha256": "afecaee1f70752139c32d58c9411eb46017fb4effa58672315347335e46c0795",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "AI visual review: male athlete upper back crosswise on flat bench, planted feet and elevated hips, one dumbbell held vertically above chest with both hands; charcoal scene and restrained anatomy emphasis; full body and bench visible. Coach review pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-b6d6775f-e1df-4e80-86ef-93f63e4b16a0.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-dumbbell-pullover-on-flat-bench-movement.png",
+        "sourceSha256": "b1a12086fd63e255a3ad263dc76721cb8db6fc36b7d6db87bf3d5bf761c27944",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-movement.webp",
+        "sha256": "544280af9793e3370e68f9dac35989bc05d90ddfa5a62b141d072dc3c939eecf",
+        "webpSha256": "7c2bd08a725b1886507b265adee31a6ec670058c66e54cae80d114864b1d73b3",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "AI visual review: same cross-bench male athlete, bench and foot/hip position; one two-handed dumbbell arcs behind head, upper arms beside ears with softly bent elbows and controlled ribcage; clearly different from above-chest Start. Full body/equipment retained; coach range review pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "biweekly-45-incline-leg-press-mid-stance",
+    "name": "45° Incline Leg Press (Mid-Stance)",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-a267d20a-8b19-4205-a81b-e097574b0b2c.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-45-incline-leg-press-mid-stance-start.png",
+        "sourceSha256": "1ca256f8e8c34aa30c9d17e467c199b884129386472fcc6c082dd18c87f0b2b8",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-start.webp",
+        "sha256": "91ecf7c76f313927bd76118e805de3622dbc4b53c20f6f4fb6da1f5c1c930ef0",
+        "webpSha256": "9518ac2ddade4d2aa50ce93ba05699fb77704df764b450a6d57f300917391289",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "AI visual review: male athlete back and pelvis supported in 45-degree plate-loaded sled; feet mid-platform shoulder-width, hands on handles, knees nearly extended without forceful lockout; full footplate, paired rails, plates and base inside frame. Illustration load is not a prescribed load; coach machine geometry review pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-34b54525-1076-4f1b-9bec-a6393bb5f849.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-45-incline-leg-press-mid-stance-movement.png",
+        "sourceSha256": "e3f123465148ff5deaab9ad62f2a2e4e102359e47b333fa8d4ec711f16a1e7d9",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-movement.webp",
+        "sha256": "5f631fd542979168f6c41ab962ee2b9f5c0627c7c0ea73642fe89a7603702487",
+        "webpSha256": "3b087be5cbb9f2505d2666ddcb87ba6f7c673581db56e2cbce3859154ac43858",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "AI visual review: same male, shoulder-width mid-platform stance, support and machine; sled and balanced plates closer along rails, knees visibly bent near 90 degrees while heels/pelvis supported. Complete apparatus remains visible; human confirmation of real machine linkage and depth pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   }
 ]

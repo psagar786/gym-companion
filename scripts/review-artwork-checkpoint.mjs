@@ -20,6 +20,18 @@ if(mode==='init'){
  save('PROMPT-MANIFEST.json',specs.map(s=>({...s,startPrompt:prompt(s,'start'),movementPrompt:prompt(s,'movement'),reviewStatus:'specification-frozen',humanCoachReviewStatus:'pending'})));
  save('GENERATION-MANIFEST.json',specs.map(s=>({id:s.id,name:s.name,phases:{},status:'not-started'})));
  const state=read('STATE.json');state.currentCheckpoint='F7-REVIEW-01-QUEUE-FROZEN';state.completedUnits.push('RUNTIME-INVENTORY-FROZEN','PROTECTED-ASSETS-HASHED','CONFIRMED-SPECS-FROZEN');state.nextAtomicAction=`Generate Start for ${specs[0].id}`;save('STATE.json',state);console.log(JSON.stringify({runtimeCases:x.cases.length,physicalEligibleDayNames:x.rows.filter(r=>r.eligible&&!r.nonExercise).length,pairs:specs.length,phaseFiles:specs.length*2,protectedFiles:protectedFiles.length}));
+}else if(mode==='extend'){
+ const manifest=read('GENERATION-MANIFEST.json'),prompts=read('PROMPT-MANIFEST.json');
+ for(const s of specs)if(!manifest.some(e=>e.id===s.id)){
+  if(!s.sourceEvidence)throw Error('New specification requires authored mechanical evidence');
+  manifest.push({id:s.id,name:s.name,phases:{},status:'not-started'});
+  prompts.push({...s,startPrompt:prompt(s,'start'),movementPrompt:prompt(s,'movement'),reviewStatus:'specification-frozen',humanCoachReviewStatus:'pending'});
+ }
+ save('GENERATION-MANIFEST.json',manifest);save('PROMPT-MANIFEST.json',prompts);
+ const state=read('STATE.json');state.targetConfirmedPairs=specs.length;state.targetConfirmedPhaseFiles=specs.length*2;
+ const next=manifest.find(e=>!['pair-reviewed','held-for-repair'].includes(e.status));
+ state.nextAtomicAction=next?`Generate ${next.phases.start?'Movement':'Start'} for ${next.id}`:'Run exact review override integration and all-day validation';save('STATE.json',state);
+ console.log(JSON.stringify({targetPairs:specs.length,preservedRecords:manifest.length}));
 }else if(mode==='prompt'){
  const s=specs.find(s=>s.id===id);if(!s||!['start','movement'].includes(phase))throw Error('Exact movement and phase required');console.log(prompt(s,phase));
 }else if(mode==='record'){
@@ -37,6 +49,11 @@ if(mode==='init'){
  if(e.phases.start&&e.phases.movement){if(e.phases.start.sha256===e.phases.movement.sha256)throw Error('Identical pair');e.status='pair-reviewed';}else e.status=phase+'-reviewed';
  save('GENERATION-MANIFEST.json',manifest);const state=read('STATE.json');state.generatedPhaseFiles=manifest.reduce((n,e)=>n+Object.keys(e.phases).length,0);state.generatedPairs=manifest.filter(e=>e.status==='pair-reviewed').length;state.completedMovementIds=manifest.filter(e=>e.status==='pair-reviewed').map(e=>e.id);state.currentMovementId=e.status==='pair-reviewed'?null:id;state.currentPhase=e.status==='pair-reviewed'?null:phase;state.currentCheckpoint=`F7-REVIEW-${id}-${e.status==='pair-reviewed'?'PAIR-ACCEPTED':phase.toUpperCase()+'-ACCEPTED'}`;
  const next=manifest.find(e=>!['pair-reviewed','held-for-repair'].includes(e.status));const held=manifest.find(e=>e.status==='held-for-repair');state.nextAtomicAction=next?`Generate ${next.phases.start?'Movement':'Start'} for ${next.id}`:held?`Repair rejected Start for ${held.id}`:'Run exact review override integration and all-day validation';save('STATE.json',state);console.log(JSON.stringify({id,phase,png:out+'.png',acceptedPairs:state.generatedPairs,acceptedFiles:state.generatedPhaseFiles,nextAtomicAction:state.nextAtomicAction}));
+}else if(mode==='hold'){
+ const manifest=read('GENERATION-MANIFEST.json'),e=manifest.find(e=>e.id===id);if(!e||!phase)throw Error('Require ID and safe repair reason');
+ e.status='held-for-repair';e.reason=phase;save('GENERATION-MANIFEST.json',manifest);
+ const state=read('STATE.json');state.failedUnits=state.failedUnits.filter(x=>x.id!==id);state.failedUnits.push({id,phase:e.phases.start?'movement':'start',reason:phase});
+ const next=manifest.find(x=>!['pair-reviewed','held-for-repair'].includes(x.status));state.nextAtomicAction=next?`Generate ${next.phases.start?'Movement':'Start'} for ${next.id}`:`Repair rejected phase for ${id}`;save('STATE.json',state);console.log(state.nextAtomicAction);
 }else if(mode==='validate'){
  for(const e of read('GENERATION-MANIFEST.json'))for(const [p,r]of Object.entries(e.phases)){const b=fs.readFileSync(r.pngPath);if(sha(b)!==r.sha256)throw Error('Changed accepted '+e.id+'/'+p);const m=await sharp(b).metadata();if(m.width!==512||m.height!==512)throw Error('Dimensions');}
  for(const e of read('PROTECTED-ASSET-HASHES.json'))if(sha(fs.readFileSync(e.path))!==e.sha256)throw Error('Changed protected asset '+e.path);console.log('Accepted phase integrity and baseline artwork hashes PASS');

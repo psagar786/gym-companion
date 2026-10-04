@@ -1,4 +1,18 @@
-# Artwork repair queue
+# Artwork repair history and current holds
 
-- Standing Machine Calf Raise / Start draft 1: style and apparatus are coherent, but the illustration appears to support too much of each shoe on the block rather than leaving heels clearly free. Source margin is also below target. Reject for active integration; repair the ankle/foot setup and increase empty framing. Source: `/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-0eba2d5e-e80d-42e0-b4ea-75d8183a56d5.png`.
-- Start repair drafts 2/3 did not reliably show the requested dorsiflexed heel-below-toe setup. Preserve them as review-only, not accepted assets. Resume this phase with a fresh side-view prompt after advancing only to another saved bounded generation unit. No movement companion has been accepted.
+## Resolved generation failures
+
+- Standing Machine Calf Raise Start: initial drafts failed heel-free support/range clarity. Later bare-foot Start and matching Movement were individually reviewed and accepted. Earlier drafts are not active. Comfortable ankle range still needs human review.
+- Incline Smith Press Start: initial drafts failed full rail framing or chest-level pose/black kit. Later complete-machine pair accepted. Do not reuse rejected phases.
+- Chest-Supported T-Bar Row Start: initial pronated crosswise handles and a white-background correction rejected. Later consistent neutral-handle pair accepted. Confirm actual machine linkage with a coach.
+- Cross-bench pullover Start: anatomy emphasis was missing in the initial draft. A style-only edit and matching Movement were accepted; upper-back support remains crosswise, not the old longitudinal pair.
+
+Per-phase accepted sources/hashes and observations live in `GENERATION-MANIFEST.json`. Rejected files are retained separately. There are **zero currently held generation repairs** among the 13 accepted pairs; none is qualified coach-approved.
+
+## Unresolved specification/content holds
+
+See `MISSING-QUEUE.json`: seven mechanics holds, five combined-movement decisions, four preparation deferrals. Do not count them as 16 ready-to-generate pairs. Resolve the specific source/tier identity before activation.
+
+## Validation hold
+
+The earlier mobile validator retains a hash from a prior source checkpoint and fails against the accepted baseline resolver. Independent accepted-baseline source and asset guards pass; the old test was not silently altered. See `VALIDATION.md`.

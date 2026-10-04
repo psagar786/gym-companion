@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import {artworkRuntime} from './abac-artwork-runtime.mjs';
-const c=artworkRuntime(),source=fs.readFileSync('member-app.js','utf8');
+const c=artworkRuntime({review:process.argv.includes('--review')}),source=fs.readFileSync('member-app.js','utf8');
 for(const name of ['prescriptionTierKey','parsePrescriptionText','authoredPrescription','rolePrescriptionDefault','tierPrescription','prescribeExercise','approvedVideoUrl','doseMetricLabel','detailRecord']) {
  const start=source.indexOf('function '+name+'('),end=source.indexOf('\nfunction ',start+1);vm.runInContext(source.slice(start,end),c);
 }
