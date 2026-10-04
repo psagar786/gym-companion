@@ -49,7 +49,7 @@ Three defective-pair replacements:
 - Incline DB Press: lock the authored incline angle first; never borrow a steep/upright shoulder-press pose.
 - Wide-Stance Leg Press: lock one machine geometry, seating/backrest, stance and knee path for both phases, including the explicit Wednesday sumo alias only when mechanically exact.
 
-**Confirmed minimum: 11 pairs / 22 phase files.** Approval to generate does not resolve an ambiguous specification. Any of these whose support angle, machine configuration or joint path remains uncertain stops at the single specification and receives a targeted question.
+**Initial confirmed minimum: 11 pairs / 22 phase files.** Approval to generate does not resolve an ambiguous specification. Any of these whose support angle, machine configuration or joint path remains uncertain stops at the single specification and receives a targeted question. Updated 4 October: authored cross-bench pullover and explicit 45° mid-stance press were separately confirmed, bringing the accepted total to 13 pairs/26 phases. See current STATE, MISSING-QUEUE and AUDIT-REPORT; the generic Leg Press conflict is not cleared.
 
 ## Unit 3 — Resolve the remainder without disguising uncertainty
 
