@@ -667,5 +667,264 @@
       }
     },
     "status": "pair-reviewed"
+  },
+  {
+    "id": "review-standing-ez-bar-curl",
+    "name": "Standing EZ-Bar Curl",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-3b633244-05eb-463d-ab19-24357f730072.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-standing-ez-bar-curl-start.png",
+        "sourceSha256": "9ae4334775a1dfe0618ba64890eb2226f0c0885b27d21225321f54c45227763f",
+        "pngPath": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-start.webp",
+        "sha256": "17697c584dafc7baba84dd0b3531afc83a474371e45241784d833ec656ff7b65",
+        "webpSha256": "54249162814f7888eda61f8e0c4b64b68e5b2559cb6be8638022f82c278f1adc",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male athlete, whole body and balanced EZ bar visible; underhand angled grips, tall stable stance, elbows extended; charcoal kit. Safe output inset applied; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-45a071e3-a7a9-4ef2-a418-cda615a8db43.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-standing-ez-bar-curl-movement.png",
+        "sourceSha256": "2bf3bd654ee86d88538e79a6e3b7188614bfe15e047652b7140fe3e9ced1392d",
+        "pngPath": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-movement.webp",
+        "sha256": "76885c784cac1e3092c46c41b4f037b5ab3da2ce64f6fed65bab1b3842062ace",
+        "webpSha256": "4992e2df0826f15e631d355d45ede88f04c61640daace4ead39e751065b33a6e",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, kit, EZ bar, camera and lighting; bar lifted by elbow flexion, torso stable, full equipment/body visible. Distinct working pose; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-ez-bar-skullcrusher",
+    "name": "EZ-Bar Lying Triceps Extension",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-49305d67-2814-44fd-a8e2-272f979100e8.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-ez-bar-skullcrusher-start.png",
+        "sourceSha256": "7117ae1392f93a498675014ae800183bf716dc46b0d32f4b8594d58ac2458af1",
+        "pngPath": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-start.webp",
+        "sha256": "cb4e2446582504cc2ca9257e9bb71098636f0a043f82945a03a79ef2304db986",
+        "webpSha256": "03d5d2c79442c55a08beb6b00010636deb817a7ad2a604c3948f00bb07388750",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Whole flat bench, feet, head and EZ bar visible; supported supine athlete, close overhand grips and nearly vertical arms, bar clear of face. No cropped apparatus after contain inset; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-816561c9-2894-48c5-9659-fe656c295112.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-ez-bar-skullcrusher-movement.png",
+        "sourceSha256": "13a30fec6be279c0b85d8f2eccf8286de55acf2577cc4be2488f7c4f54de5baf",
+        "pngPath": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-movement.webp",
+        "sha256": "ceb151e07d863648c8385b8ba6a4c48f6b094fddda1c80a67446add252401c58",
+        "webpSha256": "fdbf4acecce1160bf796839d76bcc3a7ec92b19ed84483b8c8bb7161366eaf3c",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same supported athlete and bench/bar geometry; elbow flexion lowers bar clear above forehead, no head contact, feet stable; all body/apparatus visible. Coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-wrist-flexor-isometric",
+    "name": "Wrist Flexor Isometric",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-970d3c22-a7bc-428e-a686-d46cfc11a0f9.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-wrist-flexor-isometric-start.png",
+        "sourceSha256": "fc17896aaea3358a7537a900e866b388cd81d55c374edacd49fe858ac6d4ac81",
+        "pngPath": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-start.webp",
+        "sha256": "7e0b3afcbbb702b32ca3d39f01dc211b8f5b9c42e0a8dbbc11ced53b6afc8378",
+        "webpSha256": "170308b6087678aea7d22ecc566d0ffa822d134adc103df03b52b7520f6c5279",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Repaired source: full small table and chair inside frame; palm-up forearm rests on tabletop, wrist aligned, opposing hand hovers with no contact, both feet visible; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-a10d66f7-e339-4425-925c-3358c558340d.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-wrist-flexor-isometric-movement.png",
+        "sourceSha256": "24037a65ed04cfcfb7b3c7638b3b749f2f1b4ed09d9c5db9756705cb3c02f3c2",
+        "pngPath": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-movement.webp",
+        "sha256": "71a161564d1cc4d93769d3e65640b7de3108b92079c5ab3e42511e960765fa00",
+        "webpSha256": "a0ea59e8827fa9d45b1a94d169b54fe1f1cd3b17be9c89f6c9e84f22ac3c3ecb",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same seated male and full furniture, supported palm-up forearm; opposing hand now contacts palm and wrist remains aligned. Distinct resistance contact versus hovering setup, no invented joint bend; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-shallow-wall-sit-isometric",
+    "name": "Shallow Wall-Sit Isometric",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-b1719156-696b-41df-8bdf-efd1a8acfa00.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-shallow-wall-sit-isometric-start.png",
+        "sourceSha256": "5f116a637acf03fc1687d22ee9285eaa090fc9148933b4ad34e19a1ddfb5b23b",
+        "pngPath": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-start.webp",
+        "sha256": "605e67b42f84756d0873b8efd629178e631d00590a0e41d3cf71bb4090709c3e",
+        "webpSha256": "14d4d8c6243842e011da1b8bf7ce9137ec85f55294bcc16d874d0a67909d712a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Full male athlete against charcoal wall, heels grounded and knees softly extended; relaxed setup before slide, no weights or bands; inset gives output margin, coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-e2590088-8051-4ae7-b091-897cadff1536.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-shallow-wall-sit-isometric-movement.png",
+        "sourceSha256": "73e6fbda5dcab4d4af71fcb0145e79134f9274b253a428f36658f747c033c1ad",
+        "pngPath": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-movement.webp",
+        "sha256": "cabb6943448974f44c3a55c098fb7f00b2fabf7d3b8ea41bae944fa3228d6513",
+        "webpSha256": "79f2d5a3f2fad3aa9b16931185496904423f51f8111a38640da11d749f47b6a2",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same wall, male, kit and camera; lowered partial-depth wall sit with thighs above horizontal, supported back, grounded heels and forward-aligned knees; clearly differs from tall setup. Projection does not certify exact knee angle; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-supported-calf-isometric",
+    "name": "Supported Calf Isometric",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-f0a4ca25-6d2a-4bfc-8f36-75b0ae419761.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-supported-calf-isometric-start.png",
+        "sourceSha256": "97b2e3254d5ca4e0adfe83b6d0e404a2acbb6e0841be16f34d9743bdb3d11ee3",
+        "pngPath": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-start.webp",
+        "sha256": "629eb336f727d080584edbe4866793ecf23822ed0b51b72c23385fda26d442f5",
+        "webpSha256": "faf6e82a5e50f2fbca462973467691c7c97dc52e6bfe53c2ba6e729c2c5ef8f2",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Full male and whole support rail; heels grounded, upright trunk, feet aligned, no step or weights; stable setup, coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-f24973fc-8b17-4b13-bfa6-4c5d9b4903e1.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-supported-calf-isometric-movement.png",
+        "sourceSha256": "755e5272cace37b12a701031d3d481b02b479dd106ada4b737779a3cfb34d875",
+        "pngPath": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-movement.webp",
+        "sha256": "eb92cbe43ffa7f347cfe1aaa5f8444590b7f5dc35749fd46bbba49e196a8c933",
+        "webpSha256": "40c5a92e9623015f8c64c7a1157d4592f55ceddbe22f6ced66f473fce6be0c82",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male, same support rail and kit, whole feet/equipment visible; bilateral heel lift above grounded forefeet, stable upright trunk and supported balance. Clear working phase versus flat heels; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-standing-core-brace-isometric",
+    "name": "Standing Core Brace Isometric",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-20a74748-72a2-4616-a301-505d3d7bb9d6.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-standing-core-brace-isometric-start.png",
+        "sourceSha256": "be88d8e2f6552d89e30a3a062838157fa9c2d6db388e764f2fd774b1ac12f75d",
+        "pngPath": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-start.webp",
+        "sha256": "bd12c9152a517cdf2b19fb71be3e36d9ea2d4ab660c00acf3e500d197dd1c4b5",
+        "webpSha256": "d14a94ac5cc1836a2bbe90c282f421dcc1325d4784ad676e924b93bd964b6378",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Whole male athlete upright, arms relaxed at sides, soft knees and neutral trunk; anatomy overlay readable with black kit and no apparatus. Stable pre-brace setup; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-fd86f215-2ad0-4063-bb83-f615fa0e87a5.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-standing-core-brace-isometric-movement.png",
+        "sourceSha256": "ea4c5c06350075ef509ef9993b80e7620e7a9ff36e0d89ce159a8eeb0aa38ffb",
+        "pngPath": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-movement.webp",
+        "sha256": "d997d13663867ee03820a04486dc852d54a2a8c2fdfa9dacfda8fa4492dfd1c1",
+        "webpSha256": "27877f4865503af6f248a334362e211f3577dd87a359b5d537fc8bf8ef85e0c5",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male and stance, hands lightly cue abdominal wall, no trunk bend or vacuum hollow; visible hand placement change for working brace, static image cannot prove breathing or force. Instructions clarify normal breathing; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-hanging-abdominal-draw-in",
+    "name": "Pull-Up-Bar Hanging Abdominal Draw-In",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-a8d8682c-b6da-413c-9a03-b253d8362cb0.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-hanging-abdominal-draw-in-start.png",
+        "sourceSha256": "4ce2776bef62b782bd6b321242130217b29d547198b50b206c17783a66e53073",
+        "pngPath": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-start.webp",
+        "sha256": "1bf12f81b2b54f31f1c26dcb69d1d52ffcba107ded7f0e06e6d8631d258840f7",
+        "webpSha256": "704e8153b32c8561a8fc942172a4f160279c071434d49d7e0d3b7287d5f65cdd",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male anatomical torso with black shorts and shoes, complete pull-up frame/hands/feet inside source, stable straight-leg hang, no leg raise or elbow flexion. Anatomical torso exposes the draw-in area; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-80a5fb2e-5c25-468d-b7ab-5c5061c13d2e.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-hanging-abdominal-draw-in-movement.png",
+        "sourceSha256": "e4e9119bdd3007f6a59136bea9b2f88c713711ca04455368101d6d449e93cc1e",
+        "pngPath": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-movement.webp",
+        "sha256": "20f8307d992a7d980d376b2967f045b5268549b819b82a1ab44743d7230d44c9",
+        "webpSha256": "cb624170334c7f8ac53f8aa9396091de02f61f1efc5b3ec558b83be5f2174e5f",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, black kit, full pull-up frame, straight arms/legs and stable hang; modest lower-abdominal narrowing with restrained inward cues. Isometric tension differs without a leg raise; static image cannot prove breathing. User-confirmed local variant; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   }
 ]

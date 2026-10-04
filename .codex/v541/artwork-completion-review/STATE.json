@@ -6,7 +6,7 @@
   "baselineWorkspace": "/Users/exxxy/Documents/Daily AI Help/gym-companion-v541-art-integration",
   "baselineSourceCommit": "b429bd53fb1022a430f8d2e710f33ac49082e30d",
   "deployedSourceCommit": "885a9872dc267a8030ac1b99fcef419c845571de",
-  "currentCheckpoint": "F7-REVIEW-LOCAL-BUILD-18-PAIRS",
+  "currentCheckpoint": "F7-REVIEW-review-hanging-abdominal-draw-in-PAIR-ACCEPTED",
   "completedUnits": [
     "BRANCH-ISOLATED",
     "SOURCE-CHECKPOINT-READ",
@@ -29,10 +29,10 @@
   ],
   "confirmedNewPairs": 14,
   "confirmedReplacementPairs": 4,
-  "targetConfirmedPairs": 18,
-  "targetConfirmedPhaseFiles": 36,
-  "generatedPairs": 18,
-  "generatedPhaseFiles": 36,
+  "targetConfirmedPairs": 25,
+  "targetConfirmedPhaseFiles": 50,
+  "generatedPairs": 25,
+  "generatedPhaseFiles": 50,
   "unresolvedMechanicsDayNames": 0,
   "remainingPendingDayNames": 8,
   "combinedMovementDecisions": 4,
@@ -63,7 +63,14 @@
     "review-dumbbell-bulgarian-split-squat",
     "review-stick-supported-sagittal-hip-swing",
     "review-incline-bench-dumbbell-row",
-    "review-low-to-high-cable-fly"
+    "review-low-to-high-cable-fly",
+    "review-standing-ez-bar-curl",
+    "review-ez-bar-skullcrusher",
+    "review-wrist-flexor-isometric",
+    "review-shallow-wall-sit-isometric",
+    "review-supported-calf-isometric",
+    "review-standing-core-brace-isometric",
+    "review-hanging-abdominal-draw-in"
   ],
   "failedUnits": [
     {
@@ -125,5 +132,5 @@
   ],
   "remoteMutationAllowed": false,
   "lastCompletedCommit": "0887409a86a3f77091d8aaab82354c1fd7531da2",
-  "nextAtomicAction": "Design a two-component artwork presentation for the three authored paired records without changing their dose or completion identity; keep Expert seated/hanging vacuum pending"
+  "nextAtomicAction": "Run exact review override integration and all-day validation"
 }
