@@ -482,5 +482,35 @@
       }
     },
     "status": "pair-reviewed"
+  },
+  {
+    "id": "review-front-foot-elevated-dumbbell-reverse-lunge",
+    "name": "Front-Foot-Elevated Dumbbell Reverse Lunge",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "review-dumbbell-bulgarian-split-squat",
+    "name": "Dumbbell Bulgarian Split Squat",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "review-stick-supported-sagittal-hip-swing",
+    "name": "Stick-Supported Forward/Back Hip Swing",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "review-incline-bench-dumbbell-row",
+    "name": "Incline Bench Dumbbell Row",
+    "phases": {},
+    "status": "not-started"
+  },
+  {
+    "id": "review-low-to-high-cable-fly",
+    "name": "Low-to-High Cable Fly",
+    "phases": {},
+    "status": "not-started"
   }
 ]

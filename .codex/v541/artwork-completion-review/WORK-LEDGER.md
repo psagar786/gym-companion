@@ -11,3 +11,10 @@
 Checkpoint: `F7-REVIEW-LOCAL-SHOWCASE-13-PAIRS`.
 
 One next atomic action: **Audit Wednesday Leg Press title and all tier cues against source, then propose an explicit identity correction without activating it.**
+# 2026-10-04 remaining mechanics resume
+
+- User confirmed generic Walking Lunges are dumbbell-loaded and delegated remaining execution choices. Recorded explicit assumptions separately from authored evidence.
+- Five additional pair specifications frozen; thirteen accepted pairs and their hashes preserved. Ordinary reverse lunge and loaded walking lunge reviewed for exact reuse; Expert front-foot-elevated reverse lunge remains separate.
+- Standard/RKC plank and Tuesday Intermediate standing vacuum are source-backed tier decisions, not global aliases. Other combined records and earlier preparation deferrals remain pending.
+- Local server restarted at port 4176. Browser verification attempted and rejected by browser URL security policy; no workaround attempted. Current visual verification is not claimed.
+- Next: Generate Start for review-front-foot-elevated-dumbbell-reverse-lunge.
