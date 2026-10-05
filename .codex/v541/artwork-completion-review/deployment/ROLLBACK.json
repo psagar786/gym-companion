@@ -1,0 +1,13 @@
+{
+  "projectId": "prj_qbY8V7wbd6Ml53sBKmfwfBGI5buQ",
+  "team": "sagar-pm",
+  "previousProductionUrl": "https://fitness7-gym-companion-member.vercel.app",
+  "previousDeploymentUrl": "https://fitness7-gym-companion-member-3bc87gziu-sagar-pm.vercel.app",
+  "previousDeploymentId": "dpl_9w3z6TzRFPiZE9r6kXa7psCUshFm",
+  "previousCommitSha": "885a9872dc267a8030ac1b99fcef419c845571de",
+  "previewUrl": "",
+  "previewCommitSha": "",
+  "productionDeploymentId": "",
+  "productionCommitSha": "",
+  "procedure": "Roll back only the existing member project to previousDeploymentId; never alter Supabase data or rewrite main. Preserve the failed deployment for diagnosis."
+}

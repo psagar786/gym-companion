@@ -50,3 +50,6 @@ jobs:
 
       - name: Build member-only active artwork output
         run: node scripts/build-member-public.mjs
+
+      - name: Verify complete artwork and compound deployment
+        run: node scripts/validate-artwork-deployment.mjs

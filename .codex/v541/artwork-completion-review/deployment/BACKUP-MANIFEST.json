@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-05T05:57:40.884Z",
+  "sourceWorkspace": "/Users/exxxy/Documents/Daily AI Help/gym-companion-v541-artwork-review",
+  "sourceCommit": "550cbe56a0eb4edd310b9f0b74b994c35a025fed",
+  "branch": "codex/v541-artwork-completion-review",
+  "backupPath": "/Users/exxxy/Documents/Daily AI Help/fitness7-backups/v5.4.1-artwork-completion-2026-10-05-107Epb",
+  "sourceFiles": 2561,
+  "sourceBytes": 567597390,
+  "archiveSha256": "23d2a1b8914acdb4201b064fb8b8a3e0ffbbaccb808ec7a4515a78d0fdd61920",
+  "gitBundleSha256": "d8fa0cf1950718b1ebb32ae8579a0a61ebc1f666fe8921dbe79db54a17ee8b34",
+  "restoreVerification": "PASS-all-file-hashes-and-git-bundle",
+  "excluded": "rebuildable public output, node_modules, credentials and worktree pointer"
+}
