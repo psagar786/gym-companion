@@ -44,3 +44,14 @@ Current inventory: 215/245 eligible physical day/name records resolve; 30 remain
 Deployment identity: `psagar786/gym-companion`, `sagar-pm`, project `prj_qbY8V7wbd6Ml53sBKmfwfBGI5buQ`, production branch `main`. CLI authenticated successfully; connector project lookup/schema/listing failed, so the existing authenticated CLI is used. Environment names verified; no service-role variable configured. Existing production rollback target: `dpl_APkckYcC4sM7GY4Vy1H7nDGtkodt`, SHA `8df039b06960fe187988de1d8a17f046ccc0a4ec`.
 
 GitHub main contains an older divergent release. Reconcile release history while preserving the user-approved local member source, artwork and compatibility behavior; do not force-push or rewrite old commits. Preview, CI and independent production verification remain required.
+
+## Release evidence
+
+- User-approved local runtime tree preserved by normal history reconciliation `ce1198489e2674811106736b4151c7cbe3752a8d`. No force push or history rewrite.
+- Release candidate `0daacfa2ca12aba83b432fdad360f82741c4b594`, merged through [PR 4](https://github.com/psagar786/gym-companion/pull/4).
+- Preview `dpl_ARA8dqNHqS42r4wk3xLvrYQe4TzJ` independently passes 72 cases, 1,236 variation checks, 23 accepted-source byte comparisons, all 304 active image hashes, three restored-pair detail/return cases, six days at 320/390/430px, remembered demo and completion refresh. No page or image errors; member mode hides admin/API/private files. No physical Safari or gym-coach approval claimed.
+- Main merge `885a9872dc267a8030ac1b99fcef419c845571de` passes GitHub member CI. Production `dpl_9w3z6TzRFPiZE9r6kXa7psCUshFm` is Ready and the permanent alias points to this exact SHA. Independent production verification also PASS: 72 cases, 1,236 variations, 23 source byte comparisons, 304 asset hashes, restored detail/return, mobile and remembered demo/completion checks; no page/image errors. Evidence: `release/PRODUCTION-VALIDATION.json`.
+- Deterministic static output: 328 files / 10,518,956 bytes (10.03 MiB). CLI source-upload dry run: 516 files / 15,354,225 bytes (14.64 MiB). Only resolved eligible artwork is bundled; masters, reports and review-only/unused assets remain local.
+- Backup: `/Users/exxxy/Documents/Daily AI Help/fitness7-backups/v5.4.1-artwork-review-2026-10-03-gZKvwK`; 2,344 restored files match hashes and complete Git bundle validates. Previous production remains available for rollback. No historical deployment, source or image deleted.
+
+Final checkpoint: `F7-ART-EXISTING-RESTORED-DEPLOYED`. Next action: review and approve specifications for the eight missing and three replacement pairs. No new image was generated in this release. Release evidence is committed locally separately from the deployed runtime so saving verification does not trigger another unnecessary deployment.

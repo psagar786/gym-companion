@@ -1,10 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import {execFileSync} from 'node:child_process';
 
 const root = process.cwd();
-const manifestPath = path.join(root, '.codex/v541/deployment/ACTIVE-ASSET-MANIFEST.json');
-const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+const manifest = JSON.parse(execFileSync(process.execPath,['scripts/build-v541-active-asset-manifest.mjs','--json'],{encoding:'utf8',maxBuffer:8*1024*1024}));
 const failures = [];
 const seenPaths = new Set();
 const seenHashes = new Map();

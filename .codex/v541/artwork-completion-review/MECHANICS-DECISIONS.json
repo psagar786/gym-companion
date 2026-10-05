@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-04",
+  "authority": "User confirmed Walking Lunges are dumbbell-loaded and authorized judgement for remaining Wednesday variants. Local review assumptions, not confirmed gym equipment inventory or coach approval.",
+  "records": [
+    {"name":"Walking Lunges","days":["Wednesday","Saturday"],"targetId":"biweekly-dumbbell-walking-lunges","status":"exact-reuse","basis":"User-confirmed load; existing pair visually inspected: male, two dumbbells at sides, standing setup and lowered forward-lunge position. Do not change the explicitly Bodyweight Walking Lunge component."},
+    {"name":"Leg Press","days":["Wednesday"],"targetId":"biweekly-45-incline-leg-press-mid-stance","wideTargetId":"periodized-wide-stance-leg-press","status":"review-assumption","basis":"Name-only Hack Squat substitution left conflicting cues. Use a supported 45-degree sled; preserve an explicitly authored wide-stance dose with the wide pair. Other tiers use shoulder-width mid-platform pair. No source prescription or stored snapshot is rewritten."},
+    {"name":"Reverse Lunges with Dumbbells","days":["Wednesday"],"targetId":"periodized-reverse-lunges","expertTargetId":"review-front-foot-elevated-dumbbell-reverse-lunge","status":"source-tier-split","basis":"Authored Intermediate is ordinary step-back; Expert explicitly elevates front foot on a plate. Existing ordinary dumbbell pair inspected; Expert requires a separate pair."},
+    {"name":"Bulgarian Split Squats","days":["Wednesday"],"targetId":"review-dumbbell-bulgarian-split-squat","status":"review-assumption","basis":"Use conventional rear-foot-elevated dumbbell split squat for the available Intermediate/Expert alternative. Front foot stays on floor. Bodyweight, deficit and 1.5-rep records remain separate. No load magnitude is prescribed."},
+    {"name":"Stick Hip Swings","days":["Wednesday"],"targetId":"review-stick-supported-sagittal-hip-swing","status":"review-assumption","basis":"Choose controlled forward/back hip flexion/extension with one vertical stick for balance, not lateral abduction or forceful ballistic range."},
+    {"name":"Incline Bench Row","days":["Thursday"],"targetId":"review-incline-bench-dumbbell-row","status":"review-assumption","basis":"Conventional bilateral neutral-grip dumbbell row, chest supported on 30-degree bench; not a T-bar lever. Camera, grip and angle locked for local review only."},
+    {"name":"Low-to-High Cable Fly","days":["Thursday"],"targetId":"review-low-to-high-cable-fly","status":"name-backed-specification","basis":"Two low pulleys, upward diagonal toward upper chest, soft constant elbow bend. Existing candidate has ambiguous framing; generate separate full-equipment pair."},
+    {"name":"Standard Forearm Plank to RKC Hardstyle Plank","days":["Friday"],"intermediateTargetName":"Standard Forearm Plank","expertTargetName":"RKC Hardstyle Plank","status":"source-tier-split","basis":"Authored Intermediate names Standard Forearm Plank; Expert names RKC. Beginner remains locked. Resolve only when the selected tier is explicit; no combined name is globally aliased."},
+    {"name":"Standing & Seated Transverse Abdominis Stomach Vacuum","days":["Tuesday"],"intermediateTargetName":"Standing Stomach Vacuum","status":"partial-source-tier-split","basis":"Intermediate explicitly says Standing; Expert says Seated & Hanging, so Expert remains pending rather than silently borrowing seated artwork."}
+  ],
+  "references": [
+    "https://www.nasm.org/resource-center/exercise-library/leg-press",
+    "https://www.nasm.org/resource-center/exercise-library/bulgarian-split-squat",
+    "https://www.nasm.org/resource-center/blog/training/the-3-planes-of-motion-explained-with-exercises"
+  ],
+  "remainingCombinedDecisions": ["Tuesday Expert Seated & Hanging Vacuum", "Ez-Bar Curl & Skullcrushers", "Incline DB Curl & Rope Pressdown", "Bodyweight Air Squats to Walking Lunges"],
+  "deferredPreparation": ["Wrist flexor isometric", "Patellar tendon isometric", "Calf isometric", "Core brace isometric"]
+}

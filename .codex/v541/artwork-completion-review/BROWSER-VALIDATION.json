@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-05",
+  "origin": "http://localhost:4176",
+  "status": "PASS-representative-local-browser-checks",
+  "scenarios": ["Thursday B Intermediate Option 2: incline curl plus rope pressdown", "Four component-specific detail frames and instructions", "Back navigation retains selected alternative", "Tuesday B Expert: seated plus hanging draw-in", "Temporary tier restored to Intermediate", "Thursday selection restored to Main", "Gallery: 26 pairs, four compound groups, zero pending entries"],
+  "mobileWidths": [320, 390, 430],
+  "compoundCards": {"outerWidth":128,"outerHeight":128,"eachPhaseThumbnailHeight":62,"minimumDoneWidth":48.5,"minimumDoneHeight":44,"horizontalOverflow":false,"textImageOverlap":false,"bothImagesLoadedAfterScrollingIntoView":true},
+  "compoundDetails": {"frameCount":4,"objectFit":"contain","horizontalOverflow":false},
+  "consoleErrorsObserved": [],
+  "supersededEvidence": "Initial grid centered 128px children inside each row. Corrected to stretched 62px child frames and rechecked. Earlier not-yet-loaded below-fold lazy images are not failed requests; visible images subsequently decoded.",
+  "physicalIphoneSafari": "not-tested",
+  "qualifiedCoachReview": "pending",
+  "evidence": ["evidence/paired-card-390.png", "evidence/paired-detail-390.png", "evidence/seated-hanging-detail-390.png"],
+  "productionChanged": false
+}

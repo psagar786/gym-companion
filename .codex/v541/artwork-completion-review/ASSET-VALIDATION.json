@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "runtimeCases": 72,
+  "occurrenceChecks": 1867,
+  "cardDetailChecks": 1867,
+  "acceptedPairs": 26,
+  "displayFiles": 52,
+  "baselineResolvedDayNames": 213,
+  "reviewResolvedDayNames": 243,
+  "pendingDayNames": 0,
+  "unchangedProgramming": true,
+  "protectedArtworkFiles": 304,
+  "protectedSourceFiles": 1690,
+  "sourceBaseline": "b429bd53fb1022a430f8d2e710f33ac49082e30d",
+  "pending": []
+}

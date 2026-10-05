@@ -1,0 +1,3632 @@
+{
+  "status": "PASS",
+  "prescriptionFixtures": 34,
+  "videoAndMetricChecks": 10,
+  "cases": 72,
+  "records": 1867,
+  "authoredOrStructuredPrescriptionOccurrences": 1522,
+  "roleDefaultOccurrences": 333,
+  "missingCardioPrescriptionOccurrences": 12,
+  "excludedNonExerciseDayNames": 2,
+  "contentRegistryRecords": 141,
+  "sourceBackedDayNames": 180,
+  "reviewDayNames": 80,
+  "initialAlternativeLabels": 66,
+  "repairedAlternativeLabels": 45,
+  "remainingAlternativeLabels": [
+    "Barbell RDL",
+    "Bodyweight Box Squat",
+    "Cable Hip Adduction",
+    "Cable Pull-Through",
+    "Chest-Supported Machine Row",
+    "Deficit Bulgarian Split Squat",
+    "Dumbbell Lying Leg Curl",
+    "Goblet Squat to Box",
+    "Hanging Windshield Wipers",
+    "Low Incline Cable Fly",
+    "Lying Leg Lift",
+    "Machine Shoulder Press",
+    "Meadows Row",
+    "Romanian Barbell Deadlift",
+    "Rope Tricep Pressdown",
+    "Side Plank Abduction",
+    "Single-Arm Cable Pulldown",
+    "Standing Cable Crossover",
+    "Step-Ups on Bench",
+    "Underhand Lat Pulldown",
+    "Wide-Stance Sumo Goblet Squat"
+  ],
+  "executionConflictDayNames": 4,
+  "reviewQueue": [
+    {
+      "day": "Monday",
+      "name": "Neutral-Grip Mag Pulldown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Pull to clavicle, lead with elbows"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: Full dead-hang stretch at top"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Pull to clavicle, lead with elbows"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: Full dead-hang stretch at top"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Assisted Pull-Ups",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Pull to clavicle, lead with elbows"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: Full dead-hang stretch at top"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Pull to clavicle, lead with elbows"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: Full dead-hang stretch at top"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Seated Cable Row (Sternum)",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Chest against 30° bench, squeeze shoulder blades"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: 1s peak squeeze, slow descent"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Chest against 30° bench, squeeze shoulder blades"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: 1s peak squeeze, slow descent"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Chest-Supported Machine Row",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Chest against 30° bench, squeeze shoulder blades"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: 1s peak squeeze, slow descent"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Chest against 30° bench, squeeze shoulder blades"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: 1s peak squeeze, slow descent"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Flat Barbell Bench",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Full pectoral stretch at bottom"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: Smooth press arc, no elbow flare"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10-12 Reps | Rest: 90s | Focus: Smooth guided path, deep pectoral stretch"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: Constant machine tension, explosive push"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Full pectoral stretch at bottom"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: Smooth press arc, no elbow flare"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Parallel Bar Dips",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Full pectoral stretch at bottom"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: Smooth press arc, no elbow flare"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Full pectoral stretch at bottom"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: Smooth press arc, no elbow flare"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Dumbbell Pullover on Bench",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Focus: Slight torso lean, pull with lats"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Focus: Slight torso lean, pull with lats"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Cable Pushdown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Focus: Slight torso lean, pull with lats"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Focus: Slight torso lean, pull with lats"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Low Incline Cable Fly",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Focus: Squeeze dumbbells together inward"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Focus: Squeeze dumbbells together inward"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Standing Plate Press",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Focus: Squeeze dumbbells together inward"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Focus: Squeeze dumbbells together inward"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Stick Overhead Lat Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Doorway Pec Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Wrist extensor isometric",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": "30 sec × 3 sets"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Light DB Side Bend",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 15 Reps/side | Rest: 45s | Stick across traps, strict side bend"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Stick High Knee Marches",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Incline Walk",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "15m (Incline 8%, 3.5km/h)"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "20m (Incline 10%, 4.0km/h)"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "15m (8%, 3.5km/h)"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "20m (10%, 4.0km/h)"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "15m (Incline 8%, 3.5km/h)"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "20m (Incline 10%, 4.0km/h)"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "15m (Incline 8%, 3.5km/h)"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "20m (Incline 10%, 4.0km/h)"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Stick Seated Russian Twists",
+      "status": "tier-execution-conflict",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 26 Reps total | Rest: 45s | Feet elevated 4 inches"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Cable Pallof Press with Iso-Hold",
+      "status": "tier-execution-conflict",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps/side (Hold 3s) | Rest: 45s | Half-kneeling stance"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Incline Treadmill Intervals",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "15m Incline Intervals"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "15m Incline Intervals"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "15m Incline Intervals"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "15m Incline Intervals"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Wide-Stance Sumo Goblet Squat",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Controlled inward squeeze, full stretch"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 60s | 1s squeeze at peak contraction"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Controlled inward squeeze, full stretch"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 60s | 1s squeeze at peak contraction"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Cable Hip Adduction",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Controlled inward squeeze, full stretch"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 60s | 1s squeeze at peak contraction"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Smooth cadence, full stretch at outer range"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 60s | 1s pause at full contraction"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Controlled inward squeeze, full stretch"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 60s | 1s squeeze at peak contraction"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Side Plank Abduction",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 15 Reps | Rest: 60s | Upright posture, smooth outward drive"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 18 Reps | Rest: 60s | Forward torso lean for upper glute contour"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 15 Reps | Rest: 60s | Upright posture, controlled drive outward"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 18 Reps | Rest: 60s | Forward torso lean for upper glute contour"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 15 Reps | Rest: 60s | Upright posture, smooth outward drive"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 18 Reps | Rest: 60s | Forward torso lean for upper glute contour"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Barbell RDL",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Hips pushed back, flat spine, soft knee bend"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | 3-second slow eccentric lowering"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Hips pushed back, flat spine, soft knee bend"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | 3-second slow eccentric lowering"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Cable Pull-Through",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Hips pushed back, flat spine, soft knee bend"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | 3-second slow eccentric lowering"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Hips pushed back, flat spine, soft knee bend"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | 3-second slow eccentric lowering"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Goblet Squat to Box",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Feet mid-platform, shoulder width, knees track toes"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Deep descent without lower back lifting"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Feet mid-platform, shoulder width, knees track toes"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Deep descent without lower back lifting"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Bodyweight Box Squat",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Feet mid-platform, shoulder width, knees track toes"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Deep descent without lower back lifting"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Feet mid-platform, shoulder width, knees track toes"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Deep descent without lower back lifting"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Dumbbell Lying Leg Curl",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Seated position, full leg curl"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Hips pressed into bench, curl to glutes"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Seated position, full leg curl"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Deficit Bulgarian Split Squat",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 10 Steps/leg | Rest: 60s | Upright torso, 90° knee bend"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 10 Steps/leg | Rest: 60s | Upright torso, 90° knee bend"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Step-Ups on Bench",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 10 Steps/leg | Rest: 60s | Upright torso, 90° knee bend"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 10 Steps/leg | Rest: 60s | Upright torso, 90° knee bend"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Overhead Deep Squat Prys",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Good Mornings",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Lateral Leg Swings",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Stick Quad Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Butterfly Groin Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Hamstring Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Lying Leg Curl",
+      "status": "tier-execution-conflict",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Seated position, full leg curl"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Seated position, full leg curl"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Deficit Bulgarian Split Squats",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Machine Shoulder Press",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "3 sets · 6–10 reps · 120s rest"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Underhand Lat Pulldown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Single-Arm Cable Pulldown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Chest-Supported Machine Row",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Low Incline Cable Fly",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2 sets · 10–15 reps · 60s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 10–15 reps · 75s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2 sets · 10–15 reps · 60s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 10–15 reps · 75s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "2 sets · 10–15 reps · 60s rest"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "3 sets · 10–15 reps · 75s rest"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Standing Cable Crossover",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2 sets · 10–15 reps · 60s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 10–15 reps · 75s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2 sets · 10–15 reps · 60s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 10–15 reps · 75s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "2 sets · 10–15 reps · 60s rest"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "3 sets · 10–15 reps · 75s rest"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Rope Tricep Pressdown",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2 sets · 10–15 reps · 60s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 10–15 reps · 75s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "2 sets · 10–15 reps · 60s rest"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "3 sets · 10–15 reps · 75s rest"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "2 sets · 10–15 reps · 60s rest"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "3 sets · 10–15 reps · 75s rest"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "15 Min LISS Incline Walk (Speed 3.8 km/h, Incline 9%)",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "10–15 min · easy conversational pace"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "15–20 min · 3.8 km/h · 9% incline"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "10–15 min · easy conversational pace"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "15–20 min · 3.8 km/h · 9% incline"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "10–15 min · easy conversational pace"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "15–20 min · 3.8 km/h · 9% incline"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "10–15 min · easy conversational pace"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "15–20 min · 3.8 km/h · 9% incline"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Side Plank Hold with Rotation",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Lying Leg Lift",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Curl pelvis toward ribs, tap heels lightly"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 45s | On Incline Bench for added resistance"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Curl pelvis toward ribs, tap heels lightly"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 45s | On Incline Bench for added resistance"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+      "status": "needs-review",
+      "mappingStatus": "combined-needs-content-decision",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Hanging Windshield Wipers",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "[Locked / Skipped for Intermediate]"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "[Locked / Skipped for Intermediate]"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "[Locked / Skipped for Intermediate]"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Stick Good Mornings",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Incline Walk",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "15m (8%, 3.5km/h)"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "20m (10%, 4.0km/h)"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "15m (8%, 3.5km/h)"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "20m (10%, 4.0km/h)"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "15m (8%, 3.5km/h)"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "20m (10%, 4.0km/h)"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "15m (8%, 3.5km/h)"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "20m (10%, 4.0km/h)"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Wrist extensor isometric",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "30 sec × 3 sets"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": "30 sec × 3 sets"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Floor Reverse Crunch with Pelvic Tilt",
+      "status": "tier-execution-conflict",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 45s | On Incline Bench for added resistance"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 14 Reps | Rest: 45s | On Incline Bench for added resistance"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Incline Treadmill Intervals",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "15m Incline Intervals"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "15m Incline Intervals"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "15m Incline Intervals"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "15m Incline Intervals"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Cable Hip Adduction",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Full controlled range, smooth cadence"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 15 Reps | Rest: 60s | 1s hold at peak contraction"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Full range of motion, smooth tempo"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 15 Reps | Rest: 60s | 1s hold at peak contraction"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 12 Reps | Rest: 60s | Full controlled range, smooth cadence"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 15 Reps | Rest: 60s | 1s hold at peak contraction"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Meadows Row",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Neutral close-grip, pull to lower ribs"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Drive elbows back, squeeze lats"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps/arm | Rest: 90s | Hand on bench, pull DB to hip pocket"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps/arm | Rest: 75s | Meadows Row with landmine, elbow driven high"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Neutral close-grip, pull to lower ribs"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Drive elbows back, squeeze lats"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8–10 Reps | Rest: 120s | Focus: stable technique, 3 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 5–8 Reps | Rest: 150s | Focus: controlled strength, 1–2 RIR"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Stick Good Mornings",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Dead Bug to Dragon Flag Negatives",
+      "status": "needs-review",
+      "mappingStatus": "combined-needs-content-decision",
+      "cases": [
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "A",
+          "tier": "expert",
+          "scheme": ""
+        },
+        {
+          "week": "C",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Incline Barbell Bench Press (30°)",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8-10 Reps | Rest: 90s | Focus: Touch upper chest lightly, drive straight up"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 10-12 Reps | Rest: 75s | Focus: Progressive barbell load, arch upper back"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Incline Machine Press",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8-10 Reps | Rest: 90s | Focus: Touch upper chest lightly, drive straight up"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 10-12 Reps | Rest: 75s | Focus: Progressive barbell load, arch upper back"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Assisted Neutral Chin-Up",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Neutral grip, pull to mid-chest"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: 1s peak lat contraction, slow return"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Seated Cable Row to Sternum (Neutral Grip)",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Drive elbows back, upright posture"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: 1s squeeze shoulder blades together"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Machine Row",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10 Reps | Rest: 90s | Focus: Drive elbows back, upright posture"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12 Reps | Rest: 75s | Focus: 1s squeeze shoulder blades together"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "DB Pullover",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12 Reps/arm | Rest: 60s | Focus: Drive elbow directly to hip bone"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Standing Low-to-High Cable Crossover",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12-14 Reps | Rest: 60s | Focus: Scoop cables upward to eye level"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Incline Machine Fly",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 12-14 Reps | Rest: 60s | Focus: Scoop cables upward to eye level"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Overhead Lat Lengthener",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Doorway Stretch",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "-"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Hanging Straight-Leg Toes-to-Bar",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Leg Raise",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10-12 Reps | Rest: 60s | Back against pad, curl pelvis up"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12-14 Reps | Rest: 45s | Straight legs to parallel, pause at top"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Lying Floor Leg Raise",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 10-12 Reps | Rest: 60s | Back against pad, curl pelvis up"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 12-14 Reps | Rest: 45s | Straight legs to parallel, pause at top"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "status": "needs-review",
+      "mappingStatus": "combined-needs-content-decision",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Romanian Deadlift",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 8-10 Reps | Rest: 90s | Neutral spine, drive through mid-foot, hips back"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 10-12 Reps | Rest: 75s | Barbell RDL with 3-second slow eccentric"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Reverse Lunges with Dumbbells",
+      "status": "needs-review",
+      "mappingStatus": "explicit-local-review-decision",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 10 Steps/leg | Rest: 60s | Step back smoothly, 90° knee drop"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Assisted Pull-Up",
+      "status": "needs-review",
+      "mappingStatus": "explicit-alias",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "2–3 sets · 10–12 reps · 90s rest"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "3 sets · 8–12 reps · 120s rest"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Incline Cable Pullover with Stretched Bias",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Hanging Oblique Knee Raise",
+      "status": "needs-review",
+      "mappingStatus": "missing-pair",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Cable Side Crunch on Mat",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "3 Sets x 15 Reps/side | Rest: 60s | Stick locked overhead, strict side bends"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "4 Sets x 18 Reps/side | Rest: 45s | Cable Side Crunch on mat with high pulley"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Romanian Barbell Deadlift",
+      "status": "needs-review",
+      "mappingStatus": "exact-runtime-mapping",
+      "cases": [
+        {
+          "week": "B",
+          "tier": "beginner",
+          "scheme": "[Locked / Skipped for Beginner]"
+        },
+        {
+          "week": "B",
+          "tier": "intermediate",
+          "scheme": "3 Sets x 10-12 Reps | Rest: 60s | Barbell RDL with slow eccentric"
+        },
+        {
+          "week": "B",
+          "tier": "expert",
+          "scheme": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "records": [
+    {
+      "day": "Wednesday",
+      "name": "Walking Lunges",
+      "tier": "all applicable",
+      "canonicalMovementId": "biweekly-dumbbell-walking-lunges",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "User-confirmed load; existing pair visually inspected: male, two dumbbells at sides, standing setup and lowered forward-lunge position. Do not change the explicitly Bodyweight Walking Lunge component.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/biweekly-dumbbell-walking-lunges-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "c9a6209e41c2219a436199148d8a932f5cd76785d7814fa84dc783cb8cad4b5a",
+        "movement": "847ebd21315a5c8dba5f553609a1e966491fa32ce75937069d46ed2b6a758ab7"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Reverse Lunges with Dumbbells",
+      "tier": "intermediate",
+      "canonicalMovementId": "periodized-reverse-lunges",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Authored Intermediate is ordinary step-back; Expert explicitly elevates front foot on a plate. Existing ordinary dumbbell pair inspected; Expert requires a separate pair.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-reverse-lunges-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "eb71381cc591e85e4f47213997a0365612b887836d27f7ce2f6b79130bdb59cd",
+        "movement": "08a3084193b40f977f1384502dee2a080967b800067eed5267a65f1f60ec734a"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Leg Press",
+      "tier": "intermediate",
+      "canonicalMovementId": "biweekly-45-incline-leg-press-mid-stance",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Name-only Hack Squat substitution left conflicting cues. Use a supported 45-degree sled; preserve an explicitly authored wide-stance dose with the wide pair. Other tiers use shoulder-width mid-platform pair. No source prescription or stored snapshot is rewritten.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "9518ac2ddade4d2aa50ce93ba05699fb77704df764b450a6d57f300917391289",
+        "movement": "3b087be5cbb9f2505d2666ddcb87ba6f7c673581db56e2cbce3859154ac43858"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Leg Press",
+      "tier": "beginner",
+      "canonicalMovementId": "periodized-wide-stance-leg-press",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Name-only Hack Squat substitution left conflicting cues. Use a supported 45-degree sled; preserve an explicitly authored wide-stance dose with the wide pair. Other tiers use shoulder-width mid-platform pair. No source prescription or stored snapshot is rewritten.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-start.webp",
+        "movement": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "b0fbd91cfd18fc480700e973678c2be3d4f17753113b2a0fc02e7c1b1302d6e9",
+        "movement": "721e5136bc2303f917b57bd8a7bedeb88386ddc330e78a0166e80a41ec1b443a"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Friday",
+      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+      "tier": "intermediate",
+      "canonicalMovementId": "periodized-standard-forearm-plank",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Authored Intermediate names Standard Forearm Plank; Expert names RKC. Beginner remains locked. Resolve only when the selected tier is explicit; no combined name is globally aliased.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-standard-forearm-plank-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-standard-forearm-plank-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "ed98cddebd6dd6ae40661a17a2c7b948e7fc3d40048d4885ba3b531ce156b5ec",
+        "movement": "65a7063a1b4386c5cc4f3f34eac45a0db9684ecb993a7862c91f2231dd4aad3c"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Friday",
+      "name": "Standard Forearm Plank to RKC Hardstyle Plank",
+      "tier": "expert",
+      "canonicalMovementId": "periodized-rkc-hardstyle-plank",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Authored Intermediate names Standard Forearm Plank; Expert names RKC. Beginner remains locked. Resolve only when the selected tier is explicit; no combined name is globally aliased.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-rkc-hardstyle-plank-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "99af3650e242a2e24284569a95b12bd6ee682d57050930f0d0dac8a04b748f95",
+        "movement": "366350ebbc28c14700cc31c1c402b91f269aa0138ba63deab5501ebc49b51353"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "tier": "intermediate",
+      "canonicalMovementId": "periodized-standing-stomach-vacuum",
+      "mappingStatus": "explicit-local-review-decision",
+      "basis": "Intermediate explicitly says Standing; Expert says Seated & Hanging, so Expert remains pending rather than silently borrowing seated artwork.",
+      "imageSet": {
+        "start": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-start.webp",
+        "movement": "assets/exercises/periodized-v3/periodized-standing-stomach-vacuum-v3-movement.webp"
+      },
+      "phaseHashes": {
+        "start": "9bd5920459e5d2535dd46ce8543fe66767adecebe2f0e151e6ac6380705dde22",
+        "movement": "948bf205e709d2bdf5148ebd1138b060ff3046286c4d69e891b566d8dc31e73b"
+      },
+      "semanticReviewStatus": "AI exercise-identity review; existing framing and isometric phase limitations retained",
+      "humanCoachReviewStatus": "pending"
+    }
+  ],
+  "compoundComponents": [
+    {
+      "id": "review-compound-ez-curl-skullcrusher",
+      "name": "Ez-Bar Curl & Skullcrushers",
+      "days": [
+        "Thursday"
+      ],
+      "componentIds": [
+        "review-standing-ez-bar-curl",
+        "review-ez-bar-skullcrusher"
+      ],
+      "basis": "Two atomic components of authored alternative. Each gets Start/Movement; do not reinterpret as a single movement or prescribe a new rest/superset.",
+      "components": [
+        {
+          "id": "review-standing-ez-bar-curl",
+          "name": "Standing EZ-Bar Curl",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-start.webp",
+            "movement": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-movement.webp"
+          },
+          "phaseHashes": {
+            "start": "54249162814f7888eda61f8e0c4b64b68e5b2559cb6be8638022f82c278f1adc",
+            "movement": "4992e2df0826f15e631d355d45ede88f04c61640daace4ead39e751065b33a6e"
+          }
+        },
+        {
+          "id": "review-ez-bar-skullcrusher",
+          "name": "EZ-Bar Lying Triceps Extension",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-start.webp",
+            "movement": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-movement.webp"
+          },
+          "phaseHashes": {
+            "start": "03d5d2c79442c55a08beb6b00010636deb817a7ad2a604c3948f00bb07388750",
+            "movement": "fdbf4acecce1160bf796839d76bcc3a7ec92b19ed84483b8c8bb7161366eaf3c"
+          }
+        }
+      ]
+    },
+    {
+      "id": "review-compound-incline-curl-rope-pressdown",
+      "name": "Incline DB Curl & Rope Pressdown",
+      "days": [
+        "Thursday"
+      ],
+      "componentIds": [
+        "biweekly-incline-dumbbell-curl",
+        "periodized-rope-tricep-pressdown"
+      ],
+      "basis": "Exact reviewed existing incline curl and high-cable rope pressdown components, original file paths reused.",
+      "components": [
+        {
+          "id": "biweekly-incline-dumbbell-curl",
+          "name": "Incline Dumbbell Curl",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-start.webp",
+            "movement": "assets/exercises/periodized-v3/biweekly-incline-dumbbell-curl-v3-movement.webp"
+          },
+          "phaseHashes": {
+            "start": "354b021a7409e154a518139be22fc528b9bfe45b9734b768284cdf835c381055",
+            "movement": "7f1bde3ff005e5d88151a953e1adb43aa5fde3838f6e56451beae1aeb9e2f60e"
+          }
+        },
+        {
+          "id": "periodized-rope-tricep-pressdown",
+          "name": "Rope Tricep Pressdown",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-rope-tricep-pressdown-v3-start.webp",
+            "movement": "assets/exercises/periodized-v3/periodized-rope-tricep-pressdown-v3-movement.webp"
+          },
+          "phaseHashes": {
+            "start": "22e2fd451fbbf4448b65853ea2d1a09bbc84bbea99cd169be814b33d476e3450",
+            "movement": "8b5f9c907309ce07a777786c5b1dd66ad51e37733744dc8ea8c5edb0e19d0a7a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "review-compound-air-squat-walking-lunge",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "days": [
+        "Saturday"
+      ],
+      "componentIds": [
+        "periodized-bodyweight-air-squat",
+        "periodized-bodyweight-walking-lunge"
+      ],
+      "basis": "Explicit bodyweight compound remains bodyweight, separate from user-confirmed generic dumbbell Walking Lunges. Original parent dose/completion unchanged.",
+      "components": [
+        {
+          "id": "periodized-bodyweight-air-squat",
+          "name": "Bodyweight Air Squat",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-bodyweight-air-squat-v3-start.webp",
+            "movement": "assets/exercises/periodized-v3/periodized-bodyweight-air-squat-v3-movement.webp"
+          },
+          "phaseHashes": {
+            "start": "6e223689f130dd37cd7b8f760364cecfa406914c9148dd5cab6b323a4b170bf7",
+            "movement": "d41c462b93b2d6d8b9eca38ad1de12e249c465a81865791f64f1ea4160da2867"
+          }
+        },
+        {
+          "id": "periodized-bodyweight-walking-lunge",
+          "name": "Bodyweight Walking Lunge",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v3/periodized-bodyweight-walking-lunge-v3-start.webp",
+            "movement": "assets/exercises/periodized-v3/periodized-bodyweight-walking-lunge-v3-movement.webp"
+          },
+          "phaseHashes": {
+            "start": "65586edcd5185391ace3ded120a309ffe44d87f6199bee829faabff74e1890f0",
+            "movement": "32b3f2e147f4dd8569bd106a400485db72331b5c85e0324fa4112879884d7e3e"
+          }
+        }
+      ]
+    },
+    {
+      "id": "review-compound-seated-hanging-draw-in",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "days": [
+        "Tuesday"
+      ],
+      "tiers": [
+        "expert"
+      ],
+      "componentIds": [
+        "review-seated-abdominal-draw-in",
+        "review-hanging-abdominal-draw-in"
+      ],
+      "basis": "User explicitly confirmed authored Expert seated plus pull-up-bar hanging draw-in. Intermediate continues to resolve its original standing execution. The original technical name and dose are retained.",
+      "components": [
+        {
+          "id": "review-seated-abdominal-draw-in",
+          "name": "Seated Abdominal Draw-In",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-start.webp",
+            "movement": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-movement.webp"
+          },
+          "phaseHashes": {
+            "start": "d53291abd0ae4ad5a24e6373a2ccd46725aa02d1c6c82666f2d81c92f426b138",
+            "movement": "5ce45d399b049209de9db1a1c9fef1e3055c7b75f26503b19814ce46aa1b807e"
+          }
+        },
+        {
+          "id": "review-hanging-abdominal-draw-in",
+          "name": "Pull-Up-Bar Hanging Abdominal Draw-In",
+          "imageSet": {
+            "start": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-start.webp",
+            "movement": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-movement.webp"
+          },
+          "phaseHashes": {
+            "start": "704e8153b32c8561a8fc942172a4f160279c071434d49d7e0d3b7287d5f65cdd",
+            "movement": "cb624170334c7f8ac53f8aa9396091de02f61f1efc5b3ec558b83be5f2174e5f"
+          }
+        }
+      ]
+    }
+  ],
+  "noCopiedAssets": true,
+  "baselineHashesUnchanged": true
+}

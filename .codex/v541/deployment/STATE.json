@@ -4,7 +4,7 @@
   "repository": "psagar786/gym-companion",
   "sourceBranch": "codex/v541-v2-art-integration",
   "releaseBranch": "codex/v541-release",
-  "currentCheckpoint": "F7-ART-RELEASE-BACKUP-LOCAL-VERIFIED",
+  "currentCheckpoint": "F7-ART-EXISTING-RESTORED-DEPLOYED",
   "currentArtworkRelease": {
     "date": "2026-10-03",
     "sourceCommit": "42fbaf7",
@@ -20,9 +20,18 @@
     "restoreHashesMatch": true,
     "previousProductionDeploymentId": "dpl_APkckYcC4sM7GY4Vy1H7nDGtkodt",
     "previousProductionSha": "8df039b06960fe187988de1d8a17f046ccc0a4ec",
-    "previewUrl": "",
-    "productionUrl": "",
-    "status": "local-verified"
+    "previewUrl": "https://fitness7-gym-companion-member-8q1l6heok-sagar-pm.vercel.app",
+    "previewDeploymentId": "dpl_ARA8dqNHqS42r4wk3xLvrYQe4TzJ",
+    "releaseCommit": "0daacfa2ca12aba83b432fdad360f82741c4b594",
+    "pullRequest": "https://github.com/psagar786/gym-companion/pull/4",
+    "previewValidation": "PASS: 72 cases, 1236 variations, 23 source files and 304 asset hashes match; mobile and member boundaries pass",
+    "productionUrl": "https://fitness7-gym-companion-member.vercel.app",
+    "productionDeploymentId": "dpl_9w3z6TzRFPiZE9r6kXa7psCUshFm",
+    "productionCommit": "885a9872dc267a8030ac1b99fcef419c845571de",
+    "productionValidation": "PASS: 72 cases, 1236 variations, 23 source files and 304 asset hashes match; mobile and member boundaries pass",
+    "githubMainChecks": "PASS",
+    "newImageGenerationPerformed": false,
+    "status": "production-verified"
   },
   "completedUnits": ["BACKUP", "ACTIVE-ASSET-MANIFEST", "ACTIVE-BUNDLE-VALIDATED", "LOCAL-VERIFIED", "SOURCE-PUSHED", "PR-MERGED", "PREVIEW-VERIFIED", "PRODUCTION-VERIFIED", "LEGACY-GIT-FROZEN", "BUNDLE-SHRUNK", "PRODUCTION-REPUBLISHED", "FITNESS-OLD-DEPLOYMENTS-DELETED", "LUMEN-OLD-DEPLOYMENTS-DELETED", "PRODUCTION-ROOT-VERIFIED"],
   "failedUnits": [],
@@ -62,5 +71,5 @@
     "Existing v5.4.1 tag points to the earlier production merge; v5.4.1-r1 identifies this artwork-bundle release without rewriting history."
   ],
   "lastCommit": "8df039b06960fe187988de1d8a17f046ccc0a4ec",
-  "nextAtomicAction": "Push codex/v541-release to psagar786/gym-companion and open a pull request to main; verify preview and checks before merging"
+  "nextAtomicAction": "Review and approve specifications for the eight missing and three replacement artwork pairs; do not generate until authorized"
 }

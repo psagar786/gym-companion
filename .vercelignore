@@ -11,6 +11,7 @@ assets/exercises/periodized/
 assets/exercises/periodized-v2/
 assets/exercises/periodized-v3/**/*.png
 assets/exercises/periodized-v4/**/*.png
+assets/exercises/periodized-v5-review/**/*.png
 
 # Legacy single-frame/three-frame artwork is retained locally for rollback and
 # historical versions, but is not referenced by the active ABAC resolver.

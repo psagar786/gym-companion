@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "date": "2026-10-05T06:03:03.291Z",
+  "origin": "https://fitness7-gym-companion-member-mkom9xlgp-sagar-pm.vercel.app",
+  "appMode": "member",
+  "demoMode": true,
+  "activeImages": 358,
+  "allActiveImageHashesMatch": true,
+  "applicationFiles": 22,
+  "applicationHashesMatch": true,
+  "vercelPreviewToolbarAppended": true,
+  "memberBoundaryPass": true,
+  "supabaseConfigured": false,
+  "qualifiedCoachReview": "pending",
+  "physicalIphoneSafari": "not-tested"
+}

@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import {artworkRuntime} from './abac-artwork-runtime.mjs';
-const c=artworkRuntime(),source=fs.readFileSync('member-app.js','utf8');
+const c=artworkRuntime({review:process.argv.includes('--review')}),source=fs.readFileSync('member-app.js','utf8');
 for(const name of ['prescriptionTierKey','parsePrescriptionText','authoredPrescription','rolePrescriptionDefault','tierPrescription','prescribeExercise','approvedVideoUrl','doseMetricLabel','detailRecord']) {
  const start=source.indexOf('function '+name+'('),end=source.indexOf('\nfunction ',start+1);vm.runInContext(source.slice(start,end),c);
 }
@@ -54,7 +54,11 @@ for(const day of c.periodized.days.filter(d=>d.dayIndex<6))for(const tier of ['b
    const row=review.get(key)||{day:day.dayName,name:item.name,status:item.contentReviewStatus,mappingStatus:item.mappingStatus,cases:[]};row.cases.push({week:day.weekKey,tier,scheme:item.scheme});review.set(key,row);
    if(item.contentReviewStatus==='tier-execution-conflict')conflicts.set(key,row);
   }else excludedStatus.add(key);
-  const detail=c.detailRecord(result);assert.equal(detail.detailSteps[0].instruction,item.startInstruction);assert.equal(detail.detailSteps[1].instruction,item.movementInstruction);
+  const detail=c.detailRecord(result);
+  if(item.artworkComponents?.length){
+   assert.equal(detail.detailSteps.length,item.artworkComponents.length*2);
+   item.artworkComponents.forEach((component,i)=>{assert.equal(detail.detailSteps[i*2].instruction,component.startInstruction);assert.equal(detail.detailSteps[i*2+1].instruction,component.movementInstruction);});
+  }else{assert.equal(detail.detailSteps[0].instruction,item.startInstruction);assert.equal(detail.detailSteps[1].instruction,item.movementInstruction);}
   records++;
  }
  cases++;

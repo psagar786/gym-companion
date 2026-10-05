@@ -1,0 +1,967 @@
+[
+  {
+    "id": "biweekly-standing-machine-calf-raise",
+    "name": "Standing Machine Calf Raise",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-2578cd01-94db-4d45-8d15-3bab470f1ad1.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-standing-machine-calf-raise-start.png",
+        "sourceSha256": "a487e89d7634f23ebcbd7fef4efe61d50ce812bb9794e6983e759c787bf027f7",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-start.webp",
+        "sha256": "4739b985e5c698d9b93d59abca1d4a29088e44e47a0461fd4f75d3d5f59587e0",
+        "webpSha256": "58c7ab95f952b3b07c1138fbf541c0b09b4a1677bef4e09fec198fc38c65edcc",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Forefeet supported on block with heels visibly free and lower; knees nearly straight, shoulders under yoke, all apparatus visible. Comfortable ankle range must be verified in person; do not copy an exaggerated stretch.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-c761e7bd-5dae-4c94-9bd1-40b2ec9bdbb9.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-standing-machine-calf-raise-movement.png",
+        "sourceSha256": "a5470f42af9606665589fad8d1c863c93ae9896e510b81a22df8656873dec99d",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-standing-machine-calf-raise-v5-movement.webp",
+        "sha256": "5e23493eb0f3c86425ee1d1143ed582b8be56034a618b7d1e72fbf0b693402d7",
+        "webpSha256": "bcc21e2da60e96445c6cbb6a67bcacfa8eece634fe5a4b9e5c280b1a83d015d6",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same bare-foot male, yoke and machine; heels rise above the fixed forefoot block while knees stay nearly straight. Visible ankle and shoulder-yoke displacement; full frame.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed",
+    "repairHistory": "Early heel-support drafts rejected; later reviewed pair accepted. See REPAIR-QUEUE.md."
+  },
+  {
+    "id": "periodized-deficit-barbell-rdl",
+    "name": "Deficit Barbell RDL",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-2cbe2e7e-7640-4158-a60c-ea5ab330de35.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-deficit-barbell-rdl-start.png",
+        "sourceSha256": "7fbb6e90f1110faeca2716dadb7d2cac583cf24eeeaa4da22837526b04581fe6",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-start.webp",
+        "sha256": "4ebf9587073e093f361dd6932bc3da5c4d86307911cb755485d2e42aa4c5d5ef",
+        "webpSha256": "633eacac12c784a17a069706b295a72891a8488bf8c97d39b6c4de414f428f20",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Tall neutral-spine setup on one stable low platform; both feet fully supported, symmetric standard barbell and overhand grip. Final margin added through non-cropping inset.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9c718dce-a9e9-4897-a098-ccd3cc2294a8.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-deficit-barbell-rdl-movement.png",
+        "sourceSha256": "4c0e079d5add1afd0f4bf98222b8fee9fa240c7b93dc62d71aa052899857cef5",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-deficit-barbell-rdl-v5-movement.webp",
+        "sha256": "64713fa405db935c893b8cf7c0613fff8816df6ce2f5e7e4c432e98d12bdddf8",
+        "webpSha256": "9ea3ad27e92d4b8c582aaf193e1acdd7ee15b6655e4c1d6a8f873bb4235968ba",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Controlled hip hinge with soft knees, straight arms, neutral back, bar below knees close to legs, same platform and athlete. Working range deliberately comfortable rather than forced depth.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "biweekly-stick-overhead-deep-squats",
+    "name": "Stick Overhead Deep Squats",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-5f8aeca3-669c-48e3-8b62-33761c6c2cc3.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-stick-overhead-deep-squats-start.png",
+        "sourceSha256": "6896f930604a8968c96cd834864bc0c48aa848136375d121aaf1230e876bec9d",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-start.webp",
+        "sha256": "85e60095219241b056ec0b69b2518ba5cbe1a77ca8acad2c0a90368b59632204",
+        "webpSha256": "88a4d89df81a590a9f2e28db854bfa8f05d35ef0426b6c3934af5a8367543fe2",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Upright stacked stance, heels grounded, wide grip with full stick above head, realistic male athlete and charcoal styling. Final safe margin added without cropping.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-a9e06a17-5770-4740-af73-a4b4aa06bec3.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-stick-overhead-deep-squats-movement.png",
+        "sourceSha256": "23b5c72af0f8b704473e1f9cf973d0d9eb6437cd25f5f76f2620507f3526ae25",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-stick-overhead-deep-squats-v5-movement.webp",
+        "sha256": "2f39c5cdbc104f92eaf1682a9399f086f88862647db0b1f6d4e557251be6c2b4",
+        "webpSha256": "21b24e9e018118d30119c6f750ec73a2274d06d7a4bdeba4018a464d73b7685a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Controlled near-parallel squat, heels grounded, knees follow toes, straight arms and stick overhead; consistent athlete, camera and kit, visibly different from Start.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "biweekly-sissy-squat",
+    "name": "Sissy Squat",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-3ca1f5bf-b955-41c4-8797-cbf702ac4167.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-sissy-squat-start.png",
+        "sourceSha256": "bf908dbc593196bade8a6c07a4593f9ab68a42b7bb194d82480c57194c0cc66f",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-start.webp",
+        "sha256": "b720b50511fad9748620bae98301c6d3dd0d0b72677831115c95353ce6ce61c8",
+        "webpSha256": "24fb86a7ae753ba6c3ec4dd86c5aa5785d8e93ebb060fe7b427a63a7c62e7af3",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Side-view upright bodyweight setup, arms forward, feet visible and spine stacked; no invented equipment.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-3a8b6e27-41e0-45b9-9f8c-b923c07a0661.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-sissy-squat-movement.png",
+        "sourceSha256": "a0514af323328b4d2aed2b5d5237ddb521431a65a1f43a2a9a44ff7627e6d90d",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-sissy-squat-v5-movement.webp",
+        "sha256": "7b1109e930db6a2935ae88bf7090d9c5add2a5891b7620785af58b4b7121c538",
+        "webpSha256": "5fa8af50b82a73cc4908de1a97ad0e9c536baa3a126e0fcb9029719018edc2c6",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Shallow backward-leaning knee-dominant bodyweight movement, raised heels and arms for balance, nearly aligned torso/thighs rather than deep hip-hinge squat; charcoal restored. Coach review still pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "biweekly-seated-calf-raise-machine",
+    "name": "Seated Calf Raise Machine",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-c201ec0a-418c-46cf-87e0-7f746c9a6588.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-seated-calf-raise-machine-start.png",
+        "sourceSha256": "d2d14239b8f7b38adbe07745df1ebb4dbf5f818918e862eef171461310804371",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-start.webp",
+        "sha256": "89c7ca38e025b4201512107c6f469db134baa13623d0681b75df5475e5eea25b",
+        "webpSha256": "bc7ccd01b1d3a80dfe937ffb2a8d68d45aa89fe89df4c4001fd10e7d9019fd9b",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Corrected bottom ankle position: forefeet on top of block, heels unsupported below forefeet, knees near90 and thigh pad above kneecaps, full machine visible.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-cba5b5e5-f428-436d-b353-393eb81555c2.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-seated-calf-raise-machine-movement.png",
+        "sourceSha256": "cf1e0deaaca8ac9fc07946a74635ee2702a2566b7e664ae01df004f428d63bd1",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-seated-calf-raise-machine-v5-movement.webp",
+        "sha256": "1dc4f970a2b59bf98ff61d3e8b6dd06c6f90dae7233d68fb3ec60f0ed38f05dc",
+        "webpSha256": "5fbb635eb4452bc1599ab2bb2ac3d70569006fbeb8e07eb25ce3a49dfdce4d47",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Raised heels visibly above forefeet, same block contact and seated equipment, slight lever lift, same athlete camera and kit. Distinct ankle phase.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "biweekly-incline-smith-machine-press-45",
+    "name": "Incline Smith Machine Press 45°",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9975427b-fc30-4953-ad13-42fafa6820a9.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-incline-smith-machine-press-45-start.png",
+        "sourceSha256": "670ffdbd639f9a05e2d31bee48c85c47e11fa441f2683ac9df6b1b7177a6b993",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-start.webp",
+        "sha256": "6ab4b4feafb945eb0e00d849fc378581ab591dff2b29274d79aabfeaf80d0141",
+        "webpSha256": "d3385f801b204b48ba59419127703c20af18a150d603aff9725d923f2f166ee9",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Corrected lower bar below chin near upper chest, bent elbows/wrists stacked, complete Smith rails/carriages/frame and planted feet. Bench-angle precision remains human review pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-d363188b-b84d-42aa-bcab-69261374bc8d.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-incline-smith-machine-press-45-movement.png",
+        "sourceSha256": "01974b7e18762ba8e7eacc99ad29b217c96bd770d9b3f6456796d29810559738",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-incline-smith-machine-press-45-v5-movement.webp",
+        "sha256": "a2fec32c1c8aac4233c44fe9e8d6ec30ef146c5b4a181139a47202a7a61f5005",
+        "webpSha256": "afe0055d1a84707810f5a3beac9cd9fbf40056ba0c25504b240dd86ddf919901",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same supported athlete/bench/full Smith frame, bar and carriages raised together with near-straight elbows, planted feet and clear phase contrast.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed",
+    "repairHistory": "Early frame/pose/kit drafts rejected; later reviewed pair accepted. See REPAIR-QUEUE.md."
+  },
+  {
+    "id": "biweekly-bayesian-cable-curl",
+    "name": "Bayesian Cable Curl",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-89b74e88-6984-431b-bc77-1cfb74c4ecb5.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-bayesian-cable-curl-start.png",
+        "sourceSha256": "cd16fff7a344fc13d1957c0dd2fff8bb1017ad865a93788338e74dfc01864f01",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-start.webp",
+        "sha256": "06e06650b401422134c57ebc4f6890b3f363b3ea6b318096d586debf8ded6bc0",
+        "webpSha256": "fa3cc52a51d4c4e0430eef85bba937993fcaf894677de515270acc65f448753c",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Single low pulley behind athlete, supinated one-hand grip and upper arm slightly behind torso; entire tower/frame/cable visible after framing repair.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9615cc15-ab60-4c50-a659-230d2c11d4a0.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-bayesian-cable-curl-movement.png",
+        "sourceSha256": "e698ee6185a79cefd0a2a5a36fcbee0e80c6819b7443f7ff66c0770503a48aba",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-bayesian-cable-curl-v5-movement.webp",
+        "sha256": "99e0c9ef0c4d7f97f8a37aa717f068b2cf672ccc6895de77d684803d978f9c4f",
+        "webpSha256": "1f25ac547b82fa5852e5d11be378b7a5d390bc5d4917b295aae83cac3d7bf799",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Elbow flexion with supinated handle and upper arm retained at posterior torso; taut low cable, same stance/athlete/tower and no torso swing.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "periodized-overhead-dual-cable-tricep-extension",
+    "name": "Overhead Dual-Cable Tricep Extension",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-97c1d688-b7b0-42be-b28c-04182e4b8250.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-overhead-dual-cable-tricep-extension-start.png",
+        "sourceSha256": "597e0ee1643cb1fa068edf195b3096cb6058642c7d801a00d66017abc2815928",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-start.webp",
+        "sha256": "7564774b42e9fdfa88b48fcfa0430e67b49e7119113237eaa9ab2c097aaa3863",
+        "webpSha256": "8bac4e678282df9f38ac3e60568bc9baf6edc8e0aabfc9e17b85c93d3498d382",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Two independent handles/cables and overhead flexed elbows, split stance and stacked ribs. Rear-three-quarter camera is a documented draft deviation from specified side-front; retained for clear cable/triceps review, human review pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-cf2ba505-77d2-4e66-8039-79e6c11471fb.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-overhead-dual-cable-tricep-extension-movement.png",
+        "sourceSha256": "7082501c6a5e800f224ea5c8d86233caded3e19fe2e485a3fa32bf7a41ac3adc",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-overhead-dual-cable-tricep-extension-v5-movement.webp",
+        "sha256": "279a00f3bab9436aaa18a0a7447653e58d09834747685c43adaba31e51e81be1",
+        "webpSha256": "0ae132b32cfe03949f594510700dcc9ff0a20e39dbcbdf9e3816a5949ac8b506",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Elbows extended overhead, independent handles/cables preserved, identical stance/kit/equipment/camera, visibly distinct from flexed-elbow setup; full equipment preserved by final inset.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "periodized-chest-supported-t-bar-row",
+    "name": "Chest-Supported T-Bar Row",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-29467c3c-0b4e-425c-9017-0015be69c78c.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-chest-supported-t-bar-row-start.png",
+        "sourceSha256": "5a334140b6b4414e1da3611628c5a74164287b9ec03a74354ceeb195a5f88ac2",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-start.webp",
+        "sha256": "761968fa643ea1e197de2bc709cf61eeccb082e0184813ea8067675771add563",
+        "webpSha256": "3d9bb537c1633b9f1cd98050e2807ad62e09e7b1092e48246f6107a92779f6da",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Chest remains on inclined pad; arms extended; palms face inward on separate parallel handles; full standing apparatus and feet visible. Machine linkage requires human equipment review.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-cb81e938-0ad9-4fb6-89db-30569fe5c766.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-chest-supported-t-bar-row-movement.png",
+        "sourceSha256": "95eb587dbd39547bb5de174e5ba3dc4596eb709e2d0d7dfb31057b98b966d6ef",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-chest-supported-t-bar-row-v5-movement.webp",
+        "sha256": "a8b5a0b48468972e4d91b3157e7a1d72cb05a2de547b865f55a8cc3fa13ee27a",
+        "webpSha256": "64f693918f00bde910453567221f57108f3adad32cd029361569f3f77f98f711",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same athlete, pad, neutral handles and standing machine; elbows bend backward toward ribs, weighted lever lifts clearly, chest and feet remain supported; full apparatus visible.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed",
+    "repairHistory": "Early pronated-handle/white-background drafts rejected; later neutral-handle pair accepted. See REPAIR-QUEUE.md."
+  },
+  {
+    "id": "periodized-incline-db-press",
+    "name": "Incline DB Press",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-eb71ffe3-2657-4d02-9ea5-e698bc9d82bf.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-incline-db-press-start.png",
+        "sourceSha256": "7bcfe2d5f50ca1b528f899d8faa793db97db8dcae4efac98d829af517c7150bb",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-start.webp",
+        "sha256": "ffb03d0ab5ff6cadd71cd912ca4cbd7bcfc011271ca2591d3f5455b24b9da8d2",
+        "webpSha256": "e3ad9af40054de9555739fa88042791eaa17f05916de1214009850211d2763c9",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Low incline bench, planted feet, paired dumbbells at upper-chest height and vertical forearms; charcoal background corrected and full bench/body visible. Apparatus angle requires human confirmation from image.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-16de1289-cbaf-439e-9bf7-b3df9b95df9f.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-incline-db-press-movement.png",
+        "sourceSha256": "f69648e7f0a67a0f96443b715727868722b0a156067c5a5b0a5b99268897a1ca",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-incline-db-press-v5-movement.webp",
+        "sha256": "284a714327c06a39d626cf0be2edad1a38c744188892b431ac12efac6877afbe",
+        "webpSha256": "4e47a97094967751cba52aa91278f91e55f38167183b088d7f1c24005b03776d",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Paired dumbbells pressed above upper chest with near-straight elbows, feet supported and same low incline apparatus/athlete; clear phase difference, angle human review pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "periodized-wide-stance-leg-press",
+    "name": "Wide-Stance Leg Press",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-8406666d-e4c5-4145-bc33-13ffca40640d.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-wide-stance-leg-press-start.png",
+        "sourceSha256": "feac0310c1d273a9aafa79b08f1d23a9d8885813f96b13bac30ab6faa17dad45",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-start.webp",
+        "sha256": "7615725d52c808ecfb87c756831c0485e07e47dd6d27c06b59e3ca07e86a1d09",
+        "webpSha256": "b0fbd91cfd18fc480700e973678c2be3d4f17753113b2a0fc02e7c1b1302d6e9",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Full 45-degree sled frame, loading pins and backrest, bilateral wide feet with knees bent near90 and heels planted; athlete remains supported. Framing repaired without cropping.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9dc1cf28-2c2d-4ae9-96a2-bf152961a1c4.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/periodized-wide-stance-leg-press-movement.png",
+        "sourceSha256": "e41975e44a8a4fd0e5b6fa6bda9d4b2394fec14d3fc256794cc46356b9341c95",
+        "pngPath": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/periodized-wide-stance-leg-press-v5-movement.webp",
+        "sha256": "5f9077a3aaf89ce5a7c14830c351159a6f3bf7a8cf94453d2397a871155cd384",
+        "webpSha256": "721e5136bc2303f917b57bd8a7bedeb88386ddc330e78a0166e80a41ec1b443a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same sled machine and wide planted feet, sled displaced up rails with near-straight knees and supported pelvis, all equipment visible and clear phase difference.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "biweekly-dumbbell-pullover-on-flat-bench",
+    "name": "Dumbbell Pullover on Flat Bench",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-02d8ba41-435b-4d64-9e1f-0e131451313c.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-dumbbell-pullover-on-flat-bench-start.png",
+        "sourceSha256": "852b75e2a7f9e4ba7a8f3f3b1d538eb2ef88c94d88e6e76a5733ec89c298326e",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-start.webp",
+        "sha256": "8342ee1e2588e5bdfe9627a07e62a657419bdd04f738d1ad744399429544ba6e",
+        "webpSha256": "afecaee1f70752139c32d58c9411eb46017fb4effa58672315347335e46c0795",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "AI visual review: male athlete upper back crosswise on flat bench, planted feet and elevated hips, one dumbbell held vertically above chest with both hands; charcoal scene and restrained anatomy emphasis; full body and bench visible. Coach review pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-b6d6775f-e1df-4e80-86ef-93f63e4b16a0.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-dumbbell-pullover-on-flat-bench-movement.png",
+        "sourceSha256": "b1a12086fd63e255a3ad263dc76721cb8db6fc36b7d6db87bf3d5bf761c27944",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-dumbbell-pullover-on-flat-bench-v5-movement.webp",
+        "sha256": "544280af9793e3370e68f9dac35989bc05d90ddfa5a62b141d072dc3c939eecf",
+        "webpSha256": "7c2bd08a725b1886507b265adee31a6ec670058c66e54cae80d114864b1d73b3",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "AI visual review: same cross-bench male athlete, bench and foot/hip position; one two-handed dumbbell arcs behind head, upper arms beside ears with softly bent elbows and controlled ribcage; clearly different from above-chest Start. Full body/equipment retained; coach range review pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "biweekly-45-incline-leg-press-mid-stance",
+    "name": "45° Incline Leg Press (Mid-Stance)",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-a267d20a-8b19-4205-a81b-e097574b0b2c.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-45-incline-leg-press-mid-stance-start.png",
+        "sourceSha256": "1ca256f8e8c34aa30c9d17e467c199b884129386472fcc6c082dd18c87f0b2b8",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-start.webp",
+        "sha256": "91ecf7c76f313927bd76118e805de3622dbc4b53c20f6f4fb6da1f5c1c930ef0",
+        "webpSha256": "9518ac2ddade4d2aa50ce93ba05699fb77704df764b450a6d57f300917391289",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "AI visual review: male athlete back and pelvis supported in 45-degree plate-loaded sled; feet mid-platform shoulder-width, hands on handles, knees nearly extended without forceful lockout; full footplate, paired rails, plates and base inside frame. Illustration load is not a prescribed load; coach machine geometry review pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-34b54525-1076-4f1b-9bec-a6393bb5f849.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/biweekly-45-incline-leg-press-mid-stance-movement.png",
+        "sourceSha256": "e3f123465148ff5deaab9ad62f2a2e4e102359e47b333fa8d4ec711f16a1e7d9",
+        "pngPath": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/biweekly-45-incline-leg-press-mid-stance-v5-movement.webp",
+        "sha256": "5f631fd542979168f6c41ab962ee2b9f5c0627c7c0ea73642fe89a7603702487",
+        "webpSha256": "3b087be5cbb9f2505d2666ddcb87ba6f7c673581db56e2cbce3859154ac43858",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "AI visual review: same male, shoulder-width mid-platform stance, support and machine; sled and balanced plates closer along rails, knees visibly bent near 90 degrees while heels/pelvis supported. Complete apparatus remains visible; human confirmation of real machine linkage and depth pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-front-foot-elevated-dumbbell-reverse-lunge",
+    "name": "Front-Foot-Elevated Dumbbell Reverse Lunge",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-d19c3911-64b1-45ae-a242-034db9b213a4.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-front-foot-elevated-dumbbell-reverse-lunge-start.png",
+        "sourceSha256": "ee5769b1d28c208cf74489d0424f13c142ed899c667f58aa33ae3cae15231b40",
+        "pngPath": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-start.webp",
+        "sha256": "51af7fda9b903521b9bb94c9d4220f195b0ea9c4d2af44a9b7437132f5f6497b",
+        "webpSha256": "d8054b543e99d8b3e8fad14ded71ef14c6ed5ad842a4d2f3f9ab712d49202d04",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male athlete, two dumbbells, one foot on stable low platform and other on adjacent floor; full subject visible. Clean charcoal background after individual clutter repair. Final contain inset supplies safe margin.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-50506a9d-5537-4b0d-b4f1-706f3e827793.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-front-foot-elevated-dumbbell-reverse-lunge-movement.png",
+        "sourceSha256": "73e39098e5201d93f92df104afe513372e014664aa174001664d4e26e1bc26a0",
+        "pngPath": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-front-foot-elevated-dumbbell-reverse-lunge-v5-movement.webp",
+        "sha256": "65da1251ec7109258c71ff6be20b6958eba7894256a9025086ae2806a889ace7",
+        "webpSha256": "f943d4a28106f7e4175f0d0a0279cd8a1bdf160640271c60cfd8a3d35561aada",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, kit and dumbbells; front foot remains on low platform, rear step-back toe on floor, knee lowered and front knee flexed. Clearly distinct working phase, neutral trunk and full equipment visibility; final inset preserves safe margin.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-dumbbell-bulgarian-split-squat",
+    "name": "Dumbbell Bulgarian Split Squat",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-61c59169-c448-407d-8634-810cb40e9157.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-dumbbell-bulgarian-split-squat-start.png",
+        "sourceSha256": "4049d5b56c629630ab3c306f13a6cba57538c09ccb6ba8b6f85ae0b0e58211ed",
+        "pngPath": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-start.webp",
+        "sha256": "ba93045d58b15b0d465e6e5e97919c3799f1abe107fb7b58b4dbcf015c5c3a17",
+        "webpSha256": "384d5b66ed88d3db87236f2b4eb2e04a94478b63a45dbd85a30da994c7d3e4f2",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male loaded rear-foot-supported split stance; front foot flat on floor without deficit, rear shoelaces on low bench, two dumbbells, full body and bench visible. Final proportional inset provides 10 percent margin.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-64c58296-bcfb-4779-b546-477d6d190093.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-dumbbell-bulgarian-split-squat-movement.png",
+        "sourceSha256": "53d3c6d0fdc4713872e2808ca2b12560dc1c7b15bed89cc8ead86fb0086cd11b",
+        "pngPath": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-dumbbell-bulgarian-split-squat-v5-movement.webp",
+        "sha256": "9f13b950514109a292aa20edba013480ca6cc37018245d8c992d13221ac0adeb",
+        "webpSha256": "abcc408a62085391db82617b3788b04a0d4c574a0edc8269c8fd55a64f7f2be1",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, bench and dumbbells; rear foot on bench, front foot grounded, hips lowered with bent front knee and neutral torso. Clear phase difference, full equipment visibility; not deficit or 1.5-rep variation.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-stick-supported-sagittal-hip-swing",
+    "name": "Stick-Supported Forward/Back Hip Swing",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-b635b9c6-baa5-4e30-88df-49e04b99caae.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-stick-supported-sagittal-hip-swing-start.png",
+        "sourceSha256": "84d606199538d95b435a640c103191dcbcf1f20fb29b0333f55a524fd47b5a9a",
+        "pngPath": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-start.webp",
+        "sha256": "cf9511ea4bac1d5ef71a278fb4679c355265b4ffd841cfd2afd4de21a8d5569e",
+        "webpSha256": "c99c89f96004af8cb68c4a7540ad7fe83003f149ab4ca389c55e49b6437f600a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male athlete, vertical grounded stick and one planted support leg; free leg behind in comfortable hip extension, upright trunk and full stick/body visibility. Controlled sagittal setup, not lateral or high-knee march.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-7752b671-2b28-4172-bbd4-99e472b68d7f.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-stick-supported-sagittal-hip-swing-movement.png",
+        "sourceSha256": "df28268e65cf53b9008a895932988d3f2d07246dbb6cffaf5e570c78c7a27e2f",
+        "pngPath": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-stick-supported-sagittal-hip-swing-v5-movement.webp",
+        "sha256": "5f82990358e7b4e90cab8a0ff039577812f5d5406db57884392d306e66a3e0ee",
+        "webpSha256": "a38b8070a2894e86381a767df9c6fddde217161ff6f1601ed88a6e3550f7ba34",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same man, vertical stick and support leg; free leg now forward with softly extended knee, upright torso. Clear sagittal phase difference and full visibility; moderate range, no high kick or forced lumbar arch.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-incline-bench-dumbbell-row",
+    "name": "Incline Bench Dumbbell Row",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-81fd301f-dc89-44ab-a72b-a86eeb0dba99.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-incline-bench-dumbbell-row-start.png",
+        "sourceSha256": "dfc2f285eb2805368134478a8d471475a8265bb4124693f437c25e9145c8c8b4",
+        "pngPath": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-start.webp",
+        "sha256": "7e55d1e2da80175718579c05502a182afe912dca7e3d20fd83e9b706cea94a8d",
+        "webpSha256": "3329ac527fc956d3c734a63bd5c5e417683c1994c0ac274aa4f37dcc60d9a559",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male prone supported chest on low incline bench, both neutral-grip dumbbells hang clear of floor; grounded feet and complete bench. Correct bilateral dumbbell apparatus, not T-bar; final inset preserves all edges.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-b91ca69b-405a-4056-a6d8-72445430729c.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-incline-bench-dumbbell-row-movement.png",
+        "sourceSha256": "98814e92eb26dd5af807f7c0e32a111d536cdde31c88f6c122ad8c8afb3f40cb",
+        "pngPath": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-incline-bench-dumbbell-row-v5-movement.webp",
+        "sha256": "18befea9c74a433abc2858ca161ff7f13575c7411e18c23691de8a41f71bcb55",
+        "webpSha256": "22d42cd0d03d6e39b709b9559b80a2ac29d796fde80646e9af4242d0e8087a7e",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same man, low incline bench and feet; elbows bent beside torso, dumbbells lifted toward lower ribs with chest supported. Distinct arm and weight position; apparatus and framing remain consistent.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-low-to-high-cable-fly",
+    "name": "Low-to-High Cable Fly",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-4f16d423-0c58-462d-bad8-de86aa019357.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-low-to-high-cable-fly-start.png",
+        "sourceSha256": "5eb79065e21858bc2cda3f43c5ce4fc4660187e88d5070e9aaffa68c15cd0a47",
+        "pngPath": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-start.webp",
+        "sha256": "1f034791fdce2d2cacd32cf05852f25ac0090585d5e4a7d6fb04ce47d37c5ec3",
+        "webpSha256": "43ad47ccf3b8eb8a74c8ab376dea044dfba68b8702c0ba421ae1d636c04a842a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male in staggered stance, two D-handles beside hips, both low pulley attachments and continuous cable paths visible. Entire towers and athlete fit source; proportional inset adds full margin without cropping.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-c7372fa4-59a7-4c79-950c-b889bd099c80.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-low-to-high-cable-fly-movement.png",
+        "sourceSha256": "e0c13dbbf61fd179e638014740dd6484246fe1caaa14d50d850b749e8472e3b1",
+        "pngPath": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-low-to-high-cable-fly-v5-movement.webp",
+        "sha256": "366c107e0352b88e87157a3e937ace05b61a7b545e8a75850f3521d68a64b793",
+        "webpSha256": "832638fcaeb9d6a1d6b723b02ba584aa2bbfc3aca95a2172f8b6319073771e5b",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male and low cable stations; long-arm inward-upward fly position below chin, gently bent elbows, distinct from hip-level Start. Full continuous cable paths and equipment visible. Repaired excessive elbow bend and excessive hand height before accepting.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-standing-ez-bar-curl",
+    "name": "Standing EZ-Bar Curl",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-3b633244-05eb-463d-ab19-24357f730072.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-standing-ez-bar-curl-start.png",
+        "sourceSha256": "9ae4334775a1dfe0618ba64890eb2226f0c0885b27d21225321f54c45227763f",
+        "pngPath": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-start.webp",
+        "sha256": "17697c584dafc7baba84dd0b3531afc83a474371e45241784d833ec656ff7b65",
+        "webpSha256": "54249162814f7888eda61f8e0c4b64b68e5b2559cb6be8638022f82c278f1adc",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male athlete, whole body and balanced EZ bar visible; underhand angled grips, tall stable stance, elbows extended; charcoal kit. Safe output inset applied; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-45a071e3-a7a9-4ef2-a418-cda615a8db43.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-standing-ez-bar-curl-movement.png",
+        "sourceSha256": "2bf3bd654ee86d88538e79a6e3b7188614bfe15e047652b7140fe3e9ced1392d",
+        "pngPath": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-movement.webp",
+        "sha256": "76885c784cac1e3092c46c41b4f037b5ab3da2ce64f6fed65bab1b3842062ace",
+        "webpSha256": "4992e2df0826f15e631d355d45ede88f04c61640daace4ead39e751065b33a6e",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, kit, EZ bar, camera and lighting; bar lifted by elbow flexion, torso stable, full equipment/body visible. Distinct working pose; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-ez-bar-skullcrusher",
+    "name": "EZ-Bar Lying Triceps Extension",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-49305d67-2814-44fd-a8e2-272f979100e8.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-ez-bar-skullcrusher-start.png",
+        "sourceSha256": "7117ae1392f93a498675014ae800183bf716dc46b0d32f4b8594d58ac2458af1",
+        "pngPath": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-start.webp",
+        "sha256": "cb4e2446582504cc2ca9257e9bb71098636f0a043f82945a03a79ef2304db986",
+        "webpSha256": "03d5d2c79442c55a08beb6b00010636deb817a7ad2a604c3948f00bb07388750",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Whole flat bench, feet, head and EZ bar visible; supported supine athlete, close overhand grips and nearly vertical arms, bar clear of face. No cropped apparatus after contain inset; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-816561c9-2894-48c5-9659-fe656c295112.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-ez-bar-skullcrusher-movement.png",
+        "sourceSha256": "13a30fec6be279c0b85d8f2eccf8286de55acf2577cc4be2488f7c4f54de5baf",
+        "pngPath": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-movement.webp",
+        "sha256": "ceb151e07d863648c8385b8ba6a4c48f6b094fddda1c80a67446add252401c58",
+        "webpSha256": "fdbf4acecce1160bf796839d76bcc3a7ec92b19ed84483b8c8bb7161366eaf3c",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same supported athlete and bench/bar geometry; elbow flexion lowers bar clear above forehead, no head contact, feet stable; all body/apparatus visible. Coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-wrist-flexor-isometric",
+    "name": "Wrist Flexor Isometric",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-970d3c22-a7bc-428e-a686-d46cfc11a0f9.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-wrist-flexor-isometric-start.png",
+        "sourceSha256": "fc17896aaea3358a7537a900e866b388cd81d55c374edacd49fe858ac6d4ac81",
+        "pngPath": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-start.webp",
+        "sha256": "7e0b3afcbbb702b32ca3d39f01dc211b8f5b9c42e0a8dbbc11ced53b6afc8378",
+        "webpSha256": "170308b6087678aea7d22ecc566d0ffa822d134adc103df03b52b7520f6c5279",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Repaired source: full small table and chair inside frame; palm-up forearm rests on tabletop, wrist aligned, opposing hand hovers with no contact, both feet visible; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-a10d66f7-e339-4425-925c-3358c558340d.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-wrist-flexor-isometric-movement.png",
+        "sourceSha256": "24037a65ed04cfcfb7b3c7638b3b749f2f1b4ed09d9c5db9756705cb3c02f3c2",
+        "pngPath": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-movement.webp",
+        "sha256": "71a161564d1cc4d93769d3e65640b7de3108b92079c5ab3e42511e960765fa00",
+        "webpSha256": "a0ea59e8827fa9d45b1a94d169b54fe1f1cd3b17be9c89f6c9e84f22ac3c3ecb",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same seated male and full furniture, supported palm-up forearm; opposing hand now contacts palm and wrist remains aligned. Distinct resistance contact versus hovering setup, no invented joint bend; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-shallow-wall-sit-isometric",
+    "name": "Shallow Wall-Sit Isometric",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-b1719156-696b-41df-8bdf-efd1a8acfa00.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-shallow-wall-sit-isometric-start.png",
+        "sourceSha256": "5f116a637acf03fc1687d22ee9285eaa090fc9148933b4ad34e19a1ddfb5b23b",
+        "pngPath": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-start.webp",
+        "sha256": "605e67b42f84756d0873b8efd629178e631d00590a0e41d3cf71bb4090709c3e",
+        "webpSha256": "14d4d8c6243842e011da1b8bf7ce9137ec85f55294bcc16d874d0a67909d712a",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Full male athlete against charcoal wall, heels grounded and knees softly extended; relaxed setup before slide, no weights or bands; inset gives output margin, coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-e2590088-8051-4ae7-b091-897cadff1536.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-shallow-wall-sit-isometric-movement.png",
+        "sourceSha256": "73e6fbda5dcab4d4af71fcb0145e79134f9274b253a428f36658f747c033c1ad",
+        "pngPath": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-movement.webp",
+        "sha256": "cabb6943448974f44c3a55c098fb7f00b2fabf7d3b8ea41bae944fa3228d6513",
+        "webpSha256": "79f2d5a3f2fad3aa9b16931185496904423f51f8111a38640da11d749f47b6a2",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same wall, male, kit and camera; lowered partial-depth wall sit with thighs above horizontal, supported back, grounded heels and forward-aligned knees; clearly differs from tall setup. Projection does not certify exact knee angle; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-supported-calf-isometric",
+    "name": "Supported Calf Isometric",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-f0a4ca25-6d2a-4bfc-8f36-75b0ae419761.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-supported-calf-isometric-start.png",
+        "sourceSha256": "97b2e3254d5ca4e0adfe83b6d0e404a2acbb6e0841be16f34d9743bdb3d11ee3",
+        "pngPath": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-start.webp",
+        "sha256": "629eb336f727d080584edbe4866793ecf23822ed0b51b72c23385fda26d442f5",
+        "webpSha256": "faf6e82a5e50f2fbca462973467691c7c97dc52e6bfe53c2ba6e729c2c5ef8f2",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Full male and whole support rail; heels grounded, upright trunk, feet aligned, no step or weights; stable setup, coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-f24973fc-8b17-4b13-bfa6-4c5d9b4903e1.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-supported-calf-isometric-movement.png",
+        "sourceSha256": "755e5272cace37b12a701031d3d481b02b479dd106ada4b737779a3cfb34d875",
+        "pngPath": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-movement.webp",
+        "sha256": "eb92cbe43ffa7f347cfe1aaa5f8444590b7f5dc35749fd46bbba49e196a8c933",
+        "webpSha256": "40c5a92e9623015f8c64c7a1157d4592f55ceddbe22f6ced66f473fce6be0c82",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male, same support rail and kit, whole feet/equipment visible; bilateral heel lift above grounded forefeet, stable upright trunk and supported balance. Clear working phase versus flat heels; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-standing-core-brace-isometric",
+    "name": "Standing Core Brace Isometric",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-20a74748-72a2-4616-a301-505d3d7bb9d6.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-standing-core-brace-isometric-start.png",
+        "sourceSha256": "be88d8e2f6552d89e30a3a062838157fa9c2d6db388e764f2fd774b1ac12f75d",
+        "pngPath": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-start.webp",
+        "sha256": "bd12c9152a517cdf2b19fb71be3e36d9ea2d4ab660c00acf3e500d197dd1c4b5",
+        "webpSha256": "d14a94ac5cc1836a2bbe90c282f421dcc1325d4784ad676e924b93bd964b6378",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Whole male athlete upright, arms relaxed at sides, soft knees and neutral trunk; anatomy overlay readable with black kit and no apparatus. Stable pre-brace setup; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-fd86f215-2ad0-4063-bb83-f615fa0e87a5.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-standing-core-brace-isometric-movement.png",
+        "sourceSha256": "ea4c5c06350075ef509ef9993b80e7620e7a9ff36e0d89ce159a8eeb0aa38ffb",
+        "pngPath": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-movement.webp",
+        "sha256": "d997d13663867ee03820a04486dc852d54a2a8c2fdfa9dacfda8fa4492dfd1c1",
+        "webpSha256": "27877f4865503af6f248a334362e211f3577dd87a359b5d537fc8bf8ef85e0c5",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male and stance, hands lightly cue abdominal wall, no trunk bend or vacuum hollow; visible hand placement change for working brace, static image cannot prove breathing or force. Instructions clarify normal breathing; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-hanging-abdominal-draw-in",
+    "name": "Pull-Up-Bar Hanging Abdominal Draw-In",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-a8d8682c-b6da-413c-9a03-b253d8362cb0.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-hanging-abdominal-draw-in-start.png",
+        "sourceSha256": "4ce2776bef62b782bd6b321242130217b29d547198b50b206c17783a66e53073",
+        "pngPath": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-start.webp",
+        "sha256": "1bf12f81b2b54f31f1c26dcb69d1d52ffcba107ded7f0e06e6d8631d258840f7",
+        "webpSha256": "704e8153b32c8561a8fc942172a4f160279c071434d49d7e0d3b7287d5f65cdd",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male anatomical torso with black shorts and shoes, complete pull-up frame/hands/feet inside source, stable straight-leg hang, no leg raise or elbow flexion. Anatomical torso exposes the draw-in area; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-80a5fb2e-5c25-468d-b7ab-5c5061c13d2e.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-hanging-abdominal-draw-in-movement.png",
+        "sourceSha256": "e4e9119bdd3007f6a59136bea9b2f88c713711ca04455368101d6d449e93cc1e",
+        "pngPath": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-movement.webp",
+        "sha256": "20f8307d992a7d980d376b2967f045b5268549b819b82a1ab44743d7230d44c9",
+        "webpSha256": "cb624170334c7f8ac53f8aa9396091de02f61f1efc5b3ec558b83be5f2174e5f",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, black kit, full pull-up frame, straight arms/legs and stable hang; modest lower-abdominal narrowing with restrained inward cues. Isometric tension differs without a leg raise; static image cannot prove breathing. User-confirmed local variant; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  },
+  {
+    "id": "review-seated-abdominal-draw-in",
+    "name": "Seated Abdominal Draw-In",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-106463dc-286f-4ea0-958d-e5bf9f32aec6.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-seated-abdominal-draw-in-start.png",
+        "sourceSha256": "650a0fedd6c4de632bd6d9a109a3ed884817ae4d8d3b607922220c33ce21d4b3",
+        "pngPath": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-start.webp",
+        "sha256": "c95608142bf3baf1d9ae7ecbb46b475758d7ec61d4a2b38e20b38a32e9a28c30",
+        "webpSha256": "d53291abd0ae4ad5a24e6373a2ccd46725aa02d1c6c82666f2d81c92f426b138",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male seated with clear hip contact on full visible flat bench; feet grounded, hands on thighs and upright stacked trunk, no floating support. Stable relaxed setup; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9ab5c932-e364-4b18-abb5-299c15c2bf07.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-seated-abdominal-draw-in-movement.png",
+        "sourceSha256": "b78fe16d14c8340a3e8b161c756ff8102fa31196d3d97d88043c8ad6e2d86929",
+        "pngPath": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-movement.webp",
+        "sha256": "3628b17b4abea486fc67f37bd3bcb1fb0fa737d9785272d2e51eec7e97c4f2c8",
+        "webpSha256": "5ce45d399b049209de9db1a1c9fef1e3055c7b75f26503b19814ce46aa1b807e",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, visible bench hip support, grounded feet and upright spine; modest inward abdominal contour and restrained cues versus relaxed setup; no floating seat or extreme hollow. Static breathing unverified, instructions retained; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
+  }
+]

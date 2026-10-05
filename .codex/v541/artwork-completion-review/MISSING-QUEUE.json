@@ -1,0 +1,10 @@
+{
+  "countUnit": "Selectable physical day/name entries; tier-ineligible records excluded, not a canonical generation count",
+  "pendingDayNames": 0,
+  "mechanicsHolds": 0,
+  "combinedDecisions": 0,
+  "deferredPreparation": 0,
+  "generationCountFrozen": false,
+  "records": [],
+  "nextAtomicAction": "Review all eight resolved entries locally; obtain human exercise/artwork approval before any production release"
+}
