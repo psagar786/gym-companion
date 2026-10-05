@@ -25,3 +25,14 @@ One next atomic action: **Audit Wednesday Leg Press title and all tier cues agai
 - Improved audit occurrence accounting: no first-tier masking, tier-ineligible records retained separately. Remaining selectable queue is eight entries, not eight new image pairs.
 - Passed 72 cases, 1,867 card/detail checks and 340 local image byte checks. Browser verification is blocked and honestly left unverified; server remains on port 4176.
 - Next unit: two-component presentation for authored paired records. Do not generate one constituent and represent it as an entire pair. Do not guess seated/hanging vacuum or reactivate preparation work.
+
+# All eight pending entries completed — 2026-10-05
+
+- User explicitly confirmed Tuesday Expert seated plus pull-up-bar hanging draw-in. This confirmation supersedes the earlier vacuum ambiguity. User requested generation and local integration of all remaining entries, including preparation artwork.
+- `068203c`: seven new accepted pairs checkpointed. `7e48175`: new supported seated replacement, all four compound groups and four preparation entries integrated locally. Old artwork remains untouched.
+- Added eight pairs / sixteen new phase images; reused four exact existing component pairs without copying. Cumulative accepted review generation is 26 pairs / 52 phases.
+- Zero eligible pending artwork day/name entries across 72 cases. All 1,867 card/detail checks and 358 local image-byte checks pass. All 304 protected old artwork hashes and 1,690 baseline data/asset/backend files pass; the four approved compound-presentation functions and appended scoped CSS are separately guarded.
+- Representative compound cards/details tested at actual 320/390/430px. Corrected the discovered centered-grid clipping issue before final measurements: 128px frame, two 62px thumbnails; Done 48.5×44px. Four detail frames remain uncropped with contain sizing. Existing six-width evidence is retained separately, not claimed repeated in full.
+- Browser checked Thursday paired option, detail return, Expert seated/hanging and the gallery. Temporary tier/selection changes restored. New browser evidence supersedes the earlier blocked-browser status.
+- Existing content limitations and reused-image framing issues are not marked repaired. Qualified coach and physical iPhone Safari approval remain pending. Production, GitHub and baseline branch were not changed.
+- Final checkpoint: `F7-REVIEW-ALL-PENDING-ARTWORK-INTEGRATED`. Exact next action: user/coach review of the eight resolved entries before any production release.
