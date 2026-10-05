@@ -19,4 +19,15 @@ Backup passed: 2,561 source/artwork/checkpoint files, 567,597,390 source bytes, 
 
 All member workflow commands pass locally, including the new portable full-artwork deployment gate. Existing inactive-template audit warnings remain recorded above, not relabelled as approvals.
 
+## Preview verification
+
+- GitHub PR 5 created and attached: https://github.com/psagar786/gym-companion/pull/5.
+- GitHub member CI and Vercel checks all passed for `3bd9809faad7d6f82c281d3a8994f1bc370fa60a`.
+- Preview `dpl_28Cgw8ABBmZrmVRCyb8jioasRhzJ` ready; all 358 deployed artwork hashes and 22 browser application files match local source.
+- Initial HTTP verifier rejected the preview-only Vercel toolbar appended after the exact accepted HTML. Diagnosed the 163-byte appended platform script; verifier now permits only that exact script shape and still rejects all other HTML changes. Retest passed.
+- `/api/config` reports member/demo mode; credential values never logged. Admin/static-private paths are inaccessible.
+- Preview demo sign-in and remembered-session refresh pass. Wednesday Leg Press completion survives refresh; temporary checkmark restored to unchecked.
+- Wednesday newly generated stick and leg-press artwork load; Start/Movement detail images decode as 512x512 and use contain sizing. Detail back navigation retains the workout.
+- Representative 320/390/430px browser checks show no horizontal overflow. Existing local evidence covers combined-card/detail rendering.
+
 Read STATE.json, confirm workspace/branch/remote, and inspect Git status. Execute only nextAtomicAction. Do not repeat a pushed release or create another project. Verify live deployment SHA and all active image hashes before marking production complete. Keep rollback deployment intact.
