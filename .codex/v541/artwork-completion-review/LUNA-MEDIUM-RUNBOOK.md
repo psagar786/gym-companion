@@ -67,3 +67,13 @@ The HTTP check requires permission to reach the local socket in a sandbox; do no
 Next action is a **design decision**, not more blind generation: present both atomic components of the three paired records (Thursday EZ-bar curl/skullcrushers, Thursday incline curl/rope pressdown, Saturday bodyweight air squat/walking lunge) without changing their dose or single completion identity. Reuse exact constituents where available, inspect them, and keep a compound pending until its renderer can represent both. Tuesday Expert seated-and-hanging vacuum remains ambiguous. Four preparation records remain deferred pending the earlier research decision.
 
 Save each bounded unit and its failures before advancing. Generate a new count from occurrence-level `POST-INTEGRATION-INVENTORY.json`; never assume eight pending names means eight generation pairs. No production, GitHub or Vercel changes are authorized here.
+
+## Authoritative latest checkpoint — 2026-10-05
+
+The preceding eight-entry deferral is historical and superseded. Read `STATE.json`, then `PENDING-COMPLETION-REPORT.md`. All eight eligible pending entries are now resolved: eight additional generated pairs plus four exact reused component pairs. Total accepted generation is 26 pairs / 52 phases; the active missing-image queue is zero.
+
+The user explicitly confirmed seated plus pull-up-bar hanging draw-in for Tuesday Expert. `COMPOUND-MOVEMENTS.json` locks all four two-component groups. Do not collapse these groups to one image or reuse a constituent as the whole exercise. Do not regenerate any accepted phase whose saved hash matches. Member cards use two Movement thumbnails; details use each component's separate Start/Movement and instructions. Parent dose, slot and completion remain unchanged.
+
+Run the existing review build, integrity, runtime and HTTP validators before proposing changes. `BROWSER-VALIDATION.json` records current representative desktop and 320/390/430px checks; the older blocked-browser note is historical, not current. Physical iPhone Safari and coach approval remain pending. Source/backend data and old artwork are protected; only four reviewed presentation functions and compound-scoped appended CSS are permitted to differ from the frozen baseline.
+
+Execute only the state's next action: user/coach review, not more generation or a remote deployment. If feedback identifies a bad phase, freeze its companion phase and create a versioned repair; never overwrite old assets or clear the current ledger.

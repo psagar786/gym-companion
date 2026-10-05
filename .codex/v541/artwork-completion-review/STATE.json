@@ -6,7 +6,7 @@
   "baselineWorkspace": "/Users/exxxy/Documents/Daily AI Help/gym-companion-v541-art-integration",
   "baselineSourceCommit": "b429bd53fb1022a430f8d2e710f33ac49082e30d",
   "deployedSourceCommit": "885a9872dc267a8030ac1b99fcef419c845571de",
-  "currentCheckpoint": "F7-REVIEW-review-hanging-abdominal-draw-in-PAIR-ACCEPTED",
+  "currentCheckpoint": "F7-REVIEW-ALL-PENDING-ARTWORK-INTEGRATED",
   "completedUnits": [
     "BRANCH-ISOLATED",
     "SOURCE-CHECKPOINT-READ",
@@ -25,18 +25,24 @@
     "18-PAIRS-GENERATED-AND-REVIEWED",
     "TIER-AWARE-REUSE-INTEGRATED",
     "1867-CARD-DETAIL-CHECKS",
-    "340-LOCAL-IMAGE-REQUESTS-VERIFIED"
+    "340-LOCAL-IMAGE-REQUESTS-VERIFIED",
+    "26-PAIRS-GENERATED-AND-REVIEWED",
+    "FOUR-COMPOUND-SEQUENCES-INTEGRATED",
+    "FOUR-PREPARATION-SEQUENCES-INTEGRATED",
+    "USER-CONFIRMED-SEATED-HANGING-VACUUM",
+    "358-LOCAL-IMAGE-REQUESTS-VERIFIED",
+    "CURRENT-COMPOUND-MOBILE-BROWSER-REVIEW"
   ],
-  "confirmedNewPairs": 14,
-  "confirmedReplacementPairs": 4,
-  "targetConfirmedPairs": 25,
-  "targetConfirmedPhaseFiles": 50,
-  "generatedPairs": 25,
-  "generatedPhaseFiles": 50,
+  "confirmedNewPairs": 21,
+  "confirmedReplacementPairs": 5,
+  "targetConfirmedPairs": 26,
+  "targetConfirmedPhaseFiles": 52,
+  "generatedPairs": 26,
+  "generatedPhaseFiles": 52,
   "unresolvedMechanicsDayNames": 0,
-  "remainingPendingDayNames": 8,
-  "combinedMovementDecisions": 4,
-  "deferredTendonRecords": 4,
+  "remainingPendingDayNames": 0,
+  "combinedMovementDecisions": 0,
+  "deferredTendonRecords": 0,
   "plannedLocalPort": 4176,
   "previewStarted": true,
   "previewUrl": "http://localhost:4176/?v=5.4.1-artwork-completion-review",
@@ -70,7 +76,8 @@
     "review-shallow-wall-sit-isometric",
     "review-supported-calf-isometric",
     "review-standing-core-brace-isometric",
-    "review-hanging-abdominal-draw-in"
+    "review-hanging-abdominal-draw-in",
+    "review-seated-abdominal-draw-in"
   ],
   "failedUnits": [
     {
@@ -91,15 +98,19 @@
     "scripts/validate-abac-exercise-content.mjs",
     "scripts/analyze-local-training.mjs",
     "assets/exercises/periodized-v5-review/",
-    ".codex/v541/artwork-completion-review/"
+    ".codex/v541/artwork-completion-review/",
+    "member-app.js",
+    "styles.css",
+    "scripts/finalize-artwork-review-checkpoint.mjs",
+    "scripts/validate-artwork-review-http.mjs"
   ],
   "validationResults": {
     "runtimeCases": 72,
-    "newPairs": 18,
-    "phasePngFiles": 36,
-    "displayWebpFiles": 36,
+    "newPairs": 26,
+    "phasePngFiles": 52,
+    "displayWebpFiles": 52,
     "programmingUnchanged": true,
-    "protectedSourceFiles": 1692,
+    "protectedSourceFiles": 1690,
     "protectedActiveArtworkHashes": 304,
     "phoneWidths": [
       320,
@@ -117,20 +128,21 @@
     "legacyMobileHashGuard": "stale-failure-recorded",
     "occurrenceChecks": 1867,
     "cardDetailChecks": 1867,
-    "servedActiveImages": 340,
-    "currentBrowserVerification": "blocked-by-browser-url-security-policy",
-    "currentResponsiveVerification": "not-repeated; prior six-width evidence retained",
+    "servedActiveImages": 358,
+    "currentBrowserVerification": "PASS: representative compound card/detail and Expert seated/hanging sequence; see BROWSER-VALIDATION.json",
+    "currentResponsiveVerification": "Current representative cards/details checked at actual 320, 390, 430px; prior six-width evidence retained separately",
     "workoutDoseOrderAndClassificationUnchanged": true
   },
   "knownIssues": [
-    "Eight selectable physical day/name entries remain: four compound records and four preparation deferrals. No remaining simple-mechanics artwork hold.",
-    "Tuesday compound vacuum is resolved only for Intermediate; Expert seated-and-hanging instruction is not treated as a single seated exercise.",
+    "Zero pending artwork among eligible audited day/name entries. Locked, excluded and non-exercise states are intentionally not activated.",
+    "Tuesday Expert uses user-confirmed seated plus hanging draw-in, with both component phase pairs. Isometric tension and breathing cannot be established from still images.",
     "Existing reused Standard/RKC plank pairs have camera/framing and subtle isometric phase limitations; no regeneration or coach approval claimed.",
-    "Local browser reload was blocked by URL security policy. Current server, API, asset bytes and runtime checks pass; current visual/mobile QA remains unverified.",
-    "Existing content audit still reports 333 role-default dose occurrences, 12 missing Monday cardio doses, 87 content-review day/name entries and four recognized execution conflicts. These are not silently repaired by artwork.",
+    "Previously blocked browser reload now succeeds on the existing local tab. Representative desktop/mobile checks pass; physical iPhone Safari and qualified coach review remain pending.",
+    "Reused rope pressdown has an already-cropped tower edge; reused air-squat frames have mild camera variation. These are recorded style/framing limitations, not hidden or claimed repaired.",
+    "Existing content audit still reports 333 role-default dose occurrences, 12 missing cardio dose occurrences, 80 content-review day/name entries and 4 recognized execution conflicts. These are not silently repaired by artwork.",
     "Local assumptions for support angle, split-squat loading and hip-swing plane require user review; no confirmed equipment inventory claim."
   ],
   "remoteMutationAllowed": false,
-  "lastCompletedCommit": "0887409a86a3f77091d8aaab82354c1fd7531da2",
-  "nextAtomicAction": "Run exact review override integration and all-day validation"
+  "lastCompletedCommit": "068203c32f0f939620f3b0c27d6b4ee05b4d3d41",
+  "nextAtomicAction": "Review all eight resolved entries locally; obtain human exercise/artwork approval before any production release"
 }

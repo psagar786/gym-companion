@@ -212,3 +212,10 @@
   .member-app .calendar-cell .ring{width:5px;height:5px}
 }
 @media print{.member-app .shell{padding:0}.member-app .exercise-copy>h3{padding-right:0;min-height:0}}
+
+/* Local artwork review: two atomic movements, never a primary-image proxy. */
+.member-app .compound-artwork{display:grid;grid-template-rows:repeat(2,minmax(0,1fr));align-items:stretch;justify-items:stretch;gap:4px;background:#202020}
+.member-app .compound-artwork-part{position:relative;min-height:0;height:100%;overflow:hidden;display:flex;justify-content:center}
+.member-app .compound-artwork-part img{width:100%;height:100%;object-fit:contain}
+.member-app .compound-artwork-part small{position:absolute;right:3px;top:2px;font-size:12px;color:#fff;background:#202020;border-radius:3px;padding:0 3px}
+.member-app .compound-component-name{font-size:18px;overflow-wrap:anywhere}

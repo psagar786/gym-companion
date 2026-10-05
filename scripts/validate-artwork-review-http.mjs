@@ -11,13 +11,13 @@ for(const path of ['/','/artwork-review.html','/data/abac-artwork-review.js','/d
  const r=await fetch(origin+path);assert.equal(r.status,200,path);assert.ok((await r.arrayBuffer()).byteLength>0);
 }
 const runtime=inventory(artworkRuntime({review:true}));
-const paths=[...new Set(runtime.occurrences.filter(o=>o.eligible&&!o.nonExercise&&o.filePairPresent).flatMap(o=>Object.values(o.imageSet)))];
+const paths=[...new Set(runtime.occurrences.filter(o=>o.eligible&&!o.nonExercise&&o.filePairPresent).flatMap(o=>o.artworkComponents?.length?o.artworkComponents.flatMap(c=>Object.values(c.imageSet)):Object.values(o.imageSet)))];
 const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 for(let i=0;i<paths.length;i+=8)await Promise.all(paths.slice(i,i+8).map(async path=>{
  const r=await fetch(origin+'/'+path);assert.equal(r.status,200,path);
  assert.equal(sha(Buffer.from(await r.arrayBuffer())),sha(fs.readFileSync(path)),path+' served different bytes');
 }));
 const report={status:'PASS',origin,appMode:'member',demoMode:true,servedActiveImages:paths.length,
- allImageBytesMatchSource:true,browserVisualVerification:'blocked-by-browser-url-security-policy',productionChanged:false};
+ allImageBytesMatchSource:true,browserVisualVerification:'separate-browser-report-required',productionChanged:false};
 fs.writeFileSync('.codex/v541/artwork-completion-review/LOCAL-SERVER-VALIDATION.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));

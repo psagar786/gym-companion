@@ -28,11 +28,12 @@ export function inventory(c) {
    const row=rows.get(key)||{day:day.dayName,name,runtimeIds:[],stableIds:[],roles:[],cases:[],eligible:false,equipment:item.equipment||null,imageSet:item.imageSet||{},artworkStatus:item.artworkStatus,canonicalId:item.canonicalMovementId||item.stableMovementId,mappingStatus:item.mappingStatus,reviewOnly:!!item.reviewOnly,classificationStatus:item.classificationStatus,nonExercise:/NO CARDIO|^hydration$|^nutritional adherence\.?$/i.test(name)};
    for(const [field,value] of [['runtimeIds',item.id],['stableIds',item.stableMovementId],['roles',role]])if(value&&!row[field].includes(value))row[field].push(value);
    row.cases.push([day.weekKey,tier,role,slot,eligible]);row.eligible ||= eligible;
-   const pair=item.imageSet||{};
+   const pair=item.imageSet||{},components=item.artworkComponents||[];
+   const present=components.length?components.every(c=>c.imageSet?.start&&c.imageSet?.movement&&[c.imageSet.start,c.imageSet.movement].every(p=>fs.existsSync(p))):!!pair.start&&!!pair.movement&&[pair.start,pair.movement].every(p=>fs.existsSync(p));
    occurrences.push({day:day.dayName,week:day.weekKey,cycleDayId:day.id,tier,role,slot,eligible,name,
     runtimeId:item.id,stableMovementId:item.stableMovementId,canonicalMovementId:item.canonicalMovementId,
-    imageSet:pair,artworkStatus:item.artworkStatus,mappingStatus:item.mappingStatus,
-    filePairPresent:!!pair.start&&!!pair.movement&&[pair.start,pair.movement].every(p=>fs.existsSync(p)),
+    imageSet:pair,artworkComponents:components,artworkStatus:item.artworkStatus,mappingStatus:item.mappingStatus,
+    filePairPresent:present,
     nonExercise:row.nonExercise});
    row.filePairPresent=!!row.imageSet.start&&!!row.imageSet.movement&&[row.imageSet.start,row.imageSet.movement].every(p=>fs.existsSync(p));
    rows.set(key,row);

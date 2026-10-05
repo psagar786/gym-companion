@@ -926,5 +926,42 @@
       }
     },
     "status": "pair-reviewed"
+  },
+  {
+    "id": "review-seated-abdominal-draw-in",
+    "name": "Seated Abdominal Draw-In",
+    "phases": {
+      "start": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-106463dc-286f-4ea0-958d-e5bf9f32aec6.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-seated-abdominal-draw-in-start.png",
+        "sourceSha256": "650a0fedd6c4de632bd6d9a109a3ed884817ae4d8d3b607922220c33ce21d4b3",
+        "pngPath": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-start.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-start.webp",
+        "sha256": "c95608142bf3baf1d9ae7ecbb46b475758d7ec61d4a2b38e20b38a32e9a28c30",
+        "webpSha256": "d53291abd0ae4ad5a24e6373a2ccd46725aa02d1c6c82666f2d81c92f426b138",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Male seated with clear hip contact on full visible flat bench; feet grounded, hands on thighs and upright stacked trunk, no floating support. Stable relaxed setup; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      },
+      "movement": {
+        "sourcePath": "/Users/exxxy/.codex/generated_images/019fb115-f443-7681-9fe8-838a45f451ea/exec-9ab5c932-e364-4b18-abb5-299c15c2bf07.png",
+        "masterPath": ".codex/v541/artwork-completion-review/masters/review-seated-abdominal-draw-in-movement.png",
+        "sourceSha256": "b78fe16d14c8340a3e8b161c756ff8102fa31196d3d97d88043c8ad6e2d86929",
+        "pngPath": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-movement.png",
+        "webpPath": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-movement.webp",
+        "sha256": "3628b17b4abea486fc67f37bd3bcb1fb0fa737d9785272d2e51eec7e97c4f2c8",
+        "webpSha256": "5ce45d399b049209de9db1a1c9fef1e3055c7b75f26503b19814ce46aa1b807e",
+        "width": 512,
+        "height": 512,
+        "technicalStatus": "pass",
+        "semanticStatus": "ai-reviewed",
+        "reviewObservation": "Same male, visible bench hip support, grounded feet and upright spine; modest inward abdominal contour and restrained cues versus relaxed setup; no floating seat or extreme hollow. Static breathing unverified, instructions retained; coach pending.",
+        "humanCoachReviewStatus": "pending"
+      }
+    },
+    "status": "pair-reviewed"
   }
 ]

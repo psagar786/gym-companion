@@ -3,8 +3,8 @@
   "origin": "http://127.0.0.1:4176",
   "appMode": "member",
   "demoMode": true,
-  "servedActiveImages": 340,
+  "servedActiveImages": 358,
   "allImageBytesMatchSource": true,
-  "browserVisualVerification": "blocked-by-browser-url-security-policy",
+  "browserVisualVerification": "separate-browser-report-required",
   "productionChanged": false
 }

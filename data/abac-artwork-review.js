@@ -584,6 +584,288 @@
     "technicalReviewStatus": "files-validated",
     "semanticReviewStatus": "ai-reviewed",
     "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-standing-ez-bar-curl",
+    "name": "Standing EZ-Bar Curl",
+    "names": [],
+    "day": "Thursday",
+    "equipment": "One lightly plate-loaded EZ curl bar with balanced small plates and collars; open floor",
+    "grip": "Both hands on angled underhand grips at shoulder width, feet hip-width, elbows beside ribs and wrists neutral",
+    "camera": "Front side three-quarter, entire athlete and full EZ bar visible",
+    "start": "Stand tall with EZ bar in front of thighs, elbows softly extended, shoulders relaxed and knees unlocked.",
+    "movement": "Flex both elbows to raise the same EZ bar toward lower chest; upper arms remain beside torso, wrists stay aligned, trunk upright and feet unchanged.",
+    "muscles": "Biceps and brachialis restrained orange; forearm flexors muted blue; trunk stabilizers grey-green",
+    "avoid": "No preacher bench, cable, straight bar, shoulder swing, back lean, extreme wrist bend or cropped plates.",
+    "safetyCue": "Keep the torso still and wrists comfortable; do not swing the bar or force painful elbow movement.",
+    "progressionType": "weighted",
+    "sourceEvidence": "Thursday authored EZ-Bar Curl & Skullcrushers component; user now requests all pending exercise data and images. ACE total-body barbell training illustrates standing curl; EZ grip is the exact authored apparatus.",
+    "references": [
+      "https://www.acefitness.org/continuing-education/prosource/equipment-special-issue/4996/back-to-basics-total-body-barbell-training/"
+    ],
+    "canonicalMovementId": "review-standing-ez-bar-curl",
+    "stableMovementId": "review-standing-ez-bar-curl",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-standing-ez-bar-curl-v5-movement.webp"
+    },
+    "startInstruction": "Stand tall with EZ bar in front of thighs, elbows softly extended, shoulders relaxed and knees unlocked.",
+    "movementInstruction": "Flex both elbows to raise the same EZ bar toward lower chest; upper arms remain beside torso, wrists stay aligned, trunk upright and feet unchanged.",
+    "altStart": "Standing EZ-Bar Curl: stable starting position",
+    "altMovement": "Standing EZ-Bar Curl: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-ez-bar-skullcrusher",
+    "name": "EZ-Bar Lying Triceps Extension",
+    "names": [],
+    "day": "Thursday",
+    "equipment": "One horizontal flat padded bench and one lightly plate-loaded EZ curl bar with balanced plates and collars",
+    "grip": "Lie lengthwise on bench, head and upper back supported, both feet flat on floor, close overhand angled EZ grips",
+    "camera": "Side three-quarter showing whole bench, both feet, head and all bar plates",
+    "start": "Lie on flat bench with EZ bar held above shoulders, upper arms nearly vertical, elbows softly extended and ribs controlled.",
+    "movement": "Bend elbows to lower same EZ bar just above forehead without contact, keeping upper arms nearly vertical and wrists neutral; head, back and feet remain supported.",
+    "muscles": "Triceps restrained orange; forearms muted blue; shoulder and trunk stabilizers grey-green",
+    "avoid": "No overhead standing extension, chest press, bar contacting head, wide flared elbows, wrists bent, cropped bench or plates.",
+    "safetyCue": "Use a controllable load and keep the bar clear of the face; stop for elbow pain.",
+    "progressionType": "weighted",
+    "sourceEvidence": "Thursday authored EZ-Bar Curl & Skullcrushers second atomic component. ACE lying barbell triceps extension confirms supported bench and elbow-extension mechanics; no change to the parent dose.",
+    "references": [
+      "https://www.acefitness.org/continuing-education/prosource/equipment-special-issue/4996/back-to-basics-total-body-barbell-training/"
+    ],
+    "canonicalMovementId": "review-ez-bar-skullcrusher",
+    "stableMovementId": "review-ez-bar-skullcrusher",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-ez-bar-skullcrusher-v5-movement.webp"
+    },
+    "startInstruction": "Lie on flat bench with EZ bar held above shoulders, upper arms nearly vertical, elbows softly extended and ribs controlled.",
+    "movementInstruction": "Bend elbows to lower same EZ bar just above forehead without contact, keeping upper arms nearly vertical and wrists neutral; head, back and feet remain supported.",
+    "altStart": "EZ-Bar Lying Triceps Extension: stable starting position",
+    "altMovement": "EZ-Bar Lying Triceps Extension: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-wrist-flexor-isometric",
+    "name": "Wrist Flexor Isometric",
+    "names": [
+      "Wrist flexor isometric"
+    ],
+    "day": "Tuesday",
+    "equipment": "Simple off-white chair and small off-white table supporting right forearm; opposite hand supplies resistance, no weight",
+    "grip": "Seated with feet flat, right elbow around 90 degrees on table, palm upward and wrist neutral at edge; left palm can press gently down on right palm",
+    "camera": "Front side three-quarter showing full seated athlete, all table and chair, both hands clearly separated",
+    "start": "Sit tall with right forearm palm-up on table, wrist straight and hand beyond table edge; left hand hovers above the open right palm, no pressure yet.",
+    "movement": "Same neutral right wrist and supported forearm; left palm now contacts right palm and presses downward while right hand resists by attempting wrist flexion. No visible wrist bending, modest forearm muscle tension, shoulders relaxed.",
+    "muscles": "Right forearm wrist flexors restrained orange; finger flexors muted blue; shoulder stabilizers grey-green",
+    "avoid": "No wrist extension, turned palm down, dumbbell, bent wrist, clenched fist hiding contact, fingers fused, large joint movement or breath holding.",
+    "safetyCue": "Keep pressure gentle and the wrist still; stop for sharp pain, tingling or numbness.",
+    "progressionType": "bodyweight-hold",
+    "sourceEvidence": "data/v53-content.js Tuesday cue explicitly resists wrist flexion with the opposite hand without movement. User requests deferred entries now. Table support is a recorded illustration setup, not new loading or therapy prescription.",
+    "references": [
+      "https://www.fhft.nhs.uk/patients-and-visitors/patient-information-library/isometric-wrist-exercises",
+      "https://www.cuh.nhs.uk/patient-information/hand-therapy-isometric-wrist-exercises/"
+    ],
+    "canonicalMovementId": "review-wrist-flexor-isometric",
+    "stableMovementId": "review-wrist-flexor-isometric",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-wrist-flexor-isometric-v5-movement.webp"
+    },
+    "startInstruction": "Support a palm-up forearm on a table with the wrist straight and hand just beyond the edge. Position the other hand above the palm.",
+    "movementInstruction": "Press gently down with the other hand while resisting by trying to bend the supported wrist upward. Keep the wrist still and breathe normally.",
+    "altStart": "Wrist Flexor Isometric: stable starting position",
+    "altMovement": "Wrist Flexor Isometric: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-shallow-wall-sit-isometric",
+    "name": "Shallow Wall-Sit Isometric",
+    "names": [
+      "Patellar tendon isometric"
+    ],
+    "day": "Wednesday",
+    "equipment": "Plain charcoal vertical wall and flat floor, no weights or resistance bands",
+    "grip": "Back and pelvis lightly supported on wall, both feet hip-width and slightly forward, heels grounded, knees follow toes, arms relaxed",
+    "camera": "Side three-quarter showing full body, wall contact, both heels and knee angle",
+    "start": "Stand tall with back touching wall, feet about 35 cm in front, knees softly unlocked, arms at sides.",
+    "movement": "Slide down only to a shallow wall sit with roughly 45-degree knee flexion, not thighs parallel; back remains against same wall, both heels planted, shins near vertical and quadriceps gently tense. Hold still.",
+    "muscles": "Quadriceps restrained orange; glutes muted blue; trunk stabilizers grey-green",
+    "avoid": "No deep 90-degree wall sit, single-leg stance, lifted heels, wall-free squat, weights, hands pushing thighs or extreme pain gesture.",
+    "safetyCue": "Use a comfortable shallow bend and stop if knee pain becomes sharp or increases.",
+    "progressionType": "bodyweight-hold",
+    "sourceEvidence": "data/v53-content.js specifies shallow wall-sit. Existing Saturday wall sit is deep and not accepted as exact reuse. Forty-five-degree illustrative depth is a documented local conservative interpretation, not clinician-prescribed therapy.",
+    "references": [
+      "https://leedscommunityhealthcare.nhs.uk/our-services-a-z/musculoskeletal-msk/knee-problems/known-diagnosed-knee-problems/patella-tendonopathy/"
+    ],
+    "canonicalMovementId": "review-shallow-wall-sit-isometric",
+    "stableMovementId": "review-shallow-wall-sit-isometric",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-shallow-wall-sit-isometric-v5-movement.webp"
+    },
+    "startInstruction": "Stand with your back against a wall and feet a comfortable distance forward, heels grounded.",
+    "movementInstruction": "Slide into a comfortable shallow knee bend, keeping your back supported and heels down. Hold without sinking deeper.",
+    "altStart": "Shallow Wall-Sit Isometric: stable starting position",
+    "altMovement": "Shallow Wall-Sit Isometric: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-supported-calf-isometric",
+    "name": "Supported Calf Isometric",
+    "names": [
+      "Calf isometric"
+    ],
+    "day": "Thursday",
+    "equipment": "One small stable off-white support rail fixed on charcoal floor; no step, weight or band",
+    "grip": "Feet hip-width, both toes forward, left hand lightly on rail, knees softly extended and trunk upright",
+    "camera": "Side three-quarter with whole rail, athlete and both feet fully visible",
+    "start": "Stand tall beside rail with both heels on floor and weight evenly spread; left hand rests lightly on support, shoulders relaxed.",
+    "movement": "Rise onto both forefeet to a comfortable mid-range heel lift and hold still; same rail and feet placement, ankles vertical without rolling outward, knees softly extended and trunk upright.",
+    "muscles": "Gastrocnemius and soleus restrained orange; foot muscles muted blue; hip/trunk stabilizers grey-green",
+    "avoid": "No step edge, heel-drop stretch, single-leg stance, tiptoe extreme, ankle inversion, bent-knee seated version, loaded shoulder machine or bouncing.",
+    "safetyCue": "Use support and gentle effort; stop for sharp Achilles pain, swelling or altered sensation.",
+    "progressionType": "bodyweight-hold",
+    "sourceEvidence": "data/v53-content.js Thursday has explicit bilateral supported floor mid-range calf-raise hold. Preserve existing 3 x 30 sec, 45 sec rest. General NHS support reference is not a new medical regimen.",
+    "references": [
+      "https://www.nhs.uk/live-well/exercise/strength-and-flex-exercise-plan-how-to-videos/"
+    ],
+    "canonicalMovementId": "review-supported-calf-isometric",
+    "stableMovementId": "review-supported-calf-isometric",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-supported-calf-isometric-v5-movement.webp"
+    },
+    "startInstruction": "Stand beside a stable support with both feet hip-width and heels on the floor. Rest one hand lightly on the support.",
+    "movementInstruction": "Lift both heels to a comfortable mid-range height and hold. Keep ankles aligned, knees soft and breathing normal.",
+    "altStart": "Supported Calf Isometric: stable starting position",
+    "altMovement": "Supported Calf Isometric: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-standing-core-brace-isometric",
+    "name": "Standing Core Brace Isometric",
+    "names": [
+      "Core brace isometric"
+    ],
+    "day": "Saturday",
+    "equipment": "Bodyweight on open floor, no load or apparatus",
+    "grip": "Feet hip-width, knees softly unlocked, ribs stacked over pelvis, hands can lightly touch abdomen without pressing",
+    "camera": "Front side three-quarter showing whole athlete, abdomen, hands and feet",
+    "start": "Stand relaxed in neutral upright posture with arms at sides, abdomen relaxed and knees soft.",
+    "movement": "Keep same neutral upright alignment, place hands lightly at sides of lower abdomen and gently brace circumferentially as if preparing for a light tap; abdomen becomes subtly firm, not sucked hollow, shoulders relaxed and breathing normal. No trunk bend or crunch.",
+    "muscles": "Abdominal wall and obliques restrained orange; spinal stabilizers muted blue; pelvic/hip stabilizers grey-green",
+    "avoid": "No vacuum hollowing, crunch, plank, breath holding, exaggerated belly expansion, external punch, weights or rigid hyperextended knees.",
+    "safetyCue": "Keep breathing during the brace; stop for pain, dizziness or unusual breathlessness.",
+    "progressionType": "bodyweight-hold",
+    "sourceEvidence": "data/v53-content.js Saturday says brace as preparing for a light tap while breathing normally. Standing neutral posture is an explicit local illustration choice; no new prescription or tendon-treatment claim.",
+    "canonicalMovementId": "review-standing-core-brace-isometric",
+    "stableMovementId": "review-standing-core-brace-isometric",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-standing-core-brace-isometric-v5-movement.webp"
+    },
+    "startInstruction": "Stand upright with feet hip-width, knees soft and ribs over the pelvis. Relax the abdomen.",
+    "movementInstruction": "Touch the lower abdomen lightly and brace as if preparing for a gentle tap. Keep breathing; do not suck the abdomen inward or bend the trunk.",
+    "altStart": "Standing Core Brace Isometric: stable starting position",
+    "altMovement": "Standing Core Brace Isometric: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-hanging-abdominal-draw-in",
+    "name": "Pull-Up-Bar Hanging Abdominal Draw-In",
+    "names": [],
+    "day": "Tuesday",
+    "equipment": "One fixed off-white pull-up bar on a complete freestanding stable frame, no bands, straps or added weights",
+    "grip": "Shoulder-width overhand bar grip, arms straight without hyperextension, shoulders actively supported not shrugged, legs together beneath hips",
+    "camera": "Front side three-quarter showing complete frame, both hands, whole athlete and feet clear of floor",
+    "start": "Stable active hang with ribs and pelvis aligned, legs straight below hips, abdomen relaxed without lumbar arch and no swing.",
+    "movement": "Maintain same active hang with straight legs below hips; gently draw lower abdomen inward after an easy exhale, keeping shoulders supported and ribcage controlled. Only subtle abdominal contour and muscle tension changes; do not lift legs, bend elbows or perform a crunch; keep comfortable breathing.",
+    "muscles": "Transversus abdominis and abdominal wall restrained orange; obliques muted blue; shoulder/scapular stabilizers grey-green",
+    "avoid": "No leg raise, knee tuck, pull-up, unsupported shoulder dead hang, exaggerated hollow abdomen, diaphragm distortion, breath-hold cues, detached hands or cropped frame.",
+    "safetyCue": "Keep a secure grip and comfortable breathing; stop for shoulder pain, grip fatigue or light-headedness.",
+    "progressionType": "vacuum",
+    "sourceEvidence": "User explicitly confirmed seated plus pull-up-bar hanging draw-in for Tuesday Expert on 2026-10-04. This is a user-authorized local illustration, not an expert-endorsed fat-loss exercise or rehabilitation prescription.",
+    "canonicalMovementId": "review-hanging-abdominal-draw-in",
+    "stableMovementId": "review-hanging-abdominal-draw-in",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-hanging-abdominal-draw-in-v5-movement.webp"
+    },
+    "startInstruction": "Take a secure shoulder-width overhand grip. Hang with shoulders actively supported and straight legs below the hips, without swinging.",
+    "movementInstruction": "After an easy exhale, gently draw the lower abdomen inward while keeping the same hang. Breathe comfortably; do not raise the legs, bend the elbows or force a deep hollow.",
+    "altStart": "Pull-Up-Bar Hanging Abdominal Draw-In: stable starting position",
+    "altMovement": "Pull-Up-Bar Hanging Abdominal Draw-In: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
+  },
+  {
+    "id": "review-seated-abdominal-draw-in",
+    "name": "Seated Abdominal Draw-In",
+    "names": [
+      "Seated Stomach Vacuum"
+    ],
+    "day": "Tuesday",
+    "equipment": "One simple stable off-white bench with a clearly visible seat, legs and contact beneath hips; no weights",
+    "grip": "Sit upright with buttocks visibly supported on bench, both feet flat on floor, knees near 90 degrees, hands resting lightly on thighs",
+    "camera": "Side three-quarter showing whole seated athlete, full bench and feet; abdomen readable",
+    "start": "Sit tall on visible bench, feet grounded and hands on thighs; ribs stacked over pelvis and abdomen relaxed.",
+    "movement": "Keep exactly the same supported seated posture and grounded feet; after a gentle exhale draw lower abdomen inward modestly, with no spinal rounding or forced rib lift. Maintain comfortable breathing, show only a subtle abdominal contour change and one restrained inward orange cue.",
+    "muscles": "Abdominal wall restrained orange; obliques muted blue; spinal stabilizers grey-green",
+    "avoid": "No floating seat, invisible bench, unsupported seated pose, extreme hollow ribcage, forced breath hold, crunch, lifting feet or cropped bench.",
+    "safetyCue": "Keep the draw-in gentle and breathing comfortable; stop if you feel light-headed or strained.",
+    "progressionType": "vacuum",
+    "sourceEvidence": "User confirmed seated plus hanging component. Existing seated V3 pair visually has no visible seat under hip, so do not silently reuse it. Preserve existing dose and generate a supported bench interpretation for local review.",
+    "canonicalMovementId": "review-seated-abdominal-draw-in",
+    "stableMovementId": "review-seated-abdominal-draw-in",
+    "artworkStatus": "complete",
+    "assetVersion": "local-artwork-review-v5",
+    "imageSet": {
+      "start": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-start.webp",
+      "movement": "assets/exercises/periodized-v5-review/review-seated-abdominal-draw-in-v5-movement.webp"
+    },
+    "startInstruction": "Sit upright on a stable bench, feet flat and hands resting on the thighs. Keep ribs over the pelvis.",
+    "movementInstruction": "After an easy exhale, gently draw the lower abdomen inward. Keep the supported posture and comfortable breathing; do not round the back or force a deep hollow.",
+    "altStart": "Seated Abdominal Draw-In: stable starting position",
+    "altMovement": "Seated Abdominal Draw-In: active working position",
+    "mappingStatus": "explicit-local-review-identity",
+    "technicalReviewStatus": "files-validated",
+    "semanticReviewStatus": "ai-reviewed",
+    "humanCoachReviewStatus": "pending"
   }
 ];
  const decisions=[
@@ -673,6 +955,92 @@
     "basis": "Intermediate explicitly says Standing; Expert says Seated & Hanging, so Expert remains pending rather than silently borrowing seated artwork."
   }
 ];
+ const compounds={
+  "authority": "2026-10-04 user requested all eight pending entries and confirmed seated plus pull-up-bar hanging draw-in. Presentation only: original slot, tier, prescription, completion and history unchanged.",
+  "records": [
+    {
+      "id": "review-compound-ez-curl-skullcrusher",
+      "name": "Ez-Bar Curl & Skullcrushers",
+      "days": [
+        "Thursday"
+      ],
+      "componentIds": [
+        "review-standing-ez-bar-curl",
+        "review-ez-bar-skullcrusher"
+      ],
+      "basis": "Two atomic components of authored alternative. Each gets Start/Movement; do not reinterpret as a single movement or prescribe a new rest/superset."
+    },
+    {
+      "id": "review-compound-incline-curl-rope-pressdown",
+      "name": "Incline DB Curl & Rope Pressdown",
+      "days": [
+        "Thursday"
+      ],
+      "componentIds": [
+        "biweekly-incline-dumbbell-curl",
+        "periodized-rope-tricep-pressdown"
+      ],
+      "basis": "Exact reviewed existing incline curl and high-cable rope pressdown components, original file paths reused."
+    },
+    {
+      "id": "review-compound-air-squat-walking-lunge",
+      "name": "Bodyweight Air Squats to Walking Lunges",
+      "days": [
+        "Saturday"
+      ],
+      "componentIds": [
+        "periodized-bodyweight-air-squat",
+        "periodized-bodyweight-walking-lunge"
+      ],
+      "basis": "Explicit bodyweight compound remains bodyweight, separate from user-confirmed generic dumbbell Walking Lunges. Original parent dose/completion unchanged."
+    },
+    {
+      "id": "review-compound-seated-hanging-draw-in",
+      "name": "Standing & Seated Transverse Abdominis Stomach Vacuum",
+      "days": [
+        "Tuesday"
+      ],
+      "tiers": [
+        "expert"
+      ],
+      "componentIds": [
+        "review-seated-abdominal-draw-in",
+        "review-hanging-abdominal-draw-in"
+      ],
+      "basis": "User explicitly confirmed authored Expert seated plus pull-up-bar hanging draw-in. Intermediate continues to resolve its original standing execution. The original technical name and dose are retained."
+    }
+  ],
+  "reusedComponentContent": {
+    "biweekly-incline-dumbbell-curl": {
+      "startInstruction": "Sit with your back supported on an incline bench, feet planted and dumbbells beside the hips. Keep palms facing forward and shoulders still.",
+      "movementInstruction": "Bend the elbows to curl the dumbbells toward the shoulders without swinging or lifting the upper arms forward.",
+      "safetyCue": "Keep your back supported and avoid forcing the shoulders into a painful stretch.",
+      "progressionType": "weighted",
+      "reviewObservation": "Both files inspected: supported incline bench, male, same dumbbells, extended setup and bent-elbow curl. Existing background clutter retained, no coach approval."
+    },
+    "periodized-rope-tricep-pressdown": {
+      "startInstruction": "Face a high cable with both rope ends held at the lower chest. Keep elbows close to the ribs and wrists neutral.",
+      "movementInstruction": "Extend the elbows to bring the rope beside the thighs. Keep the upper arms still and return under control.",
+      "safetyCue": "Use a controllable stack load and keep elbows still; do not lean your bodyweight onto the rope.",
+      "progressionType": "stack",
+      "reviewObservation": "Both files inspected: high pulley rope, bent-elbow setup and extended pressdown, same athlete/apparatus. Upper cable tower edge is already cropped in legacy V3; retained as a framing issue, not corrected or claimed new-format margin compliant."
+    },
+    "periodized-bodyweight-air-squat": {
+      "startInstruction": "Stand with feet about shoulder-width, toes slightly outward and arms in front for balance. Keep heels grounded.",
+      "movementInstruction": "Bend hips and knees into a comfortable squat, knees following toes. Keep the trunk controlled and stand back up.",
+      "safetyCue": "Use only a depth that keeps heels grounded and knees comfortable.",
+      "progressionType": "bodyweight",
+      "reviewObservation": "Both files inspected: no added load, whole athlete, standing and squat positions. Camera/background vary mildly between existing frames; exact mechanics retained, coach pending."
+    },
+    "periodized-bodyweight-walking-lunge": {
+      "startInstruction": "Stand upright on open floor with feet hip-width and arms relaxed. Use no dumbbells for this explicitly bodyweight component.",
+      "movementInstruction": "Step forward and bend both knees, keeping the front heel grounded and the rear knee clear of the floor. Push through the front leg to continue the walking sequence.",
+      "safetyCue": "Keep a stable lateral step width and stop if knee pain or balance loss occurs.",
+      "progressionType": "bodyweight",
+      "reviewObservation": "Both files inspected: unweighted standing setup and forward lunge with grounded front foot, no equipment. Existing full-body framing retained, coach pending."
+    }
+  }
+};
  const api=window.GYM_COMPANION_ABAC_ARTWORK;
  const original=api.resolve;
  const names=new Map(records.flatMap(r=>r.names.map(n=>[n,r])));
@@ -683,6 +1051,19 @@
   const day=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][dayIndex];
   const decision=decisions.find(d=>d.name===name&&d.days.includes(day));
   const tier=item?.__reviewTier;
+  const compound=compounds.records.find(r=>r.name===name&&r.days.includes(day)&&(!r.tiers||r.tiers.includes(tier)));
+  if(compound){
+   const components=compound.componentIds.map(id=>{
+    const r=records.find(r=>r.id===id)||api.byId[id];
+    return r?{...r,...compounds.reusedComponentContent[id],canonicalMovementId:id}:null;
+   });
+   if(components.every(r=>r?.artworkStatus==='complete'&&r.imageSet?.start&&r.imageSet?.movement&&!r.reviewOnly))
+    return {name,canonicalMovementId:compound.id,stableMovementId:compound.id,imageSet:{},artworkComponents:components,
+     artworkStatus:'complete',mappingStatus:'explicit-compound-components',localReviewMapping:true,
+     technicalReviewStatus:'files-validated',semanticReviewStatus:'ai-reviewed',humanCoachReviewStatus:'pending',
+     decisionBasis:compound.basis,__reviewTier:tier};
+   return prior;
+  }
   let targetId,targetName;
   if(decision){
    if(name==='Walking Lunges')targetId=decision.targetId;
@@ -720,18 +1101,25 @@
   ...(content.records[r.canonicalMovementId]||{}),canonicalMovementId:r.canonicalMovementId,name:r.name,
   equipment:r.equipment,startInstruction:r.startInstruction,movementInstruction:r.movementInstruction,safetyCue:r.safetyCue,
   source:'.codex/v541/artwork-completion-review/SPECS.json',contentReviewStatus:'source-backed-ai-reviewed',humanCoachReviewStatus:'pending',
-  progressionType:r.id.includes('stick-')?'mobility':r.id.includes('sissy-')?'bodyweight':r.id.includes('cable-')?'stack':'weighted'
+  progressionType:r.progressionType||(r.id.includes('stick-')?'mobility':r.id.includes('sissy-')?'bodyweight':r.id.includes('cable-')?'stack':'weighted')
  };
  const originalEnrich=content.enrich;
  content.enrich=function(item,dayIndex,tier){
   // Tier is supplied by the existing normalizer, never inferred from a name.
   const prepared={...item,__reviewTier:tier};
   const out=originalEnrich(prepared,dayIndex,tier),art=api.resolve(prepared,dayIndex);
+  if(art.artworkComponents)return {...out,...art,id:item.id,name:item.name||item.title,
+   artworkComponents:art.artworkComponents,contentReviewStatus:'source-backed-ai-reviewed',
+   contentSource:'.codex/v541/artwork-completion-review/COMPOUND-MOVEMENTS.json',
+   startInstruction:'Each component has its own setup below.',movementInstruction:'Follow each component using the existing combined prescription.',
+   equipment:art.artworkComponents.map(r=>r.equipment).join('; '),
+   safetyCue:art.artworkComponents.map(r=>r.name+': '+r.safetyCue).join(' '),
+   progressionType:art.artworkComponents.every(r=>r.progressionType==='vacuum')?'vacuum':'combined-components'};
   // The existing card renderer reads alt_text, whereas phases use their own labels.
   return art.localReviewMapping?{...out,imageSet:{...art.imageSet},artworkStatus:art.artworkStatus,
    canonicalMovementId:art.canonicalMovementId||art.stableMovementId,stableMovementId:art.stableMovementId,
    assetVersion:art.assetVersion,mappingStatus:art.mappingStatus,decisionBasis:art.decisionBasis,
    alt_text:art.altMovement||art.alt_text||((item.name||item.title)+': working position')}:out;
  };
- window.GYM_COMPANION_LOCAL_ARTWORK_REVIEW={records,decisions,localOnly:true};
+ window.GYM_COMPANION_LOCAL_ARTWORK_REVIEW={records,decisions,compounds,localOnly:true};
 })();

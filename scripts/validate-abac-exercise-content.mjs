@@ -54,7 +54,11 @@ for(const day of c.periodized.days.filter(d=>d.dayIndex<6))for(const tier of ['b
    const row=review.get(key)||{day:day.dayName,name:item.name,status:item.contentReviewStatus,mappingStatus:item.mappingStatus,cases:[]};row.cases.push({week:day.weekKey,tier,scheme:item.scheme});review.set(key,row);
    if(item.contentReviewStatus==='tier-execution-conflict')conflicts.set(key,row);
   }else excludedStatus.add(key);
-  const detail=c.detailRecord(result);assert.equal(detail.detailSteps[0].instruction,item.startInstruction);assert.equal(detail.detailSteps[1].instruction,item.movementInstruction);
+  const detail=c.detailRecord(result);
+  if(item.artworkComponents?.length){
+   assert.equal(detail.detailSteps.length,item.artworkComponents.length*2);
+   item.artworkComponents.forEach((component,i)=>{assert.equal(detail.detailSteps[i*2].instruction,component.startInstruction);assert.equal(detail.detailSteps[i*2+1].instruction,component.movementInstruction);});
+  }else{assert.equal(detail.detailSteps[0].instruction,item.startInstruction);assert.equal(detail.detailSteps[1].instruction,item.movementInstruction);}
   records++;
  }
  cases++;
